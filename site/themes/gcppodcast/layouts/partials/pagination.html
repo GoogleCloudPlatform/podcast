@@ -1,0 +1,19 @@
+<nav class="nav mdl-cell mdl-cell--12-col">
+	{{if .HasPrev}}
+	<a href="{{ .Prev.URL }}" class="nav__button">
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+			<i class="material-icons">arrow_back</i>
+		</button>
+		Previous		
+	</a>
+	{{end}}
+	<div class="section-spacer"></div>
+	{{if .HasNext}}
+	<a href="{{ .Next.URL }}" class="nav__button">
+		Next
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+			<i class="material-icons">arrow_forward</i>
+		</button>
+	</a>
+	{{end}}
+</nav>

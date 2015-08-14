@@ -1,0 +1,7 @@
+.*
+!.gitignore
+.idea
+*.iml
+/site/public/*
+/public
+

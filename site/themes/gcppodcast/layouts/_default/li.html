@@ -1,0 +1,15 @@
+<div class="mdl-card__media mdl-color-text--grey-50" {{if .Params.image}}style="background-image: url('{{.Params.image}}');"{{end}}>
+	<h3><a href="{{ .Permalink }}">{{.Title}}</a></h3>
+</div>
+<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+	{{ if .Description }}{{ .Description }}{{else}}{{.Summary}}{{end}}
+</div>
+<div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+	<div class="minilogo"></div>
+	<div>
+		{{with .Site.Params.author}}<strong>{{.}}</strong>{{end}}
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+            {{ .Date.Format "2 Jan 2006" }}
+        </time>
+	</div>
+</div>

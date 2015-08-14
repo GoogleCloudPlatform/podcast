@@ -1,0 +1,22 @@
+<div class="mdl-card author-box mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+        <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
+              {{ if isset .Site.Params "logo" }}
+                <img src="{{ .Site.Params.logo }}" alt="logo">
+              {{ else }}
+                <img src="images/logo.png" alt="logo">
+              {{ end }}
+        </div>
+        <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+                <div>
+                        {{with .Site.Params.author}}<strong>{{.}}</strong>{{end}}
+                </div>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
+                        {{range $i, $current := (where .Site.Pages "Type" "page")}}
+                                <a href="{{$current.Permalink}}" class="mdl-menu__item mdl-js-ripple-effect">{{ $current.Title | title }}</a>
+                        {{end}}
+                </ul>
+                <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                </button>
+        </div>
+</div>

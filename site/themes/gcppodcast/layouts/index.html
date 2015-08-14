@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+        <div class="blog__posts mdl-grid">
+          {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+          
+          {{ range $index, $page := $paginator.Pages }}
+              {{if and (eq $paginator.PageNumber 1) (eq $index 0)}}
+                <div class="mdl-card mdl-cell first-post mdl-cell--8-col">
+                        {{ .Render "li" }}
+                </div>
+                
+                {{ partial "author-box.html" . }}
+                
+              {{else}}
+                      <div class="mdl-card mdl-cell mdl-cell--12-col">
+                      {{ .Render "li" }}
+                      </div>
+              {{end}}
+          {{ end }}
+          
+          {{ partial "pagination.html" $paginator }}
+        </div>
+
+{{ partial "footer.html" . }}

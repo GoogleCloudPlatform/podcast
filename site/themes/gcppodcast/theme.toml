@@ -1,0 +1,17 @@
+name = "Material Lite"
+license = "Apache License 2.0"
+licenselink = "https://github.com/SamuelDebruyn/hugo-material-lite/blob/master/LICENSE.md"
+description = "A hugo theme based on Google's Material Design Lite"
+homepage = "https://github.com/SamuelDebruyn/hugo-material-lite/"
+tags = ["material", "minimalistic", "lite", "google"]
+min_version = 0.14
+
+[author]
+  name = "Samuel Debruyn"
+  homepage = "http://sa.muel.be"
+
+# If porting an existing theme
+[original]
+  name = "Material Design Lite"
+  homepage = "http://www.getmdl.io"
+  repo = "https://github.com/google/material-design-lite"
