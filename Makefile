@@ -25,13 +25,14 @@ shell:
 	docker run --rm \
 		--name=$(NAME) \
 		-p=1313:1313 \
+		-p=22 \
 		-e TERM \
-        -e HOST_GID=`id -g` \
-        -e HOST_UID=`id -u` \
-        -e HOST_USER=$(USER) \
-        -v ~/.config/gcloud:/home/$(USER)/.config/gcloud \
-        -v `pwd`/dev/zshrc:/home/$(USER)/.zshrc \
-        -v `pwd`:/project \
+		-e HOST_GID=`id -g` \
+		-e HOST_UID=`id -u` \
+		-e HOST_USER=$(USER) \
+		-v ~/.config/gcloud:/home/$(USER)/.config/gcloud \
+		-v `pwd`/dev/zshrc:/home/$(USER)/.zshrc \
+		-v `pwd`:/project \
 		-it $(TAG) /root/startup.sh
 
 attach:
