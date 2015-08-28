@@ -31,7 +31,7 @@ shell:
         -e HOST_USER=$(USER) \
         -v ~/.config/gcloud:/home/$(USER)/.config/gcloud \
         -v `pwd`/dev/zshrc:/home/$(USER)/.zshrc \
-        -v `pwd`/site:/project \
+        -v `pwd`:/project \
 		-it $(TAG) /root/startup.sh
 
 attach:

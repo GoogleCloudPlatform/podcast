@@ -14,9 +14,10 @@ If you want an extra shell, in the same container, run `make attach`.
 
 To get an extra shell that has root access `make attach-root`
 
-#### Within The Shell
+#### Within /site
 
-Make targets that can be run within the development shell. 
+Make targets that can be run within the `site` directory
+which is for the static site generation and deployment.
 
 ##### Run Interactive Hugo Server (port 1313)
 `make server`
@@ -28,6 +29,14 @@ Make targets that can be run within the development shell.
 `make deploy` - This will not make the version default. Useful if you just want to test/share a version live.
 
 `make deploy-default` - This will replace the default version (but the old version is kept, in case)
+
+#### Within /go
+
+Make targets that can be run within the `go` directory
+which is for dynamic modules, such as the module that tracks
+episode downloads
+
+
 
 ## Development (Docker Image)
 
