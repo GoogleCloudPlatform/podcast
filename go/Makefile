@@ -20,3 +20,6 @@ vet:
 #lint everything, make sure it conforms
 lint:
 	golint .
+
+serve-eps: code-check
+	gb gae serve -port 8080 -host 0.0.0.0 ./src/modules/eps/app.yaml

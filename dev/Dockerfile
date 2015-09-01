@@ -53,3 +53,6 @@ WORKDIR /project
 
 # Hugo server port
 EXPOSE 1313
+
+#AppEngine Port
+EXPOSE 8080
