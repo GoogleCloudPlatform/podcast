@@ -1,6 +1,6 @@
 FROM golang:1.4.2
 
-RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server
+RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server ruby-sass
 WORKDIR /
 
 #sshd setup - https://docs.docker.com/examples/running_ssh_service/
