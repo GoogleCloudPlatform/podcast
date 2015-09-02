@@ -44,10 +44,10 @@
 					   type="audio/mpeg"/>
 
 			<itunes:duration>{{ .Params.audioduration }}</itunes:duration>
-			<itunes:summary>{{ .Summary }}</itunes:summary>
+			<itunes:summary>{{ .Summary | html }}</itunes:summary>
 
 			{{ if .Description }}
-			<itunes:subtitle>{{ .Description }}</itunes:subtitle>
+			<itunes:subtitle>{{ .Description | html }}</itunes:subtitle>
 			{{ end }}
 
 			<itunes:explicit>no</itunes:explicit>

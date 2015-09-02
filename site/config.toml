@@ -11,4 +11,4 @@ canonifyURLs = true
   TwitterUser = "GCPPodcast"
   GooglePlusUser = "GCPPodcast"
   copyright = "Copyright 2015 Google Inc."
-  episodeBucket = "https://storage.googleapis.com/eps"
+  episodeBucket = "https://eps-dot-gcppodcast.appspot.com/dl"

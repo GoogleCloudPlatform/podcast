@@ -21,5 +21,10 @@ vet:
 lint:
 	golint .
 
+EPS_MODULE=./src/modules/eps/app.yaml
+
 serve-eps: code-check
-	gb gae serve -port 8080 -host 0.0.0.0 ./src/modules/eps/app.yaml
+	gb gae serve -port 8080 -host 0.0.0.0 $(EPS_MODULE)
+
+deploy-eps:
+	gb gae deploy $(EPS_MODULE)
