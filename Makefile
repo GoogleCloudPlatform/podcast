@@ -26,6 +26,7 @@ shell:
 		--name=$(NAME) \
 		-p=1313:1313 \
 		-p=22 \
+		-p=8080 \
 		-e TERM \
 		-e HOST_GID=`id -g` \
 		-e HOST_UID=`id -u` \

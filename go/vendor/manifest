@@ -21,6 +21,12 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/jpillora/go-ogle-analytics",
+			"repository": "https://github.com/jpillora/go-ogle-analytics",
+			"revision": "0b3f40f06df668ca8fe2af034a8bc39dc31d87d2",
+			"branch": "master"
+		},
+		{
 			"importpath": "golang.org/x/net/context",
 			"repository": "https://go.googlesource.com/net",
 			"revision": "ea47fc708ee3e20177f3ca3716217c4ab75942cb",

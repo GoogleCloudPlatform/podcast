@@ -36,5 +36,11 @@ func redirectEpisodeDownload(w http.ResponseWriter, r *http.Request) {
 
 	log.Infof(ctx, "Redirecting file download to: %v", path)
 
+	err := sendGADownloadEvent(ctx, ep)
+
+	if err != nil {
+		log.Errorf(ctx, "Error sending GA Event: %v", err)
+	}
+
 	http.Redirect(w, r, path, 307)
 }
