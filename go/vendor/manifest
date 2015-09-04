@@ -23,7 +23,7 @@
 		{
 			"importpath": "github.com/jpillora/go-ogle-analytics",
 			"repository": "https://github.com/jpillora/go-ogle-analytics",
-			"revision": "0b3f40f06df668ca8fe2af034a8bc39dc31d87d2",
+			"revision": "8dd924548fb49a12f6d1f51e9e191f5c6cc67f25",
 			"branch": "master"
 		},
 		{
