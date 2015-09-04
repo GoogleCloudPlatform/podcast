@@ -8,7 +8,7 @@ server:
 	hugo server --bind=0.0.0.0 --watch
 
 assets-update:
-	sass --update $(SASS_FILES)
+	sass --update --style=compressed $(SASS_FILES)
 
 clean:
 	-rm -r public
