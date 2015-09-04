@@ -38,9 +38,9 @@ func redirectEpisodeDownload(w http.ResponseWriter, r *http.Request) {
 
 	log.Infof(ctx, "Redirecting file download to: %v", path)
 
-	//ignore range requests, as it's just trying to start
+	//ignore mid range requests, as it's just trying to start
 	//from a mid point in the podcast
-	if _, ok := r.Header["Range"]; !ok {
+	if rge, ok := r.Header["Range"]; (!ok || rge[0] == "bytes=0-" || rge[0] == "") {
 		err := sendGADownloadEvent(ctx, r, ep)
 
 		if err != nil {

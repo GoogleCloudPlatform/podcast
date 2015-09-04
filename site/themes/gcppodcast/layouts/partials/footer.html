@@ -24,27 +24,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/share.min.js"></script>
-    {{ if isset .Params "audiofile" }}
-    <script src="/js/progress-polyfill.min.js"></script>
-    <script src="/js/podlove-web-player.min.js"></script>
-
-        <script>
-            $('audio').podlovewebplayer({
-                "pluginPath": "/bin/",
-                title: '{{ .Title }}',
-                publicationDate: '{{ .Date }}',
-                show: {
-                    title: '{{ .Site.Title }}',
-                    summary: '{{ .Site.Params.description }}',
-                    url: '{{ .Site.BaseURL }}'
-                },
-                duration: '{{ .Params.audioDuration }}',
-                "hidedownloadbutton": true,
-                "hidesharebutton": true,
-            });
-        </script>
-
-    {{ end }}
   </body>
   <script>
     Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {

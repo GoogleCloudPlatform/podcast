@@ -23,16 +23,19 @@
       </div>
       <div class="mdl-color-text--grey-700 mdl-card__supporting-text content">
         {{ .Content }}
+
+        {{ if isset .Params "audiofile" }}
+        <audio controls="controls" preload="none">
+          <source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mpeg"/>
+          <object type="application/x-shockwave-flash" data="flashmediaelement.swf">
+            <param name="movie" value="flashmediaelement.swf"/>
+            <param name="flashvars" value="controls=true&amp;file={{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"/>
+          </object>
+        </audio>
+
+        <p><a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}">Download</a></p>
+        {{ end }}
       </div>
-      {{ if isset .Params "audiofile" }}
-      <audio controls="controls">
-        <source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mpeg"/>
-        <object type="application/x-shockwave-flash" data="flashmediaelement.swf">
-          <param name="movie" value="flashmediaelement.swf"/>
-          <param name="flashvars" value="controls=true&amp;file={{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"/>
-        </object>
-      </audio>
-      {{ end }}
     </div>
   </div>
 </div>

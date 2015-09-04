@@ -37,6 +37,7 @@ func sendGADownloadEvent(ctx context.Context, r *http.Request, ep string) error 
 	event := ga.NewEvent("episode-download", ep)
 
 	log.Debugf(ctx, "Event: %#v", event)
+	log.Debugf(ctx, "Client: %#v", client)
 
 	return client.Send(event)
 }
@@ -50,7 +51,8 @@ func getIP(ctx context.Context, r *http.Request) string {
 		return strings.Trim(ipProxy, " ")
 	}
 
-	if strings.Contains(r.RemoteAddr, ":") {
+	//ip v6 will have lots of : in it.
+	if strings.Count(r.RemoteAddr, ":") == 1 {
 		ip, _, err := net.SplitHostPort(r.RemoteAddr)
 
 		if err == nil {
