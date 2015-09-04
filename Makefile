@@ -32,6 +32,7 @@ shell:
 		-e HOST_UID=`id -u` \
 		-e HOST_USER=$(USER) \
 		-v ~/.config/gcloud:/home/$(USER)/.config/gcloud \
+		-v ~/.appcfg_oauth2_tokens:/home/$(USER)/.appcfg_oauth2_tokens \
 		-v `pwd`/dev/zshrc:/home/$(USER)/.zshrc \
 		-v `pwd`:/project \
 		-it $(TAG) /root/startup.sh

@@ -5,6 +5,7 @@ package ga
 import (
 	"bytes"
 	"fmt"
+	"net/http"
 	"net/url"
 	"regexp"
 )
@@ -17,6 +18,7 @@ func NewClient(trackingID string) (*Client, error) {
 	}
 	return &Client{
 		UseTLS:             true,
+		HttpClient:         http.DefaultClient,
 		protocolVersion:    "1",
 		protocolVersionSet: true,
 		trackingID:         trackingID,

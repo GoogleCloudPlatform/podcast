@@ -32,14 +32,20 @@ func redirectEpisodeDownload(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	log.Debugf(ctx, "Header: %#v", r.Header)
+
 	path := bucket + ep
 
 	log.Infof(ctx, "Redirecting file download to: %v", path)
 
-	err := sendGADownloadEvent(ctx, ep)
+	//ignore range requests, as it's just trying to start
+	//from a mid point in the podcast
+	if _, ok := r.Header["Range"]; !ok {
+		err := sendGADownloadEvent(ctx, r, ep)
 
-	if err != nil {
-		log.Errorf(ctx, "Error sending GA Event: %v", err)
+		if err != nil {
+			log.Errorf(ctx, "Error sending GA Event: %v", err)
+		}
 	}
 
 	http.Redirect(w, r, path, 307)
