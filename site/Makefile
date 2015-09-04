@@ -1,19 +1,20 @@
 #
 # Hugo site management
 #
-THEME=gcppodcast
+
+SASS_FILES=./static/css/sass/main.scss:./static/css/main.css
 
 server:
-	hugo server --bind=0.0.0.0 --theme=$(THEME) --watch
+	hugo server --bind=0.0.0.0 --watch
 
-assets:
-	cleancss -o ./themes/$(THEME)/static/css/styles.min.css ./themes/$(THEME)/static/css/styles.css
+assets-update:
+	sass --update $(SASS_FILES)
 
 clean:
 	-rm -r public
 
-build: clean
-	hugo --theme="$(THEME)"
+build: clean assets-update
+	hugo
 
 deploy: build
 	gcloud preview app deploy app.yaml
