@@ -6,11 +6,19 @@ categories = [
   "SDK",
   "App Engine"
 ]
+
+hosts = [
+  "Francesc Campoy Flores",
+  "Mark Mandel"
+]
+
 description = "This is our first post. Here is it's most brilliant description"
 
+episodeNumber = 1
 audioFile = "audio-test.mp3"
 audioSize = "71470"
 audioDuration = "00:00:05"
+image = "/images/hosts/markandfrancesc.jpg"
 +++
 
 # Our First Post to GCP Podcast 

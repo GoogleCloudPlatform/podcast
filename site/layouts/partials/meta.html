@@ -1,0 +1,73 @@
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:locale " content="{{.Site.LanguageCode}}" />
+
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+
+<meta name="twitter:site" content="@{{ .Site.Params.TwitterUser }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.TwitterUser }}" />
+
+{{ if eq .Permalink .Site.BaseURL }}
+<!-- FIX ME: add .IsHome when v0.15 is released -->
+<!-- homepage -->
+
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta name="twitter:title" content="{{ .Site.Title }}" />
+<title>{{ .Site.Title }}</title>
+
+{{ else if .IsPage }}
+<!-- single post or page -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <title>{{ .Title }}</title>
+    
+    {{if .Params.image}}
+        <meta name="twitter:image" content="{{.Params.image}}" />
+        <meta property="og:image" content="{{.Params.image}}" />
+    {{ else if isset .Site.Params "logo" }}
+        <meta name="twitter:image" content="{{.Site.Params.logo}}" />
+        <meta property="og:image" content="{{.Site.Params.logo}}" />
+    {{end}}
+
+    {{ if eq .Type "post" }}
+    <!-- single post -->
+    
+    <script type="application/ld+json">
+    { 
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ .Title }}",
+        "name": "{{ .Title }}",
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        {{ if .Description }}"description": "{{ .Description }}",{{ end }}
+        "wordCount": {{ .WordCount }},
+        "articleSection": "{{ if .Section }}{{ .Section }}{{ else }}{{ .Type }}{{ end }}",
+        "timeRequired": "0:{{ .ReadingTime  }}:0",
+        "url": "{{ .Permalink | safeHTML }}"
+    }
+    </script>    
+    
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
+    <meta property="og:article:section" content="{{ if .Section }}{{ .Section }}{{ else }}{{ .Type }}{{ end }}" />
+    
+    {{ else if eq .Type "page" }}
+    <!-- single page -->
+    
+    {{ else }}
+    <!-- single post of a custom type -->
+    
+    {{ end }}
+{{ else }}
+<!-- lists etc. -->
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta name="twitter:title" content="{{ .Site.Title }}" />
+<title>{{ .Site.Title }}</title>
+
+{{ end }}

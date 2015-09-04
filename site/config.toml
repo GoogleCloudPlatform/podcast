@@ -1,6 +1,6 @@
 baseUrl = "https://gcppodcast.appspot.com"
 languageCode = "en-us"
-title = "GCP Podcast"
+title = "Google Cloud Platform Podcast"
 
 relativeURLs = true
 canonifyURLs = true
@@ -8,7 +8,9 @@ canonifyURLs = true
 #Site Params
 [params]
   description = "The Google Cloud Platform Podcast. Out every week, like clockwork. Or something."
-  TwitterUser = "GCPPodcast"
-  GooglePlusUser = "GCPPodcast"
+  twitterURL = "https://twitter.com/gcppodcast"
+  googlePlusURL = "https://plus.google.com/117267610519909886476"
+  redditURL = "https://www.reddit.com/r/gcppodcast/"
   copyright = "Copyright 2015 Google Inc."
   episodeBucket = "https://eps-dot-gcppodcast.appspot.com/dl"
+  rssFeed = "https://feeds.feedburner.com/GcpPodcast"

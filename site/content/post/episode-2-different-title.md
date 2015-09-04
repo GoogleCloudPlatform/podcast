@@ -3,14 +3,22 @@ date = "2015-08-11T16:33:51-07:00"
 draft = false
 title = "This is our second GCP Podcast Episode"
 categories = [
-  "SDK",
-  "App Engine"
+  "Managed VMs",
+  "App Engine",
+  "BigQuery"
 ]
+hosts = [
+  "Francesc Campoy Flores",
+  "Mark Mandel"
+]
+
 description = "This is our first post. Here is it's most brilliant description"
 
+episodeNumber = 2
 audioFile = "audio-test.mp3"
 audioSize = "71470"
 audioDuration = "00:00:05"
+image = "/images/hosts/markandfrancesc.jpg"
 +++
 
 # Our Second GCP Podcast 
