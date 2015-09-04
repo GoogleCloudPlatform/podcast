@@ -2,21 +2,7 @@
 	{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 
 	{{ range $index, $page := $paginator.Pages }}
-		<article>
-			<header>
-			<h1><a href="{{ .Permalink }}"><strong>Episode {{ .Params.episodenumber }}:</strong> {{ .Title }}.</a></h1>
-			</header>
-			<div class="media-box">
-				{{ range $hi, $host := .Params.hosts }}
-				<img src="/images/hosts/{{ replace $host " " "_" }}.jpg">
-				{{ end }}
-			</div>
-			<p>{{ .Content }}</p>
-			<footer>
-				<div><strong>Hosts:</strong>{{ delimit .Params.hosts ", " " and " }}</div>
-				<div><strong>Topics:</strong>{{ delimit .Params.categories ", " " and " }}</div>
-			</footer>
-		</article>
+		{{ partial "episode.html" . }}
 	{{ end }}
 
 {{ partial "footer.html" . }}

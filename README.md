@@ -22,8 +22,8 @@ which is for the static site generation and deployment.
 ##### Run Interactive Hugo Server (port 1313)
 `make server`
 
-##### Minify Assets
-`make assets`
+##### Sassify->CCS Assets
+`make assets-update`
 
 ##### Deploy the Project to App Engine
 `make deploy` - This will not make the version default. Useful if you just want to test/share a version live.

@@ -4,7 +4,7 @@
 
 SASS_FILES=./static/css/sass/main.scss:./static/css/main.css
 
-server:
+server: clean
 	hugo server --bind=0.0.0.0 --watch
 
 assets-update:

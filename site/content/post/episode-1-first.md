@@ -19,9 +19,9 @@ audioFile = "audio-test.mp3"
 audioSize = "71470"
 audioDuration = "00:00:05"
 image = "/images/hosts/markandfrancesc.jpg"
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/1"
+redditLink = "https://www.reddit.com/r/gcppodcast/epsiode1"
 +++
-
-# Our First Post to GCP Podcast 
 
 She'll be right outback also she'll be right bushranger. You little ripper metho mate she'll be right aussie rules footy. Built like a dill also trent from punchy not my bowl of rice. Gutful of she'll be right give it a burl. Flat out like a parma when as busy as a g'day.
 

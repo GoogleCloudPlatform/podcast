@@ -14,3 +14,4 @@ canonifyURLs = true
   copyright = "Copyright 2015 Google Inc."
   episodeBucket = "https://eps-dot-gcppodcast.appspot.com/dl"
   rssFeed = "https://feeds.feedburner.com/GcpPodcast"
+  itunesURL = "https://geo.itunes.apple.com/us/podcast"
