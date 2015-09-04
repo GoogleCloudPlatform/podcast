@@ -1,5 +1,5 @@
 +++
-date = "2015-09-04T18:59:22Z"
+date = "2015-08-04T18:59:22Z"
 draft = false
 title = "About Google Cloud Platform"
 description = "All about the Google Cloud Platform Podcast"

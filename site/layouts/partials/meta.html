@@ -9,29 +9,22 @@
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
 
-<meta name="twitter:site" content="@{{ .Site.Params.TwitterUser }}" />
-<meta name="twitter:creator" content="@{{ .Site.Params.TwitterUser }}" />
+<meta name="twitter:site" content="@{{ .Site.Params.twitterUser }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.twitterUser }}" />
+<meta name="twitter:card" content="summary_large_image">
 
-{{ if eq .Permalink .Site.BaseURL }}
-<!-- FIX ME: add .IsHome when v0.15 is released -->
-<!-- homepage -->
-
-<meta property="og:title" content="{{ .Site.Title }}" />
-<meta name="twitter:title" content="{{ .Site.Title }}" />
-<title>{{ .Site.Title }}</title>
-
-{{ else if .IsPage }}
+{{ if .IsPage }}
 <!-- single post or page -->
     <meta property="og:title" content="{{ .Title }}" />
     <meta name="twitter:title" content="{{ .Title }}" />
     <title>{{ .Title }}</title>
-    
+
     {{if .Params.image}}
-        <meta name="twitter:image" content="{{.Params.image}}" />
-        <meta property="og:image" content="{{.Params.image}}" />
+        <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.image}}" />
+        <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.image}}" />
     {{ else if isset .Site.Params "logo" }}
-        <meta name="twitter:image" content="{{.Site.Params.logo}}" />
-        <meta property="og:image" content="{{.Site.Params.logo}}" />
+        <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
+        <meta property="og:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
     {{end}}
 
     {{ if eq .Type "post" }}
@@ -69,5 +62,7 @@
 <meta property="og:title" content="{{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Site.Title }}" />
 <title>{{ .Site.Title }}</title>
+<meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
 
 {{ end }}

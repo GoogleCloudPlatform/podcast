@@ -1,6 +1,6 @@
 +++
 date = "2015-08-11T16:33:51-07:00"
-2015 = "02"
+2015 = "08"
 draft = false
 title = "Our First Post to GCP Podcast"
 categories = ["SDK","App Engine"]
@@ -10,7 +10,7 @@ episodeNumber = 1
 audioFile = "audio-test.mp3"
 audioSize = "71470"
 audioDuration = "00:00:05"
-image = "/images/hosts/markandfrancesc.jpg"
+image = "images/hosts/markandfrancesc.jpg"
 googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/1"
 redditLink = "https://www.reddit.com/r/gcppodcast/epsiode1"
 +++

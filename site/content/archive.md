@@ -1,7 +1,7 @@
 +++
-date = "2015-09-04T21:07:34Z"
+date = "2015-08-04T21:07:34Z"
 draft = false
-title = "Google Cloud Platform Archive"
+title = "Archive"
 description = "Archive of All Episodes of the Google Cloud Platform Podcast"
 type = "archive"
 +++

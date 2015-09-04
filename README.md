@@ -23,7 +23,9 @@ which is for the static site generation and deployment.
 `make server`
 
 ##### Sassify->CCS Assets
-`make assets-update`
+`make assets-update` - does production css generation, compressed and everything.
+
+`make assets-watch` - does a file watch in main.scss and generates main.css when it sees a change (uncompressed)
 
 ##### Deploy the Project to App Engine
 `make deploy` - This will not make the version default. Useful if you just want to test/share a version live.
@@ -34,9 +36,16 @@ which is for the static site generation and deployment.
 
 Make targets that can be run within the `go` directory
 which is for dynamic modules, such as the module that tracks
-episode downloads
+episode downloads.
 
+##### Run full code lint, vet and goimports over everything.
+`make code-check`
 
+##### Start Local Episode Redirect Module
+`make serve-eps`
+
+##### Deploy Episode Redirect Module
+`make deploy-eps`
 
 ## Development (Docker Image)
 
