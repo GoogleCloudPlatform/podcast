@@ -4,6 +4,8 @@ package eps
 import (
 	"net/http"
 
+	"strings"
+
 	"github.com/gorilla/mux"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/log"
@@ -40,7 +42,7 @@ func redirectEpisodeDownload(w http.ResponseWriter, r *http.Request) {
 
 	//ignore mid range requests, as it's just trying to start
 	//from a mid point in the podcast
-	if rge, ok := r.Header["Range"]; (!ok || rge[0] == "bytes=0-" || rge[0] == "") {
+	if rge, ok := r.Header["Range"]; !ok || strings.HasPrefix(rge[0], "bytes=0-") || rge[0] == "" {
 		err := sendGADownloadEvent(ctx, r, ep)
 
 		if err != nil {

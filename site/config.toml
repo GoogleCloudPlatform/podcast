@@ -15,3 +15,9 @@ canonifyURLs = true
   episodeBucket = "https://eps-dot-gcppodcast.appspot.com/dl"
   rssFeed = "https://feeds.feedburner.com/GcpPodcast"
   itunesURL = "https://geo.itunes.apple.com/us/podcast"
+
+[taxonomies]
+  category = "categories"
+  2015 = "2015"
+  2016 = "2016"
+  2017 = "2017"

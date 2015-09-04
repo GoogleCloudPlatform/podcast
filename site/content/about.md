@@ -20,7 +20,7 @@ with the question, and we'll endeavour to answer it on the show.
 Every week, we go through a "Cool Thing" - it could be a great project running on Google Cloud Platform, a 
 fantastic tip or trick on Google Cloud Platform, an Open Source project or really just about anything we 
 think is new and innovative. If you have something that you think would fit this, send it through and
-we will cosnider it to be featured on our show!
+we will consider it to be featured on our show!
 
 
 ## Hosts
@@ -43,8 +43,3 @@ Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from 
 
 [Twitter](https://www.twitter.com/neurotic)  
 [Website](http://www.compoundtheory.com)
-
-
-
-
-<span style="color: white;">.</span>

@@ -1,19 +1,11 @@
 +++
 date = "2015-08-11T16:33:51-07:00"
+2015 = "02"
 draft = false
 title = "Our First Post to GCP Podcast"
-categories = [
-  "SDK",
-  "App Engine"
-]
-
-hosts = [
-  "Francesc Campoy Flores",
-  "Mark Mandel"
-]
-
+categories = ["SDK","App Engine"]
+hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 description = "This is our first post. Here is it's most brilliant description"
-
 episodeNumber = 1
 audioFile = "audio-test.mp3"
 audioSize = "71470"
