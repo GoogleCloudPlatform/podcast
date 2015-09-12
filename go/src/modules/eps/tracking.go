@@ -29,6 +29,7 @@ func sendGADownloadEvent(ctx context.Context, r *http.Request, ep string) error 
 	log.Debugf(ctx, "Ip found: %v", ip)
 	client.IPOverride(ip)
 	client.DocumentReferrer(r.Referer())
+	client.UserAgentOverride(r.UserAgent())
 
 	if err != nil {
 		return err
