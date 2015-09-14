@@ -1,0 +1,9 @@
+<nav>
+	{{if .HasPrev}}
+	<a class="archive_nav back" href="{{ .Prev.URL }}"><img src="/images/nav_left.png" /></a>
+	{{end}}
+
+	{{if .HasNext}}
+	<a class="archive_nav forward" href="{{ .Next.URL }}"><img src="/images/nav_right.png" /></a>
+	{{end}}
+</nav>

@@ -1,3 +1,6 @@
+$blue-200: #90CAF9;
+$blue-300: #64B5F6;
+$blue-400: #42A5F5;
 $blue-500: #2196F3;
 $blue-600: #1E88E5;
 $blue-700: #1E88E5;
@@ -17,7 +20,8 @@ body {
   padding: 0;
   margin: 0;
   background-image: url('/images/bg.jpg');
-  background-size: cover;
+  background-size: 100% auto;
+  background-attachment: fixed;
 
 }
 
@@ -112,12 +116,16 @@ footer {
 
 main {
   padding: 20px 20px 20px 20px;
+
   article {
     font-size: 1.4rem;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.6);
-    margin: 30px auto;
+    margin: 30px auto 30px auto;
     padding: 30px;
     background-color: #FFFFFF;
+    &:last-child {
+      margin-bottom: 7rem;
+    }
     .media-box {
       margin: 25px 0 0 10px;
       float: right;
@@ -125,6 +133,7 @@ main {
         border: 1px solid $grey-600;
       }
     }
+
     p {
       margin: 20px 0 10px 0;
       line-height: 1.6;
@@ -160,11 +169,50 @@ main {
       }
     }
   }
+
+  nav {
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0 0 3rem 0;
+    .archive_nav {
+      margin: 0 0 5rem 0;
+      background-color: $blue-500;
+      border-radius: 50%;
+      height: 5rem;
+      width: 5rem;
+      color: white;
+      font-size: 5rem;
+      line-height: 1.05;
+      -webkit-filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.6));
+      &:hover {
+        background-color: $blue-300;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .forward {
+      float: right;
+    }
+    .back {
+      float: left;
+    }
+
+  }
+
 }
 
 @media only screen and (min-width: 800px) {
   article {
     max-width: 800px;
+  }
+
+  main {
+    nav {
+      max-width: 860px;
+    }
   }
 }
 
@@ -306,29 +354,3 @@ main {
     }
   }
 }
-
-// @media only screen and (max-width: 480px) {
-//     header{
-
-//     	nav{
-//     		padding-right: 0;
-//     		ul{
-//     			padding: 0;
-//     			margin: 0;
-//     			li{
-//     				display: block;
-// 					line-height: 1.3;
-//     			}
-//     		}
-//     	}
-//     	.icon{
-//     		display: block;
-//     		padding: 0;
-//     	}
-//     }
-//     article{
-//     	h1{
-//     		font-size: 1.0rem;
-//     	}
-//     }
-// }
