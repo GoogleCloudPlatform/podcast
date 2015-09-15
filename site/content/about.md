@@ -12,16 +12,15 @@ Contact us: <a href="mailto:hello@gcppodcast.com">hello@gcppodcast.com</a>
 ## Questions of the Week
 
 Every week we take questions submitted to us by our audience, and answer them live on
-the podcast. If you have a question you would like to hear answered, please send us an email
+the podcast. If you have a question you would like to hear answered, please [send us an email](mailto:hello@gcppodcast.com?subject=Question of the Week)
 with the question, and we'll endeavour to answer it on the show.
 
 ## Cool Things of the Week
 
 Every week, we go through a "Cool Thing" - it could be a great project running on Google Cloud Platform, a 
 fantastic tip or trick on Google Cloud Platform, an Open Source project or really just about anything we 
-think is new and innovative. If you have something that you think would fit this, send it through and
+think is new and innovative. If you have something that you think would fit this, [send it through](mailto:hello@gcppodcast.com?subject=Cool Thing of the Week) and
 we will consider it to be featured on our show!
-
 
 ## Hosts
 
