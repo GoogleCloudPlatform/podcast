@@ -4,7 +4,7 @@
 	</header>
 	<div class="media-box">
 		{{ range $hi, $host := .Params.hosts }}
-		<img src="/images/hosts/{{ replace $host " " "_" }}.jpg">
+		<img src="/images/hosts/{{ replace $host " " "_" }}.png">
 		{{ end }}
 	</div>
 	<p>{{ .Content }}</p>
