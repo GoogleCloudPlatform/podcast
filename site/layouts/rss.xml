@@ -5,7 +5,7 @@
 		<description>{{ .Site.Params.description }}</description>
 		<image>
 			<title>{{ .Site.Title }}</title>
-			<url>{{ .Site.BaseURL }}{{.Site.Params.logo}}</url>
+			<url>{{ .Site.BaseURL }}/{{.Site.Params.logo}}</url>
 			<link>{{ .Site.BaseURL }}</link>
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
@@ -27,7 +27,7 @@
 			<itunes:email>hello@gcppodcast.com</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
-		<itunes:image href="{{ .Site.BaseURL }}{{.Site.Params.logo}}"/>
+		<itunes:image href="{{ .Site.BaseURL }}/{{.Site.Params.logo}}"/>
 		{{ range first 156 .Data.Pages }}
 		<item>
 			<title>{{ .Title }}</title>

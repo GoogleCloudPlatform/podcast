@@ -5,6 +5,7 @@ $blue-500: #2196F3;
 $blue-600: #1E88E5;
 $blue-700: #1E88E5;
 $grey-600: #757575;
+$grey-900: #212121;
 
 a {
   text-decoration: none;
@@ -118,11 +119,12 @@ main {
   padding: 20px 20px 20px 20px;
 
   article {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.6);
     margin: 30px auto 30px auto;
     padding: 30px;
     background-color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
     &:last-child {
       margin-bottom: 7rem;
     }
