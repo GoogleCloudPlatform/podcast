@@ -1,11 +1,18 @@
 {{ partial "header.html" . }}
 
-<article>
-	<header>
-		<h1><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a></h1>
-	</header>
-	<p>{{ .Content }}</p>
+<div class="episode demo-card-wide mdl-card mdl-shadow--2dp mdl-cell--8-col">
 
-</article>
+<div class="mdl-card__title">
+  <header class="mdl-card__title-text mdl-color-text--contrast">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </header>
+</div>
+
+<div class="mdl-card__supporting-text">
+
+	<div>{{ .Content }}</div>
+
+</div>
+</div>
 
 {{ partial "footer.html" . }}

@@ -1,9 +1,8 @@
-baseUrl = "https://gcppodcast.appspot.com"
+baseUrl = "https://gcppodcast.com"
 languageCode = "en-us"
 title = "Google Cloud Platform Podcast"
 
 relativeURLs = true
-canonifyURLs = true
 
 paginate = 10
 

@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<link href="{{ .Site.Params.rssFeed }}" rel="alternate" type="application/rss+xml" title="RSS - {{ .Site.Title }}"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
 
-	<link rel="stylesheet" href="/css/main.css?r=3" type="text/css" media="screen"/>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,300italic|Roboto+Condensed:400,300,300italic,400italic'
-		  rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.teal-red.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/style.css" type="text/css" media="screen">
 
-	<link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico' />
+  <script src="/script.js"></script>
+  <script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="/bower_components/polymer/polymer.html">
+  <link rel="import" href="/bower_components/paper-audio-player/paper-audio-player.html">
+  <link rel="import" href="/bower_components/paper-fab-transitions/paper-fab-speed-dial.html">
+  <link rel="import" href="/bower_components/paper-fab/paper-fab.html">
+  <link rel="import" href="/bower_components/paper-fab-transitions/paper-fab-transitions.html">
+  <link rel="import" href="/bower_components/iron-icons/social-icons.html">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66340814-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
 	{{ partial "meta.html" . }}
 </head>
-<body>
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-66340814-1', 'auto');
-	ga('send', 'pageview');
-</script>
-<header>
-	<h1><a href="/"><img src="/images/header.png"/><span>Google Cloud Platform Podcast</span></a></h1>
+<style is="custom-style">
+  paper-fab {
+    width: 45px;
+    height: 45px;
+    background: rgb(255,82,82);
+  }
+  .dropdown-content paper-fab {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+  }
+</style>
 
-	<div class="links">
-		<nav>
-			<ul>
-				<li><a href="/archive/">Archive</a></li>
-				<li><a href="/about/">About</a></li>
-			</ul>
-		</nav>
-		<div class="icon icon-rssfeed">
-			<a href="{{ .Site.Params.rssFeed }}">
-				<img src="/images/rss.png"/>
-				<span>RSS</span>
-			</a>
-		</div>
-		<div class="icon icon-itunes">
-			<a href="{{ .Site.Params.itunesURL }}">
-				<img src="/images/itunes.png"/>
-				<span>iTunes</span>
-			</a>
-		</div>
-	</div>
-</header>
 
-<main>
+<body class="mdl-color--grey-100">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">
+        <a href="/"><img src="/images/header.png"></a>
+      </span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="/about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mdl-layout__content">
+    <div class="page-content">

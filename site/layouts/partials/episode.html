@@ -1,34 +1,14 @@
-<article>
-	<header>
-		<h1><a href="{{ .Permalink }}"><strong>Episode {{ .Params.episodenumber }}:</strong> {{ .Title }}</a></h1>
-	</header>
-	<div class="media-box">
-		{{ range $hi, $host := .Params.hosts }}
-		<img src="/images/hosts/{{ replace $host " " "_" }}.png">
-		{{ end }}
-	</div>
-	<p>{{ .Content }}</p>
+<div class="episode demo-card-wide mdl-card mdl-shadow--2dp mdl-cell--8-col">
 
-	<audio controls="controls" preload="none">
-		<source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mpeg"/>
-		<object type="application/x-shockwave-flash" data="flashmediaelement.swf">
-			<param name="movie" value="flashmediaelement.swf"/>
-			<param name="flashvars" value="controls=true&amp;file={{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"/>
-		</object>
-	</audio>
+{{ partial "card-header" . }}
 
-	<p><a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}">Download MP3</a></p>
+<div class="mdl-card__supporting-text">
+	<div>{{ .Summary }}</div>
 
-	<footer>
-		<div><strong>Hosts:</strong>{{ delimit .Params.hosts ", " " and " }}</div>
-		<div><strong>Topics:</strong>{{ delimit .Params.categories ", " " and " }}</div>
+  <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
 
-		<div>
-			<p>
-			Continue the conversation on:
-				<a href="{{ .Params.googlepluslink}}" target="_blank">Google+</a>
-				or <a href="{{ .Params.redditlink}}" target="_blank">Reddit</a>
-			</p>
-		</div>
-	</footer>
-</article>
+  {{partial "share" .}}
+
+</div>
+
+</div>

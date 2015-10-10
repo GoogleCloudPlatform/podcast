@@ -1,0 +1,82 @@
+header img {
+  width: 300px;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+footer.footer {
+  padding: 10px 50px;
+}
+
+footer.footer img {
+  width: 15px;
+  height: 15px;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 660px) {
+  footer.footer {
+    padding: 10px 0;
+  }
+  footer.footer .mdl-mini-footer__left-section {
+    display: none;
+  }
+
+  footer.footer .mdl-mini-footer__right-section {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  footer.footer .mdl-mini-footer__right-section li {
+    display: inline-block;
+    width: 20%;
+  }
+
+  footer.footer span {
+    display: none;
+  }
+
+  footer.footer img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.episode footer {
+  padding: 10px 0;
+}
+
+.episode {
+  margin: 10px auto;
+}
+
+.mdl-layout--fixed-footer footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+}
+
+header a, header a:visited, header a:hover,
+footer a, footer a:visited, footer a:hover,
+button a, button a:visited, button a:hover {
+  font-weight: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+img[src*="hosts"] {
+  width: 150px;
+  height: 150px;
+  float: right;
+  border-radius: 100%;
+  margin: 5px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.episode-number {
+  color: teal;
+}

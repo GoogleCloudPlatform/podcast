@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      window.Polymer = {
+        dom: 'shadow'
+      };
+    </script>
+    <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="../../paper-styles/demo-pages.html">
+    <link rel="import" href="../../paper-styles/color.html">
+    <link rel="import" href="../../paper-fab/paper-fab.html">
+    <link rel="import" href="../../iron-icons/iron-icons.html">
+    <link rel="import" href="../../iron-icons/communication-icons.html">
+    <link rel="import" href="../../paper-menu/paper-menu.html">
+    <link rel="import" href="../../paper-item/paper-item.html">
+    <link rel="import" href="../../paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="../../paper-dialog/paper-dialog.html">
+    <link rel="import" href="../../paper-button/paper-button.html">
+    <link rel="import" href="../../paper-card/paper-card.html">
+    <link rel="import" href="../../neon-animation/neon-animations.html">
+    <link rel="import" href="../paper-fab-transitions.html">
+
+    <style is="custom-style">
+      paper-card {
+        position: relative;
+        margin: 10px;
+      }
+      .card-content {
+        width: 300px;
+        height: 300px;
+      }
+      .top-left {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .bottom-right {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+      #show-toolbar {
+        /* In real cases it would make sense use fixed position for the element,
+         * and then no need to position --paper-morph-dropdown and --paper-morph-content
+         */
+        --paper-morph-background: var(--default-primary-color);
+        --paper-morph-dropdown: {
+            position: static !important; /* didn't find alternative to !important for Safari */
+          }
+        --paper-morph-content: {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          overflow: visible;
+        }
+      }
+      #show-toolbar paper-fab {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        --paper-fab-background: var(--default-primary-color);
+      }
+      paper-dialog {
+        width: 200px;
+        height: 100px;
+      }
+      paper-fab.light-blue {
+        --paper-fab-background: var(--paper-light-blue-500);
+      }
+      paper-fab.blue {
+        --paper-fab-background: var(--paper-blue-500);
+      }
+      paper-fab.green {
+        --paper-fab-background: var(--paper-green-500);
+      }
+      paper-fab.teal {
+        --paper-fab-background: var(--paper-teal-500);
+      }
+      paper-fab.orange {
+        --paper-fab-background: var(--paper-orange-500);
+      }
+      paper-fab.red {
+        --paper-fab-background: var(--paper-red-500);
+      }
+      paper-fab.grumpycat {
+        --paper-fab: {
+          background-image: url('images/grumpycat.jpg');
+        }
+      }
+      paper-fab.lilbub {
+        --paper-fab: {
+          background-image: url('images/lilbub.jpg');
+        }
+      }
+      paper-fab.maru {
+        --paper-fab: {
+          background-image: url('images/maru.jpg');
+        }
+      }
+    </style>
+  </head>
+  <body unresolved class="layout horizontal wrap">
+
+    <paper-card heading="Speed Dial">
+      <div class="card-content">
+
+        <paper-fab-speed-dial class="top-left">
+          <paper-fab icon="create" class="dropdown-trigger red"></paper-fab>
+          <div class="dropdown-content">
+            <paper-fab mini icon="folder" class="orange"></paper-fab>
+            <paper-fab mini icon="description" class="blue"></paper-fab>
+            <paper-fab mini icon="event" class="teal"></paper-fab>
+          </div>
+        </paper-fab-speed-dial>
+
+        <paper-fab-speed-dial direction="top" class="bottom-right">
+          <paper-fab icon="communication:call" class="dropdown-trigger green"></paper-fab>
+          <div class="dropdown-content">
+            <paper-fab mini class="grumpycat"></paper-fab>
+            <paper-fab mini class="lilbub"></paper-fab>
+            <paper-fab mini class="maru"></paper-fab>
+          </div>
+        </paper-fab-speed-dial>
+
+      </div>
+    </paper-card>
+
+
+    <paper-card heading="Morph Positioned Dropdown">
+      <div class="card-content">
+
+        <paper-fab-morph class="top-left">
+          <paper-fab icon="add" class="dropdown-trigger light-blue"></paper-fab>
+          <paper-material class="dropdown-content">
+            <paper-menu>
+              <paper-item>One</paper-item>
+              <paper-item>Two</paper-item>
+              <paper-item>Three</paper-item>
+            </paper-menu>
+          </paper-material>
+        </paper-fab-morph>
+
+        <paper-fab-morph class="bottom-right" vertical-align="bottom" horizontal-align="right">
+          <paper-fab icon="communication:chat-bubble" class="dropdown-trigger teal"></paper-fab>
+          <paper-material class="dropdown-content">
+            <paper-menu>
+              <paper-item>One</paper-item>
+              <paper-item>Two</paper-item>
+              <paper-item>Three</paper-item>
+            </paper-menu>
+          </paper-material>
+        </paper-fab-morph>
+
+      </div>
+    </paper-card>
+
+    <paper-card heading="Morph Dialog and Toolbar">
+      <div class="card-content">
+
+        <paper-fab-morph is-overlay-content class="top-left">
+          <paper-fab icon="launch" class="dropdown-trigger"></paper-fab>
+          <paper-dialog class="dropdown-content">
+            <h2>Example Dialog</h2>
+
+            <div class="buttons">
+              <paper-button dialog-dismiss>Close</paper-dialog>
+            </div>
+          </paper-dialog>
+        </paper-fab-morph>
+
+        <paper-fab-morph id="show-toolbar" vertical-align="bottom" horizontal-align="right">
+          <paper-fab icon="more-horiz" class="dropdown-trigger"></paper-fab>
+          <paper-toolbar class="dropdown-content">
+            <iron-icon icon="create" class="flex"></iron-icon>
+            <iron-icon icon="attachment" class="flex"></iron-icon>
+            <iron-icon icon="build" class="flex"></iron-icon>
+          </paper-toolbar>
+        </paper-fab-morph>
+
+      </div>
+    </paper-card>
+
+  </body>
+</html>
