@@ -1,0 +1,36 @@
+<div class="episode demo-card-wide mdl-card mdl-shadow--2dp mdl-cell--8-col">
+
+{{ partial "card-header" . }}
+
+<div class="mdl-card__supporting-text">
+
+  <div class="hosts">
+    {{ range .Params.hosts }}
+      <img src="/images/hosts/{{ replace . " " "_" }}.png">
+    {{ end }}
+  </div>
+
+	<p>{{ .Content }}</p>
+
+
+  <p>Continue the conversation on:
+    <a href="{{ .Params.googlepluslink}}" target="_blank">Google+</a>
+    or <a href="{{ .Params.redditlink}}" target="_blank">Reddit</a>
+  </p>
+
+  <footer class="mdl-mini-footer mdl-color--white">
+    <p><strong>Hosts: </strong>{{ delimit .Params.hosts ", " " and " }}</p>
+    <div class="mdl-mini-footer__right-section">
+    <p><strong>Topics: </strong>{{ delimit .Params.categories ", " " and " }}</p>
+    </div>
+  </footer>
+
+  <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
+
+  {{partial "share" .}}
+
+</div>
+
+</div>
+
+{{ partial "pagination" .}}

@@ -29,9 +29,9 @@
 
     {{ if eq .Type "post" }}
     <!-- single post -->
-    
+
     <script type="application/ld+json">
-    { 
+    {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "{{ .Title }}",
@@ -43,19 +43,19 @@
         "timeRequired": "0:{{ .ReadingTime  }}:0",
         "url": "{{ .Permalink | safeHTML }}"
     }
-    </script>    
-    
+    </script>
+
     <meta name="twitter:card" content="summary" />
     <meta property="og:type" content="article" />
     <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
     <meta property="og:article:section" content="{{ if .Section }}{{ .Section }}{{ else }}{{ .Type }}{{ end }}" />
-    
+
     {{ else if eq .Type "page" }}
     <!-- single page -->
-    
+
     {{ else }}
     <!-- single post of a custom type -->
-    
+
     {{ end }}
 {{ else }}
 <!-- lists etc. -->
