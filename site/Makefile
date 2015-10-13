@@ -7,10 +7,8 @@ server: clean
 
 clean:
 	-rm -r public
-	-rm ./static/css/main.css
-	-rm ./static/css/main.css.map
 
-build: clean assets-update
+build: clean
 	hugo
 
 deploy: build

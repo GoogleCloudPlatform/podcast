@@ -1,7 +1,7 @@
 +++
 date = "2015-08-11T16:33:51-07:00"
 2015 = "08"
-draft = false
+draft = true
 title = "This is our second GCP Podcast Episode"
 categories = ["Managed VMs", "App Engine", "BigQuery"]
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]

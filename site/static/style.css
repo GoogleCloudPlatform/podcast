@@ -80,3 +80,13 @@ img[src*="hosts"] {
 .episode-number {
   color: teal;
 }
+
+#subscribe-menu {
+  background: rgb(255,82,82);
+}
+
+@media all and (max-width: 699px) {
+  .right-hand-nav {
+    display: none;
+  }
+}

@@ -166,7 +166,7 @@ Example:
         <div id="title" class="fit">{{ title }}</div>
 
         <!-- Audio HTML5 element -->
-        <audio id="audio" src="{{ src }}"></audio>
+        <audio id="audio" preload="none" src="{{ src }}"></audio>
 
         <!-- Paper progress bar -->
         <paper-progress id="progress"></paper-progress>
@@ -232,8 +232,7 @@ Example:
         player.ended = false;
         player.duration = 0;
         player.currentTime = 0;
-        player.icon = '';
-
+        player.icon = 'av:album';
 
         //
         // Apply color to elements
@@ -262,6 +261,10 @@ Example:
 
         if ( player.canBePlayed ) {
           return player.isPlaying ? player.$.audio.pause() : player.$.audio.play();
+        } else {
+          //we aren't loaded, then try loading it again, and play straight away.
+          player.$.audio.autoplay = true;
+          player.$.audio.load();
         }
       },
 

@@ -3,7 +3,12 @@
 {{ partial "card-header" . }}
 
 <div class="mdl-card__supporting-text">
-	<div>{{ .Summary }}</div>
+  <div>{{ .Summary }}
+    <p>
+    <a href="{{ .RelPermalink }}">Read More...</a>
+    </p>
+  </div>
+
 
   <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
 

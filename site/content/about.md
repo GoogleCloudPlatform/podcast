@@ -9,6 +9,14 @@ Tune in every week to listen to Francesc and Mark discuss Google Cloud Platform!
 
 Contact us: <a href="mailto:hello@gcppodcast.com">hello@gcppodcast.com</a>
 
+### Subscribe
+
+To subscribe to this podcast, there are several options:
+
+- Subscribe directly through our [RSS Feed](https://feeds.feedburner.com/GcpPodcast)
+- Subscribe through iTunes (forthcoming)
+- More options to come...
+
 ### Questions of the Week
 
 Every week we take questions submitted to us by our audience, and answer them live on
