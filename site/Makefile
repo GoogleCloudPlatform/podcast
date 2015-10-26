@@ -15,4 +15,4 @@ deploy: build
 	gcloud preview app deploy app.yaml
 
 deploy-default: build
-	gcloud preview app deploy app.yaml --set-default
+	gcloud preview app deploy app.yaml --promote
