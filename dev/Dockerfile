@@ -1,6 +1,6 @@
 FROM golang:1.4.2
 
-RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server ruby-sass
+RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server python-crcmod
 WORKDIR /
 
 #sshd setup - https://docs.docker.com/examples/running_ssh_service/
@@ -23,8 +23,9 @@ RUN gcloud components update app preview app-engine-python --quiet
 #install appengine
 ENV APPENGINE_VERSION=1.9.27
 RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_amd64-$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
+RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
 
-ENV PATH /go_appengine:$PATH
+ENV PATH /go_appengine:/google_appengine:$PATH
 
 # install go tooling
 RUN go get github.com/constabulary/gb/...

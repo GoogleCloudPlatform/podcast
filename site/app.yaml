@@ -7,18 +7,18 @@ handlers:
   - url: /(.+)/
     static_files: public/\1/index.html
     upload: public/(.+)/index.html
-    secure: optional
+    secure: always
     login: admin
 
   - url: /(.+)
     static_files: public/\1
     upload: public/(.*)
-    secure: optional
+    secure: always
     login: admin
 
   - url: /
     static_files: public/index.html
     upload: public/index.html
-    secure: optional
+    secure: always
     login: admin
 

@@ -1,3 +1,6 @@
 [core]
 project = gcppodcast
 
+[app]
+suppress_change_warning = true
+
