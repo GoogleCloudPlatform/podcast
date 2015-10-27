@@ -3,6 +3,12 @@ api_version: 1
 threadsafe: true
 
 handlers:
+  - url: /favicon.ico
+    static_files: public/images/favicon.ico
+    upload: public/images/favicon.ico
+    secure: always
+    login: admin
+
   # index files
   - url: /(.+)/
     static_files: public/\1/index.html
@@ -21,4 +27,3 @@ handlers:
     upload: public/index.html
     secure: always
     login: admin
-

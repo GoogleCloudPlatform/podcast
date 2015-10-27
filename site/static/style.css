@@ -90,3 +90,7 @@ img[src*="hosts"] {
     display: none;
   }
 }
+
+.mdl-layout__container, .mdl-layout__container > div {
+  height: inherit;
+}
