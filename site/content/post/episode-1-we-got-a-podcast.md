@@ -10,7 +10,6 @@ draft = false
 episodeNumber = 1
 googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/ADD-LINK"
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-image = "images/hosts/markandfrancesc.jpg"
 redditLink = "https://www.reddit.com/r/gcppodcast/ADD-LINK"
 title = "We Got a Podcast!"
 +++

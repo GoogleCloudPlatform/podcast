@@ -21,11 +21,11 @@
     <title>{{ .Title }}</title>
 
     {{if .Params.image}}
-        <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.image}}" />
-        <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.image}}" />
+        <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{.Params.image}}" />
+        <meta property="og:image" content="{{ .Site.BaseURL }}/{{.Params.image}}" />
     {{ else if isset .Site.Params "logo" }}
-        <meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
-        <meta property="og:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
+        <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{.Site.Params.logo}}" />
+        <meta property="og:image" content="{{ .Site.BaseURL }}/{{.Site.Params.logo}}" />
     {{end}}
 
     {{ if eq .Type "post" }}
@@ -63,7 +63,7 @@
 <meta property="og:title" content="{{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Site.Title }}" />
 <title>{{ .Site.Title }}</title>
-<meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
-<meta property="og:image" content="{{ .Site.BaseURL }}{{.Site.Params.logo}}" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/{{.Site.Params.logo}}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}/{{.Site.Params.logo}}" />
 
 {{ end }}
