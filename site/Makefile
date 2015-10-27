@@ -11,6 +11,9 @@ clean:
 build: clean
 	hugo
 
+deploy-legacy: build
+	appcfg.py --application=gcppodcast --version=`date +%s` update .
+
 deploy: build
 	gcloud preview app deploy app.yaml
 
