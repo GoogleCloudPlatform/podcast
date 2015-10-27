@@ -94,3 +94,13 @@ img[src*="hosts"] {
 .mdl-layout__container, .mdl-layout__container > div {
   height: inherit;
 }
+
+/* rhs subscribe menu styles */
+#subscribe-dropdown li {
+  padding: 0;
+}
+
+#subscribe-dropdown a {
+  display: block;
+  padding: 0 16px;
+}
