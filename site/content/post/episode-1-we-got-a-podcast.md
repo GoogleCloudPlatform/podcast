@@ -18,13 +18,13 @@ title = "We Got a Podcast!"
 In this first episode your hosts,
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic),
-discuss how this blog post was built and deployed to Google Cloud
+discuss how this podcast was built and deployed to Google Cloud
 Platform.
 <!--more-->
 
 Do you have something cool to share? Some questions? Let us know:
 
-- web: [gcppodcast.com](https://gcppodcast.com)
+- web: [gcppodcast.com](https://www.gcppodcast.com)
 - mail: [hello@gcppodcast.com](mailto:hello@gcppodcast.com)
 - twitter: [@gcppodcast](http://twitter.com/gcppodcast.com)
 - reddit: [/r/gcppodcast](http://reddit.com/r/gcppodcast)
