@@ -9,18 +9,24 @@ paper-fab-speed-dial > paper-fab {
   text-align: center;
   padding: none;
 }
+
 paper-fab-speed-dial .dropdown-content {
   position: relative;
   top: -15px;
 }
 
-paper-fab-speed-dial .dropdown-content paper-fab {
-  margin: 2px 0;
+iron-dropdown iron-icon#icon {
+  width: 20px;
+  height: 20px;
+  /* add clickable area */
+  padding: 10px;
 }
 
-iron-dropdown iron-icon#icon {
-  width: 15px;
-  height: 15px;
+.dropdown-content paper-fab {
+  position: relative;
+  right: 4px;
+  width: 40px;
+  height: 40px;
 }
 
 paper-fab.twitter {
