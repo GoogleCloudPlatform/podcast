@@ -27,7 +27,7 @@
 			<itunes:email>hello@gcppodcast.com</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
-		<itunes:image href="{{ .Site.BaseURL }}/{{.Site.Params.logo}}"/>
+		<itunes:image href="http://www.gcppodcast.com/{{.Site.Params.logo}}"/>
 		{{ range first 156 .Data.Pages }}
 		<item>
 			<title>{{ .Title }}</title>
