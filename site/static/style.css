@@ -1,13 +1,13 @@
 header img {
-  width: 300px;
+  width: 350px;
 }
 
-main {
-  margin-bottom: 50px;
-}
-
-footer.footer {
-  padding: 10px 50px;
+/* trick to make the footer stick to the bottom */
+.mdl-layout__content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 
 footer.footer img {
@@ -16,48 +16,8 @@ footer.footer img {
   padding: 0 10px;
 }
 
-@media screen and (max-width: 660px) {
-  footer.footer {
-    padding: 10px 0;
-  }
-  footer.footer .mdl-mini-footer__left-section {
-    display: none;
-  }
-
-  footer.footer .mdl-mini-footer__right-section {
-    width: 100%;
-    padding: 0 20px;
-  }
-
-  footer.footer .mdl-mini-footer__right-section li {
-    display: inline-block;
-    width: 20%;
-  }
-
-  footer.footer span {
-    display: none;
-  }
-
-  footer.footer img {
-    width: 30px;
-    height: 30px;
-  }
-}
-
-.episode footer {
-  padding: 10px 0;
-}
-
-.episode {
+.centered {
   margin: 10px auto;
-}
-
-.mdl-layout--fixed-footer footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 500;
 }
 
 header a, header a:visited, header a:hover,
@@ -81,6 +41,18 @@ img[src*="hosts"] {
   color: teal;
 }
 
+paper-fab {
+  width: 45px;
+  height: 45px;
+  background: rgb(255,82,82);
+}
+.dropdown-content paper-fab {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+}
+
 #subscribe-menu {
   background: rgb(255,82,82);
 }
@@ -89,10 +61,6 @@ img[src*="hosts"] {
   .right-hand-nav {
     display: none;
   }
-}
-
-.mdl-layout__container, .mdl-layout__container > div {
-  height: inherit;
 }
 
 /* rhs subscribe menu styles */
@@ -104,3 +72,38 @@ img[src*="hosts"] {
   display: block;
   padding: 0 16px;
 }
+
+@media screen and (max-width: 660px) {
+  footer.footer .mdl-mini-footer__left-section {
+    display: none;
+  }
+
+  footer.footer .mdl-mini-footer__right-section {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  footer.footer .mdl-mini-footer__right-section li {
+    display: inline-block;
+    width: 20%;
+  }
+
+  footer.footer span {
+    display: none;
+  }
+
+  footer.footer img {
+    width: 30px;
+    height: 30px;
+  }
+
+  img[src*="hosts"] {
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 100%;
+    margin: 5px;
+    box-shadow: 0 0 10px #aaa;
+  }
+}
+
