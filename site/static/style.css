@@ -68,7 +68,12 @@ footer {
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
   flex-direction: col;
-  padding: 10px 0 15px 0 !important;
+  padding: 20px 0 !important;
+}
+
+footer .mdl-mini-footer__middle-section {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 footer div {
@@ -102,6 +107,10 @@ footer.footer img {
 @media screen and (max-width: 660px) {
   footer.footer span {
     display: none;
+  }
+
+  footer {
+    padding: 15px 0 !important;
   }
 
   footer.footer img {
