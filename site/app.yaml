@@ -8,6 +8,12 @@ handlers:
     upload: public/images/favicon.ico
     secure: always
 
+  # For itunes.
+  - url: /images/logo.png
+    static_files: public/images/logo_large.png
+    upload: public/images/logo.png
+    secure: optional
+
   # index files
   - url: /(.+)/
     static_files: public/\1/index.html
