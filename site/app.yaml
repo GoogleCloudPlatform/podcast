@@ -9,9 +9,9 @@ handlers:
     secure: always
 
   # For itunes.
-  - url: /images/logo.png
+  - url: /images/logo_large.png
     static_files: public/images/logo_large.png
-    upload: public/images/logo.png
+    upload: public/images/logo_large.png
     secure: optional
 
   # index files
