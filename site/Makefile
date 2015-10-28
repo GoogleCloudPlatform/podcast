@@ -15,7 +15,7 @@ deploy-legacy: build
 	appcfg.py --application=gcppodcast --version=`date +%s` update .
 
 deploy: build
-	gcloud preview app deploy app.yaml
+	gcloud preview app deploy app.yaml --no-promote
 
 deploy-default: build
 	gcloud preview app deploy app.yaml --promote

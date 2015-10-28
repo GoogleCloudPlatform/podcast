@@ -8,10 +8,10 @@ date = "2015-10-27T17:37:33Z"
 description = "In this first episode your hosts, Francesc and Mark, discuss how this blog post was built and deployed to Google Cloud Platform."
 draft = false
 episodeNumber = 1
-googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/ADD-LINK"
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-linked=false
-redditLink = "https://www.reddit.com/r/gcppodcast/ADD-LINK"
+linked=true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/1LhfFB21Gei"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/3qkmph/episode_1_we_got_a_podcast/"
 title = "We Got a Podcast!"
 +++
 
