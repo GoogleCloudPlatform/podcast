@@ -18,7 +18,7 @@
 <!-- single post or page -->
     <meta property="og:title" content="{{ .Title }}" />
     <meta name="twitter:title" content="{{ .Title }}" />
-    <title>{{ .Title }}</title>
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
 
     {{if .Params.image}}
         <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{.Params.image}}" />
