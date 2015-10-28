@@ -21,9 +21,7 @@
 
   <footer class="mdl-mini-footer mdl-color--white">
     <p><strong>Hosts: </strong>{{ delimit .Params.hosts ", " " and " }}</p>
-    <div class="mdl-mini-footer__right-section">
     <p><strong>Topics: </strong>{{ delimit .Params.categories ", " " and " }}</p>
-    </div>
   </footer>
 
   <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
