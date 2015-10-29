@@ -26,7 +26,7 @@ Do you have something cool to share? Some questions? Let us know:
 
 - web: [gcppodcast.com](https://www.gcppodcast.com)
 - mail: [hello@gcppodcast.com](mailto:hello@gcppodcast.com)
-- twitter: [@gcppodcast](http://twitter.com/gcppodcast.com)
+- twitter: [@gcppodcast](http://twitter.com/gcppodcast)
 - reddit: [/r/gcppodcast](http://reddit.com/r/gcppodcast)
 - google+: [Google+](http://google.com/+gcppodcast)
 
