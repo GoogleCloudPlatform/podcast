@@ -9,9 +9,34 @@ A custom audio player with material paper style and clean design.
 
 Example:
 
-    <paper-audio-player></paper-audio-player>
+    <paper-audio-player src="audio.mp3"></paper-audio-player>
 
-@demo
+### Styling the player:
+
+This player has an accent color, and you have two option to modify it:
+
+- **Option 1**: Using the *color property* on element. This one is handy if you need to modify the color dynamically.
+
+
+    <paper-audio-player color="#F05C38" src="audio.mp3"></paper-audio-player>
+
+
+- **Option 2**: Using the *custom CSS property*:
+
+
+
+    paper-audio-player {
+       --paper-audio-player-color: #e91e63;
+    }
+
+The following mixins are available for styling:
+
+Custom property                             | Description                                 | Default
+--------------------------------------------|---------------------------------------------|----------
+--paper-audio-player-color                  | Color of the element                        | blueviolet
+
+@element paper-audio-player
+@demo demo/index.html
 -->
 <dom-module id="paper-audio-player">
   <template>
@@ -20,6 +45,7 @@ Example:
 
       :host {
         display: block;
+        margin: auto;
         box-sizing: border-box;
         width: 100%;
         font-family: 'Roboto Mono', 'Helvetica Neue', Arial, sans-serif;
@@ -38,6 +64,9 @@ Example:
         width: 50px;
         position: relative;
       }
+      #left {
+        background-color:  var(--paper-audio-player-color, blueviolet);
+      }
 
       #right {
         background-color: rgba(255,255,255,.75);
@@ -45,7 +74,7 @@ Example:
 
       #time,
       #icon,
-      #pause {
+      #play {
         color: #fff;
       }
 
@@ -61,41 +90,60 @@ Example:
         font-size: 11px;
       }
 
+      #duration {
+        color: var(--paper-audio-player-color, blueviolet);
+      }
+
       #icon,
-      #pause,
+      #play,
       #replay {
         margin: auto;
       }
 
-      #title {
-        z-index: 2;
-        font-size: 15px;
+      #replay {
+        color: var(--paper-audio-player-color, blueviolet);
       }
 
-      #pause {
+      #icon,
+      #replay {
         opacity: 0;
+      }
+
+      #title {
+        pointer-events: none;
+        z-index: 2;
+        font-size: 15px;
+        color: var(--paper-audio-player-color, blueviolet);
       }
 
       paper-progress {
         position: relative;
         width: 100%;
-        --paper-progress-active-color: blueviolet;
+        --paper-progress-active-color: var(--paper-audio-player-color, blueviolet);
         --paper-progress-height: 50px;
         --paper-progress-container-color: rgba(255,255,255,.75);
       }
 
       /* On hover */
 
-      :host(.hovered) #pause {
+      #left:hover #icon,
+      :host:not(.cantplay) #right:hover #replay {
         opacity: 1;
       }
 
-      :host(.hovered) #time {
+      #left:hover #time,
+      #right:hover #duration {
         opacity: 0;
       }
 
-      :host(.hovered) #title {
+      :host:not(.cantplay) #center:hover #title{
         color: #333 !important;
+      }
+
+      #left:hover #play {
+        transform: scale3d(1.1, 1.1, 1.1);
+        -ms-transform: scale3d(1.1, 1.1, 1.1);
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
       }
 
       /* On Error */
@@ -108,10 +156,20 @@ Example:
         cursor: default;
       }
 
+      :host(.cantplay) #play {
+        opacity: 0;
+      }
+
+      :host(.cantplay) #icon {
+        opacity: 1;
+      }
+
       /* Flexbox Helpers */
 
       .layout-horizontal {
         display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         -ms-flex-direction: row;
         -webkit-flex-direction: row;
         flex-direction: row;
@@ -144,42 +202,49 @@ Example:
       }
     </style>
 
-    <div id="wrapper"
-         class="layout-horizontal"
-         on-click="playPause"
-         on-mouseenter="onMouseenter"
-         on-mouseleave="onMouseleave">
+    <div id="wrapper" class="layout-horizontal">
 
-      <div id="left" class="self-start">
+      <div id="left"
+           class="self-start"
+           on-click="playPause">
+
         <!-- Icon -->
-        <iron-icon id="icon" class="fit" icon="{{ icon }}" hidden$="{{ isPlaying }}"></iron-icon>
-        <iron-icon id="pause" class="fit" icon="av:pause-circle-outline" hidden$="{{ !isPlaying }}"></iron-icon>
+        <iron-icon id="icon" class="fit" icon="{{ icon }}" hidden$="{{ !isPlaying }}"></iron-icon>
+        <iron-icon id="play" class="fit" hidden$="{{ isPlaying }}"></iron-icon>
 
         <!-- Current time -->
         <div id="time" class="fit" hidden$="{{ !isPlaying }}">
-          <span class="fit">{{ convertSecToMin(currentTime) }}</span>
+          <span class="fit">{{ _convertSecToMin(currentTime) }}</span>
         </div>
       </div>
 
-      <div class="flex">
+      <div id="center" class="flex">
         <!-- Title -->
         <div id="title" class="fit">{{ title }}</div>
 
         <!-- Audio HTML5 element -->
-        <audio id="audio" preload="none" src="{{ src }}"></audio>
+        <audio id="audio" src="{{ src }}"></audio>
 
         <!-- Paper progress bar -->
-        <paper-progress id="progress"></paper-progress>
+        <paper-progress id="progress"
+                        step=0.001
+                        value="[[ currentTime ]]"
+                        max="[[ duration ]]"
+                        min=0
+                        on-down="_onDown"></paper-progress>
       </div>
 
-      <div id="right" class="self-end">
+      <div id="right"
+           class="self-end"
+           on-click="restart">
+
         <!-- Duration -->
         <div id="duration" class="fit" hidden$="{{ ended }}">
-          <span class="fit">{{ convertSecToMin(duration) }}</span>
+          <span class="fit">{{ _convertSecToMin(duration) }}</span>
         </div>
 
         <!-- Icon -->
-        <iron-icon id="replay" class="fit" icon="av:replay" hidden$="{{ !ended }}"></iron-icon>
+        <iron-icon id="replay" class="fit" icon="av:replay"></iron-icon>
       </div>
     </div>
   </template>
@@ -192,14 +257,30 @@ Example:
       // Define public properties
 
       properties: {
-        src: String,
+        src: {
+          type: String,
+          observer: "_srcChanged"
+        },
         title: {
           type: String,
           value: 'Click to play this audio file'
         },
         color: {
           type: String,
-          value: 'blueviolet'
+          observer: '_changeColor'
+        },
+        autoPlay: {
+          type: Boolean,
+          value: false
+        },
+        currentTime: {
+          type: Number,
+          value: 0,
+          notify: true
+        },
+        duration: {
+          type: Number,
+          value: 0
         }
       },
 
@@ -208,11 +289,11 @@ Example:
       // Register event listeners
 
       listeners: {
-        'audio.loadedmetadata'  : 'onCanPlay',
-        'audio.playing'         : 'onPlaying',
-        'audio.pause'           : 'onPause',
-        'audio.ended'           : 'onEnd',
-        'audio.error'           : 'onError'
+        'audio.loadedmetadata'  : '_onCanPlay',
+        'audio.playing'         : '_onPlaying',
+        'audio.pause'           : '_onPause',
+        'audio.ended'           : '_onEnd',
+        'audio.error'           : '_onError'
       },
 
 
@@ -220,9 +301,7 @@ Example:
       // When element is created
 
       ready: function() {
-
-        var progress,
-            player = this;
+        var player = this;
 
         //
         // create Player defaults
@@ -230,26 +309,8 @@ Example:
         player.canBePlayed = false;
         player.isPlaying = false;
         player.ended = false;
-        player.duration = 0;
-        player.currentTime = 0;
-        player.icon = 'av:album';
+        player.icon = '';
 
-        //
-        // Apply color to elements
-
-        player.querySelector('paper-progress #primaryProgress.paper-progress').style.backgroundColor = player.color;
-        player.$.left.style.backgroundColor = player.color;
-        player.$.title.style.color = player.color;
-        player.$.duration.style.color = player.color;
-        player.$.replay.style.color = player.color;
-
-
-        //
-        // Progress bar
-
-        progress = player.$.progress;
-        progress.max = 0;
-        progress.value = 0;
       },
 
 
@@ -261,45 +322,51 @@ Example:
 
         if ( player.canBePlayed ) {
           return player.isPlaying ? player.$.audio.pause() : player.$.audio.play();
-        } else {
-          //we aren't loaded, then try loading it again, and play straight away.
-          player.$.audio.autoplay = true;
-          player.$.audio.load();
         }
+      },
+
+
+      // Restart
+
+      restart: function(e){
+        e.preventDefault();
+        var player = this;
+        player.$.audio.currentTime = 0;
+        if ( !player.isPlaying ) player.$.audio.play();
       },
 
 
       // when audio file can be played in user's browser
 
-      onCanPlay: function() {
+      _onCanPlay: function() {
         var player = this;
         player.canBePlayed = true;
-        player.icon = 'av:album';
+        player.icon = 'av:pause-circle-outline';
+        player.$.play.setAttribute('icon', 'av:play-circle-outline');
         player.duration = player.$.audio.duration;
-        player.$.progress.max = player.duration * 1000;
+        if (player.autoPlay) player.$.audio.play();
       },
 
 
       // when Player starts playing
 
-      onPlaying: function() {
+      _onPlaying: function() {
         var player = this;
         player.ended = false;
         player.isPlaying = true;
-        player.startProgressTimer();
+        player._startProgressTimer();
       },
 
 
       // starts Timer
 
-      startProgressTimer: function() {
+      _startProgressTimer: function() {
         var player = this;
         player.timer = {};
 
         if (player.timer.sliderUpdateInterval) { clearInterval(player.timer.sliderUpdateInterval); }
         player.timer.sliderUpdateInterval = setInterval( function(){
           if ( player.isPlaying ) {
-            player.$.progress.value = player.$.audio.currentTime * 1000;
             player.currentTime = player.$.audio.currentTime;
           } else {
             clearInterval(player.timer.sliderUpdateInterval);
@@ -310,16 +377,15 @@ Example:
 
       // when Player is paused
 
-      onPause: function() {
+      _onPause: function() {
         var player = this;
         player.isPlaying = false;
-        player.$.progress.value = player.currentTime * 1000;
       },
 
 
       // when Player ended playing an audio file
 
-      onEnd: function() {
+      _onEnd: function() {
         var player = this;
         player.ended = true;
         player.isPlaying = false;
@@ -329,50 +395,63 @@ Example:
 
       // on file load error
 
-      onError: function() {
+      _onError: function() {
         var player = this;
         player.classList.add('cantplay');
         player.title = 'Sorry, can\'t play track: ' + player.title;
         player.icon = 'av:not-interested';
+        player.$.icon.removeAttribute('hidden');
       },
 
-
-      // on mouseenter
-
-      onMouseenter: function() {
-        var player = this;
-
-        if (player.canBePlayed) {
-          player.classList.add('hovered');
-
-          if (!player.isPlaying) {
-            player.icon = 'av:play-circle-outline';
-          }
-        }
-      },
-
-      // on mouseleave
-
-      onMouseleave: function() {
-        var player = this;
-        player.classList.remove('hovered');
-
-        if (player.canBePlayed) {
-          if (!player.isPlaying) {
-            player.icon = 'av:album';
-          }
-        }
-      },
 
       // to convert seconds to 'm:ss' format
 
-      convertSecToMin: function(seconds){
+      _convertSecToMin: function(seconds){
         if (seconds === 0) {
           return '';
         }
         var minutes = Math.floor(seconds / 60);
         var secondsToCalc = Math.floor(seconds % 60) + '';
         return minutes + ':' + (secondsToCalc.length < 2 ? '0' + secondsToCalc : secondsToCalc);
+      },
+
+
+      // to change the time on the track
+
+      _onDown: function(e) {
+        e.preventDefault();
+        var x, r,
+            player = this;
+
+        x = e.detail.x - player.$.progress.getBoundingClientRect().left;
+        r = (x / player.$.progress.getBoundingClientRect().width) * player.duration;
+        player.currentTime = player.$.audio.currentTime = r;
+      },
+
+      //
+      // If src is changed when track is playing,
+      // pause the track and start playing a new src
+
+      _srcChanged: function(oldValue, newValue) {
+        var player = this;
+
+        if (player.isPlaying) {
+          player.$.audio.pause();
+          player.$.audio.play();
+        }
+      },
+
+      //
+      // If color property is changed,
+      // update all the nodes with the new accent color
+
+      _changeColor: function(newValue) {
+        var player = this;
+        player.querySelector('paper-progress #primaryProgress.paper-progress').style.backgroundColor = newValue;
+        player.$.left.style.backgroundColor = newValue;
+        player.$.title.style.color = newValue;
+        player.$.duration.style.color = newValue;
+        player.$.replay.style.color = newValue;
       }
     });
   </script>

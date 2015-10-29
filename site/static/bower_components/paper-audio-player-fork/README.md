@@ -65,12 +65,11 @@ Then, go ahead and download the player's dependencies:
 
 ## Customization
 
-Attribute     | Options                                 | Description
----           | ---                                     | ---
-`src`         | *string*                                | The URL path to the audio file
-`title`       | *string*                                | Customize the track name
-`color`       | *string*                                | Customize the accent color that will be used
-`auto-play`   | *boolean*                               | Will start playing the audio file automatically
+Attribute | Options                                 | Description
+---       | ---                                     | ---
+`src`     | *string*                                | The URL path to the audio file
+`title`   | *string*                                | Customize the track name
+`color`   | *string*                                | Customize the accent color that will be used
 
 ## Development
 
@@ -96,27 +95,6 @@ After you made any changes, create new CSS file:
     gulp
 
 This will convert Sass into CSS and run [Autoprefixer](https://autoprefixer.github.io/).
-
-## Testing
-
-The tests are compatible with [web-component-tester](https://github.com/Polymer/web-component-tester).
-Install it via:
-
-    npm install -g web-component-tester
-
-Then, you can run your tests on _all_ of your local browsers via:
-
-    wct
-
-Or, simply navigate to the `/test` directory if you are using Polyserve: `http://localhost:8080/components/paper-audio-player/test/`
-
-#### WCT Tips
-
-`wct -l chrome` will only run tests in chrome.
-
-`wct -p` will keep the browsers alive after test runs (refresh to re-run).
-
-`wct test/some-file.html` will test only the files you specify.
 
 ## Contributing
 
