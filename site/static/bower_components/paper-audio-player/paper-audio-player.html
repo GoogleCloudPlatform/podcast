@@ -223,7 +223,7 @@ Custom property                             | Description                       
         <div id="title" class="fit">{{ title }}</div>
 
         <!-- Audio HTML5 element -->
-        <audio id="audio" src="{{ src }}"></audio>
+        <audio id="audio" preload="none" src="{{ src }}"></audio>
 
         <!-- Paper progress bar -->
         <paper-progress id="progress"
@@ -310,18 +310,29 @@ Custom property                             | Description                       
         player.isPlaying = false;
         player.ended = false;
         player.icon = '';
-
       },
 
+      attached: function() {
+        var player = this;
+
+        player.icon = 'av:play-circle-filled';
+        player.$.icon.setAttribute("icon", "av:play-circle-filled");
+        player.$.play.setAttribute("icon", "av:play-circle-filled");
+      },
 
       // Play/Pause controls
 
       playPause: function(e){
         e.preventDefault();
         var player = this;
+        player.init = false;
 
         if ( player.canBePlayed ) {
           return player.isPlaying ? player.$.audio.pause() : player.$.audio.play();
+        } else {
+          //we aren't loaded, then try loading it again, and play straight away.
+          player.$.audio.autoplay = true;
+          player.$.audio.load();
         }
       },
 
@@ -397,6 +408,7 @@ Custom property                             | Description                       
 
       _onError: function() {
         var player = this;
+        player.canBePlayed = false;
         player.classList.add('cantplay');
         player.title = 'Sorry, can\'t play track: ' + player.title;
         player.icon = 'av:not-interested';
@@ -422,6 +434,11 @@ Custom property                             | Description                       
         e.preventDefault();
         var x, r,
             player = this;
+
+        if (!player.canBePlayed) {
+          player.playPause(e);
+          return;
+        }
 
         x = e.detail.x - player.$.progress.getBoundingClientRect().left;
         r = (x / player.$.progress.getBoundingClientRect().width) * player.duration;

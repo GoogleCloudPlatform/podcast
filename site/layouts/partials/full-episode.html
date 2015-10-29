@@ -26,12 +26,6 @@
 
   <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
 
-  <script>
-    var icon = document.getElementById("icon");
-    icon.setAttribute("icon", "av:play-circle-filled");
-    console.log(document.getElementById("icon"));
-  </script>
-
   {{partial "share" .}}
 
 </div>
