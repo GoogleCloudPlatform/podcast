@@ -14,7 +14,7 @@ Contact us: <a href="mailto:hello@gcppodcast.com">hello@gcppodcast.com</a>
 To subscribe to this podcast, there are several options:
 
 - Subscribe directly through our [RSS Feed](https://feeds.feedburner.com/GcpPodcast)
-- Subscribe through iTunes (forthcoming)
+- Subscribe through [iTunes](https://itunes.apple.com/us/podcast/google-cloud-platform-podcast/id1053299163)
 - More options to come...
 
 ### Questions of the Week
