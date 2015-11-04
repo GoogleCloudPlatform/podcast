@@ -9,9 +9,9 @@ description = "In the second episode of this podcast, your hosts Francesc and Ma
 draft = false
 episodeNumber = 2
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-linked=false
-googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/---"
-redditLink = "https://www.reddit.com/r/gcppodcast/comments/---"
+linked=true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/5BhqRa9pkeX"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/3ri8ll/episode_2_compute_as_a_continuum/"
 title = "Compute as a Continuum"
 +++
 
