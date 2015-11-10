@@ -16,8 +16,8 @@ title = "Compute as a Continuum"
 +++
 
 In the second episode of this podcast, your hosts
-[Francesc](https://www.google.com/url?q=http://twitter.com/francesc&sa=D&usg=AFQjCNGTnq_Yah7bSqRnZRo2rLhJksI6Yg) and
-[Mark](https://www.google.com/url?q=http://twitter.com/neurotic&sa=D&usg=AFQjCNHIubvzt0gBnJKnUzGUVF0mpJDwLA) go
+[Francesc](http://twitter.com/francesc) and
+[Mark](http://twitter.com/neurotic) go
 from Infrastructure as a Service to Platform as a Service, as they
 discuss the concept of “Compute as a Continuum”.
 
@@ -26,15 +26,15 @@ discuss the concept of “Compute as a Continuum”.
 Links:
 
 -   [Google Compute
-    Engine](https://www.google.com/url?q=https://cloud.google.com/compute/&sa=D&usg=AFQjCNHecbN-w6v5jfl25g7XElcdgqTxzA)
+    Engine](https://cloud.google.com/compute/)
 -   [App
-    Engine](https://www.google.com/url?q=https://cloud.google.com/appengine/&sa=D&usg=AFQjCNGCbZjb4iWvUmqi4YbH6cIz4NaL0Q)
+    Engine](https://cloud.google.com/appengine/)
 -   [Managed
-    VMs](https://www.google.com/url?q=https://cloud.google.com/appengine/docs/managed-vms/&sa=D&usg=AFQjCNG0rm7hWxnD8BJo2tSvF5Cz9YQPCA)
+    VMs](https://cloud.google.com/appengine/docs/managed-vms/)
 -   [Google Container
-    Engine](https://www.google.com/url?q=https://cloud.google.com/container-engine/&sa=D&usg=AFQjCNEfQJ1bzlSltZP9LrtDB-bsHbut1Q)
+    Engine](https://cloud.google.com/container-engine/)
 -   [Full Speed Ahead with HTTP/2 on Google Cloud
-    Platform](https://www.google.com/url?q=http://googlecloudplatform.blogspot.com/2015/10/Full-Speed-Ahead-with-HTTP2-on-Google-Cloud-Platform.html&sa=D&usg=AFQjCNHERhO0PtV-FawTcDv3_OVlN8KV3A)
+    Platform](http://googlecloudplatform.blogspot.com/2015/10/Full-Speed-Ahead-with-HTTP2-on-Google-Cloud-Platform.html)
 -   [HTTP/HTTPS Load
-    Balancing](https://www.google.com/url?q=https://cloud.google.com/compute/docs/load-balancing/http/&sa=D&usg=AFQjCNFjuM93mGhO7YH4AcWZUhsBKNyAWg)
--   [SSHGuard](https://www.google.com/url?q=http://www.sshguard.net/&sa=D&usg=AFQjCNFXEM0QLzz34vIqugzwzmZ7UUoKpw)
+    Balancing](https://cloud.google.com/compute/docs/load-balancing/http/)
+-   [SSHGuard](http://www.sshguard.net/)
