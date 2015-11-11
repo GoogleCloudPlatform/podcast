@@ -8,10 +8,10 @@ date = "2015-11-11T02:11:26Z"
 description = "In the third episode of this podcast, your hosts Francesc and Mark interview Brian Dorsey, Developer Advocate, Google Cloud Platform about Kubernetes and Google Container Engine."
 draft = false
 episodeNumber = 3
-googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/ADD-LINK"
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-linked = false
-redditLink = "https://www.reddit.com/r/gcppodcast/ADD-LINK"
+linked = true
+googlePlusLink = "https://plus.sandbox.google.com/b/117267610519909886476/+Gcppodcast/posts/NSt5gtukvtT"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/3sf3yr/episode_3_kubernetes_and_google_container_engine/"
 title = "Kubernetes and Google Container Engine"
 +++
 
