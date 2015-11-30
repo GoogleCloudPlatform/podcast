@@ -49,7 +49,7 @@ Links:
 -   [Cloud Source
     Repositories](https://cloud.google.com/tools/cloud-repositories/)
 -   [Deploy a sample application using
-    Node.js](https://pantheon.corp.google.com/start)
+    Node.js](https://console.developers.google.com/start)
 -   [gcloud-intellij on
     GitHub](https://github.com/GoogleCloudPlatform/gcloud-intellij)
 -   Language-specific getting started pages for
