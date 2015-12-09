@@ -140,3 +140,9 @@ footer.footer img {
   }
 }
 
+/* tables */
+
+td {
+  font-size: 14px;
+}
+
