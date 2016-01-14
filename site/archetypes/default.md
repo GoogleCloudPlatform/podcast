@@ -1,5 +1,4 @@
 +++
-2015 = "0"
 draft = true
 title = "ADD TITLE"
 categories = []

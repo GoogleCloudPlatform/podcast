@@ -1,35 +1,42 @@
 <div class="centered mdl-card mdl-cell mdl-shadow--2dp mdl-cell--8-col">
 
-{{ partial "card-header" . }}
+    {{ partial "card-header" . }}
 
-<div class="mdl-card__supporting-text">
+    <div class="mdl-card__supporting-text">
 
-  <div class="hosts">
-    {{ range .Params.hosts }}
-      <img src="/images/hosts/{{ replace . " " "_" }}.png">
-    {{ end }}
-  </div>
+        <div class="hosts">
+            {{ range .Params.hosts }}
+            <img src="/images/hosts/{{ replace . " " "_" }}.png">
+            {{ end }}
+        </div>
 
-	<p>{{ .Content }}</p>
+        <p>{{ .Content }}</p>
 
-  {{ if .Params.linked }}
-  <p>Continue the conversation on:
-    <a href="{{ .Params.googlepluslink}}" target="_blank">Google+</a>
-    or <a href="{{ .Params.redditlink}}" target="_blank">Reddit</a>
-  </p>
-  {{ end }}
+        {{ if .Params.linked }}
+        <p>Continue the conversation on:
+            <a href="{{ .Params.googlepluslink}}" target="_blank">Google+</a>
+            or <a href="{{ .Params.redditlink}}" target="_blank">Reddit</a>
+        </p>
+        {{ end }}
 
-  <footer class="mdl-mini-footer mdl-color--white">
-    <p><strong>Hosts: </strong>{{ delimit .Params.hosts ", " " and " }}</p>
-    <p><strong>Topics: </strong>{{ delimit .Params.categories ", " " and " }}</p>
-  </footer>
+        <footer class="mdl-mini-footer mdl-color--white">
+            <p><strong>Hosts: </strong>{{ delimit .Params.hosts ", " " and " }}</p>
+            <p><strong>Topics: </strong>{{ delimit .Params.categories ", " " and " }}</p>
+        </footer>
 
-  <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
+        <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}"
+                            src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
 
-  {{partial "share" .}}
+        <a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" style="display: block; margin: 10px 0; text-align: right;">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons">file_download</i>
+            </button>Download
+        </a>
 
-</div>
+        {{partial "share" .}}
 
-{{/* partial "pagination.html" $paginator */}}
+    </div>
+
+    {{/* partial "pagination.html" $paginator */}}
 
 </div>

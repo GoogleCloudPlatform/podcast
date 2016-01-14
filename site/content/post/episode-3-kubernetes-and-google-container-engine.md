@@ -1,5 +1,4 @@
 +++
-2015 = "11"
 audioDuration = "00:40:38"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.3.mp3"
 audioSize = 58537298

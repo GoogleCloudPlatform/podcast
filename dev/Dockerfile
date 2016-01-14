@@ -23,7 +23,6 @@ RUN gcloud components update app preview app-engine-python --quiet
 #install appengine
 ENV APPENGINE_VERSION=1.9.30
 RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_amd64-$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
-RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
 
 ENV PATH /go_appengine:/google_appengine:$PATH
 
