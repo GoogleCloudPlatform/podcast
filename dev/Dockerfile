@@ -21,7 +21,7 @@ ENV PATH /google-cloud-sdk/bin:$PATH
 RUN gcloud components update app preview app-engine-python --quiet
 
 #install appengine
-ENV APPENGINE_VERSION=1.9.30
+ENV APPENGINE_VERSION=1.9.31
 RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_amd64-$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
 
 ENV PATH /go_appengine:/google_appengine:$PATH
@@ -41,7 +41,7 @@ WORKDIR /root
 RUN git clone https://github.com/robbyrussell/oh-my-zsh.git
 
 #Hugo
-RUN wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb -O hugo.deb
+RUN wget https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_amd64.deb -O hugo.deb
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 
