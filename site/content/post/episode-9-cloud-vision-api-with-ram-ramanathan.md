@@ -9,9 +9,9 @@ description = "In the ninth episode of this podcast and first of 2016, your host
 draft = false
 episodeNumber = 9
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-linked = false
-googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/ADD-LINK"
-redditLink = "https://www.reddit.com/r/gcppodcast/ADD-LINK"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/1o9FvTxLbgt"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/41uypv/episode_9_cloud_vision_api_with_ram_ramanathan/"
 +++
 
 In the ninth episode of this podcast and first of 2016, your hosts
