@@ -50,20 +50,20 @@ him on twitter at
 
 -   Google Cloud Vision API changes the way applications understand
     images
-    ([blog](http://googlecloudplatform.blogspot.com/2015/12/Google-Cloud-Vision-API-changes-the-way-applications-understand-images.html))
+    [blog](http://googlecloudplatform.blogspot.com/2015/12/Google-Cloud-Vision-API-changes-the-way-applications-understand-images.html)
 -   Google Cloud Vision API
-    ([docs](https://cloud.google.com/vision/))
+    [docs](https://cloud.google.com/vision/)
 -   Google Cloud Vision robot demo
-    ([video](https://www.youtube.com/watch?v=eve8DkkVdhI))
+    [video](https://www.youtube.com/watch?v=eve8DkkVdhI)
 -   Tensorflow
-    ([homepage](https://www.tensorflow.org/))
+    [homepage](https://www.tensorflow.org/)
 -   Mobile Vision SDK
-    ([docs](https://developers.google.com/vision/?hl=en))
+    [docs](https://developers.google.com/vision/?hl=en)
 
 ##### Question of the week
 
 -   Google Cloud Storage Access Control
-    ([docs](https://cloud.google.com/storage/docs/access-control?hl=en))
+    [docs](https://cloud.google.com/storage/docs/access-control?hl=en)
 -   Google Cloud Storage Signed URLs
-    ([docs](https://cloud.google.com/storage/docs/access-control?hl=en#Signed-URLs))
+    [docs](https://cloud.google.com/storage/docs/access-control?hl=en#Signed-URLs)
 
