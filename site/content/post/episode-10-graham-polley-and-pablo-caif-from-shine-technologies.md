@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 10
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Graham Polley & Pablo Caif from Shine Technologies"
-linked = false
-googlePlusLink = "https://plus.google.com/b/117267610519909886476/post/ADD-LINK"
-redditLink = "https://www.reddit.com/r/gcppodcast/ADD-LINK"
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/2wbRQ4YjwPt" 
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/42xyy7/episode_10_google_developer_experts_with_graham/" 
 +++
 
 In the tenth episode of this podcast, your hosts
