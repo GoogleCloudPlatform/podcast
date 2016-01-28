@@ -1,10 +1,10 @@
 +++
-audioDuration = "00:00:05"
+audioDuration = "00:32:05"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.10.mp3"
-audioSize = 0
+audioSize = 46211209
 categories = ["Big Query", "Dataflow", "AppEngine"]
 date = "2016-01-26T01:07:49Z"
-description = "ADD DESCRIPTION"
+description = "In the tenth episode of this podcast, your hosts Francesc and Mark interview Graham Polley and Pablo Caif, who are both Google Developer Experts who work at Shine Technologies."
 draft = false
 episodeNumber = 10
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
