@@ -1,7 +1,7 @@
 +++
 audioDuration = "00:30:40"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.11.mp3"
-audioSize = 0
+audioSize = 44179761
 categories = ["Internet of Things", "Machine Learning"]
 date = "2016-02-03T01:07:49Z"
 description = "In the eleventh episode of this podcast, your hosts Francesc and Mark interview Jen Tong, a Developer Advocate for the Google Cloud Platform, about the Internet of Things."
