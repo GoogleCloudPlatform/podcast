@@ -43,6 +43,7 @@
 			<enclosure url="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" length="{{ .Params.audiosize }}"
 					   type="audio/mpeg"/>
 
+			<itunes:order>{{ .Params.episodenumber }}</itunes:order>
 			<itunes:duration>{{ .Params.audioduration }}</itunes:duration>
 			<itunes:summary>{{ .Summary | html }}</itunes:summary>
 

@@ -45,6 +45,11 @@ img[src*="hosts"] {
   width: auto;
 }
 
+/* give the share button some room if the title goes all the way across */
+.mdl-card__title-text {
+  margin-right: 40px;
+}
+
 paper-fab {
   width: 45px;
   height: 45px;
