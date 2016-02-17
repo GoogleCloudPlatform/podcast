@@ -4,14 +4,14 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.13.mp3"
 audioSize = 44629933 
 categories = ["Firebase"]
 date = "2016-02-17T01:07:49Z"
-description = "In the thirteenth episode of this podcast, your hosts Francesc and Mark interview Sara Robinson and Vikrum Nijjar about Firebase. Sara isnow a Developer Advocate for Google Cloud Platform but was part of Firebase until recently, and Vikrum - Firebase employee #1 - works as a Site Reliance Engineer for Firebase."
+description = "In the thirteenth episode of this podcast, your hosts Francesc and Mark interview Sara Robinson and Vikrum Nijjar about Firebase. Sara is now a Developer Advocate for Google Cloud Platform but was part of Firebase until recently, and Vikrum - Firebase employee #1 - works as a Site Reliance Engineer for Firebase."
 draft = false
 episodeNumber = 13
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Firebase with Sara Robinson and Vikrum Nijjar"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/QawegRJhnkw"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/469if6/episode_13_firebase_with_sara_robinson_and_vikrum/"
 +++
 
 In the thirteenth episode of this podcast, your hosts
