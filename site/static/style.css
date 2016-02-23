@@ -201,3 +201,8 @@ paper-fab.gplus {
 paper-fab.facebook {
   background: #3b5999!important;
 }
+
+/* pagination */
+.nav-next {
+  float: right;
+}

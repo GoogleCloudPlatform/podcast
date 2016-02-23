@@ -1,9 +1,12 @@
-<nav>
-	{{if .HasPrev}}
-	<a class="archive_nav back" href="{{ .Prev.URL }}"><img src="/images/nav_left.png" /></a>
-	{{end}}
-
-	{{if .HasNext}}
-	<a class="archive_nav forward" href="{{ .Next.URL }}"><img src="/images/nav_right.png" /></a>
-	{{end}}
-</nav>
+<div class="centered mdl-cell mdl-cell--8-col">
+    {{if .HasPrev}}
+        <a href="{{ .Prev.URL }}" class="nav-previous mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">arrow_back</i>
+        </a>
+    {{end}}
+    {{if .HasNext}}
+        <a href="{{ .Next.URL }}" class="nav-next mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">arrow_forward</i>
+        </a>
+    {{end}}
+</div>
