@@ -1,6 +1,5 @@
 [core]
 project = gcppodcast
-account = campoy@google.com
 
 [app]
 suppress_change_warning = true

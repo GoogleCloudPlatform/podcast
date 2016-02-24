@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 14
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Storage with Paul Newson"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/FNJsej8UCww"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/47dj9w/episode_14_storage_with_paul_newson/"
 +++
 
 In the fourteenth episode of this podcast, your hosts
