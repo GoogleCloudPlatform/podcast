@@ -11,7 +11,8 @@
   </div>
 
 
-  <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}">
+  <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" preload="none"
+  	src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}">
   </paper-audio-player>
 
   {{partial "share" .}}

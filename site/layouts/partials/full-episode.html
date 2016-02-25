@@ -24,7 +24,7 @@
             <p><strong>Topics: </strong>{{ delimit .Params.categories ", " " and " }}</p>
         </footer>
 
-        <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}"
+        <paper-audio-player color="rgb(0,150,136)" title="{{ .Title }}" preload="none"
                             src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
 
         <a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" style="display: block; margin: 10px 0; text-align: right;">

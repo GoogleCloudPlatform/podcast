@@ -2,7 +2,10 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../paper-progress/paper-progress.html">
 <link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../iron-icons/iron-icons.html">
+<link rel="import" href="../paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../iron-icons/av-icons.html">
+<link rel="import" href="../paper-ripple/paper-ripple.html">
 
 <!--
 A custom audio player with material paper style and clean design.
@@ -45,7 +48,7 @@ Custom property                             | Description                       
 
       :host {
         display: block;
-        margin: auto;
+        margin: auto 10px;
         box-sizing: border-box;
         width: 100%;
         font-family: 'Roboto Mono', 'Helvetica Neue', Arial, sans-serif;
@@ -64,6 +67,7 @@ Custom property                             | Description                       
         width: 50px;
         position: relative;
       }
+
       #left {
         background-color:  var(--paper-audio-player-color, blueviolet);
       }
@@ -72,75 +76,80 @@ Custom property                             | Description                       
         background-color: rgba(255,255,255,.75);
       }
 
-      #time,
-      #icon,
-      #play {
+      paper-icon-button,
+      iron-icon {
         color: #fff;
       }
 
-      #time,
       #duration,
-      #title {
+      #title,
+      #progress2 {
         text-align: center;
         line-height: 50px;
       }
 
-      #time,
       #duration {
         font-size: 11px;
-      }
-
-      #duration {
         color: var(--paper-audio-player-color, blueviolet);
       }
 
-      #icon,
-      #play,
-      #replay {
+      paper-icon-button,
+      iron-icon {
         margin: auto;
       }
 
       #replay {
+        opacity: 0;
         color: var(--paper-audio-player-color, blueviolet);
       }
 
-      #icon,
-      #replay {
-        opacity: 0;
+      #title,
+      #progress2 {
+        pointer-events: none;
+        font-size: 15px;
       }
 
       #title {
-        pointer-events: none;
         z-index: 2;
-        font-size: 15px;
         color: var(--paper-audio-player-color, blueviolet);
       }
 
-      paper-progress {
+      #progress2 {
+        width: 0px;
+        z-index: 5;
+        color: #fff;
+        overflow: hidden;
+      }
+
+      #center {
         position: relative;
+        overflow: hidden;
+        background-color: rgba(255,255,255,.75);
+      }
+
+      #progress {
         width: 100%;
-        --paper-progress-active-color: var(--paper-audio-player-color, blueviolet);
-        --paper-progress-height: 50px;
-        --paper-progress-container-color: rgba(255,255,255,.75);
+        transform-origin: left;
+        transform: scaleX(0);
+        background-color: var(--paper-audio-player-color, blueviolet);
+      }
+
+      paper-ripple {
+        color: var(--paper-audio-player-color, blueviolet);
       }
 
       /* On hover */
 
-      #left:hover #icon,
       :host:not(.cantplay) #right:hover #replay {
         opacity: 1;
       }
 
-      #left:hover #time,
       #right:hover #duration {
         opacity: 0;
       }
 
-      :host:not(.cantplay) #center:hover #title{
-        color: #333 !important;
-      }
-
-      #left:hover #play {
+      #left:hover #play,
+      #left:hover #pause {
         transform: scale3d(1.1, 1.1, 1.1);
         -ms-transform: scale3d(1.1, 1.1, 1.1);
         -webkit-transform: scale3d(1.1, 1.1, 1.1);
@@ -158,10 +167,6 @@ Custom property                             | Description                       
 
       :host(.cantplay) #play {
         opacity: 0;
-      }
-
-      :host(.cantplay) #icon {
-        opacity: 1;
       }
 
       /* Flexbox Helpers */
@@ -206,32 +211,30 @@ Custom property                             | Description                       
 
       <div id="left"
            class="self-start"
-           on-click="playPause">
+           on-tap="playPause">
 
         <!-- Icon -->
-        <iron-icon id="icon" class="fit" icon="{{ icon }}" hidden$="{{ !isPlaying }}"></iron-icon>
-        <iron-icon id="play" class="fit" hidden$="{{ isPlaying }}"></iron-icon>
-
-        <!-- Current time -->
-        <div id="time" class="fit" hidden$="{{ !isPlaying }}">
-          <span class="fit">{{ _convertSecToMin(currentTime) }}</span>
-        </div>
+        <paper-icon-button id="play" icon="av:play-arrow" class="fit" hidden$="{{ _hidePlayIcon(isPlaying, canBePlayed) }}"></paper-icon-button>
+        <paper-icon-button id="pause" icon="av:pause" class="fit" hidden$="{{ !isPlaying }}"></paper-icon-button>
+        <iron-icon id="error" icon="error-outline" class="fit" hidden$="{{ !error }}"></iron-icon>
       </div>
 
-      <div id="center" class="flex">
+      <div id="center" class="flex" on-down="_onDown">
         <!-- Title -->
         <div id="title" class="fit">{{ title }}</div>
 
         <!-- Audio HTML5 element -->
-        <audio id="audio" preload="none" src="{{ src }}"></audio>
+        <audio id="audio" src="{{ src }}" preload="{{ preload }}"></audio>
 
-        <!-- Paper progress bar -->
-        <paper-progress id="progress"
-                        step=0.001
-                        value="[[ currentTime ]]"
-                        max="[[ duration ]]"
-                        min=0
-                        on-down="_onDown"></paper-progress>
+        <!-- Progress bar -->
+        <div id="progress" class="fit"></div>
+
+        <paper-ripple></paper-ripple>
+
+        <!-- Secondary white title -->
+        <div id="progress2" class="fit">
+          <div id="title2">{{ title }}</div>
+        </div>
       </div>
 
       <div id="right"
@@ -240,11 +243,11 @@ Custom property                             | Description                       
 
         <!-- Duration -->
         <div id="duration" class="fit" hidden$="{{ ended }}">
-          <span class="fit">{{ _convertSecToMin(duration) }}</span>
+          <span class="fit">{{ _convertSecToMin(timeLeft) }}</span>
         </div>
 
         <!-- Icon -->
-        <iron-icon id="replay" class="fit" icon="av:replay"></iron-icon>
+        <paper-icon-button id="replay" class="fit" icon="av:replay"></paper-icon-button>
       </div>
     </div>
   </template>
@@ -273,12 +276,23 @@ Custom property                             | Description                       
           type: Boolean,
           value: false
         },
+        preload: {
+          type: String,
+          value: 'auto'
+        },
         currentTime: {
           type: Number,
           value: 0,
           notify: true
         },
-        duration: {
+        timeLeft: {
+          type: Number,
+          value: 0
+        },
+        error: {
+          type: Boolean
+        },
+        timeOffset: {
           type: Number,
           value: 0
         }
@@ -309,30 +323,30 @@ Custom property                             | Description                       
         player.canBePlayed = false;
         player.isPlaying = false;
         player.ended = false;
-        player.icon = '';
+        player.error = false;
+        player.$.audio.currentTime = player.timeOffset; // apply the audio start time property
+
+        // If player has auto-play attribute set,
+        // it ignores preload="none" property and starts playing on load.
+        // This behavior corresponds to the native audio element behavior.
+        if (player.autoPlay) player.$.audio.play();
       },
 
-      attached: function() {
-        var player = this;
-
-        player.icon = 'av:play-circle-filled';
-        player.$.icon.setAttribute("icon", "av:play-circle-filled");
-        player.$.play.setAttribute("icon", "av:play-circle-filled");
-      },
 
       // Play/Pause controls
 
       playPause: function(e){
         e.preventDefault();
         var player = this;
-        player.init = false;
 
         if ( player.canBePlayed ) {
           return player.isPlaying ? player.$.audio.pause() : player.$.audio.play();
-        } else {
-          //we aren't loaded, then try loading it again, and play straight away.
-          player.$.audio.autoplay = true;
+        } else if (player.preload === 'none') {
+          // If player can't be played, because audio wasn't pre-loaded
+          // due to the preload="none" property set,
+          // load the audio file at this point and start playing it immediately
           player.$.audio.load();
+          player.$.audio.play();
         }
       },
 
@@ -352,10 +366,16 @@ Custom property                             | Description                       
       _onCanPlay: function() {
         var player = this;
         player.canBePlayed = true;
-        player.icon = 'av:pause-circle-outline';
-        player.$.play.setAttribute('icon', 'av:play-circle-outline');
-        player.duration = player.$.audio.duration;
-        if (player.autoPlay) player.$.audio.play();
+        player.timeLeft = player.$.audio.duration;
+        player.$.title2.style.width = player.$.center.getBoundingClientRect().width + 'px'; // TODO upd on window resize
+
+        // If player has a Time Offset specified
+        // style the progress bar and title accordingly
+        if (player.timeOffset > 0) {
+          var percentagePlayed = player.timeOffset / player.$.audio.duration;
+          player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
+          player.$.progress2.style.width = percentagePlayed * player.$.center.getBoundingClientRect().width + 'px';
+        }
       },
 
 
@@ -365,6 +385,7 @@ Custom property                             | Description                       
         var player = this;
         player.ended = false;
         player.isPlaying = true;
+        player.$.replay.style = '';       // remove Replay inline styling
         player._startProgressTimer();
       },
 
@@ -376,13 +397,21 @@ Custom property                             | Description                       
         player.timer = {};
 
         if (player.timer.sliderUpdateInterval) { clearInterval(player.timer.sliderUpdateInterval); }
+
         player.timer.sliderUpdateInterval = setInterval( function(){
           if ( player.isPlaying ) {
             player.currentTime = player.$.audio.currentTime;
+            player.timeLeft = player.$.audio.duration - player.currentTime;
+
+            var percentagePlayed = player.currentTime / player.$.audio.duration;
+
+            player.$.progress.style.transform = 'translateX('+(-1 * player.$.center.getBoundingClientRect().width + percentagePlayed * player.$.center.getBoundingClientRect().width)+'px)';
+            player.$.progress2.style.width = percentagePlayed * player.$.center.getBoundingClientRect().width + 'px';
+
           } else {
             clearInterval(player.timer.sliderUpdateInterval);
           }
-        }, 120);
+        }, 60);
       },
 
 
@@ -400,7 +429,7 @@ Custom property                             | Description                       
         var player = this;
         player.ended = true;
         player.isPlaying = false;
-        player.currentTime = 0;
+        player.$.replay.style.opacity = 1;    // display Replay icon
       },
 
 
@@ -408,41 +437,63 @@ Custom property                             | Description                       
 
       _onError: function() {
         var player = this;
-        player.canBePlayed = false;
         player.classList.add('cantplay');
         player.title = 'Sorry, can\'t play track: ' + player.title;
-        player.icon = 'av:not-interested';
-        player.$.icon.removeAttribute('hidden');
+        player.error = true;
       },
 
 
       // to convert seconds to 'm:ss' format
 
       _convertSecToMin: function(seconds){
-        if (seconds === 0) {
-          return '';
-        }
+        if (seconds === 0) return '';
+
         var minutes = Math.floor(seconds / 60);
         var secondsToCalc = Math.floor(seconds % 60) + '';
         return minutes + ':' + (secondsToCalc.length < 2 ? '0' + secondsToCalc : secondsToCalc);
       },
 
 
-      // to change the time on the track
+      //
+      // When user clicks somewhere on the progress bar
 
       _onDown: function(e) {
         e.preventDefault();
-        var x, r,
-            player = this;
+        var player = this;
 
-        if (!player.canBePlayed) {
-          player.playPause(e);
-          return;
+        if (player.canBePlayed) {
+          player._updateProgressBar(e);
+          if (!player.isPlaying) player.$.audio.play();
+
+          // When preload="none" is being used,
+          // player should first try to load the audio,
+          // and when it's successfully loaded, recalculate the progress bar
+        } else if (player.preload === 'none') {
+          player.$.audio.load();
+          player.$.audio.addEventListener('loadedmetadata', function() {
+            player._updateProgressBar(e);
+            if (!player.isPlaying) player.$.audio.play();
+          }, false);
         }
+      },
 
-        x = e.detail.x - player.$.progress.getBoundingClientRect().left;
-        r = (x / player.$.progress.getBoundingClientRect().width) * player.duration;
+      //
+      // Helper function
+      // that recalculates the progress bar position
+      // based on the event.click position
+
+      _updateProgressBar: function(e) {
+        var player = this;
+
+        var x = e.detail.x - player.$.center.getBoundingClientRect().left;
+        var r = (x / player.$.center.getBoundingClientRect().width) * player.$.audio.duration;
+
         player.currentTime = player.$.audio.currentTime = r;
+
+        var percentagePlayed = player.currentTime / player.$.audio.duration;
+        player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
+
+        player.$.progress2.style.width = x + 'px';
       },
 
       //
@@ -464,11 +515,15 @@ Custom property                             | Description                       
 
       _changeColor: function(newValue) {
         var player = this;
-        player.querySelector('paper-progress #primaryProgress.paper-progress').style.backgroundColor = newValue;
         player.$.left.style.backgroundColor = newValue;
         player.$.title.style.color = newValue;
         player.$.duration.style.color = newValue;
+        player.$.progress.style.backgroundColor = newValue;
         player.$.replay.style.color = newValue;
+      },
+
+      _hidePlayIcon: function(isPlaying, canBePlayed){
+        return isPlaying ? true : !(canBePlayed || this.preload === 'none');
       }
     });
   </script>
