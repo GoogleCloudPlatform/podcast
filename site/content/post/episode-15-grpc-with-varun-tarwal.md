@@ -4,14 +4,14 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.15.mp3"
 audioSize = 65496290 
 categories = ["gRPC", "Protocol Buffers", "Firebase", "Mobile"]
 date = "2016-03-01T01:07:49Z"
-description = "In the fifteenth episode of this podcast, your hosts Francesc and Mark interview Varun Talwar, a Pfor Google Cloud Platform and former Software Engineer on the Cloud Storage team at Google."
+description = "In the fifteenth episode of this podcast, your hosts Francesc and Mark interview Varun Talwar. Varun is a product manager in charge of gRPC, an open source project created at Google that helps you build distributed systems like we do internally at Google."
 draft = false
 episodeNumber = 15
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "gRPC with Varun Tarwal"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/9LeAaEkGejR"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/48mvx6/episode_15_grpc_with_varun_tarwal/"
 +++
 
 In the fifteenth episode of this podcast, your hosts
