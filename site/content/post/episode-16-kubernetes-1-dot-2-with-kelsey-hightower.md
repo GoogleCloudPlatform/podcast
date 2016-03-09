@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 16
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Kubernetes 1.2 with Kelsey Hightower"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/6CMRdVHxee7"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/49p707/episode_16_kubernetes_12_with_kelsey_hightower/"
 +++
 
 In the sixteenth episode of this podcast, your hosts
