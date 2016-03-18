@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 17
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "The Cloud In Africa with Hiren Patel and Dale Humby"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/aj11VzcmDHo"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4ao3ge/episode_17_the_cloud_in_africa_with_hiren_patel/"
 +++
 
 In the seventeenth episode of this podcast, your hosts
