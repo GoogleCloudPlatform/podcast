@@ -1,5 +1,6 @@
 [core]
-project = intense-pointer-860
+project = gcppodcast
+account = campoy@google.com
 
 [app]
 suppress_change_warning = true

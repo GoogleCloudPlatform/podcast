@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 18
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Bigtable with Ian Lewis"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/JgVZ56gRYSm"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4bn91p/episode_18_bigtable_with_ian_lewis/"
 +++
 
 In the eighteenth episode of this podcast, your hosts
