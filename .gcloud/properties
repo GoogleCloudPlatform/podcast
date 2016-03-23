@@ -1,6 +1,9 @@
 [core]
-project = gcppodcast
+project = intense-pointer-860
 
 [app]
 suppress_change_warning = true
+
+[compute]
+zone = us-central1-c
 
