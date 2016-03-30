@@ -12,7 +12,7 @@ build: clean
 	hugo
 
 deploy: build
-	gcloud preview app deploy app.yaml --no-promote
+	gcloud preview app deploy app.yaml --project gcppodcast --no-promote
 
 deploy-default: build
-	gcloud preview app deploy app.yaml --promote
+	gcloud preview app deploy app.yaml --project gcppodcast --promote
