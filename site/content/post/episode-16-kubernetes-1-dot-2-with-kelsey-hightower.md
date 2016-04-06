@@ -2,7 +2,7 @@
 audioDuration = "00:37:11"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.16.mp3"
 audioSize = 53541850
-categories = ["kubernetes"]
+categories = ["Kubernetes"]
 date = "2016-03-09T01:07:49Z"
 description = "In the sixteenth episode of this podcast, your hosts Francesc and Mark interview Kelsey Hightower. Kelsey is a developer advocate for Google Cloud Platform and will tell us what is coming up with the next Kubernetes version."
 draft = false
