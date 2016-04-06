@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 20
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Node.js with Justin Beckwith"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/ftX2GacdfPS"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4dm8h5/episode_20_nodejs_with_justin_beckwith/"
 +++
 
 In the twentieth episode of this podcast, your hosts
