@@ -2,8 +2,8 @@
 audioDuration = "00:28:27"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.20.mp3"
 audioSize = 41016526
-categories = ["Node JS", "App Engine", "Open Source"]
-date = "2016-04-16T01:07:49Z"
+categories = ["Node.js", "App Engine", "Open Source"]
+date = "2016-04-06T01:07:49Z"
 description = "In the twentieth episode of this podcast, your hosts Francesc and Mark interview Justin Beckwith, a Product Manager at Google Cloud Platform, about how Node.js and the cloud work together."
 draft = false
 episodeNumber = 20
