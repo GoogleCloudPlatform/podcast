@@ -48,7 +48,7 @@ Take a tour of GCP Next playground on [YouTube](https://www.youtube.com/watch?v=
 ![Surprised hosts](https://gist.githubusercontent.com/GCPEmotobooth/005126b19112c95e1842/raw/90883a1032c599c97eedcd514419603b777fc003/_photo3.png "Surprised GCPPodcast hosts")
 
 
-###### Violet Peñas
+###### Violet Peña
 
 - Engineer working on Emotobooth
 - Cloud Vision API Face Detection [tutorial](https://cloud.google.com/vision/docs/face-tutorial)
@@ -57,7 +57,7 @@ Take a tour of GCP Next playground on [YouTube](https://www.youtube.com/watch?v=
 ![Face detection in action](https://pbs.twimg.com/media/CeRuh5QUkAIsNoZ.jpg:medium "Face Detection in Action")
 
 
-###### Chris Tzaperas
+###### Nick Tzaperas
 
 - Backend Developer at Instrument working on QueryIt!
 - Query Plan Explanation [docs](https://cloud.google.com/bigquery/query-plan-explanation)
