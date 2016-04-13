@@ -9,9 +9,10 @@ draft = false
 episodeNumber = 21
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Amazing Demos from GCP Next with Instrument"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/cdXrb9aj7Uj"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4em6kh/episode_21_amazing_demos_from_gcp_next_with/"
+externalimage = "https://gist.githubusercontent.com/GCPEmotobooth/005126b19112c95e1842/raw/90883a1032c599c97eedcd514419603b777fc003/_photo3.png"
 +++
 
 In the twenty first episode of this podcast, your hosts

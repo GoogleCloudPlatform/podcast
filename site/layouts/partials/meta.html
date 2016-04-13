@@ -23,6 +23,9 @@
     {{if .Params.image}}
         <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{.Params.image}}" />
         <meta property="og:image" content="{{ .Site.BaseURL }}/{{.Params.image}}" />
+    {{ else if .Params.externalimage }}
+        <meta name="twitter:image" content="{{.Params.externalimage}}" />
+        <meta property="og:image" content="{{.Params.externalimage}}" />
     {{ else if isset .Site.Params "logo" }}
         <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{.Site.Params.logo}}" />
         <meta property="og:image" content="{{ .Site.BaseURL }}/{{.Site.Params.logo}}" />
