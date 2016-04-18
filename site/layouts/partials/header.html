@@ -65,8 +65,10 @@
 
         <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
             for="subscribe-menu" id="subscribe-dropdown">
-          <li class="mdl-menu__item"><a href="{{ .Site.Params.rssFeed }}">RSS Feed</a></li>
-          <li class="mdl-menu__item"><a href="{{ .Site.Params.itunesURL }}">iTunes</a></li>
+          <li class="mdl-menu__item"><a href="{{ .Site.Params.rssFeed }}" target="_blank">RSS Feed</a></li>
+          <li class="mdl-menu__item"><a href="{{ .Site.Params.itunesURL }}" target="_blank">iTunes</a></li>
+          <li class="mdl-menu__item"><a href="{{ .Site.Params.googleMusicURL }}" target="_blank">Google Play Music</a></li>
+          <li class="mdl-menu__item"><a href="{{ .Site.Params.emailFBURL }}" target="_blank">Email</a></li>
         </ul>
       </nav>
     </div>
