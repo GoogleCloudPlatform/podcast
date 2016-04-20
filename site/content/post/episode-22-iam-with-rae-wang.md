@@ -4,22 +4,21 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.22.mp3"
 audioSize = 48483940
 categories = ["IAM", "Security", "Authentication"]
 date = "2016-04-20T01:07:49Z"
-description = "In the twenty second episode of this podcast, your hosts Francesc and Mark interview Rae Wang, a Product Manager at Google that works among other projects on IAM."
+description = "In the twenty second episode of this podcast, your hosts Francesc and Mark interview Rae Wang, a Product Manager at Google, about IAM on the Google Cloud Platform."
 draft = false
 episodeNumber = 22
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "IAM with Rae Wang"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/XxX2LUVeDZT"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4fo5p2/episode_22_iam_with_rae_wang/"
 +++
 
 In the twenty second episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
 [Rae Wang](https://www.linkedin.com/in/raewang),
-a Product Manager at Google that works among other
-projects on IAM.
+a Product Manager at Google, about IAM on the Google Cloud Platform.
 <!--more-->
 
 ##### About Rae
