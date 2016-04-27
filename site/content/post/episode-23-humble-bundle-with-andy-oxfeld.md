@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 23
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Humble Bundle with Andy Oxfeld"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/ZCu4ZRhXRuy"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4gp4i5/episode_23_humble_bundle_with_andy_oxfeld/"
 +++
 
 Andy Oxfeld, Engineering Manager at Humble Bundle,
