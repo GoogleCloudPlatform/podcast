@@ -35,7 +35,7 @@ such as Warhammer Online: Age of Reckoning.
 ##### Interviews
 
 - Humble Bundle has raised over $70 Million for charity.
-- [App Engine](https://cloud.google.com/appengine/) to handle speaky traffic.
+- [App Engine](https://cloud.google.com/appengine/) to handle spiky traffic.
 - Codebase written in [Python](https://www.python.org/).
 - [Google Cloud Datastore](https://cloud.google.com/datastore/) to store data.
 - [Task Queues](https://cloud.google.com/appengine/docs/python/taskqueue/) to be able to retry tasks (payments) and to schedule events.
