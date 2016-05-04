@@ -1,4 +1,4 @@
-FROM golang:1.4.2
+FROM golang:1.6
 
 RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server python-crcmod
 WORKDIR /
@@ -21,7 +21,7 @@ ENV PATH /google-cloud-sdk/bin:$PATH
 RUN gcloud components update app preview app-engine-python --quiet
 
 #install appengine
-ENV APPENGINE_VERSION=1.9.31
+ENV APPENGINE_VERSION=1.9.36
 RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_amd64-$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
 
 ENV PATH /go_appengine:/google_appengine:$PATH
@@ -31,7 +31,6 @@ RUN go get github.com/constabulary/gb/...
 RUN go get code.palmstonegames.com/gb-gae
 RUN go get github.com/golang/lint/golint
 RUN go get golang.org/x/tools/cmd/goimports
-RUN go get golang.org/x/tools/cmd/vet
 RUN mv /go/bin/* /usr/local/bin
 RUN rm -rf /go/*
 

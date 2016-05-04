@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 23
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Humble Bundle with Andy Oxfeld"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/ZCu4ZRhXRuy"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4gp4i5/episode_23_humble_bundle_with_andy_oxfeld/"
 +++
 
 Andy Oxfeld, Engineering Manager at Humble Bundle,
@@ -35,8 +35,8 @@ such as Warhammer Online: Age of Reckoning.
 ##### Interviews
 
 - Humble Bundle has raised over $70 Million for charity.
-- [App Engine](https://cloud.google.com/appengine/) to handle speaky traffic.
-- Codebase written in [Go](https://golang.org).
+- [App Engine](https://cloud.google.com/appengine/) to handle spiky traffic.
+- Codebase written in [Python](https://www.python.org/).
 - [Google Cloud Datastore](https://cloud.google.com/datastore/) to store data.
 - [Task Queues](https://cloud.google.com/appengine/docs/python/taskqueue/) to be able to retry tasks (payments) and to schedule events.
 - [Memcache](https://cloud.google.com/appengine/docs/python/memcache/) to reduce latency and increase throughput.
