@@ -4,5 +4,6 @@
 .idea
 *.iml
 /site/public/*
+/site/*.json
 /public
 

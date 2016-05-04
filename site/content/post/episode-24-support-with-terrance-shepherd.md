@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 24
 hosts = ["Francesc Campoy Flores", "Mark Mandel", "Brian Dorsey"]
 title = "Google Cloud Platform Support with Terrance Shepherd"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/Qbua4deCUqE"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4hvdn5/episode_24_google_cloud_platform_support_with/"
 +++
 
 Today our guest star host, [Brian Dorsey](https://twitter.com/briandorsey),
@@ -23,7 +23,7 @@ Engineer working for Google Cloud Platform's Support Team.
 ##### About Terrance
 
 Terrance is a Technical Solutions Engineer working for Google Cloud
-Platform's Support Team. He has been working with to help customers
+Platform's Support Team. He has been working to help customers
 from single person developers to Enterprises with 100's of Developers
 for the last 16 months. Terrance also leads the Cloud Platform Support
 new product review process, where the Support team has input on
