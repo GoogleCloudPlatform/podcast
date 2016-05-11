@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 25
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Go on the Cloud with Andrew Gerrand and Chris Broadfoot"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/H1w7MQzPmNE"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4ivs2i/episode_25_go_on_the_cloud_with_andrew_gerrand/"
 +++
 
 Join us today for a conversation with [Andrew Gerrand](https://twitter.com/enneff)
