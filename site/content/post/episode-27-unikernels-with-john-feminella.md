@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 27
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Unikernels with John Feminella"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/C9yNGp9EAvv"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4l0nfs/episode_27_unikernels_with_john_feminella/"
 +++
 
 [John Feminella](https://twitter.com/jxxf), Technical Advisor at Pivotal, tells
