@@ -9,13 +9,14 @@ draft = false
 episodeNumber = 26
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "War Dragons with Gustavo Ambrozio"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/PZjQAbwyaXV"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4jxt9q/episode_26_war_dragons_with_gustavo_ambrozio/"
+image="/images/post/war_dragons.png"
 +++
 
-Gustavo Ambrozio, from Pocket Gems, tells us about how they implemented and how they
-run War Dragons with the power of Google Cloud Platform.
+[Gustavo Ambrozio](https://twitter.com/gpambrozio), from [Pocket Gems](http://pocketgems.com/), tells us about how they implemented and how they
+run [War Dragons](http://wardragons.com/) with the power of Google Cloud Platform.
 
 Learn how an incredibly popular mobile game can scale and provide social features,
 analytics, while keeping high throughput that enables low latency.
@@ -35,7 +36,7 @@ is having fun living in sunny California developing mobile games for Pocket Gems
 
 ##### Interviews
 
-- [War Dragons](http://wardragons.com/) is a game by [PocketGems[(http://pocketgems.com/)
+- [War Dragons](http://wardragons.com/) is a game by [PocketGems](http://pocketgems.com/)
 - Google App Engine [docs](https://cloud.google.com/appengine)
 - Scaling mobile games to a global audience using App Engine and Cloud Datastore [GCPNext video](https://youtu.be/9nWyWwY2Onc)
 - Google Cloud Datastore [docs](https://cloud.google.com/datastore/docs)
