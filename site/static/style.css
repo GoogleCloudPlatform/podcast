@@ -50,6 +50,10 @@ img[src*="hosts"] {
   margin-right: 40px;
 }
 
+.postDate {
+  padding-top: 0;
+}
+
 paper-fab {
   width: 45px;
   height: 45px;
