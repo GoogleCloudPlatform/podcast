@@ -15,6 +15,16 @@ handlers:
     secure: optional
 
   # index files
+  - url: /categories/(.+)/
+    static_files: public/categories/\1/index.html
+    upload: public/categories/(.+)/index.html
+    secure: always
+
+  - url: /categories/(.+)
+    static_files: public/categories/\1/index.html
+    upload: public/categories/(.+)/index.html
+    secure: always
+
   - url: /(.+)/
     static_files: public/\1/index.html
     upload: public/(.+)/index.html
