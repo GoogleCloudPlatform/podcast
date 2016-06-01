@@ -22,6 +22,8 @@ button a, button a:visited, button a:hover {
   color: inherit;
 }
 
+/* an actual post */
+
 /* scaling for responsiveness */
 img {
   max-width: 100%;
@@ -50,11 +52,27 @@ img[src*="hosts"] {
   margin-right: 40px;
 }
 
+.postDate {
+  padding-top: 0;
+}
+
+#podcast-download {
+  display: block;
+  margin: 10px 0;
+  text-align: right;
+}
+
+footer.podcast-topic a {
+  text-decoration: underline;
+  color: rgb(255, 82, 82);
+}
+
 paper-fab {
   width: 45px;
   height: 45px;
-  background: rgb(255,82,82);
+  background: rgb(255, 82, 82);
 }
+
 .dropdown-content paper-fab {
   width: 35px;
   height: 35px;
@@ -63,7 +81,7 @@ paper-fab {
 }
 
 #subscribe-menu {
-  background: rgb(255,82,82);
+  background: rgb(255, 82, 82);
 }
 
 /* rhs subscribe menu styles */
@@ -77,11 +95,11 @@ paper-fab {
 }
 
 footer {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
   flex-direction: col;
   padding: 20px 0 !important;
 }
@@ -93,19 +111,19 @@ footer .mdl-mini-footer__middle-section {
 
 footer div {
   display: inline-block;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
   padding: 0;
   margin: 0;
-  -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-  -moz-box-flex: 1;         /* OLD - Firefox 19- */
-  width: 20%;               /* For old syntax, otherwise collapses. */
-  -webkit-flex: 1;          /* Chrome */
-  -ms-flex: 1;              /* IE 10 */
-  flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1; /* OLD - Firefox 19- */
+  width: 20%; /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1; /* Chrome */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
 footer a {
@@ -145,10 +163,12 @@ footer.footer img {
   .right-hand-nav {
     display: none;
   }
+
   span.mdl-layout-title {
     width: 100%;
     text-align: center;
   }
+
   span.mdl-layout-title img {
     max-width: 400px;
     width: 100%;
@@ -193,13 +213,15 @@ iron-dropdown iron-icon#icon {
 }
 
 paper-fab.twitter {
-  background: #55acee!important;
+  background: #55acee !important;
 }
+
 paper-fab.gplus {
-  background: #f44336!important;
+  background: #f44336 !important;
 }
+
 paper-fab.facebook {
-  background: #3b5999!important;
+  background: #3b5999 !important;
 }
 
 /* pagination */

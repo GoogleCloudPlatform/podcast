@@ -24,6 +24,3 @@ paginate = 10
 
 [taxonomies]
   category = "categories"
-  2015 = "2015" #http://discuss.gohugo.io/t/pagination-and-group-by-date/1441
-  2016 = "2016"
-  2017 = "2017"

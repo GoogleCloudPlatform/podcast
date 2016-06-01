@@ -4,3 +4,6 @@
       <span class="episode-number">#{{ .Params.episodenumber }}</span> {{ .Title }}</a>
   </header>
 </div>
+<div class="mdl-card__supporting-text postDate">
+  {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+</div>
