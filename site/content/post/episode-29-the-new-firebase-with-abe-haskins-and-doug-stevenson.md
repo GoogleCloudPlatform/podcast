@@ -23,7 +23,7 @@ announced for Firebase!
 
 ##### About Abe
 
-[Abe](https://twitter.com/abeisgreat) us a Developer Programs Engineer on the Firebase team who works closely with the 
+[Abe](https://twitter.com/abeisgreat) is a Developer Programs Engineer on the Firebase team who works closely with the 
 Database team and contributes to many of Firebase’s open-source projects.
 
 ##### About Doug
