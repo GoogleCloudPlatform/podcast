@@ -4,14 +4,14 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.29.mp3"
 audioSize = 56590328
 categories = ["Firebase"]
 date = "2016-06-08T01:07:49Z"
-description = ""
+description = "Fresh off the press from Google I/O 2016, Francesc and Mark talk to Abe Haskins and Doug Stevenson about all the new features and improvements that have recently been announced for Firebase!"
 draft = false
 episodeNumber = 29
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "The New Firebase with Abe Haskins and Doug Stevenson"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/ATAmruyarHQ"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4n5a3o/episode_29_the_new_firebase_with_abe_haskins_and/"
 +++
 
 Fresh off the press from [Google I/O 2016](https://events.google.com/io2016/), [Francesc](https://twitter.com/francesc) 
