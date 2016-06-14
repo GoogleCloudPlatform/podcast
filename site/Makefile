@@ -16,3 +16,6 @@ deploy: build
 
 deploy-default: build
 	gcloud preview app deploy app.yaml --project gcppodcast --promote
+
+categories:
+	grep categories content/post/*.md | sed "s/.*\[\(.*\)]\.*/\1/" | tr "," "\n" | sed "s/.*\"\(.*\)\".*/\1/" | sort | uniq -c | sort -nr
