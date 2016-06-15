@@ -9,16 +9,17 @@ draft = false
 episodeNumber = 30
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Gaming Analytics Platform with Kir Titievsky, Eric Anderson, and Tino Tereshko"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+externalimage = "https://cloud.google.com/solutions/mobile/images/telemetry-01-reference-architecture.png"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/1kdX8jkX4Je"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4o7ind/episode_30_gaming_analytics_platform_with_kir/"
 +++
 
 Analytics is an essential part of many platforms, but it is specially important for gaming.
 Today we discuss how Google Cloud makes analytics simpler and super powerful.
 [Kir Titievsky](https://twitter.com/kir_titievsky) from [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/overview),
 [Eric Anderson](https://twitter.com/ericmander) from [Google Cloud Dataflow](https://cloud.google.com/dataflow/), and
-[Tino Tereshko](https://twitter.com/thetinot) from [Google BigQuery](https://cloud.google.com/bigquery/) will tell your cohosts
+[Tino Tereshko](https://twitter.com/thetinot) from [Google BigQuery](https://cloud.google.com/bigquery/) will tell your co-hosts
 [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/neurotic)
 how those three products get together to power an amazing analytics solution for gaming.
 
