@@ -64,7 +64,7 @@ financial analytics, and even spent some time as a quant developer.
 - Apache Beam Project [docs](http://beam.incubator.apache.org/)
 - MapReduce: Simplified Data Processing on Large Clusters [research paper](http://research.google.com/archive/mapreduce.html)
 - The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing [research paper](http://research.google.com/pubs/pub43864.html)
-
+- Pushing the Limits of BigQuery [video](https://www.youtube.com/watch?v=6Nv18xmJirs)
 
 ##### Question of the week
 
