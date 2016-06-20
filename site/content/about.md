@@ -58,3 +58,11 @@ Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from 
 
 - [Twitter](https://www.twitter.com/neurotic)
 - [Website](http://www.compoundtheory.com)
+
+### Privacy
+[Google Privacy Policy](https://www.google.com/intl/en/policies/privacy/?fg=1)
+
+### License
+The content of this page is licensed under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/). 
+
+[Google Brand Permissions](http://www.google.com/permissions/trademark/) cover use of Google Cloud Platform Podcast and related brand features.
