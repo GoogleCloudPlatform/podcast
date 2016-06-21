@@ -2,7 +2,7 @@
 audioDuration = "00:41:04"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.21.mp3"
 audioSize = 59183956
-categories = ["GCP Next", "Big Query", "Cloud Vision API"]
+categories = ["GCP Next", "BigQuery", "Cloud Vision"]
 date = "2016-04-13T01:07:49Z"
 description = "In the twenty first episode of this podcast, your hosts Francesc and Mark interview three of the engineers at Instrument, responsible for some of the amazing demos at GCP Next."
 draft = false

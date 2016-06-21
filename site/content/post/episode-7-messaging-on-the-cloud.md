@@ -2,7 +2,7 @@
 audioDuration = "00:33:04"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.7.mp3"
 audioSize = 47636681
-categories = ["PubSub", "Task Queues", "App Engine", "Cloud Vision", "Logging"]
+categories = ["Pub/Sub", "Task Queues", "App Engine", "Cloud Vision", "Logging"]
 date = "2015-12-09T14:33:31Z"
 title = "Messaging on the Cloud"
 description = "In the seventh episode of this podcast, your hosts Francesc and Mark discuss the different ways messaging can be done on Google Cloud Platform, covering Pub/Sub and Task Queues and when to chose what."

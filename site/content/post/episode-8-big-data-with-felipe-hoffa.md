@@ -2,7 +2,7 @@
 audioDuration = "00:38:10"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.8.mp3"
 audioSize = 54972500
-categories = ["Big Data", "Big Query", "Dataflow", "Datalab", "Bigtable", "Cloud SQL"]
+categories = ["Big Data", "BigQuery", "Dataflow", "Datalab", "Bigtable", "Cloud SQL"]
 date = "2015-12-16T16:36:15Z"
 title = "Big Data with Felipe Hoffa"
 description = "In the eighth episode of this podcast and last of 2015, your hosts Francesc and Mark interview Felipe Hoffa. Felipe is a developer advocate for Google Cloud Platform and he specializes in Big Data."
