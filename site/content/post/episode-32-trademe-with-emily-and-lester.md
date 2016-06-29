@@ -10,9 +10,9 @@ episodeNumber = 32
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Google Analytics and BigQuery at Trade Me"
 externalimage = "http://www.trademe.co.nz/images/3/common/tm_logo_2015_600_v3.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/12ZAF98K9mh"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4qgakx/episode_32_google_analytics_and_bigquery_at_trade/"
 +++
 
 [Emily Melhuish](https://twitter.com/kanocarra) and [Lester Litchfield](mailto:lester.litchfield@trademe.co.nz)
