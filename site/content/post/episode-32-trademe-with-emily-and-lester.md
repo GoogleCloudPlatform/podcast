@@ -6,7 +6,7 @@ categories = ["BigQuery", "Analytics"]
 date = "2016-06-29T01:07:49Z"
 description = "Emily Melhuish and Lester Litchfield share how Trade Me, the second most visited page in New Zealand, integrates Google Analytics and BigQuery to understand their traffic and provide statistics to their users."
 draft = false
-episodeNumber = 31
+episodeNumber = 32
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Google Analytics and BigQuery at Trade Me"
 externalimage = "http://www.trademe.co.nz/images/3/common/tm_logo_2015_600_v3.png"
@@ -34,7 +34,7 @@ for their clients. They use [Google Tag Manager](https://www.google.com/analytic
 to provide business insights to our customers, these include real estate agents and car dealers.
 Her work was for car dealers.
 
-#### About Lester
+##### About Lester
 
 [Lester Litchfield](mailto:lester.litchfield@trademe.co.nz) is a data scientist and web analyst for
 Trade Me with a background in Marketing. He's responsible for implementing

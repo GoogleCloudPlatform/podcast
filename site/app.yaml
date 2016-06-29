@@ -30,6 +30,11 @@ handlers:
     upload: public/(.+)/index.html
     secure: always
 
+  - url: /(license|about)
+    static_files: public/\1/index.html
+    upload: public/(license|about)/index.html
+    secure: always
+
   - url: /(.+)
     static_files: public/\1
     upload: public/(.*)

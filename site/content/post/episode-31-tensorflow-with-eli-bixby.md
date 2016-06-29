@@ -10,9 +10,9 @@ episodeNumber = 31
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "TensorFlow with Eli Bixby"
 externalimage = "https://www.tensorflow.org/images/tf_logo_transp.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/HXEjUNKvmJA"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4pbdti/episode_31_tensorflow_with_eli_bixby/"
 +++
 
 Eli Bixby, Developer Programs Engineer at Google, tells your cohosts

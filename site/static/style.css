@@ -137,6 +137,13 @@ footer.footer img {
   padding: 0 10px;
 }
 
+#terms {
+  flex-grow: 0;
+  align-items: flex-end;
+  font-size: 10px;
+  padding-right: 5px;
+}
+
 @media screen and (max-width: 660px) {
   footer.footer span {
     display: none;
@@ -144,6 +151,10 @@ footer.footer img {
 
   footer {
     padding: 15px 0 !important;
+  }
+
+  #terms {
+    display: none;
   }
 
   footer.footer img {
