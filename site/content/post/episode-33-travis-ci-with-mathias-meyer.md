@@ -10,9 +10,9 @@ episodeNumber = 33
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Continuous Integration on Travis CI with Mathias Meyer"
 image="/images/post/travis.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/cJnJ47rVVty"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4rjj2w/episode_33_continuous_integration_on_travis_ci/"
 +++
 
 [Mathias Meyer](https://twitter.com/roidrage), CEO of [Travis CI](https://travis-ci.com),
