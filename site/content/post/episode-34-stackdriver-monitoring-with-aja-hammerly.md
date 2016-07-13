@@ -10,7 +10,7 @@ episodeNumber = 34
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Stackdriver monitoring with Aja Hammerly"
 image="/images/post/stackdriver‎.png"
-linked = true
+linked = false
 googlePlusLink = ""
 redditLink = ""
 +++
