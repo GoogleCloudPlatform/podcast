@@ -18,7 +18,7 @@ redditLink = ""
 [Aja Hammerly](https://twitter.com/the_thagomizer), Developer Advocate for Google Cloud,
 discusses with your cohosts [Francesc](https://twitter.com/francesc) and
 [Mark](https://twitter.com/neurotic) what monitoring is and how
-[Stackdriver](https://cloud.google.com/stackdriver‎) makes it easy on Google Cloud,
+[Stackdriver](https://cloud.google.com/stackdriver/) makes it easy on Google Cloud,
 other cloud providers, and even on premise.
 
 <!--more-->
@@ -39,7 +39,7 @@ In her free time she enjoys skiing, cooking, knitting, and long coding sessions 
 ##### Interview
 
 - [Stackdriver Monitoring Documentation](https://cloud.google.com/monitoring/docs/)
-- [Stackdriver](https://cloud.google.com/stackdriver‎)
+- [Stackdriver](https://cloud.google.com/stackdriver/)
 - [Introducing Google Stackdriver: unified monitoring and logging for GCP and AWS](https://cloudplatform.googleblog.com/2016/03/Google-Stackdriver-integrated-monitoring-and-logging-for-hybrid-cloud.html)
 - [Using metrics](https://cloud.google.com/monitoring/api/v3/using-metrics)
 - [Stackdriver pricing](https://cloud.google.com/monitoring/pricing)
