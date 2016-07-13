@@ -50,7 +50,7 @@ distributed systems.
 
 <div style="text-align: center">
   <a href="https://travis-ci.com">
-    <img src="http://www.welovebob.com/Images/characters/travis.jpg" width="50%">
+    <img src="/images/post/travis-bob.jpg" width="50%">
   </a>
   <p>Travis the Tractor, from <a href="http://www.bobthebuilder.com/en-us/">Bob the Builder</a>.</p>
 </div>
