@@ -10,9 +10,9 @@ episodeNumber = 34
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Stackdriver monitoring with Aja Hammerly"
 image="/images/post/stackdriver.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/GBpGTU2bnD7"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4soayj/34_stackdriver_monitoring_with_aja_hammerly/"
 +++
 
 [Aja Hammerly](https://twitter.com/the_thagomizer), Developer Advocate for Google Cloud,
