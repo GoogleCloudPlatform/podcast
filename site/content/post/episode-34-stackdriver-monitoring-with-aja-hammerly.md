@@ -9,7 +9,7 @@ draft = false
 episodeNumber = 34
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Stackdriver monitoring with Aja Hammerly"
-image="/images/post/stackdriver‎.png"
+image="/images/post/stackdriver.png"
 linked = false
 googlePlusLink = ""
 redditLink = ""
@@ -34,7 +34,7 @@ In her free time she enjoys skiing, cooking, knitting, and long coding sessions 
 
 - [Kubernetes moves onwards and upwards](https://cloudplatform.googleblog.com/2016/07/Kubernetes-moves-onwards-and-upwards-this-week-on-Google-Cloud-Platform.html)
 - [Kubernetes 1.3 on tap for Google Container Engine](https://cloudplatform.googleblog.com/2016/07/Kubernetes-1.3-on-tap-for-Google-Container-Engine.html)
-- [Scalable Microservices with Kubernegtes - Udacity](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
+- [Scalable Microservices with Kubernetes - Udacity](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
 ##### Interview
 
@@ -47,8 +47,8 @@ In her free time she enjoys skiing, cooking, knitting, and long coding sessions 
 - [Six things Stackdriver brings to the DevOps table](https://cloudplatform.googleblog.com/2016/06/six-things-Stackdriver-brings-to-the-DevOps-table.html)
 
 <div style="text-align: center">
-  <a href="https://travis-ci.com">
-    <img src="/images/post/stackdriver‎.png" width="25%">
+  <a href="https://cloud.google.com/stackdriver/">
+    <img src="/images/post/stackdriver.png" width="25%">
   </a>
 </div>
 
