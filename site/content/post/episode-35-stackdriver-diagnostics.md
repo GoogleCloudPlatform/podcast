@@ -10,9 +10,9 @@ episodeNumber = 35
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Stackdriver Diagnostics Tools with Sharat Shroff and Morgan McLean"
 image="/images/post/stackdriver.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/dBZHkee8ydR"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4trl4w/episode_35_stackdriver_diagnostics_tools_with/"
 +++
 
 [Sharat Shroff](https://twitter.com/sharats) and [Morgan McLean](https://www.linkedin.com/in/morganmclean),
