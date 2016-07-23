@@ -18,6 +18,7 @@ paginate = 10
   episodeBucket = "https://eps-dot-gcppodcast.appspot.com/dl"
   rssFeed = "https://feeds.feedburner.com/GcpPodcast"
   itunesURL = "https://itunes.apple.com/us/podcast/google-cloud-platform-podcast/id1053299163"
+  stitcherURL = "http://www.stitcher.com/podcast/google-cloud-platform-podcast?refid=stpr"
   googleMusicURL = "https://play.google.com/music/m/Iqkxpgvsbeejmz6d3g77qabpvme?t=Google_Cloud_Platform_Podcast"
   emailFBURL = "https://feedburner.google.com/fb/a/mailverify?uri=GcpPodcast&loc=en_US"
 
