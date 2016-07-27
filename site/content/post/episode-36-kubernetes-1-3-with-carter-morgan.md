@@ -10,9 +10,9 @@ episodeNumber = 36
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Kubernetes 1.3 with Carter Morgan"
 image="/images/post/Kubernetes.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/dqLkYiZ1762"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4uv8f6/episode_36_kubernetes_13_with_carter_morgan/"
 +++
 
 [Carter Morgan](https://twitter.com/_askcarter) tells your cohosts
