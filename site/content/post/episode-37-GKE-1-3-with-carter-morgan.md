@@ -10,9 +10,9 @@ episodeNumber = 37
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "GKE 1.3 with Carter Morgan"
 image="/images/post/gke.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/TYUeR143DvH"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4vzeu4/episode_37_gke_13_with_carter_morgan/"
 +++
 
 [Carter Morgan](https://twitter.com/_askcarter) is back to discuss with your cohosts
