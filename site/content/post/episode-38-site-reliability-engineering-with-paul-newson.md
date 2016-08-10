@@ -10,9 +10,9 @@ episodeNumber = 38
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Site Reliability Engineering with Paul Newson"
 image="/images/post/sre-land.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/ZHGsgYwbi1M"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4x2qog/episode_38_site_reliability_engineering_with_paul/"
 +++
 
 [Paul Newson](https://twitter.com/newsons_nybbles) is back to the podcast to tell us about his
