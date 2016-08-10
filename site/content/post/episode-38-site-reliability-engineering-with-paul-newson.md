@@ -38,15 +38,15 @@ on machine learning problems at Microsoft Research.
 
 ##### Interview
 
-- What is ‘Site Reliability Engineering’? [site](https://landing.google.com/sre/interview/ben-treynor.html)
+- What is ‘Site Reliability Engineering’? [Interview](https://landing.google.com/sre/interview/ben-treynor.html)
 
 <div style="text-align: center">
   <img src="/images/post/sre-land.png" width="50%">
 </div>
 
 - Google Cloud Platform opens its first West Coast region [TechCrunch](https://techcrunch.com/2016/07/20/google-cloud-platform-opens-its-oregon-region-to-better-serve-the-west-coast/)
-- Site Reliability Engineering [book](https://landing.google.com/sre/book.html)
-- Go Programming Language [homepage](https://golang.org)
+- Site Reliability Engineering [Book](https://landing.google.com/sre/book.html)
+- Go Programming Language [Homepage](https://golang.org)
 - Keys to SRE - SREcon14 [YouTube](https://youtu.be/n4Wf14e2jxQ)
 - Adventures in SRE-land: Welcome to Google Mission Control [blog](https://cloudplatform.googleblog.com/2016/07/adventures-in-SRE-land-welcome-to-Google-Mission-Control.html)
 
