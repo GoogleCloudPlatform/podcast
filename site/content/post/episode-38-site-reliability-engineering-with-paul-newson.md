@@ -24,10 +24,11 @@ and he explains to your cohosts  [Francesc](https://twitter.com/francesc) and
 
 ##### About Paul
 
-[Paul](https://twitter.com/newsons_nybbles) currently is going through a six months
-rotation as a Software Reliability Engineering,
+[Paul](https://twitter.com/newsons_nybbles) currently is going through a six month
+rotation as a Software Reliability Engineer,
 previously he focused on helping developers harness the power of Google Cloud Platform
 to solve their big data problems. Before that, he was an engineer on Google Cloud Storage.
+
 Before joining Google, Paul founded a startup which was acquired by Microsoft, where he
 worked on DirectX, Xbox, Xbox Live, and Forza Motorsport, before spending time working
 on machine learning problems at Microsoft Research.
