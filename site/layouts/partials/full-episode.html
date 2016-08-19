@@ -4,6 +4,16 @@
 
     <div class="mdl-card__supporting-text">
 
+
+        <paper-audio-player color="rgb(255,82,82)" title="{{ .Title }}" preload="none"
+                            src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
+
+        <a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" id="podcast-download">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons">file_download</i>
+            </button>Download
+        </a>
+
         <div class="hosts">
             {{ range .Params.hosts }}
             <img src="/images/hosts/{{ replace . " " "_" }}.png">
@@ -13,7 +23,7 @@
         <p>{{ .Content }}</p>
 
         {{ if .Params.linked }}
-        <p>Continue the conversation on:
+        <p id="linked">Continue the conversation on:
             <a href="{{ .Params.googlepluslink}}" target="_blank">Google+</a>
             or <a href="{{ .Params.redditlink}}" target="_blank">Reddit</a>
         </p>
@@ -29,14 +39,6 @@
             </p>
         </footer>
 
-        <paper-audio-player color="rgb(255,82,82)" title="{{ .Title }}" preload="none"
-                            src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player>
-
-        <a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" id="podcast-download">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                <i class="material-icons">file_download</i>
-            </button>Download
-        </a>
 
         {{partial "share" .}}
 

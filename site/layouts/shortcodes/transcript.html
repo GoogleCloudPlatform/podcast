@@ -1,0 +1,15 @@
+<h5>Transcript</h5>
+
+<p id="top-transcript">
+    {{ .Get 0 }}
+</p>
+<div id="full-transcript">
+    {{ range split .Inner "\n" }}
+    <p>{{.}}</p>
+    {{ end }}
+</div>
+
+<a id="read-transcript" href="javascript: toggleTranscript();">Read full transcript...</a>
+<a id="hide-transcript" href="javascript: toggleTranscript();">Hide full transcript...</a>
+
+<script type="text/javascript">hideTranscript();</script>

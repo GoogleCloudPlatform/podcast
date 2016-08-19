@@ -18,13 +18,7 @@ RUN wget https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.zip && unzip
 RUN /google-cloud-sdk/install.sh --usage-reporting=true --path-update=true --bash-completion=true --rc-path=/root/.bashrc
 ENV PATH /google-cloud-sdk/bin:$PATH
 
-RUN gcloud components update app preview app-engine-python --quiet
-
-#install appengine
-ENV APPENGINE_VERSION=1.9.36
-RUN wget -O appengine.zip https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_amd64-$APPENGINE_VERSION.zip && unzip -q appengine.zip && rm appengine.zip
-
-ENV PATH /go_appengine:/google_appengine:$PATH
+RUN gcloud components update app app-engine-python --quiet
 
 # install go tooling
 RUN go get github.com/constabulary/gb/...
@@ -40,7 +34,7 @@ WORKDIR /root
 RUN git clone https://github.com/robbyrussell/oh-my-zsh.git
 
 #Hugo
-RUN wget https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_amd64.deb -O hugo.deb
+RUN wget https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16-1_amd64.deb -O hugo.deb
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 

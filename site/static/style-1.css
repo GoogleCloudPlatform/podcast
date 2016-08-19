@@ -56,9 +56,13 @@ img[src*="hosts"] {
   padding-top: 0;
 }
 
+paper-audio-player {
+  margin: 20px 0 auto 0;
+}
+
 #podcast-download {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 40px;
   text-align: right;
 }
 
@@ -82,6 +86,36 @@ paper-fab {
 
 #subscribe-menu {
   background: rgb(255, 82, 82);
+}
+
+/* transcripts */
+#read-transcript, #hide-transcript {
+  display: none;
+  margin-bottom: 40px;
+}
+
+#read-transcript.hide {
+  display: block;
+}
+
+#hide-transcript.hide {
+  display: none;
+}
+
+#full-transcript.hide {
+  display: none;
+}
+
+#read-transcript.shown {
+  display: none;
+}
+
+#hide-transcript.shown {
+  display: block;
+}
+
+#full-transcript.shown {
+  display: block;
 }
 
 /* rhs subscribe menu styles */

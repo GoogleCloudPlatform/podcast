@@ -23,3 +23,18 @@ function shareFacebook(title, url) {
             '&href=' + url +
             '&redirect_uri=' + url);
 }
+
+function toggleTranscript() {
+    ["#full-transcript", "#read-transcript", "#hide-transcript"].forEach(function(sel) {
+        var elem = document.querySelector(sel);
+        elem.classList.toggle("hide");
+        elem.classList.toggle("shown");
+    });
+}
+
+function hideTranscript() {
+    ["#full-transcript", "#read-transcript", "#hide-transcript"].forEach(function(sel) {
+        var elem = document.querySelector(sel);
+        elem.classList.add("hide");
+    });
+}
