@@ -56,8 +56,16 @@ img[src*="hosts"] {
   padding-top: 0;
 }
 
-paper-audio-player {
+.full-episode paper-audio-player {
   margin: 20px 0 auto 0;
+}
+
+.summary-episode paper-audio-player {
+  margin: 0 auto;
+}
+
+.summary {
+  margin-top: 40px;
 }
 
 #podcast-download {
