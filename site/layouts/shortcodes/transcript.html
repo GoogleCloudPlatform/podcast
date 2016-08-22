@@ -1,11 +1,27 @@
 <h5>Transcript</h5>
 
 <p id="top-transcript">
-    {{ .Get 0 }}
+    {{$.Scratch.Set "x" (split (.Get 0) ":") }}
+    <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
+    {{ range $index, $line := ($.Scratch.Get "x")}}
+        {{ if (not (eq 0 $index)) }}
+            {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
+        {{ end }}
+    {{ end }}
 </p>
 <div id="full-transcript">
     {{ range split .Inner "\n" }}
-    <p>{{.}}</p>
+        {{ if not (eq (len (chomp .)) 0) }}
+        <p>
+            {{$.Scratch.Set "x" (split . ":") }}
+            <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
+            {{ range $index, $line := ($.Scratch.Get "x")}}
+                {{ if (not (eq 0 $index)) }}
+                    {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
+                {{ end }}
+            {{ end }}
+        </p>
+        {{ end }}
     {{ end }}
 </div>
 
