@@ -5,7 +5,7 @@ audioSize = 47636681
 categories = ["Pub/Sub", "Task Queues", "App Engine", "Cloud Vision", "Logging"]
 date = "2015-12-09T14:33:31Z"
 title = "Messaging on the Cloud"
-description = "In the seventh episode of this podcast, your hosts Francesc and Mark discuss the different ways messaging can be done on Google Cloud Platform, covering Pub/Sub and Task Queues and when to chose what."
+description = "In the seventh episode of this podcast, your hosts Francesc and Mark discuss the different ways messaging can be done on Google Cloud Platform, covering Pub/Sub and Task Queues and when to choose what."
 draft = false
 episodeNumber = 7
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -18,7 +18,7 @@ In the seventh episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) discuss
 the different ways messaging can be done on Google Cloud Platform,
-covering Pub/Sub and Task Queues and when to chose what.
+covering Pub/Sub and Task Queues and when to choose what.
 <!--more-->
 
 Links:
