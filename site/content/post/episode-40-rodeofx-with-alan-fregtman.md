@@ -10,9 +10,9 @@ episodeNumber = 40
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Rodeo FX with Alan Fregtman"
 image="/images/post/rodeo.jpg"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/J6QLazKQEhE"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/4zda0i/episode_40_rodeo_fx_with_alan_fregtman/"
 +++
 
 [Mark](https://twitter.com/Neurotic) is back right on time to interview
@@ -24,7 +24,7 @@ Rodeo FX is very well known for their work on Game of Thrones, Deadpool, and man
 I recommend watching this demo video to get an idea of their talent.
 
 <iframe src="https://player.vimeo.com/video/175620233" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/175620233">Game Of Thrones - Season 6 - VFX Breakdown</a> from <a href="https://vimeo.com/rodeofx">Rodeo FX</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p><a href="https://vimeo.com/175620233">Game Of Thrones - Season 6 - VFX Breakdown</a> from <a href="https://vimeo.com/rodeofx">Rodeo FX</a>.</p>
 
 <!--more-->
 
