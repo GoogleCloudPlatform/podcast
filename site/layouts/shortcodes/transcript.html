@@ -1,31 +1,37 @@
-<h5>Transcript</h5>
+<!--
+do not remove this *section* - it is very important
+to keep the transcripts out of the RSS Feed.
+-->
+<section id="transcript">
+    <h5>Transcript</h5>
 
-<p id="top-transcript">
-    {{$.Scratch.Set "x" (split (.Get 0) ":") }}
-    <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
-    {{ range $index, $line := ($.Scratch.Get "x")}}
-        {{ if (not (eq 0 $index)) }}
-            {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
-        {{ end }}
-    {{ end }}
-</p>
-<div id="full-transcript">
-    {{ range split .Inner "\n" }}
-        {{ if not (eq (len (chomp .)) 0) }}
-        <p>
-            {{$.Scratch.Set "x" (split . ":") }}
-            <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
-            {{ range $index, $line := ($.Scratch.Get "x")}}
-                {{ if (not (eq 0 $index)) }}
-                    {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
-                {{ end }}
+    <p id="top-transcript">
+        {{$.Scratch.Set "x" (split (.Get 0) ":") }}
+        <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
+        {{ range $index, $line := ($.Scratch.Get "x")}}
+            {{ if (not (eq 0 $index)) }}
+                {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
             {{ end }}
-        </p>
         {{ end }}
-    {{ end }}
-</div>
+    </p>
+    <div id="full-transcript">
+        {{ range split .Inner "\n" }}
+            {{ if not (eq (len (chomp .)) 0) }}
+            <p>
+                {{$.Scratch.Set "x" (split . ":") }}
+                <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
+                {{ range $index, $line := ($.Scratch.Get "x")}}
+                    {{ if (not (eq 0 $index)) }}
+                        {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
+                    {{ end }}
+                {{ end }}
+            </p>
+            {{ end }}
+        {{ end }}
+    </div>
 
-<a id="read-transcript" href="javascript: toggleTranscript();">Read full transcript...</a>
-<a id="hide-transcript" href="javascript: toggleTranscript();">Hide full transcript...</a>
+    <a id="read-transcript" href="javascript: toggleTranscript();">Read full transcript...</a>
+    <a id="hide-transcript" href="javascript: toggleTranscript();">Hide full transcript...</a>
 
-<script type="text/javascript">hideTranscript();</script>
+    <script type="text/javascript">hideTranscript();</script>
+</section>
