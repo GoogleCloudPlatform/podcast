@@ -10,9 +10,9 @@ episodeNumber = 41
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Descartes Labs with Tim Kelton"
 image="/images/post/descarteslabs.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/DjXt41MsDfR"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/50hrbg/episode_41_descartes_labs_with_tim_kelton/"
 +++
 
 [Descartes Labs](http://www.descarteslabs.com/) is creating an incredible
