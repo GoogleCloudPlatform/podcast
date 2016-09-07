@@ -4,21 +4,21 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.42.mp3"
 audioSize = 54560349
 categories = ["Security", "Encryption"]
 date = "2016-09-07T01:07:49Z"
-description = "Umesh Shankar has been working on making Google secure for many years and he's coming to tell us how encryption specifically helps keeping Google Cloud Platform users safe."
+description = "Umesh Shankar has been working on making Google secure for many years and he’s come to tell us how encryption helps keep Google Cloud Platform users safe."
 draft = false
 episodeNumber = 42
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Encryption with Umesh Shankar"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/PWUE8ZDu7o2"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/51lsbw/episode_42_encryption_with_umesh_shankar/"
 +++
 
 [Umesh Shankar](http://research.google.com/pubs/author14566.html) has been
-working on making Google secure for many years and he's coming to tell you
+working on making Google secure for many years and he's come to tell you
 and your cohosts [Francesc](https://twitter.com/francesc) and
-[Mark](https://twitter.com/neurotic) how encryption specifically helps
-keeping Google Cloud Platform users safe.
+[Mark](https://twitter.com/neurotic) how encryption helps
+keep Google Cloud Platform users safe.
 
 <!--more-->
 
