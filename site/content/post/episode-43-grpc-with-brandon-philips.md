@@ -10,9 +10,9 @@ episodeNumber = 43
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "gRPC with Brandon Philips"
 image="/images/post/coreos.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/P2wuNbhknbE"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/52rj1i/episode_43_grcp_with_brandon_philips/"
 +++
 
 [Brandon Philips](https://twitter.com/brandonphilips), CTO of [CoreOS](https://coreos.com),
