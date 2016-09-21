@@ -10,9 +10,9 @@ episodeNumber = 44
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Cloud Endpoints with Dan Ciruli and Sepehr Ebrahimzadeh"
 image="/images/post/endpoints-architecture.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/PxUAGoHTzRV"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/53tsl9/episode_44_cloud_endpoints_with_dan_ciruli_and/"
 +++
 
 [Google Cloud Endpoints](https://cloud.google.com/endpoints) has recently been
@@ -51,11 +51,11 @@ products as well as Amazon's EC2.
 - Google Service Control [docs](https://cloud.google.com/service-control/overview)
 
 <div style="text-align: center">
-  <img src="/images/post/endpoints-architecture.png" width="100%">
+  <img src="/images/post/endpoints-architecture.png" style="max-width: 100%">
 </div>
 
 - gRPC gateway: gRPC to JSON proxy generator [GitHub](https://github.com/grpc-ecosystem/grpc-gateway)
-- Authentication with [GitKit](https://developers.google.com/identity/toolkit/), [Firebase Auth](https://www.firebase.com/docs/web/guide/user-auth.html), [Auth0](https://auth0.com/)
+- Authentication with [GitKit](https://developers.google.com/identity/toolkit/), [Firebase Auth](https://firebase.google.com/docs/auth/), [Auth0](https://auth0.com/)
 - [NGINX](https://nginx.org/en/)
 
 ##### Question of the week
