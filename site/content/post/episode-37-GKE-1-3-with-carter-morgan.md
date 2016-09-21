@@ -57,3 +57,7 @@ In his free time, he's a regular in the local Seattle standup comedy scene.
 ##### Question of the week
 
 - Kubernetes local development with minikube [GitHub](https://github.com/kubernetes/minikube)
+
+##### Were will we be?
+
+Mark will be at the [Indie Game Festival](https://events.withgoogle.com/google-play-indie-game-festival/)
