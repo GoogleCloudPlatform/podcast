@@ -277,3 +277,8 @@ paper-fab.facebook {
 .nav-next {
   float: right;
 }
+
+/* floodlights */
+#floodlights {
+  display: none;
+}
