@@ -1,11 +1,10 @@
 package eps
 
 import (
+	"fmt"
 	"math/rand"
 
-	"net"
 	"net/http"
-	"strings"
 
 	ga "github.com/jpillora/go-ogle-analytics"
 	"golang.org/x/net/context"
@@ -15,53 +14,27 @@ import (
 
 const gaUA = "UA-66340814-1"
 
-//sendGADownloadEvent sends GA an
-//event that has the category of "episode-download" and an action
-//of the episode file name.
+// sendGADownloadEvent sends GA an event that has a
+// category of "episode-download" and an
+// action of the episode file name.
 func sendGADownloadEvent(ctx context.Context, r *http.Request, ep string) error {
-	client, err := ga.NewClient(gaUA)
-	client.UseTLS = true
-	client.HttpClient = urlfetch.Client(ctx)
-
-	client.CacheBuster(string(rand.Int()))
-
-	ip := getIP(ctx, r)
-	log.Debugf(ctx, "Ip found: %v", ip)
-	client.IPOverride(ip)
-	client.DocumentReferrer(r.Referer())
-	client.UserAgentOverride(r.UserAgent())
-
+	gac, err := ga.NewClient(gaUA)
 	if err != nil {
 		return err
 	}
+	gac.HttpClient = urlfetch.Client(ctx)
+	gac.UseTLS = true
+
+	gac.CacheBuster(fmt.Sprintf("%x", rand.Int63()))
+	gac.IPOverride(r.RemoteAddr)
+	gac.UserID(r.RemoteAddr)
+	gac.DocumentReferrer(r.Referer())
+	gac.UserAgentOverride(r.UserAgent())
 
 	event := ga.NewEvent("episode-download", ep)
 
 	log.Debugf(ctx, "Event: %#v", event)
-	log.Debugf(ctx, "Client: %#v", client)
+	log.Debugf(ctx, "Client: %#v", gac)
 
-	return client.Send(event)
-}
-
-//getIP returns the IP
-func getIP(ctx context.Context, r *http.Request) string {
-	if ipProxy := r.Header.Get("X-Forwarded-For"); len(ipProxy) > 0 {
-		//could potentially be a list
-		log.Debugf(ctx, "Found X Forwarded!: #v", ipProxy)
-		ipProxy = strings.Split(ipProxy, ",")[0]
-		return strings.Trim(ipProxy, " ")
-	}
-
-	//ip v6 will have lots of : in it.
-	if strings.Count(r.RemoteAddr, ":") == 1 {
-		ip, _, err := net.SplitHostPort(r.RemoteAddr)
-
-		if err == nil {
-			return ip
-		}
-
-		log.Warningf(ctx, "Could not split RemoteAddr of %v with error: %v", r.RemoteAddr, err)
-	}
-
-	return r.RemoteAddr
+	return gac.Send(event)
 }
