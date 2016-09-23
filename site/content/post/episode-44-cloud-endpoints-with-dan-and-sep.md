@@ -51,7 +51,7 @@ products as well as Amazon's EC2.
 - Google Service Control [docs](https://cloud.google.com/service-control/overview)
 
 <div style="text-align: center">
-  <img src="/images/post/endpoints-architecture.png" style="max-width: 100%">
+  <img src="/images/post/endpoints-architecture.png">
 </div>
 
 - gRPC gateway: gRPC to JSON proxy generator [GitHub](https://github.com/grpc-ecosystem/grpc-gateway)

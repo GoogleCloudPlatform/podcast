@@ -8,7 +8,7 @@ description = "Brandon Philips, CTO of CoreOS, tells your cohosts Mark and Franc
 draft = false
 episodeNumber = 43
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-title = "gRPC with Brandon Philips"
+title = "gRPC at CoreOS with Brandon Philips"
 image="/images/post/coreos.png"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/P2wuNbhknbE"
@@ -35,7 +35,7 @@ passionate about open source technologies.
 
 <div style="text-align: center">
   <a href="https://twitter.com/notch/status/775324325855518720">
-    <img src="/images/post/notch.png" width="80%">
+    <img src="/images/post/notch.png">
   </a>
 </div>
 
