@@ -18,11 +18,16 @@ to keep the transcripts out of the RSS Feed.
         {{ range split .Inner "\n" }}
             {{ if not (eq (len (chomp .)) 0) }}
             <p>
+                <!-- handles new paragraphs without a name prefix -->
                 {{$.Scratch.Set "x" (split . ":") }}
-                <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
-                {{ range $index, $line := ($.Scratch.Get "x")}}
-                    {{ if (not (eq 0 $index)) }}
-                        {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
+                {{if (or (eq (len ($.Scratch.Get "x")) 1) (eq (len (findRE "^[A-Z]+:" .)) 0)) }}
+                    {{ . }}
+                {{ else }}
+                    <strong>{{index ($.Scratch.Get "x") 0}}:</strong>
+                    {{ range $index, $line := ($.Scratch.Get "x")}}
+                        {{ if (not (eq 0 $index)) }}
+                            {{ $line }}{{if not (eq (len ($.Scratch.Get "x")) (add $index 1))}}:{{end}}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             </p>
