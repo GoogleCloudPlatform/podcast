@@ -124,14 +124,14 @@ Custom property                             | Description                       
       #center {
         position: relative;
         overflow: hidden;
-        background-color: rgba(255,255,255,.75);
+        background: rgba(255,255,255,.75);
       }
 
       #progress {
         width: 100%;
         transform-origin: left;
         transform: scaleX(0);
-        background-color: var(--paper-audio-player-color, blueviolet);
+        background: var(--paper-audio-player-color, blueviolet);
       }
 
       paper-ripple {
@@ -214,7 +214,7 @@ Custom property                             | Description                       
            on-tap="playPause">
 
         <!-- Icon -->
-        <paper-icon-button id="play" icon="av:play-arrow" class="fit" hidden$="{{ _hidePlayIcon(isPlaying, canBePlayed) }}"></paper-icon-button>
+        <paper-icon-button id="play" icon="av:play-arrow" class="fit" hidden$="{{ !_showPlayIcon(isPlaying, canBePlayed) }}"></paper-icon-button>
         <paper-icon-button id="pause" icon="av:pause" class="fit" hidden$="{{ !isPlaying }}"></paper-icon-button>
         <iron-icon id="error" icon="error-outline" class="fit" hidden$="{{ !error }}"></iron-icon>
       </div>
@@ -224,7 +224,7 @@ Custom property                             | Description                       
         <div id="title" class="fit">{{ title }}</div>
 
         <!-- Audio HTML5 element -->
-        <audio id="audio" src="{{ src }}" preload="{{ preload }}"></audio>
+        <audio id="audio" src="{{ src }}"></audio>
 
         <!-- Progress bar -->
         <div id="progress" class="fit"></div>
@@ -276,10 +276,6 @@ Custom property                             | Description                       
           type: Boolean,
           value: false
         },
-        preload: {
-          type: String,
-          value: 'auto'
-        },
         currentTime: {
           type: Number,
           value: 0,
@@ -291,10 +287,6 @@ Custom property                             | Description                       
         },
         error: {
           type: Boolean
-        },
-        timeOffset: {
-          type: Number,
-          value: 0
         }
       },
 
@@ -324,12 +316,6 @@ Custom property                             | Description                       
         player.isPlaying = false;
         player.ended = false;
         player.error = false;
-        player.$.audio.currentTime = player.timeOffset; // apply the audio start time property
-
-        // If player has auto-play attribute set,
-        // it ignores preload="none" property and starts playing on load.
-        // This behavior corresponds to the native audio element behavior.
-        if (player.autoPlay) player.$.audio.play();
       },
 
 
@@ -341,12 +327,6 @@ Custom property                             | Description                       
 
         if ( player.canBePlayed ) {
           return player.isPlaying ? player.$.audio.pause() : player.$.audio.play();
-        } else if (player.preload === 'none') {
-          // If player can't be played, because audio wasn't pre-loaded
-          // due to the preload="none" property set,
-          // load the audio file at this point and start playing it immediately
-          player.$.audio.load();
-          player.$.audio.play();
         }
       },
 
@@ -368,14 +348,7 @@ Custom property                             | Description                       
         player.canBePlayed = true;
         player.timeLeft = player.$.audio.duration;
         player.$.title2.style.width = player.$.center.getBoundingClientRect().width + 'px'; // TODO upd on window resize
-
-        // If player has a Time Offset specified
-        // style the progress bar and title accordingly
-        if (player.timeOffset > 0) {
-          var percentagePlayed = player.timeOffset / player.$.audio.duration;
-          player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
-          player.$.progress2.style.width = percentagePlayed * player.$.center.getBoundingClientRect().width + 'px';
-        }
+        if (player.autoPlay) player.$.audio.play();
       },
 
 
@@ -454,46 +427,27 @@ Custom property                             | Description                       
       },
 
 
-      //
-      // When user clicks somewhere on the progress bar
+      // to change the time on the track
 
       _onDown: function(e) {
         e.preventDefault();
         var player = this;
 
-        if (player.canBePlayed) {
-          player._updateProgressBar(e);
-          if (!player.isPlaying) player.$.audio.play();
+        if(player.canBePlayed){
+          var x = e.detail.x - player.$.center.getBoundingClientRect().left;
+          var r = (x / player.$.center.getBoundingClientRect().width) * player.$.audio.duration;
 
-          // When preload="none" is being used,
-          // player should first try to load the audio,
-          // and when it's successfully loaded, recalculate the progress bar
-        } else if (player.preload === 'none') {
-          player.$.audio.load();
-          player.$.audio.addEventListener('loadedmetadata', function() {
-            player._updateProgressBar(e);
-            if (!player.isPlaying) player.$.audio.play();
-          }, false);
+          player.currentTime = player.$.audio.currentTime = r;
+
+          var percentagePlayed = player.currentTime / player.$.audio.duration;
+          player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
+
+          player.$.progress2.style.width = x + 'px';
+
+          if(!player.isPlaying){
+            player.$.audio.play()
+          }
         }
-      },
-
-      //
-      // Helper function
-      // that recalculates the progress bar position
-      // based on the event.click position
-
-      _updateProgressBar: function(e) {
-        var player = this;
-
-        var x = e.detail.x - player.$.center.getBoundingClientRect().left;
-        var r = (x / player.$.center.getBoundingClientRect().width) * player.$.audio.duration;
-
-        player.currentTime = player.$.audio.currentTime = r;
-
-        var percentagePlayed = player.currentTime / player.$.audio.duration;
-        player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
-
-        player.$.progress2.style.width = x + 'px';
       },
 
       //
@@ -522,8 +476,8 @@ Custom property                             | Description                       
         player.$.replay.style.color = newValue;
       },
 
-      _hidePlayIcon: function(isPlaying, canBePlayed){
-        return isPlaying ? true : !(canBePlayed || this.preload === 'none');
+      _showPlayIcon: function(){
+        return this.canBePlayed && !this.isPlaying;
       }
     });
   </script>
