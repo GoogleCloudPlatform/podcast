@@ -4,19 +4,19 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.45.mp3"
 audioSize = 53254400
 categories = ["BigQuery", "Customer", "Analytics"]
 date = "2016-09-28T01:07:49Z"
-description = "Russell Smith, cofounder and CTO of RainforestQA, joins the podcast to explain how they power their analytics platform with BigQuery, streaming thousands of rows per second."
+description = "Russell Smith, cofounder and CTO of Rainforest QA, joins the podcast to explain how they power their analytics platform with BigQuery, streaming thousands of rows per second."
 draft = false
 episodeNumber = 45
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-title = "RainforestQA with Russell Smith"
+title = "Rainforest QA with Russell Smith"
 # image="/images/post/rainforestqa.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/dkm5jHk95xX"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/54wv6b/episode_45_rainforest_qa_with_russell_smith/"
 +++
 
 [Russell Smith](https://twitter.com/rhs), cofounder and CTO of
-[RainforestQA](https://www.rainforestqa.com/), joins the podcast to explain
+[Rainforest QA](https://www.rainforestqa.com/), joins the podcast to explain
 to your dear cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/neurotic)
 how they power their analytics platform with [BigQuery](https://cloud.google.com/bigquery/),
 streaming thousands of rows per second.
@@ -56,7 +56,7 @@ Using App Engine to start a Compute Engine VM [medium](https://medium.com/google
 - BigQuery standard SQL [docs](https://cloud.google.com/bigquery/sql-reference/enabling-standard-sql)
 
 <div style="text-align: center">
-  <img src="/images/post/rainforestqa_wide.png" style="width:80%">
+  <img src="/images/post/rainforestqa_wide.png">
 </div>
 
 ##### Question of the week
