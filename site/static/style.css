@@ -88,8 +88,8 @@ paper-fab {
 .dropdown-content paper-fab {
   width: 35px;
   height: 35px;
-  padding: 5px;
-  margin: 5px;
+  padding: 5px !important;
+  margin: 5px !important;
 }
 
 #subscribe-menu {
@@ -248,7 +248,6 @@ paper-fab-speed-dial > paper-fab {
 
 paper-fab-speed-dial .dropdown-content {
   position: relative;
-  top: -15px;
 }
 
 iron-dropdown iron-icon#icon {
@@ -258,7 +257,6 @@ iron-dropdown iron-icon#icon {
 
 .dropdown-content paper-fab {
   position: relative;
-  right: 4px;
   width: 40px;
   height: 40px;
 }
