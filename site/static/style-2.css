@@ -254,8 +254,6 @@ paper-fab-speed-dial .dropdown-content {
 iron-dropdown iron-icon#icon {
   width: 20px;
   height: 20px;
-  /* add clickable area */
-  padding: 10px;
 }
 
 .dropdown-content paper-fab {
