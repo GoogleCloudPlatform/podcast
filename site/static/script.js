@@ -38,3 +38,21 @@ function hideTranscript() {
         elem.classList.add("hide");
     });
 }
+
+function captureAudioPlay() {
+    var audio = document.querySelectorAll("audio");
+    audio.forEach(function(item) {
+        console.log("Capturing playback:", item);
+        item.addEventListener("play", function() {
+            if (!item.dataset.played) {
+                console.log("Started listening to ", item);
+                item.dataset.played = true;
+            }
+        });
+    });
+}
+
+/* page load handler */
+window.addEventListener("load", function() {
+    captureAudioPlay();
+});
