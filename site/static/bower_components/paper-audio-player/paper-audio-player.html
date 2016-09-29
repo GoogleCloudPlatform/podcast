@@ -2,10 +2,11 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../paper-progress/paper-progress.html">
 <link rel="import" href="../iron-icon/iron-icon.html">
-<link rel="import" href="../iron-icons/iron-icons.html">
 <link rel="import" href="../paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../iron-icons/av-icons.html">
 <link rel="import" href="../paper-ripple/paper-ripple.html">
+
+<link rel="import" href="paper-audio-icons.html">
+
 
 <!--
 A custom audio player with material paper style and clean design.
@@ -124,14 +125,14 @@ Custom property                             | Description                       
       #center {
         position: relative;
         overflow: hidden;
-        background: rgba(255,255,255,.75);
+        background-color: rgba(255,255,255,.75);
       }
 
       #progress {
         width: 100%;
         transform-origin: left;
         transform: scaleX(0);
-        background: var(--paper-audio-player-color, blueviolet);
+        background-color: var(--paper-audio-player-color, blueviolet);
       }
 
       paper-ripple {
@@ -214,9 +215,9 @@ Custom property                             | Description                       
            on-tap="playPause">
 
         <!-- Icon -->
-        <paper-icon-button id="play" icon="av:play-arrow" class="fit" hidden$="{{ !_showPlayIcon(isPlaying, canBePlayed) }}"></paper-icon-button>
-        <paper-icon-button id="pause" icon="av:pause" class="fit" hidden$="{{ !isPlaying }}"></paper-icon-button>
-        <iron-icon id="error" icon="error-outline" class="fit" hidden$="{{ !error }}"></iron-icon>
+        <paper-icon-button id="play" icon="paper-audio-icons:play-arrow" class="fit" hidden$="{{ _hidePlayIcon(isPlaying, canBePlayed) }}"></paper-icon-button>
+        <paper-icon-button id="pause" icon="paper-audio-icons:pause" class="fit" hidden$="{{ !isPlaying }}"></paper-icon-button>
+        <iron-icon id="error" icon="paper-audio-icons:error-outline" class="fit" hidden$="{{ !error }}"></iron-icon>
       </div>
 
       <div id="center" class="flex" on-down="_onDown">
@@ -224,7 +225,7 @@ Custom property                             | Description                       
         <div id="title" class="fit">{{ title }}</div>
 
         <!-- Audio HTML5 element -->
-        <audio id="audio" src="{{ src }}"></audio>
+        <audio id="audio" src="{{ src }}" preload="{{ preload }}"></audio>
 
         <!-- Progress bar -->
         <div id="progress" class="fit"></div>
@@ -247,7 +248,7 @@ Custom property                             | Description                       
         </div>
 
         <!-- Icon -->
-        <paper-icon-button id="replay" class="fit" icon="av:replay"></paper-icon-button>
+        <paper-icon-button id="replay" class="fit" icon="paper-audio-icons:replay"></paper-icon-button>
       </div>
     </div>
   </template>
@@ -276,6 +277,10 @@ Custom property                             | Description                       
           type: Boolean,
           value: false
         },
+        preload: {
+          type: String,
+          value: 'auto'
+        },
         currentTime: {
           type: Number,
           value: 0,
@@ -287,6 +292,10 @@ Custom property                             | Description                       
         },
         error: {
           type: Boolean
+        },
+        timeOffset: {
+          type: Number,
+          value: 0
         }
       },
 
@@ -316,6 +325,12 @@ Custom property                             | Description                       
         player.isPlaying = false;
         player.ended = false;
         player.error = false;
+        player.$.audio.currentTime = player.timeOffset; // apply the audio start time property
+
+        // If player has auto-play attribute set,
+        // it ignores preload="none" property and starts playing on load.
+        // This behavior corresponds to the native audio element behavior.
+        if (player.autoPlay) player.$.audio.play();
       },
 
 
@@ -327,6 +342,12 @@ Custom property                             | Description                       
 
         if ( player.canBePlayed ) {
           return player.isPlaying ? player.$.audio.pause() : player.$.audio.play();
+        } else if (player.preload === 'none') {
+          // If player can't be played, because audio wasn't pre-loaded
+          // due to the preload="none" property set,
+          // load the audio file at this point and start playing it immediately
+          player.$.audio.load();
+          player.$.audio.play();
         }
       },
 
@@ -348,7 +369,14 @@ Custom property                             | Description                       
         player.canBePlayed = true;
         player.timeLeft = player.$.audio.duration;
         player.$.title2.style.width = player.$.center.getBoundingClientRect().width + 'px'; // TODO upd on window resize
-        if (player.autoPlay) player.$.audio.play();
+
+        // If player has a Time Offset specified
+        // style the progress bar and title accordingly
+        if (player.timeOffset > 0) {
+          var percentagePlayed = player.timeOffset / player.$.audio.duration;
+          player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
+          player.$.progress2.style.width = percentagePlayed * player.$.center.getBoundingClientRect().width + 'px';
+        }
       },
 
 
@@ -427,27 +455,46 @@ Custom property                             | Description                       
       },
 
 
-      // to change the time on the track
+      //
+      // When user clicks somewhere on the progress bar
 
       _onDown: function(e) {
         e.preventDefault();
         var player = this;
 
-        if(player.canBePlayed){
-          var x = e.detail.x - player.$.center.getBoundingClientRect().left;
-          var r = (x / player.$.center.getBoundingClientRect().width) * player.$.audio.duration;
+        if (player.canBePlayed) {
+          player._updateProgressBar(e);
+          if (!player.isPlaying) player.$.audio.play();
 
-          player.currentTime = player.$.audio.currentTime = r;
-
-          var percentagePlayed = player.currentTime / player.$.audio.duration;
-          player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
-
-          player.$.progress2.style.width = x + 'px';
-
-          if(!player.isPlaying){
-            player.$.audio.play()
-          }
+          // When preload="none" is being used,
+          // player should first try to load the audio,
+          // and when it's successfully loaded, recalculate the progress bar
+        } else if (player.preload === 'none') {
+          player.$.audio.load();
+          player.$.audio.addEventListener('loadedmetadata', function() {
+            player._updateProgressBar(e);
+            if (!player.isPlaying) player.$.audio.play();
+          }, false);
         }
+      },
+
+      //
+      // Helper function
+      // that recalculates the progress bar position
+      // based on the event.click position
+
+      _updateProgressBar: function(e) {
+        var player = this;
+
+        var x = e.detail.x - player.$.center.getBoundingClientRect().left;
+        var r = (x / player.$.center.getBoundingClientRect().width) * player.$.audio.duration;
+
+        player.currentTime = player.$.audio.currentTime = r;
+
+        var percentagePlayed = player.currentTime / player.$.audio.duration;
+        player.$.progress.style.transform = 'scaleX(' + percentagePlayed + ')';
+
+        player.$.progress2.style.width = x + 'px';
       },
 
       //
@@ -476,8 +523,8 @@ Custom property                             | Description                       
         player.$.replay.style.color = newValue;
       },
 
-      _showPlayIcon: function(){
-        return this.canBePlayed && !this.isPlaying;
+      _hidePlayIcon: function(isPlaying, canBePlayed){
+        return isPlaying ? true : !(canBePlayed || this.preload === 'none');
       }
     });
   </script>

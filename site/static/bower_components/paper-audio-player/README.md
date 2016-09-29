@@ -31,6 +31,8 @@ Or [download as ZIP](https://github.com/gorork/paper-audio-player/archive/master
 - Polymer 1.0
 - Paper-progress
 - Iron-Icons
+- Paper-icon-button
+- Paper-ripple
 
 These dependencies are managed via [Bower](http://bower.io/). You can
 install that via:
@@ -46,7 +48,7 @@ Then, go ahead and download the player's dependencies:
 1. Import Web Components' polyfill:
 
     ```html
-    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     ```
 
 2. Import Player element:
@@ -71,6 +73,10 @@ Attribute     | Options                                 | Description
 `title`       | *string*                                | Customize the track name
 `color`       | *string*                                | Customize the accent color that will be used
 `auto-play`   | *boolean*                               | Will start playing the audio file automatically
+`preload`     | *string*: `auto`, `metadata`, `none`    | Defines if audio file should be pre-loaded.
+`time-offset` | *number*                                | Sets the time offset in `seconds` for audio to start playing at this time.
+
+**Note**: Just like in native audio element, the `preload` property will be ignored if `auto-play` is set on a player.
 
 ## Development
 
