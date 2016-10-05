@@ -9,10 +9,10 @@ draft = false
 episodeNumber = 46
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Borg and Kubernetes with John Wilkes"
-image=""
-linked = false
-googlePlusLink = ""
-redditLink = ""
+image="/images/post/john_wilkes.jpg"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/GNpNgW7MLca"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/560bh0/episode46_borg_and_kubernetes_with_john_wilkes/"
 +++
 
 Today we have the incredible honor to interview [John Wilkes](http://research.google.com/pubs/JohnWilkes.html),
