@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 47
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Cloud Abuse with Swati Kulshreshth and Emeka Okonkwo"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/WXPh4MnMFFB"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/575hqd/episode_47_cloud_abuse_with_swati_kulshreshth_and/"
 +++
 
 Swati Kulshreshth and Emeka Okonkwo join your co-hosts,
@@ -46,7 +46,7 @@ on Youtube Gaming or Twitch).
 - Publishing Podcast episodes to YouTube with Go [GitHub](https://github.com/campoy/podcast-to-youtube)
 
 <div style="text-align: center">
-  <img src="https://3.bp.blogspot.com/-K7oXk2v5Buk/V-2c0Cd_M-I/AAAAAAAABUE/Zl4wdW_T5rAJiYTfgG2HcYsGOjc3hOGrgCLcB/s640/Open%2BImages.png" style="margin: auto; width: 100%">
+  <img src="https://3.bp.blogspot.com/-K7oXk2v5Buk/V-2c0Cd_M-I/AAAAAAAABUE/Zl4wdW_T5rAJiYTfgG2HcYsGOjc3hOGrgCLcB/s640/Open%2BImages.png" style="margin: auto;">
   <p style="font-size: 0.75em">Annotated images form the Open Images dataset. <b>Left:</b> <a href="https://www.flickr.com/photos/kevinkrejci/2957748348">Ghost Arches</a> by <a href="https://www.flickr.com/photos/kevinkrejci/">Kevin Krejci</a>. <b>Right:</b>  <a href="https://www.flickr.com/photos/lobsterstew/3197736453">Some Silverware</a> by <a href="https://www.flickr.com/photos/lobsterstew/">J B</a>. Both images used under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a> license</p>
 </div>
 
@@ -73,6 +73,6 @@ on Youtube Gaming or Twitch).
 next month for [GopherCon Brasil](https://2016.gopherconbr.org/en/) and
 [GCPNext Brazil](https://cloudplatformonline.com/NEXT2016-Brazil.html).
 
-You can find [Mark](https://twitter.com/neurotic) at [ConnectTech](http://connect-js.com/)
+You can find [Mark](https://twitter.com/neurotic) at [Connect.Tech](http://connect-js.com/)
 in Atlanta from October 20th to the 22nd, and the week after that [GAMEACON](http://www.gameacon.com/gameacon-ac)
 in Atlantic City.
