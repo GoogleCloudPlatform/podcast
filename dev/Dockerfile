@@ -22,7 +22,7 @@ RUN gcloud components update app app-engine-python --quiet
 
 # install go tooling
 RUN go get github.com/constabulary/gb/...
-RUN go get code.palmstonegames.com/gb-gae
+RUN go get github.com/PalmStoneGames/gb-gae
 RUN go get github.com/golang/lint/golint
 RUN go get golang.org/x/tools/cmd/goimports
 RUN mv /go/bin/* /usr/local/bin
