@@ -9,12 +9,13 @@ draft = false
 episodeNumber = 48
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Cloud Networking with Ines Envid"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+image = "/images/post/PLCN.png"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/iBfofmYaJaz"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/58bblf/episode_48_cloud_networking_with_ines_envid/"
 +++
 
-[Ines Envid](https://twitter.com/inesenvid1), a Product Manager for CLoud Networking,
+[Ines Envid](https://twitter.com/inesenvid1), a Product Manager for Cloud Networking,
 joins the podcast today to tell us how mind blowing Google's network is and how you
 can make the best of it!
 
@@ -27,7 +28,7 @@ know the answer to.
 ##### About Ines
 
 Ines is a product manager in Cloud Networking. She has dedicated her career to in product,
-and development roles for carrier andventerprise networking infrastructure and applications,
+and development roles for carrier and enterprise networking infrastructure and applications,
 from access, edge and backbone cores. Ines is currently leading the Google cloud networking
 VPC topology and policy product areas.
 
