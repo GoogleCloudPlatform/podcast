@@ -8,14 +8,6 @@ handlers:
     upload: public/images/favicon.ico
     secure: always
 
-  # Allow cross origin on RSS feed.
-  - url: /post/index.xml
-    static_files: public/index.xml
-    upload: public/index.xml
-    secure: always
-    http_headers:
-      Access-Control-Allow-Origin: '*'
-
   # For itunes.
   - url: /images/logo_large.png
     static_files: public/images/logo_large.png
