@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-		<title>{{ .Site.Title }} -- FULL</title>
+		<title>{{ .Site.Title }}</title>
 		<link>{{ .Site.BaseURL }}</link>
 		<description>{{ .Site.Params.description }}</description>
 		<image>
@@ -28,8 +28,7 @@
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
 		<itunes:image href="http://www.gcppodcast.com/images/logo_large.png"/>
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 9999 }}
-		{{ range $paginator.Pages }}
+		{{ range first 156 .Data.Pages }}
 		<item>
 			<title>{{ .Title }}</title>
 			<link>{{ .Permalink }}</link>
@@ -39,8 +38,6 @@
 			{{ range .Params.categories }}
 			<category>{{.}}</category>
 			{{ end }}
-			<googlePlus>{{ .Params.googlepluslink }}</googlePlus>
-			<reddit>{{ .Params.redditlink }}</reddit>
 			<description>{{ .Content | replaceRE "<section id=\"transcript\">(.|\n)*?</section>" "" | html }}</description>
 			{{ if isset .Params "audiofile" }}
 			<enclosure url="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" length="{{ .Params.audiosize }}"
