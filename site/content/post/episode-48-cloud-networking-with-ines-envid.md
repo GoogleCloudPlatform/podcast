@@ -2,7 +2,7 @@
 audioDuration = "00:37:50"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.48.mp3"
 audioSize = 54513920
-categories = ["Windows", ".NET"]
+categories = ["Networking", "Security"]
 date = "2016-10-19T01:07:49Z"
 description = "Ines Envid, a Product Manager for Cloud Networking, joins the podcast today to tell us how mind blowing Google's network is and how you can make the best of it!"
 draft = false

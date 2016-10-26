@@ -2,7 +2,7 @@
 audioDuration = "00:37:24"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.49.mp3"
 audioSize = 53888906
-categories = ["Networking", "Security"]
+categories = ["Windows", ".NET"]
 date = "2016-10-26T01:07:49Z"
 description = "Today Amruta Gulanikar and Chris Sells, experts from the Windows and .NET community and part of the Google Cloud team, join us to discuss why you should run your Windows and .NET work loads on Google Cloud."
 draft = false
