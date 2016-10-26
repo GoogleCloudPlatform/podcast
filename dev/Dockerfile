@@ -34,7 +34,7 @@ WORKDIR /root
 RUN git clone https://github.com/robbyrussell/oh-my-zsh.git
 
 #Hugo
-RUN wget https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16-1_amd64.deb -O hugo.deb
+RUN wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17-64bit.deb -O hugo.deb
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 
