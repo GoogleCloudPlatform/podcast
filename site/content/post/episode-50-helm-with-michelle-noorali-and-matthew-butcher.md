@@ -1,6 +1,6 @@
 +++
 audioDuration = "00:39:05"
-audioFile = "Google.Cloud.Platform.Podcast.Episode.49.mp3"
+audioFile = "Google.Cloud.Platform.Podcast.Episode.50.mp3"
 audioSize = 56325174
 categories = ["Helm", "Kubernetes"]
 date = "2016-11-02T01:07:49Z"
@@ -10,9 +10,9 @@ episodeNumber = 50
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Helm with Michelle Noorali and Matthew Butcher"
 image="/images/post/helm.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/7uPEmSc8zJm"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5aqgkf/episode_50_helm_with_michelle_noorali_and_matthew/"
 +++
 
 Today your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
