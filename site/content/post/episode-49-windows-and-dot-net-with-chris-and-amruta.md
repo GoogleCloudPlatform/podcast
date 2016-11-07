@@ -269,15 +269,15 @@ CHRIS: Yeah. So we're focused a lot on this, on the tooling side. Of course, we 
 
 And our tutorials know that 99% of the world out there today is using ASP .NET. They're targeting Windows. And so it's ASP .NET 4.x, and of course, we built all our tools and our tutorials all around that, right? Making sure that you can deploy to Windows Server instances running ASP .NET and IS, the way you expect. 
 
-That said, we're also working really hard on supporting .NET Core, which is the cross-platform version of .NET. It's kind of the follow on to the .NET that is Windows specific that Microsoft has released into the open source. And that we've been working to support on our cloud. And in fact, if you go to the GCP blog, there have been some recent articles about how to take your .NET Core code and make it work on App Engine Flex on GCP and on Container Engine on GCP using Cooper NetEase. 
+That said, we're also working really hard on supporting .NET Core, which is the cross-platform version of .NET. It's kind of the follow on to the .NET that is Windows specific that Microsoft has released into the open source. And that we've been working to support on our cloud. And in fact, if you go to the GCP blog, there have been some recent articles about how to take your .NET Core code and make it work on App Engine Flex on GCP and on Container Engine on GCP using Kubernetes. 
 
-And so the way that works is you take your .NET Core code, and you package it up with a base Docker image that supports the .NET Core run time. And then, you can bundle all that together. And you can deploy it to App Engine Flex or Cooper NetEase running on Container Engine. And so you can do that today. There's nothing stopping you. 
+And so the way that works is you take your .NET Core code, and you package it up with a base Docker image that supports the .NET Core run time. And then, you can bundle all that together. And you can deploy it to App Engine Flex or Kubernetes running on Container Engine. And so you can do that today. There's nothing stopping you. 
 
 The set of libraries that we support, we're working hard to make sure that you can do all. All the code you want to write against our libraries works in the Windows version of .NET, of course. And that's 200 plus APIs across all of Google. This is not just BigQuery and Cloud Storage, although of course we do those too, all the cloud stuff. But it's also Locations and Maps and you know, G Drive, and Docs, and all the wonderful APIs that people use across Google. 
 
 We have support for that 100% inside of Windows. And that same set of APIs, we have about 99% coverage right now for .NET Core. It's not quite 100%. We're busy updating our GRPC implementation, which is based around HTTP2. It's binary. It's streaming. It's faster. And the libraries that require that protocol don't yet work for .NET Core. But we're so close. We're so close to making that work. 
 
-So I expect very soon, hopefully by the end of the year, certainly by Q1, that 100% of all of our APIs will work in .NET Core, too. Which means that you can, in Visual Studio or VS code on Linux, Mac or Windows, you can write your .NET Core application. You can use Nuget to bring it in the Google .NET Core libraries, write your code, and deploy it to App Engine Flexible Edition or Container Engine running Cooper NetEase. And it will just work. 
+So I expect very soon, hopefully by the end of the year, certainly by Q1, that 100% of all of our APIs will work in .NET Core, too. Which means that you can, in Visual Studio or VS code on Linux, Mac or Windows, you can write your .NET Core application. You can use Nuget to bring it in the Google .NET Core libraries, write your code, and deploy it to App Engine Flexible Edition or Container Engine running Kubernetes. And it will just work. 
 
 MARK: That's pretty cool. All right, so I'm going to ask a question that I know, well, so I do some game development stuff. Any idea if it'll work in Unity, the C# stuff? 
 
@@ -299,9 +299,9 @@ FRANCESC: What about Windows containers? Because I've read somewhere that they e
 
 AMRUTA: Definitely. No, Windows containers is definitely interesting. And we're keeping close eye on it. The step one in actually supporting Windows containers is to support Windows Server 2016, which we have done. We are also working very actively on supporting Windows Nano images. So this would help accelerate people actually being able to deploy these container images on a smaller footprint of Windows, which is Windows Nano 2016, the preferred OS for data centers, much faster, smaller footprint, so on, so forth. So we're actively building the support in the platform first. So we're definitely working on that. 
 
-In parallel, we're deeply engaged with the community on building support for Windows containers and Cooper NetEase. So you will probably see some interesting things come out of there pretty soon. And we're sort of waiting and watching and kind of looking at the customer adoption for Windows containers. They're pretty new and shiny, and a lot of people are excited about it. So we're keeping a close pulse on that. And we definitely want to take that feedback as we think about building support in GKE for that. 
+In parallel, we're deeply engaged with the community on building support for Windows containers and Kubernetes. So you will probably see some interesting things come out of there pretty soon. And we're sort of waiting and watching and kind of looking at the customer adoption for Windows containers. They're pretty new and shiny, and a lot of people are excited about it. So we're keeping a close pulse on that. And we definitely want to take that feedback as we think about building support in GKE for that. 
 
-But I think, to be very honest, we're kind of wanting to wait and see how people start using our Windows 2016 images, Nano images, and then the excitement of the Cooper NetEase community around Windows containers are definitely going to be things that help us decide what to do next year. 
+But I think, to be very honest, we're kind of wanting to wait and see how people start using our Windows 2016 images, Nano images, and then the excitement of the Kubernetes community around Windows containers are definitely going to be things that help us decide what to do next year. 
 
 FRANCESC: So for people that don't know that much about Windows container other than they exist, like me, what is the main difference? Is there a technological difference on the type of container it is? Or is it just a base image which is completely different? 
 
@@ -311,7 +311,7 @@ The idea of course is that you can stack multiple of these containers into a sin
 
 If you think about that, well, Linux containers are just containers that have a shared Linux base. And your code runs assuming Linux is under there. And Windows containers is just your Windows code in a Windows container that has a shared access to the set of resources inside of Windows. So while conceptually they're the same, of course your code has to run on Linux or Windows. And you have to think about it differently and write your code differently. 
 
-But the nice thing is that Microsoft has worked hard with Docker to make sure that the same set of tools that you use for managing Linux containers can also be used to manage Windows containers. Which means that from a tooling point of view and an orchestration point of view-- for example, that's what Cooper NetEase is all about, right? Orchestrating containers. You can think about them in the same way, which is really nice. 
+But the nice thing is that Microsoft has worked hard with Docker to make sure that the same set of tools that you use for managing Linux containers can also be used to manage Windows containers. Which means that from a tooling point of view and an orchestration point of view-- for example, that's what Kubernetes is all about, right? Orchestrating containers. You can think about them in the same way, which is really nice. 
 
 FRANCESC: Nice. Awesome. 
 
@@ -323,9 +323,9 @@ And for a long time, these were different communities. The Windows people did it
 
 And so certainly on Azure, you're encouraged to do things very much the same old Microsoft way that you've done them before, which has its pluses and minuses. Here in the Google world, we're much more open. We're much less about, you come to our platform, and then you're locked in. You can't go anywhere else. 
 
-For example, we were just talking about containers. The idea of a container is you can run that container where you want it, right? Where it runs best. And because we've built our Container Engine, which is our orchestration platform for containers on our platform, based on open standards, Docker containers, Cooper NetEase, we very much encourage you to bring your container based workloads to our platform. 
+For example, we were just talking about containers. The idea of a container is you can run that container where you want it, right? Where it runs best. And because we've built our Container Engine, which is our orchestration platform for containers on our platform, based on open standards, Docker containers, Kubernetes, we very much encourage you to bring your container based workloads to our platform. 
 
-But if you don't like it here, you can take them other places. Lots of people run Cooper NetEase on other cloud providers. Lots of people run Cooper NetEase on premise. And in fact, lots of people run Cooper NetEase between the cloud and on premise depending on the resources they need and the access they need for their software. And you can more easily go back and forth. 
+But if you don't like it here, you can take them other places. Lots of people run Kubernetes on other cloud providers. Lots of people run Kubernetes on premise. And in fact, lots of people run Kubernetes between the cloud and on premise depending on the resources they need and the access they need for their software. And you can more easily go back and forth. 
 
 And so at Google, we try instead of to lock you in to how you do things, we try to make sure that we're the best place to run those open things. So we try to earn your business every day. So that's one way of saying it. 
 
@@ -443,7 +443,7 @@ FRANCESC: Yeah, me too. But that is actually kind of painful because you need to
 
 MARK: So it should really be called like the Stack Driver Snapshotter. 
 
-FRANCESC: Snapshotter. Yeah, that sounds actually really cool. Yeah, yeah, so the cool thing about it is that it used to be beta. It is now GA. Give it a try. I know that I've used it in Go. Not for App Engine, because Go on App Engine still doesn't work, but we're working on it. But it does work for Go on Cooper NetEase on GKE and on GCE. So if you have some application there, it actually works really well. 
+FRANCESC: Snapshotter. Yeah, that sounds actually really cool. Yeah, yeah, so the cool thing about it is that it used to be beta. It is now GA. Give it a try. I know that I've used it in Go. Not for App Engine, because Go on App Engine still doesn't work, but we're working on it. But it does work for Go on Kubernetes on GKE and on GCE. So if you have some application there, it actually works really well. 
 
 MARK: Yeah, and if you're a Java, Python, or Node aficionado, that works across Google App Engine as well as Compute Engine and Container Engine, as well. 
 
