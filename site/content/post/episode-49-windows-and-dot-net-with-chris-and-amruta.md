@@ -10,9 +10,9 @@ episodeNumber = 49
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Windows and .NET with Chris Sells and Amruta Gulanikar"
 image="/images/post/windows.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/NPBYXnyvyec"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/59j4sk/episode_49_windows_and_net_with_chris_sells_and/"
 +++
 
 Today [Amruta Gulanikar](https://twitter.com/AmrutaGulanikar) and [Chris Sells](https://twitter.com/csells),
