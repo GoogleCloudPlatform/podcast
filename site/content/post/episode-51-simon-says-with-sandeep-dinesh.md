@@ -4,20 +4,20 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.51.mp3"
 audioSize = 47087826
 categories = ["Internet of Things", "Kubernetes", "gRPC"]
 date = "2016-11-09T01:07:49Z"
-description = "Sandeep Dinesh, a fellow Developer Advocate for Google Cloud Platform, joins us to talk about how Mark and him built a fun IoT version of Simon Says."
+description = "Sandeep Dinesh, a fellow Developer Advocate for Google Cloud Platform, joins us to talk about how Mark and Sandeep built a fun IoT version of Simon Says."
 draft = false
 episodeNumber = 51
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Simon Says with Sandeep Dinesh"
-image="/images/post/helm.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+externalimage="https://c2.staticflickr.com/9/8322/8050771801_87b4e448a0_z.jpg"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/DzS6ZvQHR3a"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5c24rz/episode_51_simon_says_with_sandeep_dinesh/"
 +++
 
 [Sandeep Dinesh](https://twitter.com/sandeepdinesh), a fellow Developer Advocate for Google Cloud Platform,
 joins your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
-to talk about how Mark and him built a fun IoT version of Simon Says.
+to talk about how Mark and Sandeep built a fun IoT version of Simon Says.
 
 Get ready for some real hacking, involving gRPC, Kubernetes, many programming languages, and even a bit of
 soldering!
