@@ -10,17 +10,17 @@ episodeNumber = 52
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Google Developer Experts Summit"
 externalimage="https://developers.google.com/experts/img/experts-logo.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/HTtnG9mvBiP"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5dag4e/episode_52_google_developer_experts_summit/"
 +++
 
 This week your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
-travel all the way to sunny Sunnyvale, CA to interview some Google Developer Experts on the amazings things
+travel all the way to sunny Sunnyvale, CA to interview some Google Developer Experts on the amazing things
 they do.
 
 Google Developer Experts are a very interesting group of highly skilled people with a passion for technology
-and spreading their knowledge. We will talk about how they are using the cloud to improve research on cancer,
+and spreading their knowledge. We will talk about how they are using the cloud to improve research on cancer.
 
 <!--more-->
 
@@ -128,7 +128,7 @@ eradicating poverty.
 <img src="https://developers.google.com/experts/img/user/104084904111344977584.jpg" class="round-photo">
 </a>
 
-[Vikram](https://twitter.com/albertpadin) is full stack developer focused on building scalable web platforms
+[Vikram](https://twitter.com/Vikram_Tiwari) is full stack developer focused on building scalable web platforms
 for high availability, resilience and security.
 
 He is currently building solutions to simplify multi-channel advertising space at Omni Labs, Inc. in San
@@ -147,6 +147,7 @@ in helping them navigate through challenges and succeed in their journey.
 ##### Question of the week
 
 If I delete something from Datastore, is it strongly consistent?
+
 - Data Consistency [docs](https://cloud.google.com/datastore/docs/concepts/structuring_for_strong_consistency)
 - Strong Consistency Diagram - Developing Scalable Apps with Java [YouTube](https://www.youtube.com/watch?v=CEfCqqZ59m4)
 - Developing Scalable Apps in Java with Google App Engine [Udacity](https://www.udacity.com/course/developing-scalable-apps-in-java--ud859)
@@ -155,4 +156,4 @@ If I delete something from Datastore, is it strongly consistent?
 ##### Were will we be?
 
 Francesc will be working on the next episode of [justforfunc](https://youtube.com/c/justforfunc) and enjoying some
-holidays, right before joining our team offsite in Los Angeles.
+holidays, right before joining our team offsite in Los Angeles with Mark.
