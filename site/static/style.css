@@ -38,6 +38,15 @@ img[src*="hosts"] {
   box-shadow: 0 0 10px #aaa;
 }
 
+img.round-photo {
+  width: 100px;
+  height: 100px;
+  float: right;
+  border-radius: 100%;
+  margin: 5px;
+  box-shadow: 0 0 10px #aaa;
+}
+
 .episode-number {
   color: teal;
 }
