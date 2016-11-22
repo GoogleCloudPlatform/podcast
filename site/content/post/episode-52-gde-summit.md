@@ -64,12 +64,17 @@ Nike Inc.; the University of California at San Diego (UCSD); Tata Consultancy Se
 <img src="https://developers.google.com/experts/img/user/104200463293521594749.jpg" class="round-photo">
 </a>
 
-[Daniel](http://www.agileandart.com/about/) started developing software in Brazil when he was 10, on his
-TK-3000 Basic 2MB RAM computer.
-He worked as a consultant and software developer in many companies. In 2001, he worked for an Internet
-startup in Italy. In 2006 he joined Locaweb, the biggest web hosting company in Brazil and worked there
-for 5 years as developer and tech lead in infrastructure team. In 2010, he organized the first DevOpsDays
-Brazil. For two years, was CTO at Elo7 - the biggest crafts marketplace in Brazil.
+[Daniel](https://twitter.com/danicuki) is a entrepreneur, founder and CTO at Playax, a music intelligence and analytics 
+platform. Before Playax he worked for two years as CTO at Elo7 – the biggest crafts marketplace in Brazil and became 
+venture advisor at Monashees Capital. He is also a Computer Science PhD candidate at University of São Paulo – IME-USP. 
+His PhD research in on Software Startups Ecosystems and Entrepreneurship. He mastered in Computer Science in University 
+of São Paulo in 2009, with the Thesis Patterns for Introducing New Ideas in the Software Industry.
+
+Daniel started developing software in Brazil when he was 10, on his TK-3000 Basic 2MB RAM computer. He worked as a 
+consultant and software developer in many companies. In 2001, he worked for an Internet startup in Italy. In 2006 he 
+joined Locaweb, the biggest web hosting company in Brazil and worked there for 5 years as developer and tech lead in 
+infrastructure team. In 2010, he organized the first DevOpsDays Brazil. Daniel is an active member in the agile and 
+software development communities, speaker in many conferences such as QCON, Agile Brasil, TDC, DevCamp, Agile Trends and others.
 
 ##### Didier Girard
 
