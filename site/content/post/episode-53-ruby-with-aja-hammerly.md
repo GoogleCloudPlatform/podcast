@@ -9,10 +9,10 @@ draft = false
 episodeNumber = 53
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Ruby with Aja Hammerly"
-externalimage="/images/post/ruby.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+image="/images/post/ruby.png"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/JJrzqNT6PFV"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5ejsux/episode_53_ruby_with_aja_hammerly/"
 +++
 
 Today [Aja Hammerly](https://twitter.com/the_thagomizer), Developer Advocate and fellow teammate at Google Cloud Platform,
