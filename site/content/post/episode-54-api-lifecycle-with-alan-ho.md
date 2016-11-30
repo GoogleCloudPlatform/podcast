@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 54
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "API Lifecycle with Alan Ho"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/HFse177rHEz"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5fqslt/episode_54_api_lifecycle_with_alan_ho/"
 +++
 
 This week [Alan Ho](https://twitter.com/karlunho) from [Apigee](https://apigee.com) joins
