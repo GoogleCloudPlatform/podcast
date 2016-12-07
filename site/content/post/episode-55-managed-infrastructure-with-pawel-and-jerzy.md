@@ -3,18 +3,18 @@ audioDuration = "00:35:52"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.55.mp3"
 audioSize = 51747305
 categories = ["Managed Infrastructure"]
-date = "2016-11-07T01:07:49Z"
-description = "Today we learn everything there is to be learnt about Managed Infastructure from Pawel Siarkiewicz and Jerzy Foryciarz, two Product Managers at Google working on the topic."
+date = "2016-12-07T01:07:49Z"
+description = "Today we learn everything there is to be learnt about Managed Infrastructure from Pawel Siarkiewicz and Jerzy Foryciarz, two Product Managers at Google working on the topic."
 draft = false
 episodeNumber = 55
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Managed Infrastructure with Pawel Siarkiewicz and Jerzy Foryciarz"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/SWuXrSgrmqt"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5h0vf7/episode_55_managed_infrastructure_with_pawel/"
 +++
 
-Today we learn everything there is to be learnt about Managed Infastructure from
+Today we learn everything there is to be learnt about Managed Infrastructure from
 [Pawel Siarkiewicz](https://twitter.com/psiarkiewicz) and [Jerzy Foryciarz](https://twitter.com/fotwit),
 two Product Managers at Google working on the topic.
 
@@ -52,14 +52,14 @@ National Academy of Sciences in Poland and an MBA from Chicago University Booth 
 - Autoscaling Groups of Instances [docs](https://cloud.google.com/compute/docs/autoscaler/)
 - Autoscaling Video Tutorial [YouTube](https://cloud.google.com/compute/docs/autoscaler/)
 - Autohealing VM Instances [YouTube](https://www.youtube.com/watch?v=dT7xDEtALPQ)
-- Preemptible VM Instances [docs](https://docs.google.com/document/d/1O_QOjn-zeJhP8EouStkVO8cUJxFsv6VMvbT4s66RsKE/edit#)
+- Preemptible VM Instances [docs](https://cloud.google.com/compute/docs/instances/preemptible)
 - Use Docker Containers with GCE and Managed Instance Groups [docs](https://cloud.google.com/compute/docs/instance-groups/deploying-docker-containers)
 - Rightsizing Recommendations for Google Compute Engine [docs](https://cloud.google.com/compute/docs/instances/viewing-sizing-recommendations-for-instances)
 - Managed Instance Group Updater Alpha [docs](https://cloud.google.com/compute/docs/instance-groups/updating-managed-instance-groups)
 
 ##### Question of the week
 
-How do I restrict access to my service, by IP address range in K8s?
+How do I restrict access to my service, by IP address range in Kubernetes?
 
 - Configuring Your Cloud Provider's Firewalls [docs](http://kubernetes.io/docs/user-guide/services-firewalls/)
 - Using Networks and Firewalls [docs](https://cloud.google.com/compute/docs/networking)
