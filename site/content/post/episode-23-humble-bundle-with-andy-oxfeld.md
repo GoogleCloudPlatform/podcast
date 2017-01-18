@@ -2,7 +2,7 @@
 audioDuration = "00:29:49"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.23.mp3"
 audioSize = 42977562
-categories = ["Humble Bundle", "Case Study", "App Engine", "BigQuery"]
+categories = ["Humble Bundle", "Customer", "Gaming", "App Engine", "BigQuery"]
 date = "2016-04-27T01:07:49Z"
 description = "Andy Oxfeld, Engineering Manager, tells us all the details about how Humble Bundle runs on Google Cloud Platform."
 draft = false

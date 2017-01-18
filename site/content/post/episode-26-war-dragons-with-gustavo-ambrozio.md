@@ -2,7 +2,7 @@
 audioDuration = "00:32:16"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.26.mp3"
 audioSize = 46503472 
-categories = ["App Engine", "Case Study"]
+categories = ["App Engine", "Customer", "Gaming"]
 date = "2016-05-18T01:07:49Z"
 description = "Gustavo Ambrozio, from Pocket Gems, tells us about how they implemented and how they run War Dragons with the power of Google Cloud Platform."
 draft = false
