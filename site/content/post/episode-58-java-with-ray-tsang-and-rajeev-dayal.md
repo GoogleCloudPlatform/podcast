@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 58
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Java with Ray Tsang and Rajeev Dayal"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/NjM98RDDHkS"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5q45pd/episode_58_java_with_ray_tsang_and_rajeev_dayal/"
 +++
 
 In this second episode of the year we'll talk Java!
@@ -34,15 +34,9 @@ Ray enjoys traveling and adventures.
 
 ##### About Rajeev
 
-Rajeev is an Engineering Manager for the Cloud Developer Tools team at Google.
-Before that we was a software engineer on the Google Web Toolkit (GWT) team.
-
-Prior to Google, Rajeev was a software engineer at AutoTrader.com, where he
-introduced the organization to AJAX and pioneered its use in their consumer site.
-It was there that Rajeev first spent countless hours coaxing the back button to
-do what he wanted, muttering to himself that there must be a better way...
-
-Rajeev holds Bachelors and Masters degrees in Computer Science from the University of Waterloo and Georgia Tech.
+Rajeev Dayal is an Engineering Manager at Google New York that manages the Cloud SDK and Java on GCP efforts. 
+He's been in the developer tools space for nearly 10 years, previously working on the Google Plugin for Eclipse and 
+GWT (where he still has nightmares about browser quirks with Internet Explorer 6) at Google's Atlanta office.
 
 ##### Cool thing of the week
 
@@ -64,15 +58,15 @@ Rajeev holds Bachelors and Masters degrees in Computer Science from the Universi
 
 - I want to move data from S3 to cloud storage - is there an easy way to do this?
 
-Yes! This is the best way to do it [docs]https://cloud.google.com/storage/transfer/).
+Yes! This is the best way to do it [docs](https://cloud.google.com/storage/transfer/).
 You might also want to check out [Minio](https://github.com/minio/minio).
 
 ##### Were will we be?
 
-Mark will be at [GDC](www.gdconf.com/) and afterwards he'll be speaking at
-[Cloud Next](cloudnext.withgoogle.com), both in San Francisco.
+Mark will be at [GDC](http://www.gdconf.com/) and afterwards he'll be speaking at
+[Cloud Next](https://cloudnext.withgoogle.com/schedule#target=building-massive-online-worlds-with-spatialos-and-google-cloud-platform-0cb0ec52-b735-4403-9fc5-071f1759dd1c), both in San Francisco.
 
 Francesc is doing a European tour, after speaking at [golab](https://golab.io)
 he'll speak at [GolangBCN](https://www.meetup.com/Golang-Barcelona/events/237049935/).
 The week after he'll be in Paris and right after he'll be in the Go Devroom at
-[FOSDEM](https://fosdem.org). A bit later he'll also be at [Cloud Next](cloudnext.withgoogle.com).
+[FOSDEM](https://fosdem.org). A bit later he'll also be at [Cloud Next](https://cloudnext.withgoogle.com/schedule#target=google-cloud-endpoints-serving-your-api-to-the-world-8eaeb271-f0ea-4638-af94-16c0b2b80bf6).
