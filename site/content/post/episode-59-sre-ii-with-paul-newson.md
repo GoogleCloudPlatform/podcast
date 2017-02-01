@@ -9,9 +9,10 @@ draft = false
 episodeNumber = 59
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "SRE II with Paul Newson"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+image = "/images/guests/PaulNewson.jpg"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/W1ZJ5hmSuRv"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5rh1aj/episode_59_sre_ii_with_paul_newson/"
 +++
 
 Our beloved teammate Paul Newson is back from his SRE rotation to tell us
@@ -78,7 +79,7 @@ How can I see which version of an App Engine service is the default?
 ##### Were will we be?
 
 Mark will be at [GDC](http://www.gdconf.com/) and afterwards he'll be speaking at
-[Cloud Next](https://cloudnext.withgoogle.com/schedule#target=building-massive-online-worlds-with-spatialos-and-google-cloud-platform-0cb0ec52-b735-4403-9fc5-071f1759dd1c), both in San Francisco.
+[Cloud NEXT](https://cloudnext.withgoogle.com/schedule#target=building-massive-online-worlds-with-spatialos-and-google-cloud-platform-0cb0ec52-b735-4403-9fc5-071f1759dd1c), both in San Francisco.
 
 Francesc is doing a European tour, after speaking at [golab](https://golab.io)
 and [GolangBCN](https://www.meetup.com/Golang-Barcelona/events/237049935/) he's
