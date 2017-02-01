@@ -2,7 +2,7 @@
 audioDuration = "00:31:12"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.14.mp3"
 audioSize = 44942759
-categories = ["Storage", "Cloud Storage", "Cloud Bigtable", "Cloud SQL", "noSQL"]
+categories = ["Storage", "Cloud Storage", "Cloud Bigtable", "Cloud SQL", "noSQL", "Paul Newson"]
 date = "2016-02-24T01:07:49Z"
 description = "In the fourteenth episode of this podcast, your hosts Francesc and Mark interview Paul Newson, a Developer Advocate for Google Cloud Platform and former Software Engineer on the Cloud Storage team at Google."
 draft = false

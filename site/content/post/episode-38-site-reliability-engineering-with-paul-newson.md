@@ -2,7 +2,7 @@
 audioDuration = "00:36:03"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.38.mp3"
 audioSize = 51947885
-categories = ["SRE"]
+categories = ["SRE", "Paul Newson"]
 date = "2016-08-10T01:07:49Z"
 description = "Paul Newson is back to the podcast to tell us about his experience as an SRE, or Site Reliability Engineer. They keep Google and Google Cloud running and he explains to us how they make that happen."
 draft = false
