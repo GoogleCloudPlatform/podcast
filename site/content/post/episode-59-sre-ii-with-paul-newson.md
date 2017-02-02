@@ -27,7 +27,7 @@ the burning questions.
 
 [Paul](https://twitter.com/newsons_nybbles) is an SRE Advocate at Google.
 As part of Google’s Cloud developer relations team, he helps our customers
-understand reliability best practices based on my experiences working as a
+understand reliability best practices based on his experiences working as a
 Site Reliability Engineer (SRE) on Google Compute Engine and as a Software
 Engineer on Google Cloud Storage.
 
