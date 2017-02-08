@@ -11,7 +11,7 @@ hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Fission with Soam Vasani"
 image = "/images/post/fission-logo.png"
 linked = true
-googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/fPNaFLNvxMj"
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/fPNaFLNvxMj"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/5sudhi/episode_60_fission_with_soam_vasani/"
 +++
 
