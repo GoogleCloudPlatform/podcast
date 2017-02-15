@@ -10,9 +10,9 @@ episodeNumber = 61
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Improbable with Rob Whitehead"
 image = "/images/post/improbable.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/exfaGRcvSwg"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5u9fxy/episode_61_improbable_with_rob_whitehead/"
 +++
 
 You might have heard about [Improbable teaming up with Google Cloud](https://cloudplatform.googleblog.com/2016/12/google-partners-with-improbable-to.html),
