@@ -1,7 +1,7 @@
 +++
-audioDuration = "00:00:00"
+audioDuration = "00:39:34"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.62.mp3"
-audioSize = 0
+audioSize = 57196002
 categories = ["Spanner", "Storage"]
 date = "2017-02-22T01:07:49Z"
 description = "Deepti Srivastava joins Francesc and Mark to talk all about Spanner: the globally distributed, horizontally scalable, relational database that also provides global consistency and ACID transactions"
