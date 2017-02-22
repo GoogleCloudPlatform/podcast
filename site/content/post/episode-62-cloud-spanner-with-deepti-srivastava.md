@@ -4,18 +4,18 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.62.mp3"
 audioSize = 57196002
 categories = ["Spanner", "Storage"]
 date = "2017-02-22T01:07:49Z"
-description = "Deepti Srivastava joins Francesc and Mark to talk all about Spanner: the globally distributed, horizontally scalable, relational database that also provides global consistency and ACID transactions"
+description = "Deepti Srivastava joins Francesc and Mark to talk about Cloud Spanner: the globally distributed, horizontally scalable, relational database that also provides global consistency and ACID transactions"
 draft = false
 episodeNumber = 62
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Cloud Spanner with Deepti Srivastava"
 image = "/images/post/spanner.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/K5Yzqiu7x36"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5vjtbk/episode_62_cloud_spanner_with_deepti_srivastava/"
 +++
 
-On the heels of the [Spanner](https://cloudplatform.googleblog.com/2017/02/introducing-Cloud-Spanner-a-global-database-service-for-mission-critical-applications.html) 
+On the heels of the Cloud [Spanner](https://cloudplatform.googleblog.com/2017/02/introducing-Cloud-Spanner-a-global-database-service-for-mission-critical-applications.html) 
 launch, [Deepti Srivastava](https://twitter.com/TheDeepti) joins your hosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
 on this week's podcast to talk all about this globally distributed, horizontally scalable, relational database that also provides global consistency
 and ACID transactions!
