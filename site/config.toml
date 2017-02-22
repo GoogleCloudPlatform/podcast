@@ -9,7 +9,7 @@ paginate = 10
 #Site Params
 [params]
   description = "The Google Cloud Platform Podcast, coming to you every week. Discussing everything from on Google Cloud Platform from App Engine to Big Query."
-  logo = "images/logo.png"
+  logo = "images/site_logo.png"
   twitterUser = "gcppodcast"
   twitterURL = "https://twitter.com/gcppodcast"
   googlePlusURL = "http://google.com/+gcppodcast"
