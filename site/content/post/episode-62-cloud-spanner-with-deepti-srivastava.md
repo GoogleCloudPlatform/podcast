@@ -22,7 +22,7 @@ and ACID transactions!
 
 <!--more-->
 
-##### About Rob
+##### About Deepti
 
 [Deepti Srivastava](https://twitter.com/TheDeepti) is passionate about technology and its ability to be a positive change enabler. 
 As Product Manager for [Cloud Spanner](https://cloud.google.com/spanner/), on Google’s Cloud Platform, Srivastava works on best in class 
