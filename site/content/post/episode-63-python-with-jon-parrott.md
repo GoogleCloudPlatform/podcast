@@ -9,9 +9,9 @@ draft = false
 episodeNumber = 63
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Python with Jon Wayne Parrott"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/?pageId=117267610519909886476"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5wyhov/episode_63_python_with_jon_wayne_parrott/"
 image="/images/post/python.png"
 +++
 
