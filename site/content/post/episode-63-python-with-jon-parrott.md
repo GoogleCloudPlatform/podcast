@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.63.mp3"
 audioSize = 46379590 
 categories = ["Python"]
 date = "2017-03-01T01:07:49Z"
-description = "Following our saga of episodes about programming languages today we have the honor to talk to Jon Wayne Parrott, a Developer Programs Engineer at Google Cloud Platform, about Python on the cloud."
+description = "Following our saga of episodes on programming languages today we have the honor to talk to Jon Wayne Parrott, a Developer Programs Engineer at Google Cloud Platform, about Python on the cloud."
 draft = false
 episodeNumber = 63
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -15,7 +15,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/5wyhov/episode_63_pyt
 image="/images/post/python.png"
 +++
 
-Following the saga of episodes programming languages today your co-hosts,
+Following the saga of episodes on programming languages today your co-hosts,
 [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic),
 have the honor to talk to [Jon Wayne Parrott](https://twitter.com/jonparrott),
 a Developer Programs Engineer at Google Cloud Platform, about Python on the cloud.
