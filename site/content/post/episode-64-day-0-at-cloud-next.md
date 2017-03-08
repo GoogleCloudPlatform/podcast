@@ -9,9 +9,10 @@ draft = false
 episodeNumber = 64
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Day 0 at Cloud Next"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/9QkrLdTNiCJ"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/5y98lk/episode_64_day_0_at_cloud_next/"
+image="/images/post/next17booth.jpg"
 +++
 
 This week brings your hosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) doing
