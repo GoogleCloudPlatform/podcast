@@ -1,14 +1,14 @@
 +++
 audioDuration = "00:19:12"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.64.mp3"
-audioSize = 0 
+audioSize = 27925475 
 categories = ["Next", "Big Data"]
 date = "2017-03-08T01:07:49Z"
-description = ""
+description = "This week brings your hosts Francesc and Mark doing DAILY EPISODES from Cloud Next! Today’s episode brings interviews straight from the Cloud Next Community Summit!"
 draft = false
 episodeNumber = 64
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
-title = "Day 0 of at Cloud Next"
+title = "Day 0 at Cloud Next"
 linked = false
 googlePlusLink = ""
 redditLink = ""
@@ -41,3 +41,6 @@ Learn more about it on the [blog post](https://medium.com/descartestech/geovisua
 - More daily episodes to come - stay tuned!
 - Come find us on the ground floor at Moscone!
 
+<div style="text-align: center">
+  <img src="/images/post/next17booth.jpg" style="margin: auto;">
+</div>
