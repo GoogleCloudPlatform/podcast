@@ -2,7 +2,7 @@
 audioDuration = "00:35:54"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.19.mp3"
 audioSize = 51720218
-categories = ["GCP Next", "Big Data", "Machine Learning", "Go", "App Engine"]
+categories = ["NEXT", "Big Data", "Machine Learning", "Go", "App Engine"]
 date = "2016-03-30T01:07:49Z"
 description = "In the nineteenth episode of this podcast, your hosts Francesc and Mark interview some of the speakers at GCP Next 2016 from the conference floor"
 draft = false

@@ -1,8 +1,8 @@
 +++
-audioDuration = "00:00:00"
+audioDuration = "00:19:12"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.64.mp3"
 audioSize = 0 
-categories = [""]
+categories = ["NEXT", "Big Data"]
 date = "2017-03-08T01:07:49Z"
 description = ""
 draft = false
@@ -21,7 +21,7 @@ This week brings your hosts [Francesc](https://twitter.com/francesc) and [Mark](
 
 ##### Interviews
 
-- [Kalev Hannes Leetaru](http://gdeltproject.org/)
+- [Kalev Leetaru](http://gdeltproject.org/)
 - [Tim Kelton](https://twitter.com/timbuktuu) [demo](https://search.descarteslabs.com) [blog](https://medium.com/descartestech/geovisual-search-using-computer-vision-to-explore-the-earth-275d970c60cf#.3anxgb8po)
 - [Verónica López](https://twitter.com/maria_fibonacci)
 
