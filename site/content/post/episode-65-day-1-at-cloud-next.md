@@ -31,7 +31,7 @@ Today we are bringing you interviews for a wide variety of speakers and attendee
 ###### Sara Robinson
 
 [Sara Robinson](https://twitter.com/SRobTweets) is a Developer Advocate for [Google Cloud Platform](https://cloud.google.com/), and came 
-to talk to us about her [*amazing* keynote demo](https://www.youtube.com/watch?v=j_K1YoMHpbk&feature=youtu.be&t=2h53m15s)
+to talk to us about her [*amazing* keynote demo](https://youtu.be/j_K1YoMHpbk?list=PLIivdWyY5sqI8RuUibiH8sMb1ExIw0lAR&t=5328)
 on The [Google Cloud Video Intelligence API](https://cloud.google.com/blog/big-data/2017/03/announcing-google-cloud-video-intelligence-api-and-more-cloud-machine-learning-updates).
 
 Francesc also references this [Total Eclipse of the Heart Literal Video](https://www.youtube.com/watch?v=fsgWUq0fdKk).
