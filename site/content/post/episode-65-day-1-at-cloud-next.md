@@ -23,7 +23,7 @@ Today we are bringing you interviews for a wide variety of speakers and attendee
 
 ##### Video Highlights
 
-- [Keynote Hghlights in under 4 minutes!](https://www.youtube.com/watch?v=MW9VCYgSxlQ)
+- [Keynote Highlights in under 4 minutes!](https://www.youtube.com/watch?v=MW9VCYgSxlQ)
 - [Full Day 1 Keynote](https://www.youtube.com/watch?v=j_K1YoMHpbk)
 
 ##### Interviews
