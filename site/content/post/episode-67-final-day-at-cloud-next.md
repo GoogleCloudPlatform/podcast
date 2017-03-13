@@ -32,7 +32,7 @@ Today we interview some of the many Google Cloud Partners attending the conferen
 
 ##### Interviews
 
-###### Cornelius and Neil
+###### Cornelius and Neal
 
 [Cornelius Willis](https://twitter.com/corneliuswillis) is the Head of Marketing for Google Cloud Platform,
 and [Neal Mueller](https://twitter.com/nealmueller) is a Product Marketing Lead also at Google Cloud Platform.
@@ -42,7 +42,7 @@ They joined us today to tell us more about
 a new [Trusted Platform Module](https://en.wikipedia.org/wiki/Trusted_Platform_Module)
 designed by Google and for Google Cloud Platform, and a very fancy jewelry accessory!
 
-Watch Urs Hölzle talk about his earring/Tursted Platform Module [here](https://www.youtube.com/watch?v=kwnWfHq2EfQ&t=1882).
+Watch Urs Hölzle talk about his earring/Trusted Platform Module [here](https://www.youtube.com/watch?v=kwnWfHq2EfQ&t=1882).
 
 <div style="text-align: center">
   <img src="/images/post/urs.jpg" style="margin: auto;">
