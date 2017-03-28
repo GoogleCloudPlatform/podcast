@@ -48,6 +48,7 @@ which provides container based continuous delivery.
 
 <div style="text-align: center">
   <img src="/images/post/droneio.png" style="margin: auto;">
+   <p style="font-size:0.8em"><a href="http://try.drone.io/">http://try.drone.io/</a><p>
 </div>
 
 ##### Question of the week
