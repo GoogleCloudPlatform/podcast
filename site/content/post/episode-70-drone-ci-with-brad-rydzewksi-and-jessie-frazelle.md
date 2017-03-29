@@ -4,20 +4,20 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.70.mp3"
 audioSize = 0
 categories = ["Open Source", "Containers"]
 date = "2017-03-29T01:07:49Z"
-description = ""
+description = "Mark and Francesc talk to Brad Rydzewski, creator of Drone, about the open source continuous integration and delivery platform. We are also have the amazing Jessie Frazelle joining us as well!"
 draft = false
 episodeNumber = 70
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Drone CI with Brad Rydzewksi and Jessie Frazelle"
 image="/images/post/droneio.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/JmjFKnF9bSt"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6282em/episode_70_drone_ci_with_brad_rydzewksi_and/"
 +++
 
 Digging back into our archive of interviews from Google Cloud Next,
 [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) talk to [Brad Rydzewski](https://twitter.com/bradrydzewski),
-creator of [Drone](http://try.drone.io/), about the oipen source continuous integration and delivery platform. We are also excited to have
+creator of [Drone](http://try.drone.io/), about the open source continuous integration and delivery platform. We are also excited to have
 the amazing [Jessie Frazelle](https://twitter.com/jessfraz) joining us as well!
 
 <!--more-->
