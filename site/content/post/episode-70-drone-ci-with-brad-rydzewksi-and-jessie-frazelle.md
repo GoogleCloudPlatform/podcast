@@ -1,7 +1,7 @@
 +++
 audioDuration = "00:29:31"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.70.mp3"
-audioSize = 0
+audioSize = 42762331
 categories = ["Open Source", "Containers"]
 date = "2017-03-29T01:07:49Z"
 description = "Digging back into our archive of interviews from Google Cloud Next, Mark and Francesc talk to Brad Rydzewski, creator of Drone, about the oipen source continuous integration and delivery platform. We are also excited to have the amazing Jessie Frazelle joining us as well!"
