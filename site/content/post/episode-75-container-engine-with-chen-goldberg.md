@@ -10,9 +10,9 @@ episodeNumber = 75
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Container Engine with Chen Goldberg"
 image="/images/icons/compute/Container-Engine.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/8zYrsTtX6xY"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6914t7/episode_75_container_engine_with_chen_goldberg/"
 +++
 
 In this episode [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc)
