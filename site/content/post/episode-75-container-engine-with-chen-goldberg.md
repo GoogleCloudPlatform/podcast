@@ -26,8 +26,8 @@ Google Cloud Platform.
 ##### About Chen Goldberg
 
 [Chen](https://twitter.com/GoldbergChen) leads the Container Engine and OSS Kubernetes project engineering team in Google Cloud. Chen is a technology 
-leader with +18 years of demonstrated expertise	leading global	engineering teams, product	
-R&D initiatives, and high-profile customer	engagements	with Fortune 500 enterprises. 
+leader with +18 years of demonstrated expertise	leading global	engineering teams, product R&D initiatives,
+and high-profile customer	engagements	with Fortune 500 enterprises.
 
 Chen has a customer-centered development philosophy and believes open source is the best way to 
 innovate and develop incredible technologies that are accessible and beneficial to everyone.
@@ -40,6 +40,7 @@ innovate and develop incredible technologies that are accessible and beneficial 
 ##### Interview
 
 - Container Engine [site](https://cloud.google.com/container-engine/) [docs](https://cloud.google.com/container-engine/docs/)
+- Google Container Engine - The easiest way to use containers in production [youtube](https://www.youtube.com/watch?v=_yk1tTHYBvg)
 - Installing Kubernetes on Linux with kubeadm [docs](https://kubernetes.io/docs/getting-started-guides/kubeadm/)
 - Kubernetes 1.6 [announcement](http://blog.kubernetes.io/2017/03/kubernetes-1.6-multi-user-multi-workloads-at-scale.html)
 - Creating a Container Engine Cluster [docs](https://cloud.google.com/container-engine/docs/clusters/operations)
