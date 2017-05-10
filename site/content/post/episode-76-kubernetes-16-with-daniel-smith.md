@@ -10,9 +10,9 @@ episodeNumber = 76
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Kubernetes 1.6 with Daniel Smith"
 image="/images/post/Kubernetes.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/YeCmzfharDf"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6adnwn/episode_76_kubernetes_16_with_daniel_smith/"
 +++
 
 This week [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) have an in depth chat with
