@@ -108,6 +108,6 @@ Francesc presented at Gopherfest and [the video](https://www.youtube.com/watch?v
 Next he'll be teaching at [Onboard Buenos Aires](https://cloudplatformonline.com/2017-OnBoard-BuenosAires.html) and running a 
 workshop at [QCon New York](https://qconnewyork.com/)
   
-Mark will be taking some time off, but he recommends for people are in San Francisco to head over to the
-[Playcrafting & Extra Life 24 Hour Game Fest](https://www.eventbrite.com/e/playcrafting-extra-life-24-hour-game-fest-tickets-33350827222)
+Mark is currently at [Nordic Games Conference](http://conf.nordicgame.com/), and while he won't be there,
+if people are in San Francisco they should head over to the [Playcrafting & Extra Life 24 Hour Game Fest](https://www.eventbrite.com/e/playcrafting-extra-life-24-hour-game-fest-tickets-33350827222)
 where we are raising money for the UCSF Benioff Children's Hospitals.
