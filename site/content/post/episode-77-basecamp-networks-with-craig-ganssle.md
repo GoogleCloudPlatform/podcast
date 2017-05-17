@@ -4,20 +4,20 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.77.mp3"
 audioSize = 47019060
 categories = ["Customer", "Machine Learning"]
 date = "2017-05-17T01:07:49Z"
-description = "Basecamp Networks uses Machine Learning to diagnose easily what kind of sickness or parasite a crop might be suffering. They're powered by Google Cloud Platform, and their CEO, Graig Ganssle, is here to tell us all about it."
+description = "Basecamp Networks uses Machine Learning to diagnose easily what kind of sickness or parasite a crop might be suffering. They're powered by Google Cloud Platform, and their CEO, Craig Ganssle, is here to tell us all about it."
 draft = false
 episodeNumber = 77
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Basecamp Networks with Craig Ganssle"
 image="/images/post/basecampnetworks.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/RcJi2pX4eYy"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6bpckg/episode_77_basecamp_networks_with_craig_ganssle/"
 +++
 
 [Basecamp Networks](http://basecampnetworks.com/) uses Machine Learning to diagnose
 easily what kind of sickness or parasite a crop might be suffering.
-They're powered by Google Cloud Platform, and their CEO, [Graig Ganssle](https://twitter.com/craiganssle), is here to tell
+They're powered by Google Cloud Platform, and their CEO, [Craig Ganssle](https://twitter.com/craiganssle), is here to tell
 [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc)
 all about it.
 
@@ -76,10 +76,10 @@ in Alpharetta, GA where Craig resides with his wife and children.
 ##### Interview
 
 - [Basecamp Networks](http://basecampnetworks.com/)
-- OpenCV: Open Computer Vision [http://opencv.org/](opencv.org)
-- Tensorflow: An open-source software library for Machine Intelligence [https://www.tensorflow.org/](tensorflow.org)
+- OpenCV: Open Computer Vision [opencv.org](http://opencv.org/)
+- Tensorflow: An open-source software library for Machine Intelligence [tensorflow.org](https://www.tensorflow.org/)
 - Lagom: The Opinionated Microservices Framework for moving away from the Monolith [lagomframework.com](https://www.lagomframework.com/)
-- intelliSCOUT: a product of Basecamp Networks [http://www.intelliscout.io/](intelliscout.io)
+- intelliSCOUT: a product of Basecamp Networks [intelliscout.io](http://www.intelliscout.io/)
 
 <div style="text-align: center">
   <a href="https://cloud.google.com/container-engine/"><img src="/images/post/basecampnetworks.png" style="margin: auto;" width="50%"></a>
@@ -91,13 +91,14 @@ How can I learn machine learning for free?
 
 Follow this courses:
 
-- Deep Learning by Google [Udacity](https://www.udacity.com/course/deep-learning--ud730)
 - Machine Learning by Stanford University [coursera](https://www.coursera.org/learn/machine-learning)
+- Deep Learning by Google [Udacity](https://www.udacity.com/course/deep-learning--ud730)
 - CS 20SI: Tensorflow for Deep Learning Research [Stanford](http://web.stanford.edu/class/cs20si/syllabus.html)
 
 And more:
 
-- Google Machine Learning Engine and episode [gcppodcast](https://gcppodcast.com/post/episode-71-cloud-ml-with-yufeng-guo/)
+- Google Machine Learning Engine and episode [gcppodcast #71](https://gcppodcast.com/post/episode-71-cloud-ml-with-yufeng-guo/)
+- Tensorflow with Eli Bixby [gcppodcast #31](https://gcppodcast.com/post/episode-31-tensorflow-with-eli-bixby/)
 - Announcing general availability of GPUs for Cloud Machine Learning Engine [announcement](https://cloud.google.com/blog/big-data/2017/05/announcing-general-availability-of-gpus-for-cloud-machine-learning-engine)
 
 
@@ -107,6 +108,6 @@ Francesc presented at Gopherfest and [the video](https://www.youtube.com/watch?v
 Next he'll be teaching at [Onboard Buenos Aires](https://cloudplatformonline.com/2017-OnBoard-BuenosAires.html) and running a 
 workshop at [QCon New York](https://qconnewyork.com/)
   
-Mark is today at [Nordic Games Conference](http://conf.nordicgame.com/), and while he won't be there,
-if people are in San Francisco they should head over to the [Playcrafting & Extra Life 24 Hour Game Fest](https://www.eventbrite.com/e/playcrafting-extra-life-24-hour-game-fest-tickets-33350827222)
+Mark will be taking some time off, but he recommends for people are in San Francisco to head over to the
+[Playcrafting & Extra Life 24 Hour Game Fest](https://www.eventbrite.com/e/playcrafting-extra-life-24-hour-game-fest-tickets-33350827222)
 where we are raising money for the UCSF Benioff Children's Hospitals.
