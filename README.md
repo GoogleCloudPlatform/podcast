@@ -30,7 +30,7 @@ access to.
 Finally, once you've built the image, you should be able to create a new interactive
 shell by running `make shell` or `make attach` if you want to attach to an existing one.
 
-#### site: the [hugo](https://gohugo.io) structure that generates the static website
+### site: the [hugo](https://gohugo.io) structure that generates the static website
 
 This directory contains all the resources that we use to generate the podcast website.
 
@@ -42,7 +42,7 @@ You can use the `Makefile` provided in the directory to:
   - `make deploy` - This will not make the version default. Useful if you just want to test/share a version live.
   - `make deploy-default` - This will replace the default version (but the old version is kept, in case)
 
-#### go: adding Google Analytics to Google Cloud Storage
+### go: adding Google Analytics to Google Cloud Storage
 
 This directory contains an [App Engine](https://cloud.google.com/appengine) service
 that provides a way to access the `mp3` files stored in [Google Cloud Storage](https://cloud.google.com/storage)
