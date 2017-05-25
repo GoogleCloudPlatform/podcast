@@ -1,63 +1,62 @@
 # GCP Podcast Website
 
-## Development (Website)
+This repo contains all the code and contents behind [gcppodcast.com](https://www.gcppodcast.com).
 
-Make sure you have access to the `gcppodcast` project, so you will be able to pull the dev Docker image.
+The first episode explains the architecture, you can listen to it
+[here](https://gcppodcast.com/post/episode-1-we-got-a-podcast/).
 
-### Pull down the dev Docker image
-`make pull` (requires gcloud, which I assume you have installed already)
+![gcppodcast.com screenshot](screenshot.png)
 
-### Start an interactive shell (ZSH)
-Run `make shell` to fire up a shell so you can interact with the application.
+# Contents of the repository
 
-If you want an extra shell, in the same container, run `make attach`.
+You will find three directories in the repository, `dev`. `go`, and `site`.
 
-To get an extra shell that has root access `make attach-root`
+- dev: 
+- go: an App Engine module written in Go used to 
+- site: the [hugo](https://gohugo.io) structure that generates the static website
 
-#### Within /site
+## dev: website development
 
-Make targets that can be run within the `site` directory
-which is for the static site generation and deployment.
+This directory contains all the tooling we use to build/deploy the podcast.
+In particular it has a `Dockerfile` that defines an environment with all the tools we
+use to generate the website and tag `mp3` files.
 
-##### Run Interactive Hugo Server (port 1313)
-`make server`
+You can build this image using the `Makefile` on the root of this repository.
+You will be able to push it or pull it from
+[Google Container Registry](https://cloud.google.com/container-registry/) too,
+but you might need to modify the `TAG` variable to match a project you have
+access to.
 
-##### Sassify->CCS Assets
-`make assets-update` - does production css generation, compressed and everything.
+Finally, once you've built the image, you should be able to create a new interactive
+shell by running `make shell` or `make attach` if you want to attach to an existing one.
 
-`make assets-watch` - does a file watch in main.scss and generates main.css when it sees a change (uncompressed)
+#### site: the [hugo](https://gohugo.io) structure that generates the static website
 
-##### Deploy the Project to App Engine
-`make deploy` - This will not make the version default. Useful if you just want to test/share a version live.
+This directory contains all the resources that we use to generate the podcast website.
 
-`make deploy-default` - This will replace the default version (but the old version is kept, in case)
+You can use the `Makefile` provided in the directory to:
 
-#### Within /go
+- Run Interactive Hugo Server (port 1313): `make server`
+- Sassify->CCS Assets: `make assets-update` - does production css generation, compressed and everything.
+- Deploy the Project to App Engine:
+  - `make deploy` - This will not make the version default. Useful if you just want to test/share a version live.
+  - `make deploy-default` - This will replace the default version (but the old version is kept, in case)
+
+#### go: adding Google Analytics to Google Cloud Storage
+
+This directory contains an [App Engine](https://cloud.google.com/appengine) service
+that provides a way to access the `mp3` files stored in [Google Cloud Storage](https://cloud.google.com/storage)
+while logging those accesses with [Google Analytics](https://analytics.google.com).
 
 Make targets that can be run within the `go` directory
 which is for dynamic modules, such as the module that tracks
 episode downloads.
 
-##### Run full code lint, vet and goimports over everything.
-`make code-check`
+- Run full code lint, vet and goimports over everything: `make code-check`
+- Start Local Episode Redirect Module: `make serve-eps`
+- Deploy Episode Redirect Module: `make deploy-eps`
 
-##### Start Local Episode Redirect Module
-`make serve-eps`
+### Disclaimer
 
-##### Deploy Episode Redirect Module
-`make deploy-eps`
-
-## Development (Docker Image)
-
-### Build the docker image
-`make build`
-
-### Push the Docker image up to GCR.
-`make push`
-
-# Licence
-
-Apache 2.0
-
-This is not an official Google product.
-
+This is not an official Google product (experimental or otherwise), it is just
+code that happens to be owned by Google.
