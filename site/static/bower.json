@@ -8,7 +8,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "third_party",
     "test",
     "tests"
   ],
