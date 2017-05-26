@@ -22,12 +22,12 @@ are joined by the co-founders of [Firebase](https://firebase.google.com/), [Jame
 <!--more-->
 
 ##### About James Tamplin
-James Tamplin is the co-founder of Firebase, a backend as a service provider that was acquired by Google. 
-James has a bachelor’s and a master’s degree in Industrial and Systems Engineering from the University of Wisconsin. 
-He has been a stage actor in New York, an improv comic, and has worked on two previous startups.
+[James Tamplin](https://twitter.com/JamesTamplin) is a co-founder of Firebase, and served as CEO until joining Google. He is now a Group Product Manager 
+working on Firebase. James has a bachelor’s and a master’s degree in Industrial and Systems Engineering from 
+the University of Wisconsin. He has been a stage actor in New York, an improv comic, and has worked on two previous startups.
 
 ##### About Andrew Lee
-Andrew co-founded Firebase in 2011 and served as CTO until Firebase joined Google. He is now an engineering lead for 
+[Andrew](https://twitter.com/startupandrew) co-founded Firebase in 2011 and served as CTO until Firebase joined Google. He is now an engineering lead for 
 Firebase, focusing on infrastructure products including the Realtime Database, 
 Hosting, Cloud Functions, and Cloud Storage. Andrew lives and works in San Francisco.
 
