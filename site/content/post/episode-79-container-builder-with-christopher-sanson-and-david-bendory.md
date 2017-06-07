@@ -2,7 +2,7 @@
 audioDuration = "00:34:02"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.79.mp3"
 audioSize = 49240816
-categories = ["Container Builder"]
+categories = ["Container Builder", "Continuous Integration"]
 date = "2017-05-31T01:07:49Z"
 description = "In this episode Mark and Francesc enter the land of Continuous Integration, chatting with David Bendory and Christopher Sanson all about Container Builder"
 draft = false

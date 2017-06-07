@@ -2,7 +2,7 @@
 audioDuration = "00:32:15"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.74.mp3"
 audioSize = 46741998
-categories = ["Machine Learning", "Cloud Video Intelligence API", "APIs"]
+categories = ["Machine Learning", "Cloud Video Intelligence API", "API"]
 date = "2017-04-26T01:07:49Z"
 description = "Have you ever wanted to apply Cloud Vision API to videos? Well, Sara Robinson is here to tell us about Cloud Video Intelligence API, which allows you to do that and much more."
 draft = false
