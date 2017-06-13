@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM golang:1.8
 
 RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server python-crcmod
 WORKDIR /
