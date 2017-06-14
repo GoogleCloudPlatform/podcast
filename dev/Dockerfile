@@ -49,7 +49,7 @@ RUN chmod +x /root/startup.sh
 
 RUN apt-get install --yes python-setuptools python-dev build-essential
 RUN easy_install pip
-RUN pip install eyeD3
+RUN pip install eyeD3 pathlib
 RUN mkdir /tools
 ADD tag.sh /tools/tag.sh
 RUN chmod +x /tools/tag.sh
