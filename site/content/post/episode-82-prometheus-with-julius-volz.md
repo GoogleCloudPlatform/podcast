@@ -10,9 +10,9 @@ image="/images/post/prometheus.png"
 episodeNumber = 82
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Prometheus with Julius Volz"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/HoMZMbsvp5N"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6imo3v/episode_82_prometheus_with_julius_volz/"
 +++
 
 It's all about open source monitoring this week, as Prometheus Co-Founder [Julius Volz](https://twitter.com/juliusvolz),
