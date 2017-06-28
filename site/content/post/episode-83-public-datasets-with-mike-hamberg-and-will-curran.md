@@ -4,20 +4,20 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.83.mp3"
 audioSize = 46530852
 categories = ["Big Data"]
 date = "2017-06-27T01:07:49Z"
-description = "Mike Hamberg and Will Curran join your co-hosts Francesc and Mark to talk through all the public datasets that Google Cloud Platform hosts for that you can BigQuery and Google Compute Storage"
+description = "Mike Hamberg and Will Curran join your co-hosts Francesc and Mark to talk through all the public datasets that Google Cloud Platform hosts for you on BigQuery and Google Compute Storage"
 draft = false
 #image="/images/post/prometheus.png"
 episodeNumber = 83
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Public Datasets with Mike Hamberg and Will Curran"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/3SH1atSVy8s"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6k1l4k/episode_83_public_datasets_with_mike_hamberg_and/"
 +++
 
 If you have ever wanted to play with huge datasets - this is the episode for you! Partner Operations Manager Mike Hamberg 
 and Program Manager Will Curran join your co-hosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) 
-to talk through all the public datasets that Google Cloud Platform hosts for that you can BigQuery and Google Compute Storage.
+to talk through all the public datasets that Google Cloud Platform hosts for you on BigQuery and Google Compute Storage.
 
 <!--more-->
 
