@@ -2,7 +2,7 @@
 audioDuration = "00:34:36"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.84.mp3"
 audioSize = 50053185
-categories = ["Big Data", "Kaggle"]
+categories = ["Machine Learning", "Kaggle"]
 date = "2017-07-05T01:07:49Z"
 description = "Wendy Kan joins us today to talk about Kaggle, their competitions, and the cool data sets available on their platform."
 draft = false
