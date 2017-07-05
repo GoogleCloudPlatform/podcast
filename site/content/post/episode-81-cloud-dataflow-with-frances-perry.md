@@ -2,7 +2,7 @@
 audioDuration = "00:34:27"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.81.mp3"
 audioSize = 49543092
-categories = ["Cloud Dataflow", "Open Source", "Apache Beam", "Big Data"]
+categories = ["Dataflow", "Open Source", "Apache Beam", "Big Data"]
 date = "2017-06-14T01:07:49Z"
 description = "Cloud Dataflow and its OSS counterpart Apache Beam are amazing tools for Big Data so we asked Frances Perry, the Tech Lead and PMC for those projects, to join us and tell us more about it."
 draft = false
