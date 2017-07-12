@@ -10,9 +10,9 @@ image="/images/post/istio.png"
 episodeNumber = 85
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Istio with Varun Talwar and Sven Mawson"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/XvMidbBUq7x"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6mun9g/episode_85_istio_with_varun_talwar_and_sven_mawson/"
 +++
 
 Due to popular demand, this week [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
@@ -61,7 +61,7 @@ If I want to apply Istio to an existing Kubernetes application, how do I do it?
 ##### Where can you find us next?
 
 Francesc will be at [GopherCon](https://www.gophercon.com/) in Denver. He also recently released the [Go Tooling in Action](https://github.com/campoy/go-tooling-workshop) workshop
-and a new [Just For Func](https://www.youtube.com/watch?v=c5ufcpTGIJM) episode!
+and a new [justforfunc](https://www.youtube.com/watch?v=c5ufcpTGIJM) episode!
 
 Mark will be speaking at [Google Cloud Summit, New York](https://cloudplatformonline.com/summit-NewYork-2017.html) with Phoenix One Games in July,
 as well as TA'ing the [Kubernetes Bootcamp](https://cloudplatformonline.com/summit-NewYork-2017-Bootcamp.html). He also
