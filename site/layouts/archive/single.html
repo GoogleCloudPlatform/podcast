@@ -13,15 +13,6 @@
 		{{ end }}
 	</ul>
 
-	<h2>By Year/Month</h2>
-	<ul>
-
-		{{ range $value := .Site.Pages.GroupByDate "January 2006" }}
-		{{ $url := (index $value.Pages 0).Node.Date.Format "2006/01/" | urlize }}
-		<li><a href="/{{ $url }}">{{ .Key }}</a></li>
-		{{ end }}
-	</ul>
-
 </article>
 
 </div>

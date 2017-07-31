@@ -34,15 +34,9 @@ WORKDIR /root
 RUN git clone https://github.com/robbyrussell/oh-my-zsh.git
 
 #Hugo
-RUN wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17-64bit.deb -O hugo.deb
+RUN wget https://github.com/gohugoio/hugo/releases/download/v0.25.1/hugo_0.25.1_Linux-64bit.deb -O hugo.deb
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
-
-#node, npm and bower
-#install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
-    apt-get install --yes nodejs
-RUN npm install -g bower
 
 ADD startup.sh /root/startup.sh
 RUN chmod +x /root/startup.sh
