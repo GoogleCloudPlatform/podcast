@@ -15,10 +15,10 @@ clean:
 	docker rmi $(TAG)
 
 push:
-	gcloud docker push $(TAG)
+	gcloud docker -- push $(TAG)
 
 pull:
-	gcloud docker pull $(TAG)
+	gcloud docker -- pull $(TAG)
 
 shell:
 	mkdir -p ~/.config/gcloud
