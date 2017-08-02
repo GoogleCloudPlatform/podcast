@@ -4,15 +4,15 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.88.mp3"
 audioSize = 55171996
 categories = ["Kubernetes"]
 date = "2017-08-02T01:07:49Z"
-image="/images/post/Kuberetes.png"
+image="/images/post/Kubernetes.png"
 description = "Tim Hockin, one of the engineers that started the Kubernetes project, joins Francesc and Mark to talk about all of the cool stuff coming up with Kubernetes 1.7."
 draft = false
 episodeNumber = 88
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Kubernetes 1.7 with Tim Hockin"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/abvm6xbFRp5"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6r5fff/episode_88_kubernetes_17_with_tim_hockin/"
 +++
 
 [Tim Hockin](https://twitter.com/thockin), one of the engineers that started the Kubernetes project,
