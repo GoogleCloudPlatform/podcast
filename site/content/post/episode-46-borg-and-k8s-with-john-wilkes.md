@@ -2,7 +2,7 @@
 audioDuration = "00:41:39"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.46.mp3"
 audioSize = 60024093
-categories = ["Borg", "Kubernetes", "GKE"]
+categories = ["Borg", "Kubernetes", "Container Engine"]
 date = "2016-10-05T01:07:49Z"
 description = "Today we have the incredible honor to interview John Wilkes, Distinguished Engineer at Google and co-author of the Borg paper, about the history of Borg and how Kubernetes came to be."
 draft = false

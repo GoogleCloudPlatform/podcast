@@ -2,7 +2,7 @@
 audioDuration = "00:30:25"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.75.mp3"
 audioSize = 44111398
-categories = ["Kubernetes", "GKE"]
+categories = ["Kubernetes", "Container Engine"]
 date = "2017-05-03T01:07:49Z"
 description = "In this episode Mark and Francesc have a great interview with Chen Goldberg, the Engineering Director for Container Engine and Kubernetes at Google."
 draft = false

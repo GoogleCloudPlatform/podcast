@@ -2,7 +2,7 @@
 audioDuration = "00:43:10"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.57.mp3"
 audioSize = 62188890
-categories = ["Customer", "Gaming", "Kubernetes", "GKE", "Datastore", "Bigtable"]
+categories = ["Customer", "Gaming", "Kubernetes", "Container Engine", "Datastore", "Bigtable"]
 date = "2017-01-18T01:07:49Z"
 description = "We're back! And we're bringing a seriously cool interview about Pokémon Go with Edward Wu, Director of Software Engineering at Niantic."
 draft = false

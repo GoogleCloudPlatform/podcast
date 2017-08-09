@@ -2,7 +2,7 @@
 audioDuration = "00:31:18"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.89.mp3"
 audioSize = 45315012
-categories = ["Open Source", "Customer"]
+categories = ["Open Source", "Customer", "Kubernetes", "Container Engine"]
 date = "2017-08-09T01:07:49Z"
 image="/images/post/heroiclabs.png"
 description = "Today we have the honor to be joined by Alim Jaffer and Mo Firouz from Heroic Labs to discuss their open source framework for social and realtime apps and games."
