@@ -4,14 +4,14 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.90.mp3"
 audioSize = 55483882
 categories = ["OCTO"]
 date = "2017-08-15T01:07:49Z"
-description = ""
+description = "Mark and Francesc welcome the incredible Greg DeMichillie into their studio this week, to talk all about Google Cloud’s Office of the CTO, and how it works with enterprise companies."
 draft = false
 episodeNumber = 90
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "OCTO with Greg DeMichillie"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/B2z1feMi4e6"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6u31l1/episode_90_octo_with_greg_demichillie/"
 +++
 
 [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) welcome the incredible 
