@@ -1,20 +1,20 @@
 +++
-audioDuration = "00:00:00"
+audioDuration = "00:44:56"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.93.mp3"
-audioSize = 0
+audioSize = 64918957
 categories = ["Games", "Customer"]
-date = "2017-09-05T01:07:49Z"
-description = "What is the difference with AI and ML? Melanie Warrick joins your co-hosts Mark and Francesc to discuss the differences and what applications it can have."
+date = "2017-09-06T01:07:49Z"
+description = "What is the difference between AI and ML? Melanie Warrick joins your co-hosts Mark and Francesc to discuss the differences and what applications it can have."
 draft = false
 episodeNumber = 93
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "What's AI with Melanie Warrick"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/ecPzsuNJoUG"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6yhu4a/episode_93_whats_ai_with_melanie_warrick/"
 +++
 
-What is the difference with AI and ML? [Melanie Warrick](https://twitter.com/nyghtowl) joins your 
+What is the difference between AI and ML? [Melanie Warrick](https://twitter.com/nyghtowl) joins your 
 co-hosts [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) to discuss the
 differences and what applications it can have.
 
@@ -39,7 +39,14 @@ passions are working on machine learning problems at scale.
 
 ##### Interview
 
-
+- Narrow AI [wikipedia](https://en.wikipedia.org/wiki/Weak_AI)
+- Quantum Computing [wikipedia](https://en.wikipedia.org/wiki/Quantum_computing)
+- TensorFlow [site](https://www.tensorflow.org/)
+- DeepMind [site](https://deepmind.com/)
+- Cloud Machine Learning Engine [site](https://cloud.google.com/ml-engine/)
+- Keras [site](https://keras.io/)
+- Pytorch [site](http://pytorch.org/)
+- Caffe [site](http://caffe.berkeleyvision.org/)
 - [O’Reilly Artificial Intelligence](https://conferences.oreilly.com/artificial-intelligence/ai-ny) (San Francisco) talk about reinforcement learning
 - [Strata Data Conference](https://conferences.oreilly.com/strata/strata-ny) (New York) talk about AI 
 - [Grace Hopper](https://ghc.anitaborg.org/) (Orlando) talk about AI
@@ -55,8 +62,8 @@ What if you want you want to do an action whenever any Pod is created or destroy
 
 ##### Where can you find us next?
 
-Francesc just released another [justforfunc](http://justforfunc.com) episode on [Go Type Aliases](https://www.youtube.com/watch?v=Vg603e9C-Vg),
-and will be presenting at [Google Cloud Summit in Sydney](https://cloudplatformonline.com/Summit-Sydney-2017.html) in September. 
+Francesc just released an episode of [justforfunc](http://justforfunc.com) last week on [Go Type Aliases](https://www.youtube.com/watch?v=Vg603e9C-Vg),
+and will be presenting at [Google Cloud Summit in Sydney](https://cloudplatformonline.com/Summit-Sydney-2017.html) in September and then heading to [Google Cloud Summit in Chicago](https://cloudplatformonline.com/summit-chicago-2017-schedule.html).
 
-Mark is entering crazy season, currently speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
-He'll then be speaking at [Gameacon](http://www.gameaconvegas.com/) and [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) once he's done with all that.
+Mark is speaking at [Gameacon](http://www.gameaconvegas.com/) and [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) once he's done with all that.
+He is also heading to Australia in October for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) as well.
