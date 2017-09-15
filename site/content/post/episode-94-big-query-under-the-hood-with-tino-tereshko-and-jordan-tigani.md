@@ -9,9 +9,10 @@ draft = false
 episodeNumber = 94
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "BigQuery Under the Hood with Tino Tereshko and Jordan Tigani"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+image="/images/icons/bigdata/BigQuery.png"
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/EDfp3PAeG4H"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/6zvsy1/episode_94_bigquery_under_the_hood_with_tino/"
 +++
 
 Have you ever wanted to know what powers [BigQuery](https://cloud.google.com/bigquery/) under the hood?
@@ -56,6 +57,10 @@ I want to talk to to my phone like it’s [J.A.R.V.I.S.](http://ironman.wikia.co
  - Intents [docs](https://api.ai/docs/intents)
  - Go library [github](https://github.com/campoy/apiai)
 
+<div style="text-align: center">
+  <a href="https://cloud.google.com/bigquery/"><img src="/images/icons/bigdata/BigQuery.png" style="margin: auto;"></a>
+   <p style="font-size:0.8em">BigQuery<p>
+</div>
 
 ##### Where can you find us next?
 
