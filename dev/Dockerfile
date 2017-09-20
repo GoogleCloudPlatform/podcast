@@ -41,7 +41,7 @@ RUN rm hugo.deb
 ADD startup.sh /root/startup.sh
 RUN chmod +x /root/startup.sh
 
-RUN apt-get install --yes python-setuptools python-dev build-essential
+RUN apt-get install --yes python-setuptools python-dev build-essential libmagic-dev
 RUN easy_install pip
 RUN pip install eyeD3 pathlib
 RUN mkdir /tools
