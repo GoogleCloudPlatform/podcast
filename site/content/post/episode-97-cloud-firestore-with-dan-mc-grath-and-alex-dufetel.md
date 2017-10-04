@@ -10,9 +10,9 @@ episodeNumber = 97
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Cloud Firestore with Dan McGrath and Alex Dufetel"
 image="/images/icons/firestore.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/S7SBzjYgaad"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/7490tq/episode97_cloud_firestore_with_dan_mcgrath_and/"
 +++
 
 [Dan McGrath](https://twitter.com/itcmcgrath) and
