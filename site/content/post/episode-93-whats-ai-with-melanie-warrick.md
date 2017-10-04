@@ -2,7 +2,7 @@
 audioDuration = "00:44:56"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.93.mp3"
 audioSize = 64918957
-categories = ["Games", "Customer"]
+categories = ["Machine Learning", "AI"]
 date = "2017-09-06T01:07:49Z"
 description = "What is the difference between AI and ML? Melanie Warrick joins your co-hosts Mark and Francesc to discuss the differences and what applications it can have."
 draft = false
