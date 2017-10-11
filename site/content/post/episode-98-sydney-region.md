@@ -4,20 +4,20 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.98.mp3"
 audioSize = 49754612
 categories = ["Sydney", "Customer"]
 date = "2017-10-11T01:07:49Z"
-description = "This summer a new Cloud Region was announced in Australia and today Francesc and Mark talk to two Australian engineers, Andrew Walker and Graham Polley, about how this new region has changed the way they think about the cloud down under."
+description = "This summer (aka Australian winter) a new Cloud Region was announced in Australia and today Francesc and Mark talk to two Australian engineers, Andrew Walker and Graham Polley, about how this new region has changed the way they think about the cloud down under."
 draft = false
 episodeNumber = 98
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Sydney Region with Andrew Walker and Graham Polley"
 image="/images/post/australia.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/5PnzhTRdBGS"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/75r4at/episode_98_sydney_region_with_andrew_walker_and/"
 +++
 
-This summer a new Cloud Region was announced in Australia
+This summer (aka Australian winter) a new Cloud Region was announced in Australia
 and today [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) talk to two Australian engineers,
-Andrew Walker and Graham Polley, about how this new region has
+[Andrew Walker](https://au.linkedin.com/in/andrewmasonwalker) founder of [3wks](https://twitter.com/real3wks) and [Graham Polley](https://twitter.com/polleyg), about how this new region has
 changed the way they think about the cloud down under.
 
 <!--more-->
@@ -72,6 +72,8 @@ Is Tensorflow good for general math computation?
 
 ##### Where can you find us next?
 
-Francesc will be presenting at [Go Meetup London](https://www.meetup.com/Go-London-User-Group/events/243800263/), [Velocity London](https://conferences.oreilly.com/velocity/vl-eu), and [Google Cloud Summit Paris](https://cloudplatformonline.com/Summit-Paris-2017.html).
+Francesc just releasted the second part of this [#justforfunc code review](https://www.youtube.com/watch?v=zBc338CZRpk&t=6s).
+
+Next week he will be presenting at [Go Meetup London](https://www.meetup.com/Go-London-User-Group/events/243800263/), [Velocity London](https://conferences.oreilly.com/velocity/vl-eu), and [Google Cloud Summit Paris](https://cloudplatformonline.com/Summit-Paris-2017.html).
 
 Mark is heading to Australia for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
