@@ -42,9 +42,7 @@ Graham works very closely with the Google cloud engineering teams in the US, whe
 ##### Cool things of the week
 
 - How we built a brand new bank on GCP and Cloud Spanner: Shine [blog post](https://cloudplatform.googleblog.com/2017/09/how-shine-built-bank-on-gcp-and-cloud-spanner.html)
-
 - Now shipping: Compute Engine machine types with up to 96 vCPUs and 624GB of memory [announcement](https://cloudplatform.googleblog.com/2017/10/new-compute-engine-machine-types.html)
-
 - Google Cloud Dataprep - Data Handling Made Easier [Medium](https://medium.com/google-cloud/google-cloud-dataprep-data-handling-made-easier-79d7c35fbbe7)
 
 ##### Interview
