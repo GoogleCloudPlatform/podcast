@@ -70,7 +70,7 @@ Is Tensorflow good for general math computation?
 
 ##### Where can you find us next?
 
-Francesc just releasted the second part of this [#justforfunc code review](https://www.youtube.com/watch?v=zBc338CZRpk&t=6s).
+Francesc just released the second part of this [#justforfunc code review](https://www.youtube.com/watch?v=zBc338CZRpk&t=6s).
 
 Next week he will be presenting at [Go Meetup London](https://www.meetup.com/Go-London-User-Group/events/243800263/), [Velocity London](https://conferences.oreilly.com/velocity/vl-eu), and [Google Cloud Summit Paris](https://cloudplatformonline.com/Summit-Paris-2017.html).
 
