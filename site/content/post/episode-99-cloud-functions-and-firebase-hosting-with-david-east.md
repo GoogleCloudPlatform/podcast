@@ -56,6 +56,6 @@ How do I learn more about Google Cloud? I love the docs, but I'm looking for som
 
 ##### Where can you find us next?
 
-Next week he will be presenting at [Google Cloud Summit Paris](https://cloudplatformonline.com/Summit-Paris-2017.html), and then heading back to Paris for [dotGo](https://www.dotgo.eu).
+Francesc is currently presenting at [Google Cloud Summit Paris](https://cloudplatformonline.com/Summit-Paris-2017.html) right after speaking at [Velocity London](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/63245), and then heading back to Paris for [dotGo](https://www.dotgo.eu).
 
 Mark is heading to Australia for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
