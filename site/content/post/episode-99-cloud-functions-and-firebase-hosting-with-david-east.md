@@ -10,9 +10,9 @@ episodeNumber = 99
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
 title = "Cloud Functions and Firebase Hosting with David East"
 image="/images/icons/firebase.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/XXHxWRWShoQ"
+redditLink = "https://gcppodcast.com/post/episode-99-cloud-functions-and-firebase-hosting-with-david-east/"
 +++
 
 Firebase Developer Advocate [David East](https://twitter.com/_davideast) joins [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
