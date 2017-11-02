@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.101.mp3"
 audioSize = 50813810
 categories = ["IoT"]
 date = "2017-11-01T01:07:49Z"
-description = "It's time to learn everything about Clout IoT Core from Indranial Chakraborty, Product Manager, and Gabe Weiss, Developer Advocate on IoT."
+description = "It's time to learn everything about Cloud IoT Core from Indranial Chakraborty, Product Manager, and Gabe Weiss, Developer Advocate on IoT."
 draft = false
 episodeNumber = 101
 hosts = ["Francesc Campoy Flores", "Mark Mandel", "Melanie Warrick"]
@@ -15,7 +15,7 @@ googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/po
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/7a5fql/episode_101_cloud_iot_core_with_indranil/"
 +++
 
-It's time to learn everything about Clout IoT Core from Indranil Chakraborty, Product Manager, and Gabe Weiss, Developer Advocate on IoT.
+It's time to learn everything about Cloud IoT Core from Indranil Chakraborty, Product Manager, and Gabe Weiss, Developer Advocate on IoT.
 
 Listen to [Mark](https://twitter.com/Neurotic) and
 [Francesc](https://twitter.com/francesc) ask all of the questions you had about IoT but didn't
