@@ -2,7 +2,7 @@
 audioDuration = "00:32:05"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.105.mp3"
 audioSize = 37358939
-categories = ["Node.js", "JavaScript", "Open-source", "Chrome V8"]
+categories = ["Node.js", "JavaScript", "Open Source", "Chrome V8"]
 date = "2017-11-29"
 description = "Myles Borins joins the podcast to share all his knowledge about Node.js!"
 draft = false
