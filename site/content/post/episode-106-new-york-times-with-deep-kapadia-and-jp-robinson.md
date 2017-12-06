@@ -2,7 +2,7 @@
 audioDuration = "00:31:17"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.106.mp3"
 audioSize = 45300763
-categories = ["App Engine"]
+categories = ["App Engine", "Kubernetes", "BigQuery", "Cloud Endpoints", "Customer"]
 date = "2017-12-06"
 description = "Deep Kapadia and JP Robinson from New York Times join Mark and Francesc to discuss how they use Google Cloud Platform to serve the New York Times to its readers."
 draft = false
@@ -10,12 +10,12 @@ episodeNumber = 106
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "New York Times with Deep Kapadia and JP Robinson"
 #image="images/post/iotcore.gif"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/URiZvoYRKBc"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/7hzin8/episode_106_new_york_times_with_deep_kapadia_and/"
 +++
 
-[Deep Kapadia](https://twitter.com/jprbnsn) and [JP Robinson](https://twitter.com/durple) from [New York Times](https://www.nytimes.com)
+[Deep Kapadia](https://twitter.com/durple) and [JP Robinson](https://twitter.com/jprbnsn) from [New York Times](https://www.nytimes.com)
 join [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) to discuss how they use Google Cloud Platform
 to serve the New York Times to its readers.
 
@@ -23,13 +23,13 @@ to serve the New York Times to its readers.
 
 ##### About JP Robinson
 
-[JP Robinson](https://twitter.com/durple) maintains NYT’s internal and open source tools and frameworks that are related to the Go programming language. 
+[JP Robinson](https://twitter.com/jprbnsn) maintains NYT’s internal and open source tools and frameworks that are related to the Go programming language. 
 He also lead backend development of NYT’s games platform. Recently his team completely rewrote our backend with Go and GCP tools. 
 In doing so they’ve managed to significantly lower request latencies and cut costs in half.
 
 ##### About Deep Kapadia
 
-[Deep Kapadia](https://twitter.com/jprbnsn) manages the Infrastructure and Delivery Engineering, Site Reliability and
+[Deep Kapadia](https://twitter.com/durple) manages the Infrastructure and Delivery Engineering, Site Reliability and
 Test Automation teams at The New York Times. His teams are responsible for providing other engineering teams 
 with tools and processes needed to get their jobs done on a day to day basis. 
 His teams recently have been working on building the GKE deployment pipeline and enabling other teams 
