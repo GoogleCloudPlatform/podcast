@@ -4,15 +4,15 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.107.mp3"
 audioSize = 56743429
 categories = ["Podcast"]
 date = "2017-12-13"
-description = ""
+description = "Francesc Campoy Flores rejoins the show along with Director of Google Cloud Developer Relations Greg Wilson to talk all about 2017 and Google Cloud with Mark and Melanie"
 draft = false
 episodeNumber = 107
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "A Year in Review with Francesc Campoy Flores and Greg Wilson"
 #image="images/post/iotcore.gif"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/MAmxVDazUvj"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/7jjqgl/episode_107_a_year_in_review_with_francesc_campoy/"
 +++
 
 This week we get the band back together! [Francesc Campoy Flores](https://www.twitter.com/francesc) rejoins the show
@@ -23,12 +23,12 @@ along with Director of Google Cloud Developer Relations [Greg Wilson](https://tw
 
 ##### About Francesc Campoy Flores
 [Francesc Campoy Flores](https://www.twitter.com/francesc) is the VP of Developer Relations at [source{d}](https://sourced.tech), 
-He's also a Gopher, Catalan, lgbtqia advocate, previous Google employee (and Podcast host),and creator of the [Just For Func](https://www.youtube.com/c/justforfunc/) Youtube series!
+He's also a Gopher, Catalan, LGBTQIA advocate, previous Google employee (and Podcast host), and creator of the [Just For Func](https://www.youtube.com/c/justforfunc/) YouTube series!
 
 ##### About Greg Wilson
 
 [Greg Wilson](https://twitter.com/gregsramblings) is the Director of Google Cloud Developer Relations, overseeing
-developer relations work across both GSuite and Google Cloud Platform.
+developer relations work across both G Suite and Google Cloud Platform.
 
 ##### Cool things of the week
 - Jeff Dean’s tak at NIPS on ML for Systems and Systems for ML [sides](http://learningsys.org/nips17/assets/slides/dean-nips17.pdf)
