@@ -31,7 +31,7 @@ He's also a Gopher, Catalan, LGBTQIA advocate, previous Google employee (and Pod
 developer relations work across both G Suite and Google Cloud Platform.
 
 ##### Cool things of the week
-- Jeff Dean’s tak at NIPS on ML for Systems and Systems for ML [sides](http://learningsys.org/nips17/assets/slides/dean-nips17.pdf)
+- Jeff Dean’s talk at NIPS on ML for Systems and Systems for ML [sides](http://learningsys.org/nips17/assets/slides/dean-nips17.pdf)
 - The Case for Learned Index Structures [paper](https://www.arxiv-vanity.com/papers/1712.01208v1/)
 - KubeFlow [github](https://github.com/google/kubeflow) [hackernews](https://news.ycombinator.com/item?id=15873659)
 - Manage Google Kubernetes Engine from Cloud Console dashboard, now generally available [blog](https://cloudplatform.googleblog.com/2017/12/Manage-Google-Kubernetes-Engine-from-Cloud-Console-dashboard-now-generally-available.html)
