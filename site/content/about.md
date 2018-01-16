@@ -39,17 +39,9 @@ fantastic tip or trick on Google Cloud Platform, an Open Source project or reall
 think is new and innovative. If you have something that you think would fit this, [send it through](mailto:hello@gcppodcast.com?subject=Cool Thing of the Week) and
 we will consider it to be featured on our show!
 
-### Hosts
+### Current Hosts
 
 The current hosts of the show are:
-
-#### Francesc Campoy Flores
-![Francesc Campoy Flores](/images/hosts/Francesc_Campoy_Flores.png)
-
-Francesc Campoy Flores is a Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers. He joined Google in 2011 as a backend software engineer working mostly in C++ and Python, but it was with Go that he rediscovered how fun programming can be.
-
-- [Twitter](https://www.twitter.com/francesc)
-- [Website](http://www.campoy.cat/)
 
 #### Mark Mandel
 
@@ -59,3 +51,21 @@ Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from 
 
 - [Twitter](https://www.twitter.com/neurotic)
 - [Website](http://www.compoundtheory.com)
+
+#### Melanie Warrick
+![Melanie Warrick](/images/hosts/Melanie_Warrick.png)
+
+Melanie Warrick is a Developer Relations Engineer for AI and the Cloud at Google and speaks a lot about AI and ML. She was a founding engineer on a deep learning platform prior to Google and worked on machine learning engineering at Change.org. In another life she had a comprehensive consulting career, as an IC and leading teams both domestic and international and before that she was working behind the scenes in the film industry. In her spare time, she sleeps.
+
+- [Twitter](https://www.twitter.com/nyghtowl)
+- [Website](http://www.nyghtowl.com/)
+
+### Hosts Memoriam
+
+#### Francesc Campoy Flores
+![Francesc Campoy Flores](/images/hosts/Francesc_Campoy_Flores.png)
+
+Francesc Campoy Flores was an original co-host of the podcast and Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers. He joined Google in 2011 as a backend software engineer working mostly in C++ and Python, but it was with Go that he rediscovered how fun programming can be.
+
+- [Twitter](https://www.twitter.com/francesc)
+- [Website](http://www.campoy.cat/)
