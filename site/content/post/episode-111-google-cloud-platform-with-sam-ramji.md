@@ -10,9 +10,9 @@ episodeNumber = 111
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Google Cloud Platform with Sam Ramji"
 #image="images/post/iotcore.gif"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/dFKL9KXdswh"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/7so6c5/episode_111_google_cloud_platform_with_sam_ramji/"
 +++
 
 The delightful [Sam Ramji](https://twitter.com/sramji) joins [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) this week
