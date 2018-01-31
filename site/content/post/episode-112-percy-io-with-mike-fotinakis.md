@@ -1,23 +1,23 @@
 +++
 audioDuration = "00:35:01"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.112.mp3"
-audioSize = 0
-categories = ["Continuous Integration", ""]
+audioSize = 50399848
+categories = ["Continuous Integration", "Visual Testing"]
 date = "2018-01-31"
-description = ""
+description = "Mike Fotinakis joins Mark and Melanie to discuss how they use Google Cloud Platform to develop Percy, the platform for continuous visual reviews for web apps."
 draft = false
 episodeNumber = 112
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Percy.io with Mike Fotinakis"
 image="images/post/percy.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://www.reddit.com/r/gcppodcast/comments/7uasp2/episode_112_percyio_with_mike_fotinakis/"
+redditLink = "https://plus.google.com/+Gcppodcast/posts/MGFMtFWJUt8"
 +++
 
-We return once again to Continuous Integration tooling - with [Mike Fotinakis](https://twitter.com/mikefotinakis) joining
+We return once again to Continuous Integration tooling, this time with a visual spin. [Mike Fotinakis](https://twitter.com/mikefotinakis) joins
 [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to discuss how they use Google Cloud Platform
-to develop [Percy](https://percy.io), for continuous visual reviews for web apps.
+to develop [Percy](https://percy.io), the platform for continuous visual reviews for web apps.
 
 <!--more-->
 
@@ -37,6 +37,7 @@ to develop [Percy](https://percy.io), for continuous visual reviews for web apps
 - Google Cloud SQL [site](https://cloud.google.com/sql/) [docs](https://cloud.google.com/sql/docs/)
 - Redis Labs Cloud [site](https://redislabs.com/products/redis-cloud/)
 - Google Cloud Platform Pricing Calculator [site](https://cloud.google.com/products/calculator/)
+- Ember Conf [site](https://emberconf.com/)
 
 <div style="text-align: center">
   <a href="https://percy.io"><img src="/images/post/percy.png" style="margin: auto; max-width: 30%;"></a>
@@ -51,6 +52,6 @@ I would love a weekly roundup of news about Google Cloud Platform - where can I 
 
 ##### Where can you find us next?
 
-Melanie is in London right now at [AI Congress](https://theaicongress.com/) and she will be at [FOSDEM](https://fosdem.org/2018/) in Brussels in Feb.
+Melanie will be at [FOSDEM](https://fosdem.org/2018/) in Brussels this weekend.
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
