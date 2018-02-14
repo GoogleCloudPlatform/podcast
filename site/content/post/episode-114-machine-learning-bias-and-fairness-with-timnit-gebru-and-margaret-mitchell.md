@@ -14,7 +14,7 @@ googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcas
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/7xj7ld/episode_114_machine_learning_bias_and_fairness/"
 +++
 
-This week, we dive into machine learning bias and fairness from a social and technical perspective with machine learning research scientists [Timnit Gebru](https://github.com/timnitgebru) from Microsoft and [Margaret Mitchell](https://github.com/mmitchell_ai) (aka Meg, aka M.) from Google. 
+This week, we dive into machine learning bias and fairness from a social and technical perspective with machine learning research scientists [Timnit Gebru](https://twitter.com/timnitgebru) from Microsoft and [Margaret Mitchell](https://twitter.com/mmitchell_ai) (aka Meg, aka M.) from Google. 
 
 They share with [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) about ongoing efforts and resources to address bias and fairness including diversifying datasets, applying algorithmic techniques and expanding research team expertise and perspectives. There is not a simple solution to the challenge, and they give insights on what work in the broader community is in progress and where it is going.   
 
