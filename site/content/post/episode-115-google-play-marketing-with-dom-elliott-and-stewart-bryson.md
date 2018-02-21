@@ -1,5 +1,5 @@
 +++
-audioDuration = "00:00:00"
+audioDuration = "00:31:46"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.115.mp3"
 audioSize = 0
 categories = ["Customer", "Analytics", "Data Studio"]

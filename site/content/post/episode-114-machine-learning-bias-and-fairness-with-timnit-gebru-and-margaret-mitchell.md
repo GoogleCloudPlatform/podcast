@@ -65,6 +65,7 @@ Additional links:
 - Using Deep Learning and Google Street View to Estimate Demographics with Timnit Gebru [TWiML & AI podcast](https://twimlai.com/twiml-talk-88-using-deep-learning-google-street-view-estimate-demographics-timnit-gebru/)
 - Security and Safety in AI: Adversarial Examples, Bias and Trust with Mustapha Cisse [TWiML & AI podcast](https://twimlai.com/twiml-talk-108-security-safety-ai-adversarial-examples-bias-trust-moustapha-cisse/)
 - How we can build AI to help humans, not hurt us [TED](https://www.ted.com/talks/margaret_mitchell_how_we_can_build_ai_to_help_humans_not_hurt_us)
+- PAIR Symposium [conference](https://sites.google.com/corp/view/pair-symposium2017/home)
 
 ##### Question of the week
 
