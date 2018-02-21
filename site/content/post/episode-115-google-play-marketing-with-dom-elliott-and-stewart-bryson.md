@@ -1,7 +1,7 @@
 +++
 audioDuration = "00:31:46"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.115.mp3"
-audioSize = 0
+audioSize = 45732421
 categories = ["Customer", "Analytics", "Data Studio"]
 date = "2018-02-21"
 description = "Melanie and Mark chat with Dom Elliott and Stewart Bryson about how they use our big data processing and visualisation tools to introspect the Google play ecosystem"
@@ -11,8 +11,8 @@ hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Google Play Marketing with Dom Elliott and Stewart Bryson"
 linked = true
 image="/images/post/play.png"
-googlePlusLink = ""
-redditLink = ""
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/LYoT8C5Rfox"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/7z67k4/episode_115_google_play_marketing_with_dom/"
 +++
 
 In this episode, Google Play Marketing is the customer of Google Cloud Platform. 
