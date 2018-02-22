@@ -22,7 +22,7 @@ about how they use our big data processing and visualisation tools to introspect
 <!--more-->
 
 ##### Dom Elliott
-Dom Elliott lead global developer marketing communications for Google Play. My goal is to help Android app and game developers improve their app quality and business performance on Google Play, by raising awareness and understanding of features that can help them find success. 
+Dom Elliott leads global developer marketing communications for Google Play. His goal is to help Android app and game developers improve their app quality and business performance on Google Play, by raising awareness and understanding of features that can help them find success. 
 
 ##### Stewart Bryson
 [Stewart Bryson](https://twitter.com/stewartbryson) is the Owner & Co-founder of Red Pill Analytics, a products and services company specializing in Cloud Analytics delivery. Red Pill is 4 years old and has about 30 employees in the US, UK and Brazil. We work with customers to accelerate their use of the public cloud for analytics, including migrating current on-premises workloads. Red Pill Analytics was engaged by Google Play to build the digital channel ingestion processes, as well as build all the Data Studio content for analyzing those channels.
