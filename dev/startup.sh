@@ -1,5 +1,6 @@
-#!/usr/bin/env sh
-# Copyright 2017 Google Intt. All rights reserved.
+#!/bin/bash
+
+# Copyright 2018 Google Intt. All rights reserved.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -11,6 +12,7 @@
 #
 # See the License for the specific language governing permissions and
 # limitations under the License.
+set -o xtrace
 
 groupadd --gid $HOST_GID $HOST_USER
 useradd $HOST_USER --home /home/$HOST_USER --gid $HOST_GID --uid $HOST_UID --shell /usr/bin/zsh
@@ -18,7 +20,7 @@ echo "$HOST_USER:pw" | chpasswd
 
 cp -r /root/oh-my-zsh /home/$HOST_USER/.oh-my-zsh
 chown -R $HOST_USER:$HOST_USER /home/$HOST_USER
-chown -R $HOST_USER:$HOST_USER /google-cloud-sdk
+#chown -R $HOST_USER:$HOST_USER /google-cloud-sdk
 
 /usr/sbin/sshd
 su $HOST_USER

@@ -1,6 +1,7 @@
 FROM golang:1.8
 
-RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server python-crcmod
+RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server python-crcmod \
+                        python-setuptools python-dev build-essential libmagic-dev
 WORKDIR /
 
 #sshd setup - https://docs.docker.com/examples/running_ssh_service/
@@ -38,16 +39,15 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.25.1/hugo_0.25.1_
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 
-ADD startup.sh /root/startup.sh
-RUN chmod +x /root/startup.sh
-
-RUN apt-get install --yes python-setuptools python-dev build-essential libmagic-dev
 RUN easy_install pip
 RUN pip install eyeD3 pathlib
 RUN mkdir /tools
 ADD tag.sh /tools/tag.sh
 RUN chmod +x /tools/tag.sh
 ADD album.png /tools/album.png
+
+ADD startup.sh /root/startup.sh
+RUN chmod +x /root/startup.sh
 
 RUN mkdir /project
 WORKDIR /project
