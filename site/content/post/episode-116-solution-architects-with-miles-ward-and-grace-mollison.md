@@ -9,15 +9,15 @@ draft = false
 episodeNumber = 116
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Solution Architects with Miles Ward and Grace Mollison"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/g6Z4HKiLX5n"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/80xca4/episode_116_solution_architects_with_miles_ward/"
 +++
 
 We have the pleasure this week of having the Director of Solutions for Google Cloud [Miles Ward](https://twitter.com/milesward) and Cloud Solutions Architect [Grace Mollison](https://twitter.com/grapesfrog)
 join [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to discuss Solution Architects, what they
 do and how they interact with Customers at Google Cloud Platform.
-ged
+
 <!--more-->
 
 ##### Miles Ward
@@ -35,6 +35,7 @@ Based in London, UK, [Grace Mollison](https://twitter.com/grapesfrog) is a Cloud
 - JupyterLab is Ready for Users [blog](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906) [github](https://github.com/jupyterlab/jupyterlab)
 - Announcing Google Cloud Spanner as a Vault storage backend [blog](https://cloudplatform.googleblog.com/2018/02/announcing-Google-Cloud-Spanner-as-a-Vault-storage-backend.html) 
 - How to handle mutating JSON schemas in a streaming pipeline, with Square Enix [blog](https://cloud.google.com/blog/big-data/2018/02/how-to-handle-mutating-json-schemas-in-a-streaming-pipeline-with-square-enix)
+- FAT* [livestream](https://fatconference.org/2018/livestream.html)
 
 ##### Interview
 
