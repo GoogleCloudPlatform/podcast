@@ -9,10 +9,10 @@ draft = false
 episodeNumber = 118
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "OpenCensus with Morgan McLean and JBD"
-linked = false
+linked = true
 image="/images/post/opencensus.png"
-googlePlusLink = ""
-redditLink = ""
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/XCpyBQzvAcw"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/84f1ta/episode_118_opencensus_with_morgan_mclean_and_jbd/"
 +++
 
 Product Manager Morgan McLean and Software Engineer [JBD](https://twitter.com/rakyll) join [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) this week 
