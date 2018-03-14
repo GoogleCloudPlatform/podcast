@@ -9,10 +9,10 @@ draft = false
 episodeNumber = 117
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Cloud AI with Fei-Fei Li"
-linked = false
+linked = true
 image="/images/post/dr-fei-fei-li.jpg"
-googlePlusLink = ""
-redditLink = ""
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/4YkfJx8mDCw"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/82qc1j/episode_117_cloud_ai_with_dr_feifei_li/"
 +++
 
 
