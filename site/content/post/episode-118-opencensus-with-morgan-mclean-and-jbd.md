@@ -31,10 +31,9 @@ Morgan McLean is the Product Manager for Tracing, Debugging, and Profiling at Go
 
 ##### Cool things of the week
 
-- TensorFlow 1.6 [release](https://github.com/tensorflow/tensorflow/releases/tag/v1.6.0)
-- TensorFlow Dev Summit [site](https://www.tensorflow.org/dev-summit/)
-- TensorFlow Object Detection on iOS [youtube](https://www.youtube.com/watch?v=0uXMgLIlXoE&index=17&list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2)
 - Introducing Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes [blog](https://cloudplatform.googleblog.com/2018/03/introducing-Agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-Kubernetes.html) [github](https://github.com/GoogleCloudPlatform/agones)
+- TensorFlow 1.6 [release](https://github.com/tensorflow/tensorflow/releases/tag/v1.6.0) [summit](https://www.tensorflow.org/dev-summit/)
+- TensorFlow Object Detection on iOS [youtube](https://www.youtube.com/watch?v=0uXMgLIlXoE&index=17&list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2)
 - Optimizing your Cloud Storage performance: Google Cloud Performance Atlas [blog](https://cloudplatform.googleblog.com/2018/03/optimizing-your-Cloud-Storage-performance-Google-Cloud-Performance-Atlas.html) 
 - Introducing GCP’s new interactive CLI [blog](https://cloudplatform.googleblog.com/2018/03/introducing-GCPs-new-interactive-CLI.html) [docs](https://cloud.google.com/sdk/gcloud/reference/alpha/interactive)   
 
