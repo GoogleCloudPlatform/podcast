@@ -4,19 +4,19 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.117.mp3"
 audioSize = 44648641
 categories = ["Cloud AI", "Cloud ML", "Machine Learning"]
 date = "2018-03-07"
-description = "The Chief Scientist of AI/ML at Google Cloud, Dr. Fei-Fei Li joins us to discuss how she brings AI technology to the enterprise world through Cloud AI and the future of AI research." 
+description = "The Chief Scientist of AI/ML at Google Cloud, Dr. Fei-Fei Li joins us to discuss how she makes AI more accessible through Cloud AI and the future of AI research." 
 draft = false
 episodeNumber = 117
 hosts = ["Mark Mandel", "Melanie Warrick"]
-title = "Cloud AI with Fei-Fei Li"
-linked = false
+title = "Cloud AI with Dr. Fei-Fei Li"
+linked = true
 image="/images/post/dr-fei-fei-li.jpg"
-googlePlusLink = ""
-redditLink = ""
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/4YkfJx8mDCw"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/82qc1j/episode_117_cloud_ai_with_dr_feifei_li/"
 +++
 
 
-[Dr. Fei-Fei Li](https://twitter.com/drfeifei), the Chief Scientist of AI/ML at Google joins [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) this week to talk about how we enable businesses to solve critical problems through AI solutions. We talk about the work she is doing at Google to help reduce AI barriers to entry for enterprise, her research with Stanford combing AI and healthcare, what is the next stage of AI research and her efforts to overcome one of the challenges in AI by drive more diversity in the field. 
+[Dr. Fei-Fei Li](https://twitter.com/drfeifei), the Chief Scientist of AI/ML at Google joins [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) this week to talk about how Google enables businesses to solve critical problems through AI solutions. We talk about the work she is doing at Google to help reduce AI barriers to entry for enterprise, her research with Stanford combining AI and health care, where AI research is going, and her efforts to overcome one of the key challenges in AI by driving for more diversity in the field. 
 
 <!--more-->
 
@@ -45,7 +45,6 @@ redditLink = ""
 - TensorFlow [site](https://www.tensorflow.org/),  [github](https://github.com/tensorflow) and [Dev Summit waitlist](https://www.tensorflow.org/dev-summit/)
 - ImageNet [site](http://www.image-net.org/) & Kaggle ImageNet Competition [site](https://www.kaggle.com/c/imagenet-object-detection-challenge)
 - Stanford Medicine [site](http://med.stanford.edu/) & Stanford Children's Hospital [site](https://newhospital.stanfordchildrens.org/?vt-k=%2Bstanford%20%2Bchildrens&gclid=Cj0KCQiAuP7UBRDiARIsAFpxiRLO4Yk-UMifiP27tTdeDKzG-9C-bh0hiCNBsmC6bK2Ck5sKAKkoXUAaArD0EALw_wcB)
-- Melinda Gates and Fei-Fei Li Want to Liberate AI from “Guy with Hoodies" [article](https://www.wired.com/2017/05/melinda-gates-and-fei-fei-li-want-to-liberate-ai-from-guys-with-hoodies/)
 
 Additional sample resources on Dr. Fei-Fei Li: 
 
@@ -56,6 +55,7 @@ Additional sample resources on Dr. Fei-Fei Li:
 - Past, Present and Future of AI / Machine Learning Google I/O [video](https://www.youtube.com/watch?v=0ueamFGdOpA)
 - Research Symposium 2017 - Morning Keynote Address at Harker School [video](https://www.youtube.com/watch?v=VBjqWogh6Gw)
 - How we’re teaching computers to understand pictures [video](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures)
+- Melinda Gates and Fei-Fei Li Want to Liberate AI from “Guy with Hoodies" [article](https://www.wired.com/2017/05/melinda-gates-and-fei-fei-li-want-to-liberate-ai-from-guys-with-hoodies/)
 
 <div style="text-align: center">
   <a href="https://play.google.com"><img src="/images/post/dr-fei-fei-li.jpg" style="margin: auto; max-width: 30%;"></a>
