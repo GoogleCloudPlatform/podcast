@@ -9,10 +9,10 @@ draft = false
 episodeNumber = 120
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Forseti with Nenad Stojanovski and Andrew Hoying"
-linked = false
+linked = true
 image="/images/post/forseti.png"
-googlePlusLink = ""
-redditLink = ""
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/2ZFLosZwmdQ"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/87u6e7/episode_120_forseti_with_nenad_stojanovski_and/"
 +++
 
 Nenad Stojanovski and Andrew Hoying join [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl)
@@ -24,7 +24,7 @@ this week to discuss [Forseti](https://forsetisecurity.org) - open source tools 
 Staff Security Engineer, Spotify
 
 ##### Andrew Hoying
-Senior Security Engineer, Google
+Andrew Hoying is a Senior Security Engineer at Google. His goal is to ensure all services built by Google and running on Google Cloud Platform have the same, or better, security assurances as services running in any other environment. He is also a top contributor to the Forseti Security open-source project, helping enterprises monitor and secure their GCP environments.
 
 ##### Cool things of the week
 
