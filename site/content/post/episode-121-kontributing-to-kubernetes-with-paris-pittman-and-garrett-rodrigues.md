@@ -10,12 +10,12 @@ episodeNumber = 121
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Kontributing to Kubernetes with Paris Pittman and Garrett Rodrigues"
 image="/images/post/Kubernetes.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/SCECGdkPiz5"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/89rh7m/episode_121_kontributing_to_kubernetes_with_paris/"
 +++
 
-[Paris Pittman](https://twitter.com/parisinbmore) and [Garrett Rodrigues](https://twitter.com/grodrigues3) join
+[Paris Pittman](https://twitter.com/parisinbmore) and [Garrett Rodrigues](https://github.com/grodrigues3) join
 [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to discuss the 
 Contributor Experience on Kubernetes, and how people can get involved with Kubernetes!
 
@@ -30,7 +30,7 @@ Bay Area Kubernetes Meetup Co-Organizer
 ##### Garrett Rodrigues
 Technical Lead of the Contributor Experience SIG for Kubernetes.
 
-[Garrett](https://twitter.com/grodrigues3) is a Technical Program Manager at Google, and he joined the Kubernetes and GKE Team at Google in June 2016.  As a lead of ContribX, he has focused on scaling the Kubernetes project in a sustainable way.  Garrett developed a lot of the tooling and automation to support OSS code review, issue triage, and data collection about the project.  In addition to his work on Contributor Experience, Garrett is currently involved with the app-def working group to get a new declarative application management tool released.
+[Garrett](https://github.com/grodrigues3) is a Technical Program Manager at Google, and he joined the Kubernetes and GKE Team at Google in June 2016.  As a lead of ContribX, he has focused on scaling the Kubernetes project in a sustainable way.  Garrett developed a lot of the tooling and automation to support OSS code review, issue triage, and data collection about the project.  In addition to his work on Contributor Experience, Garrett is currently involved with the app-def working group to get a new declarative application management tool released.
 
 ##### Cool things of the week
 
