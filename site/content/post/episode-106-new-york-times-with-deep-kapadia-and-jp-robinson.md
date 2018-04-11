@@ -72,7 +72,7 @@ Mark will be Montreal in December to speak at [Montreal International Games Summ
   
 Melanie will be at [NIPS (Neural Information Processing Systems)](https://nips.cc/) in Long Beach and will also be attending [Black in AI](https://blackinai.github.io) on December 8th.
 
-{{< transcript "MARK: Hi, and welcome to episode number 106 of the Weekly Google Cloud Platform Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warwick. How are you doing, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 106 of the Weekly Google Cloud Platform Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. How are you doing, Melanie?" >}}
 
 MELANIE: Hi Mark, I'm doing good. How are you doing? 
 

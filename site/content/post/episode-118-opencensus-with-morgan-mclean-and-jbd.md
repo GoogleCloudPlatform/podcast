@@ -73,7 +73,7 @@ I heard there are abilities to natively extend Kubernetes - what does that mean,
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March. You can find him via the Google at GDC 2108 [site](https://events.withgoogle.com/google-gdc-2018/).
 
-{{< transcript "MARK: Hi. And welcome to episode number 117 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warwick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi. And welcome to episode number 117 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warcick. Melanie, how are you doing today?" >}}
 
 MELANIE: Hi, Mark. I'm here. 
 

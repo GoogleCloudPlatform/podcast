@@ -57,7 +57,7 @@ How do you give public postmordems?
 Mark will be Montreal in December to speak at [Montreal International Games Summit](http://www.migs17.com/en/home/).  
 Melanie will be at SOCML (Self-Organizing Conference on Machine Learning) end of this week and [NIPS (Neural Information Processing Systems)](https://nips.cc/) in Long Beach next week.
 
-{{< transcript "MARK: Hi, and welcome to episode number 105 of the \"Weekly Google Cloud Platform Podcast.\" I am Mark Mandel, and I'm here with my colleague, Melanie Warwick." >}}
+{{< transcript "MARK: Hi, and welcome to episode number 105 of the \"Weekly Google Cloud Platform Podcast.\" I am Mark Mandel, and I'm here with my colleague, Melanie Warrick." >}}
 
 MELANIE: Hey, Mark. 
 

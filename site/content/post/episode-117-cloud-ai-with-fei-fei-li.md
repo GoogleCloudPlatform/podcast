@@ -57,7 +57,7 @@ Additional sample resources on Dr. Fei-Fei Li:
 - Melinda Gates and Fei-Fei Li Want to Liberate AI from “Guy with Hoodies" [article](https://www.wired.com/2017/05/melinda-gates-and-fei-fei-li-want-to-liberate-ai-from-guys-with-hoodies/)
 
 <div style="text-align: center">
-  <a href="https://play.google.com"><img src="/images/post/dr-fei-fei-li.jpg" style="margin: auto; max-width: 30%;"></a>
+  <a href="https://scholar.google.com/citations?user=rDfyQnIAAAAJ"><img src="/images/post/dr-fei-fei-li.jpg" style="margin: auto; max-width: 30%;"></a>
    <p style="font-size:0.8em">Dr. Fei-Fei Li<p>
 </div>
 
@@ -87,7 +87,7 @@ Sample of recent women in tech events to keep on radar for next year:
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi. And welcome to episode number 117 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warwick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi. And welcome to episode number 117 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm great. 
 

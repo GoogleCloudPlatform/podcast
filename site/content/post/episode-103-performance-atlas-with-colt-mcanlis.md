@@ -52,7 +52,7 @@ What are the differences between sustained and committed use discounts?
 
 Mark will be Montreal in December to speak at [Montreal International Games Summit](http://www.migs17.com/en/home/).
 
-{{< transcript "MARK: Hi, and welcome to episode number 103 of the weekly Google Cloud Platform podcast. I am Mark Mandel and I'm here with my colleague, Melanie Warwick. Hello Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 103 of the weekly Google Cloud Platform podcast. I am Mark Mandel and I'm here with my colleague, Melanie Warrick. Hello Melanie, how are you doing today?" >}}
 
 MELANIE: Hey, Mark. I'm great. 
 

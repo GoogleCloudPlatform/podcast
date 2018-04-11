@@ -84,7 +84,7 @@ Melanie will be at [Fat*](https://fatconference.org/) in New York in Feb.
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 114 of the weekly Google Cloud Platform podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warwick. How are we doing this fine morning, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 114 of the weekly Google Cloud Platform podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. How are we doing this fine morning, Melanie?" >}}
 
 MELANIE: Great Mark. How are you doing? 
 

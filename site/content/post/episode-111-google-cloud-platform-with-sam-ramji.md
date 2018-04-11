@@ -62,7 +62,7 @@ Melanie is speaking at [AI Congress](https://theaicongress.com/) in London Jan 3
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 111 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warwick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 111 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 [LAUGHTER] 
 

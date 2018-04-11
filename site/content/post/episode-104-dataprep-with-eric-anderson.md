@@ -49,7 +49,7 @@ What is feature engineering?
 Mark will be Montreal in December to speak at [Montreal International Games Summit](http://www.migs17.com/en/home/).  
 Melanie will be at [NIPS (Neural Information Processing Systems)](https://nips.cc/) in Long Beach in December
 
-{{< transcript "MARK: Hi, and welcome to episode number 104 of the weekly Google Cloud Platform Podcast. I am Mark Mandel and I'm here with my colleague Melanie Warwick." >}}
+{{< transcript "MARK: Hi, and welcome to episode number 104 of the weekly Google Cloud Platform Podcast. I am Mark Mandel and I'm here with my colleague Melanie Warrick." >}}
 
 MELANIE: Yes, it's good to be here. 
 
