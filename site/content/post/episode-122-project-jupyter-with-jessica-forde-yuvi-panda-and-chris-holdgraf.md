@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8biwjs/project_jupyte
 <!--more-->
 
 ##### Jessica Forde
-[Jessica Forde](https://github.com/jzf2101) is a Project Jupyter Maintainer and a visiting academic at NYU Center for Data Science. Her research focus is applications that allow for human interaction, primarily in healthcare. Jessica is also a data scientist at Careful, a sports medicine startup. Her interest in industrial applications of reinforcement learning began at Columbia, where she developed energy-saving software for skyscrapers in Manhattan, which she demoed at NIPS. Previously, Jessica developed the DARPA-funded open source machine learning library, datamicroscopes, at Qadium. She has worked with consultants at McKinsey to provide data-driven human resources recommendations to clients. 
+[Jessica Forde](https://github.com/jzf2101) is a Project Jupyter Maintainer with a background in reinforcement learning and Bayesian statistics.  At Project Jupyter, she works primarily on JupyterHub, Binder, and JuptyerLab to improve access to scientific computing and scientific research.  Her previous open source projects include datamicroscopes, a DARPA-funded Bayesian nonparametrics library in Python, and density, a wireless device data tool at Columbia University.  Jessica has also worked as a machine learning researcher and data scientist in a variety of applications including healthcare, energy, and human capital.  
 
 ##### Yuvi Panda
 [Yuvi Panda](https://twitter.com/yuvipanda?lang=en) is the Project Jupyter Technical Operations Architect in the UC Berkeley Data Sciences Division. He works on making it easy for people who don’t traditionally consider themselves "programmers" to do things with code. He builds tools (e.g., Quarry, PAWS, etc.) to sidestep the list of historical accidents that constitute the "command line tax" that people have to pay before doing productive things with computing. 
@@ -47,6 +47,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8biwjs/project_jupyte
 - Jupyter Notebook [github](https://github.com/jupyterlab)
 - LIGO (Laser Interferometer Gravitational-Wave Observatory) [site](https://www.ligo.caltech.edu/) and [binder](https://github.com/minrk/ligo-binder)
 - Paul Romer, World Bank Chief Economist [blog](https://paulromer.net/doing-business/) and [jupyter notebook](https://github.com/paulromer149/DB-Calcs/blob/master/DB-Calcs.ipynb)
+- The Scientific Paper is Obsolete [article](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/?single_page=true)
 - Data 8: The Foundations of Data Science [site](http://data8.org/)
 - Zero to JupyterHub [site](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
 - JupyterHub Deploy Docker [github](https://github.com/jupyterhub/jupyterhub-deploy-docker)
