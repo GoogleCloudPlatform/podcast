@@ -4,23 +4,23 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.123.mp3"
 audioSize = 60613555
 categories = ["Post-Quantum Cryptography", "Quantum Computing", "Cryptography", "Security"]
 date = "2018-04-18"
-description = "Adam Langely and Nick Sullivan help us understand post-quantum cryptography and what security research looks like for quantum computing." 
+description = "Adam Langley and Nick Sullivan help us understand post-quantum cryptography and what security research looks like for quantum computing." 
 draft = false
 episodeNumber = 123
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Post-Quantum Cryptography with Nick Sullivan and Adam Langley"
 image="/images/post/Don't_Panic.svg.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/u/0/b/117267610519909886476/+Gcppodcast/posts/6mGt347qzDm"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8d9cuf/postquantum_cryptography_with_nick_sullivan_and/"
 +++
 
-[Nick Sullivan](https://github.com/grittygrease), and  [Adam Langley](https://twitter.com/agl_) join [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) to provide a pragmatic view on post-quantum cryptography and what it means to research security for the potential of quantum computing. Post-quantum cryptography is about developing algorithms that are resistant to quantum computers in conjunction with "classical" computers. It's about looking at the full picture of potential threats and planning on how to address them using a diversity of types of mathematics in the research. Adam and Nick help clarify the different terminology and techniques that are applied in the research and give a practical understanding of what to expect from a security perspective. 
+[Nick Sullivan](https://twitter.com/grittygrease), and  [Adam Langley](https://twitter.com/agl_) join [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) to provide a pragmatic view on post-quantum cryptography and what it means to research security for the potential of quantum computing. Post-quantum cryptography is about developing algorithms that are resistant to quantum computers in conjunction with "classical" computers. It's about looking at the full picture of potential threats and planning on how to address them using a diversity of types of mathematics in the research. Adam and Nick help clarify the different terminology and techniques that are applied in the research and give a practical understanding of what to expect from a security perspective. 
 
 <!--more-->
 
 ##### Nick Sullivan
-[Nick Sullivan](https://github.com/grittygrease) runs the cryptography team at [Cloudflare](https://www.cloudflare.com), an internet security and performance company.  
+[Nick Sullivan](https://twitter.com/grittygrease) runs the cryptography team at [Cloudflare](https://www.cloudflare.com), an internet security and performance company.  
 
 ##### Adam Langley
 [Adam Langley](https://twitter.com/agl_) is a Principal Software Engineer at Google, responsible for a variety of cryptography-related efforts. 
