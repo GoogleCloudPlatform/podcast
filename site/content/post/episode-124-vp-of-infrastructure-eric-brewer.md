@@ -2,7 +2,7 @@
 audioDuration = "00:35:13"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.124.mp3"
 audioSize = 51118647
-categories = ["Open Source", "Kubernetes", "Istio"]
+categories = ["Open Source", "Kubernetes", "Istio", "Hybrid Cloud"]
 date = "2018-04-25"
 description = "VP of Infrastructure at Google Cloud Eric Brewer, talks to Melanie and Mark all about open source at Google Cloud, distributed systems, hybrid cloud, and more!" 
 draft = false
@@ -10,9 +10,9 @@ episodeNumber = 124
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "VP of Infrastructure Eric Brewer"
 #image="/images/post/Don't_Panic.svg.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/Ga3atVNyFzr"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8euv68/episode_124_vp_of_infrastructure_eric_brewer/"
 +++
 
 VP of Infrastructure at Google Cloud [Eric Brewer](https://twitter.com/eric_brewer), talks to 
@@ -32,7 +32,7 @@ Credits: [Wikipedia](https://en.wikipedia.org/wiki/Eric_Brewer_(scientist))
   - Google Cloud Next London [site](https://cloud.withgoogle.com/next18/london)
   - Google Cloud Next Tokyo [site](https://cloud.withgoogle.com/next18/tokyo)
 - Cloud SQL for PostgreSQL now generally available and ready for your production workloads [blog](https://cloudplatform.googleblog.com/2018/04/Cloud-SQL-for-PostgreSQL-now-generally-available-and-ready-for-your-production-workloads.html)
-- Calling C functions from BigQuery with Web Assembly [blog](https://medium.com/@sourcedtech/calling-c-functions-from-bigquery-with-web-assembly-c19c023fc755 & https://medium.com/@hoffa/bigquery-beyond-sql-and-js-running-c-and-rust-code-at-scale-33021763ee1f)
+- Calling C functions from BigQuery with Web Assembly [blog](https://medium.com/@sourcedtech/calling-c-functions-from-bigquery-with-web-assembly-c19c023fc755)
   - BigQuery beyond SQL and JS: Running C and Rust code at scale [blog](https://medium.com/@hoffa/bigquery-beyond-sql-and-js-running-c-and-rust-code-at-scale-33021763ee1f)
 - Kubernetes best practices: How and why to build small container images [blog](https://cloudplatform.googleblog.com/2018/04/Kubernetes-best-practices-how-and-why-to-build-small-container-images.html) [youtube](https://www.youtube.com/watch?v=wGz_cbtCiEA)
      
