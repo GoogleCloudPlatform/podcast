@@ -10,9 +10,9 @@ episodeNumber = 125
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Open Source at Google Cloud Platform with Sarah Novotny"
 #image="/images/post/Don't_Panic.svg.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/X1Bd8oAMXZ9"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8giifl/episode_125_open_source_at_google_cloud_platform/"
 +++
 
 [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) are joined by
