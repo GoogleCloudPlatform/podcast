@@ -36,8 +36,10 @@ As Chief Decision Scientist at Google Cloud, [Cassie](https://twitter.com/quaesi
 
 - Decision Intelligence [wikipedia](https://en.wikipedia.org/wiki/Decision_Intelligence)
 - Redhat Summit Keynote [youtube](https://youtu.be/hu2BmE1Wk_Q?t=7097)
-- Deep Learning [wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
+- Data Analytics [wikipedia](https://en.wikipedia.org/wiki/Data_analysis)
 - Statistical Analysis [wikipedia](https://en.wikipedia.org/wiki/Statistics)
+- Machine Learning [wikipedia](https://en.wikipedia.org/wiki/Machine_learning)
+- Deep Learning [wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
 
 ##### Question of the week
 
@@ -51,4 +53,4 @@ How can I secure my Google Cloud Platoform acoount using a YubiKey?
 Mark will be speaking at the [Monthly SF Game Development Community](https://www.meetup.com/Monthly-SF-Game-Development-Community/), presenting on
 [You Can't Just Add More Servers](https://www.meetup.com/Monthly-SF-Game-Development-Community/events/250559719/) on May the 30th in San Francisco.
 
-Melanie is speaking at the *[WiMLDS](http://wimlds.org) x [PyLadies](http://www.pyladies.com) at DoorDash HQ June 26 6pm-9pm on Careers in Data Science.
+Melanie is speaking at a joint [WiMLDS](http://wimlds.org) and [PyLadies](http://www.pyladies.com) event "Paths to Data Science" on June 26th. More details to come.
