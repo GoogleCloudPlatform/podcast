@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.128.mp3"
 audioSize = 57444388
 categories = ["Machine Learning", "AI", "Decision Intelligence"]
 date = "2018-05-23"
-description = "Chief Decision Scientist, Cassie Kozyrkov joins Mark and Melanie to explains what is data science, analytics, machine learning and statistical inference is, in relation to decision intelligence."
+description = "Chief Decision Scientist, Cassie Kozyrkov joins Mark and Melanie to explain data science, analytics, machine learning and statistical inference, in relation to decision intelligence."
 draft = false
 episodeNumber = 128
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -16,8 +16,8 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8llmam/episode_128_de
 +++
 
 Chief Decision Scientist, [Cassie Kozyrkov](https://twitter.com/quaesita) joins [Mark](https://twitter.com/Neurotic)
-and [Melanie](https://twitter.com/nyghtowl) this week to explains what is data science, analytics, 
-machine learning and statistical inference is, in relation to decision intelligence.
+and [Melanie](https://twitter.com/nyghtowl) this week to explain data science, analytics, 
+machine learning and statistical inference, in relation to decision intelligence.
 
 <!--more-->
 
