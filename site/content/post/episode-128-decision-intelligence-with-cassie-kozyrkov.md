@@ -4,19 +4,20 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.128.mp3"
 audioSize = 57444388
 categories = ["Machine Learning", "AI", "Decision Intelligence"]
 date = "2018-05-23"
-description = "Chief Decision Scientist, Cassie Kozyrkov joins Mark and Melanie this week to discuss the topic of Decision Intelligence Engineering."
+description = "Chief Decision Scientist, Cassie Kozyrkov joins Mark and Melanie to explains what is data science, analytics, machine learning and statistical inference is, in relation to decision intelligence."
 draft = false
 episodeNumber = 128
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Decision Intelligence with Cassie Kozyrkov"
 #image="/images/post/Don't_Panic.svg.png"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/BNvfJvt2iHz"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8llmam/episode_128_decision_intelligence_with_cassie/"
 +++
 
 Chief Decision Scientist, [Cassie Kozyrkov](https://twitter.com/quaesita) joins [Mark](https://twitter.com/Neurotic)
-and [Melanie](https://twitter.com/nyghtowl) this week to discuss the topic of Decision Intelligence Engineering.
+and [Melanie](https://twitter.com/nyghtowl) this week to explains what is data science, analytics, 
+machine learning and statistical inference is, in relation to decision intelligence.
 
 <!--more-->
 
@@ -40,6 +41,19 @@ As Chief Decision Scientist at Google Cloud, [Cassie](https://twitter.com/quaesi
 - Statistical Analysis [wikipedia](https://en.wikipedia.org/wiki/Statistics)
 - Machine Learning [wikipedia](https://en.wikipedia.org/wiki/Machine_learning)
 - Deep Learning [wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
+
+There are several other episodes that provide insights into data science:
+
+- #31 TensorFlow with Eli Bixby [podcast](https://www.gcppodcast.com/post/episode-31-tensorflow-with-eli-bixby/)
+- #84 Kaggle with Wendy Kan [podcast](https://www.gcppodcast.com/post/episode-84-kaggle-with-wendy-kan/)
+- #109 Cloud AutoML Vision with Amy Unruh and Sara Robinson [podcast](https://www.gcppodcast.com/post/episode-109-cloud-automl-vision-with-amy-unruh-and-sara-robinson/)
+- #113 Open Source TensorFlow with Yifei Feng [podcast](https://www.gcppodcast.com/post/episode-113-open-source-tensorflow-with-yifei-feng/)
+- #122 Project Jupyter with Jessica Forde, Yuvi Panda and Chris Holdgraf [podcast](https://www.gcppodcast.com/post/episode-122-project-jupyter-with-jessica-forde-yuvi-panda-and-chris-holdgraf/)
+
+As well as case studies on real world problems:
+
+- #91 The Future of Media with Machine Learning with Amit Pande [podcast](https://www.gcppodcast.com/post/episode-91-the-future-of-media-with-machine-learning-with-amit-pande/)
+- #115 Google Play Marketing with Dom Elliott and Stewart Bryson [podcast](https://www.gcppodcast.com/post/episode-115-google-play-marketing-with-dom-elliott-and-stewart-bryson/)
 
 ##### Question of the week
 
