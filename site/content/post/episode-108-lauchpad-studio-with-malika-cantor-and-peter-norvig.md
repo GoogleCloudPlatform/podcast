@@ -67,7 +67,7 @@ How does a startup get GCP credits?
 
 San Francisco
 
-{{< transcript "MARK: Hi, and welcome to episode 107 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing this morning, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode 108 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing this morning, Melanie?" >}}
 
 MELANIE: Happy new year, Mark. 
 

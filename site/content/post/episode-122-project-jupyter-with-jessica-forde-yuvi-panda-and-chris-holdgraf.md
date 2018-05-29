@@ -75,7 +75,7 @@ How did Google’s predictions do during March Madness?
 - Melanie is speaking about AI at [Techtonica](https://techtonica.org) today, and April 14th
 will be participating in a panel on Diversity and Inclusion at the [Harker Research Symposium](https://www.harker.org/about/events/research-symposium#bookmark-intro)
 
-{{< transcript "MARK: Hi, and welcome to a very special episode of the Google Cloud Platform Podcast. I am Mark Mandel, and I am here with my colleague, Melanie Warrick." >}}
+{{< transcript "MARK: Hi, and welcome to Episode Number 122 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm doing OK. How are you doing? 
 
