@@ -32,9 +32,9 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8n9d5b/episode_129_de
 ##### Interview
 
 - Google Cloud Platform [site](https://cloud.google.com/)
-- #46 Borg with John Wilkes [podcast](https://www.gcppodcast.com/post/episode-46-borg-with-john-wilkes/)
-- #118 OpenCensus with Morgan McLean and JBD [podcast](https://www.gcppodcast.com/episode-118-opencensus-with-morgan-mclean-and-jbd.md)
-- Felipe Hoffa & BigQuery [reddit](https://www.reddit.com/user/fhoffa), [blog](https://medium.com/@hoffa) and [podcast](https://www.gcppodcast.com/episode-8-big-data-with-felipe-hoffa.md)
+- #46 Borg and K8s with John Wilkes [podcast](https://www.gcppodcast.com/post/episode-46-borg-and-k8s-with-john-wilkes/)
+- #118 OpenCensus with Morgan McLean and JBD [podcast](https://www.gcppodcast.com/post/episode-118-opencensus-with-morgan-mclean-and-jbd/)
+- Felipe Hoffa & BigQuery [reddit](https://www.reddit.com/user/fhoffa), [blog](https://medium.com/@hoffa) and [podcast](https://www.gcppodcast.com/post/episode-8-big-data-with-felipe-hoffa/)
 - Livestreaming with Jen Tong [Twitch](https://twitch.tv/mimmingcodes), Holden Karau [Twitch](https://twitch.tv/holdenkarau), and Chris Broadfoot [Twitch](https://twitch.tv/cbro)
 - Ben Treynor on What is 'Site Reliability Engineering' [interview](https://landing.google.com/sre/interview/ben-treynor.html)
 - Solomon Hykes at dotScale on Docker [video](https://www.youtube.com/watch?v=3N3n9FzebAA) 
