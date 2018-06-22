@@ -52,7 +52,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8skbgz/episode_132_ha
 
 ##### Question of the week
 
-[What DOES a Go developer needs to know about GCP?](https://medium.com/@enocom/what-a-go-developer-needs-to-know-about-google-cloud-platform-e046c9e11abf) 
+[What DOES a Go developer need to know about GCP?](https://medium.com/@enocom/what-a-go-developer-needs-to-know-about-google-cloud-platform-e046c9e11abf) 
 
 
 ##### Where can you find us next?
