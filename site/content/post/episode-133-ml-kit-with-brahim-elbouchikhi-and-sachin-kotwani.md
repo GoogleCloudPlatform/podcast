@@ -3,7 +3,7 @@ audioDuration = "00:32:21"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.133.mp3"
 audioSize = 46977043 
 categories = ["Machine Learning", "Mobile"]
-date = "2018-06-26"
+date = "2018-06-27"
 description = "Brahim Elbouchikhi and Sachin Kotwani talk with us about machine learning for mobile apps and explain ML Kit."
 draft = false
 episodeNumber = 133
@@ -36,7 +36,6 @@ His hobbies include traveling with his family, chasing his daughter around the h
 * Google Podcasts now on Android [blog](https://blog.google/products/android/listen-google-podcasts-now-android/) 
 * Machine Learning with TensorFlow on Google Cloud Platform Specialization [site](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 * Introducing Cloud Dataflow’s new Streaming Engine [blog](https://cloud.google.com/blog/big-data/2018/06/introducing-cloud-dataflows-new-streaming-engine)
-  - Dataflow users don’t have to change any of their pipeline code to take advantage of the new architecture for shuffle and window state processing. During Streaming Engine beta they can simply use a pipeline parameter to opt into using the Streaming Engine, and, after the feature is released into General Availability, Streaming Engine will be turned on by default for all new streaming pipelines.
 * ML Explorer: talking and listening with Google Cloud [blog](https://cloud.google.com/blog/big-data/2018/06/ml-explorer-talking-and-listening-with-google-cloud-using-cloud-speech-and-text-to-speech)
   - #131 Actions on Google with Mandy Chan [podcast](https://www.gcppodcast.com/post/episode-131-actions-on-google-with-mandy-chan/)
 
@@ -47,6 +46,10 @@ His hobbies include traveling with his family, chasing his daughter around the h
 * TensorFlow Lite [site](https://www.tensorflow.org/mobile/tflite/)
 * Federated Learning [document](https://ai.google/research/pubs/pub45648) and [blog](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
 * TensorFlow.js [site](https://js.tensorflow.org)
+
+<div style="text-align: center">
+  <a href="https://firebase.google.com/products/ml-kit/"><img src="/images/post/ML-Kit-for-Firebase.png" style="margin: auto; max-width: 40%;"></a>
+</div>
 
 ##### Question of the week
 
@@ -59,5 +62,7 @@ What is a Developer Programs Engineer?
 ##### Where can you find us next?
 
 Mark is going to the [Unity Hackweek](https://blogs.unity3d.com/2018/06/22/hackweek-2018-the-unity-way/). Read how Google Cloud is teaming up with Unity for gaming [blog](https://blog.google/products/google-cloud/powering-up-connected-game-development-through-our-alliance-with-unity/)
+
+Melanie is speaking at [Stanford AI4ALL](http://ai4all.stanford.edu/) on June 28th.
 
 We’ll both be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf/)!
