@@ -64,6 +64,6 @@ What is a Developer Programs Engineer?
 
 Mark is going to the [Unity Hackweek](https://blogs.unity3d.com/2018/06/22/hackweek-2018-the-unity-way/). Read how Google Cloud is teaming up with Unity for gaming [blog](https://blog.google/products/google-cloud/powering-up-connected-game-development-through-our-alliance-with-unity/)
 
-Melanie is speaking at [Stanford AI4ALL](http://ai4all.stanford.edu/) on June 28th.
+Melanie is speaking at [Stanford AI4ALL](http://ai-4-all.org/) on June 28th.
 
 We’ll both be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf/)!
