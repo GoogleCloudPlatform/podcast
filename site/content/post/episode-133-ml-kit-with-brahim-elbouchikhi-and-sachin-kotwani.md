@@ -10,9 +10,9 @@ draft = false
 episodeNumber = 133
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "ML Kit with Brahim Elbouchikhi and Sachin Kotwani"
-linked = false
-googlePlusLink = ""
-redditLink = ""
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/1bDZUST28X9"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8uaszx/episode_133_ml_kit_with_brahim_elbouchikhi_and/"
 +++
 
 [Brahim Elbouchikhi](https://twitter.com/ielbouchikhi) and [Sachin Kotwani](https://twitter.com/skotwani) talk with [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) about Firebase's ML Kit and how it enables machine learning on mobile and cloud apps. We delve into why ML Kit was developed, how it makes machine learning easier, what it's used for now and plans for the future. 
