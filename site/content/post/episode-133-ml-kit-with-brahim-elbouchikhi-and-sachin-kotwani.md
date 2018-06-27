@@ -5,7 +5,7 @@ audioSize = 46977043
 categories = ["Machine Learning", "Mobile"]
 date = "2018-06-27"
 image="/images/post/ML-Kit-for-Firebase.png"
-description = "Brahim Elbouchikhi and Sachin Kotwani talk with us about machine learning for mobile apps and explain ML Kit."
+description = "Brahim Elbouchikhi and Sachin Kotwani talk with Melanie and Mark about Firebase's ML Kit and how it enables machine learning on mobile and cloud apps. We delve into why ML Kit was developed, how it makes machine learning easier, what it's used for now and plans for the future."
 draft = false
 episodeNumber = 133
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -15,7 +15,7 @@ googlePlusLink = ""
 redditLink = ""
 +++
 
-[Brahim Elbouchikhi](https://twitter.com/ielbouchikhi) and [Sachin Kotwani](https://twitter.com/skotwani) talk with [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) about Firebase's ML Kit and how it enables machine learning on mobile and cloud apps. We delve into why ML Kit was developed, how it makes machine learning easier, what its used for now and plans for the future. 
+[Brahim Elbouchikhi](https://twitter.com/ielbouchikhi) and [Sachin Kotwani](https://twitter.com/skotwani) talk with [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) about Firebase's ML Kit and how it enables machine learning on mobile and cloud apps. We delve into why ML Kit was developed, how it makes machine learning easier, what it's used for now and plans for the future. 
 
 <!--more-->
 
