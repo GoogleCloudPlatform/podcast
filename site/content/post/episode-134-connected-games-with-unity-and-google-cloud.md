@@ -41,10 +41,9 @@ Happy 4th of July! Today, [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
 * Unity [site](https://unity3d.com)
 * Google Cloud Spanner [site](https://cloud.google.com/spanner/)
 * Unity Hackweek [site](https://blogs.unity3d.com/2018/06/22/hackweek-2018-the-unity-way/)
-* Unity Matchmaker [site](https://assetstore.unity.com/packages/tools/network/matchmaker-78662)
 * Unity Connected Games [site](https://unity3d.com/connectedgames)
 * Bringing connected games within reach with Google Cloud [blog](https://blogs.unity3d.com/2018/06/21/bringing-connected-games-within-reach-with-google-cloud/)
-
+* Unity Hackweek 2018: Creating X Together [blog](https://blogs.unity3d.com/2018/07/04/unity-hackweek-2018-creating-x-together/)
 
 <div style="text-align: center">
   <a href="https://twitter.com/bibbinator"><img src="/images/post/Brett-Bibby.jpg" style="margin: auto; max-width: 30%;"></a>
