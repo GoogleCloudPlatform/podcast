@@ -10,7 +10,9 @@ episodeNumber = 134
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Connected Games with Unity and Google Cloud with Brett Bibby and Micah Baker"
 image="/images/post/Brett-Bibby.jpg"
-linked = false
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/9BkykbptMjj"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8w2mf4/episode_134_connected_games_with_unity_and_google/"
 +++
 
 Happy 4th of July! Today, [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) go in depth with [Brett Bibby](https://twitter.com/bibbinator) and Micah Baker to learn more about Unity and its new strategic alliance with Google Cloud. We explore how an alliance between Google Cloud and Unity means easier development for game creators and better gaming for fans. 
