@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.134.mp3"
 audioSize = 45734306 
 categories = ["Unity", "Gaming", "Hackweek", "Connected Games"]
 date = "2018-07-04"
-description = "Today, Melanie and Mark go in depth with Brett Bibby and Micah Baker to learn more about Unity and its new partnership with Google Cloud."
+description = "Today, Melanie and Mark go in depth with Brett Bibby and Micah Baker to learn more about Unity and its new strategic alliance with Google Cloud."
 draft = false
 episodeNumber = 134
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -13,7 +13,7 @@ image="/images/post/Brett-Bibby.jpg"
 linked = false
 +++
 
-Happy 4th of July! Today, [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) go in depth with [Brett Bibby](https://twitter.com/bibbinator) and Micah Baker to learn more about Unity and its new partnership with Google Cloud. We explore how an alliance between Google Cloud and Unity means easier development for game creators and better gaming for fans. 
+Happy 4th of July! Today, [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) go in depth with [Brett Bibby](https://twitter.com/bibbinator) and Micah Baker to learn more about Unity and its new strategic alliance with Google Cloud. We explore how an alliance between Google Cloud and Unity means easier development for game creators and better gaming for fans. 
 
 <!--more-->
 
