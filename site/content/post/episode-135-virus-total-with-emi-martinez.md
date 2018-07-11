@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.135.mp3"
 audioSize = 51656998 
 categories = ["VirusTotal", "Cyber Security", "Malware", "Security Research"]
 date = "2018-07-11"
-description = "On this episode of the podcast, Melanie and Mark talk with Emiliano Martínez to learn more about how VirusTrust is helping to create a safer internet."
+description = "On this episode of the podcast, Melanie and Mark talk with Emiliano (Emi) Martínez to learn more about how VirusTotal is helping to create a safer internet by providing tools and building a community for security researchers."
 draft = false
 episodeNumber = 135
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -13,7 +13,9 @@ image="/images/post/virus-total.png"
 linked = false
 +++
 
-On this episode of the podcast, [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) talk with Emiliano (Emi) Martínez to learn more about how VirusTrust is helping to create a safer internet. Don't download another thing until you hear all about it! 
+On this episode of the podcast, [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) talk with Emiliano (Emi) Martínez to learn more about how VirusTotal is helping to create a safer internet by providing tools and building a community for security researchers.
+
+
 
 <!--more-->
 
@@ -21,7 +23,7 @@ On this episode of the podcast, [Melanie](https://twitter.com/nyghtowl) and [Mar
 
 Emiliano has been with VirusTotal for over 10 years. He has seen the business grow from a small startup in southern Spain into a Google X moonshot under the new Chronicle bet. He is a software engineer acting as the Tech Lead for VirusTotal. Throughout the past 10 years, not only has he been immersed in coding and architecting the platform, but he has also participated at all levels of the business: from bootstrapping the very first sales to working close with marketing and other teams in order to take the project to the next level. His main interests are IT security (more specifically malware) and designing products and services from scratch. 
 
-##### VirusTrust and Chronicle are Hiring
+##### VirusTotal and Chronicle are Hiring
 
 VirusTotal is part of Chronicle, and Chronicle [is hiring!](https://careers.google.com/jobs#t=sq&q=j&li=20&l=false&jlo=en-US&j=chronicle&) Come join our team experts to help build out the next generation of security intelligence solutions. We are looking for talent that is comfortable operating in an organization that is scaling quickly, that loves variety in their work and wants to get their hands dirty with all things cyber security, cloud computing, and machine learning.
 
@@ -77,4 +79,4 @@ What is the best practice for multi tenancy in Google Cloud Spanner, especially 
 
 We'll both be at [Cloud NEXT!](https://cloud.withgoogle.com/next18/sf/) 
 
-Melanie will be at [PyCon Russia](http://pycon.ru/2018/en/)
+Melanie will speak at [CERN](https://home.cern/) July 17th and [PyCon Russia](http://pycon.ru/2018/en/) July 22nd
