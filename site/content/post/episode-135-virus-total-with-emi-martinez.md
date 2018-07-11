@@ -10,7 +10,9 @@ episodeNumber = 135
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "VirusTotal with Emi Martínez"
 image="/images/post/virus-total.png"
-linked = false
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/Pn2ELjiFxbj"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8y0b1f/virustotal_with_emi_mart%C3%ADnez/"
 +++
 
 On this episode of the podcast, [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) talk with Emiliano (Emi) Martínez to learn more about how VirusTotal is helping to create a safer internet by providing tools and building a community for security researchers.
@@ -62,7 +64,6 @@ We are a dynamic organization that likes to run experiments so we are looking fo
 
 <div style="text-align: center">
   <a href="https://www.virustotal.com/"><img src="/images/post/virus-total.png" style="margin: auto; max-width: 30%; border:1px solid #dedede; padding: 20px;"></a>
-  <p style="font-size:0.8em">VirusTotal Logo<p>
 </div>
 
 ##### Question of the week
