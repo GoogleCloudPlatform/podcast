@@ -33,6 +33,16 @@
 
             <h5 class="sr">Hosts </h5>
             <p class="sr">{{ delimit .Params.hosts ", " " and " }}</p>
+
+            {{ if .Params.linked }}
+
+            <h5 class="sr">Continue the conversation</h5>
+            <p class="sr">
+                Leave us a comment on <a href="{{ .Params.googlepluslink}}" target="_blank">Google+</a> or
+                <a href="{{ .Params.redditlink}}" target="_blank">Reddit</a>
+            </p>
+
+            {{ end }}
         </div>
         
         <div class="col-md-5 sidebar">
