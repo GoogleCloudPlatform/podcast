@@ -1,4 +1,4 @@
-baseUrl = "https://gcppodcast-dev.appspot.com/"
+baseUrl = "https://gcppodcast.com"
 languageCode = "en-us"
 title = "Google Cloud Platform Podcast"
 theme = "gcppodcast2018"
