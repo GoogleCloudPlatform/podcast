@@ -8,8 +8,8 @@ description = "On this episode of the podcast, Mark and Melanie delve into the f
 draft = false
 episodeNumber = 136
 hosts = ["Mark Mandel", "Melanie Warrick"]
-title = "Navigation & Reinforcement Learning with Raia Hadsell"
-image = "/images/post/deepmind_logo.png"
+title = "Robotics, Navigation, and Reinforcement Learning with Raia Hadsell"
+image = "/images/post/raia.jpeg"
 linked = false
 +++
 
@@ -33,19 +33,23 @@ On this episode of the podcast, [Mark](https://twitter.com/Neurotic) and [Melani
 ##### Interview
 
 * Raia Hadsell [site](http://raiahadsell.com/index.html)
-* TensorFlow [site](https://www.tensorflow.org)
 * Learning to Navigate Cities Without a Map [research paper](https://arxiv.org/pdf/1804.00168.pdf) and [blog](https://deepmind.com/blog/learning-to-navigate-cities-without-a-map/)
 * Unsupervised Predictive Memory in a Goal-Directed Agent | MERLIN [research paper](https://arxiv.org/pdf/1803.10760.pdf)
-* Vector-based navigation using grid-like representations in AI [research paper](https://www.nature.com/articles/s41586-018-0102-6.epdf)
+* Nature: Vector-based navigation using grid-like representations in AI [research paper](https://www.nature.com/articles/s41586-018-0102-6.epdf)
 * DeepMind has trained an AI to unlock the mysteries of your brain [site](http://www.wired.co.uk/article/deepmind-newest-network-mimics-the-gps-cells-in-your-brain)
 * Navigating with grid-like representations in artificial agents [blog](https://deepmind.com/blog/grid-cells/)
 * DeepMind [site](https://deepmind.com) and [blog](https://deepmind.com/blog/)
 * Boston Dynamics [site](https://www.bostondynamics.com)
 * Google Brain Robotics [site](https://ai.google/research/teams/brain/robotics)
 * Transylvanian Machine Learning Summer School [site](https://tmlss.ro)
+* IMPALA:  Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures [research paper](https://arxiv.org/pdf/1802.01561.pdf)
+* Edward Mozer - Grid Cells and the Brain's Spatial Mapping System [video](https://www.youtube.com/watch?v=Ekzec9e1Y4Y)
+* The Nobel Prize in Physiology or Medicine 2014 [site](https://www.nobelprize.org/nobel_prizes/medicine/laureates/2014/)
+* TensorFlow [site](https://www.tensorflow.org)
 
-<div style="text-align: center; padding: 15px; background-color: #e9e7e7; margin: auto; max-width: 40%;">
-  <a href="https://deepmind.com/"><img src="/images/post/deepmind_logo.png" style="margin: auto; width: 100%;"></a>
+<div style="text-align: center">
+  <img src="/images/post/raia.jpeg" style="margin: auto; max-width: 25%;">
+  <p>Raia Hadsell</p>
 </div>
 
 ##### Question of the week
