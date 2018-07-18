@@ -1,0 +1,43 @@
+{
+  "name": "paper-fab-transitions",
+  "version": "0.1.0",
+  "homepage": "https://github.com/GabiAxel/paper-fab-transitions",
+  "authors": [
+    "Gabriel Axel"
+  ],
+  "main": "paper-fab-transitions.html",
+  "description": "Polymer components for adding morphing and speed dial transitions to floating action buttons",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "fab",
+    "floating action button",
+    "morph",
+    "speed dial"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GabiAxel/paper-fab-transitions.git"
+  },
+  "dependencies": {
+    "polymer": "^1.1.0",
+    "iron-dropdown": "PolymerElements/iron-dropdown#^1.0.0",
+    "neon-animation": "PolymerElements/neon-animation#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "iron-test-helpers": "polymerelements/iron-test-helpers#^1.0.0",
+    "paper-fab": "PolymerElements/paper-fab#^1.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "paper-menu": "PolymerElements/paper-menu#^1.0.0",
+    "paper-item": "PolymerElements/paper-item#^1.0.0",
+    "paper-toolbar": "PolymerElements/paper-toolbar#^1.0.0",
+    "paper-dialog": "PolymerElements/paper-dialog#^1.0.0",
+    "paper-button": "PolymerElements/paper-button#^1.0.0",
+    "paper-card": "PolymerElements/paper-card#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
