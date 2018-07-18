@@ -1,0 +1,57 @@
+
+<article class=" col-sm-12 col-md-6 col-lg-4 episode-block">
+
+	<div class="py-3 px-3 sr">
+		<a href="{{ .RelPermalink }}" class="">
+
+			{{ if .Resources.Match "fimage" }}
+	
+				{{ with .Resources.GetMatch "fimage" }}
+
+				{{ $image := (.Resize "800x q80") }}
+
+				    <div class="card__header-img" style="background-image: url('{{ $image.RelPermalink }}')"> 
+				    	<div class="overlay">
+				    		<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
+				    	</div>
+				    </div>
+
+				{{ end }}
+
+			{{else}}
+
+					<div class="card__header-img ">
+						<div class="overlay">
+							<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
+						</div>
+						<span class="h1 text-center episodenumber">#{{ .Params.episodenumber }}</span>
+					</div>
+
+			{{end}}
+
+		</a>
+		
+
+		<div class="mt-4 mb-3 sr">
+		  <span class="main-blue title meta">#{{ .Params.episodenumber }} | {{ dateFormat "Jan 2, 2006" .Date }}</span>
+		</div>
+		
+		<header class="row">
+
+		  <div class="col">
+		
+		  	<a href="{{ .RelPermalink }}">
+		  	  <h3 class="mb-3 main-blue sr">{{ .Title }}</h3>
+		  	</a>
+		  
+		  </div>
+
+		</header>
+		
+		<div class="summary-block mb-4 sr">
+			{{ .Summary | truncate 87 }}
+		</div>
+	</div>
+
+
+</article>

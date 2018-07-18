@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title>{{ .Site.Title }}</title>
+		<link>{{ .Site.BaseURL }}</link>
+		<description>{{ .Site.Params.description }}</description>
+		<image>
+			<title>{{ .Site.Title }}</title>
+			<url>{{ .Site.BaseURL }}/{{.Site.Params.logo}}</url>
+			<link>{{ .Site.BaseURL }}</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		{{ with .Site.LanguageCode }}<language>{{.}}</language>{{end}}
+		{{ with .Site.Author.email }}<managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}
+		{{ with .Site.Author.email }}<webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}
+		{{ with .Site.Params.copyright }}<copyright>{{.}}</copyright>{{end}}
+		<category>Technology:Tech News</category>
+		<ttl>1440</ttl>
+		{{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+		<atom:link href="{{.URL}}" rel="self" type="application/rss+xml"/>
+		<itunes:subtitle>Weekly News and Commentary</itunes:subtitle>
+		<itunes:author>Google Cloud Platform</itunes:author>
+		<itunes:category text="Technology">
+			<itunes:category text="Tech News"/>
+		</itunes:category>
+		<itunes:owner>
+			<itunes:name>Google Cloud Platform</itunes:name>
+			<itunes:email>hello@gcppodcast.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:image href="http://www.gcppodcast.com/images/logo_large.png"/>
+		{{ range first 156 .Data.Pages }}
+		<item>
+			<title>{{ .Title }}</title>
+			<link>{{ .Permalink }}</link>
+			<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+			{{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+			<guid>{{ .Permalink }}</guid>
+			{{ range .Params.categories }}
+			<category>{{.}}</category>
+			{{ end }}
+			<description>{{ .Content | replaceRE "<section id=\"transcript\">(.|\n)*?</section>" "" | html }}</description>
+			{{ if isset .Params "audiofile" }}
+			<enclosure url="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" length="{{ .Params.audiosize }}"
+					   type="audio/mpeg"/>
+
+			<itunes:order>{{ .Params.episodenumber }}</itunes:order>
+			<itunes:duration>{{ .Params.audioduration }}</itunes:duration>
+			<itunes:summary>{{ .Summary | html }}</itunes:summary>
+
+			{{ if .Description }}
+			<itunes:subtitle>{{ .Description | html }}</itunes:subtitle>
+			{{ end }}
+
+			<itunes:explicit>no</itunes:explicit>
+			{{ end }}
+		</item>
+		{{ end }}
+	</channel>
+</rss>

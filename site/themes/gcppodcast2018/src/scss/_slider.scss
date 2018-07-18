@@ -1,0 +1,42 @@
+.slick-prev, .nav-previous {
+	left: 25px;
+}
+
+.slick-next, .nav-next {
+	right: 25px;
+}
+
+.slick-arrow {
+    z-index: 99;
+    position: absolute;
+    top: 38%;
+    transform: translateY(-38%);
+}
+
+.slick-prev:before, .slick-next:before {
+	font-family: "Font Awesome 5 Free";
+}
+
+.slick-track {
+	background-color: $brand-primary;
+}
+
+
+.share-sidebar {
+	a {
+		&:hover {
+			text-decoration: none;
+
+			.icon-background {
+				color: $brand-primary;
+			} 
+		}
+	}
+	.icon-background {
+		color: $brand-sec;
+	} 
+
+	.fa-stack-1x {
+		color: #fff;
+	}
+}

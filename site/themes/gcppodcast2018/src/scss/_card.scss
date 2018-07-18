@@ -1,0 +1,118 @@
+$min-h: 220px;
+
+.episode-block {
+
+  @include transition($transition-property, $transition-time, $method);
+
+  h3 {
+     @include transition(color, $transition-time, $method);
+  }
+
+  a {
+    overflow:hidden;
+  }
+
+  a:hover {
+    text-decoration: none;
+
+    h3 {
+      color: lighten($brand-primary, 30%);
+    }
+
+  }
+
+  .meta {
+    font-weight: 700;
+  }
+
+}
+
+.card__header-img {
+
+  min-height: $min-h;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0277bd;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+
+  @include transition($transition-property, $transition-time, $method);
+
+  &.--active{
+    box-shadow: 1px 10px 40px 2px rgba(55,66,83,.3);
+    transform: translateY(-10px);
+    background-blend-mode: color-dodge;
+  }
+
+  .episodenumber {
+    text-decoration: none;
+  }
+
+  &.hero-image {
+     padding-top: 36%;
+  }
+
+  .h1 {
+    font-size: 8rem;
+    color:#2180c1;
+  }
+
+  .summary-block {
+
+    margin-bottom: 3em;
+
+    p {
+      color: #000;
+    }
+
+  }
+
+}
+
+.summary-episode {
+  max-width: 600px;
+}
+
+
+
+.overlay {
+
+  @include transition($transition-property, $transition-time, $method);
+  background: rgba($brand-primary, 0.8);
+  width: 100%;
+  opacity:0;
+  height: 100%;
+  min-height: $min-h;
+  position: absolute;
+  left:0;
+  right: 0;
+  display: flex;
+  flex-diraction: column;
+  justify-content: center;
+  align-items: center;
+  top:0;
+
+  $m: 70px;
+
+  &.--active {
+    opacity: 1;
+
+
+    .play-btn {
+      transform:scale(1);
+      opacity:1;
+    }
+  }
+
+  .play-btn {
+    @include transition($transition-property, $transition-time, cubic-bezier(0.680, -0.550, 0.265, 1.550));
+    transform:scale(0.5);
+    opacity:0;
+    max-width: $m;
+    max-height: $m;
+  }
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "GCPPodcast",
+  "description": "Google Cloud Platform Podcast",
+  "main": "",
+  "license": "None",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "third_party",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-styles": "^1.1.5",
+    "paper-fab": "^1.2.0",
+    "paper-audio-player": "^0.2.1",
+    "paper-fab-transitions": "^0.1.0",
+    "bootstrap": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.2.0"
+  }
+}

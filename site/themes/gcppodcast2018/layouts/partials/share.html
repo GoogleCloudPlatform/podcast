@@ -1,0 +1,44 @@
+<!-- <paper-fab-speed-dial>
+  <paper-fab icon="social:share" class="dropdown-trigger"></paper-fab>
+  <div class="dropdown-content">
+    <paper-fab mini src="/images/twitter.png" class="twitter"
+      onclick="shareTwitter({{ .Title }}, {{ .Permalink }})"></paper-fab>
+    <paper-fab mini src="/images/facebook.png" class="facebook"
+      onclick="shareFacebook({{ .Title }}, {{ .Permalink }})"></paper-fab>
+    <paper-fab mini src="/images/gplus.png" class="gplus"
+      onclick="shareGooglePlus({{ .Title }}, {{ .Permalink }})"></paper-fab>
+  </div>
+</paper-fab-speed-dial>
+ -->
+
+<div class="share-sidebar">
+
+	<a href="" class="sharelink" onclick="shareTwitter({{ .Title }}, {{ .Permalink }})">
+		<span class="fa-stack fa-1x">
+		<i class="fa fa-circle fa-stack-2x icon-background"></i>
+		<i class="fab fa-twitter fa-stack-1x"></i>
+		</span>
+	</a>
+
+	<a href="" class="sharelink" onclick="shareGooglePlus({{ .Title }}, {{ .Permalink }})">
+		<span class="fa-stack fa-1x">
+		<i class="fa fa-circle fa-stack-2x icon-background"></i>
+		<i class="fab fa-google-plus-g fa-stack-1x"></i>
+		</span>
+	</a>
+	
+	<a href="" class="sharelink" onclick="shareReddit({{ .Title }}, {{ .Permalink }})">
+		<span class="fa-stack fa-1x">
+		<i class="fa fa-circle fa-stack-2x icon-background"></i>
+		<i class="fab fa-reddit-alien fa-stack-1x"></i>
+		</span>
+	</a>
+
+	<a href="" class="sharelink"  onclick="shareFacebook({{ .Title }}, {{ .Permalink }})">
+		<span class="fa-stack fa-1x">
+		<i class="fa fa-circle fa-stack-2x icon-background"></i>
+		<i class="fab fa-facebook fa-stack-1x"></i>
+		</span>
+	</a>
+
+</div>

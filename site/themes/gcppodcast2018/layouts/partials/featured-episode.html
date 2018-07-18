@@ -1,0 +1,40 @@
+<section class="container-fluid text-center px-0 featured-podscast featured-podscast-section sr">
+
+	<div class="row no-gutters">
+
+	{{ range first 1 (where .Site.Pages "Params.feature" "true") }}	
+
+		<div class="d-flex align-items-center justify-content-center col-md-6 dark-blue text-white text-left py-4">
+
+			<div class="summary-episode px-5 py-5 text-white ">
+			  <h6 class="light-blue text-uppercase">featured episode</h6>
+			  <span class="h3 light-blue">#{{ .Params.episodenumber }}</span>
+
+			  <h2 class="pt-2 pb-3">{{ .Title }}</h2>
+
+			  <div class="summary-block ">
+			  	{{ .Summary | truncate 150 }}
+			  </div>
+
+			  <a href="{{ .RelPermalink }}">
+			  	<img src="/images/play_btn_3x.png" alt="play button" class="play-btn">
+			  </a>
+			</div>
+		</div>
+		
+			{{if .Params.featured_image }}
+				<div class="col-md-6 card__header-img hero-image grayscale" style="background-image: url('.{{ .Params.featured_image }}'); "> 
+			{{ else }}
+				<div class="col-md-6 card__header-img ">
+					<span class="h1 text-center">#{{ .Params.episodenumber }}</span>
+				
+			{{end}}
+			<!-- <div class="overlay --active"></div> -->
+			</div>
+
+
+	{{ end }}
+
+	</div>
+
+</section>

@@ -3,13 +3,13 @@
 #
 
 server: clean
-	hugo server --bind=0.0.0.0 --watch
+	hugo server --bind=0.0.0.0 --watch --buildFuture
 
 clean:
 	-rm -r public
 
 build: clean
-	hugo
+	hugo --buildFuture
 
 deploy: build
 	gcloud app deploy app.yaml --project gcppodcast --no-promote

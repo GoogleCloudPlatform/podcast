@@ -1,10 +1,11 @@
-baseUrl = "https://www.gcppodcast.com"
+baseUrl = "https://gcppodcast-dev.appspot.com/"
 languageCode = "en-us"
 title = "Google Cloud Platform Podcast"
+theme = "gcppodcast2018"
 
 relativeURLs = true
 
-paginate = 10
+paginate = 9
 
 #Site Params
 [params]
@@ -26,3 +27,7 @@ paginate = 10
 
 [taxonomies]
   category = "categories"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

@@ -1,0 +1,158 @@
+$transition-property: all;
+$transition-time: 0.5s;
+$method: cubic-bezier(0.0, 0.0, 0.2, 1);
+$brand-primary : #283593;
+$brand-sec : #03a9f4;
+
+$body-margin-top: 48px;
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans-Bold.woff') format('woff'),
+        url('/fonts/GoogleSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans-Medium.woff') format('woff'),
+        url('/fonts/GoogleSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans-BoldItalic.woff') format('woff'),
+        url('/fonts/GoogleSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans-Regular.woff') format('woff'),
+        url('/fonts/GoogleSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans-Italic.woff') format('woff'),
+        url('/fonts/GoogleSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans-MediumItalic.woff') format('woff'),
+        url('/fonts/GoogleSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@mixin transition($transition-property, $transition-time, $method) {
+    transition: $transition-property $transition-time $method;
+}
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    margin-top: $body-margin-top;
+}
+
+h1, h2 ,h3, h4, 
+.h1, .h2 ,.h3, .h4{
+
+  font-family: 'Google Sans', serif;
+  font-weight: normal;
+
+}
+
+h5, h6, 
+.h5, .h6, {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.4;
+
+  &.lighter {
+    
+    font-weight: 300;
+
+  }
+}
+
+p, .p {
+    font-size: 16px;
+}
+
+.light-blue-bg {
+    background-color: $brand-sec;
+
+    &--lighter {
+        background-color: lighten($brand-sec, 5%);
+    }
+}
+
+.main-blue-bg {
+    background-color: $brand-primary;
+
+    &--lighter {
+        background-color: lighten($brand-primary, 5%);
+    }
+}
+
+.light-blue {
+	color: $brand-sec;
+}
+
+.main-blue {
+	color: $brand-primary;
+}
+
+
+.hero-text {    
+	position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.bg {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.pb-6, .py-6 {
+     padding-bottom: 4rem !important;
+     padding-top: 4rem !important;
+}
+
+.sidebar {
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+//     i {
+//         width: 20px;
+//     }
+}
+
+p:empty {display:none;}
+
+.search-result {
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
+}

@@ -1,0 +1,18 @@
+name = "GCP PODCAST THEME 2018"
+license = "Creative Commons"
+licenselink = "https://github.com/GoogleCloudPlatform/podcast/blob/master/README.md"
+description = "New theme for the GCP Podcast site - build by M Booth"
+homepage = "http://mbooth.com/"
+tags = ["blog", "html5up"]
+features = ["blog"]
+min_version = 0.19
+
+[author]
+    name = "M Booth"
+    homepage = "http://mbooth.com/"
+
+# If porting an existing theme
+[original]
+    author = "HTML5UP"
+    homepage = "https://html5up.net"
+    repo = "https://html5up.net/dopetrope"

@@ -1,0 +1,24 @@
+<div class="d-flex flex-column mt-2 mb-2 pt-3">
+
+    <div class="d-flex align-items-center py-3">
+
+      <img src="{{ index .Params 0 }}" alt="{{ index .Params 1 }}">
+
+      <div class="name-title">
+        <h5 class="main-blue mb-1">{{ index .Params 1 }}</h5>
+        <h5 class="lighter main-blue mb-0">{{ index .Params 2 }}</h5>
+      </div>
+
+    </div>
+
+    <div>
+
+      <p>
+          {{ index .Params 3 }}            
+      </p>
+
+      {{.Inner}}
+
+    </div>
+
+</div>

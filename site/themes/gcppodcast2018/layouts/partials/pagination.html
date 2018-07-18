@@ -1,0 +1,30 @@
+<div class="pagination-section sr">
+    <div class="centered mdl-cell mdl-cell--8-col mb-3">
+    
+        <span class="h4 page-number">
+
+        {{if .HasPrev}}
+            <a href="{{ .Prev.URL }}" class="archive-previous archive-nav">
+        {{else}}
+            <a href="" class="archive-previous archive-nav archive-nav--inactive">
+        {{end}}
+                <i class="material-icons">arrow_back</i>
+            </a>
+
+
+        {{ .PageNumber }} / {{ .TotalPages }}
+
+        {{if .HasNext}}
+            <a href="{{ .Next.URL }}" class="archive-next archive-nav">
+        {{else}}
+            <a href="" class="aarchive-next archive-nav archive-nav--inactive">
+        {{end}}
+                <i class="material-icons">arrow_forward</i>
+            </a>
+        
+
+        </span>
+
+
+    </div>
+</div>

@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+
+<div class="container-fluid pt-3 mb-3 main-blue-bg main-blue-bg--lighter  text-white">
+
+	<header class="container">
+		<div class="row">
+			<div class="col px-3 py-3" >
+				{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+
+				<h5 class="light-blue">Podcasts</h5>
+				<h1>{{ .Title }} {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</h1>
+
+			</div>
+		</div>
+	</header>
+
+</div>
+
+
+<div class="container px-0">	
+	<section>
+		<div class="row">
+	
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+
+			{{ range $index, $page := $paginator.Pages }}
+				{{ partial "episode_new.html" . }}
+			{{ end }}
+
+		    {{ partial "pagination.html" $paginator }}
+			
+		</div>
+	</section>
+</div>
+
+{{ partial "footer.html" . }}
+
+
+
+

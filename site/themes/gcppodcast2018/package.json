@@ -1,0 +1,23 @@
+{
+  "name": "mbooth",
+  "version": "1.0.0",
+  "description": "Dopetrope theme ported from [HTML5 UP](https://html5up.net/) for use with the [Hugo static site generator](https://gohugo.io/).",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "asset-builder": "^1.1.0",
+    "flickity": "^2.1.1"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-hash": "^4.2.2",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,10 +1,10 @@
 FROM golang:1.8
 
-RUN apt-get update && apt-get -y install wget less unzip python zsh git make cleancss openssh-server python-crcmod \
+RUN apt-get update && apt-get -y --force-yes install wget less unzip python zsh git make cleancss openssh-server python-crcmod \
                         python-setuptools python-dev build-essential libmagic-dev
 WORKDIR /
 
-#sshd setup - https://docs.docker.com/examples/running_ssh_service/
+#sshd setup - https://docs.docker.com/engine/examples/running_ssh_service/
 RUN mkdir /var/run/sshd
 RUN echo 'root:pw' | chpasswd
 RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
@@ -35,7 +35,7 @@ WORKDIR /root
 RUN git clone https://github.com/robbyrussell/oh-my-zsh.git
 
 #Hugo
-RUN wget https://github.com/gohugoio/hugo/releases/download/v0.25.1/hugo_0.25.1_Linux-64bit.deb -O hugo.deb
+RUN wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.deb -O hugo.deb
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 

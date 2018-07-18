@@ -1,0 +1,86 @@
+<header class="container-fluid px-0 sr" >
+    
+{{ with .Resources.GetMatch "fimage" }}
+
+    <div class="card__header-img single-hero" style="background-image: url('{{ .RelPermalink }}')"> 
+        
+    </div>
+
+{{ end }}
+
+</header>
+<div class="container-fluid px-0 sr" style="margin-bottom: 4em;">
+<!--     <paper-audio-player color="rgb(255,82,82)" title="{{ .Title }}" preload="none"
+                        src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player> -->
+
+        <audio class="player" controls  preload="none">
+          <source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mp3">
+        </audio>
+
+
+</div>
+
+
+
+
+<div class="container podcast-content">
+
+    <div class="row">
+        
+        <div class="col-md-7">
+            <h1 class="sr">{{ .Title }}</h1>
+            <div class="podcast-content--text">{{ .Content }}</div>
+
+            <h5 class="sr">Hosts </h5>
+            <p class="sr">{{ delimit .Params.hosts ", " " and " }}</p>
+        </div>
+        
+        <div class="col-md-5 sidebar">
+
+            <div class="sidebar-content sr">
+
+               <div class="meta">
+
+                    <div class="download">
+                        <a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" id="podcast-download">
+                               Download MP3<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                   <i class="material-icons">file_download</i>
+                               </button>
+                           </a>
+                    </div>
+                       
+                    <div class="topics">
+                        <strong>Topics: </strong>
+                       {{ with .Params.categories }}
+                           {{ $links := apply . "partial" "category-link" "." }}
+                           {{ delimit $links ", " " and " }}
+                       {{ end }}
+                    </div>
+
+
+                </div>
+
+                 {{partial "share" .}}
+
+             </div>
+            
+        </div>
+    </div>
+
+</div>
+
+{{ with .PrevInSection }}
+  <div class="container-fluid next-post-nav bg sr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h6 class="text-uppercase">Up next</h6>
+                    <h3 class="h2">{{.Title}}</h3>
+                </div>
+                <div class="col-md-4">
+                    <a class="next btn btn-primary" href="{{.Permalink}}"> Go to Podcast</a>
+                </div>
+            </div>
+        </div>
+  </div>
+{{ end }}

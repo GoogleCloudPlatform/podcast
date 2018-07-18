@@ -1,0 +1,18 @@
+<div class="card__header-img">
+	<span class="h1 text-center">#{{ .Params.episodenumber }}</span>
+</div>
+
+<div class="mt-4 mb-3">
+  <span class="episode-number">#{{ .Params.episodenumber }} | {{ dateFormat "Jan 2, 2006" .Date }}</span>
+</div>
+
+<header class="row">
+  <div class="col">
+
+  	<a href="{{ .RelPermalink }}">
+  	  <h3  class="mb-3">{{ .Title }}</h3>
+  	</a>
+  
+  </div>
+</header>
+

@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<div class="container-fluid pt-3 mb-3 main-blue-bg main-blue-bg--lighter text-white">
+
+	<header class="container">
+		<div class="row">
+			<div class="col px-3 py-3" >
+				<h5 class="light-blue">Topic</h5>
+				<h1>{{ .Title }}</h1>
+			</div>
+		</div>
+	</header>
+
+</div>
+
+<div class="container px-0">	
+	<section>
+		<div class="row">
+
+		{{ range $index, $page := .Data.Pages }}
+		{{ partial "episode_new.html" . }}
+		{{ end }}
+			
+		</div>
+	</section>
+</div>
+
+{{ partial "footer.html" . }}

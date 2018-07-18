@@ -1,0 +1,70 @@
+{{ partial "header.html" . }}
+
+<div class="container-fluid pt-3 main-blue-bg main-blue-bg--lighter  text-white">
+
+  <header class="container">
+    <div class="row">
+      <div class="col px-3 py-3" >
+
+        <h1>{{ .Title }}</h1>
+
+        <div class="row">
+          <form action="{{ "search" | absURL }}/" class="input-group col-md-6 pb-3">
+            <input id="search-query" name="s" class="form-control" placeholder="Search here" aria-label="Search here" />
+          <!--           <div class="input-group-append">
+              <button class="btn btn-outline-secondary mt-0" action="{{ "search" | absURL }}" type="button">Search</button>
+            </div> -->
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </header>
+
+</div>
+
+
+<div class="container-fluid text-center featured-section px-0 sr">
+
+      <img src="/images/featured_images/Hero--Search--Image.jpg" width="100%" alt="" class="sr">
+      
+</div>
+
+
+<section class=" container-fluid">
+
+  <div class="my-auto container" >
+    <div class="row">
+      
+     <div class="col-md-8">
+       
+       <div id="search-results" class="row">
+          
+       
+       </div>
+
+     </div>
+
+    </div>
+  
+
+  </div>
+</section>
+<!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
+<div class="container">
+  
+  <script id="search-result-template" type="text/x-js-template">
+        
+      <div id="summary-${key}" class="col-md-12 search-result">
+        <h4><a href="${link}">${title}</a></h4>
+        <p>${snippet}</p>
+        ${ isset tags }<p>Tags: ${tags}...</p>${ end }
+        ${ isset categories }<h6>Categories: ${categories}</h6>${ end }
+      </div>
+        
+  </script>
+  
+</div>
+
+{{ partial "footer.html" . }}
+

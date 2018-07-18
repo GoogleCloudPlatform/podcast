@@ -1,0 +1,33 @@
+.pagination-section {
+	margin-bottom: 5em;
+	display: flex;
+    width: 100%;
+
+    .page-number {
+    	margin: 0 auto;
+    	display:flex;
+    	justify-content: center;
+    	align-items: center;
+    	// display: inline-block;
+    	// position: absolute;
+    	// left: 0;
+    	// right: 0;
+    	// width: 100%;
+    	// text-align: center;
+    	// top: 50%;
+    	// transform: translateY(-50%);
+    }
+
+    .archive-nav {
+    	margin:0 1em;
+    	line-height: 0;
+    	padding: 0.25em;
+    	display: inline-block;
+    	color: $brand-sec;
+
+    	&--inactive {
+    		pointer-events: none;
+    		color:#fff;
+    	}
+    }
+}

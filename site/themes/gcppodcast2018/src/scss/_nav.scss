@@ -1,0 +1,80 @@
+nav.navbar {
+	background-color: $brand-primary;
+	padding-top: 0;
+	padding-bottom: 0;
+	// min-height: $body-margin-top;
+
+
+
+	.brand {
+		max-width: 300px;
+
+		@include rm(480){
+			max-width: 200px;
+		}
+	}
+
+	.navbar-toggler {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+
+	}
+	
+	.navbar-collapse {
+		justify-content: flex-end;
+		.nav-link{
+			color: #fff;
+			padding: 1em 1.5em;
+			font-weight: 500;
+			font-size: 12px;
+
+		}
+	}
+
+
+
+	$icon-bar-margin: 4px;
+
+	.icon-bar {
+		display: block;
+		width: 22px;
+		height: 2px;
+		border-radius: 1px;
+		background-color: #fff;
+		margin-top: $icon-bar-margin;
+		margin-bottom: $icon-bar-margin;
+	}
+
+	.dropdown {
+		background-color: $brand-sec;
+
+		@media (max-width: 991.98px) {
+			margin-bottom: 2em;
+		}
+	}
+
+	.navbar-toggler-icon {
+		color:#fff;
+	} 
+
+	#subscribe-menu {
+		background-color: $brand-sec;
+		border-color: $brand-sec;
+		color:#fff;
+		font-weight: 500;
+		padding:1.2em 1.5em;
+		font-size: 12px;
+
+	}
+}
+
+nav.navbar .navbar-collapse .nav-link {
+	&:hover {
+		color: $brand-sec;
+	}
+
+	&.dropdown-toggle:hover {
+		color: $brand-primary;
+	}
+}
+

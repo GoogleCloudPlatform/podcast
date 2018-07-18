@@ -1,0 +1,50 @@
+.paper-audio-player-0 {
+	margin-left: 0;
+}
+
+.plyr--audio .plyr__controls {
+	// padding:0;
+}
+
+.plyr--full-ui input[type=range] {
+	color: $brand-sec;
+}
+
+.plyr__control {
+	border-radius: 0;
+}
+
+
+.share-sidebar {
+	a {
+		&:hover {
+			text-decoration: none;
+
+			.icon-background {
+				color: $brand-primary;
+			} 
+		}
+	}
+	.icon-background {
+		color: $brand-sec;
+	} 
+
+	.fa-stack-1x {
+		color: #fff;
+	}
+}
+
+
+.slide {
+	.plyr--audio .plyr__controls {
+		background-color: darken($brand-primary, 3%);
+	}
+
+	.plyr--audio .plyr__progress--buffer {
+		background-color: #fff;
+	}
+
+	.plyr__controls .plyr__menu, .plyr__controls .plyr__progress, .plyr__controls .plyr__time, .plyr__controls>.plyr__control {
+		color: #fff;
+	}
+}

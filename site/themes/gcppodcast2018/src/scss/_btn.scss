@@ -1,0 +1,225 @@
+.btn-primary {
+	border: 2px solid $brand-sec;
+	background-color: transparent;
+	color: $brand-sec;
+
+	&:hover {
+		background-color: $brand-sec;
+		border: 2px solid $brand-sec;
+	}
+}
+
+.btn-secondary {
+	border: 2px solid $brand-sec;
+	background-color: $brand-sec;
+	color: #fff;
+
+	&:hover {
+		background-color: darken($brand-sec, 5%);
+		border: 2px solid darken($brand-sec, 5%);
+	}
+}
+
+.btn {
+	padding: .5rem 1rem;
+	border-radius: 0;
+	text-transform: capitalize;
+	font-family: 'Google Sans';
+	font-weight: 500;
+	margin-top: 2em;
+	min-width: 130px;
+
+}
+
+.main-blue-btn {
+
+	border-color: $brand-primary;
+	color: $brand-primary !important;
+
+	&:hover {
+		background-color: $brand-primary;
+		border-color: $brand-primary;
+		color: #fff !important;
+	}	
+}
+
+.light-blue-btn {
+
+	border-color: $brand-sec;
+	color: $brand-sec !important;	
+
+	&:hover {
+		background-color: $brand-sec;
+		border-color: $brand-sec;
+		color: #fff !important;
+	}
+}
+
+
+.play-btn {
+    max-width: 40px;
+    max-height: 40px;
+    
+    @include transition($transition-property, $transition-time, $method);
+
+    &:hover {
+    	transform: scale(1.1);
+    }
+}
+
+.scroll-to-podcasts {
+	display: block;
+	margin-bottom: 1em;
+	max-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+
+.mdl-button--fab.mdl-button--colored {
+    background-color: $brand-sec;
+
+    &:hover {
+    	background-color: darken($brand-sec, 5%);    
+    }
+}
+
+.paper-audio-player-0 #wrapper.paper-audio-player {
+	box-shadow: none;
+}
+
+.paper-audio-player-0 #center.paper-audio-player,
+.paper-audio-player-0 #right.paper-audio-player {
+	background-color: rgba(#000,0.05);
+}
+
+$play-height: 40px;
+
+.paper-audio-player-0 #left.paper-audio-player, 
+.paper-audio-player-0 #right.paper-audio-player,
+.paper-audio-player-0 #wrapper.paper-audio-player {
+	height: $play-height;
+}
+
+.paper-audio-player-0 #left.paper-audio-player, 
+.paper-audio-player-0 #right.paper-audio-player {
+	width: $play-height;
+}
+
+.paper-audio-player-0 #duration.paper-audio-player, 
+.paper-audio-player-0 #title.paper-audio-player, 
+.paper-audio-player-0 #progress2.paper-audio-player {
+	line-height: $play-height;
+}
+
+paper-audio-player {
+
+	#progress, #left {
+		background-color: $brand-sec !important;
+	}
+
+	#title, #title2 {
+		display: none;
+	}
+
+	padding-bottom: 5em;
+
+
+}
+
+paper-fab-speed-dial {
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+
+
+.next-post-nav {
+    background-color: $brand-primary;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    color:#fff;
+
+    .h2 {
+    	margin-bottom: 0;
+    }
+}
+
+.podcast-content,
+.next-post-nav .container {
+
+	max-width: 900px;
+
+}
+
+.podcast-content {
+
+
+	h1 {
+		margin-bottom: 1em;
+	}
+
+	h5 {
+		margin-top: 3em;
+		margin-bottom: 0.5em;
+		color: $brand-primary;
+	}
+
+	margin-bottom: 6em;
+
+
+}
+
+#podcast-download {
+	text-align: left !important;
+	margin-bottom: 0.5em;
+	display: contents;
+
+	.paper-fab-0 {
+		margin-top: 1em;
+	}
+
+}
+
+#full-transcript {
+	display: none;
+}
+
+
+.sidebar {
+	@include r(1024) {
+		padding-left: 50px;
+	}
+
+	.meta {
+		margin-bottom: 2em;
+	}
+
+	.sidebar-content {
+		padding: 1.5em;
+		background-color: lighten(#000, 95%);
+	}
+}
+
+.transcript-title {
+	display: flex; 
+	align-items: center; 
+	justify-content: space-between;
+	margin-top: 4em;
+	margin-bottom: 1em;
+
+	h5 {
+		margin-top:0;
+		margin-bottom:0;
+	}
+
+	.btn {
+		margin-top: 0;
+		padding: .25rem 1rem;
+	}
+}
