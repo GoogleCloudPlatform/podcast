@@ -10,7 +10,9 @@ episodeNumber = 136
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Robotics, Navigation, and Reinforcement Learning with Raia Hadsell"
 image = "/images/post/raia.jpeg"
-linked = false
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/VbGgvKeieks"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/8zw0lq/episode_136_robotics_navigation_and_reinforcement/"
 +++
 
 On this episode of the podcast, [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) delve into the fascinating world of robotics and reinforcement learning. We discuss advances in the field, including how robots are learning to navigate new surroundings and how machine learning is helping us understand the human mind better.
