@@ -9,6 +9,9 @@ draft = false
 episodeNumber = 137
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Next Day 1"
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/PeRax8LQJvd"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/91v3rh/episode_137_next_day_1/"
 [[resources]]
   src = "**Hero*.jpg"
   name = "fimage"
