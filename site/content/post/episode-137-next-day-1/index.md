@@ -27,7 +27,7 @@ Pravan Srivastava is an analyst at Deloitte covering power, with a particular ex
 
 ##### Sandeep Dinesh
 
-[Sandeep Dinesh](https://twitter.com/SandeepDinesh) is a Developer Advocate for Google Cloud. He blends and creates new opportunities for businesses and people by leveraging the best technology possible. He's focused on bringing the best in high tech to the world of agriculture!
+[Sandeep Dinesh](https://twitter.com/SandeepDinesh) is a Developer Advocate for Google Cloud. He blends and creates new opportunities for businesses and people by leveraging the best technology possible.
 
 ##### Raejeanne Skillern
 
