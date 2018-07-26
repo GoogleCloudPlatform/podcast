@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/91v3rh/episode_137_ne
   name = "fimage"
 +++
 
-On this very special episode of the Google Cloud Platform Podcast, we have live interviews from the first day of NEXT! [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) had the chance to chat with Melody MeckFessel, VP of Engineering at Google Cloud and Pravan Srivastava of Deloitte. Next we spoke with Sandeep Dinesh about Open Service Broker and Raejeanne Skillern of Intel.
+On this very special episode of the Google Cloud Platform Podcast, we have live interviews from the first day of NEXT! [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) had the chance to chat with Melody MeckFessel, VP of Engineering at Google Cloud and Pavan Srivastava of Deloitte. Next we spoke with Sandeep Dinesh about Open Service Broker and Raejeanne Skillern of Intel.
 
 <!--more-->
 
@@ -25,8 +25,9 @@ On this very special episode of the Google Cloud Platform Podcast, we have live 
 
 [Melody Meckfessel](https://twitter.com/mmeckf) is a hands-on technology leader with more than 20 years experience building and maintaining large-scale distributed systems and solving problems at scale. As VP of Engineering, she leads the team building DevOps tools and sharing DevOps best practices across Google and with software development and operations teams around the world. Her team powers the world’s most advanced continuously delivered software, enabling development teams to turn ideas into reliable, scalable production systems. After graduating from UC Berkeley, Melody programmed for startups and enterprise companies. Since joining Google in 2004, Melody has led teams in Google’s core search systems, search quality and cluster management. Melody is passionate about making software development fast, scalable and fun.
 
-##### Pravan Srivastava 
-Pravan Srivastava is an analyst at Deloitte covering power, with a particular expertise in the global nuclear power industry. His work involves analyzing and evaluating the impact of key events in major markets such as Japan, China, India, Russia, France and the US. 
+##### Pavan Srivastava
+
+[Pavan](https://www2.deloitte.com/global/en/profiles/psrivastava.html) is a technology leader with 20 years of experience in developing strategies and implementation of SAP focused technology solutions. Pavan leads Deloitte’s SAP technology capability that focuses on helping clients adopt innovative technology solutions such as cloud and SAP HANA to improve business efficiencies. Pavan has led several engagements helping clients develop strategy, architecture and implement SAP on the cloud and SAP HANA platform.
 
 ##### Sandeep Dinesh
 
