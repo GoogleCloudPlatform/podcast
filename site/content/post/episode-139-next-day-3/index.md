@@ -18,15 +18,15 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/92fku1/episode_139_ne
   name = "fimage" 
 +++
 
-It's the third and final day for us at NEXT, and [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) are wrapping up with some great interviews! First, we spoke with Stephanie Cueto and Vivian Sann of Techtonica, a San Francisco non-profit. Next, Liz Fong-Jones and Nikhita Raghunath joined us for a quick discussion about open source and Stackdriver and last but not least, Robert Kubis helped us close things sharing what it means to do DevRel at this event.
+It's the third and final day for us at NEXT, and [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) are wrapping up with some great interviews! First, we spoke with Stephanie Cueto and Vivian San of Techtonica, a San Francisco non-profit. Next, Liz Fong-Jones and Nikhita Raghunath joined us for a quick discussion about open source and Stackdriver and last but not least, Robert Kubis helped us close things sharing what it means to do DevRel at this event.
   
 <!--more-->
 
-##### Stephanie Cueto and Vivian Sann
+##### Stephanie Cueto and Vivian San
 
 [Stephanie Cueto](https://twitter.com/SMCueto) is a Software Engineer and advocate for the Latinx & women community. She has been involved in the Tech community since 2016. Playing with code at an early age and working in education led to my interest in becoming a Software Engineer. Currently she is a Software Engineer Apprentice at Techtonica, where she has gained the skills to build projects in MongoDb, MySQL, Express.js, React, and Node.js. During the program, she created Salient Alert, a platform for reporting ICE Raids and Checkpoints. 
 
-[Vivian Sann](https://twitter.com/VivianSan21) is a highly analytical full-stack software engineer with an educational background in the hard sciences. She is strongly motivated by writing clean, efficient code, and passionate about teaching and giving back to underrepresented individuals and communities.
+[Vivian San](https://twitter.com/VivianSan21) is a highly analytical full-stack software engineer with an educational background in the hard sciences. She is strongly motivated by writing clean, efficient code, and passionate about teaching and giving back to underrepresented individuals and communities.
 
 ##### Liz Fong-Jones and Nikhita Raghunath 
 
