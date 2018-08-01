@@ -44,15 +44,15 @@ It's the third and final day for us at NEXT, and [Mark](https://twitter.com/Neur
 * Techtonica [site](https://techtonica.org)
 * I am Remarkable Workshop [site](https://iamremarkable.withgoogle.com)
 * Haben Girma's accessibility presentation at NEXT [video](https://www.youtube.com/watch?v=ony1wb1DOKw)
-* Google Cloud Platform Podcast Episode 127: SRE vs Devops with Liz Fong-Jones and Seth Vargo [podcast](https://www.gcppodcast.com/post/episode-127-sre-vs-devops-with-liz-fong-jones-and-seth-vargo/)
+* GCPPodcast Episode 127: SRE vs Devops with Liz Fong-Jones and Seth Vargo [podcast](https://www.gcppodcast.com/post/episode-127-sre-vs-devops-with-liz-fong-jones-and-seth-vargo/)
 * Red Hat [site](https://www.redhat.com)
 * Kubernetes [site](https://kubernetes.io)
 * Introducing Agones [blog](https://cloudplatform.googleblog.com/2018/03/introducing-Agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-Kubernetes.html)
 * Stackdriver [site](https://cloud.google.com/stackdriver)
 * OpenCensus [site](https://opencensus.io)
-* Google Cloud Platform Podcast Episode 118: OpenCensus with Morgan McLean and JBD [podcast](https://www.gcppodcast.com/post/episode-118-opencensus-with-morgan-mclean-and-jbd/)
+* GCPPodcast Episode 118: OpenCensus with Morgan McLean and JBD [podcast](https://www.gcppodcast.com/post/episode-118-opencensus-with-morgan-mclean-and-jbd/)
 * Edge TPU [site](https://cloud.google.com/edge-tpu/)
-* Google Cloud Platform Podcast Episode 135: VirusTotal with Emi Mart&#237;nez [podcast](https://gcppodcast.com/post/episode-135-virus-total-with-emi-martinez/)
+* GCPPodcast Episode 135: VirusTotal with Emi Mart&#237;nez [podcast](https://gcppodcast.com/post/episode-135-virus-total-with-emi-martinez/)
 * Cloud Spanner [site](https://cloud.google.com/spanner/)
 
 
