@@ -10,6 +10,9 @@ episodeNumber = 141
 hosts = ["Mark Mandel", "Melanie Warrick"]
 title = "Accessibility in Tech with Haben Girma"
 image="/post/episode-141-accessibility-in-tech/images/hero/hero-EP-141.jpg"
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/VcxxUMiNc7c"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/95n9ln/episode_141_accessibility_in_tech_with_haben_girma/"
 [[resources]]
   src = "**Hero*.jpg"
   name = "fimage"
