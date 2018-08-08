@@ -24,7 +24,7 @@ if(searchQuery){
   if ( location.search.slice(3, this.location.search.length) !== "" ) {
       // console.log('yes');
       $('.featured-section').hide();
-      $('h1').append(' results for '+ searchQuery);
+      $('h1').text('Search results for '+ searchQuery);
   
   }
 
