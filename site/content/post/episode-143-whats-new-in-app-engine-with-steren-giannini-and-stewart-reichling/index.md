@@ -28,7 +28,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/99f1za/episode_143_wh
 
 ##### Stewart Reichling
 
-[Stewart Reichling](https://twitter.com/stewblr) is a Product Manager on Google Cloud Platform (GCP).
+[Stewart Reichling](https://twitter.com/stewblr) is a Product Manager on Google Cloud Platform (GCP). He is a graduate of Georgia Institute of Technology and has worked across Strategy, Marketing and Product Management at Google. He currently works on bringing new runtimes (Python, Node.js, +more to come!) to App Engine and Cloud Functions.
 
 ##### Cool things of the week
 
