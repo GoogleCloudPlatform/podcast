@@ -1,4 +1,4 @@
-FROM golang:1.8
+FROM golang:1.11
 
 RUN apt-get update && apt-get -y --force-yes install wget less unzip python zsh git make cleancss openssh-server python-crcmod \
                         python-setuptools python-dev build-essential libmagic-dev
