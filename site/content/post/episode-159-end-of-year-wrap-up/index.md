@@ -36,17 +36,22 @@ Happy Holidays, everyone! [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
      * Mark and the podcast are celebrating their three year anniversary!
 
 * Top 10 most downloaded episodes of all time!
-     * GCP Podcast Episode 125: Open Source at Google Cloud Platform with Sarah Novotny [podcast](https://gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/)
-     * GCP Podcast Episode 130: Data Science with Juliet Hougland and Michelle Casbon [podcast](https://www.gcppodcast.com/post/episode-130-data-science-with-juliet-hougland-and-michelle-casbon/)
-     * GCP Podcast Episode 108: Launchpad Studio with Malika Cantor and Peter Norvig [podcast](https://www.gcppodcast.com/post/episode-108-lauchpad-studio-with-malika-cantor-and-peter-norvig/)
-     * GCP Podcast Episode 88: Kubernetes 1.7 with Tim Hockin [podcast](https://www.gcppodcast.com/post/episode-88-kubernetes-1-7-with-tim-hockin/)
-     * GCP Podcast Episode 113: Open Source TensorFlow with Yifei Feng [podcast](https://gcppodcast.com/post/episode-113-open-source-tensorflow-with-yifei-feng/)
-     * GCP Podcast Episode 128: Decision Intelligence with Cassie Kozyrkov [podcast](https://gcppodcast.com/post/episode-128-decision-intelligence-with-cassie-kozyrkov/)
-     * GCP Podcast Episode 127: SRE vs Devops with Liz Fong-Jones and Seth Vargo [podcast](https://gcppodcast.com/post/episode-127-sre-vs-devops-with-liz-fong-jones-and-seth-vargo/)
-     * GCP Podcast Episode 146: Google AI with Jeff Dean [podcast](https://gcppodcast.com/post/episode-146-google-ai-with-jeff-dean/)
-     * GCP Podcast Episode 112: Percy.io with Mike Fotinakis [podcast](https://gcppodcast.com/post/episode-112-percy-io-with-mike-fotinakis/)
-     * GCP Podcast Episode 111: Google Cloud Platform with Sam Ramji [podcast](https://gcppodcast.com/post/episode-111-google-cloud-platform-with-sam-ramji/ )
-     * One of the most downloaded episodes of the year - GCP Podcast Episode 122: Project Jupyter with Jessica Forde, Yuvi Panda and Chris Holdgraf [podcast](https://gcppodcast.com/post/episode-122-project-jupyter-with-jessica-forde-yuvi-panda-and-chris-holdgraf/)
+     1. GCP Podcast Episode 111: Google Cloud Platform with Sam Ramji [podcast](https://gcppodcast.com/post/episode-111-google-cloud-platform-with-sam-ramji/ )
+     2. GCP Podcast Episode 112: Percy.io with Mike Fotinakis [podcast](https://gcppodcast.com/post/episode-112-percy-io-with-mike-fotinakis/)
+     3. GCP Podcast Episode 146: Google AI with Jeff Dean [podcast](https://gcppodcast.com/post/episode-146-google-ai-with-jeff-dean/)
+     4. GCP Podcast Episode 127: SRE vs Devops with Liz Fong-Jones and Seth Vargo [podcast](https://gcppodcast.com/post/episode-127-sre-vs-devops-with-liz-fong-jones-and-seth-vargo/)
+     5. GCP Podcast Episode 128: Decision Intelligence with Cassie Kozyrkov [podcast](https://gcppodcast.com/post/episode-128-decision-intelligence-with-cassie-kozyrkov/)
+     6. GCP Podcast Episode 113: Open Source TensorFlow with Yifei Feng [podcast](https://gcppodcast.com/post/episode-113-open-source-tensorflow-with-yifei-feng/)
+     7. GCP Podcast Episode 88: Kubernetes 1.7 with Tim Hockin [podcast](https://www.gcppodcast.com/post/episode-88-kubernetes-1-7-with-tim-hockin/)
+     8. GCP Podcast Episode 108: Launchpad Studio with Malika Cantor and Peter Norvig [podcast](https://www.gcppodcast.com/post/episode-108-lauchpad-studio-with-malika-cantor-and-peter-norvig/)
+     9. GCP Podcast Episode 130: Data Science with Juliet Hougland and Michelle Casbon [podcast](https://www.gcppodcast.com/post/episode-130-data-science-with-juliet-hougland-and-michelle-casbon/)
+     10. GCP Podcast Episode 125: Open Source at Google Cloud Platform with Sarah Novotny [podcast](https://gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/)
+
+* Top 10 most downloaded episodes for 2018!
+
+    * Exact same list except Tim Hockin is not #7. Following episodes go up a number and we added to #10 spot.
+    * GCP Podcast Episode 122: Project Jupyter with Jessica Forde, Yuvi Panda and Chris Holdgraf [podcast](https://gcppodcast.com/post/episode-122-project-jupyter-with-jessica-forde-yuvi-panda-and-chris-holdgraf/)
+
 
 * Mark's favorite episodes
      * GCP Podcast Episode 129: Developer Relations with Mandy Waite [podcast](https://gcppodcast.com/post/episode-129-developer-releations-with-mandy-waite/)
