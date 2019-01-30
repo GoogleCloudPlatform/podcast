@@ -4,7 +4,7 @@ draft = false
 title = "About Google Cloud Platform Podcast"
 description = "All about the Google Cloud Platform Podcast"
 featured_image = "/images/featured_images/about-page-hero-img.jpg"
-subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Cloud Platform!"
+subtitle = "Tune in every week to listen to Gabi and Mark discuss Google Cloud Platform!"
 +++
 
 
@@ -34,6 +34,28 @@ subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Clou
   <div class="col-12">
 
 {{% profile 
+	"/images/hosts/Gabriela_Ferrara.jpg" 
+	"Gabriela Ferrara" 
+	"Developer Advocate, Google Cloud Platform"
+	"Gabi is a Developer Advocate at Google Cloud and a passionate Software Engineer. She likes simplifying complex systems, and believes abstractions are best when they can be understood in a real life example. She’s driven to go beyond DBA lingo to make database and storage technology more accessible to software developers." 
+%}}
+
+[Twitter](https://twitter.com/gabidavila) / 
+[Website](https://blog.gabriela.io/)
+
+{{% /profile %}}
+
+   </div>
+
+   <div class="col-12 text-left mt-4">
+
+   <h2>Hosts Memoriam</h2>
+
+   </div>
+
+  <div class="col-12">
+
+{{% profile 
 	"/images/hosts/Melanie_Warrick.png" 
 	"Melanie Warrick" 
 	"Developer Relations Engineer, AI and the Cloud at Google"
@@ -45,13 +67,7 @@ subtitle = "Tune in every week to listen to Melanie and Mark discuss Google Clou
 
 {{% /profile %}}
 
-   </div>
-
-   <div class="col-12 text-left mt-4">
-
-   <h2>Hosts Memoriam</h2>
-
-   </div>
+  </div>
 
   <div class="col-12">
 
