@@ -4,7 +4,7 @@ draft = false
 title = "About Google Cloud Platform Podcast"
 description = "All about the Google Cloud Platform Podcast"
 featured_image = "/images/featured_images/about-page-hero-img.jpg"
-subtitle = "Tune in every week to listen to Gabi and Mark discuss Google Cloud Platform!"
+subtitle = "Tune in every week to hear from our hosts about Google Cloud Platform!"
 +++
 
 
@@ -42,6 +42,22 @@ subtitle = "Tune in every week to listen to Gabi and Mark discuss Google Cloud P
 
 [Twitter](https://twitter.com/gabidavila) / 
 [Website](https://blog.gabriela.io/)
+
+{{% /profile %}}
+
+   </div>
+   
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Aja_Hammerly.jpg" 
+	"Aja Hammerly" 
+	"Developer Advocate, Google Cloud Platform"
+	"Aja lives in Seattle where she is a Developer Advocate at Google and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach." 
+%}}
+
+[Twitter](https://twitter.com/the_thagomizer) / 
+[Website](http://www.thagomizer.com/)
 
 {{% /profile %}}
 
