@@ -337,7 +337,7 @@ MARK: Well, that sounds good. Well, I'll be speaking in Cloud Next, as well, whi
 
 And just after all of that, actually, I'll be also presenting at East Coast Game Conference talking about Agones and talking about open source, in general, particularly how it relates to the games industry. One thing I do want to shout out that's really cool that I get really excited about, because I work on Agones and that project. We just released our new website. If you go to Agones.dev, it's all pretty and stuff. 
 
-It uses a theme that actually came out of Google called Doxy, so huge thanks to that team, as well. So if you're looking for a good way to do open source docs for your next open source project, it's really, really nice and takes away a lot of the pain points of trying to build a site that's very particular for open source and documentation and all that good stuff. Oh, yeah, I started Twitch streaming a bit, too. 
+It uses a theme that actually came out of Google called Docsy, so huge thanks to that team, as well. So if you're looking for a good way to do open source docs for your next open source project, it's really, really nice and takes away a lot of the pain points of trying to build a site that's very particular for open source and documentation and all that good stuff. Oh, yeah, I started Twitch streaming a bit, too. 
 
 AJA: Awesome. That is so cool. 
 
