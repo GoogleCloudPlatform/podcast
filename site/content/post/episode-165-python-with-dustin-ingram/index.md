@@ -10,6 +10,9 @@ episodeNumber = 165
 hosts = ["Mark Mandel", "Brian Dorsey"]
 title = "Python with Dustin Ingram"
 image="/post/episode-165-python-with-dustin-ingram/images/hero/hero-EP-165.jpg"
+linked = true
+googlePlusLink = "https://plus.google.com/b/117267610519909886476/+Gcppodcast/posts/5GtCZ6CVT6e"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/ay27x2/episode_165_python_with_dustin_ingram/"
 [[resources]]
   src = "**Hero*.jpg"
   name = "fimage" 
