@@ -34,6 +34,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
+	"/images/hosts/Brian_Dorsey.jpg" 
+	"Brian Dorsey" 
+	"Developer Advocate, Google Cloud Platform"
+	"Brian is a Developer Advocate for Google Cloud. He helps with the full spectrum of compute services; from VMs, through containers, & Serverless. He enjoys flying RC aircraft and making things with lasers." 
+%}}
+
+[Twitter](https://twitter.com/briandorsey)
+
+{{% /profile %}}
+
+   </div>
+
+  <div class="col-12">
+
+{{% profile 
 	"/images/hosts/Gabriela_Ferrara.jpg" 
 	"Gabriela Ferrara" 
 	"Developer Advocate, Google Cloud Platform"
