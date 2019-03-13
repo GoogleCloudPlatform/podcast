@@ -34,6 +34,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
+	"/images/hosts/Jon_Foust.jpg" 
+	"Jon Foust" 
+	"Developer Advocate, Google Cloud Platform"
+	"Jon is a Google Cloud Developer Advocate focused on Cloud Gaming. He enjoys helping developers use Google Cloud APIs easily within Unity. In his spare time, you can find Jon playing Volleyball, Baseball/Softball, and as you probably have guessed... Games!" 
+%}}
+
+[Twitter](https://twitter.com/syntxerror1)
+
+{{% /profile %}}
+
+   </div>
+
+  <div class="col-12">
+
+{{% profile 
 	"/images/hosts/Brian_Dorsey.jpg" 
 	"Brian Dorsey" 
 	"Developer Advocate, Google Cloud Platform"
