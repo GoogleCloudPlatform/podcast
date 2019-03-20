@@ -71,7 +71,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 %}}
 
 [Twitter](https://twitter.com/gabidavila) / 
-[Website](https://blog.gabriela.io/)
+[Website](https://gabi.dev/)
 
 {{% /profile %}}
 
