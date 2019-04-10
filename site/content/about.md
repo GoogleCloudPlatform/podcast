@@ -34,6 +34,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
+	"/images/hosts/Mark_Mirchandani.jpg" 
+	"Mark Mirchandani" 
+	"Developer Advocate, Google Cloud Platform"
+	"Mark Mirchandani is a Developer Advocate for Google Cloud focusing on creating scalable ways to help technical practitioners make their lives easier, or at least laugh!" 
+%}}
+
+[Twitter](https://twitter.com/markmirch)
+
+{{% /profile %}}
+
+   </div>
+
+  <div class="col-12">
+
+{{% profile 
 	"/images/hosts/Jon_Foust.jpg" 
 	"Jon Foust" 
 	"Developer Advocate, Google Cloud Platform"
