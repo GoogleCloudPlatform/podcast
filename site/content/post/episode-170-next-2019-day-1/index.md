@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/bbret2/episode_170_ne
 
 We're at Cloud Next this week with special guests, special hosts, and more! On day one, [Gabi](https://twitter.com/gabidavila) and new host [Mark Mirchandani](https://twitter.com/markmirch) were able to speak with Jonathan Cham, Customer Engineer at Google Cloud, about his experiences with Google Next. Ori of the Cloud SQL team shared exciting news about Cloud SQL Server.
 
-Later, [Aja](https://twitter.com/the_thagomizer) was joined by co-host [Brian Dorsey](https://twitter.com/briandorsey) who elaborated on his Next talk, as well as his favorite things at Next. They were able to get a quick interview with Matt and Nate about Skuid and what they're looking forward to at Cloud Next. Jose and Brian of Onix stopped by as well to talk about their company and their experiences in comedy!
+Later, [Aja](https://twitter.com/the_thagomizer) was joined by co-host [Brian Dorsey](https://twitter.com/briandorsey) who elaborated on his Next talk, as well as his favorite things at Next. They were able to get a quick interview with Matt and Nate about Skuid and what they're looking forward to at Cloud Next. Jose and Bryan of Onix stopped by as well to talk about their company and their experiences in comedy!
 
 <!--more-->
 
