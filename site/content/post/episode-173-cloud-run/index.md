@@ -25,7 +25,7 @@ Two versions of Cloud Run were released last week. Cloud Run is the fully manage
 
 <!--more-->
 
-##### Steren Giannin
+##### Steren Giannini
 
 Steren is a Product Manager in the Google Cloud Platform serverless team. He graduated from École Centrale Lyon, France and then was CTO of a startup that created mobile and multi-device solutions. After joining Google, Steren managed Stackdriver Error Reporting, Node.js on App Engine, and Cloud Run.
 
