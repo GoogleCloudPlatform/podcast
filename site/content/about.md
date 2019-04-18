@@ -36,8 +36,8 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Michelle_Casbon.jpg" 
 	"Michelle Casbon" 
-	"Senior Developer Programs Engineer, Google Cloud Platform"
-	"Michelle Casbon is a senior engineer on the Google Cloud Platform developer relations team, where she focuses on open source contributions and community engagement for machine learning and big data tools. Michelle’s development experience spans more than a decade and has primarily focused on multilingual natural language processing, system architecture and integration, and continuous delivery pipelines for machine learning applications." 
+	"Senior Developer Programs Engineer, Google Cloud"
+	"Michelle is a Developer Programs Engineer for Google Cloud, where she empowers engineers and data scientists to deploy ML applications. She focuses on open source tooling for startups and enterprises and is an active contributor to the Kubeflow project." 
 %}}
 
 [Twitter](https://twitter.com/texasmichelle)
