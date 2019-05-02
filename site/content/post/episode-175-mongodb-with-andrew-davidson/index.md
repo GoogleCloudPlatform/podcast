@@ -19,10 +19,10 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/bjjpcc/episode_175_mo
 
 On the podcast today we have a fascinating interview from our time at Cloud Next '19! [Mark](https://twitter.com/Neurotic) and [Jon](https://twitter.com/syntxerror1) went in-depth with Andrew Davidson about MongoDB to find out what they do and how they do it.
 
-MongoDB is a document database that stores natively, making it super easy for developers. It's scalable, the information is highly available so it's easy to query, it has built-in replication, and can be run anywhere.
+MongoDB is a document database that stores JSON natively, making it super easy for developers to work with data in a way that’s similar to how they think about building applications. The database is scalable, highly available by default with built-in replication, has an intuitive query language, and can be run anywhere.
 
-MongoDB Atlas is a global database service that works with Google Cloud and allows for better vertical and horizontal scaling with no down time. Atlas is a declarative model to manage your databases easily, makes it is super easy to migrate, and offers global clusters for faster runtimes.
- 
+MongoDB Atlas is a global database service that runs on Google Cloud; it automates deployment and provisioning, and ongoing operations such as maintenance, upgrades, and scaling with no downtime. Atlas is a declarative model to manage your databases easily, is easy to migrate to, and offers advanced features such as global clusters for low latency read and write access anywhere in the world.
+
 In the future, Andrew sees a world where we think in terms of JSON-style documents instead of just tables. MongoDB can help make that happen.
  
 <!--more-->
