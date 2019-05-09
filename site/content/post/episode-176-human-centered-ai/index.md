@@ -52,6 +52,7 @@ In the guidebook, topics like data bias in machine learning, what design pattern
 ##### Question of the week
 
 * [How do I get started with practical AI?](https://developers.google.com/actions/codelabs/)
+* [Build an Appointment Scheduler Chatbot with Dialogflow](https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler/index.html)
 
 ##### Where can you find us next?
 
