@@ -56,6 +56,7 @@ Angela Yu is a developer advocate for Google Maps Platform.  Throughout her care
 * StreetView Gallery [site](https://www.google.com/streetview/gallery/)
 * Earth Engine [site](https://earthengine.google.com/)
 * xkcd: Map Projections [site](https://xkcd.com/977/)
+* Beautiful data visualizations using [deck.gl](http://deck.gl/) on Google Maps [demo](https://goo.gle/deckgl-maps-announcement) and [docs](https://goo.gle/deckgl-docs)
 
 ##### Question of the week
 
