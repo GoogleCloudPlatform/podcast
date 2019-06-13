@@ -70,8 +70,10 @@ Angela Yu is a developer advocate for Google Maps Platform.  Throughout her care
 ##### Where can you find us next?
 
 Angela will be at the [Chrome Dev Summit](https://developer.chrome.com/devsummit/).
+
 Mark Man will be at [Tokyo Next](https://cloud.withgoogle.com/next/tokyo/).
-Mark Merch will be customer filming for [Stack Chat](https://www.youtube.com/playlist?list=PLIivdWyY5sqJvwGd0PTzSx1j0cePX0INl) in NYC.
+
+Mark Mirch will be customer filming for [Stack Chat](https://www.youtube.com/playlist?list=PLIivdWyY5sqJvwGd0PTzSx1j0cePX0INl) in NYC.
 
 ##### Sound Effect Attribution
 
