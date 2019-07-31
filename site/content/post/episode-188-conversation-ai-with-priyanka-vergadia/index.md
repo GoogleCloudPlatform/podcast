@@ -1,7 +1,7 @@
 +++
 audioDuration = "00:35:10"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.188.mp3"
-audioSize = 51036016
+audioSize = 50788120
 categories = ["AI", "Conversation AI", "Dialogflow"]
 date = "2019-07-31"
 description = "The podcast today is all about conversational AI and Dialogflow with our Google guest, Priyanka Vergadia."
@@ -32,8 +32,7 @@ Priyanka Vergadia is a Developer Advocate at Google. She worked directly with cu
 ##### Cool things of the week
 
 * Least privilege for Cloud Functions using Cloud IAM [blog](https://cloud.google.com/blog/products/application-development/least-privilege-for-cloud-functions-using-cloud-iam)
-* Brick by brick: Learn GCP by setting up a kid-controllable Minecraft server [blog](https://cloud.google.com/blog/products/gcp/brick-by-brick-learn-gcp-by-setting-up-a-kid-controllable-minecraft-server)
-     * Containerizing in the real world . . . of Minecraft [blog](https://cloudplatform.googleblog.com/2015/11/containerizing-in-the-real-world-of-Minecraft.html)
+* Containerizing in the real world . . . of Minecraft [blog](https://cloudplatform.googleblog.com/2015/11/containerizing-in-the-real-world-of-Minecraft.html)
 * Introducing the What-If Tool for Cloud AI Platform models [blog](https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-what-if-tool-for-cloud-ai-platform-models)
 
 ##### Interview
