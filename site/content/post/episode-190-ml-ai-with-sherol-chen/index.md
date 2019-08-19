@@ -1,5 +1,5 @@
 +++
-audioDuration = "00:3:04"
+audioDuration = "00:30:04"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.190.mp3"
 audioSize = 43702414
 categories = ["ML", "AI", "Machine Learning", "Deep Learning"]
