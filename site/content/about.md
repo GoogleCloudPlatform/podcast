@@ -122,6 +122,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% /profile %}}
 
    </div>
+   
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Gabe_Weiss.jpg" 
+	"Gabe Weiss" 
+	"Developer Advocate, Google Cloud Platform"
+	"Gabe works on the Google Cloud Platform team ensuring that developers can make awesome things, both inside and outside of Google. That could mean speaking at conferences, writing example code, running bootcamps, writing technical blogs or just doing some hand holding. Prior to Google he's worked in virtual reality production and distribution, source control, the games industry and professional acting." 
+%}}
+
+[Twitter](https://twitter.com/gabeweiss_)
+
+{{% /profile %}}
+
+   </div>
 
    <div class="col-12 text-left mt-4">
 
