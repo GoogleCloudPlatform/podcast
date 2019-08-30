@@ -39,7 +39,7 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linu
 RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 
-RUN easy_install pip
+RUN yes | apt install python-pip
 RUN pip install eyeD3 pathlib
 RUN mkdir /tools
 ADD tag.sh /tools/tag.sh
