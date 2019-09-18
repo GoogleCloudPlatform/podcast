@@ -137,6 +137,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% /profile %}}
 
    </div>
+   
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Priyanka_Vergadia.png" 
+	"Priyanka Vergadia" 
+	"Developer Advocate, Google Cloud Platform"
+	"Priyanka is a Developer Advocate for Google Cloud. She helps technical practitioners utilize the full spectrum of Google Cloud products in their specific business challenges. She enjoys sleeping and painting." 
+%}}
+
+[Twitter](https://twitter.com/pvergadia)
+
+{{% /profile %}}
+
+   </div>
 
    <div class="col-12 text-left mt-4">
 
