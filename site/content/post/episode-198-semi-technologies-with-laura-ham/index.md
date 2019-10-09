@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/dfl17i/episode_198_se
   name = "fimage"
 +++
 
-Today on the podcast, [Gabi Ferrara](https://twitter.com/gabidavila) and [Jon Foust](https://twitter.com/syntxerror1) share a great interview with [Laura Ham](https://twitter.com/laura_ham), Community Solution Engineer at [SeMI Technologies](https://twitter.com/SeMI_tech). At SeMI Technologies, Laura works with their project Weaviate, an open-source knowledge graph program that allows users to do a contextualized search based on inputted data. However, unlike traditional databases, Weaviate attaches meanings and links within the data.
+Today on the podcast, [Gabi Ferrara](https://twitter.com/gabidavila) and [Jon Foust](https://twitter.com/syntxerror1) share a great interview with [Laura Ham](https://twitter.com/laura_hamham), Community Solution Engineer at [SeMI Technologies](https://twitter.com/SeMI_tech). At SeMI Technologies, Laura works with their project Weaviate, an open-source knowledge graph program that allows users to do a contextualized search based on inputted data. However, unlike traditional databases, Weaviate attaches meanings and links within the data.
    
 Laura details what knowledge graphs are and how they can be useful for both small and large projects. Explaining that ontology is the meaning of words, she tells us how Weaviate is able to use this concept to make more specific data entries and links, allowing users to perform better and more informative searches. Weaviate is able to do this with the help of Kubernetes. Later, Laura tells Gabi and Jon the ways Weaviate helps developers and users with thorough documentation, assistance with troubleshooting, and support from solution engineers.
 
