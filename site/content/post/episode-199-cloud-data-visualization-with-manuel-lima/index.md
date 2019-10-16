@@ -66,4 +66,10 @@ What are the most common products used in cloud gaming?
 ##### Where can you find us next?
 
 Gabi will be at [Full Stack Europe](https://fullstackeurope.com/speakers/gabi-davila/).
+
 Jon will be at [Kubecon](https://events19.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/) in November to run a workshop on [Open Match](https://github.com/googleforgames/open-match/blob/master/docs/development.md).
+
+##### Sound Effect Attribution
+
+* "Small Group Laugh 6" by Tim.Kahn of [Freesound.org](https://Freesound.org)
+* "Jingle Romantic" by Jay_You of [Freesound.org](https://Freesound.org)
