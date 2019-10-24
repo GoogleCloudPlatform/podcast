@@ -25,7 +25,7 @@ To keep the game running smoothly, Massive employs a micro-service architecture 
 
 ##### Björn Lindberg
 
-Björn Lindberg, to the best of my knowledge is working as On-Line technical director at Massive Entertainment a Ubisoft owned and operated game studio in Malmö Sweden. He does design and implementation of on-line backend systems for large AAA on-line games such as The Division series of games and World in Conflict.
+Björn Lindberg is working as On-Line technical director at Massive Entertainment a Ubisoft owned and operated game studio in Malmö Sweden. He does design and implementation of on-line backend systems for large AAA on-line games such as The Division series of games and World in Conflict.
 
 ##### Interview
 
