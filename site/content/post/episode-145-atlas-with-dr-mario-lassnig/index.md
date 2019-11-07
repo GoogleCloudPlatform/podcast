@@ -52,7 +52,7 @@ Our guest today is [Dr. Mario Lassnig](https://twitter.com/mlassnig), a software
 * Square Kilometer Array [site](https://www.skatelescope.org)
 * DUNE [site](http://www.dunescience.org)
 * LIGO Lab [site](https://www.ligo.caltech.edu)
-* Scientific Computing with Google Cloud Platform: Experiences from the Trenches in Particle Physics and Earth Sciences [video](https://youtu.be/N4eT9Lfvuro)
+* Scientific Computing with Google Cloud: Experiences from the Trenches in Particle Physics and Earth Sciences [video](https://youtu.be/N4eT9Lfvuro)
 * GCP Podcast Episode 122: Project Jupyter with Jessica Forde, Yuvi Panda and Chris Holdgraf [podcast](https://www.gcppodcast.com/post/episode-122-project-jupyter-with-jessica-forde-yuvi-panda-and-chris-holdgraf/)
 * Rucio Workshop [site](https://indico.cern.ch/event/676472/)
 * ACM/IEEE Supercomputing 2018 [site](https://sc18.supercomputing.org)
@@ -77,7 +77,7 @@ Mark will be at [Tokyo NEXT](https://cloud.withgoogle.com/next18/tokyo).
 
 We'll both be at [Strange Loop](https://www.thestrangeloop.com).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 145 of the weekly Google Cloud Platform podcast. I'm Mark Mandel. And as always, I'm here with my colleague, Melanie Warwick. How are you doing, Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 145 of the weekly Google Cloud podcast. I'm Mark Mandel. And as always, I'm here with my colleague, Melanie Warwick. How are you doing, Melanie?" >}}
 
 MELANIE: I'm good, Mark. Good to talk to you again this week. How was PAX? 
 
@@ -197,7 +197,7 @@ MELANIE: Nice. So in terms of Google Cloud Storage, in particular, how are you u
 
 MARIO: So we have our internal data management system that is basically tailored to the way we have our computing infrastructure built. We have 170 data centers. Those are all nationally-funded data centers. So it's completely heterogeneous. 
 
-So our system was built to make sure that all these data centers can talk to each other. And now, we added the Google Cloud Platform as an extension to that. So for the whole infrastructure, it looks like the Google Storage is just another data center for us. 
+So our system was built to make sure that all these data centers can talk to each other. And now, we added the Google Cloud as an extension to that. So for the whole infrastructure, it looks like the Google Storage is just another data center for us. 
 
 And we started out with the S3 Compatibility layer of GCS. But then gradually, due to authorization, we moved to the signed URLs. And now, we can use it just like a regular web dev storage, which is pretty cool. 
 
@@ -235,7 +235,7 @@ And then, it comes out, OK, you need to run across this one million files. They'
 
 MELANIE: Nice. Any lessons learned along the way from building out with these tools? 
 
-MARIO: So the most important thing for me personally was to have the authorization. Because the scientists are all integrated in the US, Europe, Asia in a single, unified federated authorization namespace. And to get the credentials from a single scientist into the controlled, budgeted environment on the Google Cloud Platform, that was a bit tricky to figure out. So we're happy with it. 
+MARIO: So the most important thing for me personally was to have the authorization. Because the scientists are all integrated in the US, Europe, Asia in a single, unified federated authorization namespace. And to get the credentials from a single scientist into the controlled, budgeted environment on the Google Cloud, that was a bit tricky to figure out. So we're happy with it. 
 
 For example, when we were still using the S3 layer, we had to give out the S3 access keys to the people. And suddenly, there could be a single scientist saying, OK, I need to run this data. And by accident, it starts to run on GCE. 
 
@@ -303,7 +303,7 @@ It's more of a sociological than a technological problem. But you have to make s
 
 MELANIE: I know we're doing this interview at Next. And you were here to speak at Next. What did you talk about? 
 
-MARIO: Yeah, exactly about this topic. It was a shared session of scientific computing with Google Cloud Platform. The first half was from the Pangeo project that the earth and ocean and atmospheric sciences modeling on interactive notebooks. And then the second half, I spoke about the way we integrated GCP into our Atlas computing infrastructure. 
+MARIO: Yeah, exactly about this topic. It was a shared session of scientific computing with Google Cloud. The first half was from the Pangeo project that the earth and ocean and atmospheric sciences modeling on interactive notebooks. And then the second half, I spoke about the way we integrated GCP into our Atlas computing infrastructure. 
 
 MELANIE: Cool. Was the interactive notebooks Jupyter, by any chance? 
 
@@ -321,7 +321,7 @@ MELANIE: Oh, wow.
 
 MARIO: If we do that, actually, we can saturate our data center output. 
 
-MARK: Oh, fun. Actually, so that's an interesting point. You peer with Google Cloud Platform as well? 
+MARK: Oh, fun. Actually, so that's an interesting point. You peer with Google Cloud as well? 
 
 MARIO: Yes. There are a couple of peering points in the US. And the ones we tried out was-- if I'm not mistaken-- South Carolina and [INAUDIBLE]. 
 

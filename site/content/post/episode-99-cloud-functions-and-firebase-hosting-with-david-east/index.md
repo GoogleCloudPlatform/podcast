@@ -63,7 +63,7 @@ Francesc is currently presenting at [Google Cloud Summit Paris](https://cloudpla
 
 Mark is heading to Australia for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 99 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel, who is breaking the mics." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 99 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel, who is breaking the mics." >}}
 
 Hi, Mark. How are you doing? 
 
@@ -279,7 +279,7 @@ DAVID: Yeah, when Cloud Functions boots up, your credentials are automatically c
 
 So if you're using the Cloud Vision API, those credentials are automatically configured in that environment. And the same for your Firebase credentials. And so it's really easy to just say, OK, I'm going to read data from this section and send it back, or I need to call this API. I need to talk to whatever service that's in the Google Cloud or Firebase ecosystem. All that authentication and credentialing is just automatically taken care of for you. 
 
-MARK: Nice. So that's almost burying the lead a little. I feel like I want to highlight it. It sounds like, basically, like this seems like a sweet spot where maybe you want to cross ecosystems. Like, say, you want to do some stuff in cloud, Google Cloud Platform. Like, maybe you have a database there. You want to do something like Cloud Vision. But also, being able to take advantage of basically the buttery sweetness of Firebase. Would that be kind of accurate? 
+MARK: Nice. So that's almost burying the lead a little. I feel like I want to highlight it. It sounds like, basically, like this seems like a sweet spot where maybe you want to cross ecosystems. Like, say, you want to do some stuff in cloud, Google Cloud. Like, maybe you have a database there. You want to do something like Cloud Vision. But also, being able to take advantage of basically the buttery sweetness of Firebase. Would that be kind of accurate? 
 
 DAVID: Yeah, totally. The fact that you don't have to worry about your credentials is really great. And we also provide this credentialing with the Firebase CLI that you install through NPM. We have like local runners. So a lot of times, you're dealing with, like, oh, I just want to do this locally right now. I don't want to have to deploy to test this. 
 
@@ -339,19 +339,19 @@ MARK: Yeah, absolutely. Totally agreed on the simplicity. And the developer expe
 
 FRANCESC: I mean, it's Firebase. Firebase developer experience is kind of the best. 
 
-MARK: Awesome. Well, why don't we talk about our question of the week? So I can read documentation. I can read books. But sometimes, I like to work on a specific project, or I like to have sort of an instructor-led sort of scenario. Are there any online courses that I can take when trying to learn about Google Cloud Platform? 
+MARK: Awesome. Well, why don't we talk about our question of the week? So I can read documentation. I can read books. But sometimes, I like to work on a specific project, or I like to have sort of an instructor-led sort of scenario. Are there any online courses that I can take when trying to learn about Google Cloud? 
 
 FRANCESC: Yes. There's actually a lot of them. And I'm not going to cover all of them, but there is a specific set of them that are starting this week, which are really cool. They're all on Coursera. They're all free. And I recommend all of them. 
 
-And if you want to get started, there's like some specific things. For instance, Google Cloud Platform fundamentals, core infrastructure. So you're going to be learning, really, the basics of Google Cloud. But also, you have another one in state engineering on Google Cloud Platform Specialization, which is like if you want to do more like big data stuff, that's for you. 
+And if you want to get started, there's like some specific things. For instance, Google Cloud fundamentals, core infrastructure. So you're going to be learning, really, the basics of Google Cloud. But also, you have another one in state engineering on Google Cloud Specialization, which is like if you want to do more like big data stuff, that's for you. 
 
-There's also Architecting with Google Cloud Platform Specialization. So if you want to figure out, like, I have a big application, and I want to know what services could help me do what, that's the one for you. 
+There's also Architecting with Google Cloud Specialization. So if you want to figure out, like, I have a big application, and I want to know what services could help me do what, that's the one for you. 
 
 And also, if what you want to do is you want to-- you're coming from AWS and you want to know, basically it's like, I have all of this baggage. I know all of these things already. Just tell me the things I need to know on top to understand how Google Cloud platform works. 
 
-There's one specifically for that, which is Google Cloud Platform Fundamentals for AWS Professionals. 
+There's one specifically for that, which is Google Cloud Fundamentals for AWS Professionals. 
 
-And last but not least, there's also one for people that are running Windows applications on Google Cloud Platform. There's another course for that. So there's a bunch of courses. They're all starting on October 16, except for the Windows one, which started on October 9. So go check it out. 
+And last but not least, there's also one for people that are running Windows applications on Google Cloud. There's another course for that. So there's a bunch of courses. They're all starting on October 16, except for the Windows one, which started on October 9. So go check it out. 
 
 Even if you start a little bit late, it's totally fine. So I definitely recommend going, and registering, and learning a lot of it. You can follow your own pace. So perfect for those people working that want to learn more. 
 

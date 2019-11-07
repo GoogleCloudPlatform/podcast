@@ -64,7 +64,7 @@ Android development specialist, and works very closely with the Crash Reporting 
 - Google Cloud Intellij Plugin (ALPHA!) [github](https://github.com/GoogleCloudPlatform/gcloud-intellij)
 - Diagnostics - Spend less time diagnosing and more time developing [video](https://www.youtube.com/watch?v=AUW4ZEhhk_w)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 29 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 29 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing today?
 FRANCESC: Very good, very happy, very excited about a lot of Firebase and Firebase and Firebase today.
 MARK: Yeah, it's gonna be more Firebase and then, some more Firebase.
@@ -74,7 +74,7 @@ FRANCESC: But--which is not--not everything's gonna be Firebase, but we're gonna
 MARK: Yeah, we're gonna talk about all the new stuff they announced at I/O and all that cool stuff.
 FRANCESC: Yeah. So if you had the opportunity to watch some of the talks on the Firebase truck at Google I/O, there will be some of the things that you may know. But I'm sure there's gonna be things that you did not know, that are new and all fresh, in Firebase.
 MARK: Absolutely. 
-FRANCESC: Then, at the end, we're gonna be talking about the question of the week which is an interesting one, which is basically, "Okay, so something's going wrong with my application on Google Cloud Platform. How do I figure out what is going wrong?" So we're gonna be talking a little bit about monitoring, debugging, all that cool stuff that you never want to do but you have to.
+FRANCESC: Then, at the end, we're gonna be talking about the question of the week which is an interesting one, which is basically, "Okay, so something's going wrong with my application on Google Cloud. How do I figure out what is going wrong?" So we're gonna be talking a little bit about monitoring, debugging, all that cool stuff that you never want to do but you have to.
 MARK: Yep.
 FRANCESC: Yep. So yeah, that's gonna be fun. That's gonna be at the end of the episode. But before that, we're gonna do the cool thing of the week.
 MARK: Yeah, so the cool thing of the week is introducing, on Google Container Engine, we have now gotten node pools...
@@ -305,7 +305,7 @@ MARK: Nice.
 FRANCESC: So it's like, "When X equals 10, give me all the values of the stuff." And then with that, basically, you'll be able to kind of debug in production, but without the cost of actually stopping any jobs in production, which is a really bad idea.
 MARK: I'll actually put a little thing on here as well. It's super, super, super alpha...
 FRANCESC: Yes.
-MARK: But there is a plugin for Google Cloud Platform IntelliJ. And the integrated debugging stuff they've got for Java applications in that...
+MARK: But there is a plugin for Google Cloud IntelliJ. And the integrated debugging stuff they've got for Java applications in that...
 FRANCESC: Oh, yeah. That's true.
 MARK: Is very, very slick. 
 FRANCESC: Yeah.

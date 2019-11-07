@@ -55,9 +55,9 @@ of the Week.
 
 ###### Francesc's Favourites
 
-Spotify is now on Google Cloud Platform:
+Spotify is now on Google Cloud:
 
-- Spotify chooses Google Cloud Platform to power data infrastructure [blog](http://googlecloudplatform.blogspot.com/2016/02/Spotify-chooses-Google-Cloud-Platform-to-power-data-infrastructure.html)
+- Spotify chooses Google Cloud to power data infrastructure [blog](http://googlecloudplatform.blogspot.com/2016/02/Spotify-chooses-Google-Cloud-Platform-to-power-data-infrastructure.html)
 - Announcing Spotify Infrastructure’s Googley Future [blog](https://news.spotify.com/us/2016/02/23/announcing-spotify-infrastructures-googley-future/)
 - Google’s BigQuery is *da bomb* - I can start with 2.2Billion ‘things’ and compute/summarize down to 20K in < 1 min. [tweet](https://twitter.com/plamere/status/702168809445134336)
 
@@ -69,8 +69,8 @@ Kubernetes and Google Container Engine
 
 Education:
 
-- CP100A: Google Cloud Platform Foundations [courses](https://cloud.google.com/training/courses)
-- New Google Cloud Platform Education Grants offer free credits to students [blog](https://cloudplatform.googleblog.com/2016/06/new-Google-Cloud-Platform-Education-Grants-offer-free-credits-to-students.html)
+- CP100A: Google Cloud Foundations [courses](https://cloud.google.com/training/courses)
+- New Google Cloud Education Grants offer free credits to students [blog](https://cloudplatform.googleblog.com/2016/06/new-Google-Cloud-Platform-Education-Grants-offer-free-credits-to-students.html)
 - Kubernetes class on Udacity [blog](https://cloudplatform.googleblog.com/2016/05/up-your-DevOps-chops-with-this-online-Kubernetes-class.html)
 
 ###### Mark's Favourites
@@ -90,13 +90,13 @@ Machine Learning and Big Data
 - Powering geospatial analysis: public geo datasets now on Google Cloud [blog](https://cloudplatform.googleblog.com/2016/10/powering-geospatial-analysis-public-geo-datasets-now-on-Google-Cloud.html)
 - Introducing the Open Images Dataset [blog](https://research.googleblog.com/2016/09/introducing-open-images-dataset.html)
 
-Google Cloud Platform Community Slack
+Google Cloud Community Slack
 
 - Join the community [invite](https://bit.ly/gcp-slack)
 
 We'll be back on January 18th, 2017 - See you all then!
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 56 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 56 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 MARK: I'm all right. I'm a little sad. It's the last episode of the year. 
 
 FRANCESC: I'm also super sad. I'm actually kind of looking forward to a little bit of a break, but, yeah, it's going to be sad not to get to talk to you for, like, three weeks. 
@@ -145,7 +145,7 @@ MARK: I am. I am. So I think this is pretty exciting. Everyone knows I'm well in
 
 The company name is Improbable. They have a product named Spatial OS. And the partnership literally just got announced right now, which is pretty awesome. 
 
-FRANCESC: It looks really cool. The older images I'm seeing and the videos, they look like something I would play. So I'm very excited about seeing all the new games and new companies that are going to be joining this effort and making new cool things on the Google Cloud Platform. 
+FRANCESC: It looks really cool. The older images I'm seeing and the videos, they look like something I would play. So I'm very excited about seeing all the new games and new companies that are going to be joining this effort and making new cool things on the Google Cloud. 
 
 FRANCESC: Yeah, and then, as well as that, we have the new Google Cloud Client Libraries for four key services, which I thought were pretty cool. It looks like we've basically been building these client libraries as the libraries that people can use for all the languages we support for all the services that we have on Google Cloud. 
 
@@ -177,11 +177,11 @@ MARK: Absolutely, yeah, we should definitely have someone to talk about that.
 
 FRANCESC: Cool, so I guess it's time to go with the main content. And the plan is we're got to start talking about the 2016 episodes. And we're going to be talking about the most downloaded episodes and then our personal favorite episodes, which are not the same. And then at the end, we'll be talking about our favorite cool things of the week, which is kind of a vague term to say all the cool things that happened. So it will be more like themes, what happened, like cool I'm going to say announcements, because apparently I mispronounced launches. 
 
-MARK: That's all right. I have an accent too. I quote unquote "mispronounce" things all the time, depending on where you come from. Yeah, no, I think this is really cool. It's something that we can kind of go back and look at what happened at Google Cloud Platform over 2016. 
+MARK: That's all right. I have an accent too. I quote unquote "mispronounce" things all the time, depending on where you come from. Yeah, no, I think this is really cool. It's something that we can kind of go back and look at what happened at Google Cloud over 2016. 
 
 FRANCESC: It's a crazy amount of things. 
 
-MARK: It's a crazy amount of things, and it really is kind of a year in review of Google Cloud Platform and what it is and what's happened in the last year. I mean, we're not even going to touch on everything, but sort of some of our highlights, which I think is super exciting and really kind of gives us a little history of what's happened in the past year. 
+MARK: It's a crazy amount of things, and it really is kind of a year in review of Google Cloud and what it is and what's happened in the last year. I mean, we're not even going to touch on everything, but sort of some of our highlights, which I think is super exciting and really kind of gives us a little history of what's happened in the past year. 
 
 FRANCESC: Yeah, it's kind of crazy to think about, like, not that long ago there were things like GKE was not really a thing. 
 
@@ -381,9 +381,9 @@ FRANCESC: Yeah, that was fun.
 
 MARK: Excellent, all right, well, I think that sort of covers our list of episodes. I mean, we could probably talk about episodes for hours and hours on end. But why don't we talk about our favorite cool things of the week as kind of a backdrop to all the stuff that's happened inside Google Cloud? 
 
-FRANCESC: OK, so the first one is going to go with is all the effort that we have done on education. There's a bunch of things we've done. But the fact that we opened CP100A, which is the Google Cloud Platform Foundations, and you can go check it out on cloud.google.com/training. That is awesome. 
+FRANCESC: OK, so the first one is going to go with is all the effort that we have done on education. There's a bunch of things we've done. But the fact that we opened CP100A, which is the Google Cloud Foundations, and you can go check it out on cloud.google.com/training. That is awesome. 
 
-There's a bunch of course that are really, really good. There's also can go pass exams if you want to. But on top of that, if you're a student, and you want to use Google Cloud Platform, we also announced Google Cloud Platform education grants that is helping students use our Cloud for free. And so they can learn, and they can experiment. And there's a lot of things that they can do, like if you're a statistics student, then and can't can get to play with things like BigQuery, that is kind of an amazing experience. 
+There's a bunch of course that are really, really good. There's also can go pass exams if you want to. But on top of that, if you're a student, and you want to use Google Cloud, we also announced Google Cloud education grants that is helping students use our Cloud for free. And so they can learn, and they can experiment. And there's a lot of things that they can do, like if you're a statistics student, then and can't can get to play with things like BigQuery, that is kind of an amazing experience. 
 
 And then also some Udacity courses. And one of my favorite ones was the Kubernetes class on Udacity with-- 
 
@@ -417,7 +417,7 @@ FRANCESC: Yeah, it is very good for our customers, not as much for our team.
 
 MARK: Yeah, yeah. 
 
-FRANCESC: Lots of fun. OK, so I'm going to go with-- this these are not really ordered in any specific way, but one of my favorite things we talked about was Spotify. Spotify moving to Google Cloud Platform was awesome. The way our team was involved with them so they could get all the infrastructure together to make sure it was a successful movement-- it was great. And also all the things that they published-- they wrote a bunch of blog posts. And one of my favorite things was Paul [? Amehr, ?] Paul [? Emir, ?] whatever-- he tweeted something saying Google's BigQuery is the bomb. I can start with 2.2 billion things and compute summarize down to 20k in less than one minute. And I think that the fact that someone calls one of your products the bomb surrounded by asterisks, that is pretty awesome. 
+FRANCESC: Lots of fun. OK, so I'm going to go with-- this these are not really ordered in any specific way, but one of my favorite things we talked about was Spotify. Spotify moving to Google Cloud was awesome. The way our team was involved with them so they could get all the infrastructure together to make sure it was a successful movement-- it was great. And also all the things that they published-- they wrote a bunch of blog posts. And one of my favorite things was Paul [? Amehr, ?] Paul [? Emir, ?] whatever-- he tweeted something saying Google's BigQuery is the bomb. I can start with 2.2 billion things and compute summarize down to 20k in less than one minute. And I think that the fact that someone calls one of your products the bomb surrounded by asterisks, that is pretty awesome. 
 
 MARK: Very good. Goal for 2017. 
 
@@ -437,7 +437,7 @@ FRANCESC: Vision API is also there, I guess. I guess it was right before, but ye
 
 MARK: So many APIs. And I love the articles and the stuff that came out of it. The discussion of microments of baseball-- can you hear the game through data? I thought it was really interesting. And by far my favorite is basically the Japanese cucumber farmer who is using TensorFlow to manage his crops, which is phenomenal. 
 
-FRANCESC: Yes, it is such an amazing-- I mean, the fact that you get to talk about cucumbers at the Google Cloud Platform Podcast is kind of amazing. 
+FRANCESC: Yes, it is such an amazing-- I mean, the fact that you get to talk about cucumbers at the Google Cloud Podcast is kind of amazing. 
 
 MARK: Yeah, like, you know, like, I think it just goes to show the wide variety of things that are possible, like, once you have the capabilities at your fingertips. 
 
@@ -471,7 +471,7 @@ MARK: Which is amazingly crazy. And basically Pokemon GO served, what, everybody
 
 FRANCESC: It is pretty amazing. 
 
-MARK: Cool. All right, so my final one, I just want to highlight it because it was something I helped create, and it made me feel very special, and I love what's going on there. The Google Cloud Platform Community Slack team-- so it's like community there-- that has grown into such a wonderful community. I'm genuinely proud of it because so often sometimes I just sit back, and I watch it, and I watch the people in the community of the Google Cloud Platform Groups just interact with each other, be nice to each other, help each other out, really just kind of be there for each other, which I think is just a delightful thing. 
+MARK: Cool. All right, so my final one, I just want to highlight it because it was something I helped create, and it made me feel very special, and I love what's going on there. The Google Cloud Community Slack team-- so it's like community there-- that has grown into such a wonderful community. I'm genuinely proud of it because so often sometimes I just sit back, and I watch it, and I watch the people in the community of the Google Cloud Groups just interact with each other, be nice to each other, help each other out, really just kind of be there for each other, which I think is just a delightful thing. 
 
 FRANCESC: Yeah, and I guess we owe a shout out to the podcast channel in the community. They're amazing. I think it's pretty cool to get so many questions of the week and cool-- we don't get that many cool things of the week from them. They should send them too. 
 
@@ -479,7 +479,7 @@ MARK: Yeah, we definitely get questions of the week from various people.
 
 FRANCESC: We get questions of the week, and like, they help us so much. 
 
-MARK: Yeah, absolutely. So like, just a huge fan. If you're not in the Slack channel, check it out. Everyone there is really lovely. And there's lots and lots of people there looking to help other people out with what they do and how they're building stuff on Google Cloud Platform. It's super cool. 
+MARK: Yeah, absolutely. So like, just a huge fan. If you're not in the Slack channel, check it out. Everyone there is really lovely. And there's lots and lots of people there looking to help other people out with what they do and how they're building stuff on Google Cloud. It's super cool. 
 
 FRANCESC: Yeah, and I think it's a nice way to finish the episode, thanking the whole community for being there and thanking all our audience. Like, I think that we got a crazy amount of audience over this year, to the point that we decided not to take a break in the summer. But we're definitely taking a break now, because we deserve it. 
 

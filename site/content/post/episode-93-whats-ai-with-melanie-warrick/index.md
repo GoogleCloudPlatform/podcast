@@ -71,7 +71,7 @@ and will be presenting at [Google Cloud Summit in Sydney](https://cloudplatformo
 Mark is speaking at [Gameacon](http://www.gameaconvegas.com/) and [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) once he's done with all that.
 He is also heading to Australia in October for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) as well.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 93 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 93 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
 
 MARK: I am good. I'm in Seattle, so we're doing the remote thing today. 
 
@@ -227,9 +227,9 @@ FRANCESC: No, OK.
 
 MELANIE: But yeah, it's definitely deep learning-- or it can be deep learning. And primarily, that is machine learning, as the bigger umbrella. 
 
-FRANCESC: Cool. So since you're a developer advocating-- your main topic is AI, machine learning, can you tell us a little bit about what kind of things can you do with AI or machine learning on Google Cloud Platform? Or what do people tend to do? What do you see the most often? 
+FRANCESC: Cool. So since you're a developer advocating-- your main topic is AI, machine learning, can you tell us a little bit about what kind of things can you do with AI or machine learning on Google Cloud? Or what do people tend to do? What do you see the most often? 
 
-MELANIE: So in terms of machine learning on Google Cloud Platform, Google Cloud Platform is-- I mean, it's basically servers. It's computers, at the end of the day. So you can do whatever you want that you currently can do on Google Cloud Platform. That's something that I think is really important to stress, that it's like any cloud platform you're going to use. You can use any tools you want. You just have to configure it. 
+MELANIE: So in terms of machine learning on Google Cloud, Google Cloud is-- I mean, it's basically servers. It's computers, at the end of the day. So you can do whatever you want that you currently can do on Google Cloud. That's something that I think is really important to stress, that it's like any cloud platform you're going to use. You can use any tools you want. You just have to configure it. 
 
 FRANCESC: So one of those tools might be, for instance, TensorFlow, for which we have a managed version, which is Cloud ML Engine? 
 
@@ -243,13 +243,13 @@ MELANIE: Correct.
 
 FRANCESC: Now the thing is that I have no idea what other things are out there other than TensorFlow, so I don't know. Is there some other very well known library, some competitor of TensorFlow that you've seen before and that people use it? 
 
-MELANIE: Right. So Keras gets referenced a lot because it's a great way to engage with TensorFlow or with other neural net platforms that exist out there. It's a nice sort of higher-level abstract to engage with that space. So Keras is great. You can definitely use that on Google Cloud Platform. You just have to configure the actual servers to be able to use it. 
+MELANIE: Right. So Keras gets referenced a lot because it's a great way to engage with TensorFlow or with other neural net platforms that exist out there. It's a nice sort of higher-level abstract to engage with that space. So Keras is great. You can definitely use that on Google Cloud. You just have to configure the actual servers to be able to use it. 
 
 There are other libraries that are constantly being referenced, like Pytorch and Caffe. And there's definitely a few others that are out there that I would recommend exploring because each one has its own value in terms of how it's being applied. 
 
 MARK: So I know with Cloud ML Engine, the TensorFlow set up can be-- the calculations can be distributed across multiple computers. If you were coming to GCP and were using something else, like Pytorch or whatever it is, something like that, do those come with tools that also will enable you to set up a multitude of computers so you can distribute that workload? Or how does that kind of thing work? 
 
-MELANIE: Right. And I know we were talking about this earlier. So I wrote a blog post about this recently because I wanted to make sure it was clear to people that TensorFlow is very valuable, and I recommend people exploring that. But if you are already using something and you want to be able to use Google Cloud Platform, I think it is important to understand that whatever you're using you can bring over. 
+MELANIE: Right. And I know we were talking about this earlier. So I wrote a blog post about this recently because I wanted to make sure it was clear to people that TensorFlow is very valuable, and I recommend people exploring that. But if you are already using something and you want to be able to use Google Cloud, I think it is important to understand that whatever you're using you can bring over. 
 
 So I wrote this post, in particular, to show you have to spend some time doing the configuration. If you already have, like, an install script or some type of Docker image that you use to configure your instances, then you can use that. You don't have to spend the time doing the configuration. You just kick off whatever you need using Kubernetes, using whatever it is that will help get those servers up and running for you. You just have to have some way of doing the configuration, and then you can bring your software. 
 

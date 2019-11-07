@@ -77,7 +77,7 @@ Mark is going to be in NYC right before [Games for Change](http://www.gamesforch
 * "Moretube.wav" by NoiseCollector of [Freesound.org](Freesound.org)
 * "Mystery Peak2.wav" by FoolBoyMedia of [Freesound.org](Freesound.org)
 
-{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 179 of the weekly Google Cloud Platform podcast. I am Jon Foust, and I'm here with my colleague and friend, Mark Mirchandani. Hi Mark, how's it going?" >}} 
+{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 179 of the weekly Google Cloud podcast. I am Jon Foust, and I'm here with my colleague and friend, Mark Mirchandani. Hi Mark, how's it going?" >}} 
 
 MARK: Hey Jon, I'm so glad that you called me your friend, as well as your colleague. You know what? You're my friend, too, Jon. 
 
@@ -227,7 +227,7 @@ So for example, you could imagine you have a web server that is receiving reques
 
 So as a developer, you're able to say, oh, I need to go in and optimize this function, I need to improve my code-- a variety of things, right? So it's basically a tool for developers that really lets them optimize their code. And what we've seen in practice is when big companies use it, not only are they able to improve the performance of their code, but that translates back into not just benefits for their users, but actually benefits for their Cloud spend. So again, the less time you're spinning CPU cycles, you might be able to save money on your compute cost or the amount of memory that you need for a particular VM instance. So it can be one of those cases where a little bit of time investment there can actually save you a large amount of money or a user satisfaction in terms of real world benefits. 
 
-MARK: Yeah, I think that for the Cloud on Air that you were mentioning, if people can go to the Google Cloud Platform YouTube channel, if you search Stackdriver there, you'll actually see a fair amount of content. We've got this series called Stack Doctor, where we talk about some of the best practices and getting started with Stackdriver, as well as a bunch of kind of like webinars with Cloud on Air, where we'll talk about different areas. I think there was one recent one on the Profiler, for instance, and kind of how those things work and kind of stepping into it. 
+MARK: Yeah, I think that for the Cloud on Air that you were mentioning, if people can go to the Google Cloud YouTube channel, if you search Stackdriver there, you'll actually see a fair amount of content. We've got this series called Stack Doctor, where we talk about some of the best practices and getting started with Stackdriver, as well as a bunch of kind of like webinars with Cloud on Air, where we'll talk about different areas. I think there was one recent one on the Profiler, for instance, and kind of how those things work and kind of stepping into it. 
 
 I think there's a lot of resources out there for hopefully people to learn more about Stackdriver, because a lot of cases, it's not just going to be a plug and play, right? You're going to have to do a fair amount of work integrating it. But the more you integrate it and kind of the more you lean into it, like you just said, the more rewards you'll see. 
 
@@ -313,7 +313,7 @@ MARK: Yeah, it's really cool to see all of the smaller indie game studios or eve
 
 I think that games are just a different kind of medium for people to actually approach the education world with. Yeah, so I think it's like the 15th or 16th summit they've had. So I'm sure there's a lot of cool things that have changed over the past decade. So it's really great to see a lot of people kind of come into the same place and talk about all the things that they're working on and all the ways to enable people. 
 
-JON: And I'm glad that I am currently working in games and also trying to make a conscious effort to help developers and users all over the world. Well, that'll wrap things up for us on this episode of the Google Cloud Platform podcast. Thank you for listening, and we'll all see you next week. Thanks, Mark. 
+JON: And I'm glad that I am currently working in games and also trying to make a conscious effort to help developers and users all over the world. Well, that'll wrap things up for us on this episode of the Google Cloud podcast. Thank you for listening, and we'll all see you next week. Thanks, Mark. 
 
 MARK: Thanks, Jon. We'll see you next time. 
 

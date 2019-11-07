@@ -39,9 +39,9 @@ or contact him via [varuntalwar@google.com](mailto:varuntalwar@google.com).
 
 ##### Cool thing of the week
 
-Spotify is now on Google Cloud Platform:
+Spotify is now on Google Cloud:
 
-- Spotify chooses Google Cloud Platform to power data infrastructure [blog](http://googlecloudplatform.blogspot.com/2016/02/Spotify-chooses-Google-Cloud-Platform-to-power-data-infrastructure.html)
+- Spotify chooses Google Cloud to power data infrastructure [blog](http://googlecloudplatform.blogspot.com/2016/02/Spotify-chooses-Google-Cloud-Platform-to-power-data-infrastructure.html)
 - Announcing Spotify Infrastructure’s Googley Future [blog](https://news.spotify.com/us/2016/02/23/announcing-spotify-infrastructures-googley-future/)
 - Google’s BigQuery is *da bomb* - I can start with 2.2Billion ‘things’ and compute/summarize down to 20K in < 1 min. [tweet](https://twitter.com/plamere/status/702168809445134336)
 
@@ -67,7 +67,7 @@ Special guests [Sara Robinson](https://twitter.com/SRobTweets) and [David East](
 - Firebase `authData` for iOS [docs](https://www.firebase.com/docs/ios/api/#firebase_authData)
 - Firebase UI for [Android](https://github.com/firebase/FirebaseUI-Android) and [iOS](https://github.com/firebase/FirebaseUI-iOS)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 15 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my very, very distinguished colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 15 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my very, very distinguished colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good, Francesc. How are you doing today?
 FRANCESC: Very happy, very happy about--actually, a very nice weekend that we spent at Launch Hackathon.
 MARK: Yes, we did.
@@ -92,16 +92,16 @@ MARK: Yeah, something, yeah.
 FRANCESC: Yeah, there a Swedish band? I don't know. Nah, they're really cool. I've actually been using Spotify for a very long time, even before they even considered start working with Google, and so I'm very excited that they're finally part of our customers.
 MARK: Yeah.
 FRANCESC: So they actually wrote a blog post.
-MARK: Yeah, about how they moved their--basically, their entire infrastructure over to Google Cloud Platform so they could work--what is it, 75 million users? Like--
+MARK: Yeah, about how they moved their--basically, their entire infrastructure over to Google Cloud so they could work--what is it, 75 million users? Like--
 FRANCESC: It is pretty amazing.
 MARK: That's pretty cool.
-FRANCESC: Yeah, and it's not only the fact that they moved to Google Cloud Platform, it's pretty cool, but for me the coolest part is that not only it's--like, they did a little bit of shift and lift, like, whatever infrastructure they were already using, they moved it to the cloud, but also they started using a bunch of other Google Cloud Platform managed services.
+FRANCESC: Yeah, and it's not only the fact that they moved to Google Cloud, it's pretty cool, but for me the coolest part is that not only it's--like, they did a little bit of shift and lift, like, whatever infrastructure they were already using, they moved it to the cloud, but also they started using a bunch of other Google Cloud managed services.
 MARK: Yeah.
 FRANCESC: Which is pretty awesome, and I have the list here.
 MARK: Yeah, the ones I quite like, like, on the big data side especially. We've talked, you know, about--with Felipe about BigQuery and stuff like that, but they were using, like, Hadoop, MapReduce, Hive, bunch of homegrown stuff, and they basically came across and started using all our stuff, so Google Pub/Sub, Cloud DataFlow, BigQuery, Cloud Dataproc, so they found, like, well, I can only assume better solutions within what we had for them and we'll manage from trying to manage their own stuff on their own end.
 FRANCESC: Yeah, and apparently they were so happy that some engineer started tweeting about it, and there's--I have this tweet from--I'm gonna call him Paul Lamere 'cause I think he's French, and if he's not French, hey, Paul, this is an invitation for you to come to the podcast.
 MARK: Yeah, yeah, tell us literally how your name is pronounced. We'd love to hear it.
-FRANCESC: Yeah, and you can also tell us about your history, how did it go using Google Cloud Platform and so on, but there's actually one specific tweet where he tweeted, "Google's BigQuery is da bomb. I can start with 2.2 billion things and compute summarize down to 20k in less than one minute."
+FRANCESC: Yeah, and you can also tell us about your history, how did it go using Google Cloud and so on, but there's actually one specific tweet where he tweeted, "Google's BigQuery is da bomb. I can start with 2.2 billion things and compute summarize down to 20k in less than one minute."
 MARK: Which is pretty impressive.
 FRANCESC: It is indeed pretty impressive, so yeah, we could love to have him, so if by any chance you are listening to it or if any of our listeners knows personally Paul Lamere or--
 MARK: How many degrees of separation can we get from Paul Lamere?
@@ -290,11 +290,11 @@ FRANCESC: That will be yesterday [inaudible], so--and I’m very happy to see hi
 MARK: It's gonna be a really great event.
 FRANCESC: Cool, so before we finish with this episode, we're gonna go through the question of the week, and as we mentioned at the beginning, today it's gonna be about how to use Firebase on mobile applications.
 MARK: Yup.
-FRANCESC: And this act--this question actually comes from one of the participants of the Launch Hackathon this last weekend in San Francisco, and he basically came to our table because he was considering using Google Cloud Platform. He was not very sure. He came with a bunch of questions, and one of the questions was, "Okay, how do I handle authentication? I want my users to use password--email and password," and I was like, "Oh, you should not do that." Like, the best way to manage passwords is not managing them, so Firebase, it provides authentication with a bunch of different methods like Twitter and Facebook and stuff like that, but it also provides a very nice way of doing email and password, so he used that, and then after that, of course, he put everything on Firebase 'cause he was very happy with it, super easy, so yay, and his question was, like, "Okay, so now I have a bunch of views, and every single view needs to access that data on Firebase. What should I do? Should I create one reference and pass it around, or should I create a bunch of references 'cause whatever, like, you can--it's easy to do."
+FRANCESC: And this act--this question actually comes from one of the participants of the Launch Hackathon this last weekend in San Francisco, and he basically came to our table because he was considering using Google Cloud. He was not very sure. He came with a bunch of questions, and one of the questions was, "Okay, how do I handle authentication? I want my users to use password--email and password," and I was like, "Oh, you should not do that." Like, the best way to manage passwords is not managing them, so Firebase, it provides authentication with a bunch of different methods like Twitter and Facebook and stuff like that, but it also provides a very nice way of doing email and password, so he used that, and then after that, of course, he put everything on Firebase 'cause he was very happy with it, super easy, so yay, and his question was, like, "Okay, so now I have a bunch of views, and every single view needs to access that data on Firebase. What should I do? Should I create one reference and pass it around, or should I create a bunch of references 'cause whatever, like, you can--it's easy to do."
 MARK: It's just easy.
 FRANCESC: "Why not go in and do it?" And my answer to him was, "No idea," so to answer that question we decided to just walk around the building, and we found two awesome people that decided to help us and just come upstairs and talk to us, so we're very happy to have Sara Robinson back. Hey, Sara.
 SARA: It's good to be back.
-FRANCESC: So, Sara, who is a developer advocate for Google Cloud Platform in our team, and also David East. Hey, David.
+FRANCESC: So, Sara, who is a developer advocate for Google Cloud in our team, and also David East. Hey, David.
 DAVID: Thanks for having me.
 FRANCESC: Yeah, thank you for coming the whole four floors from the third floor to the seventh floor of the office.
 DAVID: I actually went up three flights of stairs--actually went four flights of stairs, and then the door was locked, so I had to go down one flight of stairs and then walk across the building to the elevator and then walk back across again, so.
@@ -322,7 +322,7 @@ FRANCESC: So on the show notes.
 MARK: Excellent. Well, thank you very much for coming and helping us answer these questions today.
 FRANCESC: Yup.
 DAVID: No problem. Thanks for having us.
-FRANCESC: Okay, so before we finish this episode, I wanted to talk about the alternative cool thing of the week. We talked about Spotify, which is a really cool thing. I'm very excited about it, but there's also a more personal, maybe, cool thing of the week, which is actually that our podcast was launched publicly on the Google Cloud Platform blog.
+FRANCESC: Okay, so before we finish this episode, I wanted to talk about the alternative cool thing of the week. We talked about Spotify, which is a really cool thing. I'm very excited about it, but there's also a more personal, maybe, cool thing of the week, which is actually that our podcast was launched publicly on the Google Cloud blog.
 MARK: Yes.
 FRANCESC: And we've got, actually, a lot of new listeners.
 MARK: Yes, so if you're new to the podcast, welcome.
@@ -362,7 +362,7 @@ FRANCESC: Gcppodcast.
 MARK: Reddit?
 FRANCESC: It's the subreddit r/gcppodcast.
 MARK: Yeah. Google+?
-FRANCESC: +gcppodcast or you can also search Google Cloud Platform podcast.
+FRANCESC: +gcppodcast or you can also search Google Cloud podcast.
 MARK: Definitely, and on the web?
 FRANCESC: On the web, gcppodcast.com.
 MARK: Pretty easy.

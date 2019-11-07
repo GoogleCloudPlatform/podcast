@@ -52,10 +52,10 @@ efforts around Windows and .NET.
 
 ##### Interview
 
-- Windows on Google Cloud Platform [docs](https://cloud.google.com/windows/)
+- Windows on Google Cloud [docs](https://cloud.google.com/windows/)
 - Windows on Google Compute Engine [docs](https://cloud.google.com/compute/docs/instances/windows/)
 - .NET on Google Cloud Platfom [docs](https://cloud.google.com/dotnet/)
-- SQL Server on Google Cloud Platform [docs](https://cloud.google.com/sql-server)
+- SQL Server on Google Cloud [docs](https://cloud.google.com/sql-server)
 - Windows RDP: Remoted Desktop Protocol [wikipedia](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
 - Running .NET applications on Linux with Mono [blog](https://www.linux.com/news/running-net-applications-linux-mono)
 - .NET core runtime [docs](https://www.microsoft.com/net/core#macos)
@@ -66,7 +66,7 @@ efforts around Windows and .NET.
 
 <div style="text-align: center">
   <img src="/images/post/windows.png" style="margin: auto; width: 25%">
-  <p><small>Google Cloud Platform is a first class Windows cloud</small></p>
+  <p><small>Google Cloud is a first class Windows cloud</small></p>
 </div>
 
 ##### Question of the week
@@ -85,7 +85,7 @@ next month for [GopherCon Brasil](https://2016.gopherconbr.org/en/) and
 in Atlantic City on October 28th. He will then attend [Unite](https://unite.unity.com/2016/los-angeles),
 the Unity conference in Los Angeles, CA on November 1st.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 49 of the weekly Google Cloud Platform podcast. I'm Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 49 of the weekly Google Cloud podcast. I'm Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good, thanks, Francesc. How are you doing? 
 
 FRANCESC: Pretty hungry. 
@@ -190,7 +190,7 @@ AMRUTA: Thanks for having us.
 
 CHRIS: And good job pronouncing my name, by the way. You did it flawlessly. No problem. 
 
-FRANCESC: Chris Sells. Sage? It Catalan, you could pronounce it "Salge," in case you were wondering. Anyway, so we're going to be talking about Windows and Windows on Google Cloud Platform, et cetera. But before we do that, why don't you tell us a little bit about yourself? So we had Chris before, so we're going to start with Amruta instead. 
+FRANCESC: Chris Sells. Sage? It Catalan, you could pronounce it "Salge," in case you were wondering. Anyway, so we're going to be talking about Windows and Windows on Google Cloud, et cetera. But before we do that, why don't you tell us a little bit about yourself? So we had Chris before, so we're going to start with Amruta instead. 
 
 AMRUTA: OK. Hi, everyone. Pleased to be here. So I joined Google from Microsoft, where I worked on different office products at Microsoft and very recently launched a new service for Office 365 right before coming to Google. I've been at Google. I have worked on the customer success team the first year. And now, I am the PM for making Windows awesome on Google Cloud Compute. 
 
@@ -256,7 +256,7 @@ FRANCESC: So after what you said, I have like 100 questions. The first one being
 
 MARK: Windows 10. 
 
-FRANCESC: What are the version supported on Google Cloud Platform? 
+FRANCESC: What are the version supported on Google Cloud? 
 
 AMRUTA: So we support the Server OSes. And so we have Windows Server 2008 and 2012 R2 and, as of last week, Windows Server 2016 Data Center Edition. So we launched five days after they GAed the bits. We're very happy to do that. We've been in very close partnership. So we have the latest and greatest Windows Server versions on Google Cloud. 
 
@@ -290,7 +290,7 @@ Unfortunately right now, Unity is .NET 2.x. And they're moving to .NET 4.x with 
 
 MARK: Not many people do, and it's fair. That's why I asked the question. 
 
-CHRIS: But when Unity comes along with a more modern version of .NET, then we're going to see what we can do about supporting it. Because we want Unity games to be able to use the Google Cloud Platform, as well. 
+CHRIS: But when Unity comes along with a more modern version of .NET, then we're going to see what we can do about supporting it. Because we want Unity games to be able to use the Google Cloud, as well. 
 
 MARK: That makes me happy. 
 
@@ -318,7 +318,7 @@ But the nice thing is that Microsoft has worked hard with Docker to make sure th
 
 FRANCESC: Nice. Awesome. 
 
-MARK: Thank you. I think that's great. So I think it's time that-- this is the Google Cloud Platform podcast where we ask the hard questions. And we're going to talk a little bit about the elephant in the room. More often than not, when people think of running Windows in the cloud, they think of Microsoft Azure. Why should people come to us instead? Like, is there philosophical differences? Or other differences that they should be aware of when making a decision on where they should be running in the cloud? 
+MARK: Thank you. I think that's great. So I think it's time that-- this is the Google Cloud podcast where we ask the hard questions. And we're going to talk a little bit about the elephant in the room. More often than not, when people think of running Windows in the cloud, they think of Microsoft Azure. Why should people come to us instead? Like, is there philosophical differences? Or other differences that they should be aware of when making a decision on where they should be running in the cloud? 
 
 CHRIS: Well certainly, from the Windows world and from the Microsoft world even more, I have some-- both Amruta and I have some kind of understanding of the way that the Windows community thinks about these things, and the kind of open source community thinks about these things. 
 
@@ -352,7 +352,7 @@ And there are now tens of thousands of these commandlets for various pieces of s
 
 And PowerShell is really a language for manipulating objects. And what it means is that unlike in the Unix world, you don't have to do regular expression matching to be able to pull out various bits and pieces of the data as it goes by. You can just look at object properties. And you can call object methods in a way that is very easy for developers to understand. And IT administrator have really fallen in love with this. 
 
-And so when I say that Google Cloud Platform has an initial set of commandlets for a number of our most popular resources, everyone that does PowerShell and wants to use it with GCP is immediately interested and excited and understands the benefits and power of that. So that's the base. 
+And so when I say that Google Cloud has an initial set of commandlets for a number of our most popular resources, everyone that does PowerShell and wants to use it with GCP is immediately interested and excited and understands the benefits and power of that. So that's the base. 
 
 Now, what does it mean when we talk about PowerShell and open source? Well, Microsoft has been busy pushing a lot of their tools and technologies into the open source world. C# is open source, and its build. Visual Studio code, .NET itself has been made open source. And one of the things that they've recently made open source is PowerShell. 
 

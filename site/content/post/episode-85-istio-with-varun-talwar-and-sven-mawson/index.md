@@ -35,7 +35,7 @@ Software Engineer in Google Cloud; founder of [@IstioMesh](https://twitter.com/I
 
 ##### Cool things of the week
 
-- gSlack: Integrating Google Cloud Platform with Slack [blog](https://blog.doit-intl.com/gslack-9391be7c191a)
+- gSlack: Integrating Google Cloud with Slack [blog](https://blog.doit-intl.com/gslack-9391be7c191a)
 - Solution guide: Building connected vehicle apps with Cloud IoT Core [blog](https://cloudplatform.googleblog.com/2017/06/solution-guide-building-connected-vehicle-apps-with-Cloud-IoT-Core.html) [solution](https://cloud.google.com/solutions/designing-connected-vehicle-platform)
 - Why did the Gopher spend so much at the drug store? [punchline](https://twitter.com/Neurotic/status/884462047852863488)
 - Super Mario Run Case Study [youtube](https://www.youtube.com/watch?v=-29lW2EWock)
@@ -70,7 +70,7 @@ Mark will be speaking at [Google Cloud Summit, New York](https://cloudplatformon
 as well as TA'ing the [Kubernetes Bootcamp](https://cloudplatformonline.com/summit-NewYork-2017-Bootcamp.html). He also
 released the [second blog post](http://www.compoundtheory.com/scaling-dedicated-game-servers-with-kubernetes-part-2-managing-cpu-and-memory/) in his series about running Game Servers on Kubernetes.  
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 85 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 85 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm very, very, very well. How are you doing? 
 
@@ -96,17 +96,17 @@ MARK: Yeah, so the first one coming up is a gentleman by the name of-- or I assu
 
 FRANCESC: According to his picture, he has a beard, so yeah. I'm pretty sure it's a guy, yeah. It's the G slack thing. 
 
-MARK: Yeah, so he wrote a blog post stepping through a thing called G Slack, integrating Google Cloud Platform with Slack. Which was basically set up so that there was a bot that will tell you when things happen inside your Google Cloud Platform project. So if you want nice visibility across your project inside Slack, he shows how that you can set up essentially Stack driver logging, going to Pub/Sub, then going to some Cloud functions to filter which notifications you want to receive, and then finally pushing that into a Slack channel. 
+MARK: Yeah, so he wrote a blog post stepping through a thing called G Slack, integrating Google Cloud with Slack. Which was basically set up so that there was a bot that will tell you when things happen inside your Google Cloud project. So if you want nice visibility across your project inside Slack, he shows how that you can set up essentially Stack driver logging, going to Pub/Sub, then going to some Cloud functions to filter which notifications you want to receive, and then finally pushing that into a Slack channel. 
 
 FRANCESC: Nice. 
 
-MARK: It's a really nice little article. And I think if I had a team that was doing a bunch of stuff on a Google Cloud Platform project, I think this would be a really nice way of giving them just visibility of what's happening. 
+MARK: It's a really nice little article. And I think if I had a team that was doing a bunch of stuff on a Google Cloud project, I think this would be a really nice way of giving them just visibility of what's happening. 
 
-FRANCESC: Lots of people use Slack. I've seen many integrations where you do things through Slack. So you deploy Kubernetes cluster with Slack or whatever. But I like this one because it's actually the other way around. It's basically Google Cloud Platform letting you know that something's weird with your Slack project, or whatever, or that everything is fine. 
+FRANCESC: Lots of people use Slack. I've seen many integrations where you do things through Slack. So you deploy Kubernetes cluster with Slack or whatever. But I like this one because it's actually the other way around. It's basically Google Cloud letting you know that something's weird with your Slack project, or whatever, or that everything is fine. 
 
 MARK: Everything is fine, or just somebody did a thing. Hey, somebody deployed the Kubernetes, or somebody push data to datastore, whatever it is you want to know about. 
 
-FRANCESC: I like it. Very, very cool. Next we have also a blog post explaining how to-- so it's a solution on the Google Cloud Platform blog, not podcast. And it explains how they build connected vehicle apps with Cloud IoT Core. I didn't know what Cloud IoT Core was. And actually, we just sent an invite to someone by the name of Gabe. Hey, Gabe. 
+FRANCESC: I like it. Very, very cool. Next we have also a blog post explaining how to-- so it's a solution on the Google Cloud blog, not podcast. And it explains how they build connected vehicle apps with Cloud IoT Core. I didn't know what Cloud IoT Core was. And actually, we just sent an invite to someone by the name of Gabe. Hey, Gabe. 
 
 MARK: Hey, Gabe. 
 
@@ -130,9 +130,9 @@ MARK: I had to share it, because it was fantastic.
 
 FRANCESC: It is really good. I saw it this morning when I got to the office, and I was like, OK, I'll take it, I'll take it. Very good. I think maybe if Bill keeps on cracking at these good jokes, maybe we should start using them as part of a section, the joke of the week. 
 
-MARK: Yeah, I like it. I like it. Finally, though, we have a very short video. If anyone is familiar with Mario, and I'm sure many of you are, there's a mobile application that came out a little while ago called "Super Mario Run." It was quite popular. It was actually running on Google Cloud Platform, and there was a show video that was made about how it was put together, and the team that made it at Nintendo and DNA, products they use at GCP. It's a very short, it's like two minutes worth of video. But it's subtitled, so if you don't know Japanese it's certainly fine. But it's a super cute video where you can see Mario run around. 
+MARK: Yeah, I like it. I like it. Finally, though, we have a very short video. If anyone is familiar with Mario, and I'm sure many of you are, there's a mobile application that came out a little while ago called "Super Mario Run." It was quite popular. It was actually running on Google Cloud, and there was a show video that was made about how it was put together, and the team that made it at Nintendo and DNA, products they use at GCP. It's a very short, it's like two minutes worth of video. But it's subtitled, so if you don't know Japanese it's certainly fine. But it's a super cute video where you can see Mario run around. 
 
-FRANCESC: And not only that, but you also get to see the engineers actually using Google Cloud Platform, and you can see they're managing all the monitoring with Stackdriver, they're using BigQuery to run queries to see how the analytics are doing extract deeper information. Is really cool. And then there's Mario jumping around, so you can't go wrong with Mario. 
+FRANCESC: And not only that, but you also get to see the engineers actually using Google Cloud, and you can see they're managing all the monitoring with Stackdriver, they're using BigQuery to run queries to see how the analytics are doing extract deeper information. Is really cool. And then there's Mario jumping around, so you can't go wrong with Mario. 
 
 MARK: Exactly. Awesome, well, why don't we go have a chat with Varun and Sven, and talk to them about Istio? 
 
@@ -190,7 +190,7 @@ FRANCESC: What does it mean, level 5, for you? What does it actually mean for yo
 
 VARUN: Yeah. Classic OSI stack is what I'm referring to. L3 is TCP, L4 as HTTP. gRPC also in a similar bucket. So yeah, I am saying, I guess, things above the HTTP layer. Again, L5 is sort of just a description to say it's above the network and below the application. I don't think it's a formal concept in the OSI stack. 
 
-FRANCESC: So then from the point of view of a developer, you basically is like, until so far, let's say that you have two services. And that they're running like on Google Cloud Platform or Compute Engine or something. You have two services, and you want to do an HTTP request. One of the services is exposing a REST API. So what you normally do is you just send an HTTP request. 
+FRANCESC: So then from the point of view of a developer, you basically is like, until so far, let's say that you have two services. And that they're running like on Google Cloud or Compute Engine or something. You have two services, and you want to do an HTTP request. One of the services is exposing a REST API. So what you normally do is you just send an HTTP request. 
 
 So HTTP will be the transport, network would be TCP. Whatever goes below, we don't care. 
 
@@ -386,7 +386,7 @@ MARK: Yeah. But also like if you're like, I don't even know how much memory my p
 
 FRANCESC: Yeah, true. 
 
-MARK: Which is useful. Awesome. Well, Fransesc, thank you once again for joining me for a wonderful episode of "The Google Cloud Platform Podcast." 
+MARK: Which is useful. Awesome. Well, Fransesc, thank you once again for joining me for a wonderful episode of "The Google Cloud Podcast." 
 
 FRANCESC: Thank you, Mark, and thank you all for listening. 
 

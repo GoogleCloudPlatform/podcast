@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.95.mp3"
 audioSize = 47709448
 categories = ["Customer", "Go", "GKE"]
 date = "2017-09-20T01:07:49Z"
-description = "Sourcegraph provides navigation tools for source code, and it's powered by Go and Google Cloud Platform. Quinn Slack, CEO and co-founder, joins us to discuss how they built their features on top of our infrastructure."
+description = "Sourcegraph provides navigation tools for source code, and it's powered by Go and Google Cloud. Quinn Slack, CEO and co-founder, joins us to discuss how they built their features on top of our infrastructure."
 draft = false
 episodeNumber = 95
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/71d3g9/episode_95_sou
 +++
 
 [Sourcegraph](https://sourcegraph.com) provides navigation tools for source code,
-and it's powered by Go and Google Cloud Platform.
+and it's powered by Go and Google Cloud.
 [Quinn Slack](https://twitter.com/sqs), CEO and co-founder, joins your co-hosts
 [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
 to discuss how they built their features on top of our infrastructure.
@@ -72,7 +72,7 @@ In October, he'll be presenting at [Velocity London](https://conferences.oreilly
 Mark is attending [Strangeloop](https://www.thestrangeloop.com/) in September.
 He is also heading to Australia in October for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 95 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy. And I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 95 of the weekly Google Cloud Podcast. I am Francesc Campoy. And I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm so much more awake than you are. 
 
@@ -106,7 +106,7 @@ MARK: That is a terrible joke.
 
 FRANCESC: I know. But it's totally on topic. Anyway, we have a second Cool Thing of the Week that comes from our friends at Spotify. 
 
-MARK: Yeah, so Spotify has been working directly with GCP Security Team, releasing a product called Forseti. Forseti is really cool. It's an open source tool that enables you to basically do several things over your Google Cloud Platform project. Basically, if you think about it in terms of you're like, I'm going to deploy a bunch of stuff on the Google Cloud Platform, but I want to ensure that I have visibility into exactly what's happening, but then also be able to scan and enforce certain security rules about what I want to have happen. 
+MARK: Yeah, so Spotify has been working directly with GCP Security Team, releasing a product called Forseti. Forseti is really cool. It's an open source tool that enables you to basically do several things over your Google Cloud project. Basically, if you think about it in terms of you're like, I'm going to deploy a bunch of stuff on the Google Cloud, but I want to ensure that I have visibility into exactly what's happening, but then also be able to scan and enforce certain security rules about what I want to have happen. 
 
 So if say, for example, I want to have certain firewall rules across maybe my GCE instances or other things like that, this gives me a way to basically be like, OK, let's look at what's available inside our system. Let's see if it has the rules that are applied to it. And if they're not applied to it, let's make sure that those things are there and make sure that that happens, which is security good and stuff. 
 
@@ -116,7 +116,7 @@ MARK: Yeah, and even if you're automating it with Ansible, or Chef, or Puppet, m
 
 FRANCESC: Instead of only just warning, but you can actually say, OK, just drop that, add a rule, close that port. So perfect, it's very, very nice and completely open source. And I wonder if it's written in Go. It's probably written in Go. 
 
-MARK: Yeah, while you're looking that up, I will talk about the last one. There is a "Medium" article by-- I'm going to read the name off the post here-- Christopher Grant, or possibly Grant, depending on which country he comes from, talking about building global Kubernetes in three steps on Google Cloud Platform. I particularly like this. Because I was literally reading this morning about how to set up federated clusters in Kubernetes. 
+MARK: Yeah, while you're looking that up, I will talk about the last one. There is a "Medium" article by-- I'm going to read the name off the post here-- Christopher Grant, or possibly Grant, depending on which country he comes from, talking about building global Kubernetes in three steps on Google Cloud. I particularly like this. Because I was literally reading this morning about how to set up federated clusters in Kubernetes. 
 
 And I was pulling my hair out trying to work out, what's just the simple steps for how to do this. He's written a "Medium" post that shows you how to use kubefed, basically just step, by step, by step. This is how you set up each of the clusters. This is how you create aliases for them, join them up, and then deploy your application across the several clusters that span the globe, which was just super nice to use. 
 
@@ -384,7 +384,7 @@ FRANCESC: More Cloud Summits.
 
 MARK: Oh, fun. 
 
-FRANCESC: Yep, so just getting back from Cloud Summit in Sydney. Last week also, we had Cloud Summit in Seattle. This week, there's Cloud Summit in Kuala Lumpur and Singapore. And I will not be there. Instead, I'll be here in San Francisco. But next week, there's Cloud Summit in Chicago, Wednesday, 27th. So if you're around, let me know. I'd love to meet more people using Google Cloud Platform, especially Gophers. And after that, in October, I'll be out to London to speak at Velocity. What about you? 
+FRANCESC: Yep, so just getting back from Cloud Summit in Sydney. Last week also, we had Cloud Summit in Seattle. This week, there's Cloud Summit in Kuala Lumpur and Singapore. And I will not be there. Instead, I'll be here in San Francisco. But next week, there's Cloud Summit in Chicago, Wednesday, 27th. So if you're around, let me know. I'd love to meet more people using Google Cloud, especially Gophers. And after that, in October, I'll be out to London to speak at Velocity. What about you? 
 
 MARK: Nice, cool. So when this comes out, that will be the day before Austin Game Conference, where I will be speaking at two different panels, doing one on Kubernetes and game servers, and then also doing a panel with a variety of cloud providers, talk about games in the cloud. Then I'll be attending Strange Loop, just hanging out there, having some nice recovery time at a very interesting conference. 
 

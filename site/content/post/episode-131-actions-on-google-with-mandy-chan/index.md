@@ -69,7 +69,7 @@ and also speaking at the [Online Kubernetes Community Meeting](https://docs.goog
 
 Melanie is speaking at a joint [WiMLDS](http://wimlds.org) and [PyLadies](http://www.pyladies.com) event ["Paths to Data Science"](https://www.meetup.com/Bay-Area-Women-in-Machine-Learning-and-Data-Science/events/250456485/) on June 26th and Stanford AI4ALL on June 28th.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 131 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my colleague as always, Melanie Warrick. How are you doing, Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 131 of the weekly Google Cloud podcast. I'm Mark Mandel, and I'm here with my colleague as always, Melanie Warrick. How are you doing, Melanie?" >}}
 
 MELANIE: I'm doing good, Mark. How are you? 
 
@@ -231,7 +231,7 @@ MANDY: Yes. I still want to see more Actions that focus on this area. Google foc
 
 MARK: That's amazing. So if, from a developer perspective, if somebody is like, oh, this sounds really cool and I want to build an Action, what tools, what stuff have we got available for them to do that? 
 
-MANDY: So we have Action on Google Cloud Platform. That's the place that you should go first. And also, as I mentioned earlier, our team recently just published two Codelabs, level 1 and level 2. It's absolutely beginner level. You can quickly start building Action on Google from scratch. 
+MANDY: So we have Action on Google Cloud. That's the place that you should go first. And also, as I mentioned earlier, our team recently just published two Codelabs, level 1 and level 2. It's absolutely beginner level. You can quickly start building Action on Google from scratch. 
 
 And Dialogue Flow is another platform that help people who might not even know how to code, that you can build Action quickly. So let me explain how Dialogue Flow and Action on Google work together. 
 

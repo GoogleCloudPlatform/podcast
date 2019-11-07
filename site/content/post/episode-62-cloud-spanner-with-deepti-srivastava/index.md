@@ -75,7 +75,7 @@ Francesc will be at [Gophercon India](http://www.gophercon.in),
 at [Cloud NEXT](https://cloudnext.withgoogle.com/schedule#target=google-cloud-endpoints-serving-your-api-to-the-world-8eaeb271-f0ea-4638-af94-16c0b2b80bf6),
 and then [Gopher China](http://gopherchina.org/).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 62 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 62 of the weekly Google Cloud Podcast. I am Francesc Campoy and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm good, thanks, Francesc. How are you doing today? 
 
@@ -91,7 +91,7 @@ FRANCESC: In a minute, we will be joined by Deepti Shrivastava. She's the projec
 
 MARK: Ooh. 
 
-FRANCESC: I know. Which is related to how to run mail servers on the Cloud-- specifically on Google Cloud Platform, obviously. 
+FRANCESC: I know. Which is related to how to run mail servers on the Cloud-- specifically on Google Cloud, obviously. 
 
 MARK: Obviously. 
 
@@ -117,7 +117,7 @@ MARK: Awesome. For the other Cool Thing of the Week-- I thought it was a particu
 
 FRANCESC: Nice. 
 
-MARK: So in partnership with YouTube, Google Research, and Kaggle, Google Cloud Platform basically has set up this thing where you have a public dataset with, I believe, it's about 8 million video tags. 
+MARK: So in partnership with YouTube, Google Research, and Kaggle, Google Cloud basically has set up this thing where you have a public dataset with, I believe, it's about 8 million video tags. 
 
 FRANCESC: So close. 7 million video URLs, which is around 450,000 hours of video and 3.2 billion, with a b, audiovisual features. That's a big number. 
 
@@ -145,7 +145,7 @@ MARK: Yeah.
 
 FRANCESC: So if you have any cool software that you think could do it better than everything else, go. Go for it. 
 
-MARK: Yeah. And it's worth noting, too, right-- so specifically we'll link to the page-- but you can sign up for basically a Google Cloud Platform trial account, if you want to try it out. And there is a process there if you end up using more than the $300 that you get with free trial, and you're working on this, and you want more credits, there is a form there that you can apply for as well to get some extra credits so you can keep working on what you're working on. 
+MARK: Yeah. And it's worth noting, too, right-- so specifically we'll link to the page-- but you can sign up for basically a Google Cloud trial account, if you want to try it out. And there is a process there if you end up using more than the $300 that you get with free trial, and you're working on this, and you want more credits, there is a form there that you can apply for as well to get some extra credits so you can keep working on what you're working on. 
 
 FRANCESC: Cool. So I guess it's time to go chat with Deepti about Cloud Spanner. 
 
@@ -189,7 +189,7 @@ DEEPTI: Correct.
 
 FRANCESC: Nice. So you mentioned that you were responsible for the internal launch of Spanner and also for Cloud Spanner, which is the external service. Could you talk a little bit about the differences between those two? A little bit of the history of how these happened? 
 
-DEEPTI: Sure. So let me tackle the first thing first. So Cloud Spanner is basically the internal Spanner service that we've been running for multiple years, which has been developed for even more years, and its just a repackaging of that service as a Google Cloud Platform service. So we basically integrated with the Cloud Platform-- things such as billing and providing the APIs through the various rest and GRPC methodologies et cetera, right? 
+DEEPTI: Sure. So let me tackle the first thing first. So Cloud Spanner is basically the internal Spanner service that we've been running for multiple years, which has been developed for even more years, and its just a repackaging of that service as a Google Cloud service. So we basically integrated with the Cloud Platform-- things such as billing and providing the APIs through the various rest and GRPC methodologies et cetera, right? 
 
 So it's the same service. The underlying infrastructure is exactly the same. And it's run by the same SRE team-- or managed by the same SRE team that manages the internal service as well. There is really no difference except for the way you access the service. 
 
@@ -581,7 +581,7 @@ FRANCESC: Absolutely
 
 MARK: Absolutely. Cool. So why don't we go to the Question of the Week, sent to us by the amazing Jessie Frazell. 
 
-FRANCESC: Yeah, so as part of her, basically let's call it integration into Google, she decided to basically move all her stuff to Google Cloud Platform. And she came up with this little problem. She wanted to run an SMTP server-- so a mail server-- on Google Cloud Platform, and it turns out that it doesn't work. So she asked me, how is this? And why not? And I mean, it is in the docs, but I think that it is something that could be a little bit surprising, so I guess it's worth discussing. 
+FRANCESC: Yeah, so as part of her, basically let's call it integration into Google, she decided to basically move all her stuff to Google Cloud. And she came up with this little problem. She wanted to run an SMTP server-- so a mail server-- on Google Cloud, and it turns out that it doesn't work. So she asked me, how is this? And why not? And I mean, it is in the docs, but I think that it is something that could be a little bit surprising, so I guess it's worth discussing. 
 
 MARK: Yeah, so it is definitely worth noting. Google Compute Engine specifically doesn't allow outbound connections on 25, 465, and 487, basically because spam and abuse and bad things. 
 

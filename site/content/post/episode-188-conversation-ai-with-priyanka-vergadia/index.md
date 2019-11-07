@@ -59,7 +59,7 @@ Mark will be in Austin and the Bay Area working on new training content!
 * "Small Group Laugh Set.wav" by Tim Kahn of [Freesound.org](https://freesound.org)
 * "Whip Crack 01.wav" by CGEffex of [Freesound.org](https://freesound.org)
 
-{{< transcript "MARK: Hi, and welcome to episode number 188 of the weekly Google Cloud Platform podcast. I'm Mark Mirchandani, and I'm here with my colleague Brian Dorsey. Hey, Brian." >}} 
+{{< transcript "MARK: Hi, and welcome to episode number 188 of the weekly Google Cloud podcast. I'm Mark Mirchandani, and I'm here with my colleague Brian Dorsey. Hey, Brian." >}} 
 
 BRIAN: Hello, and we've had a really good conversation here today with Priyanka about conversational AI, kind of meta. 
 

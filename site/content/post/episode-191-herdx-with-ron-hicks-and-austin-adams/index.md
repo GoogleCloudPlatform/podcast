@@ -61,7 +61,7 @@ Gabe will be at [Next London](https://cloud.withgoogle.com/next/uk).
 
 * "radio t3 SW bleep.wav" by ERH of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode 191 of the weekly Google Cloud Platform Podcast. I'm Mark Mirchandani, and I'm here with my colleague and guest host, Gabe Weiss. Hey, Gabe." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode 191 of the weekly Google Cloud Podcast. I'm Mark Mirchandani, and I'm here with my colleague and guest host, Gabe Weiss. Hey, Gabe." >}}
 
 GABE: Hey, Mark. [LAUGHS] Same time. Let's try that again. Hey, Mark. 
 

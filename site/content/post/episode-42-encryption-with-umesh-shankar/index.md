@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.42.mp3"
 audioSize = 54560349
 categories = ["Security", "Encryption"]
 date = "2016-09-07T01:07:49Z"
-description = "Umesh Shankar has been working on making Google secure for many years and he’s come to tell us how encryption helps keep Google Cloud Platform users safe."
+description = "Umesh Shankar has been working on making Google secure for many years and he’s come to tell us how encryption helps keep Google Cloud users safe."
 draft = false
 episodeNumber = 42
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/51lsbw/episode_42_enc
 working on making Google secure for many years and he's come to tell you
 and your cohosts [Francesc](https://twitter.com/francesc) and
 [Mark](https://twitter.com/neurotic) how encryption helps
-keep Google Cloud Platform users safe.
+keep Google Cloud users safe.
 
 <!--more-->
 
@@ -46,9 +46,9 @@ He is an avid soccer player, clarinetist, and mixologist.
 
 ##### Interview
 
-- Google Cloud Platform Security [homepage](https://cloud.google.com/security)
+- Google Cloud Security [homepage](https://cloud.google.com/security)
 - Google Security Whitepaper [whitepaper](https://cloud.google.com/security/whitepaper)
-- Encryption at Rest in Google Cloud Platform [whitepaper](https://cloud.google.com/security/encryption-at-rest/)
+- Encryption at Rest in Google Cloud [whitepaper](https://cloud.google.com/security/encryption-at-rest/)
 - Google Cloud Storage User Provided Keys [docs](https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys/)
 - Encrypting Disks with Customer-Supplied Encryption Keys [docs](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 - Homomorphic Encryption [wikipedia](https://en.wikipedia.org/wiki/Homomorphic_encryption)
@@ -57,10 +57,10 @@ He is an avid soccer player, clarinetist, and mixologist.
 
 ##### Question of the week
 
-- Web serving on Google Cloud Platform: an overview [blog post](https://cloudplatform.googleblog.com/2016/09/web-serving-on-Google-Cloud-Platform-an-overview.html)
+- Web serving on Google Cloud: an overview [blog post](https://cloudplatform.googleblog.com/2016/09/web-serving-on-Google-Cloud-Platform-an-overview.html)
 - Web Serving Overview [solution](https://cloud.google.com/solutions/web-serving-overview)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 42 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hello, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 42 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hello, Mark. How are you doing?" >}}
 MARK: I'm good. How are you doing, Francesc? 
 
 FRANCESC: I'm, as always, very happy. 
@@ -77,7 +77,7 @@ MARK: Which is good, and that's basically how I like to do things.
 
 FRANCESC: Yeah, because otherwise, like, what? Private? No, I don't want to handle private things, thanks. Yeah, so a very interesting interview. I'm sure you will like it. And at the end? 
 
-MARK: Yeah, we have our usual question of the week. We go back to something pretty normal, pretty basic. What options are available for serving static content on Google Cloud Platform? 
+MARK: Yeah, we have our usual question of the week. We go back to something pretty normal, pretty basic. What options are available for serving static content on Google Cloud? 
 
 FRANCESC: Yeah. I want to run-- I have just HTML, CSS, JavaScript. I want to serve that. How do I do that? So yeah, and that will be at the end. But now, we're going to start with the cool things of the week. I decided we'd-- 
 
@@ -87,7 +87,7 @@ FRANCESC: So yeah. The first thing is something that I've been pretty involved w
 
 MARK: Yeah, do you want to tell us about what that does, since you've been so involved? 
 
-FRANCESC: Sure. So Google Cloud Endpoints-- there was actually already a thing called Google Cloud Endpoints that allowed you to serve REST APIs, REST endpoint from App Engine, just that, and just for Java and Python. Now what we're doing is actually making it a full fledged feature of Google Cloud Platform. So your back end could still be Java or Python on App Engine, but it could be also anything else, basically. 
+FRANCESC: Sure. So Google Cloud Endpoints-- there was actually already a thing called Google Cloud Endpoints that allowed you to serve REST APIs, REST endpoint from App Engine, just that, and just for Java and Python. Now what we're doing is actually making it a full fledged feature of Google Cloud. So your back end could still be Java or Python on App Engine, but it could be also anything else, basically. 
 
 You can run it on Compute Engine or Container Engine, and with any language you want. So yeah, the only requirement is that you need to use Swagger, and that is something that we might add more languages to describe your API. But to start with, we have Swagger, which if you have not checked-- basically, it allows you to describe your API from a pretty high point of view, but with enough detail that then you can generate the client servers, the client libraries, very easily, which is something very useful, and that is actually why the Google Cloud Endpoints, the original one on App Engine, was created. 
 
@@ -143,7 +143,7 @@ FRANCESC: So before we start talking about the main topic of the interview, why 
 
 UMESH: Sure. Yeah, I've been at Google for just over 10 years now. Just hit my 10-year anniversary back in August. And I've been working in the area of security and privacy engineering pretty much that whole time. I worked on a bunch of products over that period. I worked on Google Health early on-- rest in peace. 
 
-And since then, I've spent a lot of time building infrastructure for protecting user data. So that's things around crypto key management, something we're going to talk a little bit about today, I guess, around authorizing and authenticating requests, both for external access to user data and actually also how we protect user data against Googlers themselves, and more technologies around protecting binaries that run in our production network, all of which actually play a part in how we secure Google Cloud Platform. So I'm really excited to talk about that stuff with you guys today. 
+And since then, I've spent a lot of time building infrastructure for protecting user data. So that's things around crypto key management, something we're going to talk a little bit about today, I guess, around authorizing and authenticating requests, both for external access to user data and actually also how we protect user data against Googlers themselves, and more technologies around protecting binaries that run in our production network, all of which actually play a part in how we secure Google Cloud. So I'm really excited to talk about that stuff with you guys today. 
 
 MARK: Sweet. That all sounds, like, super, super interesting. Well, why don't we take sort of a practical viewpoint. Like say, OK, let's look at it like I'm a classic developer. Maybe I run, I don't know, a GC instance, like a virtual machine instance that has a web server on it, and I'm going to go access some data. How does GCP security and encryption, how does that help me from the requests coming in through to accessing the data. Start at the top, like what happens. 
 

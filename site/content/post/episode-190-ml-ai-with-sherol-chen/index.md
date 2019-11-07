@@ -70,7 +70,7 @@ Aja will be hanging around at home, on the internet, and at [Seattle.rb](http://
 * "Wedding Bells.wav" by Maurice_J_K of [Freesound.org](https://Freesound.org)
 * "Small Group Laugh.wav" by Tim.Kahn of [Freesound.org](https://Freesound.org)
 
-{{< transcript "[MUSIC PLAYING] AJA HAMMERLY: Hi, and welcome to episode number 190 of the weekly Google Cloud Platform Podcast. I'm Aja, and I'm here with my colleague Jon. Hey, Jon." >}}
+{{< transcript "[MUSIC PLAYING] AJA HAMMERLY: Hi, and welcome to episode number 190 of the weekly Google Cloud Podcast. I'm Aja, and I'm here with my colleague Jon. Hey, Jon." >}}
 
 JON: How's it going? 
 

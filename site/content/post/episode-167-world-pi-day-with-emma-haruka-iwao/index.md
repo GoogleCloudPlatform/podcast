@@ -26,7 +26,7 @@ Emma crushed the world record for calculating digits of pi using Google Cloud ov
 
 ##### Emma Haruka Iwao
 
-[Emma](https://twitter.com/Yuryu) is a developer advocate for Google Cloud Platform, focusing on application developers' experience and high performance computing. She has been a C++ developer for 15 years and worked on embedded systems and the Chromium Project. Emma is passionate about learning and explaining the most fundamental technologies such as operating systems, distributed systems, and internet protocols. Besides software engineering, she likes games, traveling, and eating delicious food.
+[Emma](https://twitter.com/Yuryu) is a developer advocate for Google Cloud, focusing on application developers' experience and high performance computing. She has been a C++ developer for 15 years and worked on embedded systems and the Chromium Project. Emma is passionate about learning and explaining the most fundamental technologies such as operating systems, distributed systems, and internet protocols. Besides software engineering, she likes games, traveling, and eating delicious food.
 
 ##### Cool things of the week
 

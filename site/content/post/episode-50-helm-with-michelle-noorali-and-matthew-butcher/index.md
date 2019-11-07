@@ -75,7 +75,7 @@ How do I build Docker images in the cloud?
 [Mark](https://twitter.com/Neurotic) is attending [Unite](https://unite.unity.com/2016/los-angeles),
 the Unity conference in Los Angeles, CA on November 1st.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 50 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 50 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm a bit sleepy, but I'm good. 
 
 [LAUGHTER] 
@@ -440,13 +440,13 @@ MARK: Yeah, it's adorably illustrated.
 
 FRANCESC: Yeah, and it is actually technically accurate, so yay. Yep, definitely worth checking. So I think it's time to go for our Question of the Week. So the Question of the Week today is about Docker images in the cloud. And basically it is, OK, so I have an image that I want to build regularly. 
 
-So imagine that, for instance, you have something, you have a project. And every single time you have a comment on GitHub, you want to create a new image. And there's ways of doing this. But is there a Google Cloud Platform way of doing it? 
+So imagine that, for instance, you have something, you have a project. And every single time you have a comment on GitHub, you want to create a new image. And there's ways of doing this. But is there a Google Cloud way of doing it? 
 
-MARK: Yeah, so there is totally a Google Cloud Platform from way of doing it. We have this service that's currently in beta called Google Cloud Container Builder. It is literally exactly what you described it as. It's a REST API that you can send a series of commands to. And the final output is a Docker container image, which then gets served up to GCR.io, so like our Google Container Registry. 
+MARK: Yeah, so there is totally a Google Cloud from way of doing it. We have this service that's currently in beta called Google Cloud Container Builder. It is literally exactly what you described it as. It's a REST API that you can send a series of commands to. And the final output is a Docker container image, which then gets served up to GCR.io, so like our Google Container Registry. 
 
 And so it's a really nice way of if you're using Google containers registries and you have like a CI or CD system or some sort of automation for building these container images, it's an easy way of basically saying, hey, I would like to build one of those, push that up into the container registry. And then I want to serve that maybe to Container Engine, Compute Engine, App Engine, Flexible Environment, anywhere from there. 
 
-FRANCESC: Yeah, I think it is a pretty interesting thing to mention a little bit about Google Container Registry. So Google Container Registry, for those that might have never heard about it, it is just a container registry, so nothing really fancy there. But it is private, so only your project, your Google Cloud Platform project has access to it. 
+FRANCESC: Yeah, I think it is a pretty interesting thing to mention a little bit about Google Container Registry. So Google Container Registry, for those that might have never heard about it, it is just a container registry, so nothing really fancy there. But it is private, so only your project, your Google Cloud project has access to it. 
 
 So it basically removes all the issues on, oh, I want to have a Docker image, and I want to be able to pull it from somewhere. But I don't want to make it public. I don't want other people to see it. So it is a very good solution for that. 
 
@@ -460,7 +460,7 @@ FRANCESC: So by the time the podcast comes out, I'll be probably on my way to th
 
 MARK: Nice. 
 
-FRANCESC: And the week after that I'll still be in Brazil. This time in Sao Paulo to speak and actually kind of organize, which is lots of fun-- GCPNext Sao Paulo. We're going to be talking about all the new things that we're working on for Google Cloud Platform. So the keynote will be live streamed. So we'll have a link to that so in case you want to check it out. That will be November 10. What about you? 
+FRANCESC: And the week after that I'll still be in Brazil. This time in Sao Paulo to speak and actually kind of organize, which is lots of fun-- GCPNext Sao Paulo. We're going to be talking about all the new things that we're working on for Google Cloud. So the keynote will be live streamed. So we'll have a link to that so in case you want to check it out. That will be November 10. What about you? 
 
 MARK: I'm doing a lot less than that, thankfully. So when this comes out, I will be at the Unite conference, the Unity conference. I'll just be attending. So please feel free to say hello. After that, I think I'm done. I think I'm not traveling again while. 
 

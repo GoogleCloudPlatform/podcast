@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.11.mp3"
 audioSize = 44179761
 categories = ["Internet of Things", "Machine Learning"]
 date = "2016-02-03T01:07:49Z"
-description = "In the eleventh episode of this podcast, your hosts Francesc and Mark interview Jen Tong, a Developer Advocate for the Google Cloud Platform, about the Internet of Things."
+description = "In the eleventh episode of this podcast, your hosts Francesc and Mark interview Jen Tong, a Developer Advocate for the Google Cloud, about the Internet of Things."
 draft = false
 episodeNumber = 11
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ In the eleventh episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
 [Jen Tong](https://twitter.com/MimmingCodes), a Developer Advocate for the
-Google Cloud Platform, about the Internet of Things. 
+Google Cloud, about the Internet of Things. 
 <!--more-->
 
 ##### About Jen 
@@ -57,9 +57,9 @@ You can contact Jen through [Twitter](https://twitter.com/MimmingCodes) and her
     
 ##### Question of the week
 
-- Google Cloud Platform training [page](https://cloud.google.com/training/)
+- Google Cloud training [page](https://cloud.google.com/training/)
 
-{{< transcript "FRANCESC: Hello, and welcome to the 11th weekly episode of the Google Cloud Platform podcast. I'm Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark, how you doing?" >}}
+{{< transcript "FRANCESC: Hello, and welcome to the 11th weekly episode of the Google Cloud podcast. I'm Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark, how you doing?" >}}
 MARK: I'm good, thanks, Francesc. How are you doing?
 FRANCESC: Pretty good. Very excited about this episode, touching something that I think is very controversial, at least the name. I know a lot of people that don't really like it.
 MARK: Okay, talking about Internet of Things.
@@ -85,7 +85,7 @@ JEN: Doing great, how are you?
 MARK: Very, very well. Thank you so much for joining us today.
 JEN: Of course.
 MARK: So we wanted to talk to you about Internet of Things and that sort of fun stuff, but why don't you let us know who you are, what you do, your background, et cetera, et cetera, so people have an idea of who you are?
-JEN: Sure thing. So hi, everybody, I'm Jen. I'm a developer advocate at Google, and I focus on Google Cloud Platform, and that means, in a nutshell, that I help people cause trouble with code or build cool stuff and then, you know, join them in the satisfaction of accomplishing something great, and along the way I help people understand why cloud technologies are awesome and can make their life easier.
+JEN: Sure thing. So hi, everybody, I'm Jen. I'm a developer advocate at Google, and I focus on Google Cloud, and that means, in a nutshell, that I help people cause trouble with code or build cool stuff and then, you know, join them in the satisfaction of accomplishing something great, and along the way I help people understand why cloud technologies are awesome and can make their life easier.
 MARK: Cool, cool. Do you focus on any particular products and stuff? I mean, obviously we want to talk about the Internet of Things, but I'm just kind of curious.
 JEN: Yup, so kind of the area I focus on is parts of the cloud to either make, like, IOT prototyping really easy, which is, I guess, what we'll be talking a little bit more about today, but also the other side of the equation is Internet of Things devices are really good at generating a whole bunch of data, so I spend a lot of time focusing on the big data side of that, things like BigQuery and Pub/Sub and BigTable.
 FRANCESC: Nice.
@@ -179,7 +179,7 @@ MARK: Definitely.
 JEN: Yup, you're very welcome. It was a lot of fun. Thanks for having me on.
 MARK: Cheers. Well, thanks so much to Jen for joining us today, fascinating conversation. I love that hardware stuff, mainly because I just don't understand a lot of it, so any peek behind the magic curtain that I can find, it makes me pretty happy.
 FRANCESC: Yeah. I know that I've been playing a little bit with an Arduino, and it's awesome. You can really do so many cool things in a quite easy way, so yeah, very excited about seeing more of these things related to the cloud.
-MARK: Definitely, definitely. So moving on to our question of the week, this is an interesting one too, a little bit less technical but I think just as important. It's a question around--so is there any Google Cloud Platform certification or training? Like, if you need to be able to say, "Yes, I definitely know this thing," how do you get that piece of paper that says that you definitely do?
+MARK: Definitely, definitely. So moving on to our question of the week, this is an interesting one too, a little bit less technical but I think just as important. It's a question around--so is there any Google Cloud certification or training? Like, if you need to be able to say, "Yes, I definitely know this thing," how do you get that piece of paper that says that you definitely do?
 FRANCESC: So the answer is, of course, yes. There's actually a web page with all the trainings that we support, and that link is actually cloud.google.com/training, quite obviously, and you will find there a bunch of different classes. Some of the classes like CP100, CP200, CP300, those are, like, the main classes where you're gonna learn about general topics of a cloud starting from what is a cloud and why get it--how they store my data, how to connect between different instances, that kind of stuff to things that are way more involved, like you will be able to see something, like, very specific about, "Well, how do I package my containers, my Docker containers to be deployed into Container Engine?" and stuff like that. There is--so you will find a bunch of different trainings and all certifications.
 MARK: I'm actually looking through it. I didn't honestly realize that we had this many training programs in here from, like--like, Docker packaging and through to, like, Cloud Storage through to App Engine.
 FRANCESC: How to use SQL.
@@ -194,7 +194,7 @@ FRANCESC: On top of that, one resource that I use very often is actually not tra
 MARK: Oh, yeah.
 FRANCESC: Yeah, so cloud.google.com/solutions, and here--there our solutions engineers share use cases and white papers about specifically how to do some technical thing.
 MARK: Oh, yeah?
-FRANCESC: There's some--some of the solutions are, like, grouped by topic, so you can have--like, Internet of Things, for instance, is one of them, but you're also gonna have gaming, et cetera, but at the same time you're gonna see also some stuff that is really, really specific like a white paper on how to deploy correctly MongoDB on Google Cloud Platform, stuff like that.
+FRANCESC: There's some--some of the solutions are, like, grouped by topic, so you can have--like, Internet of Things, for instance, is one of them, but you're also gonna have gaming, et cetera, but at the same time you're gonna see also some stuff that is really, really specific like a white paper on how to deploy correctly MongoDB on Google Cloud, stuff like that.
 MARK: Nice.
 FRANCESC: There's a lot of different parameters, so our solutions engineers, what they do is they will write--they will basically explain what is a good value for every single parameter, what is the design decision behind those, and so on, so it's really, really interesting to go through some of those white papers.
 MARK: So if you're looking to do, like, some sort of--I don't know, maybe a gaming analytics platform or something like that and you think to yourself, "How would I go about doing that?" going through the solutions, like, that are already listed in there can probably give you a leg up to be like, "Okay, this is our recommended way of doing it."
@@ -205,7 +205,7 @@ MARK: Nice.
 FRANCESC: So that's on February--February 5th we have DevFest Paris. It's gonna be lots of fun. I'm gonna be talking about gRPC and Kubernetes and everything written in Go, and I might try to do the talk in French.
 MARK: Ooh, good luck.
 FRANCESC: It's always fun. People make fun of my accent. Apparently I sound Canadian somehow. I don't know. What about you?
-MARK: Still the same stuff, so I'll be on vacation for a couple of weeks, but when I get back I have the Launch Hackathon, which is always fun. I always love doing hackathons, and then on top of that, yup, Game Developers Conference, still got lots of plans happening with that. We'll definitely have a booth space and events going on. We're doing a developer day where you can talk to developers, and do a bunch of talks, so that sort of stuff too, so if you're interested in gaming and Google Cloud Platform, definitely come and say hello. We'd love to speak to you. Then obviously we'll both be at GCP Next.
+MARK: Still the same stuff, so I'll be on vacation for a couple of weeks, but when I get back I have the Launch Hackathon, which is always fun. I always love doing hackathons, and then on top of that, yup, Game Developers Conference, still got lots of plans happening with that. We'll definitely have a booth space and events going on. We're doing a developer day where you can talk to developers, and do a bunch of talks, so that sort of stuff too, so if you're interested in gaming and Google Cloud, definitely come and say hello. We'd love to speak to you. Then obviously we'll both be at GCP Next.
 FRANCESC: Yup, we'll be there.
 MARK: Doing all sorts of interesting stuff. There may be something podcasty. We'll see. We'll see what happens.
 FRANCESC: We'll see. It's still kind of secret or even--no, we're not really sure what's gonna happen, but there's gonna be something there for sure.
@@ -228,7 +228,7 @@ FRANCESC: And finally we have Google+.
 MARK: At google.com/+gcppodcast.
 FRANCESC: Nice. So yeah, as always, if you have any questions, we are always looking for questions of the week.
 MARK: Or cool things, if you've got something that's particularly exciting, love to see it.
-FRANCESC: Cool things of the week. If you want to have some topic covered or you're doing something amazing with the Google Cloud Platform and you want to tell us about it--
+FRANCESC: Cool things of the week. If you want to have some topic covered or you're doing something amazing with the Google Cloud and you want to tell us about it--
 MARK: Come on the podcast, definitely.
 FRANCESC: Come on the podcast. We're always happy to interview new people.
 MARK: Wonderful. Well, thank you so much for joining me yet again, Francesc.

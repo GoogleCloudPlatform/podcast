@@ -23,7 +23,7 @@ joins the podcast today to tell your co-hosts
 [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) about
 their experience migrating from on-premise MongoDB to Cloud Bigtable.
 
-Server Density provides an open source logging and monitoring solution running on Google Cloud Platform.
+Server Density provides an open source logging and monitoring solution running on Google Cloud.
 
 <!--more-->
 
@@ -73,7 +73,7 @@ Francesc just releasd the [last episode](https://youtu.be/jy9XKfYjtwE?list=PL64w
 of the Flappy Gopher miniseries of [JustForFunc](https://youtube.com/c/justforfunc),
 and then will be presenting at [Gophercon China](http://www.bagevent.com/event/357764) in April.  
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 69 of the weekly "Google Cloud Platform" podcast. I am Francesc Campoy. And I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 69 of the weekly "Google Cloud" podcast. I am Francesc Campoy. And I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm good. How are you doing? 
 
@@ -93,7 +93,7 @@ But, you know, nothing-- we're cool. We're cool now. And we have today a very co
 
 [LAUGHTER] 
 
-But they basically built a logging and monitoring logging solution. And it's open source, runs on Google Cloud Platform. And they had a very interesting story of migrating from on-premies MongoDB to Bigtable. 
+But they basically built a logging and monitoring logging solution. And it's open source, runs on Google Cloud. And they had a very interesting story of migrating from on-premies MongoDB to Bigtable. 
 
 MARK: Yep. And then after that we will have our question of the week, where are we looking at latency times across the GCP network. 
 
@@ -235,9 +235,9 @@ DAVID: Yep. That's right. So the time-series database that was MongoDB is now Cl
 
 So we ended up having to build it ourselves on top of Kafka and Storm. So to go back to how the data comes in, so it's coming in from the agent. It goes into that intake part again. So instead of it going into a MongoDB queue, it now goes into Kafka. So Kafka is the Apache open-source project queuing system. 
 
-That's then pulled out using Storm, which is a big-data event-base processing system. It basically gives us a framework to process all that data. The rules engine was rewritten from PHP into Python. That's the language that we've standardized across the whole company. And new things are written in Python now. And so all the rules engine was replicated in Python with our modern test suite and integration tests and everything that you'd expect from a properly planned and written project, rather than something that I wrote and then scaled over the years. And then the notification system, again, that first route is still the same with some improvements. But that's in Python still. And then the second reaches the entirely new bit on top of Google Cloud Platform. 
+That's then pulled out using Storm, which is a big-data event-base processing system. It basically gives us a framework to process all that data. The rules engine was rewritten from PHP into Python. That's the language that we've standardized across the whole company. And new things are written in Python now. And so all the rules engine was replicated in Python with our modern test suite and integration tests and everything that you'd expect from a properly planned and written project, rather than something that I wrote and then scaled over the years. And then the notification system, again, that first route is still the same with some improvements. But that's in Python still. And then the second reaches the entirely new bit on top of Google Cloud. 
 
-So part of this, also, it's also the first bit of our migration over to Google Cloud. So we had the challenge of running the primary infrastructure in SoftLayer, but having the time-series database running on Google Cloud Platform. And what we have to do is because the system is built in a microservices architecture, then we have all these APIs internally. And so it is relatively straightforward to extract this entire component, move over to Google, and have it continue to communicate over HTTPS, even across the internet, which is what we did. 
+So part of this, also, it's also the first bit of our migration over to Google Cloud. So we had the challenge of running the primary infrastructure in SoftLayer, but having the time-series database running on Google Cloud. And what we have to do is because the system is built in a microservices architecture, then we have all these APIs internally. And so it is relatively straightforward to extract this entire component, move over to Google, and have it continue to communicate over HTTPS, even across the internet, which is what we did. 
 
 So that second route now looks like just an internal API exposed over HTTPS. And that goes into the Google load balancers. And that gives us the high availability and the scalability. The internal API is written in Python again. And it's just exposing the functionality. It's a very light wrapper on top of open TSDB, which is the Time-Series Database product that we use. 
 
@@ -259,7 +259,7 @@ We know that we can get 10,000 writes per second per node. And we just press a b
 
 FRANCESC: Could you share a little bit of the amount of traffic that you're doing? Or what's the difference in cost between running your own servers-- you say that you were owning so many SSDs-- to just migrating everything to Cloud Bigtable? 
 
-DAVID: Yep, so the cost of Cloud Bigtable is a lot more predictable because we can see exactly how many writes per second we're buying for the per-node cost. And the graphing that Google Cloud Platform control panel provides is pretty good, and it just shows us the absolute numbers. That means we can see pretty easily the exact number of writes that we're doing and how we need to scale it. 
+DAVID: Yep, so the cost of Cloud Bigtable is a lot more predictable because we can see exactly how many writes per second we're buying for the per-node cost. And the graphing that Google Cloud control panel provides is pretty good, and it just shows us the absolute numbers. That means we can see pretty easily the exact number of writes that we're doing and how we need to scale it. 
 
 When it came down to MongoDB and the previous architecture, was not as transparent in terms of being able to see where we're at in terms of the scalability. There's no direct correlation between the number of writes and the hardware that we have. And so we have a lot of benchmarking and testing. And typically we would see that we needed to scale through proxy metrics, like the response times or the APIs, rather than actually knowing that we're hitting the limits of the writes that the product can provide. 
 
@@ -313,7 +313,7 @@ MARK: Yep. No, always love really interesting stories where people have moved fr
 
 FRANCESC: Yeah, it's definitely war stories, that there's failures in there and lessons in there that you could learn so you can avoid them. So go check it out. 
 
-MARK: Fantastic. Well, why don't we move on to our question of the week. Today's question of the week, we want to talk about ping times. So you're building your next amazing application. And you say to yourself, which regions should I put this in for Google Cloud Platform, which ones are going to give me the lowest latency? So is there an easy way to be able to find out what my latencies could be? 
+MARK: Fantastic. Well, why don't we move on to our question of the week. Today's question of the week, we want to talk about ping times. So you're building your next amazing application. And you say to yourself, which regions should I put this in for Google Cloud, which ones are going to give me the lowest latency? So is there an easy way to be able to find out what my latencies could be? 
 
 FRANCESC: Not only is there an easy way. But it has an amazing name. 
 
@@ -385,7 +385,7 @@ FRANCESC: Oh, wow. Yeah, that one's not going to--
 
 MARK: #podcast? 
 
-FRANCESC: #podcast in the Google Cloud Platform Community that you can access through bit.ly slash-- 
+FRANCESC: #podcast in the Google Cloud Community that you can access through bit.ly slash-- 
 
 MARK: --gcp-slack. 
 

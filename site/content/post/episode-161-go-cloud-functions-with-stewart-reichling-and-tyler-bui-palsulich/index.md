@@ -37,7 +37,7 @@ Go Cloud Functions works specifically for Go. Google makes a huge effort to make
 * Actually cool thing of the week [twitter](https://twitter.com/uhoelzle/status/1090805768729767936)
 * NoSQL for the serverless age: Announcing Cloud Firestore general availability and updates [blog](https://cloud.google.com/blog/products/databases/announcing-cloud-firestore-general-availability-and-updates)
 * Site Reliability Workbook now available in HTML [site](http://landing.google.com/sre/workbook/toc/)
-* Building a serverless online game: Cloud Hero on Google Cloud Platform [blog](https://cloud.google.com/blog/products/application-development/building-a-serverless-online-game-cloud-hero-on-google-cloud-platform)
+* Building a serverless online game: Cloud Hero on Google Cloud [blog](https://cloud.google.com/blog/products/application-development/building-a-serverless-online-game-cloud-hero-on-google-cloud-platform)
 * The tech industry is failing people with disabilities and chronic illnesses [article](https://medium.com/@racheltho/the-tech-industry-is-failing-people-with-disabilities-and-chronic-illnesses-8e8aa17937f3)
 
 ##### Interview
@@ -67,7 +67,7 @@ Mark will be at [GDC](https://gdconf.com) in March, [Cloud NEXT](https://cloud.w
 
 Aja will be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf) in April.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 161 of the Weekly Google Cloud Platform Podcast. I am Mark Mandel, and this time, I am joined by the wonderful Aja Hammerly. How you doing, Aja?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 161 of the Weekly Google Cloud Podcast. I am Mark Mandel, and this time, I am joined by the wonderful Aja Hammerly. How you doing, Aja?" >}} 
 
 AJA: Hi, Mark. It's kind of cool to be in the host's seat after having been a guest [INAUDIBLE]. 
 
@@ -97,7 +97,7 @@ AJA: Awesome. Other stuff from my cool things of the week list is that the site 
 
 And one of the things I've loved about the last year or so is that I've gotten to spend some time just having lunch with SREs at Google and learning about how they approach problems. And it's honestly made me a better person, in general. Things like blameless postmortems, setting clear expectations, those are just fantastic human skills in addition to being great skills for running an organization and keeping your websites up. So I recommend folks check it out. There's a lot to learn there. 
 
-MARK: Fantastic. I like anything that has the word games in it. There's a wonderful article that's come out on the Google Cloud blog called "Building a Serverless Online Game-- Cloud Hero on Google Cloud Platform." This is a in-event sort of party game for everyone who's sitting in a room, basically to test your knowledge of Google Cloud through the use of timed challenges. To date, over 1,000 people have played it. 
+MARK: Fantastic. I like anything that has the word games in it. There's a wonderful article that's come out on the Google Cloud blog called "Building a Serverless Online Game-- Cloud Hero on Google Cloud." This is a in-event sort of party game for everyone who's sitting in a room, basically to test your knowledge of Google Cloud through the use of timed challenges. To date, over 1,000 people have played it. 
 
 So in the article, they actually go through how it was built using Angular, Cloud Firestore, Cloud Functions, and all the bits and pieces on how it was put together. So if you're interested in how that was put together and you think, oh, that might apply to some of the things I'm building, you should check out the blog post, which we will have in the show notes. 
 
@@ -127,7 +127,7 @@ STEWART: Hey, I'm Stewart. I'm the product manager for Cloud Functions. I work a
 
 MARK: Tyler? 
 
-TYLER: Hi, I'm Tyler. I am a developer programs engineer, which is part of developer relations. And my goal is to make it as easy as possible to run Go on Google Cloud Platform. 
+TYLER: Hi, I'm Tyler. I am a developer programs engineer, which is part of developer relations. And my goal is to make it as easy as possible to run Go on Google Cloud. 
 
 AJA: For those folks who aren't familiar with Cloud Functions, what exactly is Cloud Functions? 
 
@@ -285,7 +285,7 @@ TYLER: Yeah, thank you.
 
 AJA: So thanks again to Stewart and Tyler for joining us on the podcast today and teaching us all about Go Cloud Functions. There's a lot of exciting stuff going on there. 
 
-MARK: Awesome. So we have a question of the week, as always, and I get to ask you a question of the week. Ha, ha, ha. So the question of the week is, how many ways can you run containers on Google Cloud Platform? 
+MARK: Awesome. So we have a question of the week, as always, and I get to ask you a question of the week. Ha, ha, ha. So the question of the week is, how many ways can you run containers on Google Cloud? 
 
 AJA: I believe the answer is 4. 
 

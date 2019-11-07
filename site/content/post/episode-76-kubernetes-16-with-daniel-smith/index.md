@@ -61,14 +61,14 @@ Before that, Daniel worked on Borg and briefly on AppEngine. He lives in Mountai
 
 ##### Question of the week
 
-Q: Francesc and Mark discuss "What is the first thing you do when creating a Google Cloud Platform project?"
+Q: Francesc and Mark discuss "What is the first thing you do when creating a Google Cloud project?"
 
-- Google Cloud Platform Console [site](https://console.cloud.google.com)
+- Google Cloud Console [site](https://console.cloud.google.com)
 - `gcloud init` [docs](https://cloud.google.com/sdk/gcloud/reference/init)
 - `gcloud` configuration [docs](https://cloud.google.com/sdk/gcloud/reference/config/configurations/)
 - Identity and Access Control - Adding Owners [docs](https://cloud.google.com/iam/docs/concepts)
 - Cloud Abuse with Swati Kulshreshth and Emeka Okonkwo [podcast](https://www.gcppodcast.com/post/episode-47-cloud-abuse-with-swati-and-emeka/)
-- Google Cloud Platform Support with Terrance Shepherd [podcast](https://www.gcppodcast.com/post/episode-24-support-with-terrance-shepherd/)
+- Google Cloud Support with Terrance Shepherd [podcast](https://www.gcppodcast.com/post/episode-24-support-with-terrance-shepherd/)
 
 ##### Where can you find us next?
 
@@ -80,7 +80,7 @@ Mark is going to be in Sweden for [Nordic Games Conference](http://conf.nordicga
 if people are in San Francisco they should head over to the [Playcrafting & Extra Life 24 Hour Game Fest](https://www.eventbrite.com/e/playcrafting-extra-life-24-hour-game-fest-tickets-33350827222)
 where we are raising money for the UCSF Benioff Children's Hospitals.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 76 of the weekly \"Google Cloud Platform\" podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 76 of the weekly \"Google Cloud\" podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I am good! How are you doing today? 
 
 FRANCESC: I'm very happy to be back to San Francisco-- with nice weather and everything-- after a pretty awesome week in New York. 
@@ -91,7 +91,7 @@ FRANCESC: Yeah. I'm very excited to be talking again about Kubernetes. Last week
 
 MARK: No, it was several weeks ago. Yeah. Basically, Daniel and I nerd out for about 20 minutes on Kubernetes. 
 
-FRANCESC: Yeah, and I try to understand some of the things. I use Kubernetes. But, like, I keep it very-- like, the basics. If you're interested in the-- really, the newest things, like deep, deep technical topics-- this episode is going to be for you. I'm sure you will enjoy it. And then, at the end, we have a question of the week, which is kind of cool. But like, what you do when you create a Google Cloud Platform project? 
+FRANCESC: Yeah, and I try to understand some of the things. I use Kubernetes. But, like, I keep it very-- like, the basics. If you're interested in the-- really, the newest things, like deep, deep technical topics-- this episode is going to be for you. I'm sure you will enjoy it. And then, at the end, we have a question of the week, which is kind of cool. But like, what you do when you create a Google Cloud project? 
 
 MARK: Yeah, what are the first things? 
 
@@ -107,7 +107,7 @@ FRANCESC: We'll talk about that at the end. But before that, we have the Cool Th
 
 MARK: Got Dallas, Austin, and Toronto. There should be more coming, I expect. There's 12 cities in US and Canada. 
 
-FRANCESC: Oh, yeah, Chicago, Vancouver, San Francisco, LA, Seattle, Atlanta, Boston, Washington, DC, and New York City. So a bunch of them. And even better than that-- there's actually also more events on this type, so you can go and learn more about Google Cloud Platform all around the world. So I know that I'll be attending one in-- actually, I'm going to ask Mark to say the capital of Argentina. 
+FRANCESC: Oh, yeah, Chicago, Vancouver, San Francisco, LA, Seattle, Atlanta, Boston, Washington, DC, and New York City. So a bunch of them. And even better than that-- there's actually also more events on this type, so you can go and learn more about Google Cloud all around the world. So I know that I'll be attending one in-- actually, I'm going to ask Mark to say the capital of Argentina. 
 
 MARK: I massacred this before. Buenos "A-res"? No, Buenos Aires. 
 
@@ -139,7 +139,7 @@ FRANCESC: Absolutely. So, yeah, if you want to use IPv6, which I definitely reco
 
 MARK: Oh, interesting. 
 
-FRANCESC: Kind of cool. It forces you to update a lot of different things. But yeah, if you want to use it, check it out. We'll have a link in the show notes. And then the last Cool Thing of the Week comes from Mete Atamel, who is a developer advocate, Google Cloud Platform, specialized in .NET technologies, and he's based in London, if I don't remember-- if I remember correctly. And he wrote a really cool blockbuster in gRPC. Specifically from the point of view of-- everybody says that gRPC is really good to have interoperation or support-- to have multiple prime languages in the same system. Is that actually true? 
+FRANCESC: Kind of cool. It forces you to update a lot of different things. But yeah, if you want to use it, check it out. We'll have a link in the show notes. And then the last Cool Thing of the Week comes from Mete Atamel, who is a developer advocate, Google Cloud, specialized in .NET technologies, and he's based in London, if I don't remember-- if I remember correctly. And he wrote a really cool blockbuster in gRPC. Specifically from the point of view of-- everybody says that gRPC is really good to have interoperation or support-- to have multiple prime languages in the same system. Is that actually true? 
 
 So he talks about how to make something that you have a server running Java and the client is actually running .NET-- actually using C#, if I remember correctly. And it is really cool. And, actually, if you don't know gRPC that much, we have a couple of episodes on gRPC, I think. 
 
@@ -367,7 +367,7 @@ MARK: Yeah, thank you so much.
 
 FRANCESC: So thanks, Daniel, for such an interesting conversation. There was a lot of those things that I'm not sure I completely understood what they were for. Because, you know, like, there's really advanced stuff there. If you felt that way, do not fear. That's normal. I guess. But thanks-- yeah, thanks. It was really, really interesting. And it makes you think about, like, all of those little features that probably you will not need. But the day you'll need them, they're there. 
 
-MARK: Cool. So why don't we have a chat about the question of the week? I thought this would be a bit interesting if we just talked a little bit about. So you create a Google Cloud Platform project. 
+MARK: Cool. So why don't we have a chat about the question of the week? I thought this would be a bit interesting if we just talked a little bit about. So you create a Google Cloud project. 
 
 FRANCESC: Yeah. 
 
@@ -429,7 +429,7 @@ MARK: And that would make you very, very sad. So definitely I like having multip
 
 FRANCESC: Going back to the topic-- you were talking about abuse and support. Yeah. Reading those emails is really important. Because, you know, when you receive one of those emails, they're actually important and you need to answer them. There's two episodes where we cover a little bit about this and the best practices on, like, how to make sure that your projects are following the terms of services and all of these things. 
 
-There's episode 47 with Cloud abuse. And we had Swati Kulshreshth and Emeka Okonkwo. And then on episode 24, we also had Terrance Shepherd talking about Google Cloud Platform support. We-- yeah, we cover all the little things that you might want to do-- especially, I'd say, that the biggest piece of advice is make sure those emails do not go to, like, some account that nobody reads. 
+There's episode 47 with Cloud abuse. And we had Swati Kulshreshth and Emeka Okonkwo. And then on episode 24, we also had Terrance Shepherd talking about Google Cloud support. We-- yeah, we cover all the little things that you might want to do-- especially, I'd say, that the biggest piece of advice is make sure those emails do not go to, like, some account that nobody reads. 
 
 MARK: Yeah, don't send them to dev. No. Like, don't do that. That's bad. 
 

@@ -66,7 +66,7 @@ How can I access Google Cloud Shell from any terminal?
 
 Jon and Mark will be at [IO](https://events.google.com/io/).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode Number 175 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here today with my colleague Jon Foust. Jon, how are you doing?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode Number 175 of the weekly Google Cloud podcast. I'm Mark Mandel, and I'm here today with my colleague Jon Foust. Jon, how are you doing?" >}} 
 
 JON: I'm doing great. 
 
@@ -196,7 +196,7 @@ ANDREW: It's the same API for the developer, essentially, no matter where you're
 
 JON: Gotcha. So I happened to stop by the MongoDB booth, and I got to talk with the very, very friendly folks over there. And one of the things that came out of our conversation was the mention of global VPCs. So I was wondering if you could tell our listeners a little bit more, although, I found out about it at the booth. 
 
-ANDREW: To be completely honest, we love Google Cloud Platform. We're big fans of it. We've been close partners for really the last three years, when Atlas launched three years ago. And this announcement that came out this week about our much deeper partnership is just a continuation of that. And one of the reasons we've always loved Google Cloud is the nature of the global VPC, which, frankly, the other cloud platforms just don't have. 
+ANDREW: To be completely honest, we love Google Cloud. We're big fans of it. We've been close partners for really the last three years, when Atlas launched three years ago. And this announcement that came out this week about our much deeper partnership is just a continuation of that. And one of the reasons we've always loved Google Cloud is the nature of the global VPC, which, frankly, the other cloud platforms just don't have. 
 
 MARK: Can you explain what that is for people who don't know? 
 

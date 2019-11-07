@@ -35,7 +35,7 @@ theory, and computational biology, before a recent dive into machine learning.
 
 ##### Cool thing of the week
 
-- New Google Cloud Platform Education Grants offer free credits to students [announcement](https://cloudplatform.googleblog.com/2016/06/new-Google-Cloud-Platform-Education-Grants-offer-free-credits-to-students.html)
+- New Google Cloud Education Grants offer free credits to students [announcement](https://cloudplatform.googleblog.com/2016/06/new-Google-Cloud-Platform-Education-Grants-offer-free-credits-to-students.html)
 
 ##### Interview
 
@@ -60,7 +60,7 @@ theory, and computational biology, before a recent dive into machine learning.
 - Offline Media Import to Google Cloud Storage [docs](https://cloud.google.com/storage/docs/offline-media-import-export)
 - Google Cloud Interconnect [docs](https://cloud.google.com/interconnect/docs)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 31 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with Mark Mandel, my colleague. How are you doing, Mark?">}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 31 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with Mark Mandel, my colleague. How are you doing, Mark?">}}
 MARK: I'm doing well, Francesc. How are you doing? 
 
 FRANCESC: I'm pretty well. I'm very happy with the interview we're going to be having today with one of our colleagues working here in the San Francisco office, Eli Bixby. 
@@ -81,7 +81,7 @@ MARK: Yeah, lots and lots of data. But first, we've got our Cool Thing of the We
 
 FRANCESC: Yeah, and it is very cool this week. 
 
-MARK: Yeah, so we just-- literally just, as we were recording this-- announced the Google Cloud Platform Education Grants, or, for those less Australian, grants. 
+MARK: Yeah, so we just-- literally just, as we were recording this-- announced the Google Cloud Education Grants, or, for those less Australian, grants. 
 
 FRANCESC: Thank you. 
 
@@ -89,7 +89,7 @@ MARK: This is a pretty cool endeavor. I'm very excited about it. Basically, curr
 
 FRANCESC: Soon, yeah. 
 
-MARK: Yes, soon. But basically, if you're looking to use Google Cloud Platform in your educational institution, and you want to have free Cloud Credits-- say that three times quickly-- free Cloud Credits for your students to be able to use the resources at Google Cloud, we now offer you the ability to apply for that. 
+MARK: Yes, soon. But basically, if you're looking to use Google Cloud in your educational institution, and you want to have free Cloud Credits-- say that three times quickly-- free Cloud Credits for your students to be able to use the resources at Google Cloud, we now offer you the ability to apply for that. 
 
 FRANCESC: And it is very cool because so far, we've been doing it in some specific cases. And actually, we have a link to the blog post where we announced the educational program. But one of the links is actually Cloud4Cancer. And I was reading about it. I thought it was very cool. 
 
@@ -119,7 +119,7 @@ ELI: I'm doing great.
 
 MARK: Eli, why don't you tell us a little about who you are and what you do here Google? 
 
-ELI: Great, so I'm a developer programs engineer at Google. I work on Google Cloud Platform, and specifically, the big data and machine learning offerings. 
+ELI: Great, so I'm a developer programs engineer at Google. I work on Google Cloud, and specifically, the big data and machine learning offerings. 
 
 FRANCESC: Cool. So what is a developer programs engineer in like one sentence? 
 
@@ -279,13 +279,13 @@ FRANCESC: Thank you. So thank you to Eli for such an interesting conversation. B
 
 One of them, we asked him how big TensorFlow models are. And he said that, probably around gigabyte. And it turns out, it's more like megabytes. And he said that the problem is that he's not used to counting that low anymore since he works at Google, kind of humble brag. But it's actually megabytes. So you can consider sending them to your mobile phone and having them as part of your app, which is pretty cool. 
 
-And then, something that is not a correction, but I wanted to add anyway, is he mentioned Apache Beam, which is actually something you can run on Google Cloud Platform, on Google Cloud Dataflow, and also on TensorFlow, you can run it-- or you'll be able to run it soon because it's a limited preview for now on Google Cloud ML, ML standing for Machine Learning, obviously. 
+And then, something that is not a correction, but I wanted to add anyway, is he mentioned Apache Beam, which is actually something you can run on Google Cloud, on Google Cloud Dataflow, and also on TensorFlow, you can run it-- or you'll be able to run it soon because it's a limited preview for now on Google Cloud ML, ML standing for Machine Learning, obviously. 
 
 MARK: Yes. 
 
 FRANCESC: Cool. So let's go with the Question of the Week. And I think it comes from-- you got the question of the week. 
 
-MARK: I did get the question of the week. It was from some people I was chatting with this week. And they were talking about how, say you have 10 terabytes, 15 terabytes, 20 terabytes of data, sort of lying around, maybe on a [INAUDIBLE] maybe on a hard drive, maybe running on prem, something like that, and you want to move everything over to Google Cloud Platform. And you're like, this is going to take me a really long time to upload if I have to do it over the wire. So what do I do? 
+MARK: I did get the question of the week. It was from some people I was chatting with this week. And they were talking about how, say you have 10 terabytes, 15 terabytes, 20 terabytes of data, sort of lying around, maybe on a [INAUDIBLE] maybe on a hard drive, maybe running on prem, something like that, and you want to move everything over to Google Cloud. And you're like, this is going to take me a really long time to upload if I have to do it over the wire. So what do I do? 
 
 FRANCESC: You encode it into XML, and then you-- no. No, no no. I mean, there's only one option which is you can use gsutil and just start sending that file through the network. And that's going to take a very long time. 
 

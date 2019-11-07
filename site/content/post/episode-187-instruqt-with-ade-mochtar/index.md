@@ -75,7 +75,7 @@ Mark will be hanging on the East Coast, then meeting with customers in Austin.
 * "BumbleBeeShort.mp3" by CGEffex of [Freesound.org](https://freesound.org)
 * "ComedyRimshot.wav" by XTRgamr of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 187 of the weekly Google Cloud Platform Podcast. I'm Jon, and I am here with my colleague Mark. Hey, Mark. How's it going?" >}} 
+{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 187 of the weekly Google Cloud Podcast. I'm Jon, and I am here with my colleague Mark. Hey, Mark. How's it going?" >}} 
 
 MARK: Hey, Jon. How are you? 
 

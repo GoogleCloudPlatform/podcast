@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/bx4wsd/episode_180_fi
 
 Google Developer Advocate [Jen Person](https://twitter.com/ThatJenPerson) talks with [Mark Mandel](https://twitter.com/Neurotic) and [Mark Mirchandani](https://twitter.com/markmirch) today about developments in Firebase. Firebase is a suite of products that helps developers build apps. According to Jen, it's equivalent to the client-side of Google Cloud. Firebase works across platforms, including Android, web, iOS and offers many growth features, setting it apart from other Google products. It helps site and app owners interact with and reach customers with services like notifications, remote configurations to optimize the app, testing, and more.
 
-Cloud Firestore has come out of beta, and it is available both through Firebase and Google Cloud Platform, making it easy for developers to move from one to the other if their needs change. 
+Cloud Firestore has come out of beta, and it is available both through Firebase and Google Cloud, making it easy for developers to move from one to the other if their needs change. 
 
 Recently, the Firebase team has been working to refine their products based on user feedback. Firebase Authentication has been upgraded with the additions of phone authentication, email link authentication, and multiple email actions. They've also added a generic authentication option so developers can use any provider they choose.
 
@@ -76,7 +76,7 @@ Mark Man will be at [Tokyo Next](https://cloud.withgoogle.com/next/tokyo/)! Watc
 
 Mark Mirch is going on vacation!
 
-{{< transcript "[MUSIC PLAYING] MARK MIRCHANDANI: Hi, and welcome to episode 180 of the weekly Google Cloud Platform Podcast. I'm Mark and I'm here with my colleague, Mark. Hi, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MARK MIRCHANDANI: Hi, and welcome to episode 180 of the weekly Google Cloud Podcast. I'm Mark and I'm here with my colleague, Mark. Hi, Mark." >}} 
 
 MARK MANDEL: Hey, Mark. 
 
@@ -98,7 +98,7 @@ MARK MANDEL: So, you know, so there's been a bit of stuff come out.
 
 MARK MIRCHANDANI: People have been working on it. 
 
-MARK MANDEL: Yeah, yeah. They've been up to some things. So yeah, that's a really cool conversation. And then after that, I get to ask you a tough question, which is how do I save money on my Google Cloud Platform resources. 
+MARK MANDEL: Yeah, yeah. They've been up to some things. So yeah, that's a really cool conversation. And then after that, I get to ask you a tough question, which is how do I save money on my Google Cloud resources. 
 
 MARK MIRCHANDANI: Super important. I know everybody-- well, everybody wants state money. 
 
@@ -638,7 +638,7 @@ MARK MANDEL: Yep. Sounds great. I'm looking forward to all the new content she's
 
 MARK MIRCHANDANI: It's going to be super cool. 
 
-MARK MANDEL: Yeah. So let's get stuck into our question of the week, where I get to ask the tough questions. What I want to know is how do I save money on my Google Cloud Platform resources, just across all of them? Can you solve all those problems? 
+MARK MANDEL: Yeah. So let's get stuck into our question of the week, where I get to ask the tough questions. What I want to know is how do I save money on my Google Cloud resources, just across all of them? Can you solve all those problems? 
 
 MARK MIRCHANDANI: Just every, every resource? 
 

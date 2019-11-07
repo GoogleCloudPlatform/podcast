@@ -65,7 +65,7 @@ Mark and will be at [KubeCon](https://events.linuxfoundation.org/events/kubecon-
 
 Melanie will be at [SOCML](https://sites.google.com/view/socml-2018/home) in November and [Black in AI](https://blackinai.github.io) and [LatinX](http://www.latinxinai.org) in December.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi. And welcome to episode number 156 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. You are back. Yay!" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi. And welcome to episode number 156 of the weekly Google Cloud Podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. You are back. Yay!" >}}
 
 MELANIE: Yay! Just for a minute, because there's a lot of smoke outside. 
 
@@ -233,7 +233,7 @@ MELANIE: What are some of the biggest challenges you have with the UI that you'r
 
 ROMAN: It's the fact that it is so free for the user. There is a freedom of choice on how you interact, what you say, how you say it. Constraining people with menus or users with menus and links takes a lot of headache away. But when you have to expect unexpected and handle it in the way where it makes sense to the user-- that's quite challenging. And it's also very rewarding when you get it right. So language processing-- natural language processing and machine learning is something that we breathe and live everyday. 
 
-Scalability, of course, something that we are aware and keeping top of the mind. But again, the choices that we made going with Google Cloud Platform also based on the fact that Google helps us with scaling that part. So this is less of a concern for us. But then again, since it's a global service, of course it will be an issue as we scale as a company. It's the cultural context, and how one thing that we say or we hear mean something else in a different region of the world. This is more and more becoming apparent. And we're trying to find interesting and creative ways of handling that. 
+Scalability, of course, something that we are aware and keeping top of the mind. But again, the choices that we made going with Google Cloud also based on the fact that Google helps us with scaling that part. So this is less of a concern for us. But then again, since it's a global service, of course it will be an issue as we scale as a company. It's the cultural context, and how one thing that we say or we hear mean something else in a different region of the world. This is more and more becoming apparent. And we're trying to find interesting and creative ways of handling that. 
 
 THERESE: Can I also add, when it comes to UI-- 
 

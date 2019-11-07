@@ -66,7 +66,7 @@ Mark Mirch is working around town but will be headed to LA soon.
 
 Mark Mandel will be at [Pax Dev](https://dev.paxsite.com), [Pax West](https://west.paxsite.com), [Kubecon](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/), and the [GDC Online Games Technology Summit](https://www.gdconf.com).
 
-{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 192 of the weekly Google Cloud Platform podcast. My name is Mark, and just for funs, I'm joined by Mark again. How are you doing, Mark?" >}}
+{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 192 of the weekly Google Cloud podcast. My name is Mark, and just for funs, I'm joined by Mark again. How are you doing, Mark?" >}}
 
 MARK MIRCHANDANI: Hey, Mark. I'm doing well. How are you? 
 
@@ -80,7 +80,7 @@ MARK MIRCHANDANI: [LAUGHS] I don't think I can-- I don't think I have an accent 
 
 MARK MANDEL: [LAUGHS] Anyway, why don't we get stuck into the actual podcast? Who are we talking to this week? 
 
-MARK MIRCHANDANI: Well, this week, we're talking to Billy Jacobson about Bigtable, which is something we have not talked about in quite a while. So super interesting to hear a little bit more about, especially for people who haven't used it, what Bigtable is good for, what it's not good for, how it kind of plays into all of the different products that Google Cloud Platform has. 
+MARK MIRCHANDANI: Well, this week, we're talking to Billy Jacobson about Bigtable, which is something we have not talked about in quite a while. So super interesting to hear a little bit more about, especially for people who haven't used it, what Bigtable is good for, what it's not good for, how it kind of plays into all of the different products that Google Cloud has. 
 
 MARK MANDEL: Great interview with Billy as well. Then I have a fun question for you wherein I ask you if I have an organization for my GCP project, how do I break down my billing data by folder? 
 
@@ -166,7 +166,7 @@ MARK MIRCHANDANI: --from that.
 
 MARK MANDEL: OK, fair enough. Anyway, before we get stuck talking about Bigtable, which is what we're going to talk about today, why don't you tell us a little about yourself? What do you do here at Google? 
 
-BILLY: All right. I've been at Google for four years, and I've actually been working on the Google Cloud Platform for all four of those years. My first three years, I was working on the Cloud console UI as a front end engineer, so I got to learn about a ton of different products, about the user experience of those products. And I think Michael Kleinerman, who was on that team, was actually just interviewed on this podcast a few episodes ago. 
+BILLY: All right. I've been at Google for four years, and I've actually been working on the Google Cloud for all four of those years. My first three years, I was working on the Cloud console UI as a front end engineer, so I got to learn about a ton of different products, about the user experience of those products. And I think Michael Kleinerman, who was on that team, was actually just interviewed on this podcast a few episodes ago. 
 
 But now I am in developer relations. I'm a developer programs engineer focusing on Cloud Bigtable. So that involves writing code samples in the documentation, creating code labs and tutorials, working on going and giving some talks, really just trying to look at the developer experience and try to improve that in as many ways as I see fit. 
 
@@ -398,7 +398,7 @@ MARK MANDEL: Yeah. No, great interview. Thanks so much for joining us, Billy. Bu
 
 So if I have an organization-- I've set up an organization for my variety of GCP projects. And my projects are sort of separated out by folder so I can manage them in a coherent way. It's easy to see what's going on. How do I break down my billing data by folder so I can see what's going on at that sort of folder level? 
 
-MARK MIRCHANDANI: Right. Yeah, I mean this is a really important question for people who are running an organization inside of GCP. So a lot of people who are just kind of either individual users, or hobbyists, or something like that can spin up Google Cloud Platform with their personal accounts. And they can still set up a billing account, export that billing account to BigQuery, and then you have a actual, like, line-by-line, more detailed version of your billing data set. So you can write any analytics based on that, or you can do any work based on that. 
+MARK MIRCHANDANI: Right. Yeah, I mean this is a really important question for people who are running an organization inside of GCP. So a lot of people who are just kind of either individual users, or hobbyists, or something like that can spin up Google Cloud with their personal accounts. And they can still set up a billing account, export that billing account to BigQuery, and then you have a actual, like, line-by-line, more detailed version of your billing data set. So you can write any analytics based on that, or you can do any work based on that. 
 
 But when you're an organization, maybe even like a Macy's, and your organization structure is a little bit more complicated, you can create folders to group your projects. But when you export that to BigQuery, you only have the ID's of the folders, not the actual names. 
 
@@ -420,7 +420,7 @@ MARK MIRCHANDANI: Yep, a full view of your organization. So I think a lot of peo
 
 MARK MANDEL: Very cool. Awesome. Well, before we finish up, Mark, are you producing any cool videos, going anywhere fancy? Like, what are you up to? 
 
-MARK MIRCHANDANI: Oh, well, I'll be headed to LA for a week in a few weeks. But in the meantime, I think it's mostly just working on videos. We are working with releasing some new billing content, very much in line with our previous question, and talking a little bit more about how people can understand the tools that are available to them inside of the Google Cloud Platform console. So I'm super excited to see those coming out probably in the next couple weeks. 
+MARK MIRCHANDANI: Oh, well, I'll be headed to LA for a week in a few weeks. But in the meantime, I think it's mostly just working on videos. We are working with releasing some new billing content, very much in line with our previous question, and talking a little bit more about how people can understand the tools that are available to them inside of the Google Cloud console. So I'm super excited to see those coming out probably in the next couple weeks. 
 
 MARK MANDEL: Very, very cool. 
 

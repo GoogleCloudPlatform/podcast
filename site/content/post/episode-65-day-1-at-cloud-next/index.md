@@ -33,7 +33,7 @@ Today we are bringing you interviews for a wide variety of speakers and attendee
 
 ###### Sara Robinson
 
-[Sara Robinson](https://twitter.com/SRobTweets) is a Developer Advocate for [Google Cloud Platform](https://cloud.google.com/), and came 
+[Sara Robinson](https://twitter.com/SRobTweets) is a Developer Advocate for [Google Cloud](https://cloud.google.com/), and came 
 to talk to us about her [*amazing* keynote demo](https://youtu.be/j_K1YoMHpbk?list=PLIivdWyY5sqI8RuUibiH8sMb1ExIw0lAR&t=5328)
 on The [Google Cloud Video Intelligence API](https://cloud.google.com/blog/big-data/2017/03/announcing-google-cloud-video-intelligence-api-and-more-cloud-machine-learning-updates).
 
@@ -53,7 +53,7 @@ talk about SRE culture at Dropbox, and to talk about all the exciting things she
 ###### Clare Bayley
 
 [Clare Bayley](https://www.linkedin.com/in/clarebayley/), Global Codelabs Lead gave us the inside scoop on how you can Codelabs both at Next, and at home - 
-without the need for a Google Cloud Platform account. Check it out at [https://google.qwiklabs.com/catalog](https://google.qwiklabs.com/catalog).
+without the need for a Google Cloud account. Check it out at [https://google.qwiklabs.com/catalog](https://google.qwiklabs.com/catalog).
 
 ##### More about Cloud Next
  
@@ -66,7 +66,7 @@ without the need for a Google Cloud Platform account. Check it out at [https://g
     <p><small><a href="https://twitter.com/tammybutow/status/839604540282290176">https://twitter.com/tammybutow/status/839604540282290176</a></small></p>
 </div>
 
-{{< transcript "FRANCESC: Hi, and welcome to episode numbers 65 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode numbers 65 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good. It feels like we did an episode just yesterday.
 
 FRANCESC: It is crazy. It's been so long without recording an episode. And, yeah, we are, today, at Moscone West here in San Francisco for Google Cloud next 2017.
@@ -201,7 +201,7 @@ MARK: So why don't we go talk to Sowmya?
 
 FRANCESC: Sounds good. Let's do that.
 
-And we're very happy now to welcome Sowmya Subrama, engineer at Google, to the "Google Cloud Platform" podcast. How are you doing, Sowmya?
+And we're very happy now to welcome Sowmya Subrama, engineer at Google, to the "Google Cloud" podcast. How are you doing, Sowmya?
 
 SOWMYA: I'm doing good. Thank you.
 

@@ -27,7 +27,7 @@ Two versions of Cloud Run were released last week. Cloud Run is the fully manage
 
 ##### Steren Giannini
 
-Steren is a Product Manager in the Google Cloud Platform serverless team. He graduated from École Centrale Lyon, France and then was CTO of a startup that created mobile and multi-device solutions. After joining Google, Steren managed Stackdriver Error Reporting, Node.js on App Engine, and Cloud Run.
+Steren is a Product Manager in the Google Cloud serverless team. He graduated from École Centrale Lyon, France and then was CTO of a startup that created mobile and multi-device solutions. After joining Google, Steren managed Stackdriver Error Reporting, Node.js on App Engine, and Cloud Run.
 
 ##### Ryan Gregg
 
@@ -86,7 +86,7 @@ Michelle & Mark Mirchandani will be at [Google IO](https://events.google.com/io/
 
 Michelle will be at [Kubecon Barcelona](https://sched.co/MPgr) in May
 
-{{< transcript "[MUSIC PLAYING] MARK: Hello there, and welcome to episode number 173 of the weekly Google Cloud Platform Podcast. I'm Mark, and I'm here with Michelle. Hello, Michelle." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hello there, and welcome to episode number 173 of the weekly Google Cloud Podcast. I'm Mark, and I'm here with Michelle. Hello, Michelle." >}}
 
 MICHELLE: Hi, Mark. How's it going? 
 

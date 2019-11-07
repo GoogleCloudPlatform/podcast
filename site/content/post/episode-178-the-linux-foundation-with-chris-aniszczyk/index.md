@@ -63,7 +63,7 @@ Mark Mirchandani will be working on more film projects.
 
 Mark Mandel will be at [Tokyo Next](https://cloud.withgoogle.com/next/tokyo/) in July and will be at [Open Source in Gaming](https://events.linuxfoundation.org/events/open-source-summit-north-america-2019/program/co-located-events/) the day before the [Open Source North America Summit](https://events.linuxfoundation.org/events/open-source-summit-north-america-2019/attend/about/) in August.
 
-{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 178 of the weekly Google Cloud Platform podcast. I'm Mark, and I'm here with Mark as well. How are you doing, Mark? " >}}
+{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 178 of the weekly Google Cloud podcast. I'm Mark, and I'm here with Mark as well. How are you doing, Mark? " >}}
 
 MARK MIRCHANDANI: I'm Mark. I'm also Mark. How are you, Mark? 
 

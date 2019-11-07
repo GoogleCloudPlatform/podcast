@@ -88,7 +88,7 @@ Melanie is at [Deep Learning Indaba](http://www.deeplearningindaba.com) and Mark
 
 Gabe will be at [Cloud Next London](https://cloud.withgoogle.com/next18/london) and the [IoT World Congress](https://www.iotsworldcongress.com/the-event/visit-passes/).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 146 of the weekly Google Cloud Platform podcast. My name is Mark Mandel. And I'm here as always with my colleague, Melanie Warrick. Melanie, how are you doing?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 146 of the weekly Google Cloud podcast. My name is Mark Mandel. And I'm here as always with my colleague, Melanie Warrick. Melanie, how are you doing?" >}}
 
 MELANIE: Hi, Mark. Doing great. How are you doing? 
 
@@ -126,7 +126,7 @@ MARK: Awesome. I wanted to talk about this really cool thing I like, too, which 
 
 Since Next, though, we have onboarded seven new datasets that define boundaries in the United States by parameters such as ZIP code and things like that, basically to support geospatial queries. So we have a whole bunch of new data in there for you to do to geospatial stuff, to do ML-based analytics, to use the new ML toolkits that are available now in BigQuery. 
 
-And if you want take advantage of any of those, make sure you head over to the Google Cloud Platform Marketplace. There's a datasets filter you can go into, and at last look, it looks like we have about 101 different public datasets for you to play with on BigQuery. And you can do up to a terabyte of querying on BigQuery for free, which is also pretty amazing, per month. 
+And if you want take advantage of any of those, make sure you head over to the Google Cloud Marketplace. There's a datasets filter you can go into, and at last look, it looks like we have about 101 different public datasets for you to play with on BigQuery. And you can do up to a terabyte of querying on BigQuery for free, which is also pretty amazing, per month. 
 
 MELANIE: Another thing we wanted to mention again, referencing Kaggle and also Google AI, is that there is a new challenge through Kaggle Google AI has posted, specifically to encourage the users and the Kagglers out there to develop models that are more robust to blindspots that exist in datasets. We've talked about this in the past. I've seen many people discuss machine learning bias and fairness in particular. And that really stems from the data itself and how the data can really be biased in what you've gathered and how that can then influence the model that's built. 
 

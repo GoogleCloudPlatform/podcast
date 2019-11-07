@@ -73,7 +73,7 @@ Francesc will be running a workshop at [QCon New York](https://qconnewyork.com/)
 
 Mark is going on vacation for a few weeks - but
 
-{{< transcript "FRANCESC: Hi. And welcome to episode number 80 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi. And welcome to episode number 80 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I am very well today. How are you doing, Francesc? 
 
 FRANCESC: I am the most excellent I've ever been. I am very happy, we're going to be continuing the conversation with Christopher Sanson, product manager for Container Builder. But today, we're going to be talking about the continuation, I want to say, in the topic of CICD-- Continuous Integration, Continuous Deployment-- about Spinnaker. 
@@ -306,7 +306,7 @@ So basically, it says Cloud Service Repositories is free for up to five project 
 
 FRANCESC: Yeah. It is pretty confusing, especially because, like, what does it mean to "access?" Does it mean that I have access that I do access it? So what we did was simply go and ask. 
 
-So we asked our dear friend Chris Sells. He's a product manager here at Google Cloud Platform. And we've had them at the podcast twice. We have him on episode number 5 a long time ago on developer experience. 
+So we asked our dear friend Chris Sells. He's a product manager here at Google Cloud. And we've had them at the podcast twice. We have him on episode number 5 a long time ago on developer experience. 
 
 And then again, we had him for episode 49 with Windows and .NET. So we asked him. And his answer was basically saying, the important thing to know is it is not about the potential of accessing a project that counts. It's actually accessing the product. 
 

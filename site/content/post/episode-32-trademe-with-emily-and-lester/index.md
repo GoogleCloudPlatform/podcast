@@ -45,7 +45,7 @@ Trade Me with a background in Marketing. He's responsible for implementing
 [Google Analytics 360](https://www.google.com/analytics/360-suite/) across their sites
 and apps, and using that data to tell the story of how their users behave. He uses
 [BigQuery](https://cloud.google.com/bigquery/) most weeks to answer tough questions, and for AB testing.
-He's also exploring Google Cloud Platform for text analysis, image analysis and machine learning applications.
+He's also exploring Google Cloud for text analysis, image analysis and machine learning applications.
 
 ##### Cool thing of the week
 
@@ -70,7 +70,7 @@ He's also exploring Google Cloud Platform for text analysis, image analysis and 
 
 - Three Simple Steps to Save Costs when Prototyping with App Engine Flexible Environment [medium](https://medium.com/google-cloud/three-simple-steps-to-save-costs-when-prototyping-with-app-engine-flexible-environment-104fc6736495#.yfkdl6ock)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 32 of the weekly Google Cloud Platform podcast. I'm Francesc Campoy, and I'm here with my colleague Mark. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 32 of the weekly Google Cloud podcast. I'm Francesc Campoy, and I'm here with my colleague Mark. Hey, Mark, how are you doing?" >}}
 MARK: I'm good, Francesc. How are you doing? 
 
 FRANCESC: Doing great. Very excited about today. We're going to be talking with some people with weird accents like you. 
@@ -79,7 +79,7 @@ FRANCESC: Doing great. Very excited about today. We're going to be talking with 
 
 MARK: Yeah, we're going to be talking to some people down in New Zealand. 
 
-FRANCESC: Yep, some Kiwis. And we're going to be talking about how they use two different-- two completely different-- Google products, actually. They use Google Cloud Platform. 
+FRANCESC: Yep, some Kiwis. And we're going to be talking about how they use two different-- two completely different-- Google products, actually. They use Google Cloud. 
 
 MARK: Yep. 
 
@@ -285,7 +285,7 @@ EMILY: Yeah.
 
 LESTER: Yeah, remember those days. And yeah, we have a ton of boxes. We're not super distributed as a model. We're largely on a kind of a Microsoft stack. 
 
-So this is where it's quite interesting for us. Even beyond analytics, when you get into the data processing where the distributed models start to make a lot of sense, we may begin to investigate looking into how the Google Cloud Platform can help provide some of that distributed kind of processing power. 
+So this is where it's quite interesting for us. Even beyond analytics, when you get into the data processing where the distributed models start to make a lot of sense, we may begin to investigate looking into how the Google Cloud can help provide some of that distributed kind of processing power. 
 
 MARK: So I'm guessing you've got local machines because latency, and because you know your audience is right there. But then when that immediate speed thing is not necessary as much and you're looking at how do we elastically scale our data processing, that's when you're sort of stepping into the cloud. Would that be correct? 
 

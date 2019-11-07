@@ -26,7 +26,7 @@ In the ninth episode of this podcast and first of 2016, your hosts
 ##### About Ram
 
 Ram Ramanathan joined Google in 2014 where he’s been working on leading
-the machine learning efforts for Google Cloud Platform, and  has been a
+the machine learning efforts for Google Cloud, and  has been a
 large part of launching the new Google Cloud Vision API. He comes with a
 great deal  of experience in the industry after working for other big
 players such as GE Healthcare and Microsoft.
@@ -70,7 +70,7 @@ him on twitter at
 -   Google Cloud Storage Signed URLs
     [docs](https://cloud.google.com/storage/docs/access-control?hl=en#Signed-URLs)
 
-{{< transcript "﻿FRANCESC: Hi, and welcome to the ninth episode of the Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark." >}}
+{{< transcript "﻿FRANCESC: Hi, and welcome to the ninth episode of the Google Cloud podcast. I am Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing today?
 FRANCESC: Pretty good. Happy New Year.
 MARK: Happy New Year to you too. Good start of the year, brand new podcast episode.
@@ -110,7 +110,7 @@ RAMANATHAN: Thank you guys. Thanks for having me on the show.
 MARK: An absolute pleasure, and I did manage to pronounce your name correctly?
 RAMANATHAN: Yes, you did.
 MARK: Wonderful. I like getting that right. It makes me happy. So for those people who aren't familiar with you and what you do, do you want to give us a little bit of your background and tell us a little about yourself?
-RAMANATHAN: Sure. Yeah, I'm a product manager in the Google Cloud Platform. I look after some of our machine learning technologies, in particular our--we just released our Google Cloud Vision API. It's one of our key products that I manage, and I've spent a lot of time in the technology space with a variety of different companies both in the Bay Area and in Seattle, and I'm based in Seattle.
+RAMANATHAN: Sure. Yeah, I'm a product manager in the Google Cloud. I look after some of our machine learning technologies, in particular our--we just released our Google Cloud Vision API. It's one of our key products that I manage, and I've spent a lot of time in the technology space with a variety of different companies both in the Bay Area and in Seattle, and I'm based in Seattle.
 MARK: Pretty cool. So you've got a long history of sort of doing machine learning-type stuff?
 RAMANATHAN: That's right. Pri--initially started off a lot in the business intelligence space thinking about how users can make sense of all the data they collect and then moving on to machine learning in the last few years.
 FRANCESC: Nice. Could you give us a little bit of a general idea of--so we have machine learning and business intelligence and so on, and then on top of that there's Cloud Vision API. What is it, and how is it related to machine learning?
@@ -130,7 +130,7 @@ FRANCESC: It's really cool. I try with it, but for some reason, even though I wa
 MARK: Sure, sure, you just don't have a recognizable face, quite clearly.
 FRANCESC: Yeah, I'm just not attractive enough for bots.
 MARK: No, that's totally fair enough. Talking about face detection now, I can see here that facial recognition isn't supported. Do we want to talk a little bit about that?
-RAMANATHAN: Sure. I think, you know, of--you know, one of the things that we are focused on is user privacy, and so what we provide in--on the Google Cloud Platform is this ability to detect faces. We don't do facial recognition, so as part of our face detection, we're able to detect the faces inside the image, and we also detect the associated emotions of the face, whether a person is smiling, not smiling. We don't store the info--both the images or the associated information we return back to the user on Google servers. We return it back to you, to the end user, so in that way we're ensuring that, you know, the user has control over their data and associated responses.
+RAMANATHAN: Sure. I think, you know, of--you know, one of the things that we are focused on is user privacy, and so what we provide in--on the Google Cloud is this ability to detect faces. We don't do facial recognition, so as part of our face detection, we're able to detect the faces inside the image, and we also detect the associated emotions of the face, whether a person is smiling, not smiling. We don't store the info--both the images or the associated information we return back to the user on Google servers. We return it back to you, to the end user, so in that way we're ensuring that, you know, the user has control over their data and associated responses.
 MARK: That sounds pretty reasonable.
 FRANCESC: That's very interesting. So basically, we're able to see what--if there's any face, what are they doing, but we don't know who they are, basically?
 RAMANATHAN: That's correct.

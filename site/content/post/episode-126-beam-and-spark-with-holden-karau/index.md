@@ -71,7 +71,7 @@ and will also be talking at the [Understand Risk Forum](https://understandrisk.o
 
 Special shout out: [Google I/O](https://events.google.com/io/) and [PyCon](https://us.pycon.org/2018/) are both happening this week
 
-{{< transcript "MARK: Hi, and welcome to Episode Number 126 of the Weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my colleague, as always, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to Episode Number 126 of the Weekly Google Cloud podcast. I'm Mark Mandel, and I'm here with my colleague, as always, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 MELANIE: I'm doing good. How are you doing? 
 
@@ -91,7 +91,7 @@ MARK: Yeah, two great open-source projects for processing big data at scale.
 
 MELANIE: Definitely. Before that, as always, we talk about our cool things of the week. And we do our question of the week at the end. And this week's question of the week is, I have a continuous integration build process set up with Container Builder, but it's all sequential. I want to speed things up by processing parts of it in parallel. How do I do that? 
 
-But first, as always, cool things of the week. So Twitter is moving parts of its process to GCP. And we have a link to the blog post that talks about that, as well as some other additional kind of funny little bits. Apparently, it's moving its cold data storage and flexible compute Hadoop's clusters to Google Cloud Platform, which is over 300 petabytes of data. 
+But first, as always, cool things of the week. So Twitter is moving parts of its process to GCP. And we have a link to the blog post that talks about that, as well as some other additional kind of funny little bits. Apparently, it's moving its cold data storage and flexible compute Hadoop's clusters to Google Cloud, which is over 300 petabytes of data. 
 
 And fun fact, Greg Wilson, our fearless leader, had pointed out that back in the day, for any of you out there who watched "Star Trek, Next Generation"-- 
 

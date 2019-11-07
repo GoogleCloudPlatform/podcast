@@ -78,7 +78,7 @@ He also will be speaking on Thursday at [GDG NYC](http://www.meetup.com/gdgnyc/e
 
 You can find [Mark](https://twitter.com/neurotic) at [SIEGE](https://siegecon.net/) from October 7th to 9th
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 46 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I am here with my colleague, Mark Mandel. Hi, Mark. How excited are you today?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 46 of the weekly Google Cloud podcast. I am Francesc Campoy, and I am here with my colleague, Mark Mandel. Hi, Mark. How excited are you today?" >}}
 MARK: I'm pretty excited. I am. I'm pretty excited. 
 
 FRANCESC: Yeah. Today we have the incredible honor to have John Wilkes as our interviewee. And yeah, Mark is very, very excited about this. 
@@ -119,7 +119,7 @@ MARK: There were a lot of them, absolutely.
 
 FRANCESC: And there was also one thing that you were involved with. 
 
-MARK: Well, I was loosely involved with. I think that's maybe a little stretch, but we finally got our blog post out about how Pokemon Go runs on the Google Cloud Platform, which is really, really cool. So we talk a little bit in that blog post about how they use data store for state management, how they have one of the biggest GKE clusters ever. 
+MARK: Well, I was loosely involved with. I think that's maybe a little stretch, but we finally got our blog post out about how Pokemon Go runs on the Google Cloud, which is really, really cool. So we talk a little bit in that blog post about how they use data store for state management, how they have one of the biggest GKE clusters ever. 
 
 FRANCESC: Ever. 
 
@@ -185,7 +185,7 @@ MARK: And credit where credit's due. Your name is on the Borg paper, right?
 
 JOHN: So I wrote the paper with a bunch of other collaborators who did a bunch of work and experimentation about the system that many, many other people had built. So I'm one of a huge team of folks who've done the actual work. I'm just the guy who ends up being the poor person talking out in the front. But they are the people who constructed the system. They run it, they keep on developing it right now. 
 
-MARK: That's cool. So I guess it means if you're someone who's used Maps or Search or Gmail, anything even above GCP-- Google Cloud Platform-- you've used Borg. 
+MARK: That's cool. So I guess it means if you're someone who's used Maps or Search or Gmail, anything even above GCP-- Google Cloud-- you've used Borg. 
 
 JOHN: Exactly. With luck, you haven't known it. 
 
@@ -261,7 +261,7 @@ However, we will take the operating system down roughly once a month in order to
 
 When you take the operating system down, you basically have to reboot the machine. And to reboot the machine, all the stuff that was running on it is going to have a bad time. So that basically is the primary driver. 
 
-If you're a production task, imagine something like Gmail or Google Docs or Google Cloud Platform products, those things will see an outage roughly once a month if they're running all the time. That's OK for them, because they're used to having other copies somewhere else. So it's not a problem. You just write software to cope with the fact it's going to go away. But it means that there is a sort of slow, gentle churn of things being removed. 
+If you're a production task, imagine something like Gmail or Google Docs or Google Cloud products, those things will see an outage roughly once a month if they're running all the time. That's OK for them, because they're used to having other copies somewhere else. So it's not a problem. You just write software to cope with the fact it's going to go away. But it means that there is a sort of slow, gentle churn of things being removed. 
 
 Now, as for what we call production stuff, which is the things we really care about, we have other things like batch jobs which are less important, or at least maybe they're more tolerant of things going wrong, is a way to think of it. 
 
@@ -573,7 +573,7 @@ MARK: Yeah, so possibly if there is anything bad happening on your account or do
 
 FRANCESC: Yeah, basically what are the things you should avoid doing and what happens if someone is somehow hacking you and doing those, you will get a notice saying, hey, something was going on. What do you do? 
 
-So very interesting topic and most of the things are related to, well, you got hacked. Somehow someone got access to your instances, and they're doing something that they should not be doing. So the episode right after is going to be about how do I secure my network, basically. So networking on Google Cloud Platform. 
+So very interesting topic and most of the things are related to, well, you got hacked. Somehow someone got access to your instances, and they're doing something that they should not be doing. So the episode right after is going to be about how do I secure my network, basically. So networking on Google Cloud. 
 
 MARK: Yeah, two really good conversations, which you should definitely listen in for. 
 
@@ -641,7 +641,7 @@ FRANCESC: @gcppodcast.
 
 MARK: Slack? 
 
-FRANCESC: There's a podcast channel in the Google Cloud Platform community. 
+FRANCESC: There's a podcast channel in the Google Cloud community. 
 
 MARK: Yes. 
 

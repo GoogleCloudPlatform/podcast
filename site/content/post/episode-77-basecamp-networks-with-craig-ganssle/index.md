@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.77.mp3"
 audioSize = 47019060
 categories = ["Customer", "Machine Learning"]
 date = "2017-05-17T01:07:49Z"
-description = "Basecamp Networks uses Machine Learning to diagnose easily what kind of sickness or parasite a crop might be suffering. They're powered by Google Cloud Platform, and their CEO, Craig Ganssle, is here to tell us all about it."
+description = "Basecamp Networks uses Machine Learning to diagnose easily what kind of sickness or parasite a crop might be suffering. They're powered by Google Cloud, and their CEO, Craig Ganssle, is here to tell us all about it."
 draft = false
 episodeNumber = 77
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/6bpckg/episode_77_bas
 
 [Basecamp Networks](http://basecampnetworks.com/) uses Machine Learning to diagnose
 easily what kind of sickness or parasite a crop might be suffering.
-They're powered by Google Cloud Platform, and their CEO, [Craig Ganssle](https://twitter.com/craiganssle), is here to tell
+They're powered by Google Cloud, and their CEO, [Craig Ganssle](https://twitter.com/craiganssle), is here to tell
 [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc)
 all about it.
 
@@ -71,7 +71,7 @@ in Alpharetta, GA where Craig resides with his wife and children.
 
 ##### Cool things of the week
 
-- Google Cloud Platform launches Northern Virginia region [announcement](https://cloudplatform.googleblog.com/2017/05/Google-Cloud-Platform-launches-Northern-Virginia-region.html).
+- Google Cloud launches Northern Virginia region [announcement](https://cloudplatform.googleblog.com/2017/05/Google-Cloud-Platform-launches-Northern-Virginia-region.html).
 - Compute Engine machine types with up to 64 vCPUs now ready for your production workloads [announcement](https://cloudplatform.googleblog.com/2017/05/Compute-Engine-machine-types-with-up-to-64-vCPUs-now-ready-for-your-production-workloads.html).
   - Listen to [Episode #41 Descartes Labs with Tim Kelton](https://gcppodcast.com/post/episode-41-descartes-labs-with-tim-kelton/).
 - Terraforming the Google Cloud [alexander.holbreich.org](http://alexander.holbreich.org/terraform-google-cloud/).
@@ -115,7 +115,7 @@ Mark is currently at [Nordic Games Conference](http://conf.nordicgame.com/), and
 if people are in San Francisco they should head over to the [Playcrafting & Extra Life 24 Hour Game Fest](https://www.eventbrite.com/e/playcrafting-extra-life-24-hour-game-fest-tickets-33350827222)
 where we are raising money for the UCSF Benioff Children's Hospitals.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 77 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 77 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 
 MARK: I'm doing very well. How are you doing, Francesc? 
 
@@ -175,7 +175,7 @@ FRANCESC: Sure. I'll go with that.
 
 MARK: I've actually done a decent job this time, possibly. Really love it when we can find cool stuff from the community-- either people send it to us, or it gets re-tweeted by teammates. And if you have stuff, please send it through. 
 
-But he wrote a really cool article about using Terraform with Google Cloud Platform-- sort of the steps that you need to go through to get it all set up, some of the gotchas that can kind of catch you out during the process. And basically, get you set up and ready to go if Terraform is your automation tool of choice, if you want to create machines, and storage, and all sorts of other good stuff. 
+But he wrote a really cool article about using Terraform with Google Cloud-- sort of the steps that you need to go through to get it all set up, some of the gotchas that can kind of catch you out during the process. And basically, get you set up and ready to go if Terraform is your automation tool of choice, if you want to create machines, and storage, and all sorts of other good stuff. 
 
 I'm all for automation. Anything that automates, I'm all for. 
 
@@ -195,7 +195,7 @@ CRAIG: Sure, absolutely. I'm Craig Ganssle, as you said. I am the founder and CE
 
 FRANCESC: What were you doing at Cloud Next? How do you use the cloud? You're talking about agriculture, you're talking about plants. What is the technological part of this? 
 
-CRAIG: Sure. We built a product in 2013, an application called intelliSCOUT. And intelliSCOUT is an artificial intelligence platform that uses image recognition to detect pathogens in plants, on crops, in agriculture in real time. The entire thing lives in the Google Cloud Platform. And we love it living there. It has had great results. 
+CRAIG: Sure. We built a product in 2013, an application called intelliSCOUT. And intelliSCOUT is an artificial intelligence platform that uses image recognition to detect pathogens in plants, on crops, in agriculture in real time. The entire thing lives in the Google Cloud. And we love it living there. It has had great results. 
 
 And being that it's in the cloud like that, it allows us to scale dramatically around the world. intelliSCOUT is being used in multiple countries around the world. And it's used highly in R&D environments with large corporations to do better trialing and better production for seeds and the performance of crops, I guess we could say. 
 
@@ -213,7 +213,7 @@ CRAIG: Yeah.
 
 FRANCESC: The pioneers. Nice. 
 
-MARK: All right, so just so I get this right in my head. So basically, you have people out in the field either using their mobile phones or Google Glass, taking photos of crops and then sending that back to some services that run in the cloud, or Google Cloud Platform, that then process that and determine information about it such as yield, or disease, or other such things. Is that pretty much correct? 
+MARK: All right, so just so I get this right in my head. So basically, you have people out in the field either using their mobile phones or Google Glass, taking photos of crops and then sending that back to some services that run in the cloud, or Google Cloud, that then process that and determine information about it such as yield, or disease, or other such things. Is that pretty much correct? 
 
 CRAIG: Yeah. That's pretty much it. It has some additional automations in crop monitoring. There are some things-- like with corn, they will count the kernels on an ear of corn to help predict yield. And today, a lot of times they do that with a Sharpie. Well, if you've ever stood out in July, in a field, in Georgia, it gets really hot. 
 
@@ -237,7 +237,7 @@ CRAIG: So we've increased that, and we've narrowed the time window in which it h
 
 MARK: So is that-- what powers that? Is that TensorFlow? Is that something else? Is that some kind of machine learning thing? What's the deal there? 
 
-CRAIG: Yeah, so we started with kind of like OpenCV, and now we are using TensorFlow. There's a lot of components that we're doing. Firebase-- I think we're using Pub/Sub and Kubernetes. We're using a lot of the Google Cloud Platform, the full stack. 
+CRAIG: Yeah, so we started with kind of like OpenCV, and now we are using TensorFlow. There's a lot of components that we're doing. Firebase-- I think we're using Pub/Sub and Kubernetes. We're using a lot of the Google Cloud, the full stack. 
 
 FRANCESC: So let's concentrate first on the part that for me is the most exciting one, which is the machine learning side of it. You said that you started with OpenCV. Could you tell a little bit to the audience that doesn't know what OpenCV is? And why were you using it, and what made you migrate to TensorFlow? 
 
@@ -295,9 +295,9 @@ FRANCESC: I do not know that. Could you tell us a little bit about it?
 
 CRAIG: It allows us to sort of push things to production in real time. 
 
-MARK: So I'll ask this question then. So why did you end up choosing Google Cloud Platform as your platform? Were there particular features, or tools, or platforms, or things that made your life easier for what you were building? 
+MARK: So I'll ask this question then. So why did you end up choosing Google Cloud as your platform? Were there particular features, or tools, or platforms, or things that made your life easier for what you were building? 
 
-CRAIG: So I have three definitive reasons for that. The first one being, we actually started in AWS. And it was not user friendly to work with. And it crashed on us a couple of times. So we moved over to Google Cloud Platform. The interface is just far easier to use and navigate through. The connective framework of things like Kubernetes, and Firebase, and the other things that kind of plug into GCP were a whole lot easier to use. 
+CRAIG: So I have three definitive reasons for that. The first one being, we actually started in AWS. And it was not user friendly to work with. And it crashed on us a couple of times. So we moved over to Google Cloud. The interface is just far easier to use and navigate through. The connective framework of things like Kubernetes, and Firebase, and the other things that kind of plug into GCP were a whole lot easier to use. 
 
 And Basecamp Networks as a company has a longstanding partnership with Google, with the Glass development team for Google Glass. We're a G Suite reseller and integrator. So those kinds of things, it just made sense to just keep it all in the Google house. 
 

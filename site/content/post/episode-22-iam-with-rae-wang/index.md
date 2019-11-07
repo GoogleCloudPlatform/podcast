@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.22.mp3"
 audioSize = 48483940
 categories = ["IAM", "Security", "Authentication"]
 date = "2016-04-20T01:07:49Z"
-description = "In the twenty second episode of this podcast, your hosts Francesc and Mark interview Rae Wang, a Product Manager at Google, about IAM on the Google Cloud Platform."
+description = "In the twenty second episode of this podcast, your hosts Francesc and Mark interview Rae Wang, a Product Manager at Google, about IAM on the Google Cloud."
 draft = false
 episodeNumber = 22
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ In the twenty second episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
 [Rae Wang](https://www.linkedin.com/in/raewang),
-a Product Manager at Google, about IAM on the Google Cloud Platform.
+a Product Manager at Google, about IAM on the Google Cloud.
 <!--more-->
 
 ##### About Rae
@@ -48,9 +48,9 @@ for containers.
 ##### Interviews
 
 - Google Cloud Identity & Access Management [docs](https://cloud.google.com/iam/)
-- GCPNext - Identity and Access Management on Google Cloud Platform [YouTube](https://www.youtube.com/watch?v=twC2viX7u6s)
-- Google Cloud Platform Auth Guide [guide](https://cloud.google.com/docs/authentication)
-- Connecting to Other Google Cloud Platform Services [guide](https://cloud.google.com/compute/docs/authentication)
+- GCPNext - Identity and Access Management on Google Cloud [YouTube](https://www.youtube.com/watch?v=twC2viX7u6s)
+- Google Cloud Auth Guide [guide](https://cloud.google.com/docs/authentication)
+- Connecting to Other Google Cloud Services [guide](https://cloud.google.com/compute/docs/authentication)
 - Granting Access with IAM Roles [guide](https://cloud.google.com/compute/docs/access/iam)
 - OAuth 2.0 Service Accounts [docs](https://developers.google.com/identity/protocols/OAuth2ServiceAccount)
 
@@ -59,7 +59,7 @@ for containers.
 - Google Cloud CDN [docs](https://cloud.google.com/cdn/docs)
 - Google Container Engine [docs](https://cloud.google.com/container-engine/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 22 of the Weekly Google Cloud Platform Podcast. I'm Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 22 of the Weekly Google Cloud Podcast. I'm Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing today? 
 FRANCESC: Pretty good. Very, very excited about our interviews with and "s." 
 MARK: Interviews with an "s." Very sneaky. We're sneaking in an extra interview. 
@@ -78,7 +78,7 @@ BRENDAN: Hi. Doing great. Glad you're here.
 FRANCESC: So for those that don't know who Brendan Burns is, he's the famous person that made a video about what is faster to start GKE cluster or to make a latte. 
 BRENDAN: That's true, actually, and it's gotten faster, so I'm gonna have to up my latte making game I think. 
 FRANCESC: Yeah, that is pretty awesome. So tell us a little bit about yourself. Who are you? What do you do at Google? 
-BRENDAN: Sure. So I've done a lot of things at Google. I've been at Google almost eight years, but in the Google Cloud Platform what I've done recently is I have, with a couple of cocollaborators a couple of years ago had this crazy idea that maybe we should open source some of our ideas in cluster management. The Borg software that runs every thing from search to Gmail and every thing, and actually all of the VMs and every thing that the Google Cloud Platform runs, we should build out an open sourced version of that software, and we started doing that. It came out a little under two years ago. It was a project called "Ubernetes," and it's grown from there, and so we just keep trying to push that forward and help everybody sort of compute like Google does. Whether they're actually--Honestly, whether they're on the Google Cloud Platform or not, so really believe that we want it to go, you know, in to people's data centers as well as being available on the Google Cloud and wherever they happen to be running their compute. 
+BRENDAN: Sure. So I've done a lot of things at Google. I've been at Google almost eight years, but in the Google Cloud what I've done recently is I have, with a couple of cocollaborators a couple of years ago had this crazy idea that maybe we should open source some of our ideas in cluster management. The Borg software that runs every thing from search to Gmail and every thing, and actually all of the VMs and every thing that the Google Cloud runs, we should build out an open sourced version of that software, and we started doing that. It came out a little under two years ago. It was a project called "Ubernetes," and it's grown from there, and so we just keep trying to push that forward and help everybody sort of compute like Google does. Whether they're actually--Honestly, whether they're on the Google Cloud or not, so really believe that we want it to go, you know, in to people's data centers as well as being available on the Google Cloud and wherever they happen to be running their compute. 
 FRANCESC: Yeah. We actually had some cool demos about it today. We interviewed Kelsey Hightower two weeks ago or so, about Kubernetes 1.2. Can you tell us a little bit about what's your favorite feature from Kubernetes 1.2 if you had to choose one?
 BRENDAN: If I had to choose one--I mean, it's like your children. You're not supposed to choose. You're not supposed to choose your favorite children, right? 
 FRANCESC: They're not listening now. 
@@ -131,7 +131,7 @@ FRANCESC: So why don't we go to our main content of the week. I just renamed tha
 MARK: Excellent. Why don't we have a chat with her? Today we are joined by Rae Wang to talk to us about IAM. How you doing today, Rae? 
 RAE: I'm doing great. Thank you. 
 FRANCESC: So why don't you tell us a little bit about yourself first?
-RAE: Okay. Hi, I'm Rae. I'm a product manager working on Google Cloud Platform. I look after the IAM part of GCP. I'm based in the Google Seattle office, and helping at Google for three years. Before that I worked in other software companies for over a decade. 
+RAE: Okay. Hi, I'm Rae. I'm a product manager working on Google Cloud. I look after the IAM part of GCP. I'm based in the Google Seattle office, and helping at Google for three years. Before that I worked in other software companies for over a decade. 
 FRANCESC: Very cool. And could you tell us a little bit about what is exactly IAM, you said?
 RAE: Yes. IAM. It's three letters. It stands for "Identity and Access Management." Well, if you're a security guru, you might say it makes authentication and authorization. What it basically is is this two parts, the "I" part and the "AM" part. The "I" part also is--it means authentication. It's how you define the identity of a user or a program and then be able to verify the identity, you know, who you are, who you say you are, when you're trying to access GCP resources. And then you have the "AM" part which is "Access Management," and that's your access policy and its authorization. It's where you define who can do what on which resources. So then when you the two parts together, they safeguard your Google Cloud resources, and they make sure that only people that you want them to access certain part of GCP, can access the specific resources that they allow to access. 
 MARK: So you mentioned resources a number of times. What does "resources" mean? Is that just, like, parts of the console, or does that mean actual things that are running in the Cloud? What does that refer to? 
@@ -176,7 +176,7 @@ MARK: Nice trick. I like it.
 FRANCESC: Yep. Very cool. 
 MARK: Excellent. So before we go, I sort of want to mention a couple of interesting new developments. Most recently we, as in Google, have announced that podcasts are available on GooglePlay Music. 
 FRANCESC: Yay.
-MARK: So you can now get the Google Cloud Platform Podcast on GooglePlay Music as well. If you go to our website, check the subscribe button or the "about" section. You'll see that we're available there. 
+MARK: So you can now get the Google Cloud Podcast on GooglePlay Music as well. If you go to our website, check the subscribe button or the "about" section. You'll see that we're available there. 
 FRANCESC: Yep. Which is pretty exciting, and on top of that, I think that you can now find us there, and also you can now subscribe to our mailing list. 
 MARK: Yeah. So we have an email subscription option if that was something you were looking for. We had a few requests for it, so yep, now you can go there, put in your email address, and we'll send you an email whenever a new episode comes out. 
 FRANCESC: And since we're already there, why don't we remind everybody, all of our listeners, how to get in touch with us. 

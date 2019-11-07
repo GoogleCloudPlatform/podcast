@@ -25,7 +25,7 @@ about Cloud Functions to [Bret McGowen](https://twitter.com/bretmcg).
 
 ##### About Bret McGowen
 
-Bret is on the Google Cloud Platform team at Google, focusing on
+Bret is on the Google Cloud team at Google, focusing on
 developer-oriented products like Google Cloud Functions, App Engine,
 Firebase, machine learning APIs, and more.
 He's currently an aspiring Node.js developer. Prior to Google, Bret worked
@@ -65,7 +65,7 @@ money for UCSF Benioff Children's Hospitals. Finally he'll be in Sweden for [Nor
 Francesc will be presenting at the [New York Google Developer Group](https://www.meetup.com/gdgnyc/events/234963739/) for a Serverless event!
 Francesc has also released a new [Just for Func episode](https://www.youtube.com/watch?v=8M90t0KvEDY), covering the implementation of the Context package!
 
-{{< transcript "FRANCESC: Hi. Welcome to episode number 73 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi. Welcome to episode number 73 of the weekly Google Cloud Podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good. Thanks, Francesc. How are you doing? We're particularly separated today, I think. 
 
 FRANCESC: We're particularly separated. I think we're almost 12 hours apart in time zones. Like, here it's 10:40 a.m. I don't know what time it is up there. 
@@ -188,7 +188,7 @@ BRETT: And so if you've done a web app, or an express app specifically, in Node.
 
 And so in that case, some external entity is calling it over HTTP. And as soon as you deploy a Cloud Function, you automatically get an HTTPS end-point. We set up the [INAUDIBLE] and all that, so you can immediately do secure traffic without having to do any sort of configuration or anything like that. So that's one way that it gets triggered. 
 
-The second category of Cloud Functions are what we call background functions. So HTTP functions are synchronous, in that you make a call, function runs, and it gives you a response back. Background functions run in response to some events that occur in the cloud. So for example, we have Cloud Storage. So if a file is uploaded to Cloud Storage, we, internally, as Google Cloud Platform, will invoke your Cloud Function with all the meta-data around the file that was just mutated, whether it was uploaded, deleted, modified in some way. 
+The second category of Cloud Functions are what we call background functions. So HTTP functions are synchronous, in that you make a call, function runs, and it gives you a response back. Background functions run in response to some events that occur in the cloud. So for example, we have Cloud Storage. So if a file is uploaded to Cloud Storage, we, internally, as Google Cloud, will invoke your Cloud Function with all the meta-data around the file that was just mutated, whether it was uploaded, deleted, modified in some way. 
 
 So we'll invoke your function for you, and give you that metadata. If a message comes in Pub/Sub, for example-- same thing. And then again, we take care of all the scaling. So if you're just getting tons and tons of files uploaded, you don't have to worry about provisioning that infrastructure to respond to all those events. Cloud Functions will do that for you. 
 

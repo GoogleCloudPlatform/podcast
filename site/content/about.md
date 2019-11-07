@@ -1,10 +1,10 @@
 +++
 date = "2015-08-04T18:59:22Z"
 draft = false
-title = "About Google Cloud Platform Podcast"
-description = "All about the Google Cloud Platform Podcast"
+title = "About Google Cloud Podcast"
+description = "All about the Google Cloud Podcast"
 featured_image = "/images/featured_images/about-page-hero-img.jpg"
-subtitle = "Tune in every week to hear from our hosts about Google Cloud Platform!"
+subtitle = "Tune in every week to hear from our hosts about Google Cloud!"
 +++
 
 
@@ -20,8 +20,8 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Mark_Mandel.png" 
 	"Mark Mandel" 
-	"Developer Advocate, Google Cloud Platform" 
-	"Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
+	"Developer Advocate, Google Cloud" 
+	"Mark Mandel is a Developer Advocate for the Google Cloud. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
 %}}
 
 [Twitter](https://www.twitter.com/neurotic) / 
@@ -51,7 +51,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Mark_Mirchandani.jpg" 
 	"Mark Mirchandani" 
-	"Developer Advocate, Google Cloud Platform"
+	"Developer Advocate, Google Cloud"
 	"Mark Mirchandani is a Developer Advocate for Google Cloud focusing on creating scalable ways to help technical practitioners make their lives easier, or at least laugh!" 
 %}}
 
@@ -66,7 +66,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Jon_Foust.jpg" 
 	"Jon Foust" 
-	"Developer Advocate, Google Cloud Platform"
+	"Developer Advocate, Google Cloud"
 	"Jon is a Google Cloud Developer Advocate focused on Cloud Gaming. He enjoys helping developers use Google Cloud APIs easily within Unity. In his spare time, you can find Jon playing Volleyball, Baseball/Softball, and as you probably have guessed... Games!" 
 %}}
 
@@ -81,7 +81,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Brian_Dorsey.jpg" 
 	"Brian Dorsey" 
-	"Developer Advocate, Google Cloud Platform"
+	"Developer Advocate, Google Cloud"
 	"Brian is a Developer Advocate for Google Cloud. He helps with the full spectrum of compute services; from VMs, through containers, & Serverless. He enjoys flying RC aircraft and making things with lasers." 
 %}}
 
@@ -96,7 +96,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Gabriela_Ferrara.jpg" 
 	"Gabriela Ferrara" 
-	"Developer Advocate, Google Cloud Platform"
+	"Developer Advocate, Google Cloud"
 	"Gabi is a Developer Advocate at Google Cloud and a passionate Software Engineer. She likes simplifying complex systems, and believes abstractions are best when they can be understood in a real life example. She’s driven to go beyond DBA lingo to make database and storage technology more accessible to software developers." 
 %}}
 
@@ -112,7 +112,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Aja_Hammerly.jpg" 
 	"Aja Hammerly" 
-	"Developer Advocate, Google Cloud Platform"
+	"Developer Advocate, Google Cloud"
 	"Aja lives in Seattle where she is a Developer Advocate at Google and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach." 
 %}}
 
@@ -128,8 +128,8 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Gabe_Weiss.jpg" 
 	"Gabe Weiss" 
-	"Developer Advocate, Google Cloud Platform"
-	"Gabe works on the Google Cloud Platform team ensuring that developers can make awesome things, both inside and outside of Google. That could mean speaking at conferences, writing example code, running bootcamps, writing technical blogs or just doing some hand holding. Prior to Google he's worked in virtual reality production and distribution, source control, the games industry and professional acting." 
+	"Developer Advocate, Google Cloud"
+	"Gabe works on the Google Cloud team ensuring that developers can make awesome things, both inside and outside of Google. That could mean speaking at conferences, writing example code, running bootcamps, writing technical blogs or just doing some hand holding. Prior to Google he's worked in virtual reality production and distribution, source control, the games industry and professional acting." 
 %}}
 
 [Twitter](https://twitter.com/gabeweiss_)
@@ -143,7 +143,7 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
 {{% profile 
 	"/images/hosts/Priyanka_Vergadia.png" 
 	"Priyanka Vergadia" 
-	"Developer Advocate, Google Cloud Platform"
+	"Developer Advocate, Google Cloud"
 	"Priyanka is a Developer Advocate for Google Cloud. She helps technical practitioners utilize the full spectrum of Google Cloud products in their specific business challenges. She enjoys sleeping and painting." 
 %}}
 

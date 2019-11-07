@@ -13,7 +13,7 @@ cp "$1" $FILE
 echo "Removing all tags"
 eyeD3 --remove-all $FILE
 echo "Applying tags"
-eyeD3 --artist="Google Cloud Platform" --album="Google Cloud Platform Podcast" --track=$2 \
+eyeD3 --artist="Google Cloud" --album="Google Cloud Podcast" --track=$2 \
       --genre="Podcast" --recording-date=`date +"%Y"` --title="$3" \
       --url-frame="WPUB:https\://www.gcppodcast.com" \
       --url-frame="WCOP:http\://creativecommons.org/licenses/by/3.0/" \

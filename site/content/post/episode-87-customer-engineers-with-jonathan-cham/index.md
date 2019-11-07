@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.87.mp3"
 audioSize = 45797108
 categories = ["Customer Engineer"]
 date = "2017-07-26T01:07:49Z"
-description = "Francesc and Mark are joined this week by Jonathan Cham, a Customer Engineer at Google Cloud Platform, to discuss what his job entails and how our customers can benefit from it."
+description = "Francesc and Mark are joined this week by Jonathan Cham, a Customer Engineer at Google Cloud, to discuss what his job entails and how our customers can benefit from it."
 draft = false
 episodeNumber = 87
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/6pptzg/episode_87_cus
   name = "fimage"
 +++
 
-[Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) are joined this week by Jonathan Cham, a Customer Engineer at Google Cloud Platform, to discuss what his job
+[Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) are joined this week by Jonathan Cham, a Customer Engineer at Google Cloud, to discuss what his job
 entails and how our customers can benefit from it.
 
 <!--more-->
@@ -27,7 +27,7 @@ entails and how our customers can benefit from it.
 Jonathan Cham is a customer engineer who helps customers be successful on the Google Cloud
 Platform.  For 10 years, he has advised companies of all stages-- from startups to Fortune
 50 companies on cloud technologies and helping them accelerate the delivery of IT. He wants
-to help build your next successful billion dollar business on the Google Cloud Platform!
+to help build your next successful billion dollar business on the Google Cloud!
 
 In his free time, he is changing lots of diapers, not by choice, and preparing his 3 month
 son for the 2036 NBA draft.
@@ -41,7 +41,7 @@ son for the 2036 NBA draft.
 
 ##### Interview
 
-- Contact Google Cloud Platform [contact](https://cloud.google.com/contact/)
+- Contact Google Cloud [contact](https://cloud.google.com/contact/)
 - Introducing Google Customer Reliability Engineering [announcement](https://cloudplatform.googleblog.com/2016/10/introducing-a-new-era-of-customer-support-Google-Customer-Reliability-Engineering.html)
 - We're hiring Strategic Customer Engineer [Google Careers](https://careers.google.com/jobs#!t=jo&jid=/google/strategic-customer-engineer-google-cloud-singapore-5410012&)
 - Dremel: Interactive Analysis of Web-Scale Datasets [Google Research](https://research.google.com/pubs/pub36632.html)
@@ -59,7 +59,7 @@ Francesc will be at the July [GoSF Meetup](https://www.meetup.com/golangsf/event
 
 Mark will be speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 87 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 87 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 
 MARK: I'm doing very well today. How are you doing, Francesc? 
 
@@ -67,7 +67,7 @@ FRANCESC: Very happy. I'm back from a couple days of holidays, very well deserve
 
 MARK: Yeah. 
 
-FRANCESC: Yeah, and I'm very excited about continuing our episodes on the same topic of not support, but the relationship between customers and Google Cloud Platform. 
+FRANCESC: Yeah, and I'm very excited about continuing our episodes on the same topic of not support, but the relationship between customers and Google Cloud. 
 
 MARK: Yeah, we've got a nice little theme going of basically sort of what our relationship ends up being with our customers and how we interact with them in a really good way, I think. 
 
@@ -105,7 +105,7 @@ FRANCESC: Propagation-- yeah. BBRPT. The whole idea is that it's still TCP, it l
 
 MARK: Awesome. I'm so glad you can explain that because I have no idea. 
 
-FRANCESC: Yeah, basically I like that in the article that we link from the show notes, they also talk a little bit about the benefits for Google Cloud Platform customers, and they show a little bit the difference between the maximum round trip time. So the bigger the round trip time, the slower it takes for you to receive data. Basically, that's the ping time. And in some cases, it went down, I think it's for India, it went down by 50%, which is crazy. 
+FRANCESC: Yeah, basically I like that in the article that we link from the show notes, they also talk a little bit about the benefits for Google Cloud customers, and they show a little bit the difference between the maximum round trip time. So the bigger the round trip time, the slower it takes for you to receive data. Basically, that's the ping time. And in some cases, it went down, I think it's for India, it went down by 50%, which is crazy. 
 
 So yeah, you will see that many of your operations, network operations will be much faster than before. It is not necessarily because we have the best network in the world, but also because we have algorithms that help. So it's definitely worth checking out. And if you are not curious about it, just enjoy. 
 
@@ -113,7 +113,7 @@ MARK: Yeah, you just get the benefits really without having to do anything.
 
 FRANCESC: Yep. 
 
-MARK: Cool. And finally, we want to talk about a cool new product-- I think this is kind of cool. Basically, it is introducing the transfer appliance for Google Cloud Platform. You may remember back on episode 31, we talked about basically being able to do offline media import and export with some of our third parties. So if you need to put data on a hard drive and send it to us, quite often that's the fastest way of getting data to us, as they put it in the article, via sneakernet, basically, truck and people. 
+MARK: Cool. And finally, we want to talk about a cool new product-- I think this is kind of cool. Basically, it is introducing the transfer appliance for Google Cloud. You may remember back on episode 31, we talked about basically being able to do offline media import and export with some of our third parties. So if you need to put data on a hard drive and send it to us, quite often that's the fastest way of getting data to us, as they put it in the article, via sneakernet, basically, truck and people. 
 
 FRANCESC: Yeah, we have the two options, one sending hard disk. The other one is if it's something that is very regular, you can also set up your own connection directly to a data center. 
 
@@ -143,7 +143,7 @@ MARK: So that sounds really good. Why don't we then head off over and have a cha
 
 FRANCESC: Sounds good. Let's do that. 
 
-MARK: I am very excited to have another member of the Google Cloud Platform family joining us today to talk to us about customer engineers. Jonathan Cham, how are you doing? 
+MARK: I am very excited to have another member of the Google Cloud family joining us today to talk to us about customer engineers. Jonathan Cham, how are you doing? 
 
 JONATHAN: I am doing very well, and I am very happy to be here talking to my favorite Google celebrities, of course. 
 
@@ -197,7 +197,7 @@ JONATHAN: I hate to say it, but that's totally wrong.
 
 MARK: Oh. 
 
-JONATHAN: I mean-- so yeah, I can tell you a little bit about what a customer engineer is, but I have to first provide a disclaimer because, you know, opinions are my own and not the views of my employer. This is a relatively new role within Google, maybe within the last year. And as we continue to grow Google Cloud Platform, we wanted to provide the customer with a resource that they can have access to when it comes to building their application on GCP. So in short words, our ultimate goal is to help the customer be successful on Google Cloud Platform and own that end-to-end technical relationship with them. 
+JONATHAN: I mean-- so yeah, I can tell you a little bit about what a customer engineer is, but I have to first provide a disclaimer because, you know, opinions are my own and not the views of my employer. This is a relatively new role within Google, maybe within the last year. And as we continue to grow Google Cloud, we wanted to provide the customer with a resource that they can have access to when it comes to building their application on GCP. So in short words, our ultimate goal is to help the customer be successful on Google Cloud and own that end-to-end technical relationship with them. 
 
 We're a single stateful interface to the customer. And because we're that stateful interface, that allows us to provide more strategic guidance to help them make these technical decisions regarding Google Cloud platform. 
 
@@ -271,7 +271,7 @@ Google itself has a lot of impact in the industry. They want to hear about trend
 
 I mean, after initial meeting, usually there's something like, oh, OK, this sounds great. GCP is cool. Let's see how much I will gain or how much I'll save money. What type of value-add benefits will I get from moving? So a lot of times, they'll make us do a cost analysis with all the other vendors. So we do that a lot. 
 
-And once they've committed to using Google Cloud, after they've done kind of the analysis, paper analysis, they go, OK. We've decided Google Cloud Platform is the way to go. We like BigQuery. It's awesome. Totally unique and differentiated. We like Dataflow. Tell me how to build my app. So we'll sit in a room for like, three hours talking about what they're doing today, where they want to go, how much storage do they have today, just a lot of questions. And a lot of iteration goes on and on throughout those meetings. 
+And once they've committed to using Google Cloud, after they've done kind of the analysis, paper analysis, they go, OK. We've decided Google Cloud is the way to go. We like BigQuery. It's awesome. Totally unique and differentiated. We like Dataflow. Tell me how to build my app. So we'll sit in a room for like, three hours talking about what they're doing today, where they want to go, how much storage do they have today, just a lot of questions. And a lot of iteration goes on and on throughout those meetings. 
 
 And in terms of, how do you take that into production? I mean, what do you guys think is the percentage of effort between taking it and building an app in dev versus building an app in production? 
 
@@ -321,7 +321,7 @@ JONATHAN: Yeah, I can talk a lot about that. Because yes, I get all their greatn
 
 The good things I hear are, I think number 1-- and this is just more from a technical perspective, but like openness. We have TensorFlow, Apache Beam, Kubernetes. You know, Bigtable, which is HBase. And we have over 300,000 commits on GitHub. I mean, these are things that no other cloud vendor really has. And you know, it's not as strategic for them as it is for Google. I mean, openness is really big. 
 
-And for large companies, this is very important. In the past, they've had vendors that have locked them in and they can't get out. And so for us to really be pushing this openness around all these open source projects, where we can tell them, look, Google Cloud Platform is the best place to run. But hey, if we're not doing our job, if we're not making you happy, you can always run any of these on another cloud. And that's a really powerful statement. 
+And for large companies, this is very important. In the past, they've had vendors that have locked them in and they can't get out. And so for us to really be pushing this openness around all these open source projects, where we can tell them, look, Google Cloud is the best place to run. But hey, if we're not doing our job, if we're not making you happy, you can always run any of these on another cloud. And that's a really powerful statement. 
 
 Another good thing that I hear is cost. You know, usually we do come lower, between 20% to 50% lower, but it really depends. And I always like to say, we're not the Wal-Mart of cloud vendors. Our cost is lower because we can scale at such high numbers. I mean, what are we? We have like what, 1 to 2 billion users? I mean, we already have a lot of infrastructure in place, so our economies of scale are enormous. 
 
@@ -331,7 +331,7 @@ MARK: Oh, yeah.
 
 JONATHAN: There's nothing like it. One button, boom. You're in, ready to go. 
 
-FRANCESC: That's probably one of the things that I forget about how cool they are. And when I show it to people that have never used Google Cloud Platform, when they're like, oh, you want to connect to [INAUDIBLE]? You just click on SSH and that's it. And people are like, oh. I forget that that's not like, the normal thing for people. 
+FRANCESC: That's probably one of the things that I forget about how cool they are. And when I show it to people that have never used Google Cloud, when they're like, oh, you want to connect to [INAUDIBLE]? You just click on SSH and that's it. And people are like, oh. I forget that that's not like, the normal thing for people. 
 
 JONATHAN: Yeah, it's amazing. And I don't know if you know, but they're coming out with like a code editor in there, too. So really, I mean, they're going to turn that interface into your single interface for everything. 
 
@@ -371,13 +371,13 @@ FRANCESC: Do you get to see more customers that are coming to Google with apps t
 
 JONATHAN: I think there's a little bit of both. So I actually have dealt with pretty much three types of customers. Ones that are already using a cloud vendor, which is the most difficult. I mean, you really have to convince them to-- there's a lot of value to move to Google Cloud, right? It's not just cost, but there's an operational cost to move. All their employees are already using another cloud vendor's API. So there's that migrating from another cloud. 
 
-Number 2 is moving from on-prem. A lot of these large enterprises are using on-prem. They have their own physical hardware, own data centers. And trying to figure out, OK, how do we map that to what Google Cloud Platform has? That's part of our role. 
+Number 2 is moving from on-prem. A lot of these large enterprises are using on-prem. They have their own physical hardware, own data centers. And trying to figure out, OK, how do we map that to what Google Cloud has? That's part of our role. 
 
 And then the third one, our customers who are building new apps-- already, they just said, hey, look. GCP looks cool. We're going to start using GCP. Oh, it's actually working very well. We're going to continue making investments in Google Cloud. So I think those are the kind of three profiles of customers that I personally see. And there might be more. 
 
 MARK: So now I'm curious, what are the reasons that you're seeing people moving? 
 
-JONATHAN: Right now, I think there's a lot of-- unfortunately, a lot of people want to save. Well, not unfortunately, but people want to save money, right? And Google Cloud Platform has a very, very aggressive cost structure. So in terms of like storage and compute, we are definitely cheaper. 
+JONATHAN: Right now, I think there's a lot of-- unfortunately, a lot of people want to save. Well, not unfortunately, but people want to save money, right? And Google Cloud has a very, very aggressive cost structure. So in terms of like storage and compute, we are definitely cheaper. 
 
 And while I don't like to emphasize like, just come to us because we're cheaper, we do have a lot of value-add products, like BigQuery. I think that's Dremel, right? Dremel is the white paper for BigQuery? 
 
@@ -413,9 +413,9 @@ MARK: Yeah. So he runs, or I think he helps run-- anyway, he's directly involved
 
 FRANCESC: He somehow hosts the thing, which is weird because it's online. So I'm not sure what that means to host it. 
 
-MARK: It is the Google Cloud Platform Online Meetup. So there have been a series. I'm actually just going through them now. There's a lot of really cool meetups that have been going on for quite a while-- I want to say once a month or so-- where they do live YouTube streaming of presentations where you can interact directly with the presenter and hang out with a bunch of other people who are also online watching the same thing. 
+MARK: It is the Google Cloud Online Meetup. So there have been a series. I'm actually just going through them now. There's a lot of really cool meetups that have been going on for quite a while-- I want to say once a month or so-- where they do live YouTube streaming of presentations where you can interact directly with the presenter and hang out with a bunch of other people who are also online watching the same thing. 
 
-FRANCESC: Yeah. I really like them. There's one of them that I definitely want to watch. It's "Getting Started Quickly with Machine Learning on Google Cloud Platform." One of the reasons why I want to watch it is because I can see that there's a little picture of Bender from "Futurama." Definitely, check it out. The coolest part of this is that it happens online directly. So it's not only you can watch the video and ask questions in the comments. You can actually ask questions to the speaker on real time, which is very, very nice. 
+FRANCESC: Yeah. I really like them. There's one of them that I definitely want to watch. It's "Getting Started Quickly with Machine Learning on Google Cloud." One of the reasons why I want to watch it is because I can see that there's a little picture of Bender from "Futurama." Definitely, check it out. The coolest part of this is that it happens online directly. So it's not only you can watch the video and ask questions in the comments. You can actually ask questions to the speaker on real time, which is very, very nice. 
 
 MARK: Yeah. And if you happen to manage to miss it for whatever reason, they're available as well on YouTube. And we'll put a link on the show notes. 
 
@@ -431,7 +431,7 @@ FRANCESC: Which is?
 
 MARK: Late August, early September. So that's in Seattle. If you play games, and know games, and love games, then you probably are familiar with these conferences. 
 
-FRANCESC: Great. Well, Mark, thanks so much for taking the time today to, again, record an amazing episode of the Google Cloud Platform podcast. 
+FRANCESC: Great. Well, Mark, thanks so much for taking the time today to, again, record an amazing episode of the Google Cloud podcast. 
 
 MARK: And thank you so much for joining me. And thank you very much to everyone for listening as well. 
 

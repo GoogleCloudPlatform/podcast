@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.12.mp3"
 audioSize = 52713676
 categories = ["Google Cloud Spin"]
 date = "2016-02-10T01:07:49Z"
-description = "In the twelfth episode of this podcast, your hosts Francesc and Mark interview Ray Tsang and Bret McGowen, two Developer Advocates for the Google Cloud Platform, about Google Cloud Spin, a project demoing the capabilities of Google Cloud Platform."
+description = "In the twelfth episode of this podcast, your hosts Francesc and Mark interview Ray Tsang and Bret McGowen, two Developer Advocates for the Google Cloud, about Google Cloud Spin, a project demoing the capabilities of Google Cloud."
 draft = false
 episodeNumber = 12
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -22,13 +22,13 @@ In the twelfth episode of this podcast, your hosts
 [Mark](http://twitter.com/neurotic) interview
 [Ray Tsang](https://twitter.com/saturnism) and [Bret McGowen](https://twitter.com/bretmcg),
 two Developer Advocates for the
-Google Cloud Platform, about the Google Cloud Spin, a project demoing the capabilities of
-Google Cloud Platform. 
+Google Cloud, about the Google Cloud Spin, a project demoing the capabilities of
+Google Cloud. 
 <!--more-->
 
 ##### About Ray
 
-Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on
+Ray is a Developer Advocate for the Google Cloud. Ray had extensive hands on
 cross-industry enterprise systems integration delivery and management experiences during
 his time at Accenture, managed full stack application development, DevOps, and ITOps.
 Ray specialized in middleware, big data, and PaaS products during his time at Red Hat
@@ -50,7 +50,7 @@ Follow Bret on Twitter at [@bretmcg](https://twitter.com/bretmcg).
 
 ##### Cool thing of the week
 
-- [Cloud9 IDE now supports Google Cloud Platform](http://googlecloudplatform.blogspot.com/2016/01/Cloud9-IDE-now-supports-Google-Cloud-Platform.html)
+- [Cloud9 IDE now supports Google Cloud](http://googlecloudplatform.blogspot.com/2016/01/Cloud9-IDE-now-supports-Google-Cloud-Platform.html)
    
 ##### Interview
 
@@ -77,13 +77,13 @@ Cloud Spin libraries and features used:
 
 - [Kubernetes Daemon Sets](http://kubernetes.io/v1.1/docs/admin/daemons.html)
 
-{{< transcript "FRANCESC: Hello, and welcome to the 12th episode of the weekly Google Cloud Platform podcast. I'm Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hello, and welcome to the 12th episode of the weekly Google Cloud podcast. I'm Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good, thanks, Francesc. How are you doing?
 FRANCESC: Pretty good, very excited about this episode. We're gonna be chatting with some of my friends.
 MARK: Some of your friends.
 FRANCESC: Yup.
 MARK: Hey, they're my friends too.
-FRANCESC: Yeah, so we're gonna be chatting with two of our colleagues, actually, two--so Bret McGowen and Ray Tsang from the Google Cloud Platform advocacy team about Google Cloud Spin.
+FRANCESC: Yeah, so we're gonna be chatting with two of our colleagues, actually, two--so Bret McGowen and Ray Tsang from the Google Cloud advocacy team about Google Cloud Spin.
 MARK: Yeah, that should be pretty exciting. I've been involved at least peripherally with Cloud Spin, setting it up and helping run it. We've talked about it a few times, so it's gonna be good to get into sort of the details of what it is and what it does and how it works and stuff.
 FRANCESC: Yeah, it's a really fun project. It's a really fun project to run. It's a really fun project to see working, and it was a really fun project to develop, so I hope that you will enjoy the interview.
 MARK: Definitely.
@@ -92,7 +92,7 @@ MARK: Let's talk about a cool thing of the week.
 FRANCESC: Okay, so the cool thing of the week is related to Cloud9. Could you tell me a little bit more about what Cloud9 is?
 MARK: So Cloud9 is an IDE and development environment that you can use, funnily enough, in the cloud, so rather than, say, installing, like, IntelliJ or Vim or Emacs locally, it's a fully web-based environment where you can build and write code.
 FRANCESC: Nice.
-MARK: Which is pretty cool. They recently released a plug-in specifically for Google Cloud Platform.
+MARK: Which is pretty cool. They recently released a plug-in specifically for Google Cloud.
 FRANCESC: Oh, nice.
 MARK: Which is very cool. So right now it's in beta, so it has a limited sort of functionality, but it gives direct integration for Java applications running on managed VM. In the coming weeks they're planning to add some more bits and pieces to it so that you've got some more functionality and features and languages, but it was really cool. You should watch the video and have a look, but you can see someone, like, go in. It's got GCloud installed automatically for you. You can pull down, like, a little starter project, and it loads it up. You can preview it in there. You can run it from in there. You hit deploy, it goes up to the cloud, goes directly to us so it can run from in there. It looks like a really cool thing, so maybe if you're traveling with a Chromebook or, you know, you don't want to install stuff locally, it's gonna be a really nice way to develop.
 FRANCESC: Yeah, I really see it as a very good option if you don't really like using, like, Vim and tools like that, you really want an editor. That's the kind of thing that only normally you get to use locally, so they're basically providing that on the cloud through a browser.
@@ -105,7 +105,7 @@ FRANCESC: Nice. So I guess that it's time to go talk with Ray and Bret.
 MARK: Let's go do that then. Today we have a couple of very special guests who's joining us this afternoon. We have Ray Tsang sitting across from me as well as Bret McGowen. How are you both doing today?
 BRET: Good, how are you?
 MARK: Good. I managed to only slightly, like, ruin your last names, I’m hoping, only in a slight way. So we're talking today about a fun project that we've sort of demoed around the place called Google Cloud Spin, and I know it's a project that, Francesc, you've been involved, Ray, you've been involved, Bret, you've been involved, several other people. Would love to talk to you about it, but why don't we first find out a little bit about Ray and Bret? Bret, you're closest to me right now. Why don't you give us a bit of your background and who you are and what you do?
-BRET: Sure, yeah. My name is Bret McGowen. I'm a developer advocate for the Google Cloud Platform. Before that I was in Texas working at Rackspace, so I have a little bit of a Cloud background. I was a software engineer my whole life until I came to Google and started working in developer relations and developer advocacy, and I'm actually in the New York City office, so it's kind of cool to be here in San Francisco in studio to meet with you guys.
+BRET: Sure, yeah. My name is Bret McGowen. I'm a developer advocate for the Google Cloud. Before that I was in Texas working at Rackspace, so I have a little bit of a Cloud background. I was a software engineer my whole life until I came to Google and started working in developer relations and developer advocacy, and I'm actually in the New York City office, so it's kind of cool to be here in San Francisco in studio to meet with you guys.
 FRANCESC: Cool. Wonderful, Ray?
 RAY: Yup, my name's Ray. I'm also a developer advocate. I'm also from New York, and I haven't always lived there. I actually lived in southern California before, and yeah, I've been a developer and a architect all my life since I started to work, and yeah, I've been in New York for about two years and been through two of the worst winter ever till this year, so which--I'm feeling a lot better about New York now.
 MARK: Wonderful. So we're here to talk about Cloud Spin. Seems like I'm gonna be directing things 'cause I'm the only one in the room who wasn't involved, so what exactly is Cloud Spin?
@@ -288,7 +288,7 @@ RAY: So you just have to adjust one place, and then all of the cameras get synch
 FRANCESC: That was really cool. Basically, Firebase is used everywhere, even to decide what's the ID for every phone. We just start with one, and you start just clicking around the phones, and everything just works very well.
 RAY: And you know what else? That was really good that we have done this. Like, because we are using Firebase and we're developing this demo to just make it work in the first place, we didn't really think about how to visualize this with a audience. Like, how do we show this to the audience? 'Cause you can't actually just go and click a photo and--without seeing how things are being done or taking place behind the scenes. So because we are using Firebase to store all of the state, it was really to just get that stream of data pulled down into a HTML5 page and just being able to visualize that, and then we are able to build this visualization tool in about, I don't know, like, half a day to a day.
 FRANCESC: Yeah, that was awesome.
-RAY: [inaudible] POC so that people can actually see on the big screen of what's taking place behind the scenes in the Google Cloud Platform.
+RAY: [inaudible] POC so that people can actually see on the big screen of what's taking place behind the scenes in the Google Cloud.
 FRANCESC: Yeah, it went from watching logs on the monitoring page to all of a sudden having, like, images and showing you what is being extracted was being uploaded and so on in, like, half a day, so.
 BRET: Animations and everything. That was pretty cool.
 MARK: Yeah.
@@ -311,8 +311,8 @@ RAY: And to this day we haven't dropped a phone on the selfie stick.
 FRANCESC: Yeah.
 BRET: Well, thanks for jinxing it.
 RAY: Knock, knock.
-BRET: But yeah, it doesn't take much to set up. Like, we use selfie sticks, and we use these weird clamps we would hook to the end of the table, just kind of anything we could to organize these phones in a row, so I really hope people will check it out. They will--there's a big walkthrough, like, walks you through how to set it up. You can learn a lot about Google Cloud Platform through it, and then hopefully people will have fun with it.
-FRANCESC: Yup. There's also--we have three blog posts on the Google Cloud Platform blog, so we will put a link for those on the show notes.
+BRET: But yeah, it doesn't take much to set up. Like, we use selfie sticks, and we use these weird clamps we would hook to the end of the table, just kind of anything we could to organize these phones in a row, so I really hope people will check it out. They will--there's a big walkthrough, like, walks you through how to set it up. You can learn a lot about Google Cloud through it, and then hopefully people will have fun with it.
+FRANCESC: Yup. There's also--we have three blog posts on the Google Cloud blog, so we will put a link for those on the show notes.
 MARK: Those'll be in the show notes.
 FRANCESC: And there's also two episodes with "Coffee with a Googler," so yeah, we'll also have the links where basically, you can actually see the real thing actually working with Laurence Moroney jumping around. That was lots of fun.
 RAY: Yeah, and you can find all of this information too just by following us on the--on the Twitter account, @googlecloudspin?
@@ -381,7 +381,7 @@ MARK: So when this podcast comes out, I will be in Australia. I'm looking forwar
 FRANCESC: Nice.
 MARK: Looking forward to that. I will also be at the Game Developers Conference here in San Francisco. I'll be at the Google booth, so please definitely come by and say hello. We've got lots of interesting things going on there. I'm really excited about some of the content we're putting together. There's gonna be some fun things happening there. We'll both be at GCP Next.
 FRANCESC: Yup.
-MARK: Big conference for Google Cloud Platform. I think we're gonna be doing some fun stuff there as well, and I will also be at the Strata conference as well on the 29th of March.
+MARK: Big conference for Google Cloud. I think we're gonna be doing some fun stuff there as well, and I will also be at the Strata conference as well on the 29th of March.
 FRANCESC: Very nice. So you're not gonna be traveling that much other than for vacations.
 MARK: Yeah, I think the furthest I go in Q1 is, like, San Jose.
 FRANCESC: That sounds--
@@ -392,7 +392,7 @@ FRANCESC: Slightly different pace for me. Yeah, so on February 23rd I will be in
 MARK: Lovely.
 FRANCESC: Yup, so I'm gonna be talking there, very excited. I think--it's my second time in Dubai. Last time I was there, I saw a very active community of developers, so I'm very excited about interacting with them again. After that, a bunch of stuff, South by Southwest.
 MARK: Oh, that'll be fun.
-FRANCESC: Yeah, Google Cloud Platform's gonna be there. We have the Fiber space. We're gonna be running a bunch of stuff. We're gonna be running parties.
+FRANCESC: Yeah, Google Cloud's gonna be there. We have the Fiber space. We're gonna be running a bunch of stuff. We're gonna be running parties.
 MARK: Nice.
 FRANCESC: It's gonna be lots of fun, yup, and after that, indeed, GCP Next. I'll be back to San Francisco.
 MARK: Cool. Well, then, I will definitely be seeing you there.

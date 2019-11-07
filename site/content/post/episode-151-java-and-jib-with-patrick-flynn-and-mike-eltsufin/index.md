@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/9p0tu0/episode_151_ja
   name = "fimage"
 +++
 
-[Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) speak with [Patrick Flynn](https://twitter.com/patricknflynn) and Mike Eltsufin about their exciting new Java products for Google Cloud. Mike tells us all about the new Spring Cloud GCP, a helpful tool that integrates Google Cloud Platform APIs and the Spring Framework. Patrick elaborates on his team's new tool, Jib, a Java container image builder, and how it helps Java developers.
+[Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) speak with [Patrick Flynn](https://twitter.com/patricknflynn) and Mike Eltsufin about their exciting new Java products for Google Cloud. Mike tells us all about the new Spring Cloud GCP, a helpful tool that integrates Google Cloud APIs and the Spring Framework. Patrick elaborates on his team's new tool, Jib, a Java container image builder, and how it helps Java developers.
 
 <!--more-->
 
@@ -82,7 +82,7 @@ Mark will be at [KubeCon](https://events.linuxfoundation.org/events/kubecon-clou
 
 Melanie will be at [Twilio Signal $BASH](https://signal.twilio.com/$bash) event on Thursday and [SOCML](https://sites.google.com/view/socml-2018/home) in November.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 151 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my extra special colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 151 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel, and I'm here with my extra special colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 MELANIE: Hey, Mark, I'm good. How are you? 
 
@@ -176,7 +176,7 @@ MIKE: Sure. So Spring framework has been around for a long time. Probably over 1
 
 And in the past few years, they also brought Spring Boot, which made it even easier to build enterprise applications by taking advantage of this principle of conventional configuration. So that's Spring and Spring Boot. They're fairly popular today among Java developers, especially doing enterprise applications. And that's part of the reason why we are focusing on that framework. 
 
-MARK: What's our integration there? What are we actually doing to make Spring and Spring Boot easier for Google Cloud Platform? Because Spring's a version of control framework. And Spring Boot's a NBC type frameworks. So what's the deal there? 
+MARK: What's our integration there? What are we actually doing to make Spring and Spring Boot easier for Google Cloud? Because Spring's a version of control framework. And Spring Boot's a NBC type frameworks. So what's the deal there? 
 
 MIKE: So there's a lot of things in Spring framework, Spring Boot. A lot of those things are integrations with existing tools that are useful for enterprise application development, like messaging systems, different databases. They really try to make it very easy to use those. However, they are no out of the box integrations, at least in the past, that would work with Google Cloud. 
 

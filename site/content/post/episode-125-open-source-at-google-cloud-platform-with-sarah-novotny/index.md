@@ -4,11 +4,11 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.125.mp3"
 audioSize = 5547375
 categories = ["Open Source", "Cloud Native", "CNCF", "Kubernetes"]
 date = "2018-05-02"
-description = "Mark and Melanie are joined by Sarah Novotny, Head of Open Source Strategy for GCP, to talk all about Open Source, the Cloud Native Compute Foundation & their relationships to Google Cloud Platform."
+description = "Mark and Melanie are joined by Sarah Novotny, Head of Open Source Strategy for GCP, to talk all about Open Source, the Cloud Native Compute Foundation & their relationships to Google Cloud."
 draft = false
 episodeNumber = 125
 hosts = ["Mark Mandel", "Melanie Warrick"]
-title = "Open Source at Google Cloud Platform with Sarah Novotny"
+title = "Open Source at Google Cloud with Sarah Novotny"
 #image="/images/post/Don't_Panic.svg.png"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/X1Bd8oAMXZ9"
@@ -19,21 +19,21 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8giifl/episode_125_op
 +++
 
 [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) are joined by
-[Sarah Novotny](https://twitter.com/sarahnovotny), Head of Open Source Strategy for Google Cloud Platform, to
-talk all about Open Source, the Cloud Native Compute Foundation and their relationships to Google Cloud Platform.
+[Sarah Novotny](https://twitter.com/sarahnovotny), Head of Open Source Strategy for Google Cloud, to
+talk all about Open Source, the Cloud Native Compute Foundation and their relationships to Google Cloud.
 
 <!--more-->
 
 ##### Sarah Novotny
 
-[Sarah Novotny](https://twitter.com/sarahnovotny) leads an Open Source Strategy group for Google Cloud Platform.  She has long been an Open Source community champion in communities such as Kubernetes, NGINX and MySQL and ran large scale technology infrastructures at Amazon before web-scale had a name.  In 2001, she co-founded Blue Gecko, which was sold to DatAvail in 2012.  She is a program chair emeritus for O’Reilly Media’s OSCON.
+[Sarah Novotny](https://twitter.com/sarahnovotny) leads an Open Source Strategy group for Google Cloud.  She has long been an Open Source community champion in communities such as Kubernetes, NGINX and MySQL and ran large scale technology infrastructures at Amazon before web-scale had a name.  In 2001, she co-founded Blue Gecko, which was sold to DatAvail in 2012.  She is a program chair emeritus for O’Reilly Media’s OSCON.
 
 ##### Cool things of the week
 
 - Now live in Tokyo: using TensorFlow to predict taxi demand [blog](https://cloud.google.com/blog/big-data/2018/04/now-live-in-tokyo-using-tensorflow-to-predict-taxi-demand)
 - Kubernetes best practices: Organizing with Namespaces [blog](https://cloudplatform.googleblog.com/2018/04/Kubernetes-best-practices-Organizing-with-Namespaces.html) [youtube](https://www.youtube.com/watch?v=xpnZX3if9Tc)
 - Announcing Open Images V4 and the ECCV 2018 Open Images Challenge [blog](https://research.googleblog.com/2018/04/announcing-open-images-v4-and-eccv-2018.html) [dataset](https://storage.googleapis.com/openimages/web/index.html) [challenge](https://storage.googleapis.com/openimages/web/challenge.html)  
-- Introducing Kubernetes Service Catalog and Google Cloud Platform Service Broker: find and connect services to your cloud-native apps [blog](https://cloudplatform.googleblog.com/2018/04/Introducing-Kubernetes-Catalog-and-GCP-Open-Service-Broker.html) [docs](https://cloud.google.com/kubernetes-engine/docs/concepts/add-on/service-broker)
+- Introducing Kubernetes Service Catalog and Google Cloud Service Broker: find and connect services to your cloud-native apps [blog](https://cloudplatform.googleblog.com/2018/04/Introducing-Kubernetes-Catalog-and-GCP-Open-Service-Broker.html) [docs](https://cloud.google.com/kubernetes-engine/docs/concepts/add-on/service-broker)
 - Julia Evans - zines [store](https://gumroad.com/b0rk)
 
 ##### Interview
@@ -65,7 +65,7 @@ finished his [blog series on scaling game servers on Kubernetes](https://www.com
 Melanie will be speaking at the [internet2 Global Summit](https://meetings.internet2.edu/2018-global-summit/), May 9th in San Diego,
 and will also be talking at the [Understand Risk Forum](https://understandrisk.org/event/ur2018/) on May 17th, in Mexico City.
 
-{{< transcript "MARK: Hi, and welcome to episode number 125 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel and I'm here with my colleague, as always, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 125 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel and I'm here with my colleague, as always, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 MELANIE: Good. How are you doing? 
 
@@ -75,7 +75,7 @@ MELANIE: Good.
 
 MARK: Doing all right. 
 
-MELANIE: So who are we talking to this week, Mark? We are talking to one of her good friends, Sarah Novotny, who is the head of open source strategy here at Google Cloud Platform. 
+MELANIE: So who are we talking to this week, Mark? We are talking to one of her good friends, Sarah Novotny, who is the head of open source strategy here at Google Cloud. 
 
 MELANIE: Yes. It was a fun conversation talking about open source and how we approach it from Google's perspective. So that was great. And getting into C and-- C-- 
 
@@ -117,7 +117,7 @@ The challenge has a total prize fund of USD $5,000 sponsored by Google.
 
 MELANIE: Yes. That's right. And apparently the results will be determined by September. So you've got a period of time to play around with the data set, and/or use it for any additional research that you're working on. 
 
-MARK: Nice. Coming back to Kubernetes-- because what else do I do with my time? There's a new thing that came out recently here at GCP. So we're introducing the Kubernetes service catalog and Google Cloud Platform service broker. The fancy title is "Find and Connect Services to your Cloud Native Apps." 
+MARK: Nice. Coming back to Kubernetes-- because what else do I do with my time? There's a new thing that came out recently here at GCP. So we're introducing the Kubernetes service catalog and Google Cloud service broker. The fancy title is "Find and Connect Services to your Cloud Native Apps." 
 
 This is kind of a little cute and interesting project that's part open-source and part GCP. Basically it makes things easier for you to connect your cloud native applications-- so your applications that run on Kubernetes-- to other services, in this case particularly GCP services. 
 
@@ -145,7 +145,7 @@ MARK: [LAUGHS] That's OK. We know you are a very important person.
 
 SARAH: Eh, yeah. But busy is not supposed to be a cultural norm for me. 
 
-MARK: [LAUGHS] That's all right. So Sarah is the head of open-source strategy at Google Cloud Platform. We want to talk to you today about open-source at Google Cloud. But before we do that, as per usual, who are you? What do you do? What's your history here at Google? 
+MARK: [LAUGHS] That's all right. So Sarah is the head of open-source strategy at Google Cloud. We want to talk to you today about open-source at Google Cloud. But before we do that, as per usual, who are you? What do you do? What's your history here at Google? 
 
 SARAH: And why am I here? 
 
@@ -159,7 +159,7 @@ MELANIE: 42.
 
 SARAH: Absolutely. See? We're done. 
 
-So I'm Sarah Novotny and, as Mark said, I lead the open-source strategy group for Google Cloud Platform. And I arrived here at Google via a fairly circuitous route of systems administration, database administration, and a number of websites, open-source projects that you've heard of. So Amazon, NGINX, a video-gaming company you've never heard of but you may have heard of the game "Hawken." And then, of course, some time at Chef and running my own business, working on MySQL. 
+So I'm Sarah Novotny and, as Mark said, I lead the open-source strategy group for Google Cloud. And I arrived here at Google via a fairly circuitous route of systems administration, database administration, and a number of websites, open-source projects that you've heard of. So Amazon, NGINX, a video-gaming company you've never heard of but you may have heard of the game "Hawken." And then, of course, some time at Chef and running my own business, working on MySQL. 
 
 So my first open-source project was really MySQL, my first love. I did a podcast for more than a year about MySQL. 
 
@@ -177,7 +177,7 @@ MARK: Indeed.
 
 MELANIE: We'll take that. 
 
-MARK: So, yeah. You're the head of open-source strategy at Google Cloud Platform. What does that mean? What do you do with your time? [CHUCKLING] 
+MARK: So, yeah. You're the head of open-source strategy at Google Cloud. What does that mean? What do you do with your time? [CHUCKLING] 
 
 SARAH: So let me tell you a little bit about the how I got here, inside Google. Because that leads into the story of what does this group do. Because this is a new group. So I was hired into Google to embed myself in the Kubernetes community and turn it from being a company-led project to a community-led project. 
 
@@ -191,7 +191,7 @@ And then that turned into sort of, oh, and I'm doing an open-source project. Can
 
 And what-- and, I mean, we've done open-source for years. There's lots and lots of open-source work that Google has done, going back to the inception of the company. But it was usually, early on, a scratch-your-own-itch and then upstream it. Make sure that we are being good citizens, being good open-source citizens. And then there was, of course, Chrome and Android which were open-source projects, but they were very company-led. And the communities were much more about ecosystems and applications, and the adoption, and ways to extend the particular project. 
 
-But Kubernetes had to be different. And so we've seen all these different strategies, and now we're collecting a group for Google Cloud Platform that sits-- embeds in communities that are either first-party communities-- communities that Google has built and wants to continue to grow-- or third-party communities like Node.js. I have recently joined the Node.js foundation board in order to help that project become more appealing to enterprises, grow through sort of the early-adopter phase, cross the chasm, and get into the enterprise-adoption phase, and grow as a project, make themselves more long-term sustainable. 
+But Kubernetes had to be different. And so we've seen all these different strategies, and now we're collecting a group for Google Cloud that sits-- embeds in communities that are either first-party communities-- communities that Google has built and wants to continue to grow-- or third-party communities like Node.js. I have recently joined the Node.js foundation board in order to help that project become more appealing to enterprises, grow through sort of the early-adopter phase, cross the chasm, and get into the enterprise-adoption phase, and grow as a project, make themselves more long-term sustainable. 
 
 So my team covers a whole pile of projects. TensorFlow, Kubernetes, gRPC, Istio, Apache Beam. I know I'm forgetting something. 
 

@@ -67,7 +67,7 @@ How do I restrict access to my service, by IP address range in Kubernetes?
 - Configuring Your Cloud Provider's Firewalls [docs](http://kubernetes.io/docs/user-guide/services-firewalls/)
 - Using Networks and Firewalls [docs](https://cloud.google.com/compute/docs/networking)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 55 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 55 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 MARK: I'm good, thanks, Francesc. I'm away from you at the moment-- still at home in San Francisco. 
 
 FRANCESC: I know. 
@@ -78,7 +78,7 @@ FRANCESC: Yeah, I'm already in the LA office-- a very nice office designed by Fr
 
 MARK: Fancy. 
 
-FRANCESC: So, yeah, see you soon. But before that, we need to record an episode. So let's go with that. We're going to have a fun interview today. I think it's a very interesting interview. We're going to interview two members of the Managed Infrastructure team at Google Cloud Platform. 
+FRANCESC: So, yeah, see you soon. But before that, we need to record an episode. So let's go with that. We're going to have a fun interview today. I think it's a very interesting interview. We're going to interview two members of the Managed Infrastructure team at Google Cloud. 
 
 And I'm going to try to say the names, even though I'm sure I'm going to fail at this. So we have Pawel and Jerzy-- Pawel Siarkiewicz and Jerzy Foryciarz. And I think that that is probably the best I can do. 
 
@@ -110,7 +110,7 @@ MARK: That is very cool. I didn't realize that was the case. That's pretty cool.
 
 FRANCESC: Yeah-- probably way more accurate than you will ever think. So yeah, it is incredibly powerful. It's a very powerful clock, yes. 
 
-MARK: Yeah, so that's really cool. I like the second cool thing of the week, because I like fast hardware. We have a strategic alliance with Intel, which is pretty awesome. And that means that we have announced the upcoming Xeon Processor is going to be available on Compute Engine and other virtual machines, and available on Google Cloud Platform. So if you're keen to be on the latest and greatest in hardware, that strategic alliance is pretty awesome. 
+MARK: Yeah, so that's really cool. I like the second cool thing of the week, because I like fast hardware. We have a strategic alliance with Intel, which is pretty awesome. And that means that we have announced the upcoming Xeon Processor is going to be available on Compute Engine and other virtual machines, and available on Google Cloud. So if you're keen to be on the latest and greatest in hardware, that strategic alliance is pretty awesome. 
 
 FRANCESC: Cool. And I see that it will be in all our flavors-- so standard, high MIM, and high CPU. So it's going to be available for whatever you're trying to do. You're going to get access to pretty amazing processors. That is very nice. 
 
@@ -230,7 +230,7 @@ So when you're starting out, you can just go into the UI and create an instance 
 
 But then what we are seeing, of course, with Chef/Puppet is that people are creating their own kind of cookbooks and scripts. And we're looking at building some of those on our own as well so that we can really support the managed instance groups as, I would say, like a first-class citizen of these different cookbooks. So you can just create a group and have it be managed externally. And then of course, with even our internal deployment stack, so like the Deployment Manager, you can use that to create managed instance groups. And that's another common use case. 
 
-FRANCESC: Yeah, that is Mark's favorite product of all Google Cloud Platform. He always talks about it. 
+FRANCESC: Yeah, that is Mark's favorite product of all Google Cloud. He always talks about it. 
 
 MARK: I do talk about Deployment Manager. 
 

@@ -5,7 +5,7 @@ audioSize = 47636681
 categories = ["Pub/Sub", "Task Queues", "App Engine", "Cloud Vision", "Logging"]
 date = "2015-12-09T14:33:31Z"
 title = "Messaging on the Cloud"
-description = "In the seventh episode of this podcast, your hosts Francesc and Mark discuss the different ways messaging can be done on Google Cloud Platform, covering Pub/Sub and Task Queues and when to choose what."
+description = "In the seventh episode of this podcast, your hosts Francesc and Mark discuss the different ways messaging can be done on Google Cloud, covering Pub/Sub and Task Queues and when to choose what."
 draft = false
 episodeNumber = 7
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/3w2xeq/episode_7_mess
 In the seventh episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) discuss
-the different ways messaging can be done on Google Cloud Platform,
+the different ways messaging can be done on Google Cloud,
 covering Pub/Sub and Task Queues and when to choose what.
 <!--more-->
 
@@ -110,7 +110,7 @@ Links:
 	</tbody>
 </table>
 
-{{< transcript "FRANCESC: Hello, and welcome to the seventh episode of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my co-host Mark Mandel. Hi, Mark." >}}
+{{< transcript "FRANCESC: Hello, and welcome to the seventh episode of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my co-host Mark Mandel. Hi, Mark." >}}
 MARK: Hi, Francesc. How are you doing?
 FRANCESC: Pretty good, pretty good. Very happy to be here in San Francisco recording in this beautiful voiceover room today.
 MARK: Yeah, it's great. At least the weather's nice here in San Francisco, raining, but, you know, it's pretty good.
@@ -163,7 +163,7 @@ MARK: Bigfoot, a yeti, like, all that sort of stuff.
 FRANCESC: But yeah, we'll have a link to the--it's a small Android app, so you can give it a try. It's really fun, and the good thing is that the source code is actually really simple. It's basically just a little API call. That's pretty much it, so it's great.
 MARK: That's pretty cool. I like that. I like that a lot. That's really sweet.
 FRANCESC: Cool. So for our main content today, as you were saying, we're gonna be talking about messaging and the plumbing of the Internet.
-MARK: Yeah, yeah, so this is something a little bit near and dear to my heart. I quite like it. So we want to talk about, like--how do we want to set the stage? So generally this sort of stuff comes up when you want to do sort of either a synchronous processing or maybe you have sort of disparate systems that want to be able to communicate to each other through some sort of messaging system. What sort of options are available on Google Cloud Platform to let you do that, and what sort of--like, why would you choose one over another? And I think to set the stage, I think, really, we're sort of looking at two particular pieces, one of which is task queues, which have been around for a long time. They've been in App Engine, and something that's relatively newer-ish, or at least relatively newer released publicly is Cloud Pub/Sub, which is pretty exciting.
+MARK: Yeah, yeah, so this is something a little bit near and dear to my heart. I quite like it. So we want to talk about, like--how do we want to set the stage? So generally this sort of stuff comes up when you want to do sort of either a synchronous processing or maybe you have sort of disparate systems that want to be able to communicate to each other through some sort of messaging system. What sort of options are available on Google Cloud to let you do that, and what sort of--like, why would you choose one over another? And I think to set the stage, I think, really, we're sort of looking at two particular pieces, one of which is task queues, which have been around for a long time. They've been in App Engine, and something that's relatively newer-ish, or at least relatively newer released publicly is Cloud Pub/Sub, which is pretty exciting.
 FRANCESC: Great.
 MARK: So I think we'll end up talking about both of those. Have you worked with those?
 FRANCESC: I've definitely used--I've definitely used task queues before. 
@@ -383,7 +383,7 @@ MARK: The question of the week has to do with logging data.
 FRANCESC: Interesting, more m--more data.
 MARK: Yeah, that's not what people say. So I--look, I think it's interesting. Logging data is, like, the bread and butter. It's, like, the core of anything you do. You need to know what your application is doing. Like, it's super important.
 FRANCESC: It's even less glamorous than messaging but even more important, probably.
-MARK: Probably, probably. So, you know, Google Cloud Platform has integrated logging platform. Like, it allows you to do some viewing. It's really awesome, but we tend to only hang around to it for a limited amount of time. You can configure it and say, like, when do you want to drop data off and do that sort of fun stuff, but what happens if you want to, like, store your logs for all time, right? Maybe you want to do some big data analytics later on or you just need it for auditing purposes or who knows? Like, there are so many things you could do. Is there an easy way to do it?
+MARK: Probably, probably. So, you know, Google Cloud has integrated logging platform. Like, it allows you to do some viewing. It's really awesome, but we tend to only hang around to it for a limited amount of time. You can configure it and say, like, when do you want to drop data off and do that sort of fun stuff, but what happens if you want to, like, store your logs for all time, right? Maybe you want to do some big data analytics later on or you just need it for auditing purposes or who knows? Like, there are so many things you could do. Is there an easy way to do it?
 FRANCESC: I know there is.
 MARK: There is.
 FRANCESC: And I haven't done it, so I'm gonna let you answer that question.

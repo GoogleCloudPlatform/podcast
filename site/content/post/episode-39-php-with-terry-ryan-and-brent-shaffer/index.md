@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.39.mp3"
 audioSize = 42825910
 categories = ["PHP", "App Engine", "Compute Engine", "Kubernetes", "gRPC"]
 date = "2016-08-17T01:07:49Z"
-description = "This week, Terry Ryan and Brent Shaffer join Francesc and guest host Chris Broadfoot to talk all about PHP on Google Cloud Platform"
+description = "This week, Terry Ryan and Brent Shaffer join Francesc and guest host Chris Broadfoot to talk all about PHP on Google Cloud"
 draft = false
 episodeNumber = 39
 hosts = ["Francesc Campoy Flores", "Chris Broadfoot"]
@@ -19,15 +19,15 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4y6iv3/episode_39_php
 
 This week, [Terry Ryan](https://twitter.com/tpryan) and [Brent Shaffer](https://twitter.com/bshaffer)
 join [Francesc](https://twitter.com/francesc) and guest host [Chris Broadfoot](https://twitter.com/broady)
- to talk all about PHP on Google Cloud Platform
+ to talk all about PHP on Google Cloud
 
 <!--more-->
 
 ##### About Terry
 
-[Terry Ryan](https://twitter.com/tpryan) is a Developer Advocate for the Google Cloud Platform team. 
+[Terry Ryan](https://twitter.com/tpryan) is a Developer Advocate for the Google Cloud team. 
 He has 15 years of experience working with the web - both front end and back. 
-He is passionate about web standards and wants to bring web developers to the Google Cloud Platform. 
+He is passionate about web standards and wants to bring web developers to the Google Cloud. 
 Before Google, he worked for Adobe and the Wharton School of Business. 
                                          
 He also wrote Driving Technical Change for Pragmatic Bookshelf, a book that arms technology professionals with 
@@ -45,7 +45,7 @@ and his favorite OpenSource project is the Symfony framework. Outside of work, h
 
 ##### Interview
 
-- PHP on Google Cloud Platform [docs](https://cloud.google.com/php/)
+- PHP on Google Cloud [docs](https://cloud.google.com/php/)
 - PHP App Engine Getting Started [docs](https://cloud.google.com/appengine/docs/php/getting-started/creating-guestbook)
 - Run PHP on Compute Engine [docs](https://cloud.google.com/php/tutorials/bookshelf-on-compute-engine)
 - Create a Guestbook with Redis and PHP on Container Engine [docs](https://cloud.google.com/container-engine/docs/tutorials/guestbook)
@@ -76,7 +76,7 @@ CHRIS: Oh, 25.
 
 FRANCESC: Episode 25 with Andrew Gerrand and Chris Broadfoot. Way too many Australians that time. This time, there's only one. So yeah. Mark is still traveling somewhere in Australia enjoying the holidays. So instead, we have Chris. And we're going to be talking today about PHP with Chris, but also with two other coworkers, Terry Ryan and Brent Shaffer. 
 
-And then after that, once we're done discussing all the possible things you can do with PHP on Google Cloud Platform, we'll have a question of the week. And the question of the week this week is about networking. So the question is, OK, so I want to use web sockets on a load balancer, and I'm using an HTPS load balancer. How do I do that? And so we'll have an answer for that at the end of the episode. But before that, we're going to have the cool thing of the week. And the cool thing of the week is about preemptible machines, preemptible VMs. Why don't you tell us a little bit about that? 
+And then after that, once we're done discussing all the possible things you can do with PHP on Google Cloud, we'll have a question of the week. And the question of the week this week is about networking. So the question is, OK, so I want to use web sockets on a load balancer, and I'm using an HTPS load balancer. How do I do that? And so we'll have an answer for that at the end of the episode. But before that, we're going to have the cool thing of the week. And the cool thing of the week is about preemptible machines, preemptible VMs. Why don't you tell us a little bit about that? 
 
 CHRIS: All right. So this week, we announced that we're dropping prices for preemptible VMs by up to 33%. 
 
@@ -126,7 +126,7 @@ BRENT: Yeah. We're not very well represented at Google.
 
 FRANCESC: Yeah, there's not that many. So I think it is important to have you represented on the podcast. So before we start talking about PHP and how awesome it is or not, why don't you tell us a little bit about who you are, what do you do at Google. Terry? 
 
-TERRY: Sure. So like Francesc, I'm on the DA team. I go out and talk to developers. I specifically spend a lot of time with PHP community, going to PHP events, and trying to get out the message that we at Google have PHP solutions on Google Cloud Platform. 
+TERRY: Sure. So like Francesc, I'm on the DA team. I go out and talk to developers. I specifically spend a lot of time with PHP community, going to PHP events, and trying to get out the message that we at Google have PHP solutions on Google Cloud. 
 
 FRANCESC: Cool. Could you tell us a little bit more about your experience with PHP? I think you used to do a lot of PHP before joining Google too? 
 
@@ -138,7 +138,7 @@ BRENT: Yeah, hi. So I'm a DPE, like Chris. And that means that I'm an engineer, 
 
 And I actually do like PHP. Whenever I started developing PHP, it was the first dynamic language that I had used. And previously, I had been programming in Java and C#. So I loved it. And I was also fortunate enough to learn from some developers that actually had good coding practices and standards. And so I sort of learning on the Symfony Framework, which those guys are really, really solid developers. And so I was luckily able to fall into the part of the PHP community that has really, really solid developers and programming practices. 
 
-FRANCESC: Cool. So everything I know about PHP and Google Cloud Platform is basically what you can find on cloud.google.com/php. Why don't you tell us a little bit about-- so yeah, if I was a PHP developer, and I get to Google Cloud Platform, what do I have at my disposal? 
+FRANCESC: Cool. So everything I know about PHP and Google Cloud is basically what you can find on cloud.google.com/php. Why don't you tell us a little bit about-- so yeah, if I was a PHP developer, and I get to Google Cloud, what do I have at my disposal? 
 
 TERRY: Well, we have the wide range of all of Google Cloud platform, but specifically focused on computing resources, it would be App Engine, Compute Engine, and Container Engine. For App Engine, PHP is one of the standard languages that runs on App Engine standard, which means that you can take PHP code that you use in other places, plop it down, and it will run right within the context of App Engine relatively easily. 
 
@@ -178,7 +178,7 @@ FRANCESC: Do we have any problem running your PHP on flexible environment?
 
 BRENT: Yeah. So we've been working really hard on the App Engine Flexible Runtime for PHP. And that's something that builds in Docker. And so it's really portable, and it's really great. You can run it, and Kubernetes cluster. And we have some pretty cool docs on how to do that, also running micro services and multiple services that are communicating with each other in a Kubernetes cluster, and also in App Engine Flexible. 
 
-Because since App Engine Flexible runs Docker container images, they're all compatible, which is nice. That runtime is-- it's on GitHub, and it's in the repository Google Cloud Platform slash PHP dash Docker. But it is almost in alpha. So we have a lot of docs. We have a lot of stuff. And we're putting a lot of time into making it good. But I think it's important to note it's still in alpha. Or it's not quite in alpha. 
+Because since App Engine Flexible runs Docker container images, they're all compatible, which is nice. That runtime is-- it's on GitHub, and it's in the repository Google Cloud slash PHP dash Docker. But it is almost in alpha. So we have a lot of docs. We have a lot of stuff. And we're putting a lot of time into making it good. But I think it's important to note it's still in alpha. Or it's not quite in alpha. 
 
 TERRY: It's almost alpha. 
 
@@ -294,11 +294,11 @@ TERRY: So if anybody's out there, and they're fooling around with these things a
 
 BRENT: Yeah, and all this stuff is at a early stage. So there's a couple of guys that have given us suggestions, and their input goes a long way because we are still making a lot of decisions on how we're going to move forward with these runtimes and all this stuff. 
 
-FRANCESC: Nice. So one last question. What is the best place for PHP developers to start using Google Cloud Platform? 
+FRANCESC: Nice. So one last question. What is the best place for PHP developers to start using Google Cloud? 
 
 TERRY: Cloud.google.com/php. 
 
-FRANCESC: Easy. So thank you very much to you two for taking the time today to talk to us about PHP and everything you can do with Google Cloud Platform. 
+FRANCESC: Easy. So thank you very much to you two for taking the time today to talk to us about PHP and everything you can do with Google Cloud. 
 
 BRENT: Yeah, thanks for having us. 
 

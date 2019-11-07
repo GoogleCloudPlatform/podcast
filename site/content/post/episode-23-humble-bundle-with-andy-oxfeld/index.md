@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.23.mp3"
 audioSize = 42977562
 categories = ["Humble Bundle", "Customer", "Gaming", "App Engine", "BigQuery"]
 date = "2016-04-27T01:07:49Z"
-description = "Andy Oxfeld, Engineering Manager, tells us all the details about how Humble Bundle runs on Google Cloud Platform."
+description = "Andy Oxfeld, Engineering Manager, tells us all the details about how Humble Bundle runs on Google Cloud."
 draft = false
 episodeNumber = 23
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4gp4i5/episode_23_hum
 Andy Oxfeld, Engineering Manager at Humble Bundle,
 tells your hosts [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) all the details
-about how Google Cloud Platform powers [Humble Bundle](https://www.humblebundle.com/friends-of-nintendo-3ds-wiiu).
+about how Google Cloud powers [Humble Bundle](https://www.humblebundle.com/friends-of-nintendo-3ds-wiiu).
 <!--more-->
 
 ##### About Andy
@@ -51,7 +51,7 @@ such as Warhammer Online: Age of Reckoning.
 - [Google Cloud Storage](https://cloud.google.com/storage/docs/overview) to store static images.
 - [Stackdriver](https://cloud.google.com/stackdriver/) for monitoring and alerts.
 - [PubNub](https://www.pubnub.com/) for real time communication - we also discuss [Channels API](https://cloud.google.com/appengine/docs/python/channel/) and [Firebase](https://www.firebase.com/).
-- Join [Humble Bundle](https://jobs.humblebundle.com/) and work with Google Cloud Platform!
+- Join [Humble Bundle](https://jobs.humblebundle.com/) and work with Google Cloud!
 
 ##### Question of the week
 
@@ -61,13 +61,13 @@ Kubernetes 1.2 doesn't have a concept of schedule tasks, how do you handle them?
 - [Cron jobs](https://en.wikipedia.org/wiki/Cron) on [Compute Engine](https://cloud.google.com/compute/).
 - Scheduled tasks with Cron on App Engine [docs](https://cloud.google.com/appengine/docs/python/config/cron).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 23 of the Weekly Google Cloud Platform Podcast. I am Francesc Campo, and I'm here with my colleague, Mark Mandel. Hey, Mark. " >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 23 of the Weekly Google Cloud Podcast. I am Francesc Campo, and I'm here with my colleague, Mark Mandel. Hey, Mark. " >}}
 MARK: Hey, Francesc. How you doing today?
 FRANCESC: Very happy. Very excited about the very cool interview with Andy.
 MARK: Yeah. Yeah, we've got a really nice interview today with a gentleman from Humble Bundle which is a website that I've been tracking for a long time over the years.
 FRANCESC: And I'm slightly ashamed. I'm not really ashamed, but whatever. I actually did not know who they were, and I think I'm gonna start using them soon. 
 MARK: Yeah, I think it's just to show that I play more games than you do. I think it's probably what it is. 
-FRANCESC: I play Android games, yeah. Yeah, so that's actually going to be our main content of the week. We're gonna be talking with Andy Oxfeld which is engineering manager at Humble Bundle about how to use Google Cloud Platform.
+FRANCESC: I play Android games, yeah. Yeah, so that's actually going to be our main content of the week. We're gonna be talking with Andy Oxfeld which is engineering manager at Humble Bundle about how to use Google Cloud.
 MARK: Yeah, yeah, it's gonna be really cool. And then after that we have our "Question of the Week" where we're gonna be talking about Kubernetes one more time.
 FRANCESC: Yeah. People like it. 
 MARK: They do. They do really like it, but before we do that, I think you've got a really interesting cool "Thing of the Week" that you've managed to find. 
@@ -76,7 +76,7 @@ MARK: Oh, very nice.
 FRANCESC: Yeah, I'm very French. And they did a ranking about the different features of every single cloud provider that we have here in the United States, and guess who came up first. 
 MARK: I don't know, maybe us? 
 FRANCESC: Yeah. Yeah, and it is very cool, so we'll have the link on the show notes, and I think it's, like, "Yeah, we are the first on the general ranking." We are the first on every single ranking which is actually very interesting for us, too, 'cause it kind of shows what are the things we need to improve on, but also it shows if you are trying to decide which cloud you should go with, there's gonna be a lot of different things that you might be interested. You're gonna find them in this report, so definitely worth having a look. 
-MARK: Yeah, so I mean, like, if you're looking for certain tradeoffs from different cloud providers, obviously us included, could be a really interesting read, or if you're sort of going, "Hey, I'd really like to use Google Cloud Platform, but I need to have something that sort of justifies the usage or like, helps me sort of make this argument," this sounds like a document that might be pretty handy for you. 
+MARK: Yeah, so I mean, like, if you're looking for certain tradeoffs from different cloud providers, obviously us included, could be a really interesting read, or if you're sort of going, "Hey, I'd really like to use Google Cloud, but I need to have something that sort of justifies the usage or like, helps me sort of make this argument," this sounds like a document that might be pretty handy for you. 
 FRANCESC: Yeah. And also the little images that they created with the rankings, they're super cute, so that's something that it's always a bonus. Yeah. 
 MARK: That definitely always helps. 
 FRANCESC: It's very, very important. Cool. So I guess it's time to go and talk to Andy.
@@ -98,7 +98,7 @@ FRANCESC: What?
 MARK: ...that show you, like, total payments split by operating system, number of purchases. I've been a longtime Linux user, so I still go back on a regular basis and be like, "Hey, are Linux users paying more than Windows users?" And stuff like that, and actually look at the numbers. So yeah, a lot of that stuff really, like, exists, and like, they highlight top contributors and stuff like that. It's a pretty awesome thing that you're doing. 
 ANDY: Thanks. 
 MARK: So you said you were dealing with sort of, like, millions and millions of--Well, millions at the very least--of people buying products. Let's talk a little bit about the technology that powers Humble Bundle and what's going on there. I believe you people are using GCP.
-ANDY: Mm-hmm. That's correct. So yeah, we--We've been using App Engine since day one, and you know, over time we've continued to, you know, expand our usage of Google Cloud Platform offerings, and we're now using, you know, Google Cloud Storage. We're using BigQuery, and you know, starting to use Google Compute Engine as well, and you know, those have definitely been critical to our success. 
+ANDY: Mm-hmm. That's correct. So yeah, we--We've been using App Engine since day one, and you know, over time we've continued to, you know, expand our usage of Google Cloud offerings, and we're now using, you know, Google Cloud Storage. We're using BigQuery, and you know, starting to use Google Compute Engine as well, and you know, those have definitely been critical to our success. 
 FRANCESC: Very cool. So could you tell us a little bit more? Why did you choose App Engine at the beginning? 
 ANDY: So we knew that our, as you mentioned, our traffic was gonna be very spiky, so the--You know, the automatic scaling of App Engine was absolutely crucial for our success, and you know, I don't think the company, you know, really could've worked without it, so the fact that--You know, so it was basically--You know, without automatic scaling, you know, we could have had--You know, if we had a fixed number of servers, there's two different ways it could've gone. So we could've either had too few servers, and you know, customers would've come to our website, and you know, things would've, you know, been slow or wouldn't have worked, and you know, customers wouldn't have been able to make all their purchases they were able to make. Or we would've had enough servers to meet the demand, but that would mean that, you know, as soon as--You know, really the first few hours from a bundle have always been by far when most of the traffic comes in, but the bundle runs for two weeks, and by the end it's more kind of a trickle of purchases compared to the beginning. So if we were paying for, you know, all the servers that we needed to support those initial few hours at the end of the bundle, our costs would've been so high that there's no way the company could have been profitable. So the fact that App Engine, you know, without any thought on our part was just able to, you know, scale up and scale down as we needed, and we didn't even have to think about it, you know, especially, you know, when the company was really small and we didn't have, you know, a big team, you know, it just allowed us to get started and just focus on, you know, selling games and you know, doing cool promotions and not worrying about, you know, all the little nitty-gritty details of the tech. 
 FRANCESC: Nice. So knowing that Humble Bundle has been out there for quite a long time, I don't think you're using Go, so what language are you using?
@@ -134,7 +134,7 @@ FRANCESC: How many modules do you have, or it's just, like, one big module?
 ANDY: So we have almost--Like, probably 95% of our code base is in one module, and then we have a few other kind of tinier modules. Kind of the--The most notable one--So we've built an uploader which uses our CDN which is a separate company does that, so we've built an uploader that--The uploader does run in App Engine, then so that is a separate module that, you know, it's kind of a very isolated kind of problem we wanted to solve, and so that's able to kind of live separately and use different technologies which is nice. 
 MARK: Do you store the binaries for the games, or is that done by third party? What's the (inaudible)?
 ANDY: So we do store the binaries, and that's what the CDN does, and that's what this kind of uploader module does is uploads the binaries to our CDN.
-MARK: So I'm curious. Like, what would you consider probably the biggest challenge you've encountered when building Humble Bundle working with Google Cloud Platform? What's been sort of the trickiest problem that you've come across?
+MARK: So I'm curious. Like, what would you consider probably the biggest challenge you've encountered when building Humble Bundle working with Google Cloud? What's been sort of the trickiest problem that you've come across?
 ANDY: Yeah, definitely scalability, although App Engine's tools definitely provide solutions to that. You know, we've--It comes down to, you know, often we'll write our code, kind of have, you know, problem one is always just get the code working. Then so for example, when we built the Humble store which is a bit of a more traditional storefront that's unlike our bundles which are pay what you want, the Humble store is fixed-price sales. When we first built that, we kind of put it together in just a couple weeks, and then, you know, at the time, we only had ten games on it, so the original solution we built for it was not scalable at all. We were actually dumping, you know, the entire inventory directly to the browser, so you know, at first it loaded pretty fast, and you know, we hit 50 games, it was starting to be a little slower. Once we had 100 games on the store, you know, the store was taking about ten seconds to load, and we realized, you know, we were gonna have to, you know, use a better approach, and so you know, we kind of looked at the technology's App Engine provided, and we were able to leverage Task Queues and Memcache and you know, build a more sophisticated system that now we kind of, you know, do a, you know, much smarter approach where we only send, you know, kind of the games that the browser needs to know about, and so you know, now we have thousands and thousands of games on our store, and you know, the store loads very fast. 
 FRANCESC: Cool. And something that our customers very often wonder is how do you monitor all these systems? 
 ANDY: So yeah, we have a number of ways we do that. So we have a bunch of things we kind of built internally on top of the log system in App Engine, so we have, you know, (chron) jobs that, you know, run, you know, every few minutes that check the logs for, you know, look for exceptions and stuff like that. And if they're above a certain threshold, they'll actually, like, ping our phones, occasionally in the middle of the night. But you know, lets us know when things go wrong, and we also have, you know, kind of dashboards that we look at. You know, some of which we build by hand. I actually check our App Engine usage every day just to, you know, make sure if our numbers are going too high, you know, in case, you know, an engineer accidentally deploys some code that's, you know, doing tons and tons of Datastore reads that we don't want. That way we catch it before, you know, our bill ends up going too high. More recently we've been starting to look in to some of the new stack driver things, so we're just kind of starting to wrap our heads around that and see how we can take advantage of that, but we've already--We set up a few kind of custom metrics, and we're kind of looking at the dashboards there and starting to see, and it's definitely really exciting technology, and we're just starting to figure out how we can use it. 
@@ -151,7 +151,7 @@ FRANCESC: Channels API. I have not used them much, but I was very curious about 
 ANDY: Yeah, we haven't actually looked too much into that either, but that does--I do think it is probably pretty similar to the service PubNub provides. 
 FRANCESC: I was in between that or Firebase, so yeah. 
 MARK: Yeah, yeah. Excellent. Cool. Is there any thing we haven't talked about but you'd like to highlight or you think is particularly interesting about what's going on behind the scenes at Humble Bundle? 
-ANDY: Mm-hmm. Well, one thing I do want to highlight is that we are hiring software engineers, so you know, our website is Jobs.HumbleBundle.com, and we definitely encourage anyone interested to check it out. And you know, having experience at Google Cloud Platform is definitely a big plus for us, so yeah. 
+ANDY: Mm-hmm. Well, one thing I do want to highlight is that we are hiring software engineers, so you know, our website is Jobs.HumbleBundle.com, and we definitely encourage anyone interested to check it out. And you know, having experience at Google Cloud is definitely a big plus for us, so yeah. 
 FRANCESC: Yeah, if anyone ends up applying to Humble Bundle because of this podcast, I'd love to know. 
 MARK: Yeah, definitely. 
 FRANCESC: 'Cause I feel that maybe they have referral bonus or something. 
@@ -162,7 +162,7 @@ ANDY: You guys are welcome. Absolutely. Any day.
 FRANCESC: Cool. Well, thanks so much for taking the time to come by the office and talk to us today. 
 ANDY: Absolutely. Great to be here. Thanks for having me. 
 MARK: Thanks so much. 
-FRANCESC: Cool, so thanks again to Andy for such an interesting conversation. I really learned a lot about how they use the Google Cloud Platform, but also I learned a lot about cool things like they actually are very active on (inaudible).
+FRANCESC: Cool, so thanks again to Andy for such an interesting conversation. I really learned a lot about how they use the Google Cloud, but also I learned a lot about cool things like they actually are very active on (inaudible).
 MARK: Yeah. No, Humble Bundle's a really interesting product just from a business perspective if nothing else as well as sort of the stuff they've been doing for selling games and indie games and all sorts of good stuff. It's a project I've tracked for a really long time. 
 FRANCESC: Yeah, I'm not sure buying more games is a very good idea for me right now 'cause--
 MARK: You can never have enough games. Ever. 
@@ -185,7 +185,7 @@ MARK: I like this much better too. Obviously then, it's a managed service. You a
 FRANCESC: Yeah, also the thing that I like about this solution is that it's--So (chron) on App Engine is based on Task Queues which means that if for any reason the request that you're sending fails, it will retry it.
 MARK: Yeah. 
 FRANCESC: So it's also a bonus. You're basically just winning there, and I think it even comes with an exponential (inaudible) and all those really fancy things if you need to. So it's very easy to set up, and it's very reliable. 
-MARK: Yeah. Yeah, absolutely. So I think that's--That's definitely the way I'd go, especially if, you know, obviously you're running on Google Cloud Platform, I think that's an easy solution. And you know, with the scale to zero of the extended App Engine, you're not paying for very much either. 
+MARK: Yeah. Yeah, absolutely. So I think that's--That's definitely the way I'd go, especially if, you know, obviously you're running on Google Cloud, I think that's an easy solution. And you know, with the scale to zero of the extended App Engine, you're not paying for very much either. 
 FRANCESC: Yep. Cool. Well, before we finish with this amazing episode, why don't you tell us a little bit about what you're gonna be doing soon. 
 MARK: So this got said in the last episode as well, but I will be in Kentucky at the end of next week. I will be seeing VectorConf talking about games in the Cloud doing a little round table.
 FRANCESC: And I think that when you say "next week," it's this week 'cause--

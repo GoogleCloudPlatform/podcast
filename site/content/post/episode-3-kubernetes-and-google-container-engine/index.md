@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.3.mp3"
 audioSize = 58537298
 categories = ["Kubernetes", "Container Engine"]
 date = "2015-11-11T02:11:26Z"
-description = "In the third episode of this podcast, your hosts Francesc and Mark interview Brian Dorsey, Developer Advocate, Google Cloud Platform about Kubernetes and Google Container Engine."
+description = "In the third episode of this podcast, your hosts Francesc and Mark interview Brian Dorsey, Developer Advocate, Google Cloud about Kubernetes and Google Container Engine."
 draft = false
 episodeNumber = 3
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -22,7 +22,7 @@ In the third episode of this podcast, your hosts
 [Mark](http://twitter.com/neurotic) interview
 [Brian
 Dorsey](https://twitter.com/briandorsey),
-Developer Advocate, Google Cloud Platform about Kubernetes and Google
+Developer Advocate, Google Cloud about Kubernetes and Google
 Container Engine.
 
 <!--more-->
@@ -48,7 +48,7 @@ Links:
     Borg](https://www.youtube.com/watch?v=wy3L7XUq-g0)
 -   [BigQuery](https://cloud.google.com/bigquery/)
 
-{{< transcript "FRANCESC: Hi, and welcome to the third episode of the weekly Google Cloud Platform podcast. I'm your host, Francesc Campoy, and I'm here with the other host, Mark. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to the third episode of the weekly Google Cloud podcast. I'm your host, Francesc Campoy, and I'm here with the other host, Mark. Hey, Mark, how are you doing?" >}}
 MARK: I'm good, Francesc. How are you doing?
 FRANCESC: Pretty good.
 MARK: That's good. I hear you're a little bit out and about at the moment. You're traveling. I know you're not in San Francisco.
@@ -65,7 +65,7 @@ MARK: Yeah, so if you want to get the chance to use it, there's a little "try th
 FRANCESC: And I’m gonna guess the second one. Is it the search bar?
 MARK: Actually, it isn't the search bar, but the search bar is awesome.
 FRANCESC: The search bar is my favorite one, so. Okay, so if it's not the search bar, what is it?
-MARK: Okay, so I actually really like on the front page you can customize your widgets, so you can specify your widgets on the front page that you want to see so that you can get all your up-to-date information about, say, like, Evers or what's the status for Google Cloud Platform or any of that sort of stuff, so you get that at a glance as you first join. That's really cool.
+MARK: Okay, so I actually really like on the front page you can customize your widgets, so you can specify your widgets on the front page that you want to see so that you can get all your up-to-date information about, say, like, Evers or what's the status for Google Cloud or any of that sort of stuff, so you get that at a glance as you first join. That's really cool.
 FRANCESC: Yeah, that's--that's really cool. I guess we're just different people. I'm more like, I just want to find whatever I'm looking for without having to set every--anything up while you're more, like, pinning and modifying and customizing.
 MARK: That's true.
 FRANCESC: But yeah, for whatever you like doing, basically you have both, so that's fun.
@@ -93,14 +93,14 @@ MARK: We had a gr--yeah, we had a great t--
 FRANCESC: The Brian Dorsey.
 MARK: The Brian Dorsey, yes. We had a great chance to chat with him about Kubernetes.
 FRANCESC: Yup. So what do you think? Should we just start playing that interview then?
-MARK: That's a great idea. Let's play that interview right now. So we are joined today by one of our wonderful colleagues, Brian Dorsey, who is also a developer advocate for the Google Cloud Platform. We're gonna have a chat today about Kubernetes and Google Container Engine. How you doing today, Brian?
+MARK: That's a great idea. Let's play that interview right now. So we are joined today by one of our wonderful colleagues, Brian Dorsey, who is also a developer advocate for the Google Cloud. We're gonna have a chat today about Kubernetes and Google Container Engine. How you doing today, Brian?
 BRIAN: Excellent. Thanks for having me in.
 MARK: Thank you very much.
 FRANCESC: Hey, Brian.
 MARK: Now, of course, the first question I have to ask before anything we go on is is it Kuber-neet-es or Kuber-net-es? I argue about this all the time. I think that's probably the most important thing that we discuss before anything else.
 BRIAN: Yeah, I think I'm gonna mangle this. I think I met a Greek gentleman who said it--the actual Greek word is pronounced something like Koov-er-net-es, but, you know, it's something that was birthed on the west coast of the United States, so we pretty much say Kubernetes.
 MARK: Wonderful. Okay, so before we go on any further, why don't you give us a brief background on yourself so people know who you are if, you know, you're not popular enough already.
-BRIAN: So hi. I'm Brian. I'm a developer advocate for Google Cloud Platform, and yeah, I've worked on a few different things, you know, Cloud storage, our Compute Engine virtual machines, and lately been doing a lot of work with Container Engine and Kubernetes. Also, I love Python and Go, so.
+BRIAN: So hi. I'm Brian. I'm a developer advocate for Google Cloud, and yeah, I've worked on a few different things, you know, Cloud storage, our Compute Engine virtual machines, and lately been doing a lot of work with Container Engine and Kubernetes. Also, I love Python and Go, so.
 FRANCESC: Ah, good.
 BRIAN: So that works, right?
 MARK: Wonderful. That works. That sounds good. Francesc loves the Go as well, as well we know.
@@ -171,7 +171,7 @@ FRANCESC: And that's--that was really, really nice and really easy to do, so yea
 MARK: Very, very cool. Okay, so I guess we should probably start talking about, like, Google Container Engine.
 BRIAN: Oh, right, Google Cloud Podcast.
 FRANCESC: Yeah, Google Container with a K.
-MARK: Yeah, like, we--it is a Google Cloud Platform podcast. We probably should talk about those products.
+MARK: Yeah, like, we--it is a Google Cloud podcast. We probably should talk about those products.
 BRIAN: Yeah, actually, so we should talk about that. So, like, people sometimes abbreviate Google Container Engine as GKE.
 MARK: Yes.
 BRIAN: So, you know, you can think about it as kind of, like, Google Kubernetes Engine in a way, and, you know, so the main, you know, difference there is--so it's running--you know, so Container Engine is hosted Kubernetes, so it's running the, you know, open source Kubernetes, but we handle running the master for you, so we, you know, maintain that. We keep it up-to-date. We upgrade, you know, the Kubernetes software itself over time. We just kind of basically handle--you can think about actually using Kubernetes in kind of two parts. There's one part that is, you know, setting up the cluster itself and running Kubernetes, and the other part is, like, running your software in Kubernetes, so you're kind of like, you know, the config and setup and maintenance of the cluster itself versus actually using the cluster, and, you know, actually, internally at Google it's two separate groups who usually manage those things, right? You've got the people that run all the clusters, and then you've got the application groups who actually run their software in the clusters, so--and this is a way of basically, you know, letting Google run Kubernetes for you so that you can focus on your app.
@@ -187,7 +187,7 @@ MARK: And it's the only way I've ever fired up a Kubernetes cluster. I've never 
 BRIAN: Yeah, so on that note, like, you know, no matter where you're planning on running Kubernetes longterm, and I think one of the big advantages of Kubernetes is that, you know, it gives you some consistency to environment for running your software, so you can run it in multiple different cloud providers. You can run it on your own machines. You can run it on your laptop. You know, so you can run the same system in a lot of different places, but if you're kind of, like, trying to decide whether or not this is something you even want to spend the time on, doing your first experiments in Google Container Engine is just so much easier to tell whether you even care about Kubernetes, like, whether you want to spend the time to set it up on your own stuff.
 MARK: Yup.
 BRIAN: So I'd highly recommend that no matter where you plan on deploying.
-MARK: Yeah, I agree 100%. I've seen more than a few people do that, and yeah, one of the lovely things about Kubernetes is that you can pick it up and move it, which is great, so. While we would love for you to stay on Google Cloud Platform, we understand that people have needs. That's fair enough. But yeah, it's just such an easy process to get, you know, three or four nodes spun up and start deploying things and get playing with it. It's great.
+MARK: Yeah, I agree 100%. I've seen more than a few people do that, and yeah, one of the lovely things about Kubernetes is that you can pick it up and move it, which is great, so. While we would love for you to stay on Google Cloud, we understand that people have needs. That's fair enough. But yeah, it's just such an easy process to get, you know, three or four nodes spun up and start deploying things and get playing with it. It's great.
 FRANCESC: Yeah, and for me, one of the things that I really like is Kubernetes is something that I really like to play with. Like, I know that there's some people that are already using it in production. For our demo, the Google Cloud Spin, we're using it in production, which is cool, but for me right now it's just like, I'm learning the concepts and playing with it, and--and the good thing's that the pricing for Kubernetes, if you just want, like--not for Kubernetes, sorry. For Container Engine, up to five hosts, which is a decent amount of hosts already, is zero, so you don't pay anything, so, like, basically, if you want to play with it, you can create your cluster quite easily, get your machines running, and then start playing with it not paying anything.
 BRIAN: So let me--I'll add a little bit there. You don't pay anything for Container Engine itself. You do still pay for the virtual machines that you're running the nodes on.
 FRANCESC: Yeah, which might be running--yeah, then you get to choose how big or small your machines you want, like we discussed in previous podcasts, previous episode, yeah.
@@ -270,7 +270,7 @@ FRANCESC: That's a very good point. Yeah, so good to take care in--no, good to t
 MARK: Yeah.
 FRANCESC: And we also asked one of the solution engineers here at Google for Work, Terrence, and what he said that--he said indeed there was not too small, which, again, it's not--there's nothing too small. There's nothing too big. Like, it's BigQuery. It just handles everything you want, but that his rule of thumb, it's around 100 gigabytes, so if you have less than that, it's not probably worth sharding, and over that it starts making sense, so if you have, like, hundreds of megs, probably you're good. If you start having terabytes, then that's where you should definitely start sharding a little bit, indeed.
 MARK: Yeah, no, that sounds good, and for those who aren't as familiar with BigQuery, BigQuery has some great, like, tooling built-in for running queries across tables that have date formats in them, so you don't have to be afraid of sharding, which is nice, but it just makes it sort of a little bit better if you're--
-FRANCESC: Yeah, actually, it might be a good idea to give a short, short description of what BigQuery is. It's one of my favorite Google Cloud Platform products, actually, 'cause basically it allows you to do SQL-like requests, so if you know how to write SQL segments, you're good, basically, but if you're gonna enter--if you're gonna query terabytes of data, instead of taking minutes or hours, it just takes seconds, so that's fun.
+FRANCESC: Yeah, actually, it might be a good idea to give a short, short description of what BigQuery is. It's one of my favorite Google Cloud products, actually, 'cause basically it allows you to do SQL-like requests, so if you know how to write SQL segments, you're good, basically, but if you're gonna enter--if you're gonna query terabytes of data, instead of taking minutes or hours, it just takes seconds, so that's fun.
 MARK: Yeah, no, we had a really good chat recently with some people about BigQuery and where is the right place for BigQuery, and I think that the takeaway from that was you have such large data sets that it's taking you hours to process them. BigQuery can allow you to A, not worry about infrastructure 'cause we manage that for you, but take those hours and move those down into seconds, which I think is really powerful.
 FRANCESC: Yeah, it's basically what we use internally at Google to query our own logs, and we do have a lot of logs, so yeah, big data, not a problem with that.
 MARK: Yeah, definitely, and if you're interested in that stuff, go find one of our teammates, Felipe. He does amazing things with big data, especially on Reddit, especially. He does some really cool stuff.
@@ -286,7 +286,7 @@ FRANCESC: I will probably be in a different country, yeah, so I'm gonna go tomor
 MARK: Nice.
 FRANCESC: So if there's anyone--so in Antwerp, in Belgium north of Brussels, so if there's anyone around there, we're gonna have--I think we're gonna be five people from our team, so that's gonna be fun.
 MARK: That'll be great.
-FRANCESC: And so if you're around and you want to chat about Google Cloud Platform, just send me a message, and we'll be happy to get together. What about you? Any traveling plans?
+FRANCESC: And so if you're around and you want to chat about Google Cloud, just send me a message, and we'll be happy to get together. What about you? Any traveling plans?
 MARK: Well, I have an event here in San Francisco at the end of the week. I will be at FutureStack, which I'm really excited about. Steve Wozniak is gonna be keynoting there, so I'm super excited about that, and then after that I will be in Philadelphia for Clojure Conj, which I'm also really excited about, so.
 FRANCESC: Oh, yeah, you told me about that. Actually, yeah, you're gonna be talking about containerizing Clojure tools?
 MARK: Yeah, containerizing development environments, which I'm seeing a lot of people doing lately. I think it's really, really cool.

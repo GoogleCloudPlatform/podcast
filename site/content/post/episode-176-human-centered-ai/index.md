@@ -60,7 +60,7 @@ Michelle will be at [Google I/O](https://events.google.com/io/) and [Kubecon Eur
 
 - No I/O event in your area? You can [host one!](https://docs.google.com/presentation/d/e/2PACX-1vReWDtj-yASOho5q7XC6lYY8af9wRa13-81mPaoSRodiRoCw4MKJnQExQ8GxyNyCQiPZpBprznPG4ex/pub?slide=id.g62811f3b0_18)
 
-{{< transcript "[MUSIC PLAYING] MICHELLE: Hi, and welcome to episode number 176 of the Weekly Google Cloud Platform Podcast. I'm your host, Michelle Casbon, and I'm here with my colleague, Mark Mirchandani. Hello, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MICHELLE: Hi, and welcome to episode number 176 of the Weekly Google Cloud Podcast. I'm your host, Michelle Casbon, and I'm here with my colleague, Mark Mirchandani. Hello, Mark." >}} 
 
 MARK MIRCHANDANI: Hello, Michelle. You know, all this time I've been saying Casbin as opposed to Casbon. 
 

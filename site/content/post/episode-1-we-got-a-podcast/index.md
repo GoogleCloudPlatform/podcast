@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.1.mp3"
 audioSize = 40782853
 categories = ["App Engine", "Cloud Storage"]
 date = "2015-10-27T17:37:33Z"
-description = "In this first episode your hosts, Francesc and Mark, discuss how this blog post was built and deployed to Google Cloud Platform."
+description = "In this first episode your hosts, Francesc and Mark, discuss how this blog post was built and deployed to Google Cloud."
 draft = false
 episodeNumber = 1
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -44,17 +44,17 @@ Links:
 -   Google Analytics library for Go:
     [go-ogle-analytics](https://godoc.org/github.com/jpillora/go-ogle-analytics)
 -   [HIPAA](http://www.dhcs.ca.gov/formsandpubs/laws/hipaa/Pages/1.00WhatisHIPAA.aspx) compliance:
-    Google Cloud Platform
+    Google Cloud
     [compliance](https://cloud.google.com/security/compliance) page.
 
 Errata:
 
 - Mark says HTTP status 503 for redirect, when he should have said either 302 or 307.
 
-{{< transcript "﻿FRANCESC: Hi, and welcome to the Google Cloud Platform podcast. I'm Francesc Campoy, the developer advocate for the Google Cloud Platform, and I'm here with my colleague, Mark." >}}
-MARK: Hi, I'm Mark Mandel. I'm also a developer advocate of the Google Cloud Platform. It's great to be here today.
-FRANCESC: Yeah, great to be with you today. So yeah, what is this that we're doing today? What is the Google Cloud Platform podcast?
-MARK: Apparently, we're doing a podcast talking about Google Cloud Platform, which I think is pretty awesome. I'm really excited about this project. 
+{{< transcript "﻿FRANCESC: Hi, and welcome to the Google Cloud podcast. I'm Francesc Campoy, the developer advocate for the Google Cloud, and I'm here with my colleague, Mark." >}}
+MARK: Hi, I'm Mark Mandel. I'm also a developer advocate of the Google Cloud. It's great to be here today.
+FRANCESC: Yeah, great to be with you today. So yeah, what is this that we're doing today? What is the Google Cloud podcast?
+MARK: Apparently, we're doing a podcast talking about Google Cloud, which I think is pretty awesome. I'm really excited about this project. 
 FRANCESC: Yeah, me too. I'm really excited. Just to give an idea about what people should expect during these episodes, let's talk a little bit before we start with any content that we're gonna be covering today. 
 MARK: Yep. 
 FRANCESC: What is the normal architecture, the normal layout, of--
@@ -62,7 +62,7 @@ MARK: Of what we're doing?
 FRANCESC: Yeah.
 MARK: Yeah, so, all right. So first we want to start with what we're calling the "cool thing of the week." 
 FRANCESC: Cool.
-MARK: Yeah, it's gonna be great. So basically, any sort of really interesting projects. Maybe open source. Maybe a new launch. Maybe a tip or trick, something that we think's gonna be saving people time when they work on Google Cloud Platform. We want to share it with the audience, and we want this to be really, like, sort of, participatory. Like, if you've got something out there, you know, we're happy to fill in the details, but if you're like, "Man, check out this project. It's awesome." Or, "I did this great thing and it saved me a heap of time." Please send it through to us. We really want to hear about it. 
+MARK: Yeah, it's gonna be great. So basically, any sort of really interesting projects. Maybe open source. Maybe a new launch. Maybe a tip or trick, something that we think's gonna be saving people time when they work on Google Cloud. We want to share it with the audience, and we want this to be really, like, sort of, participatory. Like, if you've got something out there, you know, we're happy to fill in the details, but if you're like, "Man, check out this project. It's awesome." Or, "I did this great thing and it saved me a heap of time." Please send it through to us. We really want to hear about it. 
 FRANCESC: Yeah, and by the way, if you want to--if you want to get in contact with us, to share any of those "cool things of the week," we have many ways of contacting us. The most important one is our webpage, which is gcppodcast.com.
 MARK: Yep.
 FRANCESC: Then, I think we also have an email?
@@ -72,8 +72,8 @@ MARK: Yeah.
 FRANCESC: And then, we are also on Twitter as @gcppodcast. On Reddit, we have the subreddit /r/gcppodcast.
 MARK: Yep.
 FRANCESC: And then you can also find us on Google+ by searching "GCP Podcast." 
-MARK: Yeah, if you search for "Google Cloud Platform podcast," we'll show up. 
-FRANCESC: Google Plat--Google Cloud Platform podcast. That's why I prefer to say GCP, much easier to say. So yeah, we're gonna have that part at the beginning of the episodes, that are gonna be very participative, so we are waiting for your proposals. And then, at the end of the episodes, we will finish with something quite similar. But rather than saying something that is cool, it's gonna be the "question of the week."
+MARK: Yeah, if you search for "Google Cloud podcast," we'll show up. 
+FRANCESC: Google Plat--Google Cloud podcast. That's why I prefer to say GCP, much easier to say. So yeah, we're gonna have that part at the beginning of the episodes, that are gonna be very participative, so we are waiting for your proposals. And then, at the end of the episodes, we will finish with something quite similar. But rather than saying something that is cool, it's gonna be the "question of the week."
 MARK: Yeah, really looking forward to this as well. Really interested to see what questions people are gonna send us through. I think it's gonna be a great resource, and it's always fun, you know, at events we get great questions. So we'd love to share the answers that we can find with people. I think that's gonna be lots of fun.
 FRANCESC: Yeah, I'm actually very excited about this part, just because most of the questions that we will get, hopefully we will not know the answer directly. So it's gonna be things that we're gonna have to find out with other Google engineers, [inaudible] managers, and so on.
 MARK: We'll have to go find it out, yeah. 
@@ -82,7 +82,7 @@ MARK: Yeah.
 FRANCESC: So--
 MARK: What's coming between the question of the week and the cool thing of the week as well?
 FRANCESC: Yeah, that's a--that's a little section we call the main content. So we're gonna be covering--we're gonna be doing many different things. The idea is that we're gonna have, like, deep dives on some specific topic, like we're gonna be talking [inaudible] on, like, what is data store or SQL versus MySQL, or SQL versus NoSQL. Things like that. But also, we want to cover other topics. SO we're gonna be interviewing other product managers, engineers, people that are cool and interesting, in general.
-MARK: Yeah, I think also customer projects. So if there's people out there using Google Cloud Platform, and you'd love to come on the podcast, reach out to us. We totally want to speak to you. It'd be great to have you on air.
+MARK: Yeah, I think also customer projects. So if there's people out there using Google Cloud, and you'd love to come on the podcast, reach out to us. We totally want to speak to you. It'd be great to have you on air.
 FRANCESC: Yeah. Oh, yeah. It'd be awesome.
 MARK: And find out, you know, what people out there in the wild are doing. That's really the interesting stuff too.
 FRANCESC: Cool, yeah. So basically, we're--we're pretty open. We're gonna be talking about things that we think are cool, basically. That's pretty much it. So--Okay, so what are we gonna be talking about today, then? 
@@ -90,9 +90,9 @@ MARK: Okay, so cool thing of the week I think is pretty straightforward. We have
 FRANCESC: Yeah, that's cool.
 MARK: That's pretty cool. 
 FRANCESC: That's pretty cool, isn't it? And so yeah, and what about the main content?
-MARK: So we built the podcast for Google Cloud Platform, strangely enough, on Google Cloud Platform. 
+MARK: So we built the podcast for Google Cloud, strangely enough, on Google Cloud. 
 FRANCESC: That's true.
-MARK: So why don't we have a chat about what we did to build that, and, sort of, let people know how they could even build their own podcasts on top of Google Cloud Platform. If that's something they want to do.
+MARK: So why don't we have a chat about what we did to build that, and, sort of, let people know how they could even build their own podcasts on top of Google Cloud. If that's something they want to do.
 FRANCESC: Yeah, that sounds like a good idea. And actually, just to give a little bit of context about how this idea came up to be, so some months ago I was chatting with Mark about the idea of having a podcast, and we basically planned everything out. We decided everything that had to be done, and then I went on a month of travelling and Mark implemented all of this. So basically, rather than us explaining how we did it, it's going to be more like me asking Mark how he did it. And I hope I will be learning some stuff from that today. 
 MARK: Okay. Okay, we can do that. That sounds great. 
 FRANCESC: Cool. So first, what is a podcast? Like, what are the pieces in a podcast?
@@ -217,7 +217,7 @@ FRANCESC: And then I'm going to go to dotGo which is in Paris.
 MARK: Of course you are.
 FRANCESC: Go conference again. That's gonna be really fun. I still don't know what I'm gonna be talking about, but I think it's gonna be quite fun. I may talk about functional programming in Go.
 MARK: Ooh. We should talk about that. That'd be fun.
-FRANCESC: Yeah, it's gonna be scary. And then we're gonna have a lot of people from our team, from Google Cloud Platform advocacy team, at Devoxx in Antwerp, in Belgium. 
+FRANCESC: Yeah, it's gonna be scary. And then we're gonna have a lot of people from our team, from Google Cloud advocacy team, at Devoxx in Antwerp, in Belgium. 
 MARK: That should be lots of fun. It's a shame I'm missing that, actually.
 FRANCESC: Yeah. We're gonna be running couple workshops. We're gonna be there. So if you're gonna be somewhere around there, feel free to come say hi.
 MARK: Yeah. Brilliant. Okay, that sounds great. Well, if you aren't gonna be at those events, please feel free to send us an email, reach out to us on Twitter, reach out to us on Reddit. We'd love to talk to you. Community interaction is awesome. We're super looking forward to that side of everything. Let's remind people where we can reach us.
@@ -227,7 +227,7 @@ FRANCESC: For the email is hello@gcppodcast.com. For the Twitter handle is @gcpp
 MARK: Actually, it's just @gcppodcast.
 FRANCESC: Oh, yeah. Sorry, sorry, sorry.
 MARK: You kind of repeated it a little bit.
-FRANCESC: I got too excited. For the Reddit, for the subreddit is gcppodcast, and then you can find us on Google+ searching for Google Cloud Platform podcast.
+FRANCESC: I got too excited. For the Reddit, for the subreddit is gcppodcast, and then you can find us on Google+ searching for Google Cloud podcast.
 MARK: Wonderful. Okay, well I think that probably wraps us up there.
 FRANCESC: Great.
 MARK: Well, thank you very much for joining me Francesc. I look forward to doing many of these with you soon.

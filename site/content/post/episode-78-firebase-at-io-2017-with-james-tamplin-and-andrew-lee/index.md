@@ -48,7 +48,7 @@ Hosting, Cloud Functions, and Cloud Storage. Andrew lives and works in San Franc
  - [Episode #13](https://www.gcppodcast.com/post/episode-13-firebase-with-sara-and-vikrum/)
 - Firebase Phone Authentication [web](https://firebase.google.com/docs/auth/web/phone-auth) [android](https://firebase.google.com/docs/auth/android/phone-auth) [ios](https://firebase.google.com/docs/auth/ios/phone-auth)
 - Firebase Hosting and Cloud Functions [docs](https://firebase.google.com/docs/hosting/functions)
-- Build Modern Apps with Firebase and Google Cloud Platform (Google I/O '17) [youtube](https://www.youtube.com/watch?v=ZIe0Fn9OtnY)
+- Build Modern Apps with Firebase and Google Cloud (Google I/O '17) [youtube](https://www.youtube.com/watch?v=ZIe0Fn9OtnY)
 - Open sourcing the Firebase SDKs [announcement](https://opensource.googleblog.com/2017/05/open-sourcing-firebase-sdks.html) [github](https://github.com/firebase/)
 - Firebase performance monitoring [site](https://firebase.google.com/products/performance/) [docs](https://firebase.google.com/docs/perf-mon/)
 - Firebase SDKs for [Unity](https://firebase.google.com/docs/unity/setup) and [C++](https://firebase.google.com/docs/cpp/setup)
@@ -65,7 +65,7 @@ Hosting, Cloud Functions, and Cloud Storage. Andrew lives and works in San Franc
 
 ##### Question of the week
 
-How do I give one of my Google Cloud Platform Project's to another person?
+How do I give one of my Google Cloud Project's to another person?
 
 - Understanding Roles in IAM [docs](https://cloud.google.com/iam/docs/understanding-roles)
 - Create, modify, or close your billing account [help](https://support.google.com/cloud/answer/6288653?hl=en)
@@ -77,7 +77,7 @@ workshop at [QCon New York](https://qconnewyork.com/)
   
 Mark is going on vacation for a few weeks - but don't worry, he'll still be on the podcast!
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 78 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 78 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I am resplendent today. 
 
@@ -101,7 +101,7 @@ FRANCESC: I know.
 
 MARK: I don't we could fit it in the time that we have. 
 
-FRANCESC: Actually there was a lot of things going on. So yeah, they're going to tell us their favorite things. So yeah, it's very interesting interview. And then at the end of the episode, we have a question of the week about how to give someone a Google Cloud Platform project. 
+FRANCESC: Actually there was a lot of things going on. So yeah, they're going to tell us their favorite things. So yeah, it's very interesting interview. And then at the end of the episode, we have a question of the week about how to give someone a Google Cloud project. 
 
 If I have one and I want-- ever had a project, and I wanted to give it to you, how does that even work? But before that, we're going to have cool things of the week. If you want cool things of the week, I'd say go check Google I/O's keynotes because there was a lot of content in there. 
 
@@ -157,7 +157,7 @@ FRANCESC: Yeah, something that. I heard about it. I don't know. Unfortunately, M
 
 Before doing that, though, why don't you tell us a little bit about what you do at Google. 
 
-JAMES: Cool, so I'm James. I am the product manager for Firebase and specifically Firebase's backend services. So we provide a bunch of tools that lets you build applications without needing to worry about servers or manage infrastructure. A lot of that is tying in with Google Cloud Platform. So we provide a lot of great tools. 
+JAMES: Cool, so I'm James. I am the product manager for Firebase and specifically Firebase's backend services. So we provide a bunch of tools that lets you build applications without needing to worry about servers or manage infrastructure. A lot of that is tying in with Google Cloud. So we provide a lot of great tools. 
 
 ANDREW: Sure, I'm Andrew. I'm James' counterpart on the engineering side. And I manage the team up here in San Francisco and partly in Mountain View that works on the backend services including, like James said, many of the cloud integrations. 
 
@@ -173,9 +173,9 @@ As time grew on, we both expanded that set of features, and we also added two mo
 
 And then the third category is tools to help you grow your userbase. And we have a whole, I think, about seven products in that area. 
 
-FRANCESC: Cool. The same question but from an engineering point of view, is this running on Google Cloud? How does this work? And what is the relationship between Firebase and Google Cloud Platform? 
+FRANCESC: Cool. The same question but from an engineering point of view, is this running on Google Cloud? How does this work? And what is the relationship between Firebase and Google Cloud? 
 
-JAMES: So it turns out that Firebase and Google Cloud Platform are actually the exact same platform. Under the hood, they share the same concept of accounts, of projects, of billing. So if you go today and you create a Firebase project, it is, under the hood, a Cloud project. 
+JAMES: So it turns out that Firebase and Google Cloud are actually the exact same platform. Under the hood, they share the same concept of accounts, of projects, of billing. So if you go today and you create a Firebase project, it is, under the hood, a Cloud project. 
 
 And you can go over to the Cloud console, and you can see the same projects. You can manage the same users. You can set up the same billing information, which is really a very, very powerful idea because Firebase has a nice set of products to get going on mobile and web development. 
 
@@ -281,7 +281,7 @@ FRANCESC: That was very good. We'll have a link to that video from the show note
 
 JAMES: Sure. So I think my other favorite was we started to open source our SDKs, which developers have been asking us to do for years. And it was a very exciting moment for me and I think most of the team. 
 
-This is really important because I think it's a key part of the Google Cloud Platform strategy is openness, leading the way with things like Kubernetes and TensorFlow and projects throughout the rest of Google. So we were excited to join in the fun. 
+This is really important because I think it's a key part of the Google Cloud strategy is openness, leading the way with things like Kubernetes and TensorFlow and projects throughout the rest of Google. So we were excited to join in the fun. 
 
 So the big news here is our iOS, our JavaScript, and our admin, which are our server-side SDKs are now open source. Specifically the products within them, those backend services, products that we were talking about earlier are open. 
 
@@ -361,7 +361,7 @@ ANDREW: Yep.
 
 MARK: And that's super, super cool. 
 
-FRANCESC: So something that is also pretty cool. We use it all the time for all of our projects, specifically for Google Cloud Platform Podcast is Google Analytics. And it helps understand what people are doing with your web apps. 
+FRANCESC: So something that is also pretty cool. We use it all the time for all of our projects, specifically for Google Cloud Podcast is Google Analytics. And it helps understand what people are doing with your web apps. 
 
 And it seems that there is a new thing, which is Google Analytics for Firebase, which is specifically for the applications that you can build with Firebase. Could you tell a little bit more about that? 
 
@@ -381,7 +381,7 @@ And we do that by creating what's called a rolling 30-day base view. So we basic
 
 And I think one of the exciting things that we also, besides just the rebrand, we announced a couple of really cool things. One is support for Android Instant Apps, which is the ability to use an application without actually having to install it from the Play Store. So that's really cool if you want introspection to those apps. 
 
-And the other thing that I think Google Cloud Platform customers and developers are really going to care about is we partnered with the BigQuery team to announce a 10 gigabyte free storage tier for BigQuery. 
+And the other thing that I think Google Cloud customers and developers are really going to care about is we partnered with the BigQuery team to announce a 10 gigabyte free storage tier for BigQuery. 
 
 So now you-- you have to enter a credit card-- but once you have that credit card in there, you can export Google Analytics for Firebase directly into BigQuery to do much richer querying. 
 
@@ -393,7 +393,7 @@ MARK: Yeah, that gives people really like a great opportunity to play with the a
 
 ANDREW: I'm excited about it because BigQuery is really one of the hidden gems of GCP. I don't know if everyone understands how powerful a tool this really is, but it's really pretty amazing. 
 
-FRANCESC: It is for me. It is the best tool on Google Cloud Platform if you want to wow someone. You just demo little, little things. Just like, oh yeah, just processing a couple of terabytes of data in a second. And they're like, what. So that's very easy. 
+FRANCESC: It is for me. It is the best tool on Google Cloud if you want to wow someone. You just demo little, little things. Just like, oh yeah, just processing a couple of terabytes of data in a second. And they're like, what. So that's very easy. 
 
 JAMES: So I have actually an anecdote for everyone. So we, prior to joining Google, used another data warehouse solution to store and process all of our stats pipelines and analytics. 
 
@@ -419,7 +419,7 @@ JAMES: I think there's a couple of themes that are high level. The first theme i
 
 So especially on the growth side of Firebase being able to intelligently recommend to developers actions they can take to increase their userbase in the most intelligent number of steps. So I think that's one big one. 
 
-I think the other big one to note that your listeners will be interested in is deeper integration, continued integration with Google Cloud Platform. As Andrew mentioned earlier, they are the same under the hood. We share billing accounts and projects and all of those pieces. 
+I think the other big one to note that your listeners will be interested in is deeper integration, continued integration with Google Cloud. As Andrew mentioned earlier, they are the same under the hood. We share billing accounts and projects and all of those pieces. 
 
 And right now, we have Cloud Functions and Cloud Storage, which are shared between the two platforms. And you should expect more exciting feature sharing coming in the future. And we've got a couple of things in the pipeline that I am-- I cannot wait to show the world. And they're going to be really, really cool. 
 
@@ -493,7 +493,7 @@ MARK: Nice.
 
 FRANCESC: Yeah, so I'm going to Argentina. It's going to be my first time in Argentina. It's very, very cool. I've only been to Chile before. So my second time in South America. 
 
-I'm going to be speaking at Google Cloud OnBoard, which is a really cool event on training. So you're going to be able to learn all the basics of Google Cloud Platform. And for the first time ever, it's going to be live streamed to all Latin America. Check out the links to see how to access that live stream. There's a bunch of viewing parties all around Latin America. 
+I'm going to be speaking at Google Cloud OnBoard, which is a really cool event on training. So you're going to be able to learn all the basics of Google Cloud. And for the first time ever, it's going to be live streamed to all Latin America. Check out the links to see how to access that live stream. There's a bunch of viewing parties all around Latin America. 
 
 And it will be in Spanish. 
 

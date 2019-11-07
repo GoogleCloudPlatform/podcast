@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/c8pghv/episode_184_in
 
 Happy Independence Day to our American listeners! [Mark Mandel](https://twitter.com/Neurotic) is back today as he and [Gabi Ferrara](https://twitter.com/gabidavila) interview Bill Creekbaum of Informatica to learn how they work with Google Cloud for a better big data user experience. [Mark Mirchandani](https://twitter.com/markmirch) is hanging around the studio as well, bringing some cool things of the week and helping with the question of the week!
 
-Informatica provides data managing products that offer complete solutions focusing on metadata management, integration, governance, security, data quality, and discoverability. Bill's job at Informatica is to ensure these products really take advantage of the strengths of Google Cloud Platform. One such example is a product that allows customers to design in Informatica and push their projects to Cloud Dataproc. Informatica also offers similar capabilities in BigQuery. When moving data from on-prem to the cloud, customers can use Informatica and Google Cloud together for a seamless transition, cost savings, and easier data control.
+Informatica provides data managing products that offer complete solutions focusing on metadata management, integration, governance, security, data quality, and discoverability. Bill's job at Informatica is to ensure these products really take advantage of the strengths of Google Cloud. One such example is a product that allows customers to design in Informatica and push their projects to Cloud Dataproc. Informatica also offers similar capabilities in BigQuery. When moving data from on-prem to the cloud, customers can use Informatica and Google Cloud together for a seamless transition, cost savings, and easier data control.
 
 Together, Informatica and Google Cloud can also facilitate the acquisition of high quality data. To have better, more trustworthy output, data inputed needs to be safe to access, have few or no duplicates and null values, and be complete. To achieve this, developers usually use a combination of the Informatica tools Intelligent Cloud Services, Enterprise Data Catalog, and Big Data Management, and the Google tools BigQuery, Cloud Storage, Analytics, Dataproc, and Pub/Sub.
 
@@ -75,7 +75,7 @@ Mark Mandel is going to [Tokyo Next](https://cloud.withgoogle.com/next/tokyo/), 
 * "Chewing, Carrot, A"  by Inspector J of [Freesound.org](https://freesound.org)
 * "Testtone1000hz" by Jobro of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 184 of the weekly Google Cloud Platform Podcast. I am Mark, and today, I'm here with Mark. Hey, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 184 of the weekly Google Cloud Podcast. I am Mark, and today, I'm here with Mark. Hey, Mark." >}} 
 
 MARK MIRCHANDANI: Hey, Mark. How are you? 
 
@@ -191,7 +191,7 @@ BILL: I'm doing great. Thanks, Mark.
 
 MARK MANDEL: Thank you so much for joining us today. Before we get stuck into some big data things and talking a little bit about Informatica as well, that is a really big product title. So who are you? What do you do? What is this all about? 
 
-BILL: So I have the privilege of working with the Cloud, Big Data, and Analytic Ecosystems for Informatica. And a lot of our customers would think, especially in the context of Google, that means we really focus on connectivity to BigQuery and Google Cloud Storage. But we actually have a much broader charter. I'm really focused on making sure that all of our products take the most advantage of the strengths of the Google Cloud Platform. 
+BILL: So I have the privilege of working with the Cloud, Big Data, and Analytic Ecosystems for Informatica. And a lot of our customers would think, especially in the context of Google, that means we really focus on connectivity to BigQuery and Google Cloud Storage. But we actually have a much broader charter. I'm really focused on making sure that all of our products take the most advantage of the strengths of the Google Cloud. 
 
 So for example, we have a big data management product that allows customers to visually build and manage big data jobs that integrate with all of our governance tools and whatnot. An option that we have through the partnership with Google is we allow the customers to design in Informatica and push the job down to DataProc, so it actually runs as a push-down job there. And we can do similar capabilities with BigQuery. 
 
@@ -235,17 +235,17 @@ And so let's continue our marketing lead example. If I've got a table with some 
 
 And you don't want to throw it away. Do you have the ability to recover from it and get quality data? And if not, can we safely exclude the data? So it's absolutely essential because at the end of the day, analytics comes down to, do you trust the output? And the higher the quality input, the better trust you have with particular analytic. 
 
-MARK MANDEL: Given that we are the "Google Cloud Platform" podcast, this all sounds really great. But in application, what tools and products are we using here on Google Cloud to help facilitate this sort of pipeline? 
+MARK MANDEL: Given that we are the "Google Cloud" podcast, this all sounds really great. But in application, what tools and products are we using here on Google Cloud to help facilitate this sort of pipeline? 
 
 BILL: Ah, well, I mean, our customers use a combination of both our company's products, right? 
 
 MARK MANDEL: Yep. 
 
-BILL: And so from Informatica's side, they're using our Intelligent Cloud Services. They're using our Enterprise Data Catalog, Big Data Management, and sometimes Secured Source, which is one of our governance tools. And then on the Google Cloud Platform side, Google BigQuery. I mean, I'm telling you guys, I am seeing so much traffic flow through to BigQuery. And the adoption is fantastic. And I'm seeing huge curves up and to the right in adoption and usage. 
+BILL: And so from Informatica's side, they're using our Intelligent Cloud Services. They're using our Enterprise Data Catalog, Big Data Management, and sometimes Secured Source, which is one of our governance tools. And then on the Google Cloud side, Google BigQuery. I mean, I'm telling you guys, I am seeing so much traffic flow through to BigQuery. And the adoption is fantastic. And I'm seeing huge curves up and to the right in adoption and usage. 
 
 But to really complement BigQuery, there's a lot of usage of Google Cloud Storage. That makes a lot of sense. I mean, behind the covers, we use a lot of them in tandem to really drive performance of bulk loading. We also see a lot of interoperation with Google Analytics. And we're starting to see a much bigger uptake of technologies like Pub/Sub as part of these workflows. And I already talked about Dataproc earlier. 
 
-So one of things that I think about a great deal and that my entire team thinks about is, how can we best provide our customers with the strengths of BigQuery and the entire Google Cloud Platform surfaced through the Informatica products, right? Because I want to give them easy access to it. That's what Informatica brings to the table, right? We bring easy access, visual design environments, governance, lineage, metadata management, et cetera. 
+So one of things that I think about a great deal and that my entire team thinks about is, how can we best provide our customers with the strengths of BigQuery and the entire Google Cloud surfaced through the Informatica products, right? Because I want to give them easy access to it. That's what Informatica brings to the table, right? We bring easy access, visual design environments, governance, lineage, metadata management, et cetera. 
 
 But I don't want to provide coverage that's just like vanilla access. I want our customers to take the most advantage of why they picked Google Cloud in the first place. 
 
@@ -287,7 +287,7 @@ BILL: It certainly does. And I think especially customers that have been working
 
 And I think one of the things that Informatica is able to bring to the table is that we help flatten that learning curve. We can help take advantage of the unique capabilities of the cloud faster. Because from our customer's perspective, they're still working with this familiar toolset. And yes, the technology behind that we're connecting to differs, but we're able to kind of abstract it, so we're able to get some really fast adoption. 
 
-But once you get that fast adoption, remember a few moments ago, I was talking about we also want to make sure that customers can truly take advantage of the characteristics of Google Cloud Platform and BigQuery. So, for example, we talked about ETL earlier, but let's talk about ELT, Extract Load Transform. We want to seriously take advantage of that kind of capability in BigQuery. So using our Intelligent Cloud Services to actually load data into BigQuery and then process the transformation inside BigQuery, we're able to actually push down the entire job into BigQuery, so that we're using the BigQuery engine to do all the transformations. 
+But once you get that fast adoption, remember a few moments ago, I was talking about we also want to make sure that customers can truly take advantage of the characteristics of Google Cloud and BigQuery. So, for example, we talked about ETL earlier, but let's talk about ELT, Extract Load Transform. We want to seriously take advantage of that kind of capability in BigQuery. So using our Intelligent Cloud Services to actually load data into BigQuery and then process the transformation inside BigQuery, we're able to actually push down the entire job into BigQuery, so that we're using the BigQuery engine to do all the transformations. 
 
 And that's got a couple of benefits. Number one, you just talked about it. It's a serverless scale out environment with tremendous compute power that you're able to spin up on demand. That means Informatica is able to take advantage of that. And so we're able to deliver a crazy amount of performance with ease. And our common customers are benefiting greatly from that. 
 

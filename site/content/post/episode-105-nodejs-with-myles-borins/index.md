@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/7gfxqr/nodejs_with_my
   name = "fimage"
 +++
 
-[Myles Borins](https://twitter.com/mylesborins) talks with [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) about Node.js from its history, how to contribute, the consensus-seeking governance, and why it's important to Google Cloud Platform. 
+[Myles Borins](https://twitter.com/mylesborins) talks with [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) about Node.js from its history, how to contribute, the consensus-seeking governance, and why it's important to Google Cloud. 
 
 Node.js is an open-source, JavaScript runtime environment built on Chrome's V8 JavaScript engine, and Google is a Platinum Member of the Node.js Foundation.     
 
@@ -40,7 +40,7 @@ Myles Borins is a developer, musician, artist, and maker he works for Google as 
 ##### Interview
 
 - Node.js [site](https://nodejs.org/en/)
-- Node.js on Google Cloud Platform [site](https://cloud.google.com/nodejs) [docs](https://cloud.google.com/nodejs/docs/)
+- Node.js on Google Cloud [site](https://cloud.google.com/nodejs) [docs](https://cloud.google.com/nodejs/docs/)
 - Node School [site](https://nodeschool.io/)
 - Node.js with Justin Beckwith [podcast](https://www.gcppodcast.com/post/episode-20-nodejs-with-justin-beckwith/)
 - App Engine [site](https://cloud.google.com/appengine/) [docs](https://cloud.google.com/appengine/docs/)
@@ -60,7 +60,7 @@ How do you give public postmordems?
 Mark will be Montreal in December to speak at [Montreal International Games Summit](http://www.migs17.com/en/home/).  
 Melanie will be at SOCML (Self-Organizing Conference on Machine Learning) end of this week and [NIPS (Neural Information Processing Systems)](https://nips.cc/) in Long Beach next week.
 
-{{< transcript "MARK: Hi, and welcome to episode number 105 of the \"Weekly Google Cloud Platform Podcast.\" I am Mark Mandel, and I'm here with my colleague, Melanie Warrick." >}}
+{{< transcript "MARK: Hi, and welcome to episode number 105 of the \"Weekly Google Cloud Podcast.\" I am Mark Mandel, and I'm here with my colleague, Melanie Warrick." >}}
 
 MELANIE: Hey, Mark. 
 
@@ -138,7 +138,7 @@ FRANCESC: Yeah. Not looking that new anymore though. But anyway, so we have Myle
 
 But before we start with all of that, why don't you tell us a little bit about yourself. What do you do Google? 
 
-MYLES: Yes. So, as was mentioned, my name is Myles. My other name is Borins. Together it's Myles Borins. And I'm a Developer Advocate on Google Cloud Platform. I focus primarily on Node.js, but I also you know dabble in Compute, and Kubernetes, and Cloud Functions. And pretty much anywhere you can run Node or do Node-y things. I'm on the technical steering committee of the Node.js Foundation, where I was recently elected the Technical Steering Committee Director, so I also sit on the board of directors of the Foundation. 
+MYLES: Yes. So, as was mentioned, my name is Myles. My other name is Borins. Together it's Myles Borins. And I'm a Developer Advocate on Google Cloud. I focus primarily on Node.js, but I also you know dabble in Compute, and Kubernetes, and Cloud Functions. And pretty much anywhere you can run Node or do Node-y things. I'm on the technical steering committee of the Node.js Foundation, where I was recently elected the Technical Steering Committee Director, so I also sit on the board of directors of the Foundation. 
 
 I'm one of the primary release managers running most of our LTS programs, so most of the version 4 and version 6 releases, and some of the version 8 releases are coming from me. And lately, most of my work has actually been around V8, and making sure that the Node project can have the most modern versions of V8 as possible. 
 
@@ -310,13 +310,13 @@ FRANCESC: We'll talk about that later.
 
 [LAUGHTER] 
 
-So you mentioned real quick that one of the reasons is like, we actually invest heavily in Node, because we also use heavily Node, and we provide ways to use Node on our Google Cloud Platform. Is there something that you could share about life what is the future? Like is a typical question, that normally you say, no, because we don't share about that. But is there any roadmap you'd like to share? 
+So you mentioned real quick that one of the reasons is like, we actually invest heavily in Node, because we also use heavily Node, and we provide ways to use Node on our Google Cloud. Is there something that you could share about life what is the future? Like is a typical question, that normally you say, no, because we don't share about that. But is there any roadmap you'd like to share? 
 
 MYLES: Well, one thing that's coming pretty soon that's exciting is WebSockets. For myself, like, the first time I ever used Node was actually building an art installation where I wanted to use a website to pick between different states. And I tried a whole bunch of different ways of doing it, and I kept failing both gracefully and miserably. 
 
 And eventually I came across this tutorial using Node in socket I/O, and I had a prototype up and running in like 10 or 15 minutes. And that's kind of, to me, like, that's the magic of Node. It's like if you've just written a little bit of website-y things, you can actually get something that does what you need to do in fairly short order. WebSockets are a really, really great tool for quickly prototyping distributed applications, chat applications, games, which I know Mark has a lot of feelings about. 
 
-And so this isn't only for Node. But I do think that like the eventual support of WebSockets on App Engine and Google Cloud Platform as a whole outside of just Kubernetes is like a huge win for the various platforms that will get it. 
+And so this isn't only for Node. But I do think that like the eventual support of WebSockets on App Engine and Google Cloud as a whole outside of just Kubernetes is like a huge win for the various platforms that will get it. 
 
 MARK: And what stuff do you really like about GCP and Node right now? 
 
