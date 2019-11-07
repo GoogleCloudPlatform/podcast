@@ -4,7 +4,7 @@ draft = false
 
 title = "Google Cloud Podcast"
 
-description = "We play weekly host to informative Cloud Platform professionals, answer some of your burning questions, and introduce you to cool new things!"
+description = "We play weekly host to informative Google Cloud professionals, answer some of your burning questions, and introduce you to cool new things!"
 
 hosts = "Mark Mandel and Melanie Warrick"
 
