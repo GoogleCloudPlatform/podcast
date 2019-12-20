@@ -22,7 +22,7 @@ from urllib.request import Request, urlopen
 STORAGE_BUCKET = "https://storage.googleapis.com/eps/"
 
 # Google Analytics ID
-GA_TRACKING_ID = "UA-154690217-1"
+GA_TRACKING_ID = "UA-66340814-1"
 
 
 app = Flask(__name__)
