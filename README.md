@@ -9,10 +9,10 @@ The first episode explains the architecture, you can listen to it
 
 # Contents of the repository
 
-You will find three directories in the repository, `dev`. `go`, and `site`.
+You will find three directories in the repository, `dev`. `ga_handler`, and `site`.
 
 - dev: 
-- go: an App Engine module written in Go used to 
+- ga_handler: an App Engine module written in Python used to send events to Google Analytics
 - site: the [hugo](https://gohugo.io) structure that generates the static website
 
 ## dev: website development
@@ -42,19 +42,19 @@ You can use the `Makefile` provided in the directory to:
   - `make deploy` - This will not make the version default. Useful if you just want to test/share a version live.
   - `make deploy-default` - This will replace the default version (but the old version is kept, in case)
 
-### go: adding Google Analytics to Google Cloud Storage
+### ga_handler: adding Google Analytics to Google Cloud Storage
 
 This directory contains an [App Engine](https://cloud.google.com/appengine) service
 that provides a way to access the `mp3` files stored in [Google Cloud Storage](https://cloud.google.com/storage)
 while logging those accesses with [Google Analytics](https://analytics.google.com).
 
-Make targets that can be run within the `go` directory
+Make targets that can be run within the `ga_handler` directory
 which is for dynamic modules, such as the module that tracks
 episode downloads.
 
-- Run full code lint, vet and goimports over everything: `make code-check`
-- Start Local Episode Redirect Module: `make serve-eps`
-- Deploy Episode Redirect Module: `make deploy-eps`
+- Run full code lint and tests: `nox`
+- Start Local Episode Redirect Module: `python main.py`
+- Deploy Episode Redirect Module: `gcloud app deploy`
 
 ### Disclaimer
 
