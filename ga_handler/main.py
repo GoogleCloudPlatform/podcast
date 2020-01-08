@@ -13,16 +13,10 @@
 # limitations under the License.
 
 from flask import Flask, redirect, request
+import os
 import sys
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-
-
-# GCS Storage Bucket
-STORAGE_BUCKET = "https://storage.googleapis.com/eps/"
-
-# Google Analytics ID
-GA_TRACKING_ID = "UA-66340814-1"
 
 
 app = Flask(__name__)
@@ -46,7 +40,7 @@ def redirect_episode_download(episode_key):
     sys.stdout.flush()
 
     # Redirect to episode in GCS
-    return redirect(STORAGE_BUCKET + episode_key, code=302)
+    return redirect(os.environ.get("STORAGE_BUCKET") + episode_key, code=302)
 
 
 def track_event(episode_key, user_agent_str):
@@ -54,7 +48,7 @@ def track_event(episode_key, user_agent_str):
         "v": 1,
         "t": "event",
         "cid": "go-ga",
-        "tid": GA_TRACKING_ID,  # Tracking ID.
+        "tid": os.environ.get("GA_TRACKING_ID"),  # Tracking ID.
         "ec": "episode-download",  # Event category.
         "ea": episode_key,  # Event action.
     }
