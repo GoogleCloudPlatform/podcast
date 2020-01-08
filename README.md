@@ -48,9 +48,7 @@ This directory contains an [App Engine](https://cloud.google.com/appengine) serv
 that provides a way to access the `mp3` files stored in [Google Cloud Storage](https://cloud.google.com/storage)
 while logging those accesses with [Google Analytics](https://analytics.google.com).
 
-Make targets that can be run within the `ga_handler` directory
-which is for dynamic modules, such as the module that tracks
-episode downloads.
+The following commands can be run from inside the `ga_handler` directory:
 
 - Run full code lint and tests: `nox`
 - Start Local Episode Redirect Module: `python main.py`
