@@ -1,4 +1,5 @@
 runtime: python37
+service: eps
 
 env_variables:
   STORAGE_BUCKET: "https://storage.googleapis.com/eps/"
