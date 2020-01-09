@@ -54,6 +54,8 @@ The following commands can be run from inside the `ga_handler` directory:
 - Start Local Episode Redirect Module: `python main.py`
 - Deploy Episode Redirect Module: `gcloud app deploy`
 
+Environment variables must be set for STORAGE_BUCKET and GA_TRACKING_ID.
+
 ### Disclaimer
 
 This is not an official Google product (experimental or otherwise), it is just
