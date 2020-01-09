@@ -6,4 +6,4 @@
 /site/public/*
 /site/*.json
 /public
-
+__pycache__/

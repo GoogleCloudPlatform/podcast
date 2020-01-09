@@ -1,0 +1,5 @@
+runtime: python37
+
+env_variables:
+  STORAGE_BUCKET: "https://storage.googleapis.com/eps/"
+  GA_TRACKING_ID: "UA-66340814-1"
