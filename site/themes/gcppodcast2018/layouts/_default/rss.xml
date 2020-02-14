@@ -28,7 +28,7 @@
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
 		<itunes:image href="http://www.gcppodcast.com/images/logo_large.png"/>
-		{{ range first 130 .Data.Pages }}
+		{{ range first 100 .Data.Pages }}
 		<item>
 			<title>{{ .Title }}</title>
 			<link>{{ .Permalink }}</link>
