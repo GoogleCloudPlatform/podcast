@@ -2,129 +2,109 @@
 
 
 <div class="slider w-100 hero sr">
-	{{ range first 3 .Data.Pages }}
-	
-		{{ if eq .Type "post" }}
-	
-			<div class="slide">
+    {{ range first 3 .Data.Pages }} {{ if eq .Type "post" }}
+
+    <div class="slide">
 
 
-				{{ if .Resources.Match "fimage" }}
-				
-					{{ with .Resources.GetMatch "fimage" }}
+        {{ if .Resources.Match "fimage" }} {{ with .Resources.GetMatch "fimage" }} {{ $image := (.Resize "1920x q90") }}
 
-					    {{ $image := (.Resize "1920x q90") }}
+        <div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image" style="background-image: url('{{  $image.RelPermalink }}')">
 
-							<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image" 	style="background-image: url('{{  $image.RelPermalink }}')"> 
+            {{ end }} {{else}}
 
-						{{ end }}
+            <div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image no-featured-image" style="background-image: url('{{ .Params.image }}'); background-size: inherit; background-repeat: no-repeat;">
 
-				{{else}}
-
-				<div class="container-fluid text-center d-flex align-items-center justify-content-center card__header-img hero-image no-featured-image" style="background-image: url('{{ .Params.image }}'); background-size: inherit; background-repeat: no-repeat;"> 
-
-				{{end}}
+                {{end}}
 
 
-				</div>
+            </div>
 
-					
-			    <div class="container-fluid text-center dark-blue text-white py-4">
-				   	<h5 class="text-uppercase light-blue">#{{ .Params.episodenumber }} |  {{ dateFormat "January 2, 2006" .Date }}</h5>
-				   	<h3>{{ .Title }}</h3>
-				   	<a href="{{ .RelPermalink }}" class="btn btn-secondary mt-3 mb-2">go to podcast</a>
-			    </div>
 
-				<audio class="player" controls  preload="none">
+            <div class="container-fluid text-center dark-blue text-white py-4">
+                <h5 class="text-uppercase light-blue">#{{ .Params.episodenumber }} | {{ dateFormat "January 2, 2006" .Date }}</h5>
+                <h3>{{ .Title }}</h3>
+                <a href="{{ .RelPermalink }}" class="btn btn-secondary mt-3 mb-2">go to podcast</a>
+            </div>
+
+            <audio class="player" controls preload="none">
 				  <source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mp3">
 				</audio>
 
-			</div>
-	
-		{{ end }}
-	
-	{{ end }}
-</div>
+        </div>
+
+        {{ end }} {{ end }}
+    </div>
 
 
 
-<section class="container text-center py-6 sr">
+    <section class="container text-center py-6 sr">
 
-	<a href="" class="mb-4 scroll-to-podcasts" data-scroll-past="latest-podcasts">
-		<div class="row">
-			<div class="col">
-				More episodes
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<i class="fa fa-angle-down"></i>
-			</div>
-		</div>
-	</a>
+        <a href="" class="mb-4 scroll-to-podcasts" data-scroll-past="latest-podcasts">
+            <div class="row">
+                <div class="col">
+                    More episodes
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+        </a>
 
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<h1 class="main-blue">{{ .Title }}</h1>
-			
-			{{ with .Params.description }}
-			       <p>{{ . }}</p>
-			{{ end }}
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="main-blue">{{ .Title }}</h1>
 
-			<a href="/post/" class="btn btn-primary mt-3 mt-4" >view podcasts</a>
-		</div>
-	</div>
+                {{ with .Params.description }}
+                <p>{{ . }}</p>
+                {{ end }}
 
-</section>
+                <a href="/post/" class="btn btn-primary mt-3 mt-4">view podcasts</a>
+            </div>
+        </div>
+
+    </section>
 
 
-<section class="container-fluid text-center px-0 featured-podscast featured-podscast-section sr">
+    {{ partial "hosts_slider.html" . }}
 
-	<img src="/images/hp/mid-section-img.jpg" alt="" width="100%;">
 
-</section>
-	
+    <section class="container mt-5 py-5 latest-podcasts">
 
-<section class="container mt-5 py-5 latest-podcasts">
+        <div class="row">
 
-	<div class="row">
-		
-		<div class="container text-center mb-4 sr">
-			{{ with .Params.title_above_podcast_grid }}
-			       <h2 class="main-blue">{{ . }}</h2>
-			{{ end }}
+            <div class="container text-center mb-4 sr">
+                {{ with .Params.title_above_podcast_grid }}
+                <h2 class="main-blue">{{ . }}</h2>
+                {{ end }} {{ with .Params.description_above_podcast_grid }}
+                <p>{{ . }}</p>
+                {{ end }}
 
-			{{ with .Params.description_above_podcast_grid }}
-			       <p>{{ . }}</p>
-			{{ end }}
-			
-		</div>
+            </div>
 
-	</div>
+        </div>
 
-	<div class="row">
-		
-		{{ range first 9 .Data.Pages }}
-			{{ if eq .Type "post" }}
-				{{ partial "episode_new.html" . }}
-			{{ end }}
-		{{ end }}
+        <div class="row">
 
-	</div>
+            {{ range first 9 .Data.Pages }} {{ if eq .Type "post" }} {{ partial "episode_new.html" . }} {{ end }} {{ end }}
 
-	<div class="row">
-		
-		<div class="container text-center mb-4 sr">
-			<h2 class="main-blue">Archive</h2>
-			<p>Want more? Check out our archive of previous episodes!</p>
-			<a href="/post/" class="btn btn-primary">View more</a>
-		</div>
+        </div>
 
-	</div>
+        <div class="row">
 
-</section>
+            <div class="container text-center mb-4 sr">
+                <h2 class="main-blue">Archive</h2>
+                <p>Want more? Check out our archive of previous episodes!</p>
+                <a href="/post/" class="btn btn-primary">View more</a>
+            </div>
+
+        </div>
+
+    </section>
 
 
 
 
-{{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
