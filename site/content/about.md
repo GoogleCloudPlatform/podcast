@@ -18,22 +18,6 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
-	"/images/hosts/Mark_Mandel.png" 
-	"Mark Mandel" 
-	"Developer Advocate, Google Cloud Platform" 
-	"Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
-%}}
-
-[Twitter](https://www.twitter.com/neurotic) / 
-[Website](http://www.compoundtheory.com)
-
-{{% /profile %}}
-
-  </div>
-
-  <div class="col-12">
-
-{{% profile 
 	"/images/hosts/Michelle_Casbon.jpg" 
 	"Michelle Casbon" 
 	"Senior Developer Programs Engineer, Google Cloud"
@@ -158,6 +142,22 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
    <h2>Hosts Memoriam</h2>
 
    </div>
+
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Mark_Mandel.png" 
+	"Mark Mandel" 
+	"Developer Advocate, Google Cloud Platform" 
+	"Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
+%}}
+
+[Twitter](https://www.twitter.com/neurotic) / 
+[Website](http://www.compoundtheory.com)
+
+{{% /profile %}}
+
+  </div>
 
   <div class="col-12">
 
