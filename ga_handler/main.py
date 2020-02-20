@@ -14,6 +14,7 @@
 
 from flask import Flask, redirect, request
 import os
+import random
 import sys
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -32,7 +33,7 @@ def redirect_episode_download(episode_key):
     # or the range starts at the beginning of the file
     if not range_req or range_req.replace("bytes=", "")[0] == "0":
         try:
-            track_event(episode_key, user_agent_str)
+            track_event(request, episode_key, user_agent_str)
         except Exception as e:
             print(e)
 
@@ -43,14 +44,17 @@ def redirect_episode_download(episode_key):
     return redirect(os.environ.get("STORAGE_BUCKET") + episode_key, code=302)
 
 
-def track_event(episode_key, user_agent_str):
+def track_event(req, episode_key, user_agent_str):
     data = {
         "v": 1,
         "t": "event",
-        "cid": "go-ga",
         "tid": os.environ.get("GA_TRACKING_ID"),  # Tracking ID.
         "ec": "episode-download",  # Event category.
         "ea": episode_key,  # Event action.
+        "uip": req.remote_addr,  # IP Override.
+        "uid": req.remote_addr,  # User Id.
+        "dr": req.referrer,  # Document referrer
+        "z": random.randint(100000, 900000)  # Cache busting.
     }
 
     request = Request(
