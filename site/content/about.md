@@ -1,10 +1,10 @@
 +++
 date = "2015-08-04T18:59:22Z"
 draft = false
-title = "About Google Cloud Podcast"
-description = "All about the Google Cloud Podcast"
-featured_image = "/images/featured_images/about-page-hero-img.jpg"
-subtitle = "Tune in every week to hear from our hosts about Google Cloud!"
+title = "About Google Cloud Platform Podcast"
+description = "All about the Google Cloud Platform Podcast"
+hosts_slider = true
+subtitle = "Tune in every week to hear from our hosts about Google Cloud Platform!"
 +++
 
 
@@ -14,22 +14,6 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud!"
    <h2>Current Hosts</h2>
 
    </div>
-
-  <div class="col-12">
-
-{{% profile 
-	"/images/hosts/Mark_Mandel.png" 
-	"Mark Mandel" 
-	"Developer Advocate, Google Cloud" 
-	"Mark Mandel is a Developer Advocate for the Google Cloud. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
-%}}
-
-[Twitter](https://www.twitter.com/neurotic) / 
-[Website](http://www.compoundtheory.com)
-
-{{% /profile %}}
-
-  </div>
 
   <div class="col-12">
 
@@ -158,6 +142,22 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud!"
    <h2>Hosts Memoriam</h2>
 
    </div>
+
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Mark_Mandel.png" 
+	"Mark Mandel" 
+	"Developer Advocate, Google Cloud Platform" 
+	"Mark Mandel is a Developer Advocate for the Google Cloud Platform. Hailing from Australia, Mark built his career developing backend web applications which included several widely adopted open source projects, and running an international conference in Melbourne for several years. Since then he has focused on becoming a polyglot developer, building systems in Go, JRuby and Clojure on a variety of infrastructures. In his spare time he plays with his dog, trains martial arts and reads too much fantasy literature."
+%}}
+
+[Twitter](https://www.twitter.com/neurotic) / 
+[Website](http://www.compoundtheory.com)
+
+{{% /profile %}}
+
+  </div>
 
   <div class="col-12">
 

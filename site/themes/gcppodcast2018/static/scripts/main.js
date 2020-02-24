@@ -31,34 +31,34 @@ function removeatag(wrap, tag) {
 function shareGooglePlus(title, url) {
     url = encodeURIComponent(url);
     window.open('https://plus.google.com/share' +
-            '?url=' + url);
+        '?url=' + url);
 }
 
 function shareTwitter(title, url) {
     var text = encodeURIComponent('"' + title + '"\n');
     url = encodeURIComponent(url);
     window.open('https://twitter.com/intent/tweet' +
-            '?text=' + text +
-            '&url=' + url +
-            '&via=gcppodcast');
+        '?text=' + text +
+        '&url=' + url +
+        '&via=gcppodcast');
 }
 
 function shareReddit(title, url) {
     var text = encodeURIComponent('"' + title + '"\n');
     url = encodeURIComponent(url);
     window.open('http://www.reddit.com/submit' +
-            '?url=' + url +
-            '&title=' + title);
+        '?url=' + url +
+        '&title=' + title);
 }
 
 function shareFacebook(title, url) {
     url = encodeURIComponent(url);
 
     window.open('https://www.facebook.com/dialog/share' +
-            '?app_id=1653280564942689' +
-            '&display=popup' +
-            '&href=' + url +
-            '&redirect_uri=' + url);
+        '?app_id=1653280564942689' +
+        '&display=popup' +
+        '&href=' + url +
+        '&redirect_uri=' + url);
 }
 
 function toggleTranscript() {
@@ -82,13 +82,13 @@ function captureAudioPlay() {
     // var audio = document.querySelectorAll("audio");
     var audio = $('.player');
 
-    if ( audio ) {
+    if (audio) {
 
-    console.log("Capturing playback:", audio);
+        console.log("Capturing playback:", audio);
 
         audio.on("play", function() {
 
-            if (!$(this).attr('data-played') ){
+            if (!$(this).attr('data-played')) {
                 $(this).attr('data-played', 'played')
                 floodLight("googl004"); // Floodlight for Podcast Google Playing
                 console.log('works');
@@ -119,29 +119,29 @@ function captureAudioPlay() {
 // });
 
 /*
-* Floodlights
-*
-* Podcast Subscription - Email
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
-* Podcast Subscription - Google Play Music
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl001;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
-* Podcast Subscription - iTunes
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl002;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
-* Podcast Subscription - RSS Feed
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl003;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
-* Podcast Subscription - Stitcher Radio
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl000;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
-* Podcast Subscription - Youtube
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
-* Podcast Play
-* https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl004;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
-* */
+ * Floodlights
+ *
+ * Podcast Subscription - Email
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
+ * Podcast Subscription - Google Play Music
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl001;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
+ * Podcast Subscription - iTunes
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl002;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
+ * Podcast Subscription - RSS Feed
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl003;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
+ * Podcast Subscription - Stitcher Radio
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl000;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
+ * Podcast Subscription - Youtube
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?
+ * Podcast Play
+ * https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=googl004;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
+ * */
 
 function floodLight(cat) {
-    var axel = Math.random()+"";
+    var axel = Math.random() + "";
     var a = axel * 10000000000000000;
     var img = new Image();
-    img.src= "https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=" + cat + ";dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord="+ a +"?";
+    img.src = "https://ad.doubleclick.net/ddm/activity/src=2507573;type=gcp;cat=" + cat + ";dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=" + a + "?";
     return true;
 }
 
@@ -152,49 +152,49 @@ window.addEventListener("load", function() {
 
     // const players = Array.from(document.querySelectorAll('.player')).map(player => new Plyr(player));
 
-    var players = Array.from(document.querySelectorAll('.player')).map(function (player) {
+    var players = Array.from(document.querySelectorAll('.player')).map(function(player) {
         return new Plyr(player);
     });
     // console.log('test');
     removeatag('.summary-block', 'a');
 
-    $('.scroll-to-podcasts').on('click',function(e){
+    $('.scroll-to-podcasts').on('click', function(e) {
 
         e.preventDefault();
-        var scrollTo = '.'+$(this).attr('data-scroll-past');
-        
+        var scrollTo = '.' + $(this).attr('data-scroll-past');
+
         console.log(scrollTo);
-        
-        $('html, body').animate({ 
-            scrollTop: ( $(scrollTo).offset().top - 30 )
+
+        $('html, body').animate({
+            scrollTop: ($(scrollTo).offset().top - 30)
         });
 
     });
 
-    $('.sharelink').on('click',function(e){
+    $('.sharelink').on('click', function(e) {
         e.preventDefault();
     });
 
 
-    $('.episode-block h3 , .episode-block .card__header-img').on('mouseenter',function(){
+    $('.episode-block h3 , .episode-block .card__header-img').on('mouseenter', function() {
         // console.log($(this).parents('.episode-block'));
         $(this).parents('.episode-block').find('.overlay').addClass('--active');
         $(this).parents('.episode-block').find('.card__header-img').addClass('--active');
 
     });
 
-    $('.episode-block h3 , .episode-block .card__header-img').on('mouseleave',function(){
+    $('.episode-block h3 , .episode-block .card__header-img').on('mouseleave', function() {
         // console.log($(this).parents('.episode-block'));
         $(this).parents('.episode-block').find('.overlay').removeClass('--active');
         $(this).parents('.episode-block').find('.card__header-img').removeClass('--active');
 
     });
 
-    $('#show-transcript').on('click',function(e){
+    $('#show-transcript').on('click', function(e) {
 
         e.preventDefault();
-        
-        if( $('.state').text() === "show" ) {
+
+        if ($('.state').text() === "show") {
 
             $('.state').text('hide');
 
@@ -209,14 +209,25 @@ window.addEventListener("load", function() {
     });
 
     $('.slider').slick({
-      nextArrow: '<div class="nav-next mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">arrow_forward</i></div>',
-      prevArrow: '<div class="nav-previous mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">arrow_back</i></div>',  
-      infinite: true,
-      slidesToShow: 1,
-      arrow: true
-      // slidesToScroll: 3
+        nextArrow: '<div class="nav-next mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">arrow_forward</i></div>',
+        prevArrow: '<div class="nav-previous mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">arrow_back</i></div>',
+        infinite: true,
+        slidesToShow: 1,
+        arrow: true
+            // slidesToScroll: 3
     });
-            
+
+    $('.hosts-slider').slick({
+        nextArrow: '',
+        prevArrow: '',
+        infinite: true,
+        arrow: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
     sr.reveal('.sr, .podcast-content--text > *');
 
     captureAudioPlay();

@@ -1,46 +1,46 @@
 {{ partial "header.html" . }}
 
 
-  <div class="container-fluid pt-3 main-blue-bg main-blue-bg--lighter  text-white">
+<div class="container-fluid pt-3 main-blue-bg main-blue-bg--lighter  text-white">
 
-  	<header class="container">
-  		<div class="row">
-  			<div class="col px-3 py-3" >
-  				<h1>{{ .Title }}</h1>
-  				<h5 class="light-blue">{{ .Params.subtitle }}</h5>
-  			</div>
-  		</div>
-  	</header>
+    <header class="container">
+        <div class="row">
+            <div class="col px-3 py-3">
+                <h1>{{ .Title }}</h1>
+                <h5 class="light-blue">{{ .Params.subtitle }}</h5>
+            </div>
+        </div>
+    </header>
 
-  </div>
+</div>
 
 
 {{ with .Params.featured_image }}
 
-  <section class="container-fluid text-center px-0 featured-podscast featured-podscast-section sr">
+<section class="container-fluid text-center px-0 featured-podscast featured-podscast-section sr">
 
-  	<img src="{{ . }}" alt="" width="100%;">
+    <img src="{{ . }}" alt="" width="100%;">
 
-  </section>
+</section>
 
-{{ end }}
+{{ end }} {{ with .Params.hosts_slider }} {{ partial "hosts_slider.html" . }} {{ end }}
 
 
 <div class="container ">
-	
-	<div class="row">
-		
-		<main class="col-md-8 mt-4 pt-4 pb-5 sr">
-			{{ .Content }}
-		</main>
 
-		<aside class="col-md-4 sidebar mt-4 pt-3 sr">
+    <div class="row">
 
-			{{ partial "sidebar.html" . }}
+        <main class="col-md-8 mt-4 pt-4 pb-5 sr">
+            {{ .Content }}
+        </main>
 
-		</aside>
+        <aside class="col-md-4 sidebar mt-4 pt-3 sr">
 
-	</div>
+            {{ partial "sidebar.html" . }}
+
+        </aside>
+
+    </div>
 
 </div>
 
