@@ -18,21 +18,6 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
-	"/images/hosts/Michelle_Casbon.jpg" 
-	"Michelle Casbon" 
-	"Senior Developer Programs Engineer, Google Cloud"
-	"Michelle is a Developer Programs Engineer for Google Cloud, where she empowers engineers and data scientists to deploy ML applications. She focuses on open source tooling for startups and enterprises and is an active contributor to the Kubeflow project." 
-%}}
-
-[Twitter](https://twitter.com/texasmichelle)
-
-{{% /profile %}}
-
-   </div>
-
-  <div class="col-12">
-
-{{% profile 
 	"/images/hosts/Mark_Mirchandani.jpg" 
 	"Mark Mirchandani" 
 	"Developer Advocate, Google Cloud Platform"
@@ -110,21 +95,6 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
-	"/images/hosts/Gabe_Weiss.jpg" 
-	"Gabe Weiss" 
-	"Developer Advocate, Google Cloud Platform"
-	"Gabe works on the Google Cloud Platform team ensuring that developers can make awesome things, both inside and outside of Google. That could mean speaking at conferences, writing example code, running bootcamps, writing technical blogs or just doing some hand holding. Prior to Google he's worked in virtual reality production and distribution, source control, the games industry and professional acting." 
-%}}
-
-[Twitter](https://twitter.com/gabeweiss_)
-
-{{% /profile %}}
-
-   </div>
-   
-  <div class="col-12">
-
-{{% profile 
 	"/images/hosts/Priyanka_Vergadia.png" 
 	"Priyanka Vergadia" 
 	"Developer Advocate, Google Cloud Platform"
@@ -140,6 +110,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
    <div class="col-12 text-left mt-4">
 
    <h2>Hosts Memoriam</h2>
+
+   </div>
+   
+  <div class="col-12">
+
+{{% profile 
+	"/images/hosts/Michelle_Casbon.jpg" 
+	"Michelle Casbon" 
+	"Senior Developer Programs Engineer, Google Cloud"
+	"Michelle is a Developer Programs Engineer for Google Cloud, where she empowers engineers and data scientists to deploy ML applications. She focuses on open source tooling for startups and enterprises and is an active contributor to the Kubeflow project." 
+%}}
+
+[Twitter](https://twitter.com/texasmichelle)
+
+{{% /profile %}}
 
    </div>
 
