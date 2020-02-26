@@ -19,7 +19,6 @@ import sys
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-
 app = Flask(__name__)
 
 
@@ -48,14 +47,13 @@ def track_event(req, episode_key, user_agent_str):
     RAND_RANGE = 16777216 # 2^24 = 16777216
 
     data = {
-        "v": 1,
-        "t": "event",
+        "v":   1,
+        "t":   "event",
         "tid": os.environ.get("GA_TRACKING_ID"),  # Tracking ID.
-        "ec": "episode-download",  # Event category.
-        "ea": episode_key,  # Event action.
+        "ec":  "episode-download",  # Event category.
+        "ea":  episode_key,  # Event action.
         "uid": random.randrange(RAND_RANGE), # Not actually tracking users.
-        "dr": req.referrer,  # Document referrer.
-        "z": random.randrange(RAND_RANGE) # Cache busting.
+        "z":   random.randrange(RAND_RANGE) # Cache busting.
     }
 
     request = Request(
