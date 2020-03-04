@@ -52,6 +52,7 @@ def track_event(req, episode_key, user_agent_str):
         "tid": os.environ.get("GA_TRACKING_ID"),  # Tracking ID.
         "ec":  "episode-download",  # Event category.
         "ea":  episode_key,  # Event action.
+        "cid": random.randrange(RAND_RANGE), # Not actually tracking users.
         "uid": random.randrange(RAND_RANGE), # Not actually tracking users.
         "z":   random.randrange(RAND_RANGE) # Cache busting.
     }
