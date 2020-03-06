@@ -52,10 +52,9 @@
         <div id="summary-${key}" class="col-md-12 search-result">
             <h6>Episode: #${episode}</h6>
             <h4><a href="${link}">${title}</a></h4>
-            <p>${snippet}</p>
-            ${ isset tags }
-            <p>Tags: ${tags}...</p>${ end } ${ isset categories }
-            <h6>Categories: ${categories}</h6>${ end }
+            <p>${snippet}...</p>
+            ${ isset tags }<p>Tags: ${tags}...</p>${ end }
+            ${ isset categories }<h6>Categories: ${categories}</h6>${ end }
         </div>
 
     </script>
