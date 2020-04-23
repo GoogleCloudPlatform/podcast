@@ -9,9 +9,9 @@ The first episode explains the architecture, you can listen to it
 
 # Contents of the repository
 
-You will find three directories in the repository, `dev`. `ga_handler`, and `site`.
+You will find three directories in the repository: `dev`, `ga_handler`, and `site`.
 
-- dev: 
+- dev: dev tools
 - ga_handler: an App Engine module written in Python used to send events to Google Analytics
 - site: the [hugo](https://gohugo.io) structure that generates the static website
 

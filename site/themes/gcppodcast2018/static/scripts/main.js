@@ -232,5 +232,11 @@ window.addEventListener("load", function() {
 
     captureAudioPlay();
 
+    $('a').each(function() {
+        var expr = new RegExp('/'+window.location.host+'/');
+        if (!expr.test(this.href)) {
+            $(this).prop('target', '_blank').attr('rel', this.rel + ' nofollow noopener noreferrer');
+        }
+    });
 
 });
