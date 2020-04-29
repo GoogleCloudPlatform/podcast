@@ -34,8 +34,7 @@ Prior to this he was responsible for
 a launchpad to easily spin up popular software images on Google Compute Engine.
 He is a long time Googler who has previously worked on YouTube, Maps and Adsense.
 
-Follow Varun on Twitter [@varungyan](https://twitter.com/varungyan)
-or contact him via [varuntalwar@google.com](mailto:varuntalwar@google.com).
+Follow Varun on Twitter [@varungyan](https://twitter.com/varungyan).
 
 ##### Cool thing of the week
 

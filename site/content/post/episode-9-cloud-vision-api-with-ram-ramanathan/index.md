@@ -31,10 +31,7 @@ large part of launching the new Google Cloud Vision API. He comes with a
 great deal  of experience in the industry after working for other big
 players such as GE Healthcare and Microsoft.
 
-You can contact him on his email
-[ramramanathan@google.com](mailto:ramramanathan@google.com) and follow
-him on twitter at
-[@ramramanathan1](https://twitter.com/ramramanathan1)
+You can follow him on twitter at [@ramramanathan1](https://twitter.com/ramramanathan1).
 
 ##### Cool thing of the week
 

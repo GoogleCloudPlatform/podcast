@@ -27,11 +27,11 @@ Throughout the episode, Justin and Pathik offer up other tips and tricks to help
 
 ##### Pathik Sharma 
 
-[Pathik Sharma](mailto: pathik@google.com) is a Technical Account Manager with Google Cloud, focusing on proactively guiding enterprise customers to operate effectively and efficiently in the cloud. He loves helping customers to maximize their business value by optimizing their cloud spend.  
+Pathik Sharma is a Technical Account Manager with Google Cloud, focusing on proactively guiding enterprise customers to operate effectively and efficiently in the cloud. He loves helping customers to maximize their business value by optimizing their cloud spend.  
 
 ##### Justin Lerma
 
-[Justin Lerma](mailto: justinlerma@google.com) is a Technical Account Manager with Google Cloud. He has a passion for sharing best practices in operational efficiency as it allows for the proliferation of more experimentation and breeds new ideas.
+Justin Lerma is a Technical Account Manager with Google Cloud. He has a passion for sharing best practices in operational efficiency as it allows for the proliferation of more experimentation and breeds new ideas.
 
 ##### Cool things of the week
 

@@ -36,7 +36,6 @@ cloud developers.
 
 You can contact Chris at:
 
--   Email: [csells@google.com](mailto:csells@google.com)
 -   LinkedIn:
     [http://www.linkedin.com/in/csells](http://www.linkedin.com/in/csells)
 -   Twitter:

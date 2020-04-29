@@ -24,7 +24,7 @@ Laura details what knowledge graphs are and how they can be useful for both smal
 <!--more-->
 
 ##### Laura Ham
-[Laura](mailto: laura@semi.technology) is the Community Solution Engineer at SeMI Technologies, where she takes care of building and supporting a community around their open source software product, Weaviate. She also takes care of the developer and user experience within the business, which means she writes documentation to support both developers and users, as well as researches and evaluates new software implementations on user experience. She has a user-centered approach in the work that she develops and designs.  Laura is a full-time graduate student in Human Computer Interaction and Design with a special focus on Innovation and Entrepreneurship at EIT Digital Master School. Here, she learns about how to develop and design technology from a user perspective, and how to apply this with an entrepreneurial mindset.
+Laura is the Community Solution Engineer at SeMI Technologies, where she takes care of building and supporting a community around their open source software product, Weaviate. She also takes care of the developer and user experience within the business, which means she writes documentation to support both developers and users, as well as researches and evaluates new software implementations on user experience. She has a user-centered approach in the work that she develops and designs.  Laura is a full-time graduate student in Human Computer Interaction and Design with a special focus on Innovation and Entrepreneurship at EIT Digital Master School. Here, she learns about how to develop and design technology from a user perspective, and how to apply this with an entrepreneurial mindset.
 
 ##### Cool things of the week
 

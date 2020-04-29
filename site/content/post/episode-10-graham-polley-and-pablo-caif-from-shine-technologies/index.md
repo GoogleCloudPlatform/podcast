@@ -33,7 +33,7 @@ BigQuery & Dataflow. Graham works very closely with the GCP engineering team in 
 their cloud platform trusted tester program, and the solutions he helps build are used as internal exemplars of 
 developer use cases. Graham is also a GDE on the GCP.
 
-You can contact Graham through [Twitter](https://twitter.com/polleyg), [email](mailto:polleyg@gmail.com), 
+You can contact Graham through [Twitter](https://twitter.com/polleyg), 
 [blog](http://blog.shinetech.com/author/polleyg/) and [Google Developer Expert Profile](https://developers.google.com/experts/people/graham-polley).
 
 ##### About Pablo
@@ -43,7 +43,7 @@ complex data processing business requirements. Pablo considers that scalability 
 developing a great solution, and that is why he has been using Dataflow and BigQuery to bring these solutions to 
 reality. Pablo is also a GDE on GCP.
 
-You can contact Pablo through [Twitter](https://twitter.com/pablocaif), [email](mailto:pablocaif@gmail.com), and 
+You can contact Pablo through [Twitter](https://twitter.com/pablocaif), and 
 [blog](http://blog.shinetech.com/author/pablocaif/).
 
 ##### Cool thing of the week
