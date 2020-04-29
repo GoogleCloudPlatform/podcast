@@ -27,7 +27,7 @@ In the future, the Config Connector team hopes to cover all GCP resources, to cr
 
 ##### Emily Cai
 
-[Emily](mailto: caie@google.com) is an engineer on Google Cloud’s Config Connector team focused on creating a declarative way for users to manage their non-Kubernetes resources. She has been with Google since November 2018 after interning twice (once in Irvine, once in Zurich). Currently living in Seattle, she is an avid frisbee player and winter sports enthusiast who is always open to new experiences.
+Emily is an engineer on Google Cloud’s Config Connector team focused on creating a declarative way for users to manage their non-Kubernetes resources. She has been with Google since November 2018 after interning twice (once in Irvine, once in Zurich). Currently living in Seattle, she is an avid frisbee player and winter sports enthusiast who is always open to new experiences.
 
 
 ##### Cool things of the week

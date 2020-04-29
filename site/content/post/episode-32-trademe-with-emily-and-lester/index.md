@@ -18,11 +18,8 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4qgakx/episode_32_goo
   name = "fimage"
 +++
 
-[Emily Melhuish](https://twitter.com/kanocarra) and [Lester Litchfield](mailto:lester.litchfield@trademe.co.nz)
-share with your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/neurotic)
-how [Trade Me](http://www.trademe.co.nz/), the second most visited page in New Zealand, integrates
-[Google Analytics](https://analytics.google.com) and [BigQuery](https://cloud.google.com/bigquery/) to
-understand their traffic and provide statistics to their users.
+[Emily Melhuish](https://twitter.com/kanocarra) and Lester Litchfield share with your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/neurotic)
+how [Trade Me](http://www.trademe.co.nz/), the second most visited page in New Zealand, integrates [Google Analytics](https://analytics.google.com) and [BigQuery](https://cloud.google.com/bigquery/) to understand their traffic and provide statistics to their users.
 
 <!--more-->
 
@@ -39,13 +36,9 @@ Her work was for car dealers.
 
 ##### About Lester
 
-[Lester Litchfield](mailto:lester.litchfield@trademe.co.nz) is a data scientist and web analyst for
-Trade Me with a background in Marketing. He's responsible for implementing
-[Google Tag Manager](https://www.google.com/analytics/tag-manager/) and
-[Google Analytics 360](https://www.google.com/analytics/360-suite/) across their sites
-and apps, and using that data to tell the story of how their users behave. He uses
-[BigQuery](https://cloud.google.com/bigquery/) most weeks to answer tough questions, and for AB testing.
-He's also exploring Google Cloud Platform for text analysis, image analysis and machine learning applications.
+Lester Litchfield is a data scientist and web analyst for Trade Me with a background in Marketing. He's responsible for implementing
+[Google Tag Manager](https://www.google.com/analytics/tag-manager/) and [Google Analytics 360](https://www.google.com/analytics/360-suite/) across their sites
+and apps, and using that data to tell the story of how their users behave. He uses [BigQuery](https://cloud.google.com/bigquery/) most weeks to answer tough questions, and for AB testing. He's also exploring Google Cloud Platform for text analysis, image analysis and machine learning applications.
 
 ##### Cool thing of the week
 
