@@ -27,11 +27,11 @@ Our guests wrap up the show explaining how Chronicle, as part of GCP, benefits G
 
 ##### Dr. Anton Chuvakin 
 
-[Dr. Anton Chuvakin](mailto: chuvakin@google.com) is now involved with security solution strategy at Google Cloud, where he arrived via Chronicle Security (an Alphabet company) acquisition in July 2019. Anton was, until recently, a Research Vice President and Distinguished Analyst at Gartner for Technical Professionals (GTP) Security and Risk Management Strategies team. Anton is a recognized security expert in the field of log management, SIEM and PCI DSS compliance.
+[Dr. Anton Chuvakin](http://chuvakin.org) is now involved with security solution strategy at Google Cloud, where he arrived via Chronicle Security (an Alphabet company) acquisition in July 2019. Anton was, until recently, a Research Vice President and Distinguished Analyst at Gartner for Technical Professionals (GTP) Security and Risk Management Strategies team. Anton is a recognized security expert in the field of log management, SIEM and PCI DSS compliance.
 
 ##### Ansh Patniak
 
-[Ansh Patnaik](anshpatnaik@google.com) is responsible for product marketing at Chronicle. Previously, he was VP of Product Management at Oracle where he defined and launched their Security Analytics Cloud service. Ansh has held product management, marketing and sales engineering roles at several cybersecurity and data segment market leaders including Delphix, ArcSight (acquired by HP), and BindView (acquired by Symantec).
+Ansh Patnaik is responsible for product marketing at Chronicle. Previously, he was VP of Product Management at Oracle where he defined and launched their Security Analytics Cloud service. Ansh has held product management, marketing and sales engineering roles at several cybersecurity and data segment market leaders including Delphix, ArcSight (acquired by HP), and BindView (acquired by Symantec).
 
 ##### Cool things of the week
 
