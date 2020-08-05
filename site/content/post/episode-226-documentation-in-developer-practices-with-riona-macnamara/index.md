@@ -1,7 +1,7 @@
 +++
-audioDuration = "00:39:12"
+audioDuration = "00:38:04"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.226.mp3"
-audioSize = 56464670
+audioSize = 54830558
 categories = ["Best Practices", "DevOps"]
 date = "2020-07-08"
 description = "Mark Mirchandani and Priyanka Vergadia are here this week to talk about some cool things that are going on. Then, Mark brings us an interesting interview all about documentation in development with Technical Writing Manager Riona Macnamara."
@@ -266,16 +266,6 @@ RIONA: That'd be awesome. Thank you.
 MARK: Like I said, it was such a great conversation. And I think it really helped me understand a little bit more about the world of documentation. There's so much more than just writing a doc and putting it out there. You really have to understand how people are using it. And so I love that conversation. Hopefully, everyone else should enjoy it as well. 
 
 PRIYANKA: Yeah, documentation is always the first place where everybody goes to to learn more about anything. So having Riona on the show and just talking more about it, just enlightening us about the process was definitely great. 
-
-MARK: Well, with that out of the way, and actually speaking of the earlier cool thing about content moderation, we put out a lot of YouTube videos. And we actually get a lot of comments as well. And one of the comments that came in was asking a question that was so good. Brenton Martin decided to make a video on it. So for our question of the week. 
-
-[MUSIC PLAYING] 
-
-It's how do we build authentication into a REST API? I'll just link that to the video because they did such a great job. And they actually stepped through serverless to a box-- really, really great. YouTube show where they do a bunch of different episodes. But on this episode, they walk you through adding authentication. And I remember trying to build something very similar with authentication. And it was hard. I definitely didn't know where to look for resources. And so having a video like this, again, it just goes over the basics. You go to the authentication page. You add a credential. You get that. 
-
-And then, they walk through it. And they show you how it all works. It's such a great resource for it. And I think authentication on top of an API is very, very common case. So it was super exciting to see this video directly created as a response to a question. 
-
-PRIYANKA: Yeah, that is awesome. I'll go check it out. 
 
 MARK: Awesome. Well, before we wrap things up, Priyanka, what cool new series and other things are you working on? 
 
