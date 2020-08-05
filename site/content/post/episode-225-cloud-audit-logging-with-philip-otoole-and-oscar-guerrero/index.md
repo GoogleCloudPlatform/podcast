@@ -332,7 +332,7 @@ And then the second episode of "Drawing Board" just launched, as well, which was
 
 MARK: Awesome. I know there's a lot of stuff going on. Obviously, we've seen a lot of people start to create some really great online content. So those two shows are on the Google Cloud Platform YouTube channel. And of course, Priyanka, you and I have worked with that channel before. A lot of our content's there and some other really, really great videos, which I think is why we're always referencing to the cool things that people are creating. 
 
-So if you haven't had a chance, actually, I definitely recommend checking out the YouTube channel. We had "Serverless Toolbox." We had that tip from Bret McGowen a few weeks ago. And I thought that was just awesome. And "Serverless Toolbox" is a great show. There's so much great content out there. I think really the problem is there's just not enough time to sit down and watch all of them. 
+So if you haven't had a chance, actually, I definitely recommend checking out the YouTube channel. There's so much great content out there. I think really the problem is there's just not enough time to sit down and watch all of them. 
 
 PRIYANKA: Yep. Yeah, so whatever it is that your interest is in, just pick those playlists, pick those topics, and just watch what excites you and what you're working on. 
 

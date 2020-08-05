@@ -36,7 +36,6 @@ Justin Lerma is a Technical Account Manager with Google Cloud. He has a passion 
 ##### Cool things of the week
 
 * Get started with Google Cloud Training & Certification [site](https://inthecloud.withgoogle.com/training-discount/register.html)
-* Creating a REST API with Node.js and MySQL - Serverless Toolbox Extended [video](https://www.youtube.com/watch?v=CGy4-Xu5anw)
 
 ##### Interview
 
@@ -94,13 +93,7 @@ And you what you're able to do is fill out the form before the end of April, whi
 
 There's so much great information out there, and now seems like a great time to be able to sit down and just breeze through it. 
 
-BRIAN: If you're in that kind of head space, go for it. The other thing I wanted to highlight this week is a video from two of our colleagues, Brett and Martin. And they've got a series that is "Serverless Toolbox" that you may have seen on YouTube. And I just love the whole arc and story there. 
-
-But normal episodes are pretty dense. They have to skip some of the details to tell the story clearly. So they've done an episode recently that is the behind the scenes or an extended version where they walk through every single step, and it's so nice to see every step of how things work. 
-
-And so this particular one is how to build a REST API with Node.js and MySQL on Cloud Run. And they go actually doing every step of the way. And it's a 54-minute video, but there's nothing left out. And if you're ever wondering, OK, the cooking show version of these stories is great, but I want to see all the details, this is it. So there's a link to that in the show notes. 
-
-MARK: Yeah, it's a great video. And I think they do a really good job of explaining it, like you said, going through the steps. And a lot of people are super excited to see content like that, and it helps you understand it. Goes very well hand-in-hand with all these learning resources. This video could easily be a Coursera course or something, just because of how great and in-depth-- what a great job they do of explaining things. 
+BRIAN: If you're in that kind of head space, go for it.
 
 Awesome, well with our cool things out of the way, why don't we go ahead and jump right into the main content. 
 

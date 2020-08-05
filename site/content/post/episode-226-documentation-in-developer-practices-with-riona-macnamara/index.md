@@ -267,16 +267,6 @@ MARK: Like I said, it was such a great conversation. And I think it really helpe
 
 PRIYANKA: Yeah, documentation is always the first place where everybody goes to to learn more about anything. So having Riona on the show and just talking more about it, just enlightening us about the process was definitely great. 
 
-MARK: Well, with that out of the way, and actually speaking of the earlier cool thing about content moderation, we put out a lot of YouTube videos. And we actually get a lot of comments as well. And one of the comments that came in was asking a question that was so good. Brenton Martin decided to make a video on it. So for our question of the week. 
-
-[MUSIC PLAYING] 
-
-It's how do we build authentication into a REST API? I'll just link that to the video because they did such a great job. And they actually stepped through serverless to a box-- really, really great. YouTube show where they do a bunch of different episodes. But on this episode, they walk you through adding authentication. And I remember trying to build something very similar with authentication. And it was hard. I definitely didn't know where to look for resources. And so having a video like this, again, it just goes over the basics. You go to the authentication page. You add a credential. You get that. 
-
-And then, they walk through it. And they show you how it all works. It's such a great resource for it. And I think authentication on top of an API is very, very common case. So it was super exciting to see this video directly created as a response to a question. 
-
-PRIYANKA: Yeah, that is awesome. I'll go check it out. 
-
 MARK: Awesome. Well, before we wrap things up, Priyanka, what cool new series and other things are you working on? 
 
 PRIYANKA: Ooh, there's lots to talk about here. We just put out a video on Cloud Bite series, which is the second episode. It came out on Sunday-- "App Engine In a Minute." We're seeing a lot of love and comments on these videos. So it's very encouraging and exciting to hear all your feedback. Please keep them coming. And the second great thing that is going to launch this week is the second issue of GCP comics. It is all about security, and I know we've been talking a lot about security in the past few episodes of our podcast. So be sure to check it out. It's going to be out sometime this week. 
