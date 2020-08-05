@@ -1,7 +1,7 @@
 +++
-audioDuration = "00:39:12"
+audioDuration = "00:38:04"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.226.mp3"
-audioSize = 56464670
+audioSize = 54830558
 categories = ["Best Practices", "DevOps"]
 date = "2020-07-08"
 description = "Mark Mirchandani and Priyanka Vergadia are here this week to talk about some cool things that are going on. Then, Mark brings us an interesting interview all about documentation in development with Technical Writing Manager Riona Macnamara."

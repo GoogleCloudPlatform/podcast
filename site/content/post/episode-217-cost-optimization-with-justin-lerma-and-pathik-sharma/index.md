@@ -1,7 +1,7 @@
 +++
-audioDuration = "00:41:31"
+audioDuration = "00:40:24"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.217.mp3"
-audioSize = 59806618
+audioSize = 58184602
 categories = ["Cost Optimization"]
 date = "2020-04-22"
 description = "Our guests Justin Lerma and Pathik Sharma join Brian and Mark this week to talk cost optimization techniques for internet projects."

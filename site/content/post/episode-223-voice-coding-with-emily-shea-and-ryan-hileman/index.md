@@ -1,7 +1,7 @@
 +++
-audioDuration = "00:49:21"
+audioDuration = "00:44:07"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.223.mp3"
-audioSize = 50492654
+audioSize = 63529874
 categories = ["Voice Coding", "Voice Recognition", "Accessibility"]
 date = "2020-06-17"
 description = "Mark Mirchandani is back this week as he and co-host Brian Dorsey learn all about voice coding with some great guests!"

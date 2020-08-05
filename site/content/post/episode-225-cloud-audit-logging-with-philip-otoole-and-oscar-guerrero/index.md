@@ -1,7 +1,7 @@
 +++
-audioDuration = "00:39:40"
+audioDuration = "00:39:34"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.225.mp3"
-audioSize = 57142623
+audioSize = 56991711
 categories = ["Audit Logging", "Cyber Security", "Event Driven Systems"]
 date = "2020-07-01"
 description = "This week, Mark Mirchandani and Priyanka Vergadia learn all about Cloud Audit Logging with fellow Googlers, Philip O'Toole and Oscar Guerrero."
