@@ -73,7 +73,7 @@ Just last year, NVIDIA announced their T4 GPU with Google Cloud Platform. This p
 
 Where can we learn more about Stadia?
 
-* [general info](stadia.dev)
+* [general info](https://stadia.dev)
 * [developer access](https://stadia.dev/apply)
 
 ##### Where can you find us next?

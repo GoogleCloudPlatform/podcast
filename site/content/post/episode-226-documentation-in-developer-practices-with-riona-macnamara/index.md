@@ -39,7 +39,7 @@ Riona is a 13-year Google veteran, and a documentation manager in Google Cloud. 
 * SREcon18 Asia/Australia - Do Docs Better: Practical Tips on Delivering Value to your Business [video](https://www.youtube.com/watch?v=17f8elHd6aM&t=149s)
 * DevOps Days Galway [videos](https://www.youtube.com/channel/UCs3qTYCBoVQRDwpBPjBNWFQ)
 * Write the Docs Portland 2019 [videos](https://www.youtube.com/playlist?list=PLZAeFn6dfHpmuHCu5qsIkmp9H5jFD-xq-)
-* Write the Docs Austrailia 2019 [videos](https://www.youtube.com/playlist?list=PLy70RNJ7dYrJPuUTAIOS7vWGw6poKDHtH)
+* Write the Docs Australia 2019 [videos](https://www.youtube.com/playlist?list=PLy70RNJ7dYrJPuUTAIOS7vWGw6poKDHtH)
 * Technical Writing Courses at Google [site](https://developers.google.com/tech-writing)
 * Docs Like Code on Amazon [site](https://www.amazon.com/gp/product/B0784ZJWSR/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0)
 
@@ -265,7 +265,7 @@ RIONA: That'd be awesome. Thank you.
 
 MARK: Like I said, it was such a great conversation. And I think it really helped me understand a little bit more about the world of documentation. There's so much more than just writing a doc and putting it out there. You really have to understand how people are using it. And so I love that conversation. Hopefully, everyone else should enjoy it as well. 
 
-PRIYANKA: Yeah, documentation is always the first place where everybody goes to to learn more about anything. So having Riona on the show and just talking more about it, just enlightening us about the process was definitely great. 
+PRIYANKA: Yeah, documentation is always the first place where everybody goes to learn more about anything. So having Riona on the show and just talking more about it, just enlightening us about the process was definitely great. 
 
 MARK: Awesome. Well, before we wrap things up, Priyanka, what cool new series and other things are you working on? 
 

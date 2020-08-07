@@ -32,7 +32,7 @@ Prometheus. In a previous life, Julius was a Site Reliability Engineer at Google
 
 ##### Cool things of the week
 
-- New Singapore GCP region – open now [blog](New Singapore GCP region – open now) [locations](https://cloud.google.com/about/locations/)
+- New Singapore GCP region – open now [blog](https://cloud.google.com/blog/products/gcp/google-cloud-platform-comes-to-singapore) [locations](https://cloud.google.com/about/locations/)
 - Training an object detector using Cloud Machine Learning Engine [blog](https://cloud.google.com/blog/big-data/2017/06/training-an-object-detector-using-cloud-machine-learning-engine)
 - Preparing a Container Engine Environment for Production [solution](https://cloud.google.com/solutions/prep-container-engine-for-prod)
 

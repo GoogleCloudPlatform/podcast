@@ -32,7 +32,7 @@ Dom Elliott leads global developer marketing communications for Google Play. His
 
 ##### Cool things of the week
 
-- Easy distributed training with TensorFlow using tf.estimator.train_and_evaluate on Cloud ML Engine [blog](Easy distributed training with TensorFlow using tf.estimator.train_and_evaluate on Cloud ML Engine) [tweet](https://twitter.com/amygdala/status/963101405731958784)
+- Easy distributed training with TensorFlow using tf.estimator.train_and_evaluate on Cloud ML Engine [blog](https://cloud.google.com/blog/products/gcp/easy-distributed-training-with-tensorflow-using-tfestimatortrain-and-evaluate-on-cloud-ml-engine)
 - CI/CD with Less Fluff & More Awesome [blog](https://medium.com/@riknauta/ci-cd-with-less-fluff-more-awesome-28af61288a03)
 - 96 vCPU Compute Engine instances are now generally available [announcement](https://cloudplatform.googleblog.com/2018/02/96-vCPU-Compute-Engine-instances-are-now-generally-available.html) [site](https://cloud.google.com/compute/) 
 

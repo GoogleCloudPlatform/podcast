@@ -32,7 +32,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/9n0xzq/episode_150_st
 * Introducing PyTorch across Google Cloud [blog](https://cloud.google.com/blog/products/ai-machine-learning/introducing-pytorch-across-google-cloud)
 * Is that a device driver, golf driver, or taxi driver? Building custom translation models with AutoML Translate [blog](https://cloud.google.com/blog/products/ai-machine-learning/is-that-a-device-driver-golf-driver-or-taxi-driver-building-custom-translation-models-with-automl-translate)
 * A developer onramp to Kubernetes with GKE [blog](https://cloud.google.com/blog/products/containers-kubernetes/a-developer-onramp-to-kubernetes-with-gke)
-* Network controls in GCP vs. on-premises: Not so different after all [blog](Network controls in GCP vs. on-premises: Not so different after all)
+* Network controls in GCP vs. on-premises: Not so different after all [blog](https://cloud.google.com/blog/products/networking/network-controls-in-gcp-vs-on-premises-not-so-different-after-all)
 
 ##### Interview
 

@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/7pgkss/episode_108_la
   name = "fimage"
 +++
 
-[Launchpad Studio]((https://developers.google.com/programs/launchpad/studio/)), a product development acceleration program focused on helping machine learning startups iterate quickly, fail fast, and collaborate on best practices. 
+[Launchpad Studio](https://developers.google.com/programs/launchpad/studio/), a product development acceleration program focused on helping machine learning startups iterate quickly, fail fast, and collaborate on best practices. 
 
 [Malika Cantor](https://twitter.com/malijeanne) and [Peter Norvig](http://norvig.com/) talk with [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) this week about how the Launchpad Studio program is helping startups overcome data, expertise and tooling barriers by providing access to talent and resources and building universal best practices. 
  

@@ -51,7 +51,7 @@ When not analyzing interesting datasets, Erik can often be found riding up some 
 
 ##### Interview
 
-* Wellio [site](www.getwellio.com) 
+* Wellio [site](http://www.getwellio.com/) 
 * GKE [site](https://cloud.google.com/kubernetes-engine/)
 * Cloud Storage [site](https://cloud.google.com/storage/)
 * Pub/Sub [site](https://cloud.google.com/pubsub/)

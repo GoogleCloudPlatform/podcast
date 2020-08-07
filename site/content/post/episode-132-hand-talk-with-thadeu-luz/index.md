@@ -32,7 +32,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8skbgz/episode_132_ha
 * First research center in Ghana [blog](https://www.blog.google/topics/google-africa/google-ai-ghana/)
 * GCP in Finland [blog](https://cloudplatform.googleblog.com/2018/06/GCP-arrives-in-the-Nordics-with-a-new-region-in-Finland.html) 
 * AI Adventures BigQuery and Open Datasets [video](https://towardsdatascience.com/bigquery-public-datasets-936e1c50e6bc)
-* Dockercon and value of childcare at conferences [tweet](]https://twitter.com/texasmichelle/status/1007475279646810112)
+* Dockercon and value of childcare at conferences [tweet](https://twitter.com/texasmichelle/status/1007475279646810112)
 * What is going on in Unite Berlin 2018 [blog](https://blogs.unity3d.com/2018/06/12/unite-berlin-2018-what-to-expect-next-week/) & Powering up Conncected Game Development [blog](https://blog.google/topics/google-cloud/powering-up-connected-game-development-through-our-alliance-with-unity/)
 
 ##### Interview
@@ -145,7 +145,7 @@ THADEU: Thank you.
 
 MELANIE: Thadeu, can you tell us a little bit about the company. What does Hand Talk do? 
 
-THADEU: So I'm a founder and CPO at Hand Talk, which is a start-up, based here in the city of Maceió, in Brazil, which is in the coast and very warm weather and nice beaches. And I'm also a Google developer expert in Firebase. 
+THADEU: So I'm a founder and CPO at Hand Talk, which is a start-up, based here in the city of Maceiï¿½, in Brazil, which is in the coast and very warm weather and nice beaches. And I'm also a Google developer expert in Firebase. 
 
 Hand Talk is a company that offer automatic sign language interpretation solutions for users and companies as well. And we do that through a friendly virtual 3D character named Hugo. 
 
@@ -153,7 +153,7 @@ MELANIE: So how did you guys come up with this company?
 
 THADEU: OK. So Hand Talk started when, in 2011, I came back from Canada. I was living in Toronto for two years with my wife and working on the VFX industry. That's actually my background is in computer graphics and digital compositing. 
 
-And when I came back, a couple of friends invited me to help with this project they were working on, which was a prototype for a demo day they were going to have here in Maceió. And the idea was to come up with an app that would translate to sign language using a virtual character. And they needed someone that had experience with character design and 3D animation to finish him off. So that's how I started. 
+And when I came back, a couple of friends invited me to help with this project they were working on, which was a prototype for a demo day they were going to have here in Maceiï¿½. And the idea was to come up with an app that would translate to sign language using a virtual character. And they needed someone that had experience with character design and 3D animation to finish him off. So that's how I started. 
 
 MELANIE: How did the company decide to work on from translating spoken and written Portuguese into Brazilian sign language? 
 
@@ -161,7 +161,7 @@ THADEU: This idea was a school project, actually, from my co-founder and my part
 
 So he thought of doing something at the time, which was using desktop computers or notebooks. And this was a long time ago in 2004, even before the iPhone. So after that, we thought that this could work for mobile devices. 
 
-And we did this demo for this contest here, this local contest in Maceió, and we won the first prize. Everybody loved Hugo. And we used the money as seed investment to open up the company. And that's what we've been working on ever since. 
+And we did this demo for this contest here, this local contest in Maceiï¿½, and we won the first prize. Everybody loved Hugo. And we used the money as seed investment to open up the company. And that's what we've been working on ever since. 
 
 MARK: Awesome. Can you tell us more about the problem, too? Like is the translation from, say, Portuguese or even just written, like any sort of written language to sign language, is that kind of one-to-one, or how complicated it is that? 
 

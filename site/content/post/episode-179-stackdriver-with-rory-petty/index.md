@@ -72,10 +72,10 @@ Mark is going to be in NYC right before [Games for Change](http://www.gamesforch
 
 ##### Sound Effect Attribution
 
-* "Spaceship Fly-by, A" by [InspectorJ](www.jshaw.co.uk) of [Freesound.org](Freesound.org)
-* "Teleport" by Sergenious of [Freesound.org](Freesound.org)
-* "Moretube.wav" by NoiseCollector of [Freesound.org](Freesound.org)
-* "Mystery Peak2.wav" by FoolBoyMedia of [Freesound.org](Freesound.org)
+* "Spaceship Fly-by, A" by [InspectorJ](http://www.jshaw.co.uk) of [Freesound.org](https://freesound.org/)
+* "Teleport" by Sergenious of [Freesound.org](https://freesound.org/)
+* "Moretube.wav" by NoiseCollector of [Freesound.org](https://freesound.org/)
+* "Mystery Peak2.wav" by FoolBoyMedia of [Freesound.org](https://freesound.org/)
 
 {{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 179 of the weekly Google Cloud Platform podcast. I am Jon Foust, and I'm here with my colleague and friend, Mark Mirchandani. Hi Mark, how's it going?" >}} 
 
