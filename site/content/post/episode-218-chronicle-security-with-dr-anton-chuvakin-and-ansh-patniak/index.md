@@ -132,7 +132,7 @@ ANTON: Yes, this actually is a really good metaphor, by the way, the whole front
 
 PRIYANKA: So what are some of the underlying root causes of security incidents and problems that you see today that need to be addressed? 
 
-ANSH: What we've been seeing, especially in the sort of security analytics space, also traditionally called SIM, as Anton was saying, is that there's this neverending problem of more tools and more infrastructure that organizations are contending with. So in one sense it's good, that as more infrastructure is added we do need different types of security solutions to protect against different threat vectors. 
+ANSH: What we've been seeing, especially in the sort of security analytics space, also traditionally called SIM, as Anton was saying, is that there's this never ending problem of more tools and more infrastructure that organizations are contending with. So in one sense it's good, that as more infrastructure is added we do need different types of security solutions to protect against different threat vectors. 
 
 But the reality of what's happened, sort of the state of security for operations teams, is that that's created a lot of noise, a lot of alerts, a lot of fatigue in the security operations center. And in many cases, actual threats are missed. So if we talk about root causes, I do think one is clearly there is this sort of data overload problem, not just about raw telemetry, but about the threats that are detected. It's overwhelmed teams. And a lot of noise is mixed in with a few threats that then are easier to miss. 
 

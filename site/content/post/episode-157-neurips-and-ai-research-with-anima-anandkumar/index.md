@@ -59,7 +59,7 @@ Anima received her B.Tech in Electrical Engineering from IIT Madras in 2004 and 
 What are some actions I can take if I’m being trolled, harassed and/or bullied online or I want to be proactive about my safety?
 
 * If you are experiencing harassment, tell someone who can support you, document it, and assess escalating to authorities depending on the severity.
-* [Surveillence Self-Defense](https://ssd.eff.org/en)
+* [Surveillance Self-Defense](https://ssd.eff.org/en)
 * [Preventing Doxxing](https://onlinesafety.feministfrequency.com/en/#preventing-doxxing)
 
 ##### Where can you find us next?

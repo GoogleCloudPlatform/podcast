@@ -55,7 +55,7 @@ How many different ways can you run a container on GCP?
 
  * [GKE](https://cloud.google.com/kubernetes-engine/)
  * [Cloud Run](https://cloud.google.com/run/)
- * [App Engine Flexible Environmnet](https://cloud.google.com/appengine/docs/flexible/)
+ * [App Engine Flexible Environment](https://cloud.google.com/appengine/docs/flexible/)
  * [Compute Engine](https://cloud.google.com/compute/)
  * VM as a computer
 

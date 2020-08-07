@@ -69,7 +69,7 @@ Google Cloud Load Balancing [docs](https://cloud.google.com/load-balancing/)
 Mark will be heading to [Polyglot Vancouver Meetup](https://www.meetup.com/PolyglotVancouver/events/238312555/) in April,
 and then on to [East Coast Games Conference](http://ecgconf.com/) and [Vector](http://vectorconf.com/)
 
-Francesc just releasd the [last episode](https://youtu.be/jy9XKfYjtwE?list=PL64wiCrrxh4Jisi7OcCJIUpguV_f5jGnZ)
+Francesc just released the [last episode](https://youtu.be/jy9XKfYjtwE?list=PL64wiCrrxh4Jisi7OcCJIUpguV_f5jGnZ)
 of the Flappy Gopher miniseries of [JustForFunc](https://youtube.com/c/justforfunc),
 and then will be presenting at [Gophercon China](http://www.bagevent.com/event/357764) in April.  
 
@@ -213,7 +213,7 @@ DAVID: Yes, that's right. And that was running on bare metal servers software. A
 
 MARK: So I'm curious now. So are you running like your own sort of sharded MongoDB replica sets? How are you managing that? Was that all just a manual process? How was that managed? 
 
-DAVID: Yep, it was the MongoDB replica sets with sharding. So there was a single database and a single collection in MongoDB, and that would split it out into different granularites. So the agent reports back every minute, and we store that data every minute for a week. And then it's also, at the same time, written in a different database to give hourly averages. And that data is stored forever. And due to the architecture of MongoDB at the time, the database-level lock that they had, which has now being improved significantly in the latest storage engines, we split them out into different databases and sharded them separately. 
+DAVID: Yep, it was the MongoDB replica sets with sharding. So there was a single database and a single collection in MongoDB, and that would split it out into different granularities. So the agent reports back every minute, and we store that data every minute for a week. And then it's also, at the same time, written in a different database to give hourly averages. And that data is stored forever. And due to the architecture of MongoDB at the time, the database-level lock that they had, which has now being improved significantly in the latest storage engines, we split them out into different databases and sharded them separately. 
 
 But aside from that being kind of a limitation of Mongo, it also allowed us the benefit of being able to split them out into different clusters based on the use case, because hourly data is accessed less often. And so we could have cheaper hardware to power that cluster. 
 

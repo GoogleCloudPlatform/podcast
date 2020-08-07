@@ -247,7 +247,7 @@ MARK: I have loads, too.
 
 FRANCESC: So the first question that I have is-- so you're using SSDs to store the database, but you're also storing some of that information into Cloud Storage. Then you read from Cloud Storage, kind of like MapReduce, whatever, like a big batch process, and then you store that into Vertica. Is that correct? 
 
-MICHAEL: Right. That's kind of how it is in terms of getting analytics data into a queriable system. 
+MICHAEL: Right. That's kind of how it is in terms of getting analytics data into a queryable system. 
 
 FRANCESC: And once it's in Vertica, you're actually storing again on SSDs so that the access is really fast. 
 

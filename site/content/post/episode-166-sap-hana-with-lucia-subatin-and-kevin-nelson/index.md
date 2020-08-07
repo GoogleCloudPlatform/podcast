@@ -453,7 +453,7 @@ LUCIA: Thank you very much for hosting us.
 
 KEVIN: Thanks very much. 
 
-JOHN: Well, thank you, Lucia and Kevin, for joining us on the podcast, today. And to wrap things up, we're going to have our question of the week. And our question of week is, if I want to programatically search for links to an image that I have, how can I do that? 
+JOHN: Well, thank you, Lucia and Kevin, for joining us on the podcast, today. And to wrap things up, we're going to have our question of the week. And our question of week is, if I want to programmatically search for links to an image that I have, how can I do that? 
 
 MARK: I'd been aware of Google Image Search for a really long time. But I didn't realize we had an API that essentially allows you to do that. So if you're not familiar, basically, it means if you've got an image-- so if you've got a PNG, or a JPEG, or something like that-- and you're thinking to yourself, I wonder if somebody else is hosting this somewhere on the internet, or where are all the places this image is used, but you want to do it programmatically, the Cloud Vision API has a detecting web entities and pages API. 
 

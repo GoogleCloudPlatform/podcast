@@ -192,7 +192,7 @@ SHEROL CHEN: So who's going to be a better driver, or what is going to be a bett
 
 There's different things that prevent us from functioning at full capacity. And so a lot of our traffic laws are built around this idea that you'd have all your correct sensory functions in order. When we think about how we create policies for traffic laws, for example, they exist-- you need to be able to see, for example, to be able to drive a car. 
 
-But there is some margin of, welll, you don't have to have exact, perfect, immaculate, 20/20 vision. You could have a little bit less than that, let's say. And then there's some amount less than that. And all of that needs to be researched and considered to be able to protect the safety of society as a whole. 
+But there is some margin of, well, you don't have to have exact, perfect, immaculate, 20/20 vision. You could have a little bit less than that, let's say. And then there's some amount less than that. And all of that needs to be researched and considered to be able to protect the safety of society as a whole. 
 
 But I don't think that's an easy question to answer. Because when I talk about self-driving cars-- if we talk about it in Silicon Valley or the Bay Area, we're thinking highway 280 routes, like wide and open and the lines are very clear. But I've taught in India before. And when I show them the video of a self-driving car in California-- yeah, I mean, that does seem like terrain that a machine can navigate. If you show them the streets of some of the places in India, I just don't even know what kind of input-- you'd just have to have a very fast reactionary state of processing. 
 

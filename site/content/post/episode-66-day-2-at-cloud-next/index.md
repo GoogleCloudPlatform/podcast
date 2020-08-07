@@ -60,7 +60,7 @@ it.
 ###### James Williams from Udacity
 
 [James Williams](https://twitter.com/ecspike) is an Android Curriculum Lead
-at [Udacity](https://www.udacity.com/). Udacity is an online educiation platform
+at [Udacity](https://www.udacity.com/). Udacity is an online education platform
 with some amazing Google courses ([more here](https://www.udacity.com/google)).
 
 We also highlighted the [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) course, and you should definitely go check it out!

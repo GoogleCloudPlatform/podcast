@@ -184,7 +184,7 @@ So let's use an e-commerce kind of example. So if I am browsing an e-commerce si
 
 There's some interaction you have to do that could be an eventually consistent type of action regarding, like, inventory. And so you can do a lot of that locally just to you. You don't have to necessarily interact with everyone else to do that. 
 
-However, when you actually want to check out that cart, well, now you have a transaction that is highly consistent. And so that needs to actually go back to a centralized location typically. That's the way I tend to look at it. Like, at the extreme, it's like statefull or stateless. 
+However, when you actually want to check out that cart, well, now you have a transaction that is highly consistent. And so that needs to actually go back to a centralized location typically. That's the way I tend to look at it. Like, at the extreme, it's like stateful or stateless. 
 
 And then over time, we're getting to a much more granular, much more like nuanced version of this, where it's really about the consistency level and where the data lives. And I think that that is actually going to be the really interesting thing over the next several years. Like, computed edge as it exists today is primarily a stateless thing. And so you would move primarily stateless things out there. But I think that where this is all headed is really for this much more nuanced understanding of what state actually means. 
 
@@ -214,7 +214,7 @@ BRIAN: If I've got to distributed system that's made up of microservices, and th
 
 TYLER: This has been a thing that I've been thinking about for a long time now. And I have some answers to it. But honestly, it's the same problem as we have had with the architecture overall for years now. So our approach to that problem has been to make it as easy as possible to integrate with your existing observability type things, and probably most importantly like real-time visibility. 
 
-I think one of the problems with severless overall at the moment even, setting aside the whole edge side, is like I run this thing out there. The logs show up somewhere maybe sometimes, and maybe it takes a couple minutes for them to get there. Or how do I actually connect this to my Splunk or my Datadogs or whatever I'm using for observability. 
+I think one of the problems with serverless overall at the moment even, setting aside the whole edge side, is like I run this thing out there. The logs show up somewhere maybe sometimes, and maybe it takes a couple minutes for them to get there. Or how do I actually connect this to my Splunk or my Datadogs or whatever I'm using for observability. 
 
 And so what we've tried to do is say, OK, we have connectors for all the major ones. I can't number how many we have now. There's 30-some of them, where we can just feed data directly into there. What we're working on is the ability to see exactly what is happening either via your log messages, your stats, your stack traces for that matter, as well just immediately-- like, within a couple of seconds. 
 

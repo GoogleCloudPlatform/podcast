@@ -140,7 +140,7 @@ MARK: What does that control?
 
 BJORN: So what I'm doing, generally, is getting people to a game server. That's my goal basically, get them as smooth as possible to game servers. And once you get them to a game server, it's a whole different area. 
 
-We have a bunch of teams, obviously. But organizational wise, in this case, we are the online back-end team that does everything by orchestration and having all the service available, et cetera, working with our infra guys that basically fix the hardware, like the virtual hardware from Goodle, make sure that's up and running. But then we have the gameplay team, and they do the game client and the game server. 
+We have a bunch of teams, obviously. But organizational wise, in this case, we are the online back-end team that does everything by orchestration and having all the service available, et cetera, working with our infra guys that basically fix the hardware, like the virtual hardware from Google, make sure that's up and running. But then we have the gameplay team, and they do the game client and the game server. 
 
 So in the game server, we do portions of it, like we provide network stack and libraries for that kind of stuff. But they do all the gameplay logic. And if you compare the relative complexity of these two things, like if you take all the online back end and compare it to the games server, the games are still more complicated because it can do so many things. 
 

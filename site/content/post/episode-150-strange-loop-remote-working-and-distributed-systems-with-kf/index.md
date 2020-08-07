@@ -45,7 +45,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/9n0xzq/episode_150_st
 ##### Question of the week
 
 How do I encrypt and decrypt data with Cloud KMS? 
-[Symetric](https://cloud.google.com/kms/docs/encrypt-decrypt) and [Asymetric](https://cloud.google.com/kms/docs/encrypt-decrypt-rsa)
+[Symmetric](https://cloud.google.com/kms/docs/encrypt-decrypt) and [Asymmetric](https://cloud.google.com/kms/docs/encrypt-decrypt-rsa)
 
 ##### Where can you find us next?
 
