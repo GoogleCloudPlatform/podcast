@@ -287,7 +287,7 @@ MELANIE: Where are areas that you'd like the community to provide more help, or 
 
 EMI: OK. So right now, we are actually doing a nice effort. And we have today the verdicts of of our AV partners. And we recently launched an initiative, which we call the Multisandbox Project. So I mentioned that we have our own virtual set-up where we run samples. Right now, we are collaborating also with some partners and e-companies that want to give us sandboxing execution behavior data for the samples that we have and that they see, so that not only we have the notion of what a file does upon execution from the VT point of view, but also from other points of view. 
 
-And this is really important because often, Malware does some kind of cloaking whereby perhaps it won't execute in Spain, whereas it will execute in China. And so if we have partners all over the world, we get to see different behaviors, and we get slealthier against malware that's trying to evade these sandbox systems. 
+And this is really important because often, Malware does some kind of cloaking whereby perhaps it won't execute in Spain, whereas it will execute in China. And so if we have partners all over the world, we get to see different behaviors, and we get stealthier against malware that's trying to evade these sandbox systems. 
 
 So that's something that I would like to, actually, have more partners working on. Right now, we have, I think, four different companies providing sandbox reports. And we are quickly growing this. But I would like more information in that sense. 
 

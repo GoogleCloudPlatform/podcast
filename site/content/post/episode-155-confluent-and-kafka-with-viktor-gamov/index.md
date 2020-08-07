@@ -61,8 +61,8 @@ Follow Viktor on [Twitter](https://twitter.com/gamussa), where he posts about gy
 * Confluent Blog [blog](https://www.confluent.io/blog/)
 * How to choose the number of topics/partitions in a Kafka cluster? [blog](https://confluentinc.wordpress.com/2015/03/12/how-to-choose-the-number-of-topicspartitions-in-a-kafka-cluster/)
 * Publishing with Apache Kafka at The New York Times [blog](https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/)
-* Google Cloud and Confluent partner to deliver a managed Apache Kafka service [blog](https://cloud.google.com/blog/products/gcp/google-cloud-platform-and-confluent-partner-to-deliver-a-managed-apache-kafka-service?utm_source=cloud.google.com&utm_medium=site-link&utm_campaign=gcp&utm_term=term&utm_content=content)
-* Viktor's Presentations [site](Speaking.gamov.io)
+* Google Cloud Platform and Confluent partner to deliver a managed Apache Kafka service [blog](https://cloud.google.com/blog/products/gcp/google-cloud-platform-and-confluent-partner-to-deliver-a-managed-apache-kafka-service?utm_source=cloud.google.com&utm_medium=site-link&utm_campaign=gcp&utm_term=term&utm_content=content)
+* Viktor's Presentations [site](http://speaking.gamov.io/)
 * Confluent Community [site](https://slackpass.io/confluentcommunity)
 
 ##### Question of the week

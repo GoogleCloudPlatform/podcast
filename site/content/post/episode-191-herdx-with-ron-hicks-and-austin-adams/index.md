@@ -2,7 +2,7 @@
 audioDuration = "00:49:23"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.191.mp3"
 audioSize = 71486183
-categories = ["HerdX", "AI", "Artifical Intelligence"]
+categories = ["HerdX", "AI", "Artificial Intelligence"]
 date = "2019-08-21"
 description = "Mark Mirchandani is back this week with special guest host Gabe Weiss to learn all about HerdX."
 draft = false
@@ -685,7 +685,7 @@ MARK: Thank you so much to Ron and Austin and Gabe for, of course, making that c
 
 GABE: I think Ron said it, which was, when you go into markets and industries that haven't really looked at the data, it's fascinating what you can get out of it. Once you can collect and look at these huge amounts of data in aggregate, what you can do with that boggles my mind. And I'm really glad that HerdX was able to figure out, like, I'm just going to look at cow data. And they figured out this really cool system based on just movement of cow. It's really, it's awesome. 
 
-MARK: Yeah, I mean, it's a cool system and, like you said earlier, it's such a great idea they have to try and bring a little bit of cleansiness, a little bit more responsibility, a lot more observability, into the whole process so that ultimately, they're solving some real problems. 
+MARK: Yeah, I mean, it's a cool system and, like you said earlier, it's such a great idea they have to try and bring a little bit of cleanliness, a little bit more responsibility, a lot more observability, into the whole process so that ultimately, they're solving some real problems. 
 
 And I know that Ron shared stories that he's going off and traveling and bringing this to a lot of people. So it's super exciting to see where this will be in the next couple of months/years. 
 

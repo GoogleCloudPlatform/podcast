@@ -50,7 +50,7 @@ GWT (where he still has nightmares about browser quirks with Internet Explorer 6
 ##### Interview
 
 - Java on Google Cloud [docs](https://cloud.google.com/java)
-- Java on App Engine Standad [docs](https://cloud.google.com/appengine/docs/java/)
+- Java on App Engine Standard [docs](https://cloud.google.com/appengine/docs/java/)
 - Java and Dataflow [docs](https://cloud.google.com/dataflow/docs/quickstarts/quickstart-java-maven)
 - Google Cloud Tools for Eclipse Documentation [docs](https://cloud.google.com/eclipse/docs/)
 - Google Cloud Stackdriver [docs](https://cloud.google.com/stackdriver/)
@@ -119,7 +119,7 @@ MARK: Yeah. So we talked about this a little bit last week, where we're talking 
 
 The above integrations are all in beta, but it does work across the board. So it's pretty sweet. And the article goes through how you can interact with the audit logs in Cloud Console, how you can interact with them in Stackdriver. You can do alerts. And even talks about, if you're signed up for the alpha for cloud functions, how you can also use cloud functions to interact with your audit trails as well. So you can have automatic responses to certain actions that people take within your Google Cloud platform project, which I think is pretty cool as well. 
 
-FRANCESC: Nice. So yeah, I think that is important to remember to remind our listeners, just in case you're wondering, what is the difference between cloud audit logging and Google Cloud IAM, because somtimes it may be a little bit confusing. The way I like to put it is, Cloud IAM says who is allowed to do what. And Cloud audit logging says who did what. So it's not if you're allowed or not. It's like, did you actually do it. So it's good for logging, like if you have something that people are allowed to do, but you want to make sure they didn't do it too often, or they have a reason to do it. That is the product to use. 
+FRANCESC: Nice. So yeah, I think that is important to remember to remind our listeners, just in case you're wondering, what is the difference between cloud audit logging and Google Cloud IAM, because sometimes it may be a little bit confusing. The way I like to put it is, Cloud IAM says who is allowed to do what. And Cloud audit logging says who did what. So it's not if you're allowed or not. It's like, did you actually do it. So it's good for logging, like if you have something that people are allowed to do, but you want to make sure they didn't do it too often, or they have a reason to do it. That is the product to use. 
 
 MARK: Sounds good. All right. Well, I think that's probably enough for cool things of the week. I'm sure we could go on for a while. But why don't we go have a chat with Ray and Rajeev and talk about Java? 
 

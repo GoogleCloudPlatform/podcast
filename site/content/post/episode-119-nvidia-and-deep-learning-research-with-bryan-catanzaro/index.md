@@ -34,7 +34,7 @@ Bryan worked at Baidu to create next generation systems for training and deployi
 ##### Cool things of the week
 
 - NVIDIA Tesla V100s coming to Google Cloud [site](https://cloudplatformonline.com/CP-2018-NA-NVIDIA.html)
-- Automatic Severless Deployment with Cloud Source Repositories [blog](https://cloudplatform.googleblog.com/2018/03/automatic-serverless-deployments-with-Cloud-Source-Repositories-and-Container-Builder.html) 
+- Automatic Serverless Deployment with Cloud Source Repositories [blog](https://cloudplatform.googleblog.com/2018/03/automatic-serverless-deployments-with-Cloud-Source-Repositories-and-Container-Builder.html) 
 - Magenta [site](https://magenta.tensorflow.org/)
   - NSynth Super [site](https://magenta.tensorflow.org/nsynth-super)
   - MusicVAE [site](https://magenta.tensorflow.org/music-vae)

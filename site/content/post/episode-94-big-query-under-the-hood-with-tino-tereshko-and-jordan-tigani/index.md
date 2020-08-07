@@ -30,7 +30,7 @@ with co-hosts [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitte
  
 Tino hails from the BigQuery team, where he solved difficult cloud-native product problems, enabled Googlers and customers, and built programs like BigQuery Pacific. In earlier years Tino held various positions of leadership in several Silicon Valley startups, and could be found working as a quant developer on the floor of the Chicago Board of Equities at a boutique market making firm.
  
-Tino holds a Bachelor`s degree in Applied Mathematics and Economics from University of California - Davis. When not at work, you can usually find him playing beach volleyball, cycling, skiing, paddle boarding, or enjoying a nice glass of wine. 
+Tino holds a Bachelor's degree in Applied Mathematics and Economics from University of California - Davis. When not at work, you can usually find him playing beach volleyball, cycling, skiing, paddle boarding, or enjoying a nice glass of wine. 
 
 ##### About Jordan Tigani
 
@@ -227,7 +227,7 @@ FRANCESC: Cool. So now I'm wondering-- you're saying that there's basically a lo
 
 But I'm curious about how does this actually work? Do you need to have a cluster of computers? Like when-- Kubernetes, for instance, you create a cluster, and then you're ready to start running things. Does it work like that? 
 
-JORDAN: As Tino mentioned, it's a multitenant system. So essentially, we host a number of giant computing clusters. And everybody's queries kind of get time sliced onto some of these clusters. And we strive to give every user 2,000 slots, which basically means 2,000 units of individually schedulable action that can run in parallel, so essentially, 2,000 shards per user. 
+JORDAN: As Tino mentioned, it's a multitenant system. So essentially, we host a number of giant computing clusters. And everybody's queries kind of get time sliced onto some of these clusters. And we strive to give every user 2,000 slots, which basically means 2,000 units of individually scheduleable action that can run in parallel, so essentially, 2,000 shards per user. 
 
 You might not get that if you query in a very popular time. But you should nearly always get that much execution power. And that's going to only be a very small fraction of any of our Dremel trees. And we have a number of Dremel trees that are around the world, mostly in the US and in Europe. 
 

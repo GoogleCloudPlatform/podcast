@@ -458,7 +458,7 @@ I used those with all of my job interviews. That's why I made them. It was a ver
 
 MICHELLE: I think that's good advice in general, that it's OK to be wrong. And that's where the learning comes from. That's how we all grow. 
 
-CHRIS: I would be so surprised if, these days, that people actually sat down and thought someone who didn't ask questions clearly knew everything that was hapening. 
+CHRIS: I would be so surprised if, these days, that people actually sat down and thought someone who didn't ask questions clearly knew everything that was happening. 
 
 MICHELLE: Good point. 
 

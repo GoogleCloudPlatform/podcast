@@ -31,7 +31,7 @@ Eric is a Product Manager at Google working on Cloud Dataprep and recently Cloud
 - Intel Performance Libraries and Python Distribution enhance performance and scaling of Intel Xeon Scalable ('Skylake') processors on GCP [blog](https://cloudplatform.googleblog.com/2017/11/Intel-performance-libraries-and-python-distribution-enhance-performance-and-scaling-of-Intel-Xeon-Scalable-processors-on-GCP.html)
 - The hidden costs of cloud [blog](https://medium.com/google-cloud/the-hidden-costs-of-cloud-ddb702495e93) and [Server Density podcast](https://www.gcppodcast.com/post/episode-69-server-density/)
 - Monitor and manage your costs with Cloud Platform billing export to BigQuery [blog](https://cloudplatform.googleblog.com/2017/11/monitor-and-manage-your-costs-with.html) and [Public Datasets podcast](https://www.gcppodcast.com/post/episode-83-public-datasets-with-mike-hamberg-and-will-curran/) 
-- Kaggle TensorFlow Speech Recognitiion Challenge [site](https://www.kaggle.com/c/tensorflow-speech-recognition-challenge)
+- Kaggle TensorFlow Speech Recognition Challenge [site](https://www.kaggle.com/c/tensorflow-speech-recognition-challenge)
 
 ##### Interview
 

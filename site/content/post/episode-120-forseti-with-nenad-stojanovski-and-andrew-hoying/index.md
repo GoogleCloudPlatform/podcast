@@ -90,7 +90,7 @@ MELANIE: I know it's all about Kubernetes.
 
 MARK: Excellent. OK, so speaking of Kubernetes, we'll go into the next one, which is Kubernetes Engine, private clusters are now available in beta. I'm super excited about this. Previously, if you were frying up a GKE cluster, usually it was public. IPs were public. It was available to the outside world, which is great for many workloads. However, if you wanted to hide this behind a VPC, or control access through a VPC, that wasn't possible. But now, it is. 
 
-MELANIE: It is. It looks like your notes still have access to the rest of the your VPC private deployments, including private access to Google managed services, such as GCR, Dot I/O, Google Cloud Storage, and Google BigQueery. And that is in the blog post, which we will again share. And another thing we want to share this week is the Easy HPC clusters on GCP with Slurm. So apparently, Slurm is a workload manager, and it basically is helping to launch an auto-scaled Slurm cluster on a compute engine. So that's what the integration helps with. So we have a great diagram of how that works, and additional information on this blog that will explain how to do this. And we'll make sure we share that. 
+MELANIE: It is. It looks like your notes still have access to the rest of the your VPC private deployments, including private access to Google managed services, such as GCR, Dot I/O, Google Cloud Storage, and Google BigQuery. And that is in the blog post, which we will again share. And another thing we want to share this week is the Easy HPC clusters on GCP with Slurm. So apparently, Slurm is a workload manager, and it basically is helping to launch an auto-scaled Slurm cluster on a compute engine. So that's what the integration helps with. So we have a great diagram of how that works, and additional information on this blog that will explain how to do this. And we'll make sure we share that. 
 
 MARK: I just like saying Slurm. 
 
@@ -106,9 +106,9 @@ MARK: I missed it.
 
 MELANIE: Too late. 
 
-MARK: So finally, another cool thing of the week, there's another blog post talking about understanding your spending at a glance with Google Cloud billing reports beta. So back in Episode Number 83, we did do a question of the week, where we talked about how there was some open and available dashboards that you could drop on top of the BigQueery export of billing into Daily Studio to give you some more introspection of what's happening in billing. 
+MARK: So finally, another cool thing of the week, there's another blog post talking about understanding your spending at a glance with Google Cloud billing reports beta. So back in Episode Number 83, we did do a question of the week, where we talked about how there was some open and available dashboards that you could drop on top of the BigQuery export of billing into Daily Studio to give you some more introspection of what's happening in billing. 
 
-Now, there are actually much more integrated billing dashboards built in to our Cloud.google.com. So if you want to have a look at those, those are available for you. But there's exports to BigQueery and visualizing your billing data with Data Studio, still available, still can do all that. We've just got some pre-built stuff available at beta inside Cloud.google.com. 
+Now, there are actually much more integrated billing dashboards built in to our Cloud.google.com. So if you want to have a look at those, those are available for you. But there's exports to BigQuery and visualizing your billing data with Data Studio, still available, still can do all that. We've just got some pre-built stuff available at beta inside Cloud.google.com. 
 
 MELANIE: Yeah, it's nice to actually see some of the trends. Some of the trends that they're sharing are things like cost group by project, different time aggregation, including daily and monthly views, and so forth. So definitely check that out. 
 

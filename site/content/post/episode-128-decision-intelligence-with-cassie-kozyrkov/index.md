@@ -60,7 +60,7 @@ As well as case studies on real world problems:
 
 ##### Question of the week
 
-How can I secure my Google Cloud Platoform acoount using a YubiKey?
+How can I secure my Google Cloud Platoform acount using a YubiKey?
 
 - Securing your Cloud Platform Account with Security Keys [docs](https://cloud.google.com/solutions/securing-gcp-account-security-keys)
 - Encrypting Google Application Default and gcloud credentials with GPG SmardCard [blog](https://medium.com/google-cloud/encrypting-google-application-default-and-gcloud-credentials-with-gpg-smardcard-fb6fec5c6e48) 

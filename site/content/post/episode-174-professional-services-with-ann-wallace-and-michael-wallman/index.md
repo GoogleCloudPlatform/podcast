@@ -36,7 +36,7 @@ Ann and Michael actually met 5 years ago, working on Nike’s first cloud migrat
 
 * Amy built an app that uses Cloud Vision to identify key features of images texted to it [link](https://twitter.com/amygdala/status/1117894825741656064)
 * Want to Change the Game? Design your own with Google Play [blog](https://blog.google/products/google-play/change-the-game-google-play/)
-     * Change the Game [site](g.co/ctgdesignchallenge)
+     * Change the Game [site](https://g.co/ctgdesignchallenge)
 * The team based game of life app we demoed during the keynote is still up [site](https://www.gameoflife.dev/)
 * How we search for bow wows and meows [blog](https://blog.google/products/search/google-trends-cat-and-dog-searches/)
      * Why do cats and dogs...? [site](https://whydocatsanddogs.com)

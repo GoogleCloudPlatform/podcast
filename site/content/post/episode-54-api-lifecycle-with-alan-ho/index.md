@@ -39,7 +39,7 @@ technical talks on all things APIs. Prior to Apigee, he had started a mobile app
 
 - Crafting Interfaces that Developers Love [ebook](https://pages.apigee.com/web-api-design-website-h-ebook-registration.html?int_source=resources-main&int_medium=website&int_campaign=ebook&int_content=api-design)
 - Open API Initiative [site](https://www.openapis.org/)
-- Swagger API Framwork [site](http://swagger.io/)
+- Swagger API Framework [site](http://swagger.io/)
 - Uber's APIs: Giving Developers the Keys to Innovation [blog](https://apigee.com/about/blog/developer/ubers-apis-giving-developers-keys-innovation)
 
 ##### Question of the week

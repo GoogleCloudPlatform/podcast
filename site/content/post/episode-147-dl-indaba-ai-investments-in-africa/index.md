@@ -2,7 +2,7 @@
 audioDuration = "01:03:57"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.147.mp3"
 audioSize = 92564853
-categories = ["Machine Learning", "Africa", "AI", "Artifical Intelligence"]
+categories = ["Machine Learning", "Africa", "AI", "Artificial Intelligence"]
 date = "2018-09-19"
 description = "Melanie and her special guest co-hosts Nyalleng Moorosi and Willie Brink are at Deep Learning Indaba this week!"
 draft = false

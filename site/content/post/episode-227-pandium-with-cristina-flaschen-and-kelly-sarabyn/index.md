@@ -189,7 +189,7 @@ Thinking about those three elements can be helpful in deciding whether it really
 
 So the actual configurations of integration, it's really particular to the business. And you know your customer best. And you know what they need and what they want mapped and what they're going to want to pull in and push out. 
 
-But the authentication is not like that. You need to have a secure way of authentication. It's something you can [? productcize ?] because it's just a standardized thing. You need to make sure the right people are getting access. And you don't really need to be an expert in your business. 
+But the authentication is not like that. You need to have a secure way of authentication. It's something you can productize because it's just a standardized thing. You need to make sure the right people are getting access. And you don't really need to be an expert in your business. 
 
 So that's why we sort of built it the way that we did, this part that makes sense to take away. But then, the part where you really need that business customization, we put it in the hands of the developer. 
 

@@ -39,7 +39,7 @@ Mohamed explains the process of building Voicea and how machine learning techniq
 
 ##### Interview
 
-* Voicea [site](www.voicea.com)
+* Voicea [site](http://www.voicea.com)
 * Voicea Integrations [site](https://www.voicea.com/integrations/)
 * Kubernetes [site](https://kubernetes.io)
 * GKE [site](https://cloud.google.com/kubernetes-engine/)
