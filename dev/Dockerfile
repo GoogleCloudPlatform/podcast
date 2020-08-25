@@ -40,7 +40,7 @@ RUN dpkg -i hugo.deb
 RUN rm hugo.deb
 
 RUN yes | apt install python-pip
-RUN pip install eyeD3 pathlib
+RUN pip install eyeD3==0.8.12 pathlib
 RUN mkdir /tools
 ADD tag.sh /tools/tag.sh
 RUN chmod +x /tools/tag.sh
