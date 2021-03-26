@@ -89,7 +89,7 @@ and [GolangBCN](https://www.meetup.com/Golang-Barcelona/events/237049935/) he's
 currently in Paris and on his way to the Go Devroom at [FOSDEM](https://fosdem.org).
 A bit later he'll also be at [Gophercon India](http://www.gophercon.in).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 59 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 59 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good. Thanks, Francesc. We are apart once again. It's very sad. 
 
 FRANCESC: Yes, we are very, very far apart. Last episode, I made you wake up really early. This time you're making me stay up late. Well, it's, like, 9:30 PM. 
@@ -364,7 +364,7 @@ PAUL: So let's see, if you like what I have to say about this topic, and you did
 
 The other thing that I'm hoping to do, I had a goal, and I think I spoke about it in the first podcast, to almost write a diary of my mission control rotation. I thought it would be really cool if people could sort of play along with me as I went through. Turns out being an SRE can be rather all-consuming. 
 
-So my series of blog posts turned into two blog posts, but I have another one on the way. And I'm hoping to continue to do more, because these insights are pretty timeless. So keep an eye on the GCP-- on the Google Cloud Platform blog. And hopefully, you'll see some things from me there on this topic. 
+So my series of blog posts turned into two blog posts, but I have another one on the way. And I'm hoping to continue to do more, because these insights are pretty timeless. So keep an eye on the GCP-- on the Google Cloud blog. And hopefully, you'll see some things from me there on this topic. 
 
 And the other thing I'm hoping to do is, I now feel like I have a very good understanding of how Google approaches this. One of my hopes for going out into the community and going to these conferences and talking about this is not just to stand there and say, hey, this is how Google does it, you should do it this way too, but I want to learn a lot more about, well, how do people who aren't Google do this? 
 

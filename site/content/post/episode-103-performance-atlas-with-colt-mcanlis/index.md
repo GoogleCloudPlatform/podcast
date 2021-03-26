@@ -55,7 +55,7 @@ What are the differences between sustained and committed use discounts?
 
 Mark will be Montreal in December to speak at [Montreal International Games Summit](http://www.migs17.com/en/home/).
 
-{{< transcript "MARK: Hi, and welcome to episode number 103 of the weekly Google Cloud Platform podcast. I am Mark Mandel and I'm here with my colleague, Melanie Warrick. Hello Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 103 of the weekly Google Cloud podcast. I am Mark Mandel and I'm here with my colleague, Melanie Warrick. Hello Melanie, how are you doing today?" >}}
 
 MELANIE: Hey, Mark. I'm great. 
 
@@ -185,7 +185,7 @@ COLT: Yeah, because that's the environment we're dealing with. I mean, a request
 
 FRANCESC: Cool. So this actually sounds really interesting. And now I'm wondering, these are the common problems? How do you know when a problem is common? 
 
-COLT: [LAUGHING] That's a really good question. We have an amazing, amazing support staff here at Google. If you're a customer of Google Cloud Platform, we have tiers of service, we have dedicated people to help you through your problems, we've got great Q&A systems, we've got great community managers. This is a lot of information and a lot of common problems bubble up through this process. So if you can troll through it on a daily basis, you see these common trends. 
+COLT: [LAUGHING] That's a really good question. We have an amazing, amazing support staff here at Google. If you're a customer of Google Cloud, we have tiers of service, we have dedicated people to help you through your problems, we've got great Q&A systems, we've got great community managers. This is a lot of information and a lot of common problems bubble up through this process. So if you can troll through it on a daily basis, you see these common trends. 
 
 Sometimes these are our big customers. This is one of the favorite things I like about our show, is that we can't use names of actual companies. So we get a chance to come up with fake names like Tutorama is an outsourced tutoring system. 
 
@@ -257,7 +257,7 @@ FRANCESC: I'm wondering, how often do those episodes appear and what's the plan 
 
 COLT: So we try to do, on a quarterly basis, we try to do one episode a week. And that includes a blog post as well as a video. And then we typically take the last two or three weeks off of a quarter to prep for the next one. So in a year, you should be somewhere in the order of 48, 45 to 48 episodes if we're doing everything correctly. 
 
-The future, I mean I think you guys have seen my table of contents. I mean, I've got an idea. I mean, when you talk about performance and you talk about stuff as large as Google Cloud Platform, there is no end to the number of topics we could talk about. So far we talked about profiling performance for App Engine, profiling startup performance for Compute Engine, for Kubernetes, for pod boot time, how to profile all of that. We've talked about networking performance, how to make sure that you can get your 16 gigabits per second transfer speed for your VMs, how to properly size them. We've talked about our load balancer, our caching, our CDN, the power of Google's network, being able to test all these things. 
+The future, I mean I think you guys have seen my table of contents. I mean, I've got an idea. I mean, when you talk about performance and you talk about stuff as large as Google Cloud, there is no end to the number of topics we could talk about. So far we talked about profiling performance for App Engine, profiling startup performance for Compute Engine, for Kubernetes, for pod boot time, how to profile all of that. We've talked about networking performance, how to make sure that you can get your 16 gigabits per second transfer speed for your VMs, how to properly size them. We've talked about our load balancer, our caching, our CDN, the power of Google's network, being able to test all these things. 
 
 Our next series that we're about to launch is Cloud Storage. So we're talking about all the gotchas and all the performance things there, so things like sequential upload speed, large file segmentation. Where I'm really excited to go next is a couple of things. First off is TCP BBR. I don't know if you've heard about this or seen about this. This is one of my favorite technologies that Google has put on the radar. 
 

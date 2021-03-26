@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.53.mp3"
 audioSize = 38622883
 categories = ["Ruby", "App Engine"]
 date = "2016-11-23T01:07:49Z"
-description = "Today Aja Hammerly, Developer Advocate and fellow teammate at Google Cloud Platform, joins us to tell us about all the cool things you can do with Ruby on Google Cloud."
+description = "Today Aja Hammerly, Developer Advocate and fellow teammate at Google Cloud, joins us to tell us about all the cool things you can do with Ruby on Google Cloud."
 draft = false
 episodeNumber = 53
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/5ejsux/episode_53_rub
   name = "fimage"
 +++
 
-Today [Aja Hammerly](https://twitter.com/the_thagomizer), Developer Advocate and fellow teammate at Google Cloud Platform,
+Today [Aja Hammerly](https://twitter.com/the_thagomizer), Developer Advocate and fellow teammate at Google Cloud,
 joins your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/neurotic)
 to tell us about all the cool things you can do with Ruby on Google Cloud.
 
@@ -33,12 +33,12 @@ long coding sessions on the beach.
 
 ##### Cool thing of the week
 
-- Announcing GPUs for Google Cloud Platform [blog](https://cloudplatform.googleblog.com/2016/11/announcing-GPUs-for-Google-Cloud-Platform.html)
+- Announcing GPUs for Google Cloud [blog](https://cloudplatform.googleblog.com/2016/11/announcing-GPUs-for-Google-Cloud-Platform.html)
 - Google Cloud to join .NET Foundation Technical Steering Group [blog](https://cloudplatform.googleblog.com/2016/11/Google-Cloud-to-join-NET-Foundation-Technical-Steering-Group.html)
 
 ##### Interview
 
-- Ruby on Google Cloud Platform [docs](https://cloud.google.com/ruby/)
+- Ruby on Google Cloud [docs](https://cloud.google.com/ruby/)
 - APIs & Ruby Libraries [docs](https://cloud.google.com/ruby/apis)
 - Google App Engine Ruby Flexible Environment Documentation [docs](https://cloud.google.com/appengine/docs/flexible/ruby/)
 - Create a BigQuery table with Ruby: Cloud Minute [YouTube](https://www.youtube.com/watch?v=Mr1bFFugRYo)
@@ -58,7 +58,7 @@ How can I add constraints on what hosts can run given pods?
 
 - Constraining pods to run on particular nodes [docs](http://kubernetes.io/docs/user-guide/node-selection/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 53 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 53 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm doing all right. I'm getting over the flu a little bit. But otherwise, I seem to be doing reasonably well. How are you doing? 
 
 FRANCESC: Pretty scared about sharing a small recording studio with someone with the flu, but other than that, pretty good. 
@@ -113,7 +113,7 @@ FRANCESC: Just kidding. It's very important, too. The second cool thing of the w
 
 MARK: Yeah, I think this is super cool, as well. I feel like Google Cloud is really kind of-- I hate to use the phrase doubling down-- is really focusing on .NET and Windows as a really core platform for Google Cloud. I'm really excited about the things going on in this space. And I think this is just kind of another sign of that 
 
-FRANCESC: Yeah, I mean, it was just a couple weeks ago that we had the episode about .NET and Windows on Google Cloud Platform. Maybe it's a good time to listen to it again. There's lots of work on that side of things, so go check it out. 
+FRANCESC: Yeah, I mean, it was just a couple weeks ago that we had the episode about .NET and Windows on Google Cloud. Maybe it's a good time to listen to it again. There's lots of work on that side of things, so go check it out. 
 
 MARK: Definitely. Well, it sounds like it might be time to go have a chat with Aja about Ruby. 
 
@@ -141,7 +141,7 @@ AJA: And it's a huge market. There's a lot of stuff. And we're trying to figure 
 
 FRANCESC: Cool. So why don't you tell us a little bit about what kind of things you've been working on? 
 
-AJA: So our two big projects right now are we're writing our Google Cloud libraries, being released as RubyGems. And more and more are coming out nearly every day on a regular basis. All this is being done in the open. It's all on GitHub under our Google Cloud Platform project. 
+AJA: So our two big projects right now are we're writing our Google Cloud libraries, being released as RubyGems. And more and more are coming out nearly every day on a regular basis. All this is being done in the open. It's all on GitHub under our Google Cloud project. 
 
 And the other thing we've been working on is Ruby support and Rails support for App Engine flex. We also support Sinatra, the other big web framework for Ruby. And I'm really happy with where that's at. 
 
@@ -207,9 +207,9 @@ MARK: So I know you do a lot of stuff on the monitoring side. Are there any hook
 
 AJA: So we've got a team. We've actually built a really fun Ruby team in Seattle. There's four or five of us who work on Ruby on a regular basis, including several devs who are working full-time now. And one of the things they're doing is they're making Stackdriver integration libraries for Rails and Ruby. I believe the logging library went out last week. And the rest of them are in progress. 
 
-And this is all, again, on GitHub under the Google Cloud Platform gcloud Ruby project. So you can see our progress. You can see what issues have been entered. Obviously, we're going to have some integrations with other parts of the system, gRPC libraries and things like that. And so if there's particular issues you're running into, you can see if someone else has reported it and how close we are to fixing it. 
+And this is all, again, on GitHub under the Google Cloud gcloud Ruby project. So you can see our progress. You can see what issues have been entered. Obviously, we're going to have some integrations with other parts of the system, gRPC libraries and things like that. And so if there's particular issues you're running into, you can see if someone else has reported it and how close we are to fixing it. 
 
-FRANCESC: So you've mentioned a little bit about the things that you've been working on and what's coming up real soon. What else is coming up? What are you excited about that other Rubyists might be excited about on Google Cloud Platform? 
+FRANCESC: So you've mentioned a little bit about the things that you've been working on and what's coming up real soon. What else is coming up? What are you excited about that other Rubyists might be excited about on Google Cloud? 
 
 AJA: So I'm actually really excited about the fact that we just recently had the App Engine Flex beta 2, and that App Engine Flex is getting very, very stable and starting to look really good. In Ruby, we have some platform as a service options, but always having more is great. As I say pretty frequently, when people ask me to compare various providers, they're all different, but competition helps everyone, because everyone's pushing the envelope, making the experience better, and setting a higher bar for how developers get to interact with these tools. So I'm really excited about App Engine Flex. 
 
@@ -225,7 +225,7 @@ FRANCESC: That is really cool.
 
 AJA: And I love my community so much that I'm glad that there's stuff that they can use. I'm like, we have all these cool things. And you can use them. It's fantastic. 
 
-MARK: That's great. You touched on, I think, an interesting point there. You were talking about comparing providers. I think the elephant in the room a little, the traditional-- I guess that might be the right word-- people tend to go towards Heroku. Why might they be interested in going to Google Cloud Platform instead? 
+MARK: That's great. You touched on, I think, an interesting point there. You were talking about comparing providers. I think the elephant in the room a little, the traditional-- I guess that might be the right word-- people tend to go towards Heroku. Why might they be interested in going to Google Cloud instead? 
 
 AJA: So yeah, I don't know if traditional's the right thing. But I work with a lot of boot camp students. And a lot of them learn Rails, because the convention over configuration thing makes it easier to learn for people who don't have a ton of experience, because there is a right way. And they often use Heroku for their early deployments. 
 
@@ -239,7 +239,7 @@ And so I always say this when people ask me to compare providers. I get asked a 
 
 MARK: I know you were talking about, when we were talking before we started recording, about basically the flexibility that having everything running on Docker containers also gives you. 
 
-AJA: Yeah, so that's the other thing is I like to talk about-- and I have a talk half-written but haven't gotten accepted anywhere-- it's growing your application on Google Cloud Platform. And you start with a bare minimum viable deployment. And you do it on Flex, because it's easy. And you can iterate as quickly as you need to. And you don't have to worry about the scaling, because we'll take care of that for you. 
+AJA: Yeah, so that's the other thing is I like to talk about-- and I have a talk half-written but haven't gotten accepted anywhere-- it's growing your application on Google Cloud. And you start with a bare minimum viable deployment. And you do it on Flex, because it's easy. And you can iterate as quickly as you need to. And you don't have to worry about the scaling, because we'll take care of that for you. 
 
 But then you realize you want to move to a microservices architecture. Or perhaps you want to do something interesting with your database. And so you need to move part of it off. And so perhaps you move parts of it to Kubernetes, because you have the container image there. And you can take it, and you can strip out the stuff you don't want from our base container image and then build your own. Or you can look at how we did it and build your own based on that. 
 
@@ -261,7 +261,7 @@ AJA: So from the Ruby side, cloud.google.com/ruby. We have a landing page. We've
 
 And since I know the Ruby community and the DevOps community actually have a fairly large overlap, you can also go to some of our monitoring and logging pages to find out about DevOps community. And the reason for that overlap, for people who don't know, is that Puppet and Chef are written-- their DSL's on top of Ruby. And so there's a lot of folks who worked on those tools or have contributed to those tools who are also Rubyists. 
 
-MARK: We do also have a Ruby channel in the Google Cloud Platform Slack community. 
+MARK: We do also have a Ruby channel in the Google Cloud Slack community. 
 
 AJA: Yes, we do. And some of the developers who work on our libraries monitor it. I was actually checking it today, and Mike was answering questions someone had. 
 
@@ -299,7 +299,7 @@ FRANCESC: Yep, thank you so much.
 
 AJA: Thank you guys for having me. This is always fun. 
 
-FRANCESC: So thanks so much to Aja for taking the time to talk to us about Ruby and all the cool things that are happening about the language and the open source community on Google Cloud Platform. And now we are going to talk about Kubernetes. We have our question of the week, which is about-- OK, so imagine I have a heterogeneous cluster. So not all the machines are exactly the same. Not all the nodes are exactly the same. 
+FRANCESC: So thanks so much to Aja for taking the time to talk to us about Ruby and all the cool things that are happening about the language and the open source community on Google Cloud. And now we are going to talk about Kubernetes. We have our question of the week, which is about-- OK, so imagine I have a heterogeneous cluster. So not all the machines are exactly the same. Not all the nodes are exactly the same. 
 
 And let's say that, for instance, some of the nodes have SSD, and the others do not. And I want to run some of the containers that require-- or that run better, let's say, on SSDs. So you want to say, hey, my cluster is very big, and I have a lot of nodes. But whenever it is possible, run these kind of parts on these kind of nodes. 
 

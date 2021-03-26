@@ -64,7 +64,7 @@ in October, [dotGo](https://www.dotgo.eu/) in Paris and [Gophercon Brazil](https
 Mark is will be presenting at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 He'll then be speaking at [Gameacon](http://www.gameaconvegas.com/) and [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) once he's done with all that.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 91 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing? " >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 91 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing? " >}}
 
 MARK: I am awake and moving. How are you doing? 
 
@@ -158,7 +158,7 @@ FRANCESC: Cool. When you say a video game, do you mean like the video game playi
 
 AMIT: Both. 
 
-FRANCESC: Cool. So let's talk a little bit more about what this actually entails related to Google Cloud Platform. What does Google Cloud Platform have to do with these industries? 
+FRANCESC: Cool. So let's talk a little bit more about what this actually entails related to Google Cloud. What does Google Cloud have to do with these industries? 
 
 AMIT: Yes, so let's take an example. For broadcast industry, if you have a fully managed end-to-end service with support and SLAs, all the way from getting your live signal to being able to distribute that live signal to the end users and then being able to help you better monetize. We are providing products and solutions for each of those steps in your supply chain. Similarly, we have products and solutions for some of the other verticals inside media and entertainment. 
 
@@ -418,7 +418,7 @@ FRANCESC: So I'm actually going to be traveling not in August, but in September.
 
 MARK: Nice. 
 
-FRANCESC: Yep, I'm going to Sydney to talk at the Cloud Summit about how to build bots on Google Cloud Platform. It's going to be lots of fun. And then after that, in October, I will be speaking at Velocity London. And then in November, I'll be speaking at dotGo, which is in Paris. And then the week after, in GopherCon Brazil, which is in Brazil, as the name implies. Yeah, lots of traveling. Very excited about it. What about you? 
+FRANCESC: Yep, I'm going to Sydney to talk at the Cloud Summit about how to build bots on Google Cloud. It's going to be lots of fun. And then after that, in October, I will be speaking at Velocity London. And then in November, I'll be speaking at dotGo, which is in Paris. And then the week after, in GopherCon Brazil, which is in Brazil, as the name implies. Yeah, lots of traveling. Very excited about it. What about you? 
 
 MARK: So my month of crazy is continuing. So next week, I will be speaking at PAX Dev and then attending PAX right after that. Practically a week after that, I will be in Gameacon Las Vegas, speaking, again, there, talking about open source and Kubernetes and game servers. And then pretty much the week or two after that, I will be at Austin Game Conference in Austin doing the same talk yet again. And then after that, it's more of a conference for me. I will be attending Strange Loop, because I love that place. It is one of my favorite places in the world. 
 

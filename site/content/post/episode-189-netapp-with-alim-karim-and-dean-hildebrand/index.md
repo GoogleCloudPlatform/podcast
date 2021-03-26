@@ -65,7 +65,7 @@ After Austin, Mark will be staying local to work on some stuff, and he's about t
 * "MysteryPeak1.wav" by FoolBoyMedia of [Freesound.org](https://Freesound.org)
 * "Small Group Laugh.wav" by TimKahn of [Freesound.org](https://Freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode 189 of the weekly Google Cloud Platform podcast. I'm Mark, and I'm here with my colleague John. Hey, John." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode 189 of the weekly Google Cloud podcast. I'm Mark, and I'm here with my colleague John. Hey, John." >}}
 
 JOHN: How's it going? 
 
@@ -151,7 +151,7 @@ ALIM: Yeah. So as I mentioned, all of these existing traditional workloads that 
 
 There is the engineering aspect on co-engineering the service together between NetApp and GCP. We, NetApp, bring the data plane intellectual property. And then Google collaborates us with the as a service delivery, the infrastructure pieces, platform integrations across Google console, metrics, billing, and operating at cloud scale. There's a go to market element to the partnership where we focus on sales and marketing alignment between both organizations and dedicated teams for specific accounts. 
 
-And then finally, there's the support aspect, once the service is in GCP, how customers get support. Actually, Google Cloud takes first line support for the product. And then they escalate to NetApp if the need arises. So it's a complete offering across product, engineering, go to market support, all natively available in the Google Cloud Platform. 
+And then finally, there's the support aspect, once the service is in GCP, how customers get support. Actually, Google Cloud takes first line support for the product. And then they escalate to NetApp if the need arises. So it's a complete offering across product, engineering, go to market support, all natively available in the Google Cloud. 
 
 MARK: What makes this file storage necessary? I mean, when I think of working directly in the cloud, you can have virtual machines. You can add on disks to those for storage. And then anything beyond that need, we have Google Cloud Storage, right? So you've been able to create buckets and dump files in there. That seems to be pretty comprehensive. What is it that those two aren't covering? 
 

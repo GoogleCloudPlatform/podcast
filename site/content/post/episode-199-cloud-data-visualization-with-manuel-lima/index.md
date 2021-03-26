@@ -74,7 +74,7 @@ Jon will be at [Kubecon](https://events19.linuxfoundation.org/events/kubecon-clo
 * "Small Group Laugh 6" by Tim.Kahn of [Freesound.org](https://Freesound.org)
 * "Jingle Romantic" by Jay_You of [Freesound.org](https://Freesound.org)
 
-{{< transcript "[MUSIC PLAYING] GABI: Hi, and welcome to episode number 199 of the weekly Google Cloud Platform Podcast. I am Gabi, and I'm here with my colleague, Jon Foust. Hello, Jon." >}} 
+{{< transcript "[MUSIC PLAYING] GABI: Hi, and welcome to episode number 199 of the weekly Google Cloud Podcast. I am Gabi, and I'm here with my colleague, Jon Foust. Hello, Jon." >}} 
 
 JON: Hey, Gabi. How's it going? 
 

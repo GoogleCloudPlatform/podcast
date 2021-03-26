@@ -23,7 +23,7 @@ discusses with your cohosts [Francesc](https://twitter.com/francesc) and
 [Mark](https://twitter.com/neurotic) what are Continuous Integration and Deployment, and
 how Travis CI makes them easy and accessible to all.
 
-Did you know Travis CI ran on Google Cloud Platform?
+Did you know Travis CI ran on Google Cloud?
 
 <!--more-->
 
@@ -67,7 +67,7 @@ distributed systems.
 
 Francesc will be in GopherCon next week, not this one. Clearly he doesn't know how calendars work.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 33 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 33 of the weekly Google Cloud Podcast. I am Francesc Campoy and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey Francesc, how you doing? 
 
 FRANCESC: Very good, and you? 
@@ -82,7 +82,7 @@ FRANCESC: And I saw him wearing Travis CI sticker on his back. And I thought tha
 
 MARK: Oh, so no one important. 
 
-FRANCESC: Yeah, no one important. He was visiting San Francisco so we decided to invite him in exchange of some free food at Google. And in exchange, he allowed us to interview him. He's going to be talking about all the cool things they do at Travis CI with continuous integration, continuous deployment, and how they run on Google Cloud Platform. 
+FRANCESC: Yeah, no one important. He was visiting San Francisco so we decided to invite him in exchange of some free food at Google. And in exchange, he allowed us to interview him. He's going to be talking about all the cool things they do at Travis CI with continuous integration, continuous deployment, and how they run on Google Cloud. 
 
 MARK: Yeah. Really, really fun thing. Love talking about testing. Love talking about that side of software development, so super interesting conversation. 
 
@@ -306,7 +306,7 @@ MATHIAS: We deploy-- our general approach is that people work on feature branche
 
 We don't yet count deploys per day. It's a fairly popular metric at this point. But we're generally-- we're very flexible about people deploying. And we try to keep the master branch clean. 
 
-MARK: Cool. I guess the big question is, here on the Google Cloud Platform podcast-- do you run on Google Cloud Platform? 
+MARK: Cool. I guess the big question is, here on the Google Cloud podcast-- do you run on Google Cloud? 
 
 MATHIAS: Yes. A part of our infrastructure runs on Google Compute Engine. And that part also uses Google Cloud Storage-- 
 
@@ -484,7 +484,7 @@ FRANCESC: Or gcppodcast.com Same thing. We also have an email--
 
 MARK: --at hello@gcppodcast. 
 
-FRANCESC: And finally, we also have a channel in the Google Cloud Platform Slack community. 
+FRANCESC: And finally, we also have a channel in the Google Cloud Slack community. 
 
 MARK: Yes. The hashed podcast channel. 
 

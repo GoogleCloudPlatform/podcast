@@ -62,7 +62,7 @@ Mark will be at [KubeCon](https://events.linuxfoundation.org/events/kubecon-clou
 
 Melanie will be at [SOCML](https://sites.google.com/view/socml-2018/home) in November.
 
-{{< transcript "[MUSIC PLAYING] MELANIE: Hi, and welcome to episode number 153 of the weekly Google Cloud Platform Podcast. I'm Melanie Warrick, and I'm here with my colleague, Mark Mandel. Hi, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MELANIE: Hi, and welcome to episode number 153 of the weekly Google Cloud Podcast. I'm Melanie Warrick, and I'm here with my colleague, Mark Mandel. Hi, Mark." >}} 
 
 MARK: Hi, Melanie. We're changing things up a little today. 
 

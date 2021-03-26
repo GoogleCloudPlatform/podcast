@@ -69,7 +69,7 @@ Yasin(i) Musa Ayami is Team Lead at TsogoloTech and a certified Oracle Associate
 * 10 Defining Moments that shaped the 2016 SA startup ecosystem [article](http://ventureburn.com/2017/01/10-defining-moments-shaped-2016-south-african-startup-ecosystem/)
 * Data Science Africa [site](http://www.datascienceafrica.org)
 * International Data Week [site](http://www.internationaldataweek.org)
-* Google Cloud Platform Credits award winners [tweet](https://twitter.com/DeepIndaba/status/1040561702910263297)
+* Google Cloud Credits award winners [tweet](https://twitter.com/DeepIndaba/status/1040561702910263297)
 
 ##### Question of the week
 
@@ -83,7 +83,7 @@ Willie will be teaching [Machine Learning at Stellenbosch University](https://mm
 
 Nyalleng will be at the [Women in Machine Learning Workshop](https://wimlworkshop.org/sh_events/wiml-workshop-2018/) and the [Neural Information Processing Systems Conference](https://nips.cc) in Montreal in December.
 
-{{< transcript "[MUSIC PLAYING] MELANIE: Hi, and welcome to episode number 147 of the weekly Google Cloud Platform podcast. I'm Melanie Warrick, and I'm here with special co-hosts Willie Brink and Nyalleng Moorosi. Hello, Willie. Hello, Nyalleng." >}}
+{{< transcript "[MUSIC PLAYING] MELANIE: Hi, and welcome to episode number 147 of the weekly Google Cloud podcast. I'm Melanie Warrick, and I'm here with special co-hosts Willie Brink and Nyalleng Moorosi. Hello, Willie. Hello, Nyalleng." >}}
 
 NYALLENG: Hi, Melanie. 
 

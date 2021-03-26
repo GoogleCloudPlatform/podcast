@@ -41,8 +41,8 @@ Links:
     Balancing](https://cloud.google.com/compute/docs/load-balancing/http/)
 -   [SSHGuard](http://www.sshguard.net/)
 
-{{< transcript "FRANCESC: Hi, and welcome to the Google Cloud Platform podcast. I'm Francesc Campoy, a developer advocate for the Google Cloud Platform, and I'm here with my colleague, Mark." >}}
-MARK: Hi, I'm Mark Mandel. I'm also a developer advocate for the Google Cloud Platform, and it's another episode of our podcast.
+{{< transcript "FRANCESC: Hi, and welcome to the Google Cloud podcast. I'm Francesc Campoy, a developer advocate for the Google Cloud, and I'm here with my colleague, Mark." >}}
+MARK: Hi, I'm Mark Mandel. I'm also a developer advocate for the Google Cloud, and it's another episode of our podcast.
 FRANCESC: Yeah, very excited about it. So I guess that most of you have heard the first episode, so just a little bit of a summary of what we talked about. Basically, we have a podcast, and there is three parts of it, cool thing of the week, the main content, and the question of the week.
 MARK: Yup.
 FRANCESC: So before we start with the cool thing of the week, what are we gonna be talking about today?
@@ -56,9 +56,9 @@ MARK: It sounds very fancy. It's very, very, fancy.
 FRANCESC: Very scientific.
 MARK: Yeah, yeah.
 FRANCESC: Everything is very scientific. Cool. What about the cool thing of the week?
-MARK: All right, I'm pretty excited about the cool thing of the week. I got to do--I got to have the chance to collaborate with a very well-known fellow by the name of Ilya Grigorik. We got to put a blog post out on the Google Cloud Platform blog…
+MARK: All right, I'm pretty excited about the cool thing of the week. I got to do--I got to have the chance to collaborate with a very well-known fellow by the name of Ilya Grigorik. We got to put a blog post out on the Google Cloud blog…
 FRANCESC: Nice.
-MARK: All about HTTP/2 and what Google Cloud Platform does to enable HTTP/2. You can read the who--full article, but I think the really big takeaway, which is really cool, is basically, we kind of just do it for you, so really, if you want HTTP/2, put an HTTPS load balancer on it, and that's pretty much all you need. As long as it goes through HTTPS, we do HTTP/2. If you're an App Engine customer and you go through HTTPS, you get HTTP/2. So you just get a speed boost, which is awesome, without really having to do much work.
+MARK: All about HTTP/2 and what Google Cloud does to enable HTTP/2. You can read the who--full article, but I think the really big takeaway, which is really cool, is basically, we kind of just do it for you, so really, if you want HTTP/2, put an HTTPS load balancer on it, and that's pretty much all you need. As long as it goes through HTTPS, we do HTTP/2. If you're an App Engine customer and you go through HTTPS, you get HTTP/2. So you just get a speed boost, which is awesome, without really having to do much work.
 FRANCESC: Cool, and for those that don't know what HTTP/2 is--I mean, HTTP/2, yeah, the version 2 of HTTP.
 MARK: It's better.
 FRANCESC: Sure, but how--like, why? Why is it better?
@@ -101,7 +101,7 @@ FRANCESC: And actually, following the metaphor a little bit deeper, you can also
 MARK: How do you log it? How do you monitor it, make sure it stays up? Yeah, all that sort of fun stuff.
 FRANCESC: So yeah, I really like that metaphor, yeah.
 MARK: Yeah, I think that worked really well. I really like it.
-FRANCESC: So how do we offer those things in Google Cloud Platform?
+FRANCESC: So how do we offer those things in Google Cloud?
 MARK: So infrastructure as a service, we have Google Compute Engine, so we can fire up virtual machines. You have a variety of operating systems, so Debian, Ubuntu. We even offer Windows if that's your flavor of choice and a few others as well. We have a list online which shows you which ones of ours are supported and how much, so we do CoreOS. We do all sorts of stuff--but they are. They're basic machines. We put some stuff in them to make them a little bit more secure, an ability to, like, SSH into them really easily, but that's it. They're machines. You can do what you like. Any extra details I might have missed on--
 FRANCESC: Not really. I mean, it's basically you just get virtual machines, and you do whatever you want to them, so you can SSH, do apt-get install. You can mess around. You can break your machine down, basically, and then just delete it and create a new one if you want to.
 MARK: Probably most interesting, we can do up to, like, 32 cores. We can do access to your disks.
@@ -113,7 +113,7 @@ FRANCESC: So platform as a service is one of my favorite products. I use it all 
 MARK: Whoo!
 FRANCESC: And what Google App Engine does, basically, is, like, this idea of self-driving car. You write your code, you just put it there, and that's it. Like, you don't need to manage anything else. You don't know--you don't know what--how many instances are running. The--just, like, enough instances to run the traffic you're getting. That's it, so it's really easy to get started, but also it scales very well. We talked about it a little bit last episode.
 MARK: On the previous episode.
-FRANCESC: Yeah, because the Google Cloud Platform podcast is actually hosted on App Engine. But it's so simple to use. Like, you have, yeah, huge, huge, huge players like Rovio with Angry Birds. They use that, and it just works very well, so basically, the good thing is that you're giving up a little bit of the flexibility that you have with infrastructure as a service, so you cannot run everything you want. You have, like, a series of allowed runtimes, so you have Go, of course. You have Java. You have Python and PHP, and then that's pretty much it. Like, there's some limitations on how you can access the network and things like that, but it's kind of easy to adapt any application to it, but you still have to adapt it, basically.
+FRANCESC: Yeah, because the Google Cloud podcast is actually hosted on App Engine. But it's so simple to use. Like, you have, yeah, huge, huge, huge players like Rovio with Angry Birds. They use that, and it just works very well, so basically, the good thing is that you're giving up a little bit of the flexibility that you have with infrastructure as a service, so you cannot run everything you want. You have, like, a series of allowed runtimes, so you have Go, of course. You have Java. You have Python and PHP, and then that's pretty much it. Like, there's some limitations on how you can access the network and things like that, but it's kind of easy to adapt any application to it, but you still have to adapt it, basically.
 MARK: It's worth noting, though, like, you can't run your own custom code on there. You can't write--you know, you can't write to the file system. You'd have to go through [inaudible] storage. Requests can't take longer than 60 seconds. There's stuff like that, and that's kind of the way it's built.
 FRANCESC: Yeah, I mean, the limitations--for instance, the fact that you can't write to the clou--to the file--to the file system, it's actually a very good best practice, right? 'Cause if you tried to do that on a single machine and that machine goes down, you just lost the data, so for a web server it's actually a good practice, so basically we're trying to enforce the best practices for web development, so then once you're doing that, we can make sure that your code will scale to whatever traffic you're getting.
 MARK: Yeah, it means we can do things that makes things easier internally that we have to scale and do stuff like that, but much like your self-driving car, you can't be like, "Oh, actually, we need to go faster or take this, you know, shortcut," or something like that, "for my very specific instance." It's like, "No." The self-driving car is gonna get you there the way you want--it's gonna get you there.
@@ -153,7 +153,7 @@ FRANCESC: Yeah. I kind of like the thing about it's like, you--basically a self-
 MARK: Yeah, it's sort of like lane assist or self-parking or something like that.
 FRANCESC: Yeah--
 MARK: Just to go into that metaphor.
-FRANCESC: Yeah, at some point that metaphor will break, I'm sure, but whatever. But yeah, so that's Kubernetes, and Kubernetes, basically what it does is it's just that, orchestrate containers across a fleet of machines. Those machines can be running on Google Cloud Platform, on Google Container Engine. They could also be running somewhere else. They could be running on your own premises. They could be running anywhere else. What Google Container Engine is is just Kubernetes. The whole thing is managed by one master, so what we're doing with Kubernetes is giving you an easy way to spawn those instances that you need to run the containers and then 1x for instance which is what we call the Kubernetes master that is managed by us, so we make sure that that machine will never go down.
+FRANCESC: Yeah, at some point that metaphor will break, I'm sure, but whatever. But yeah, so that's Kubernetes, and Kubernetes, basically what it does is it's just that, orchestrate containers across a fleet of machines. Those machines can be running on Google Cloud, on Google Container Engine. They could also be running somewhere else. They could be running on your own premises. They could be running anywhere else. What Google Container Engine is is just Kubernetes. The whole thing is managed by one master, so what we're doing with Kubernetes is giving you an easy way to spawn those instances that you need to run the containers and then 1x for instance which is what we call the Kubernetes master that is managed by us, so we make sure that that machine will never go down.
 MARK: Yeah, that's the important one. 
 FRANCESC: Yeah.
 MARK: It's pretty easy. I mean, it's pretty awesome. You can kind of go to Developer Console, click a button, how many nodes do you want? I'd like five, please, and you click okay, and it spins it all up and creates it for you, which is pretty cool.
@@ -198,7 +198,7 @@ MARK: Accurate.
 FRANCESC: So how do you connect when you cannot SSH into a machine? Well, what is going on is that your IP has been banned, right? But you can still connect using the console.
 MARK: Oh, okay.
 FRANCESC: Like, from the console you have the SSH button. That will work every single time.
-MARK: Okay, so the--so Google Cloud Platform knows for compute and SSH, if it's doing it through the browser it's like, "Oh, that's special. We know that's great, so yeah."
+MARK: Okay, so the--so Google Cloud knows for compute and SSH, if it's doing it through the browser it's like, "Oh, that's special. We know that's great, so yeah."
 FRANCESC: Yeah, "We know who you are. You're using a private key identification," so it's different, [inaudible] password, so--
 MARK: So you probably logged in with two-factor auth 'cause we're all using two-factor auth when we use our Google accounts.
 FRANCESC: We all should, yeah.
@@ -210,10 +210,10 @@ MARK: Can you whitelist yourself and be like, "Okay, am I always okay?"
 FRANCESC: Yes. You can whitelist yourself. Depending on the instances and the rules that you have on your connection it may be harder or easier. One of the things that you can do is just say, "This is my IP. Don't ever block this IP," and then you're good.
 MARK: Okay, that sounds great. All right, cool. Good to know. If I'm ever locked out of one of my own machines, now I know what the problem could be.
 FRANCESC: Yeah, it's good to know, yeah.
-MARK: Great. All right, great. So finishing off, why don't we just recap we--what events we have coming up, if people want to come and talk to us or want to talk about Google Cloud Platform, where we'll be. So Francesc, where are you gonna be headed in the next little while?
+MARK: Great. All right, great. So finishing off, why don't we just recap we--what events we have coming up, if people want to come and talk to us or want to talk about Google Cloud, where we'll be. So Francesc, where are you gonna be headed in the next little while?
 FRANCESC: So I'm gonna be--so there's GCP Next in Paris that--it's happening, like, very, very soon. I'll be there.
 MARK: Wonderful.
-FRANCESC: Then in November I will be in Oredev in Malmo. Then I will go to Paris for dotGo. It's a Go conference. Then I will go to--what's the name? Devoxx in Antwerp in Belgium. We're gonna have a huge, huge team there. I think we're gonna be, like, five or six of Google Cloud Platform.
+FRANCESC: Then in November I will be in Oredev in Malmo. Then I will go to Paris for dotGo. It's a Go conference. Then I will go to--what's the name? Devoxx in Antwerp in Belgium. We're gonna have a huge, huge team there. I think we're gonna be, like, five or six of Google Cloud.
 MARK: Sounds like that's gonna be a good event.
 FRANCESC: That's gonna be-
 MARK: You were mentioning about it.

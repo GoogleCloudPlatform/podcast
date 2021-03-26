@@ -81,7 +81,7 @@ Francesc just released a [justforfunc](http://justforfunc.com) episode on [Contr
 
 Mark will be speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 
-{{< transcript "FRANCESC: Hi, and welcome to Episode number 89 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to Episode number 89 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm doing very well. Having a very good day. How are you doing? 
 
@@ -93,7 +93,7 @@ FRANCESC: And it's about video games, but also open source at the same time, so 
 
 MARK: Yeah, and Kubernetes. So it's like all my favorite things. 
 
-FRANCESC: Yeah. We're going to be talking with a true gentleman, Alim Jaffer, and Mo Firouz, both from Heroic Labs. And they're going to be telling us a little bit about what they do and how you can use it on Google Cloud Platform if so you wish. 
+FRANCESC: Yeah. We're going to be talking with a true gentleman, Alim Jaffer, and Mo Firouz, both from Heroic Labs. And they're going to be telling us a little bit about what they do and how you can use it on Google Cloud if so you wish. 
 
 And then after that we'll have a question of the week, which actually comes from one of our coworkers. He came to my desk yesterday asking, hey, how do you do this? And I was like, I do not know. So we figured out and we have an answer. And it's about how to access Cloud SQL instances from Cloud Functions. Fancy. 
 
@@ -125,7 +125,7 @@ FRANCESC: It's so Star Wars-y. I like it.
 
 MARK: Yeah, I just want to do it now because of that. 
 
-FRANCESC: The second cool thing of the week is about Dataproc. And the newest version of Dataproc has been released. So it's Cloud Dataproc 1.2. For those that like to use Dataproc, it's basically the easiest way to start Spark and Hadoop clusters on Google Cloud Platform. 
+FRANCESC: The second cool thing of the week is about Dataproc. And the newest version of Dataproc has been released. So it's Cloud Dataproc 1.2. For those that like to use Dataproc, it's basically the easiest way to start Spark and Hadoop clusters on Google Cloud. 
 
 Those two servers have also been updated to the latest version. So we have 2.2.0 for Apache Spark and 2.8.0 for Apache Hadoop. So check it out. It's going to be even faster. 
 
@@ -153,13 +153,13 @@ MARK: Wonderful. And Mo, how are you doing today?
 
 MO: I'm very well, thank you. 
 
-MARK: Excellent. Thank you so much to both of you for joining us to talk about Heroic Labs and your experience at Google Cloud Platform. But before we go into that, why don't you tell us a little bit about both of you. Alim, why don't you go first. 
+MARK: Excellent. Thank you so much to both of you for joining us to talk about Heroic Labs and your experience at Google Cloud. But before we go into that, why don't you tell us a little bit about both of you. Alim, why don't you go first. 
 
 ALIM: Yeah, sure. So I've been working in start ups for a couple of years now. I'm based out of Vancouver, Canada, although I spend a fair bit of time in San Francisco as well. It's kind of my second home. And I'm the VP of Product here at Heroic Labs. So my job here is to handle the product, the waterfalls, making sure we're moving in the right directions for the industry, and generally taking ownership over Nakama itself. 
 
 MARK: Cool. What about you, Mo? 
 
-MO: I'm one of the co founders of Heroic Labs. We started this company around two years ago, back in 2015. And I've been basically part of the engineering team, working on various products. And most recently on Nakama [INAUDIBLE] server and the integration with Google Cloud Platform. 
+MO: I'm one of the co founders of Heroic Labs. We started this company around two years ago, back in 2015. And I've been basically part of the engineering team, working on various products. And most recently on Nakama [INAUDIBLE] server and the integration with Google Cloud. 
 
 MARK: Cool. So I guess that you should be able to answer this question. What is Heroic Labs? What do they do? 
 
@@ -209,7 +209,7 @@ MARK: Francesc, don't leave me.
 
 ALIM: No free lunch like Google though. I'm sorry. 
 
-FRANCESC: Oh, yeah. Then no. So now we've talked a little bit about all the open source side of things, you mentioned that you run on Google Cloud Platform. Could you tell us a little bit, how does it look like? What products are you using exactly? 
+FRANCESC: Oh, yeah. Then no. So now we've talked a little bit about all the open source side of things, you mentioned that you run on Google Cloud. Could you tell us a little bit, how does it look like? What products are you using exactly? 
 
 MO: So I guess the main crust of it all is the Container Engine. We use Container Engine to power Kubernetes, and obviously that uses Compute Engine instances. And part of the Container Engine is used to contain the registry. 
 
@@ -217,7 +217,7 @@ So we upload our images into the Container Registry, and get Docker and get Kube
 
 MARK: Sounds really cool. How are you deploying your Nakama to GKE or Kubernetes? Are you doing anything special there, or is it just like straight deployments, or can you talk about that? 
 
-MO: So remember when I mentioned that we run the path from code in [INAUDIBLE] on Erlang? So that niche of the platform is what drives how we run our managed cloud and how we deploy Nakama into Google Cloud Platform. So we have obviously we have a built box. That sort of build in the Nakama images, the Docker images. And now push them into Container Registry. 
+MO: So remember when I mentioned that we run the path from code in [INAUDIBLE] on Erlang? So that niche of the platform is what drives how we run our managed cloud and how we deploy Nakama into Google Cloud. So we have obviously we have a built box. That sort of build in the Nakama images, the Docker images. And now push them into Container Registry. 
 
 Then we tell our little app that we've created that lives within Container Engine to talk to Kubernetes' API to create new server instances and run [INAUDIBLE] version of Nakama and Cockroach we need to given the configuration that we have for Kubernetes within the Kubernetes cluster effectively. 
 
@@ -241,7 +241,7 @@ What we can do with CockroachDB is we can cluster them together. And we can star
 
 So we will always have the high validity and strongly consistent data. It's not like, say for instance, Cassandra database, where your client needs to talk with a specific set of nodes in the cluster, not all the nodes. What happens in Cockroach is you talk to one cluster node and it sort of replicates the data in the background transparently for you across all the nodes. 
 
-FRANCESC: Cool. And so I know that CockroachDB is based somehow on Spanner, and that one of the powers of Spanner is the fact that it uses atomic clocks. Could you talk a little bit about is CockroachDB also using the NTP service that Google Cloud Platform provides? How does it scale? Do you know this, or is it just magic? 
+FRANCESC: Cool. And so I know that CockroachDB is based somehow on Spanner, and that one of the powers of Spanner is the fact that it uses atomic clocks. Could you talk a little bit about is CockroachDB also using the NTP service that Google Cloud provides? How does it scale? Do you know this, or is it just magic? 
 
 MO: So it's partly magic. When you're running CockroachDB, you don't really get exposed to that level of detail. We certainly haven't told it to use any sort of NTP servers within GCP. It does come with NTP services inside, and it does sink together between different nodes. 
 
@@ -279,13 +279,13 @@ The way we've designed the Kubernetes namespace is one namespace per customer, e
 
 MARK: Gotcha. So you've basically used the APIs that Kubernetes has given you so that you can build your own, basically, control plane to control exactly what's going on inside your cluster? 
 
-MO: Yes. And that Erlang node, that managed cloud server node, also talks with the Google API to set up the various DNS records and set up various firewall rules. Because there are certain firewall rules, for instance for websocket connections, that you can't set through the Kubernetes Ingress because they're just not exposed there. So we have to talk directly with the Google Cloud Platform within sort of the L7 load balancers to configuration to update them to say, OK, set a timeout of this particular connection to x minutes, for instance. So we can have a live web circuit connection going. 
+MO: Yes. And that Erlang node, that managed cloud server node, also talks with the Google API to set up the various DNS records and set up various firewall rules. Because there are certain firewall rules, for instance for websocket connections, that you can't set through the Kubernetes Ingress because they're just not exposed there. So we have to talk directly with the Google Cloud within sort of the L7 load balancers to configuration to update them to say, OK, set a timeout of this particular connection to x minutes, for instance. So we can have a live web circuit connection going. 
 
 MARK: Cool. So that was actually interesting. That was an interesting lesson that you seemed to have learned about how to manage GCP with Kubernetes. Have there been any other particularly good lessons that you've learned along the way that possibly our listeners might want to learn from as well? 
 
 MO: From the top of my mind I can't think of anything else. There were a couple of details that weren't mentioned in documentation that we sort of found out while we were implementing, but there weren't many. There were maybe a couple. But this was maybe four or five months ago, so I can't really recall exactly what those details were. 
 
-But generally speaking so far, I'm really, really, really happy with Kubernetes and I'm really happy with Google Cloud Platform. I can say that sort of hands down. It's been a breeze figuring it all out. 
+But generally speaking so far, I'm really, really, really happy with Kubernetes and I'm really happy with Google Cloud. I can say that sort of hands down. It's been a breeze figuring it all out. 
 
 ALIM: Yeah, I mean we've done deployments on Azure, on AWS, GCP. And I will say we've been the happiest with GCP, both for network reliability and also for the services offered. Its kind of best suited for us at the moment. 
 
@@ -335,7 +335,7 @@ FRANCESC: Thanks to Alim and Mo from Heroic Labs for taking the time to tell us 
 
 MARK: Yeah, definitely. Super cool stuff they're building. And, yeah, I'm excited to see what they build on top of GKE. 
 
-FRANCESC: I think it's time to go with other question of the week. And the question of the week came yesterday from our coworkers, because we're on the same team. Gabe Wise. He's a Developer Advocate that just joined recently doing Internet of Things at Google Cloud Platform. 
+FRANCESC: I think it's time to go with other question of the week. And the question of the week came yesterday from our coworkers, because we're on the same team. Gabe Wise. He's a Developer Advocate that just joined recently doing Internet of Things at Google Cloud. 
 
 And something he was doing is he's actually logging the temperature. He has a little sensor that sends the current temperature through, I don't know exactly what, but ends up running through Cloud Functions. And then he wants to store that piece of data from Cloud Functions to a SQL instance running on Cloud SQL. 
 
@@ -349,7 +349,7 @@ FRANCESC: What is the IP of no server? Zero? I don't know. So yeah, you cannot d
 
 So what you're going to do is there's going to be a proxy running with a specific IP that you can then hit from there. And whenever you connect to that proxy, the proxy will connect to the SQL instance. And since that proxy has a stable IP, you can whitelist the IP of the proxy instead. 
 
-So it's pretty simple and it keeps all the security and stuff. And the cool thing is that you don't even need to write this yourself because there is an open source solution that is written here at Google Cloud Platform. It's called Cloud SQL Proxy. 
+So it's pretty simple and it keeps all the security and stuff. And the cool thing is that you don't even need to write this yourself because there is an open source solution that is written here at Google Cloud. It's called Cloud SQL Proxy. 
 
 So we'll have a link in the show notes to both the repo, which is worth checking out, and also documentation. 
 

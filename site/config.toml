@@ -1,6 +1,6 @@
 baseUrl = "https://www.gcppodcast.com"
 languageCode = "en-us"
-title = "Google Cloud Platform Podcast"
+title = "Google Cloud Podcast"
 theme = "gcppodcast2018"
 
 relativeURLs = true
@@ -9,7 +9,7 @@ paginate = 9
 
 #Site Params
 [params]
-  description = "The Google Cloud Platform Podcast, coming to you every week. Discussing everything on Google Cloud Platform from App Engine to Big Query."
+  description = "The Google Cloud Podcast, coming to you every week. Discussing everything on Google Cloud from App Engine to Big Query."
   logo = "images/site_logo.png"
   twitterUser = "gcppodcast"
   twitterURL = "https://twitter.com/gcppodcast"

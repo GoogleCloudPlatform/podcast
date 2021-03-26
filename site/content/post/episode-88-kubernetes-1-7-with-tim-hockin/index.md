@@ -37,7 +37,7 @@ He has been contributing to open-source projects since 1995, when he first learn
 
 - Cloud Shell’s code editor now in beta [announcement](https://cloudplatform.googleblog.com/2017/07/Cloud-Shells-code-editor-now-in-beta.html)
 - How App Engine helped power Super Mario Run [blog post](https://www.blog.google/topics/google-cloud/how-app-engine-helped-power-super-mario-run/)
-- New hands-on labs for scientific data processing on Google Cloud Platform [blog post](https://cloud.google.com/blog/big-data/2017/07/new-hands-on-labs-for-scientific-data-processing-on-google-cloud-platform)
+- New hands-on labs for scientific data processing on Google Cloud [blog post](https://cloud.google.com/blog/big-data/2017/07/new-hands-on-labs-for-scientific-data-processing-on-google-cloud-platform)
 
 ##### Interview
 
@@ -60,7 +60,7 @@ Francesc just released a [justforfunc](http://justforfunc.com) episode on [Go Te
 
 Mark will be speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 88 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 88 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm good. I had a nice, relaxing weekend, so it's super good to be back. How are you doing? 
 
@@ -122,7 +122,7 @@ I would say a pretty successful launch. I was pretty impressed with how seamless
 
 FRANCESC: Yeah. And the cool thing is, I think it was like last week or two weeks ago-- that we used as one of the cool things of the week, that little video that explains a little bit how Mario Run was done. Well, that video is part of the blog post, but that doesn't give any detail compared to how detailed the rest the blog post is. So definitely go read it even if it just to see Super Mario running and jumping around. 
 
-MARK: Cool. And so finally, last cool thing of the week is a series of seven hands-on labs for scientific data processing on Google Cloud Platform, going through plotting recent earthquake activity to building image processing with Apache Spark to machine learning and a variety of other ones as well. There is a variety of technologies, too, so it's not just TensorFlow. It's a bunch of stuff. 
+MARK: Cool. And so finally, last cool thing of the week is a series of seven hands-on labs for scientific data processing on Google Cloud, going through plotting recent earthquake activity to building image processing with Apache Spark to machine learning and a variety of other ones as well. There is a variety of technologies, too, so it's not just TensorFlow. It's a bunch of stuff. 
 
 And the nice thing is you can either do this as just like a step-by-step. So if you have your own GCP project, you want to do it that way. So it's available basically with the [INAUDIBLE] documentation, but you can also do it through Qwiklabs as well, which means if you just want to have Qwiklabs fire up a quick GCP project for you temporarily without you having to do a lot of the work, it's able to do that as well, which is super nice. 
 

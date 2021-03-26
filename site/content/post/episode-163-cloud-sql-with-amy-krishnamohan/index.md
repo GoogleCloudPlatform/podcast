@@ -71,7 +71,7 @@ Mark will be at [GDC](https://gdconf.com) in March, [Cloud NEXT](https://cloud.w
 
 - Diamond Partner Q&A: Google's Mark Mandel Has The Tools To Help You Make Great Games [article](https://gdconf.com/news/diamond-partner-qa-googles-mark-mandel-has-tools-help-you-make-great-games)
 
-{{< transcript "[MUSIC PLAYING] GABI: Hi, and welcome to episode number 163 of the weekly Google Cloud Platform podcast. I'm Gabi Ferrara, and I'm here with my colleague Mark Mandel. Hello, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] GABI: Hi, and welcome to episode number 163 of the weekly Google Cloud podcast. I'm Gabi Ferrara, and I'm here with my colleague Mark Mandel. Hello, Mark." >}} 
 
 MARK: Hey, Gabi. How are you doing? 
 
@@ -167,7 +167,7 @@ GABI: Yeah, it's [INAUDIBLE], right?
 
 AMY: Mm-hm. Yeah. 
 
-MARK: Yeah. And if people want to hear about Spanner, episode number 62 of the "Google Cloud Platform" podcast. I actually would love to hear just your take on relational data storage. I expect there's probably some of our listeners who probably grew up maybe just working on something like Mongo or working in something unstructured. So I'd love to hear your take on, what is relational data storage? And maybe how has it changed in the last 30-odd years? 
+MARK: Yeah. And if people want to hear about Spanner, episode number 62 of the "Google Cloud" podcast. I actually would love to hear just your take on relational data storage. I expect there's probably some of our listeners who probably grew up maybe just working on something like Mongo or working in something unstructured. So I'd love to hear your take on, what is relational data storage? And maybe how has it changed in the last 30-odd years? 
 
 AMY: So relational databases is really-- the easiest way to think is like table. So if you look at a sheet, you have a really clean table that has a defined column, a defined row, and the data is extremely ordered. So before you store the data, you need to know what data type it is. 
 
@@ -185,7 +185,7 @@ AMY: So a lot of the use cases that we see, like IoT, where data is just pouring
 
 And then if the data is actually extremely important, like transaction-wise, and then you cannot lose those data-- for example, if you deposit the money in the bank, you need that data to be consistent and stored safely in certain databases. So you cannot have unstructured or NoSQL databases. You have to put those data in the relational databases. 
 
-GABI: So how does Cloud SQL scale inside the Google Cloud Platform? 
+GABI: So how does Cloud SQL scale inside the Google Cloud? 
 
 AMY: So Cloud SQL scales in two different ways. First one is a scale out, and the other one is a scale up. So scale out is using read replicas when there is a lot of traffic coming in. There is a replica of the Cloud SQL. You can create it in different zones. And you can route those traffic to the read replica, so that not one instance doesn't get bombarded with so many traffic. So all the traffic can be routed to a different zone. 
 

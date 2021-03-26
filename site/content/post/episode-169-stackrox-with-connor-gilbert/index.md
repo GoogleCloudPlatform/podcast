@@ -69,7 +69,7 @@ Gabi will be at [Cloud NEXT](https://cloud.withgoogle.com/next/sf) and [PyTexas]
 
 StackRox will be at [Cloud NEXT](https://cloud.withgoogle.com/next/sf), [KubeCon](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/), [FS-ISAC](https://www.fsisac-summit.com/AS19-Overview), [DockerCon](https://www.docker.com/dockercon/), [Red Hat Summit](https://www.redhat.com/en/summit/2019), and [Black Hat](https://www.blackhat.com/us-19/).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 169 of the weekly Google Cloud Platform podcast. My name is Mark Mandel, and I am here and delightfully joined by Gabi Ferrara. Hey, Gabi. How are you doing today?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 169 of the weekly Google Cloud podcast. My name is Mark Mandel, and I am here and delightfully joined by Gabi Ferrara. Hey, Gabi. How are you doing today?" >}} 
 
 GABI: Hello, Mark. How are you doing? 
 
@@ -127,9 +127,9 @@ MARK: Awesome. At a high level, do you want to tell us about what StackRox does?
 
 CONNOR: Yeah, so we're a Kubernetes security company, and what we do is try to use the power of containers and Kubernetes to help customers up their game in security. We build a product that goes across the container lifecycle, so build, deploy, run, and helps them understand risk, understand where they might have been exposed, and detect threats and respond to them in real time. 
 
-GABI: What Google Cloud Platform products do you use for the StackRox platform? 
+GABI: What Google Cloud products do you use for the StackRox platform? 
 
-CONNOR: Yeah, so we have an interesting deployment model. We are a security product and we want to run wherever customers do, so across Google Cloud Platform, other clouds on premises. So we use a lot of GCP products inside of our company. We run a Kubernetes Engine cluster-- actually, two of them, I think, on every commit into our code base for testing and validation. We use the Google Container Registry, some of the container analysis products internally for deployment and things like that. But then when we're deployed, we act as a self-contained product. 
+CONNOR: Yeah, so we have an interesting deployment model. We are a security product and we want to run wherever customers do, so across Google Cloud, other clouds on premises. So we use a lot of GCP products inside of our company. We run a Kubernetes Engine cluster-- actually, two of them, I think, on every commit into our code base for testing and validation. We use the Google Container Registry, some of the container analysis products internally for deployment and things like that. But then when we're deployed, we act as a self-contained product. 
 
 We do integrate with the Cloud Security Command Center, which has recently added Kubernetes Engine cluster enumeration and findings tagging, so helping customers understand the risk there. But yeah, mostly internal to our company, we're using GCP and really use that to keep our dev velocity up. 
 

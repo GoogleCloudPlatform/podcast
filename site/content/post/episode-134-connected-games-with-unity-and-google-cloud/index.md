@@ -28,7 +28,7 @@ Happy 4th of July! Today, [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
 
 ##### Micah Baker
 
- As Product Manager leading the strategy for Gaming on the Google Cloud Platform, Micah is committed to enabling  developers to realize their vision for great games. An avid gamer on all major platforms, he never hesitates to get involved in games that were built with a passion for immersive storytelling, innovative multiplayer experiences, and breathtaking artwork.
+ As Product Manager leading the strategy for Gaming on the Google Cloud, Micah is committed to enabling  developers to realize their vision for great games. An avid gamer on all major platforms, he never hesitates to get involved in games that were built with a passion for immersive storytelling, innovative multiplayer experiences, and breathtaking artwork.
 
 ##### Cool things of the week
 
@@ -62,7 +62,7 @@ Happy 4th of July! Today, [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
 
 We’ll both be at [Cloud NEXT!](https://cloud.withgoogle.com/next18/sf/) 
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 134 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. Hello, Melanie." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 134 of the weekly Google Cloud Podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. Hello, Melanie." >}}
 
 MELANIE: Hi, Mark. 
 
@@ -100,13 +100,13 @@ MARK: That's an excellent question, Melanie. I'm glad you asked.
 
 MELANIE: I think it's a great question. I didn't even come up with it. It's amazing. All right, so the Cool Things of the Week. So, for all of the listeners out there who might be watching, I don't know, the World Cup right now, we have a blog post to start off our Cool Things of the Week from Felipe Hoffa, who's one of our colleagues, and hopefully one day soon we will have him back on the podcast. 
 
-But he did a blog post that is basically doing a World Cup visualization. He shows all the goals so far. And so he literally has on here, and he explains how he uses some of the different Google Cloud Platform tools to build the visualization, his data acquisition, how he extracted the goal data. He's got code in here. And using Data Studio to create the sheet. 
+But he did a blog post that is basically doing a World Cup visualization. He shows all the goals so far. And so he literally has on here, and he explains how he uses some of the different Google Cloud tools to build the visualization, his data acquisition, how he extracted the goal data. He's got code in here. And using Data Studio to create the sheet. 
 
 MARK: Awesome. 
 
 MELANIE: Yeah. So you should check it out. 
 
-MARK: We should check it out. So after that, I want to bring up a blog post that came out on the Google Cloud Platform blog called "Why We Believe in an Open Cloud," if you want to be accurate. I think it's a really important article. It's by-- 
+MARK: We should check it out. So after that, I want to bring up a blog post that came out on the Google Cloud blog called "Why We Believe in an Open Cloud," if you want to be accurate. I think it's a really important article. It's by-- 
 
 MELANIE: Melody Meckfessel. 
 
@@ -186,7 +186,7 @@ And what we demonstrated at Unite Berlin was there's no difference between these
 
 So that's crazy. That's something that hasn't been possible before. And Google plus Unity are uniquely positioned to actually solve that. 
 
-MARK: So this sounds pretty amazing. Micah, what does this mean for Google Cloud Platform now? 
+MARK: So this sounds pretty amazing. Micah, what does this mean for Google Cloud now? 
 
 MICAH: Well, so one of the great things about the strategic alliance is that Unity already provides a leading solution for developers to work on their game vision. They have a big dream of what they want to build, but they don't have to mess with all the complexity of the tooling, and worrying about all the platforms, and so forth. So Unity does this great job of democratizing game development. 
 
@@ -214,7 +214,7 @@ But I think we do have a long-range vision of it's just seamless. It's stepwise.
 
 So I'd say in the short term it's understanding the landscape of all the things that we need to do. And the long-term vision is that it's just dead simple to start, build, deploy, and run your experiences. And that's what we're committed to. And we're going to do whatever it takes between here and there to get there. 
 
-MARK: And Brett, it's also worth noting, I think, you're moving all your core infrastructure to Google Cloud Platform as well? 
+MARK: And Brett, it's also worth noting, I think, you're moving all your core infrastructure to Google Cloud as well? 
 
 BRETT: That's right. You know, it's funny. I mean, Unity is founded by people from three different countries here in Denmark. And our first employee was located in Iceland. Our second was in Germany, our third was in Lithuania. So from day one, we've been sort of a connected company. And we built all of that, just as many others have, on just the G Suite-- the Google Platform. 
 

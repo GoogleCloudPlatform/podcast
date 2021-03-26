@@ -103,8 +103,8 @@ multiple partner-­funded projects worth few million dollars. Krishnan currently
 institute in Singapore, where he leads a team of researchers, engineers, programmers and students on
 several computer security projects.
 
-Krishnan has also co-authored the book "Building Your Next Big Thing with Google Cloud Platform"
-which is the first book that comprehensively covers Google Cloud Platform. The book was launched
+Krishnan has also co-authored the book "Building Your Next Big Thing with Google Cloud"
+which is the first book that comprehensively covers Google Cloud. The book was launched
 at Google IO 2015 in May 2015 and more information is available at https://bit.ly/cloudplatformbook.
 He also created a new undergraduate course “Cloud Computing: business case and technical models”
 for a local university in Singapore.
@@ -166,7 +166,7 @@ If I delete something from Datastore, is it strongly consistent?
 Francesc will be working on the next episode of [justforfunc](https://youtube.com/c/justforfunc) and enjoying some
 holidays, right before joining our team offsite in Los Angeles with Mark.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 52 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my dear colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 52 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my dear colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey Francesc, how are you doing today? 
 
 FRANCESC: Very happy. Surrounded by lots of really cool people here at-- we are a Mont-- we're not in Mountain View. We're actually in Sunnyvale, where the GDE Summit, the Google Developer Experts Summit is taking place. 
@@ -221,7 +221,7 @@ ALEXIS: Sure, I'm Alexis Moussine-Pouchkine. I usually go by Alexis MP, and I lo
 
 FRANCESC: So for the episode today, we're actually interviewing a bunch of them. Could you tell us a little bit about who are they? What is a GDE and how do you become one? 
 
-ALEXIS: Yes, that's an excellent question. A GDE is somebody that's passionate obviously about a technology, in our case Google Cloud Platform. The program here is a way for them to be actually involved in speaking to program product managers in development teams, providing feedback, and taking what they learn and eventually when this hits the market, and trying to help us get the word out. When it comes to spreading the news, and speaking publicly, writing blogs. So a number of the listeners here will probably recognize some of the names as people authoring blogs and maybe good public speakers as well. 
+ALEXIS: Yes, that's an excellent question. A GDE is somebody that's passionate obviously about a technology, in our case Google Cloud. The program here is a way for them to be actually involved in speaking to program product managers in development teams, providing feedback, and taking what they learn and eventually when this hits the market, and trying to help us get the word out. When it comes to spreading the news, and speaking publicly, writing blogs. So a number of the listeners here will probably recognize some of the names as people authoring blogs and maybe good public speakers as well. 
 
 FRANCESC: Yeah, they're all definitely very active in the open community. But I've heard that they also get privilege access to Google information. Like they have an NADA or something, right? 
 
@@ -449,7 +449,7 @@ DANIEL: So it's cool to have access to primer information. So before products ge
 
 And so having privileged information about that is cool. And also having access to many other developers other experts, it's great. Because we can change knowledge. And this is a wonderful. 
 
-FRANCESC: Cool. And one last question. What is your favorite product or feature of Google Cloud Platform? 
+FRANCESC: Cool. And one last question. What is your favorite product or feature of Google Cloud? 
 
 DANIEL: One feature that I think is very interesting is the preemptable instances. So we could actually-- and I wrote a blog post about it-- could decrease our costs in 40% after moving part of our infrastructure to preemptable instances. And compared to others, for example, compared to spot instances in Amazon, it's a lot better because Spot you have all this complex speed things that you need to do. And preemptable is much more predictable. 
 
@@ -459,7 +459,7 @@ MARK: Daniel, thank you so much for joining us. And thank you so much for all th
 
 DANIEL: Thanks. 
 
-FRANCESC: Thanks for it. So I'm happy to have Didier in the Google Cloud Platform Podcast. How are you doing, Didier? 
+FRANCESC: Thanks for it. So I'm happy to have Didier in the Google Cloud Podcast. How are you doing, Didier? 
 
 DIDIER: I'm fine. 
 
@@ -547,7 +547,7 @@ So I was managing the group until the end of last year, that is, in 2015. And ov
 
 MARK: That's a fairly impressive resume. I assume that means you're based out of Singapore. 
 
-KRISHNAN: I moved to the US. I had an opportunity to work on a Google Cloud Platform product. So I'm currently based in Washington, DC. I'm very new to US. So from this January, I'm living in Washington, DC. 
+KRISHNAN: I moved to the US. I had an opportunity to work on a Google Cloud product. So I'm currently based in Washington, DC. I'm very new to US. So from this January, I'm living in Washington, DC. 
 
 MARK: Excellent. 
 
@@ -557,9 +557,9 @@ KRISHNAN: Yes. I did write a book. Thanks for reminding-- or thanks for remember
 
 FRANCESC: I remember that. I reviewed it. 
 
-KRISHNAN: Oh yeah. You did. Thank you. So I wrote the first book on the Google Cloud Platform. It was called "Building Your Next Big Thing on Google Cloud Platform." That's very, very passionate to me. That's because I got so much support from Googlers like yourself, and also the other product managers, who reviewed each and every chapter of the book. And I believe till today that is the only comprehensive book that has been written. 
+KRISHNAN: Oh yeah. You did. Thank you. So I wrote the first book on the Google Cloud. It was called "Building Your Next Big Thing on Google Cloud." That's very, very passionate to me. That's because I got so much support from Googlers like yourself, and also the other product managers, who reviewed each and every chapter of the book. And I believe till today that is the only comprehensive book that has been written. 
 
-I am looking forward to have some time to actually rewrite the book, but probably in a different form, not as an entire book. Because the pace at which the Google Cloud Platform universe is expanding, there is no way I can write one book cover to cover. And it's just going to be a Bible very soon, right? That's the way it's going to go. 
+I am looking forward to have some time to actually rewrite the book, but probably in a different form, not as an entire book. Because the pace at which the Google Cloud universe is expanding, there is no way I can write one book cover to cover. And it's just going to be a Bible very soon, right? That's the way it's going to go. 
 
 FRANCESC: Yeah. By the time you finish the book, also, we have released plenty of products. 
 
@@ -573,7 +573,7 @@ FRANCESC: That is cool.
 
 MARK: It sounds like you've done a whole bunch of events. Were there particular events around the APAC region that you found were particularly great, like community events or conferences or anything like that, considering you spoke so much around the area? 
 
-KRISHNAN: Primarily, my talkings were in the GDG meet ups in Singapore, then on the Dev Fest in Brunei. Then there was one event. It was some kind of a cloud conference in Malaysia-- I forgot the name-- that was having a multi vendors kind of thing. And I presented about the Google Cloud Platform there. 
+KRISHNAN: Primarily, my talkings were in the GDG meet ups in Singapore, then on the Dev Fest in Brunei. Then there was one event. It was some kind of a cloud conference in Malaysia-- I forgot the name-- that was having a multi vendors kind of thing. And I presented about the Google Cloud there. 
 
 MARK: Fantastic. 
 
@@ -633,11 +633,11 @@ MARK: That's super cool. So why don't you both tell us a little bit about yourse
 
 ALBERT: OK. So I'm the CTO and co-founder of Symph. We're a branding, design, web, and mobile development company. So we do work for companies and governments. We do a lot of work. Maybe I think that brands you'd recognize would be the government of Philippines brand, the World Bank, and other clients as well, both local and overseas to the Philippines. 
 
-So we have a team of about 40 people. We do a lot of our work in Google Cloud Platform, obviously. That allows us to really build products for our clients quicker without having to worry about much of the DevOps. 
+So we have a team of about 40 people. We do a lot of our work in Google Cloud, obviously. That allows us to really build products for our clients quicker without having to worry about much of the DevOps. 
 
 VIKRAM: Yeah. So I'm a Full Stack Developer at Omni. We are based out of San Francisco. And we are easing the marketing needs for all the analytics performance, whether it's machine learning on that, and using that to help marketers simplify their decisions and their data collection. 
 
-FRANCESC: Cool. And why don't you tell us a little bit from your personal experience? What is your favorite feature or product of Google Cloud Platform? Maybe you go first, Vikram. 
+FRANCESC: Cool. And why don't you tell us a little bit from your personal experience? What is your favorite feature or product of Google Cloud? Maybe you go first, Vikram. 
 
 VIKRAM: So one of the two favorite features, favorite programs, I really like the no-ops strategy for Google. So that involves on one end, we have App Engine. On the other end, we have BigQuery. So both of them, when working together, they form the best ease of product usage for me because I don't have to manage anything. 
 
@@ -649,7 +649,7 @@ ALBERT: Yeah. I mean, similar here, App Engine. I mean, no-ops is really a big t
 
 I also like-- I don't know if it's Google Cloud. I don't really know what the official [INAUDIBLE]. But I really like Firebase real time database. It just really works really nicely. I mean, we spent hours, maybe even days, trying to replicate the functionality ourselves. But when you can go Firebase, it just works. 
 
-FRANCESC: Yeah. I'm not sure if Firebase is technically part of Google Cloud Platform. 
+FRANCESC: Yeah. I'm not sure if Firebase is technically part of Google Cloud. 
 
 MARK: It's part of the family. 
 
@@ -791,7 +791,7 @@ FRANCESC: +GCPPodcast.
 
 MARK: On Slack. 
 
-FRANCESC: On Slack, there is a channel called Podcast, which is part of the Google Cloud Platform community. 
+FRANCESC: On Slack, there is a channel called Podcast, which is part of the Google Cloud community. 
 
 MARK: Excellent. And I think the last one I think I'm missing is on Twitter. 
 

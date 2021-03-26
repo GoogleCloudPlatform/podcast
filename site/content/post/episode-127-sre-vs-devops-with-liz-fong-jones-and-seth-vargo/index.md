@@ -62,7 +62,7 @@ join [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nygh
 
 I’m a researcher at a regionally accredited academic institution and I need compute resources. Does Google Cloud have any programs that can help me out?
 
-- Google Cloud Platform announces new credits program for researchers [blog](https://blog.google/topics/google-cloud/google-cloud-platform-announces-new-credits-program-researchers/) [faq](https://lp.google-mkto.com/gcp-research-credits-FAQ.html?modal_active=noneBlogsocial&utm_campaign=2018-edu-gcp-research-credits)
+- Google Cloud announces new credits program for researchers [blog](https://blog.google/topics/google-cloud/google-cloud-platform-announces-new-credits-program-researchers/) [faq](https://lp.google-mkto.com/gcp-research-credits-FAQ.html?modal_active=noneBlogsocial&utm_campaign=2018-edu-gcp-research-credits)
 
 ##### Where can you find us next?
 
@@ -71,7 +71,7 @@ Mark will be speaking at the [Monthly SF Game Development Community](https://www
 
 Melanie is speaking at the [Understand Risk Forum](https://understandrisk.org/event/ur2018/) on May 17th, in Mexico City.
 
-{{< transcript "MARK: Hi, and welcome to episode number 127 of the weekly Google Cloud Platform podcast. My name is Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you do, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 127 of the weekly Google Cloud podcast. My name is Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you do, Melanie?" >}}
 
 MELANIE: I'm doing good, Mark. How are you doing? 
 
@@ -317,7 +317,7 @@ SETH: Liz and I are always looking for new and exciting things to talk about, so
 
 MARK: Liz, anything else from your end? 
 
-LIZ: And there's also the Google Cloud Platform blog, where members of my team-- the customer reliability engineering team-- publish best practices and other things that we've learned from working with large CCP customers. 
+LIZ: And there's also the Google Cloud blog, where members of my team-- the customer reliability engineering team-- publish best practices and other things that we've learned from working with large CCP customers. 
 
 MELANIE: Fantastic. 
 

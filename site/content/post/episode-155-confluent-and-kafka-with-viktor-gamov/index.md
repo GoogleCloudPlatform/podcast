@@ -75,7 +75,7 @@ Mark and Michelle will be at [KubeCon](https://events.linuxfoundation.org/events
 
 Michelle will be at [Scale by the Bay](https://scalebythebay2018.sched.com/event/Fndz) on Friday. She'll also be at YOW! [Sydney](https://sydney.yowconference.com.au/proposal/?id=6860), [Brisbane](https://brisbane.yowconference.com.au/proposal/?id=6859), & [Melbourne](https://melbourne.yowconference.com.au/proposal/?id=6858) in Nov & December.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 155 of the weekly Google Cloud Platform Podcast. My name is Mark Mandel. And I'm here with my colleague. This week, I'm joined by a very special guest, Michelle Casbon. How you doing, Michelle?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 155 of the weekly Google Cloud Podcast. My name is Mark Mandel. And I'm here with my colleague. This week, I'm joined by a very special guest, Michelle Casbon. How you doing, Michelle?" >}} 
 
 MICHELLE: I'm doing great. How are you, Mark? 
 
@@ -141,7 +141,7 @@ So Pipelines provides a Python SDK. It give you a way to from within a notebook 
 
 And then the AI Hub is where you can find sort of generic components to bring into your pipeline to make it easier to start from scratch with a few prebaked things. And those are both public objects and private. So if you're within an organization, you can have things just for you and your group. So lots of room for growth there. It's brand new. It just opened up. I believe it's in alpha release. So if you want to get started, I believe there's a link to sign up for that. 
 
-MARK: Awesome. And finally, this is something that I've actually really wanted for a really, really long time. And I'm so glad to see it. Cloud Scheduler is available. So basically, if you've ever wanted to run anything on Google Cloud Platform on a regular basis without having to start up, like, a VM with Cron or just to create a simple App Engine app just to do Cron scripting, we now have a thing that does this. And it's really good. It's a job scheduler. You set it up. It actually uses the same Crontab type format. 
+MARK: Awesome. And finally, this is something that I've actually really wanted for a really, really long time. And I'm so glad to see it. Cloud Scheduler is available. So basically, if you've ever wanted to run anything on Google Cloud on a regular basis without having to start up, like, a VM with Cron or just to create a simple App Engine app just to do Cron scripting, we now have a thing that does this. And it's really good. It's a job scheduler. You set it up. It actually uses the same Crontab type format. 
 
 But basically, if you want to push an event to an HTTP endpoint or to Pub/Sub and you want to do it on a regular basis, you can now do it through Cloud Scheduler. And you can go play with it now. And it works. And does cool stuff. So no more having to build these little App Engine apps just to do Cron stuff. 
 
@@ -215,7 +215,7 @@ So once you kind of broke this silo of your Oracle database, your data becomes a
 
 You know connectors can be two types. One can bring data in. Another can take data out. So once you extracted this from Oracle, you can do processing in Kafka using Kafka streams or T-SQL. And after that, offload this data to Mongo, to Elastic, or even to any Cloud Storage. 
 
-One of the use cases that we see right now is kind of making Kafka as a-- I don't want to sound too marketing. But it's kind of like a bridge to cloud. Sorry about that. But essentially, one of the company that I was working, instead of paying vendors to provide them ways how they can do replication-- and it's going to be very expensive-- they use Kafka CDC to change the capture of their on-prem database and replicate it to their Google Cloud Platform instance. 
+One of the use cases that we see right now is kind of making Kafka as a-- I don't want to sound too marketing. But it's kind of like a bridge to cloud. Sorry about that. But essentially, one of the company that I was working, instead of paying vendors to provide them ways how they can do replication-- and it's going to be very expensive-- they use Kafka CDC to change the capture of their on-prem database and replicate it to their Google Cloud instance. 
 
 MARK: So if someone needs to build a connector, or they want to build their own custom integration, is there like APIs, or client libraries for different languages? How does that work? 
 
@@ -269,11 +269,11 @@ So he helped to bring this to Apache Software Foundation. And after that, when t
 
 Right now, I don't remember exact number, but Confluent is the largest contributor to open-source Apache Kafka. So we have engineers who work on pushing the bits and bytes to Apache Kafka. 
 
-MARK: So this is the "Google Cloud Platform Podcast." What's the relationship between Confluent and Google Cloud at the moment? 
+MARK: So this is the "Google Cloud Podcast." What's the relationship between Confluent and Google Cloud at the moment? 
 
 VIKTOR: I would say maybe two years ago, we start getting like a lot of requests from customers saying, hey, it would be great if there would be a managed Kafka. I'm sorry. I'm starting from a little bit of history to put some of the context in place. So the customer were saying, yeah, it would be great to have managed Kafka, because we as enterprises want to focus on getting fast into cloud and getting fast into solving our business problems, rather than building infrastructure. So we start building what we call the Confluent Cloud, which is essentially, a fully managed solution for running not only Apache Kafka, but full Confluent platform. 
 
-So one of the things that we had in mind is that we don't want people manage anything. You don't need to give us your account information if you want us to run on your hardware. So we can say, yes, we can run Kafka and the Confluent platform in any public cloud provider, so pick and choose. So we released everything in AWS. And last year, was huge success of launch, a long-awaited launch of Confluent Cloud in the Google Cloud Platform. 
+So one of the things that we had in mind is that we don't want people manage anything. You don't need to give us your account information if you want us to run on your hardware. So we can say, yes, we can run Kafka and the Confluent platform in any public cloud provider, so pick and choose. So we released everything in AWS. And last year, was huge success of launch, a long-awaited launch of Confluent Cloud in the Google Cloud. 
 
 Some of the things that we initially built for this platform was architected to support running into multiple cloud environments. So essentially, we run everything in Kubernetes. 
 
@@ -283,7 +283,7 @@ VIKTOR: Kubernetes is our weapon of choice.
 
 MELANIE: Mark's doing a happy dance about Kubernetes. 
 
-VIKTOR: Keep the Kubernetes thing on the back burner. We have some news around this, as well. When we move to another cloud from AWS, we actually had to re-architect all the other things because a lot of things were easy to do in AWS. Some of the things were easy to do in Google Cloud. For example, like to spin up the Kubernetes cluster, it's much easier in the Google Cloud Platform. Or like to configure some of the things-- because simply, it was more popular. AWS has some certain API to do load balancing. 
+VIKTOR: Keep the Kubernetes thing on the back burner. We have some news around this, as well. When we move to another cloud from AWS, we actually had to re-architect all the other things because a lot of things were easy to do in AWS. Some of the things were easy to do in Google Cloud. For example, like to spin up the Kubernetes cluster, it's much easier in the Google Cloud. Or like to configure some of the things-- because simply, it was more popular. AWS has some certain API to do load balancing. 
 
 But right now, it's a parity. So when you go to Confluent Cloud and you want to spin up your Kafka, you can say, hey, I want to run this in my Google Cloud. You can just select region. And after that, you're good to go. So you don't need to think where this will be running. You just have a connection string to Kafka and that's pretty much it. 
 

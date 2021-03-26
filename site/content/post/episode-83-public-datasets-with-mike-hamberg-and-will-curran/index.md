@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.83.mp3"
 audioSize = 46530852
 categories = ["Big Data"]
 date = "2017-06-27T01:07:49Z"
-description = "Mike Hamberg and Will Curran join your co-hosts Francesc and Mark to talk through all the public datasets that Google Cloud Platform hosts for you on BigQuery and Google Compute Storage"
+description = "Mike Hamberg and Will Curran join your co-hosts Francesc and Mark to talk through all the public datasets that Google Cloud hosts for you on BigQuery and Google Compute Storage"
 draft = false
 #image="/images/post/prometheus.png"
 episodeNumber = 83
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/6k1l4k/episode_83_pub
 
 If you have ever wanted to play with huge datasets - this is the episode for you! Partner Operations Manager Mike Hamberg 
 and Program Manager Will Curran join your co-hosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) 
-to talk through all the public datasets that Google Cloud Platform hosts for you on BigQuery and Google Compute Storage.
+to talk through all the public datasets that Google Cloud hosts for you on BigQuery and Google Compute Storage.
 
 <!--more-->
 
@@ -35,9 +35,9 @@ One of the programs he manages is the Cloud Public Datasets program.
 
 ##### Cool things of the week
 
-- Google Cloud Platform expands to Australia with new Sydney region - open now [announcement](https://cloudplatform.googleblog.com/2017/06/Google-Cloud-Region-in-Sydney.html) [locations](https://cloud.google.com/about/locations/)
-- Why We’re Moving to Google Cloud Platform [blog](https://bugfender.com/blog/google-cloud-platform-vs-amazon-web-services/)
-- Story of a successful migration to Google Cloud Platform [blog](https://medium.com/meilleursagents-engineering/story-of-a-successful-migration-to-google-cloud-platform-6bc7fa0798e8)
+- Google Cloud expands to Australia with new Sydney region - open now [announcement](https://cloudplatform.googleblog.com/2017/06/Google-Cloud-Region-in-Sydney.html) [locations](https://cloud.google.com/about/locations/)
+- Why We’re Moving to Google Cloud [blog](https://bugfender.com/blog/google-cloud-platform-vs-amazon-web-services/)
+- Story of a successful migration to Google Cloud [blog](https://medium.com/meilleursagents-engineering/story-of-a-successful-migration-to-google-cloud-platform-6bc7fa0798e8)
 
 ##### Interview
 
@@ -62,7 +62,7 @@ Francesc be running a workshop at [QCon New York](https://qconnewyork.com/) on G
 Mark will be hosting the [Playcrafting Playtest Night](https://www.playcrafting.com/event/june-playtest-night/) in San Francisco 
 and speaking at [Google Cloud Summit, New York](https://cloudplatformonline.com/summit-NewYork-2017.html) with in July.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 83 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 83 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm doing very, very, very well. How are you doing, Francesc? 
 
@@ -108,9 +108,9 @@ FRANCESC: I mean, I would also be hugely excited because right now, like if you 
 
 MARK: Yeah, no, super, super excited about that. And just you know, we keep growing and growing and growing, which I'm super happy about. 
 
-FRANCESC: One more excuse to go to Australia. We have then two different stories that are really cool. They're successful-- otherwise it wouldn't have been here, I guess. A successful migration story to Google Cloud Platform. So one of them is how Bugfender migrated to Google Cloud Platform from Amazon Web Services. And it's really cool. I really like the graphics. I don't know if they someone working on them specifically or what, but they look really, really cute. 
+FRANCESC: One more excuse to go to Australia. We have then two different stories that are really cool. They're successful-- otherwise it wouldn't have been here, I guess. A successful migration story to Google Cloud. So one of them is how Bugfender migrated to Google Cloud from Amazon Web Services. And it's really cool. I really like the graphics. I don't know if they someone working on them specifically or what, but they look really, really cute. 
 
-And then on the other side, we have another story where we have a different company. This time migrating from on-prem to Google Cloud Platform. And the name of the company is, I think, MeilleursAgents. Because I think it's French. 
+And then on the other side, we have another story where we have a different company. This time migrating from on-prem to Google Cloud. And the name of the company is, I think, MeilleursAgents. Because I think it's French. 
 
 MARK: It might be French, or I could go with "Muellers." 
 
@@ -130,7 +130,7 @@ FRANCESC: [LAUGHS]
 
 MARK: They have great pictures to show how their architecture works and what they changed, what they didn't change going across from prem to Cloud. Yeah, they're both really good articles, well worth reading. 
 
-FRANCESC: Yeah, it is really cool because it got to the detail on how like, OK, so how do we do it to have infrastructure that's good, and like on on-click deployments and stuff like that. So we're going to use Jenkins, and we're going to be using Ansible. Like, it gets in a lot of detail, so it is definitely worth having a look, especially if you're considering migrating to Google Cloud Platform, there's definitely lessons to be learned. 
+FRANCESC: Yeah, it is really cool because it got to the detail on how like, OK, so how do we do it to have infrastructure that's good, and like on on-click deployments and stuff like that. So we're going to use Jenkins, and we're going to be using Ansible. Like, it gets in a lot of detail, so it is definitely worth having a look, especially if you're considering migrating to Google Cloud, there's definitely lessons to be learned. 
 
 MARK: All right, cool. So why don't we go get stuck into our public data sets with Mike and Will? 
 
@@ -144,7 +144,7 @@ MARK: Wonderful. Wonderful. And Will, how you doing?
 
 WILL: Coffee's coming along good. Glad to be here. 
 
-FRANCESC: Excellent, excellent. It is a little earlier than we usually get up, but thank you so much for joining us. We are here today to talk to you about public data sets on Google Cloud Platform. But before we do that, why don't we just have a quick chat about who you are, and what do you do at Google? Will, why don't you go first? 
+FRANCESC: Excellent, excellent. It is a little earlier than we usually get up, but thank you so much for joining us. We are here today to talk to you about public data sets on Google Cloud. But before we do that, why don't we just have a quick chat about who you are, and what do you do at Google? Will, why don't you go first? 
 
 WILL: Yeah, I'm a Program Manager with Google Cloud up here in the Seattle office. And I'm focused on data and analytics partners. And I'm very passionate about improving access to the world's data sets. One of the programs I manage is the Cloud public data sets program. 
 
@@ -372,7 +372,7 @@ FRANCESC: I like ridiculous demos. They're fun.
 
 MARK: Excellent. All right, well, why don't we get stuck into the question of the week? 
 
-FRANCESC: Sure. I think the question of the week was basically, OK, so I'm able to see how much money I am paying for Google Cloud Platform. And I'm able to see pretty much from a high-level point of view where that money-- why that money's being built. Like, you're able to see that many hours of whatever kind of instance you're using or storage or networking or stuff like that. 
+FRANCESC: Sure. I think the question of the week was basically, OK, so I'm able to see how much money I am paying for Google Cloud. And I'm able to see pretty much from a high-level point of view where that money-- why that money's being built. Like, you're able to see that many hours of whatever kind of instance you're using or storage or networking or stuff like that. 
 
 But I actually want to have a better view, like I really want to drill into more detail in the data. How do I do this? 
 

@@ -72,7 +72,7 @@ Mark will be speaking at the [Monthly SF Game Development Community](https://www
 
 Melanie is speaking at a joint [WiMLDS](http://wimlds.org) and [PyLadies](http://www.pyladies.com) event "Paths to Data Science" on June 26th. More details to come.
 
-{{< transcript "MARK: Hi, and welcome to episode number 128 of the weekly Google Cloud Platform podcast. My name is Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you do, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 128 of the weekly Google Cloud podcast. My name is Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you do, Melanie?" >}}
 
 MELANIE: I'm doing good, Mark. How are you doing? 
 
@@ -92,7 +92,7 @@ MARK: Indeed. This week, we have Cassie Kozyrkov joining us to talk about decisi
 
 MELANIE: Yes, very much so. 
 
-MARK: And we also have cool things of the week, but we finally will finish up with our question of the week, talking about how you can secure your Google Cloud Platform account using a YubiKey, or basically, a physical device. 
+MARK: And we also have cool things of the week, but we finally will finish up with our question of the week, talking about how you can secure your Google Cloud account using a YubiKey, or basically, a physical device. 
 
 MELANIE: I like anything around security. So, as you mentioned, Mark, we're going to start out with the cool things of the week. And this week, we wanted to bring up that TPUs are now available in beta on Cloud Machine Learning Engine. So if you want to play around with the TPU, you don't have to sign up to get approved to have access. You can just go onto the Machine Learning Engine and set that up. We have a link to the information about this on our ShowNets, as always. And one of the links, in particular, will tell you exactly how to set this up, and also, how to use a ResNet model. It gives a nice little example of setting up a ResNet model and running that on the Machine Learning Engine. So check it out. 
 
@@ -322,7 +322,7 @@ MARK: Yeah. So, there is also are these devices like security keys, or you may h
 
 MELANIE: Some of them are shaped almost like a thumb drive. But they're not a thumb drive in terms of holding actual data on them, but they're a way of proving that you exist and that you are next to the device that you're using. 
 
-MARK: What you can do is basically, you can secure your Google Cloud account that gives you access to Google Cloud Platform using all these actual options. So you can actually do it through-- you have two factor authentication using text messages as a Google Authenticator, which is a rolling number that you can use as a two factor authentication you have on your Android and iOS devices, as well as security keys themselves. We'll have a link in the show notes describing how you can do that. 
+MARK: What you can do is basically, you can secure your Google Cloud account that gives you access to Google Cloud using all these actual options. So you can actually do it through-- you have two factor authentication using text messages as a Google Authenticator, which is a rolling number that you can use as a two factor authentication you have on your Android and iOS devices, as well as security keys themselves. We'll have a link in the show notes describing how you can do that. 
 
 But what that ends up happening is when you, say, do a GCloud auth login, so you're doing like GCloud authentication, or you're trying to do something through the console, it asks you for you two factor auth when you log in, so that your authentication has that extra layer of security. 
 

@@ -33,11 +33,11 @@ and order management systems, support millions of customers per day!
 ##### Cool things of the week
 
 - 100 announcements (!) from Google Cloud Next '17 [blog](https://blog.google/topics/google-cloud/100-announcements-google-cloud-next-17/)
- - Identity-Aware Proxy (IAP) for Google Cloud Platform (Beta) [site](https://cloud.google.com/iap)
+ - Identity-Aware Proxy (IAP) for Google Cloud (Beta) [site](https://cloud.google.com/iap)
  - Cloud.google.com/community [site](https://cloud.google.com/community/)
  - Cloud SQL for Postgre SQL (Beta) [site](https://cloud.google.com/sql/)
  - 64 Core machines + more memory [blog](https://cloudplatform.googleblog.com/2017/02/Google-Cloud-Platform-your-Next-home-in-the-cloud.html)
-- A new issue tracker for Google Cloud Platform [blog](https://cloudplatform.googleblog.com/2017/03/a-new-issue-tracker-for-Google-Cloud-Platformud.html) 
+- A new issue tracker for Google Cloud [blog](https://cloudplatform.googleblog.com/2017/03/a-new-issue-tracker-for-Google-Cloud-Platformud.html) 
 - Happy Pi Day! [site](https://pi.delivery/)
 
 ##### Interviews
@@ -65,7 +65,7 @@ and then on to [East Coast Games Conference](http://ecgconf.com/) and [Vector](h
 
 Francesc will be presenting at [Gophercon China](http://www.bagevent.com/event/357764) in April.  
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 68 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 68 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm doing well, Francesc. It's all over. Next is over. 
 
 FRANCESC: Listen to this-- silence. 
@@ -192,13 +192,13 @@ FRANCESC: And then you can also add 8 GPUs, and you have the most powerful machi
 
 MARK: Yeah, why even bother buying a machine at home? Like, just use that constantly. All right, so I think there's definitely Cool Things of the Week. There's one other cool thing I want to mention really quickly because it came out just before Next. And I think it kind of-- it got buried a little. 
 
-So there's a new issue tracker for Google Cloud Platform. And there's one, like, this is the one centralized tracker-- 
+So there's a new issue tracker for Google Cloud. And there's one, like, this is the one centralized tracker-- 
 
 FRANCESC: Yeah. 
 
 MARK: --which is super cool. So you can go to issuetracker.google.com. And you can go there and search through it for any public issues for basically any of our products, which is super sweet. 
 
-FRANCESC: Not only Google Cloud Platform but actually just Google. So you'll see bugs for everything. Basically, anything that the whole point here is not as much for you to submit more bugs but to also track what we're working on, and what are the things we're trying to fix, and stuff like that. 
+FRANCESC: Not only Google Cloud but actually just Google. So you'll see bugs for everything. Basically, anything that the whole point here is not as much for you to submit more bugs but to also track what we're working on, and what are the things we're trying to fix, and stuff like that. 
 
 MARK: Yeah. 
 
@@ -250,9 +250,9 @@ WILLIAM: Yeah, or The Ohio State University.
 
 FRANCESC: And second question is what does your stack look like? Like, you said that you have process a bunch of events per day. How do you process those? Are you on premise? Are you in the cloud? 
 
-WILLIAM: Well, right now, we're in the middle of kind of a hybrid. We have on-premise, and we have cloud. We've actually been working with Google for about two years to move our e-commerce platform to the Google Cloud Platform. So we're a little bit of in a hybrid today. 
+WILLIAM: Well, right now, we're in the middle of kind of a hybrid. We have on-premise, and we have cloud. We've actually been working with Google for about two years to move our e-commerce platform to the Google Cloud. So we're a little bit of in a hybrid today. 
 
-We actually talked about that. We had a couple speaking sessions this conference where we actually talked about that architecture. So we're about 75% into the Google Cloud Platform now. 
+We actually talked about that. We had a couple speaking sessions this conference where we actually talked about that architecture. So we're about 75% into the Google Cloud now. 
 
 MARK: Nice. 
 
@@ -280,7 +280,7 @@ MARK: So actually we get this question kind of all the time when people are like
 
 WILLIAM: Yeah, I mean, that's kind of challenging. It really depends on-- I mean, there's a number of factors there. One of the things that we've been doing throughout this migration-- and it's taken us the last couple of years-- is still using our on-prem e-commerce platform as the nucleus. 
 
-So that's kind of the nucleus. And as we're pulling pieces out, we're still running things through that central hub. And so that can make calls out to services, for example, that we may launch in the Google Cloud Platform. So we've just been doing that piecemeal. 
+So that's kind of the nucleus. And as we're pulling pieces out, we're still running things through that central hub. And so that can make calls out to services, for example, that we may launch in the Google Cloud. So we've just been doing that piecemeal. 
 
 The other thing that we did was we did some of the things that may be a little easier or less transactional initially, like I mentioned the Store Finder. That's something that's a service that doesn't have a transactional nature. It's more of a read-only type of service. 
 
@@ -326,7 +326,7 @@ WILLIAM: Yep. Well, and I'll mention it really isn't external from Google in the
 
 A couple of things I would mention there is the historical context that the Home Depot and our e-commerce team is-- we kind of historically had more of what you might call a web-engineering or web-operations team, where we're managing the infrastructure. It's more manual. We do have some automation in there. But the infrastructure itself is not manual, and the provisioning's much harder. 
 
-So as we've evolved into the SRE model, we did that at the same time as we migrated to the Google Cloud Platform. And the big difference there is we're interacting with the infrastructure everything. Firewall, compute, storage-- you name it, we're interacting with it through APIs. And we're provisioning things automatically. So we're no longer logging into servers and making changes. We're doing everything in an automated way. That's been really important to us. 
+So as we've evolved into the SRE model, we did that at the same time as we migrated to the Google Cloud. And the big difference there is we're interacting with the infrastructure everything. Firewall, compute, storage-- you name it, we're interacting with it through APIs. And we're provisioning things automatically. So we're no longer logging into servers and making changes. We're doing everything in an automated way. That's been really important to us. 
 
 MARK: No longer picking up [? Rex ?] servers and physical firewalls and stuff? 
 
@@ -354,7 +354,7 @@ WILLIAM: Yeah.
 
 FRANCESC: [CHUCKLES] 
 
-WILLIAM: No, our Black Friday was great. In fact, Paul Gaffney, our SVP of development, had mentioned that in the keynote, that this last Black Friday, we had half of our site on prem and half of our site in the Google Cloud Platform. So a lot of risk even there. You think about not even just in the Google Cloud Platform, but the interconnectivity and so forth with our on-premise platform. 
+WILLIAM: No, our Black Friday was great. In fact, Paul Gaffney, our SVP of development, had mentioned that in the keynote, that this last Black Friday, we had half of our site on prem and half of our site in the Google Cloud. So a lot of risk even there. You think about not even just in the Google Cloud, but the interconnectivity and so forth with our on-premise platform. 
 
 And so we talked a little bit about that in the keynote. But just to cut to the chase, it was a very successful Black Friday. 100% availability, performance was rock solid. And the Google CRE team was right there with us. They were right there in a virtual war room with us the whole time. 
 
@@ -524,7 +524,7 @@ WILLIAM: Everybody we hire into our team is going to have some kind of automatio
 
 FRANCESC: Amazing. So for people that might have companies not maybe as big as the Home Depot but that are right now on premises, and they're considering moving to the cloud, what would be your piece of advice? 
 
-WILLIAM: So I would say, one, regardless of where you host-- whether it's on a cloud that you have in your data center, whether it's a Google Cloud Platform, or a competitor-- you need to build your application cloud native, right? 12-factor app and all the things that kind of go into building your application in that way. You need to build it in smaller pieces so you can do independent development and deploys so you can get the business velocity. That would be the number one thing. 
+WILLIAM: So I would say, one, regardless of where you host-- whether it's on a cloud that you have in your data center, whether it's a Google Cloud, or a competitor-- you need to build your application cloud native, right? 12-factor app and all the things that kind of go into building your application in that way. You need to build it in smaller pieces so you can do independent development and deploys so you can get the business velocity. That would be the number one thing. 
 
 But the second thing I would mention, especially when you're building applications at scale, is the operational side of it. I think don't underestimate the complexity of trying to run all-- especially if you embrace a microservices architecture. Don't underestimate the complexity of running all those pieces at four nines of availability. 
 
@@ -686,7 +686,7 @@ MARK: Cool.
 
 FRANCESC: But yeah, pi.delivery. And you're going to see a bunch of demos. You can, like, visualize pi and play pi. So you can, like, actually see the music. But also, you're going to see documentation on how to use the API. 
 
-And all of this is powered on Google Cloud Platform with cloud end points and container engine and Go. 
+And all of this is powered on Google Cloud with cloud end points and container engine and Go. 
 
 MARK: Yeah, and gRPC. 
 

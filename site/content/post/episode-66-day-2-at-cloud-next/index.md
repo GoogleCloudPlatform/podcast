@@ -31,7 +31,7 @@ Today we interview some of the many Google Cloud Partners attending the conferen
 
 ##### Our favorite announcements
 
-- Free usage limits for Google Cloud Platform products [cloud.google.com/free](https://cloud.google.com/free/)
+- Free usage limits for Google Cloud products [cloud.google.com/free](https://cloud.google.com/free/)
 - PostgreSQL now available on Google Cloud SQL [docs](https://cloud.google.com/sql/docs/postgres/)
 
 ##### Interviews
@@ -69,7 +69,7 @@ We also highlighted the [Scalable Microservices with Kubernetes](https://www.uda
  
 - You can watch the [live stream](https://cloudnext.withgoogle.com/)!
 - Francesc's talk is already online: [Google Cloud Endpoints: serving your API to the world](https://www.youtube.com/watch?v=bR9hEyZ9774)
-- Mark's talk is also online here: [Building massive online worlds with SpatialOS and Google Cloud Platform](https://www.youtube.com/watch?v=DwxmlbX1HbI)
+- Mark's talk is also online here: [Building massive online worlds with SpatialOS and Google Cloud](https://www.youtube.com/watch?v=DwxmlbX1HbI)
 - More daily episodes to come - stay tuned!
 - Come find us on the ground floor at Moscone!
 
@@ -77,11 +77,11 @@ We also highlighted the [Scalable Microservices with Kubernetes](https://www.uda
   <img src="/images/post/next17day2.png" style="margin: auto;">
 </div>
 
-{{< transcript "FRANCESC: Hello and welcome to episode number 66 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hello and welcome to episode number 66 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
-MARK: I'm good. Thanks, Francesc. I realize we still have the same intro, where we say it's the weekly Google Cloud Platform progress, but it is the daily. 
+MARK: I'm good. Thanks, Francesc. I realize we still have the same intro, where we say it's the weekly Google Cloud progress, but it is the daily. 
 
-FRANCESC: The daily, weekly. The daily Google Cloud Platform podcast, indeed. 
+FRANCESC: The daily, weekly. The daily Google Cloud podcast, indeed. 
 
 MARK: Indeed. But soon we'll be back to weekly. Thank god. 
 
@@ -103,7 +103,7 @@ MARK: Some of them.
 
 FRANCESC: But yeah, we're going to have a bunch of them. But before that, there's been so many announcements that I think we should mention our favorite favorites. 
 
-MARK: I'll go first. Why not? So if you remember back in a previous episode, we had a question of the week where we actually went through and said all the things that you could use for free on Google Cloud Platform. So now, there's actually, first of all, a dedicated page you can go to. Cloud.google/free. 
+MARK: I'll go first. Why not? So if you remember back in a previous episode, we had a question of the week where we actually went through and said all the things that you could use for free on Google Cloud. So now, there's actually, first of all, a dedicated page you can go to. Cloud.google/free. 
 
 FRANCESC: Nice. 
 
@@ -115,7 +115,7 @@ MARK: Which is fine too. But now, it's $300 for 12 months.
 
 FRANCESC: Nice. That is very good. 
 
-MARK: So you have a whole year to basically use Google Cloud Platform with that $300. If you're doing smaller stuff or dev stuff, right? You've got a whole bunch of time there to get started and have a play. 
+MARK: So you have a whole year to basically use Google Cloud with that $300. If you're doing smaller stuff or dev stuff, right? You've got a whole bunch of time there to get started and have a play. 
 
 FRANCESC: That's pretty amazing. 
 
@@ -195,7 +195,7 @@ MARK: Cool, so you work for Fastly. What does Fastly do?
 
 ED: Fastly is an edge network. It does edge delivery, edge defense, edge data streaming, edge compute. Traditionally, these were known as CD ends, and the space has evolved quite a bit to be handling a lot of more interesting workloads at the edge. So we run the gamut of streaming media, protecting sites, and delivering dynamic assets. 
 
-FRANCESC: Cool. And I know that Fastly and Google Cloud Platform are pretty related. Could you tell us a little bit more about that relationship? 
+FRANCESC: Cool. And I know that Fastly and Google Cloud are pretty related. Could you tell us a little bit more about that relationship? 
 
 ED: Sure. We've been a part of the Google Next conference series for three years, since the first one. And we've taken that globally, from Tokyo to Paris, New York, and so on. Our relationship with Google originated when we had a large customer leaving a legacy CDN, who needed a place to store their assets. We quickly identified Google as being the Preferred Partner for storage solution. And since then it's evolved into handling a number of integrations, both from a network standpoint, a product standpoint, and go to market. 
 
@@ -223,9 +223,9 @@ FRANCESC: So yeah. Thanks, Ed, for such an interesting conversation. Lots of coo
 
 MARK: It is a very cool thing. 
 
-FRANCESC: So they basically manage workspaces, like Windows workspaces. So you can imagine office space. So you can imagine all of those workspaces being migrated to the Cloud. And they run on Google Cloud Platform. So let's talk to Jonathan Lieberman. 
+FRANCESC: So they basically manage workspaces, like Windows workspaces. So you can imagine office space. So you can imagine all of those workspaces being migrated to the Cloud. And they run on Google Cloud. So let's talk to Jonathan Lieberman. 
 
-MARK: So we're joined today by Jonathan Lieberman from Itopia, a technology partner with Google Cloud Platform. Before we get into Itopia and what it's all about, Jonathan why don't you tell us a little bit about what you do at Itopia? 
+MARK: So we're joined today by Jonathan Lieberman from Itopia, a technology partner with Google Cloud. Before we get into Itopia and what it's all about, Jonathan why don't you tell us a little bit about what you do at Itopia? 
 
 JONATHAN: Great, thank you. So thank you for having me. And I'm the CEO and co-founder of Itopia. And we're really excited to be here at Google Next 17. Where we just rolled out and announced our partnership with Google, and we're really excited to be here. 
 

@@ -29,7 +29,7 @@ Cloud Machine Learning Engine offers a managed platform for training and serving
 
 ##### About Yufeng Guo
 
-Yufeng is a Developer Advocate for the Google Cloud Platform, where he is trying to make machine learning more understandable and usable for all.
+Yufeng is a Developer Advocate for the Google Cloud, where he is trying to make machine learning more understandable and usable for all.
 He enjoys hearing about new and interesting applications of machine learning,
 share your use case with him on Twitter [@YufengG](https://twitter.com/YufengG).
 
@@ -75,14 +75,14 @@ Francesc will be presenting at [Gophercon China](http://www.bagevent.com/event/3
 
 Then he'll be back to San Francisco for [GopherFest](https://www.meetup.com/golangsf/events/238748981/).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 71 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 71 of the weekly Google Cloud Podcast. I am Francesc Campoy and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
 MARK: I'm good, thanks, Francesc. How are you doing today? 
 
 FRANCESC: Pretty good. Pretty happy. Feeling lonely. Where are you? 
 
 MARK: I am in Vancouver. It's cold here. I left sunny San Francisco to come to Vancouver. 
 
-FRANCESC: Yeah. Yeah, that will teach you. Anyway, today we're going to have a pretty cool episode. We have one of our dear developer advocates from our team at Google Cloud Platform, Yufeng Guo, to talk about the cloud machine learning engine. 
+FRANCESC: Yeah. Yeah, that will teach you. Anyway, today we're going to have a pretty cool episode. We have one of our dear developer advocates from our team at Google Cloud, Yufeng Guo, to talk about the cloud machine learning engine. 
 
 MARK: Yeah, he's going to come have a chat with us about TensorFlow, machine learning, how to do it in the cloud. How can you use it? What is this crazy thing? 
 
@@ -186,7 +186,7 @@ So given some input, it can continue. And that's the exact same idea and basis f
 
 MARK: All right, cool. So we've talked about TensorFlow through the Open Source Project. Let's talk about Cloud Machine Learning Engine and what is that thing. So can you tell us what's the difference, or what is the Cloud Machine Learning Engine from a high level? 
 
-YUFENG: So the Cloud Machine Learning Engine is, really, at its core, managed infrastructure for running TensorFlow on the Google Cloud Platform. And so we'll break down each of those points. The part about it being managed infrastructure, the difference there is, it's not that you need to spin up some virtual machines, allocate some storage, or persistent disk, and then tell it, oh, here's where I want you to run the things. It will do that for you. It will spin up the machines, it will make sure the right libraries are installed, et cetera. 
+YUFENG: So the Cloud Machine Learning Engine is, really, at its core, managed infrastructure for running TensorFlow on the Google Cloud. And so we'll break down each of those points. The part about it being managed infrastructure, the difference there is, it's not that you need to spin up some virtual machines, allocate some storage, or persistent disk, and then tell it, oh, here's where I want you to run the things. It will do that for you. It will spin up the machines, it will make sure the right libraries are installed, et cetera. 
 
 And so you have this managed infrastructure, and then you, then, just have to give it your TensorFlow code. And we have the G Cloud command line tool that will take care of that for you as well. The code goes up, and then the machines are automatically created for you, spun up, and your code is loaded in, and then it runs it for you. 
 

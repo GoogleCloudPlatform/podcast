@@ -29,7 +29,7 @@ and he explains to your cohosts  [Francesc](https://twitter.com/francesc) and
 
 [Paul](https://twitter.com/newsons_nybbles) currently is going through a six month
 rotation as a Software Reliability Engineer,
-previously he focused on helping developers harness the power of Google Cloud Platform
+previously he focused on helping developers harness the power of Google Cloud
 to solve their big data problems. Before that, he was an engineer on Google Cloud Storage.
 
 Before joining Google, Paul founded a startup which was acquired by Microsoft, where he
@@ -48,7 +48,7 @@ on machine learning problems at Microsoft Research.
   <img src="/images/post/sre-land.png" width="50%">
 </div>
 
-- Google Cloud Platform opens its first West Coast region [TechCrunch](https://techcrunch.com/2016/07/20/google-cloud-platform-opens-its-oregon-region-to-better-serve-the-west-coast/)
+- Google Cloud opens its first West Coast region [TechCrunch](https://techcrunch.com/2016/07/20/google-cloud-platform-opens-its-oregon-region-to-better-serve-the-west-coast/)
 - Site Reliability Engineering [Book](https://landing.google.com/sre/book.html)
 - Go Programming Language [Homepage](https://golang.org)
 - Keys to SRE - SREcon14 [YouTube](https://youtu.be/n4Wf14e2jxQ)
@@ -63,7 +63,7 @@ on machine learning problems at Microsoft Research.
 - Francesc is working on a video series [justforfunc](https://www.youtube.com/playlist?list=PL64wiCrrxh4Jisi7OcCJIUpguV_f5jGnZ)
 - Mark will be at [PAX DEV](http://dev.paxsite.com/) in Seattle and then [Strange Loop](http://www.thestrangeloop.com/) in St Louis
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 38 of the Weekly Google Cloud Platform Podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 38 of the Weekly Google Cloud Podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How are you doing today? 
 
 FRANCESC: Very good, very good-- very, very happy to have a repeating guest today. 
@@ -140,7 +140,7 @@ I mean, it's hard to describe. What is the conversation you can have about that?
 
 So then I hit on the idea of, maybe now's the time for me to do this Mission Control rotation and really learn what this is all about. So that's what I did. And I started on that in May. And I guess it's July now. So I'm a couple of months in. 
 
-And so it's still just the beginning. One of the things that I'm excited to do while I'm on this rotation is write about it on the Google Cloud Platform blog. So I did that a couple of weeks ago I think. And now I'm here talking to you guys on the podcast. 
+And so it's still just the beginning. One of the things that I'm excited to do while I'm on this rotation is write about it on the Google Cloud blog. So I did that a couple of weeks ago I think. And now I'm here talking to you guys on the podcast. 
 
 FRANCESC: Yeah, the blog post was amazing-- really loved it. 
 
@@ -236,7 +236,7 @@ FRANCESC: That reminds me of the joke-- if you're not good, I'll replace you wit
 
 PAUL: Exactly. We don't want to hire more SREs to do the same thing that we're doing. We want to write scripts for what we're doing today, and then go do something interesting tomorrow that we haven't done before. 
 
-FRANCESC: So talking about things that are interesting, you said that you are not on call and that you're doing other things. One of those things is actually a pretty amazing thing. It is a new region on Google Cloud Platform. 
+FRANCESC: So talking about things that are interesting, you said that you are not on call and that you're doing other things. One of those things is actually a pretty amazing thing. It is a new region on Google Cloud. 
 
 PAUL: That's correct. I had the privilege of being peripherally involved in the unveiling of our new US West One region this past week, which was a really great experience. And I want to be super clear here that many, many, many other people did tons and tons and tons of work over many weeks to actually bring up a new region. 
 
@@ -326,7 +326,7 @@ And then if that really whets your appetite, and you really want to go deep, the
 
 And I think there's a lot of good wisdom in there. It was written by people who are SREs at Google. It's sort of a series of essays on a series of important topics. I think there's a lot of really good knowledge in there. So that would be a fantastic resource. 
 
-And then finally, if you are interested in this topic but don't have the time to read the book or can't set aside the 45 minutes, just keep watching the Google Cloud Platform blog. Because I hope to publish more little nuggets of my experience there in a way that won't take you hours and hours to consume, where I can introduce some of the concepts and some of the aha moments I've had along the way. And maybe you can share. 
+And then finally, if you are interested in this topic but don't have the time to read the book or can't set aside the 45 minutes, just keep watching the Google Cloud blog. Because I hope to publish more little nuggets of my experience there in a way that won't take you hours and hours to consume, where I can introduce some of the concepts and some of the aha moments I've had along the way. And maybe you can share. 
 
 Because I'm on this journey from not understanding this stuff to hopefully understanding this stuff. And I hope to publish some of those aha moments along the way when I have these realizations about what's important and what's cool. And maybe you can vicariously share in those with me on the blog. 
 

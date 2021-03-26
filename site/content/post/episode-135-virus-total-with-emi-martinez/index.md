@@ -85,7 +85,7 @@ We'll both be at [Cloud NEXT!](https://cloud.withgoogle.com/next18/sf/)
 
 Melanie will speak at [CERN](https://home.cern/) July 17th and [PyCon Russia](http://pycon.ru/2018/en/) July 22nd
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 135 of the weekly Google Cloud Platform Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 135 of the weekly Google Cloud Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm good. How are you, Mark? 
 

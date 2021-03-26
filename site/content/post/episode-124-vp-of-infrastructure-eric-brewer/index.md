@@ -68,7 +68,7 @@ will be presenting on Agones at [Cloud Next](https://cloud.withgoogle.com/next18
 Melanie will be presenting at the [internet2 Global Summit](https://meetings.internet2.edu/2018-global-summit/), May 9th in San Diego,
 and will also be talking at the [Understand Risk Forum](https://understandrisk.org/event/ur2018/) on May 17th, in Mexico City.
 
-{{< transcript "MARK: Hi, and welcome to episode number 124 of the weekly \"Google Cloud Platform Podcast.\" I am Mark Mandel, and I'm here with my colleague, as always, Melanie Warrick. Hello, Melanie. How are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 124 of the weekly \"Google Cloud Podcast.\" I am Mark Mandel, and I'm here with my colleague, as always, Melanie Warrick. Hello, Melanie. How are you doing today?" >}}
 
 MELANIE: Doing OK. How are you doing? 
 
@@ -86,7 +86,7 @@ MARK: Exactly. Just don't make me laugh, and everything will be fine.
 
 MELANIE: This is Mark. Mark now operates at coughing level. 
 
-MARK: Exactly. But, yeah, this week, super excited. We have the VP of Infrastructure for Google Cloud Platform, Eric Brewer, joining us today. 
+MARK: Exactly. But, yeah, this week, super excited. We have the VP of Infrastructure for Google Cloud, Eric Brewer, joining us today. 
 
 MELANIE: Yes. It was fun talking with Eric. He has a wide variety of experiences and background in that he was one of the key players in bringing about Kubernetes. 
 

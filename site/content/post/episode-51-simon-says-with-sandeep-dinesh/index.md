@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.51.mp3"
 audioSize = 47087826
 categories = ["Internet of Things", "Kubernetes", "gRPC"]
 date = "2016-11-09T01:07:49Z"
-description = "Sandeep Dinesh, a fellow Developer Advocate for Google Cloud Platform, joins us to talk about how Mark and Sandeep built a fun IoT version of Simon Says."
+description = "Sandeep Dinesh, a fellow Developer Advocate for Google Cloud, joins us to talk about how Mark and Sandeep built a fun IoT version of Simon Says."
 draft = false
 episodeNumber = 51
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/5c24rz/episode_51_sim
   name = "fimage"
 +++
 
-[Sandeep Dinesh](https://twitter.com/sandeepdinesh), a fellow Developer Advocate for Google Cloud Platform,
+[Sandeep Dinesh](https://twitter.com/sandeepdinesh), a fellow Developer Advocate for Google Cloud,
 joins your cohosts [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic)
 to talk about how Mark and Sandeep built a fun IoT version of Simon Says.
 
@@ -52,7 +52,7 @@ Sandeep loves video games, making music, and martial arts, and has Bachelors in 
 - Developing for Arduino with Docker and Johnny-Five on OS X [Medium](https://medium.com/google-cloud/developing-for-arduino-with-docker-and-johnny-five-on-osx-cc6813ae6e9d#.wysydp5m6)
 - Go: code that grows with grace [Vimeo](https://vimeo.com/53221560)
 - Redis: in-memory data structure store [docs](http://redis.io/)
-- Run Redis on Google Cloud Platform [docs](https://cloud.google.com/nodejs/resources/databases/redis)
+- Run Redis on Google Cloud [docs](https://cloud.google.com/nodejs/resources/databases/redis)
 - #11 The Internet of Things with Jen Tong [gcppodcast.com](https://gcppodcast.com/post/episode-11-internet-of-things-with-jen-tong/)
 - Socket.IO enables real-time bidirectional event-based communication [docs](http://socket.io/)
 - Real-time IoT with Containers and gRPC  - Mark Mandel @ Ubiquity Dev Summit [YouTube](https://www.youtube.com/watch?v=nz-LcdoMYWA)
@@ -76,7 +76,7 @@ How can I train Tensforflow models at scale?
 Mark will be speaking about Simon Says at [DevFest West 2016 by GDG Silicon Valley](https://www.eventbrite.com/e/devfest-west-2016-tickets-28134010583)
 on Sunday in Mountain View, CA.
 
-{{< transcript "FRANCESC: Hi, and welcome to Episode number 51 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing? " >}}
+{{< transcript "FRANCESC: Hi, and welcome to Episode number 51 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing? " >}}
 MARK: I am good. Thank you, Francesc. How are you doing today? 
 
 FRANCESC: Very good. Very happy to have someone from our team that I really just assumed we had interviewed before, but happens to be we didn't yet. 
@@ -153,7 +153,7 @@ FRANCESC: Yeah. That is awesome. Cool. So I think it's time to go talk to Sandee
 
 MARK: Which is me, yes. Yeah, let's go talk to myself. 
 
-FRANCESC: I'm very happy to welcome today Sandeep Dinesh, fellow Developer Advocate from the Google Cloud Platform team. Hi. How are you doing? 
+FRANCESC: I'm very happy to welcome today Sandeep Dinesh, fellow Developer Advocate from the Google Cloud team. Hi. How are you doing? 
 
 SANDEEP: Awesome. Finally happy to be on the podcast. 
 
@@ -235,7 +235,7 @@ FRANCESC: Cool. OK.
 
 SANDEEP: Yep. 
 
-FRANCESC: So why don't you tell us a little bit about how you built this? We're on Google Cloud Platform podcast, so I'm assuming that the cloud is involved? 
+FRANCESC: So why don't you tell us a little bit about how you built this? We're on Google Cloud podcast, so I'm assuming that the cloud is involved? 
 
 SANDEEP: Yeah. 
 
@@ -491,7 +491,7 @@ SANDEEP: So for me, this was my first IoT project with Node.js. So using Johnny-
 
 So I wrote C for a very long time. I had a startup that was doing IoT stuff. And you can shoot yourself in the foot so easily, right? Like buffer overflow and out of memory. And you only have so much room on those devices. But with Johnny-Five, it was just so nice to write IoT code in JavaScript. 
 
-FRANCESC: Yeah. It is probably worth mentioning that we interviewed, a long time ago-- that was on February 3rd, so a super long time ago. We interviewed Jen Tong, another developer advocate from the Google Cloud Platform Podcast-- from the Google Cloud Platform, sorry, not the podcast. And she also talked about Johnny-Five and how it's such a good way to get started doing IoT stuff. So we have a link to that episode, too. It's episode number 11. 
+FRANCESC: Yeah. It is probably worth mentioning that we interviewed, a long time ago-- that was on February 3rd, so a super long time ago. We interviewed Jen Tong, another developer advocate from the Google Cloud Podcast-- from the Google Cloud, sorry, not the podcast. And she also talked about Johnny-Five and how it's such a good way to get started doing IoT stuff. So we have a link to that episode, too. It's episode number 11. 
 
 MARK: I think for me, actually, I hadn't had a chance to play with Redis before. I've known a lot of people who I've known who have used it and been huge fans and never had a chance to really play with it. 
 
@@ -665,13 +665,13 @@ TIMOTHY: I'm doing great. I hear that you guys have a question of the week, and 
 
 MARK: Please. Please, go right ahead. 
 
-TIMOTHY: OK. So on "The Developer Show," we've been talking a lot about machine learning recently. And a lot developers know that TensorFlow is a fast, flexible, and scalable open source machine learning framework. But what they don't all seem to know is that you can train and run TensorFlow models on Google Cloud Platform. Can you tell us a little bit more about the details of that? 
+TIMOTHY: OK. So on "The Developer Show," we've been talking a lot about machine learning recently. And a lot developers know that TensorFlow is a fast, flexible, and scalable open source machine learning framework. But what they don't all seem to know is that you can train and run TensorFlow models on Google Cloud. Can you tell us a little bit more about the details of that? 
 
-SANDEEP: Yeah, that's a great question. So I think that when you are referring to is what we call the Google Cloud Machine Learning Platform, Cloud ML for short. And basically, it allows you to train models on Google Cloud Platform infrastructure, yeah. 
+SANDEEP: Yeah, that's a great question. So I think that when you are referring to is what we call the Google Cloud Machine Learning Platform, Cloud ML for short. And basically, it allows you to train models on Google Cloud infrastructure, yeah. 
 
 TIMOTHY: And that's, I think, really key. Because once you get into machine learning pretty deeply, your data is so large, and training takes so long on your desktop at home, that having a scalable infrastructure to train on becomes critical. 
 
-FRANCESC: Yeah. It is definitely very, very important if you're going to start training models. So you can start with either your own model or choose one from the TensorFlow framework, which is open source. And then you're going to need to train those models. And no matter how big the data you're using is, you're going to be able to do that on managed and completely scalable infrastructure on Google Cloud Platform. 
+FRANCESC: Yeah. It is definitely very, very important if you're going to start training models. So you can start with either your own model or choose one from the TensorFlow framework, which is open source. And then you're going to need to train those models. And no matter how big the data you're using is, you're going to be able to do that on managed and completely scalable infrastructure on Google Cloud. 
 
 And then once you're done, you're going to be able to serve those trained models. So you can do predictions based on that with live traffic, again, on Google Cloud ML. 
 

@@ -37,7 +37,7 @@ Peter Norvig is a Director of Research at Google; previously he directed Google'
 - Introducing Preemptible GPUS: 50% off [blog](https://cloudplatform.googleblog.com/2018/01/introducing-preemptible-gpus-50-off.html)
 - How We Implemented a Fully Serverless Recommender System Using GCP [blog](https://medium.com/@willian.fuks/how-we-implemented-a-fully-serverless-recommender-system-using-gcp-9c9fbbdc46cc)
 - Awesome lists [repo](https://github.com/sindresorhus/awesome):
-    - Awesome Google Cloud Platform [repo](https://github.com/GoogleCloudPlatform/awesome-google-cloud)
+    - Awesome Google Cloud [repo](https://github.com/GoogleCloudPlatform/awesome-google-cloud)
     - Awesome Kubernetes [repo](https://github.com/ramitsurana/awesome-kubernetes)
     - Awesome TensorFlow [repo](https://github.com/jtoy/awesome-tensorflow)
     - Awesome Firebase [repo](https://github.com/afonsopacifer/awesome-firebase)
@@ -57,7 +57,7 @@ Peter Norvig is a Director of Research at Google; previously he directed Google'
 
 How does a startup get GCP credits?
 
-- Google Cloud Platform Startup Program [site](https://cloud.google.com/developers/startups/)
+- Google Cloud Startup Program [site](https://cloud.google.com/developers/startups/)
 
 ##### CPU Vulnerability Links
 
@@ -70,7 +70,7 @@ How does a startup get GCP credits?
 
 San Francisco
 
-{{< transcript "MARK: Hi, and welcome to episode 108 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing this morning, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode 108 of the weekly Google Cloud podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing this morning, Melanie?" >}}
 
 MELANIE: Happy new year, Mark. 
 
@@ -108,7 +108,7 @@ We'll have a link in the show notes as well to the blog post, which links to the
 
 MELANIE: Yes, cheaper is always better. All right, and the other cool thing of the week is that we have a couple of awesome lists that we wanted to share with everybody. We've got some links we'll put into the website as always. But specifically, if you've played around with GitHub and you've seen the awesome and awesome list of awesomeness, there are some awesome lists for TensorFlow. There are awesome lists for Kubernetes. 
 
-There's awesome lists for GCP, Google Cloud Platform itself. And the awesome lists are really using contributors contributing what they think are some really great training resources, as well as real world application, samples, libraries, analytics. They put out there what they think are good tools and resources to have access to and consolidate that down into a list. And I think, Mark, you said you found in here something that you guys had built. 
+There's awesome lists for GCP, Google Cloud itself. And the awesome lists are really using contributors contributing what they think are some really great training resources, as well as real world application, samples, libraries, analytics. They put out there what they think are good tools and resources to have access to and consolidate that down into a list. And I think, Mark, you said you found in here something that you guys had built. 
 
 MARK: Yeah, I didn't realize it. I was just looking at this now. There's a GRPC sample that myself, Sandeep, Danesh, and a couple of other developer advocates also did some work on where we took the old game sign and with the multi-colors and made it playable over the internet using to see and Kubernetes and that's on the list, which I feel a little proud. It's quite nice. 
 

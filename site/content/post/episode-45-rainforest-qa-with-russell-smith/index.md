@@ -79,14 +79,14 @@ You can find [Mark](https://twitter.com/neurotic) at [SIEGE](https://siegecon.ne
 [Go workshop](http://www.meetup.com/NYC-Women-Who-Go/events/234422794/?a=socialmedia)
 on October 5th, and then he'll do a similar meetup this time [online](https://www.bigmarker.com/remote-meetup-go/Mini-Workshop-Build-a-Web-App-with-Francesc).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 45 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel. Hello." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 45 of the weekly Google Cloud Podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel. Hello." >}}
 MARK: Hi, Francesc. How are you doing today? 
 
 FRANCESC: Pretty good. Pretty excited about the interview with, again, one of my friends, Russell Smith from Rainforest QA. He's going to be telling us about what they do at Rainforest QA and how they use BigQuery to power all their analytics. 
 
 MARK: Analytics, yes. Basically analytics. No, it's actually really cool. They have, again, Cross Cloud. It's an app running on Roku. And they poured a lot of their analytics over into BigQuery. It's pretty cool. 
 
-FRANCESC: Yeah, I think that is one of the ways people start using Google Cloud Platform very often is because like, oh, BigQuery's cool. 
+FRANCESC: Yeah, I think that is one of the ways people start using Google Cloud very often is because like, oh, BigQuery's cool. 
 
 MARK: BigQuery's cool. 
 

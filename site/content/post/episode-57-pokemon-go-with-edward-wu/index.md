@@ -41,9 +41,9 @@ he collected from three visits to Antarctica and the South Pole.
 
 - How we secure our infrastructure: a white paper [blog post](https://cloudplatform.googleblog.com/2017/01/how-we-secure-our-infrastructure.html)
 - Google Infrastructure Security Design Overview [docs](https://cloud.google.com/security/security-design/)
-- Google Cloud Platform icons and sample architectural diagrams, for your designing pleasure [blog post](https://cloudplatform.googleblog.com/2016/12/Google-Cloud-Platform-icons-and-sample-architectural-diagrams-for-your-designing-pleasure.html)
+- Google Cloud icons and sample architectural diagrams, for your designing pleasure [blog post](https://cloudplatform.googleblog.com/2016/12/Google-Cloud-Platform-icons-and-sample-architectural-diagrams-for-your-designing-pleasure.html)
 - Solution Icons for Architectural Diagrams [link](https://cloud.google.com/icons/)
-- Continuous Deployment to Google Cloud Platform with Drone [NYTimes](https://open.blogs.nytimes.com/2017/01/12/continuous-deployment-to-google-cloud-platform-with-drone/?_r=1)
+- Continuous Deployment to Google Cloud with Drone [NYTimes](https://open.blogs.nytimes.com/2017/01/12/continuous-deployment-to-google-cloud-platform-with-drone/?_r=1)
 - You can read all the source code in:
     - [Drone](https://github.com/drone/drone)
     - [Drone GKE](https://github.com/nytimes/drone-gke)
@@ -53,7 +53,7 @@ he collected from three visits to Antarctica and the South Pole.
 
 - Pokémon GO [homepage](http://www.pokemongo.com/)
 - Bringing Pokémon GO to life on Google Cloud [blog post](https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html)
-- Leveraging the Google Cloud Platform [niantic](https://nianticlabs.com/blog/googlecloud/)
+- Leveraging the Google Cloud [niantic](https://nianticlabs.com/blog/googlecloud/)
 - Ingress [homepage](https://www.ingress.com/)
 - Introducing Google Customer Reliability Engineering [blog post](https://cloudplatform.googleblog.com/2016/10/introducing-a-new-era-of-customer-support-Google-Customer-Reliability-Engineering.html)
 - 'Pokémon GO' Is About To Surpass Twitter In Daily Active Users On Android [Forbes](http://www.forbes.com/sites/jasonevangelho/2016/07/10/pokemon-go-about-to-surpass-twitter-in-daily-active-users/#192ba1a85174)
@@ -83,7 +83,7 @@ I have these keys that I want to use for encrypting my data at rest.
   <p><small>Different solutions for different security needs</small></p>
 </div>
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 57 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 57 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good. Happy new year! 
 
 FRANCESC: Happy new year to you and to you all people listening everywhere around the world. 
@@ -124,7 +124,7 @@ But before that, we have the Cool Things of the Week. The first Cool Thing of th
 
 MARK: I don't understand. You figure that people shut down over that period. But no, apparently, everybody's like, let's release a whole bunch of stuff. 
 
-FRANCESC: They work harder. It's like please, people, chill. Anyways, so the first one is this blog post that is part of the Google Cloud Platform blog post on how we secure our infrastructure. As in, how we secure our own Google Cloud Platform infrastructure. 
+FRANCESC: They work harder. It's like please, people, chill. Anyways, so the first one is this blog post that is part of the Google Cloud blog post on how we secure our infrastructure. As in, how we secure our own Google Cloud infrastructure. 
 
 So the blog post is a pretty short blog post, but it actually points to a security design white paper that is definitely worth reading. It has I really like that it starts with a CIO-level summary. So there's basically four points that you care about, what they are going to be talking about. But you can go into it in more details and see how we protect you against DOS attacks. Or how encryption at rest works and how deletion of data happens. 
 
@@ -140,25 +140,25 @@ No, but it's a very interesting white paper nonetheless.
 
 MARK: Absolutely. So the next one is-- I don't know why, this just makes me really happy. I know a lot of people have wanted this for a while. 
 
-We now have actual icons and sample architectural diagrams for designing stuff like when you're building out your architecture on Google Cloud Platform, and you want to design it out using either, say, Google Slides, or Lucidchart, or PowerPoint. Or you just need PNGs or SVGs to put inside your favorite diagramming software. Yeah, we have those now available to you so you can use them! Which I think is actually really handy. 
+We now have actual icons and sample architectural diagrams for designing stuff like when you're building out your architecture on Google Cloud, and you want to design it out using either, say, Google Slides, or Lucidchart, or PowerPoint. Or you just need PNGs or SVGs to put inside your favorite diagramming software. Yeah, we have those now available to you so you can use them! Which I think is actually really handy. 
 
 FRANCESC: I'm incredibly excited about it, because I, like-- it is sad to say, but very often, I would Google-- I would search on Google for our own products to find that-- 
 
 MARK: Exactly! 
 
-FRANCESC: --in our own presentations. So I'm very happy that we finally got a repository. And it is open, so anyone can use it. So if you think about talking about how you use Google Cloud Platform on a presentation, feel free to go and use them. 
+FRANCESC: --in our own presentations. So I'm very happy that we finally got a repository. And it is open, so anyone can use it. So if you think about talking about how you use Google Cloud on a presentation, feel free to go and use them. 
 
 MARK: Definitely. Yeah, we have one more. 
 
-FRANCESC: Yeah, one more Cool Thing of the Week. And this one is really cool to start with, because, of course, it's written in Go. But also because it is about something that many people have asked me about how to do it, which is how do we do continuous deployment to Google Cloud Platform? Specifically, how do you do continuous deployment to App Engine and Container Engine? 
+FRANCESC: Yeah, one more Cool Thing of the Week. And this one is really cool to start with, because, of course, it's written in Go. But also because it is about something that many people have asked me about how to do it, which is how do we do continuous deployment to Google Cloud? Specifically, how do you do continuous deployment to App Engine and Container Engine? 
 
-And turns out that "New York Times"-- they have been using Google Cloud Platform for quite a while. They had this issue, and they solved it. And they open-sourced the project. 
+And turns out that "New York Times"-- they have been using Google Cloud for quite a while. They had this issue, and they solved it. And they open-sourced the project. 
 
 MARK: Yeah. It's super cool. There's new-- sorry, there's an open-source continuous integration, continuous deployment platform called Drone that's written in Go. And they built plugins for it for GKE and GAE so you can do continuous delivery and deployment to those two platforms. 
 
 FRANCESC: Yeah. 
 
-MARK: It's pretty cool. It's all built around containers. Yay containers-- we all love containers. And it's pretty neat. So super happy to see, like, the community and the ecosystem around Google Cloud Platform continue to grow. 
+MARK: It's pretty cool. It's all built around containers. Yay containers-- we all love containers. And it's pretty neat. So super happy to see, like, the community and the ecosystem around Google Cloud continue to grow. 
 
 FRANCESC: Yeah. It is definitely worth it. So check it out. We have a link on the show notes to the blog post, but also to the GitHub repost. You can go and read the code directly, which is very nice. 
 
@@ -262,9 +262,9 @@ And the reason that we stuck with Datastore was because it scales almost indefin
 
 And what we got in return was multi-entity transactions that were consistent and distributed that we didn't have to worry about making sure were backed up or replicated. And advanced indexing capabilities, which we use at both the heart of both Ingress and Pokemon Go. And so after taking a look at a lot of options, maybe using like a sharded mySQL instance, or using a different third-party NoSQL provider, we really thought that Datastore had the most advanced combination of the scale of the multi-entity transactions for a NoSQL data store as well as advanced indexing capabilities and ease of use and maintenance that were just unparalleled and frankly, were a key part of our success. 
 
-MARK: Excellent. No, that's super cool. So I know we've talked about GKE and Datastore. Are those are the only products you're using? Are you able to talk about anything else that you've used that's on Google Cloud Platform or across Google? 
+MARK: Excellent. No, that's super cool. So I know we've talked about GKE and Datastore. Are those are the only products you're using? Are you able to talk about anything else that you've used that's on Google Cloud or across Google? 
 
-EDWARD: Yes, absolutely. So one of the benefits of having worked at Google and being former Google engineers is that we've actually seen the progression of tools that Google created for its own internal engineering progressively propagated out as Google Cloud Platform products. And one of the ones I really want to highlight is Google Cloud Bigtable. You know, we loved working with Bigtable as engineers within Google. 
+EDWARD: Yes, absolutely. So one of the benefits of having worked at Google and being former Google engineers is that we've actually seen the progression of tools that Google created for its own internal engineering progressively propagated out as Google Cloud products. And one of the ones I really want to highlight is Google Cloud Bigtable. You know, we loved working with Bigtable as engineers within Google. 
 
 It's a key part of many, many, many Google systems. And its debut as an external service is for a completely different use case than for Datastore, right? Datastore we use for transactions, whereas Bigtable is more for book storage and book data processing. And it's been an incredible product to actually have on the outside, and I hope that Google continues to push more and more of the awesome internal tools that we loved as engineers in Google out to the Cloud Platform. 
 

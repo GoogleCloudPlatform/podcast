@@ -51,8 +51,8 @@ Graham works very closely with the Google cloud engineering teams in the US, whe
 ##### Interview
 
 - Sydney Cloud Region [docs](https://cloud.google.com/about/locations/sydney)
-- Google Cloud Platform expands to Australia with new Sydney region - open now [announcement](https://cloudplatform.googleblog.com/2017/06/Google-Cloud-Region-in-Sydney.html)
-- Google Cloud Platform Geography and Regions [docs](https://cloud.google.com/docs/geography-and-regions)
+- Google Cloud expands to Australia with new Sydney region - open now [announcement](https://cloudplatform.googleblog.com/2017/06/Google-Cloud-Region-in-Sydney.html)
+- Google Cloud Geography and Regions [docs](https://cloud.google.com/docs/geography-and-regions)
 - Google Cloud Dataflow [docs](https://cloud.google.com/dataflow/)
 - Google BigQuery [docs](https://cloud.google.com/bigquery/)
 
@@ -79,7 +79,7 @@ Next week he will be presenting at [Go Meetup London](https://www.meetup.com/Go-
 
 Mark is heading to Australia for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 98 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing? " >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 98 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing? " >}}
 
 MARK: I am good. How are you doing today? 
 
@@ -105,7 +105,7 @@ MARK: Yeah.
 
 FRANCESC: I've been practicing. 
 
-MARK: Yeah. We have Andrew Walker and Graham Polley. We're talking about, basically, how a new region for Google Cloud Platform opened up in Sydney and the impact it's had on the businesses and technology people down there. 
+MARK: Yeah. We have Andrew Walker and Graham Polley. We're talking about, basically, how a new region for Google Cloud opened up in Sydney and the impact it's had on the businesses and technology people down there. 
 
 FRANCESC: Yep. And also, the things they're missing and asking for in BigQuery. 
 
@@ -183,7 +183,7 @@ FRANCESC: Cool. What about you, Graham? Remind our audience who are you and what
 
 GRAHAM: Happy to. So I'm Graham Polley. I'm a software engineer based out of Melbourne, Australia, and I work for Shine Solutions. Shine Solutions are a enterprise digital consultancy. We've got offices in Melbourne and Sydney now. And I'm also an official Google Developer Expert for Google Cloud. Still the only one in Australia for Cloud, so that's quite an honor to hold. And, yeah, I work a lot with data and analytics on the Google Stack, so primarily around BigQuery, Dataflow, Dataproc, and the ML APIs. 
 
-MARK: Cool. All right. So we thought we'd get the two of you together, as it's something we haven't really done before. Recently, there was a new Google Cloud Platform region that has been brought up in Sydney, Australia. And I sort of wanted to talk about the impact that has had for both of you in the areas in which you work in Australia. 
+MARK: Cool. All right. So we thought we'd get the two of you together, as it's something we haven't really done before. Recently, there was a new Google Cloud region that has been brought up in Sydney, Australia. And I sort of wanted to talk about the impact that has had for both of you in the areas in which you work in Australia. 
 
 I thought I'd start maybe by taking a step back a little, and one of you can choose-- I don't know which one-- but I want to explain the current internet situation in Australia. It's a little less than ideal for a variety of reasons. Who wants to take this one? I just want to give it some background there. 
 
@@ -247,7 +247,7 @@ ANDREW: Haha. So we write in Java. We're not particularly wedded to Java, but we
 
 So one day, we'll probably move to Node as a backend when we get type safety in and that works well for us. But for the moment, most of the projects we do are in Java. 
 
-GRAHAM: I think another thing worth pointing at is per-second billing. That's huge. That was announced last week. So we now have per-second billing on Google Cloud Platform. 
+GRAHAM: I think another thing worth pointing at is per-second billing. That's huge. That was announced last week. So we now have per-second billing on Google Cloud. 
 
 FRANCESC: Yep. 
 
@@ -259,7 +259,7 @@ GRAHAM: I love talking about BigQuery.
 
 FRANCESC: I know, I know. So tell us a bit, not only like why you want BigQuery-- I assume that yeah, BigQuery is important-- but since BigQuery is not there but you are a Google Developer Expert partly because all of the jobs that you do BigQuery, what is your experience using BigQuery from a region that doesn't have it yet? 
 
-GRAHAM: OK. So using BigQuery is a no-brainer. It's just a phenomenal product. And Andrew touched on it already. For me-- and I think Andrew will agree with me-- it's the jewel in the crown for Google Cloud Platform. There's no product like it. It's the speed at which you can grind through data. It's the scale. It's the ease of use. It's got a good REST API. It's now got standard SQL. It's just a fantastic product. 
+GRAHAM: OK. So using BigQuery is a no-brainer. It's just a phenomenal product. And Andrew touched on it already. For me-- and I think Andrew will agree with me-- it's the jewel in the crown for Google Cloud. There's no product like it. It's the speed at which you can grind through data. It's the scale. It's the ease of use. It's got a good REST API. It's now got standard SQL. It's just a fantastic product. 
 
 We've been using BigQuery since 2012, 2013, so quite a few years. And we've been in at Telstra, which is Australia's largest ISP and telco. And we've worked around the issues of not having BigQuery in-region-- and I touched on this earlier-- by hashing a lot of the PII information or actually just stripping it out completely. And that keeps their security and privacy teams happy. 
 
@@ -301,7 +301,7 @@ And I think government is a good one that Graham mentioned. We've done some grea
 
 MARK: And you, Graham? 
 
-GRAHAM: Yeah. For me, at least, and for working for Shine, I can see the momentum growing now. So it's really gaining traction, especially with the new region coming online. There's a lot more interest in Google Cloud Platform. The commitment that Google have offered for the partner ecosystem, we can see that that's starting to build out. And GCP, it really offers some compelling services to Australian customers that you don't get on AWS. 
+GRAHAM: Yeah. For me, at least, and for working for Shine, I can see the momentum growing now. So it's really gaining traction, especially with the new region coming online. There's a lot more interest in Google Cloud. The commitment that Google have offered for the partner ecosystem, we can see that that's starting to build out. And GCP, it really offers some compelling services to Australian customers that you don't get on AWS. 
 
 We are platform agnostic, so we work on both platforms, but the differentiator that I see as a Google Developer Expert is definitely the data and analytics side of things and the machine learning and AI on GCP. So absolutely, it opens a lot more doors for us in terms of we can go after big enterprises and government-end customers because we don't need to have those hard conversations with security teams about data being shipped offshore. We can now say it can be stored in-region, in Sydney. 
 
@@ -327,7 +327,7 @@ GRAHAM: Brilliant. I'll be presenting, too. I think Andrew is sending some of th
 
 FRANCESC: I guess it's also important to mention that you're also involved with a Google Developers Group Cloud in Melbourne. 
 
-GRAHAM: That's right. So I'm one of the co-organizers of GDG Cloud Melbourne. The meetup, we spun that up about three months ago, and the growth is phenomenal. So we already have, I think we're touching on 500 members already after just three months. And we've got some great talks, great presenters. We're getting a consistent turnout at the meetup. So look, it's really, really exciting. And getting Googlers to come and speak and talk about Google Cloud Platform, it's great for me. It's great for the community. 
+GRAHAM: That's right. So I'm one of the co-organizers of GDG Cloud Melbourne. The meetup, we spun that up about three months ago, and the growth is phenomenal. So we already have, I think we're touching on 500 members already after just three months. And we've got some great talks, great presenters. We're getting a consistent turnout at the meetup. So look, it's really, really exciting. And getting Googlers to come and speak and talk about Google Cloud, it's great for me. It's great for the community. 
 
 And I'm seeing it firsthand. I'm really seeing the community starting to flourish now around GCP, and that's a really great thing to see because I've been working on GCP for four or five years now. And it was a little bit lonely and quiet at the start, but now it's changing. And I really think that's down to the new region as well. It's fantastic. 
 

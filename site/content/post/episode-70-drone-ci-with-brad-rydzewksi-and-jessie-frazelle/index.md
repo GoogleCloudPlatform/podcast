@@ -32,13 +32,13 @@ which provides container based continuous delivery.
 
 ##### About Jessie Frazelle
 
-[Jessie Frazelle](https://twitter.com/jessfraz) is also part of the Google Cloud Platform Developer Advocacy team, and is generally known as
+[Jessie Frazelle](https://twitter.com/jessfraz) is also part of the Google Cloud Developer Advocacy team, and is generally known as
 "That container girl", and is an avid "Door to door leenuux salesperson." 
 
 ##### Cool things of the week
 
 - Announcing general availability of Google Cloud Dataflow for Python [blog](https://cloud.google.com/blog/big-data/2017/03/announcing-general-availability-of-google-cloud-dataflow-for-python)
-- Google Cloud Platform for Data Scientists: Using R with Google Cloud SQL for MySQL [blog](https://cloud.google.com/blog/big-data/2017/03/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql)
+- Google Cloud for Data Scientists: Using R with Google Cloud SQL for MySQL [blog](https://cloud.google.com/blog/big-data/2017/03/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql)
 - Cloud SQL for PostgreSQL: Managed PostgreSQL for your mobile and geospatial applications in Google Cloud [blog](https://cloudplatform.googleblog.com/2017/03/Cloud-SQL-for-PostgreSQL-managed-PostgreSQL-for-your-mobile-and-geospatial-applications-in-Google-Cloud.html)
 
 ##### Interview
@@ -72,7 +72,7 @@ and then on to [East Coast Games Conference](http://ecgconf.com/) and [Vector](h
 
 Francesc will be presenting at [Gophercon China](http://www.bagevent.com/event/357764) in April, and will then head off to New York!  
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 70 of the weekly Google Cloud Platform podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 70 of the weekly Google Cloud podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey Mark, how are you doing?" >}}
 
 MARK: I'm doing very well, Francesc. How are you doing today? 
 
@@ -148,7 +148,7 @@ BRAD: Very good, thank you. Thanks for having me.
 
 FRANCESC: Thank you for coming. Why are you here? Who are you? 
 
-BRAD: Well, OK. So I'm an open source developer. I work primarily on an open source project called Drone. It focuses on container-based continuous delivery. So it integrates with Google Cloud Platform. And many of my open source community members use Google Cloud Platform. So it's a great opportunity to be here and learn about the platform. 
+BRAD: Well, OK. So I'm an open source developer. I work primarily on an open source project called Drone. It focuses on container-based continuous delivery. So it integrates with Google Cloud. And many of my open source community members use Google Cloud. So it's a great opportunity to be here and learn about the platform. 
 
 MARK: Cool. I'm also pretty excited, and I have to admit something. I'm a huge fan of yours. We have a guest host here as well, Jessie Frazelle. How are you doing? 
 
@@ -280,7 +280,7 @@ BRAD: I agree. I think we need to take it one step further. I think that's what 
 
 [LAUGHTER] 
 
-I think that's what it should be. I think it's all about integrating with those built-in services that Google Cloud Platform, or maybe other providers have to offer to give you that extra scalability and maintainability. And I wish we were more strict with the term, so that's kind of how I use it. 
+I think that's what it should be. I think it's all about integrating with those built-in services that Google Cloud, or maybe other providers have to offer to give you that extra scalability and maintainability. And I wish we were more strict with the term, so that's kind of how I use it. 
 
 MARK: Do you look at it also from the perspective of it's inelastic, right? If you build certain apps in certain ways, they're very hard to scale because they might have dependencies on other things. When you look at things like twelve-factor apps, that kind of stuff. I think of that as well when I think cloud native, like I've built my apps such that if it lives in the cloud, I can have 1,000 servers, I can have 2,000, I could have 10, it doesn't matter. 
 
@@ -298,9 +298,9 @@ BRAD: Yeah, correct. So we have plugins for Google Container Registry. So in the
 
 So they wanted to live test it, to smoke test it. And so you can do some really interesting things there. There's a lot of interesting options. 
 
-MARK: Well, from those plugins like that, and you were talking about having the Pub/Sub integration, are there any plans going forward to be more integrated with Google Cloud Platform? What's the plan there? 
+MARK: Well, from those plugins like that, and you were talking about having the Pub/Sub integration, are there any plans going forward to be more integrated with Google Cloud? What's the plan there? 
 
-BRAD: I think ideally you know all those different modules we talked about, which is queuing, which is eventing, logging, those are all common with a CI system. You'll find them in any CI system. And I would love to be able to kind of hot swap out those with the Google Cloud Platform features. And one of the biggest ones is, I want to be able to launch builds on Kubernetes itself. So instead of interacting directly with the Docker daemon, we can use the Kubernetes scheduler to launch builds. 
+BRAD: I think ideally you know all those different modules we talked about, which is queuing, which is eventing, logging, those are all common with a CI system. You'll find them in any CI system. And I would love to be able to kind of hot swap out those with the Google Cloud features. And one of the biggest ones is, I want to be able to launch builds on Kubernetes itself. So instead of interacting directly with the Docker daemon, we can use the Kubernetes scheduler to launch builds. 
 
 MARK: So there's been a bunch of announcements, there's been all sorts of cool stuff going on. What have been some highlights for you from the conference? 
 

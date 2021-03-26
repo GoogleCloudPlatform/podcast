@@ -86,7 +86,7 @@ Gabi is in Brazil.
 
 * "Crowd laugh.wav" by tom_woysky of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] JON FOUST: Hi, and welcome to episode 182 of the weekly Google Cloud Platform Podcast. I am Jonathan Foust, and I'm here with my colleague, Michelle Casbon. Hey, Michelle, how are you doing?" >}} 
+{{< transcript "[MUSIC PLAYING] JON FOUST: Hi, and welcome to episode 182 of the weekly Google Cloud Podcast. I am Jonathan Foust, and I'm here with my colleague, Michelle Casbon. Hey, Michelle, how are you doing?" >}} 
 
 MICHELLE CASBON: Hey, Jon. I'm great. How are you? 
 

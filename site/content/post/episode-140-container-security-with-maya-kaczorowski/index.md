@@ -74,7 +74,7 @@ Mark will be at [Pax Dev](http://dev.paxsite.com/) and [Pax West](http://west.pa
 
 Melanie will be at the [2018 Nuclear Innovation Bootcamp at Berkeley](https://nuclearbootcamp.berkeley.edu/) on August 6th.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 140 of the weekly Google Cloud Platform podcast. I'm Mark Mandel. And I'm here, as always, with my colleague, Melanie Warrick. Hey, Melanie. How are you doing?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 140 of the weekly Google Cloud podcast. I'm Mark Mandel. And I'm here, as always, with my colleague, Melanie Warrick. Hey, Melanie. How are you doing?" >}}
 
 MELANIE: Hey, Mark. I'm doing good. I survived Next. How about you? 
 
@@ -158,7 +158,7 @@ MARK: It was definitely a lot better.
 
 MELANIE: OK. That's an easy answer. 
 
-MARK: And it's interesting. I feel like when I first started, we were doing events for Google Cloud Platform at the time. Before it was called Next, I think it was called GCP Live. I'll actually have to go back and look. I mean, it was small. It was really small; a few hundred people. 
+MARK: And it's interesting. I feel like when I first started, we were doing events for Google Cloud at the time. Before it was called Next, I think it was called GCP Live. I'll actually have to go back and look. I mean, it was small. It was really small; a few hundred people. 
 
 I remember teaching Codelabs in a basement. That was sort of the first thing we did way back about three years ago. And then from there, we went to the Pier Building, where there were several thousand people, to Moscone last year. So it was about 10,000. This year, another 100%, right? 20,000, 25,000 people. 
 
@@ -506,7 +506,7 @@ MAYA: Exactly.
 
 MELANIE: Well, great. 
 
-MARK: I did want to mention you have a series of blog posts on the Google Cloud Platform blog, too, about container security that are really great. 
+MARK: I did want to mention you have a series of blog posts on the Google Cloud blog, too, about container security that are really great. 
 
 MAYA: We had a series of blog posts leading up to KubeCon in May. Seven blog posts just about container security; one on networking, one on image security, one on image signing, one on runtime security, on the partners that we announced in that space, one on isolation, just so many blog posts. 
 
@@ -570,4 +570,4 @@ MARK: Thank you all for listening. And we'll see you all next week.
 
 [MUSIC PLAYING] 
 
-Hi, and welcome to episode number 140 of the weekly Google Cloud Platform podcast. My dog is coming up here. And let me try that one more time. 
+Hi, and welcome to episode number 140 of the weekly Google Cloud podcast. My dog is coming up here. And let me try that one more time. 

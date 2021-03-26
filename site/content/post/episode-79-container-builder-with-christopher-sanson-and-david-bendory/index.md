@@ -67,7 +67,7 @@ workshop at [QCon New York](https://qconnewyork.com/)
 
 Mark is going on vacation for a few weeks - but don't worry, he'll still be on the podcast!
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 79 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 79 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I am most excellent today. How are you doing?
 
 FRANCESC: At least excellent. 
@@ -128,7 +128,7 @@ MARK: There you go. I'll say, it won't, and you can say, it will. And we'll see 
 
 FRANCESC: I think we should bet on when it's going to happen-- no, whether it's going to happen, but sure. But yeah, we'll have a bunch of different links to the show notes. Check it out. It is a really cool thing. I think it's early to just run it in production already. So I'll definitely go check it out and see how it can help you understand what your cluster is doing. 
 
-MARK: Awesome. So our second cool thing of the week-- Cloud Source Repositories. If you haven't used those before, there is our hosted Git repositories that exist within your Google Cloud Platform project. 
+MARK: Awesome. So our second cool thing of the week-- Cloud Source Repositories. If you haven't used those before, there is our hosted Git repositories that exist within your Google Cloud project. 
 
 FRANCESC: And they're awesome. 
 
@@ -236,7 +236,7 @@ We've got a basal build step. We've got Go language builders there, a Git builde
 
 So in each of those build steps, we provide examples. And people can see exactly what we've done. It's all open source. And we also have little demos there and examples of how to use them in order to encourage this experimentation among our users. 
 
-FRANCESC: Cool. So one of the things that I think is an amazing advantage of using Container Builder is that since it runs on Google Cloud Platform, I'm assuming integration with other Google Cloud Platform services, especially authentication, is already managed? Am I correct? 
+FRANCESC: Cool. So one of the things that I think is an amazing advantage of using Container Builder is that since it runs on Google Cloud, I'm assuming integration with other Google Cloud services, especially authentication, is already managed? Am I correct? 
 
 What if I want to access the metadata servers to download some metadata that I'm going to use to access some private GitHub repo, something like that. Is that the case, that you just do get and that will work? 
 
@@ -456,7 +456,7 @@ FRANCESC: Yeah, so all of those are the North America. I will be in the Latin Am
 
 But the main event where I will be will be in the Luna Park in Buenos Aires. But you also have [INAUDIBLE] Mexico; Guadalajara; Monterrey; Bogota; Medellin, Cali in Colombia; Santiago, Chile; and Lima in Peru. 
 
-MARK: Nice. So if you're in any of those areas, there are lots of opportunities to get some free Google Cloud Platform training. 
+MARK: Nice. So if you're in any of those areas, there are lots of opportunities to get some free Google Cloud training. 
 
 FRANCESC: Yeah, it's going to be really cool. And I'm going be doing the live streaming. So if you like hearing my voice, that is one more-- 
 

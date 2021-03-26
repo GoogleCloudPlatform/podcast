@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.26.mp3"
 audioSize = 46503472 
 categories = ["App Engine", "Customer", "Gaming"]
 date = "2016-05-18T01:07:49Z"
-description = "Gustavo Ambrozio, from Pocket Gems, tells us about how they implemented and how they run War Dragons with the power of Google Cloud Platform."
+description = "Gustavo Ambrozio, from Pocket Gems, tells us about how they implemented and how they run War Dragons with the power of Google Cloud."
 draft = false
 episodeNumber = 26
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -19,7 +19,7 @@ image="/images/post/war_dragons.png"
 +++
 
 [Gustavo Ambrozio](https://twitter.com/gpambrozio), from [Pocket Gems](http://pocketgems.com/), tells us about how they implemented and how they
-run [War Dragons](http://wardragons.com/) with the power of Google Cloud Platform.
+run [War Dragons](http://wardragons.com/) with the power of Google Cloud.
 
 Learn how an incredibly popular mobile game can scale and provide social features,
 analytics, while keeping high throughput that enables low latency.
@@ -62,7 +62,7 @@ is having fun living in sunny California developing mobile games for Pocket Gems
 <img src="/images/post/war_dragons.png" width=500px alt="War Dragons">
 </div>
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 26 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 26 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing today?
 FRANCESC: Very good, very happy, and very excited about the interview to Gustavo, Gustavo Ambrozio.
 MARK: Yes, Gustavo Ambrozio from Pocket Gems is here today to talk to us about their game War Dragon and how their back-end infrastructure works.
@@ -82,9 +82,9 @@ FRANCESC: We should send him a t-shirt. Like, we still have not done it yet.
 MARK: Yeah. He's been on the podcast too. 
 FRANCESC: Yeah. He deserves a t-shirt, maybe two. 
 MARK: Yep.
-FRANCESC: But before that, we're gonna be talking about the cool thing of the week, as often. And it's actually a very interesting cool thing of the week, and it's since .NET was open sourced some time ago, this effort has now been doable, which is you can now run .NET applications on Google Cloud Platform. 
+FRANCESC: But before that, we're gonna be talking about the cool thing of the week, as often. And it's actually a very interesting cool thing of the week, and it's since .NET was open sourced some time ago, this effort has now been doable, which is you can now run .NET applications on Google Cloud. 
 MARK: Yeah, this is pretty cool. I know some people will be like, "But wait, couldn't I have just spun up a Windows instance before and done this myself regardless?" But I think the cool thing is is we've got now .NET client libraries for connecting to things like Cloud Datastore and other services that we have. So you want to not just run just regular old applications, but you want to interact with some of the managed services we have. I think that's a really, really cool offering. 
-FRANCESC: Yeah. There's a blog post, and we'll put a link to it on the show notes, but basically, the important thing that I think is very exciting, is the fact that you--if you like running .NET applications and you really know how to do it, now you can still do it and be--and use some of the infrastructure that Google Cloud Platform offers. So one of them is Google Cloud Datastore. We talked about many times. So basically, this way of basically deploying--storing data that scales is completely managed so you don't have to care about it. There's a bunch of examples. There's a Hello World tutorial. There's a bookshelf tutorial. But basically, give it a try and let us know what you think about it. 
+FRANCESC: Yeah. There's a blog post, and we'll put a link to it on the show notes, but basically, the important thing that I think is very exciting, is the fact that you--if you like running .NET applications and you really know how to do it, now you can still do it and be--and use some of the infrastructure that Google Cloud offers. So one of them is Google Cloud Datastore. We talked about many times. So basically, this way of basically deploying--storing data that scales is completely managed so you don't have to care about it. There's a bunch of examples. There's a Hello World tutorial. There's a bookshelf tutorial. But basically, give it a try and let us know what you think about it. 
 MARK: Yeah. That'd be great. 
 FRANCESC: Okay, so I guess it's time to go and talk to Ambrozio. I keep on changing his name. I guess it's--
 MARK: Well, that's his last name, so--
@@ -124,7 +124,7 @@ MARK: Cool, and it also allows you to do a lot of stuff with analytics as well, 
 GUSTAVO: Yeah, we've been doing analytics on the Cloud for, like, since the beginning of Pocket Gems. Like, basically, this--we always have a lot of heavy analytics on the Cloud for all of our games, right? So we have already this built into all of our games. We have a common platform that every game sends all their events and all the data that we need to figure out what are users enjoying, here? What are users not enjoying? Right? We'd use it to do A/B testing to see if a new feature is something that the users are gonna like or not, and then we decide to release features based on that data. 
 FRANCESC: Cool. Are you also using analytics not only for features but also to, like, analyze performance and stuff like that? 
 GUSTAVO: Yeah, so one part of the analytics that we do is collect performance from devices so you know, like, we can split by device type and by platform, and we know what places of the game are slowing down the user, where places are using too much memory. So we can also use that data to drive our development to make our game perform faster, have, you know, better FPS. We're always trying to have, like, very smooth animation, and it's--which is really hard with the range of devices that we work with. Like, if you have a very high-end device, it's easy to do that. But when you go to the lower-end devices, that we still want to support because still a lot of people are using those devices, it becomes really, really hard. And having all that data to help us focus on an area of the game that we need to improve performance and make the game smoother for everyone. 
-MARK: Great. So obviously you've got a backend infrastructure. You're on our podcast which probably means you're using Google Cloud Platform. 
+MARK: Great. So obviously you've got a backend infrastructure. You're on our podcast which probably means you're using Google Cloud. 
 GUSTAVO: Yes.
 MARK: Do you want to tell us a little bit about like, sort of, what backend infrastructure you're using, how you're using it, that sort of stuff?
 GUSTAVO: Yeah, we've been using Google App Engine heavily since the beginning of Pocket Gems. So, like, from the first game that when, you know, our founders were--the company was just two people, the two founders, they started using Google App Engine, and we haven't looked back. Like, Google App Engine has worked for us really, really well and has continued to work with every game that we build. So we use Google App Engine a lot. We use Datastore a lot. We use probably every feature that Google App Engine has to offer we are using in very different ways, very, we think, innovative ways that we've used Google App Engine. There's a--I don't know if you want to mention the talk we did at GCP Next.

@@ -55,11 +55,11 @@ on Youtube Gaming or Twitch).
 
 ##### Interview
 
-- Google Cloud Platform Terms of Service [docs](https://cloud.google.com/terms/)
-- Google Cloud Platform Acceptable Use Policy [docs](https://cloud.google.com/terms/aup)
+- Google Cloud Terms of Service [docs](https://cloud.google.com/terms/)
+- Google Cloud Acceptable Use Policy [docs](https://cloud.google.com/terms/aup)
 - Denial-of-service attack [Wikipedia](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 - Free trial quotas & limits [docs](https://cloud.google.com/free-trial/docs/free-trial-quotas)
-- Supplemental Terms and Conditions For Google Cloud Platform Free Trial [docs](https://cloud.google.com/terms/free-trial/)
+- Supplemental Terms and Conditions For Google Cloud Free Trial [docs](https://cloud.google.com/terms/free-trial/)
 - Help Center on Policy Violations [Google Support](https://support.google.com/cloud/answer/7002354?hl=en&ref_topic=3473162)
 - Cloud Security FAQ [Google Support](https://support.google.com/cloud/answer/6262505?hl=en&ref_topic=6237043)
 - Raw Hammer Bug [Wikipedia](https://en.wikipedia.org/wiki/Row_hammer)
@@ -99,7 +99,7 @@ FRANCESC: Anyway, so today we're going to be interviewing two people from the Cl
 
 MARK: Yeah. I think this is really cool. It is a really interesting conversation, and why you should care as a customer of GCP about why this group exists. It's not there to get in your way. It's there to really help you. 
 
-FRANCESC: Yeah. Actually, it's also to protect people outside of Google Cloud Platform too, which is an interesting thing. 
+FRANCESC: Yeah. Actually, it's also to protect people outside of Google Cloud too, which is an interesting thing. 
 
 MARK: Yeah. After that, we have our question of the week where we go back to Kubernetes, one of my favorite topics, where we look at easy ways to deploy well-known applications. 
 
@@ -185,9 +185,9 @@ EMEKA: Sure. So teams such as the [INAUDIBLE] attacks that emanate from the Clou
 
 SWATI: And to add to that, there are things that would violate the terms of service, like you're going beyond your core distinctions, or doing things that you shouldn't be doing given the Cloud services that you're using. 
 
-FRANCESC: Cool. And so you're saying, that basically what you're doing is not protecting Google Cloud Platform customers from external abuse, but actually stopping abuse coming from Google Cloud Platform. 
+FRANCESC: Cool. And so you're saying, that basically what you're doing is not protecting Google Cloud customers from external abuse, but actually stopping abuse coming from Google Cloud. 
 
-SWATI: That is exactly right. Our team is focused on looking at abuse that originated from the Google Cloud Platform. And that is the kind of activity that we specifically look for and try to stop. 
+SWATI: That is exactly right. Our team is focused on looking at abuse that originated from the Google Cloud. And that is the kind of activity that we specifically look for and try to stop. 
 
 EMEKA: Attack that come to Google is handles by site reliability engineers. So that's a different team. 
 
@@ -219,7 +219,7 @@ EMEKA: Or, even people are hitting the other Cloud people, customers who had Wor
 
 SWATI: I think one of the things we see very frequently is that your firewalls have not been set up properly. And then somebody manages to get into your system and start doing either denial of service attacks, or brute forcing, or any of the other suspicious activities. 
 
-MARK: I guess that means-- yeah. If I'm running my service on Google Cloud Platform, and someone's hacked me, then suddenly I don't have those resources on that machine available to me anymore. If someone's trying our mine bit coins, or whatever it is the cool kids are doing these days, suddenly my CPU's-- 
+MARK: I guess that means-- yeah. If I'm running my service on Google Cloud, and someone's hacked me, then suddenly I don't have those resources on that machine available to me anymore. If someone's trying our mine bit coins, or whatever it is the cool kids are doing these days, suddenly my CPU's-- 
 
 EMEKA: [INAUDIBLE] coins. 
 
@@ -257,7 +257,7 @@ The thing you need to keep in mind is that this email goes out to the project ow
 
 MARK: I've heard stories about that. Yeah. That's a great takeaway. I just want to highlight that. 
 
-FRANCESC: It's happened to us, actually, where we got an email from our internal email, the Google Cloud Platform Podcast Project, about some certificate going away. And we're like, whoops. 
+FRANCESC: It's happened to us, actually, where we got an email from our internal email, the Google Cloud Podcast Project, about some certificate going away. And we're like, whoops. 
 
 MARK: We should just think about that. 
 
@@ -309,7 +309,7 @@ SWATI: Yeah.
 
 MARK: Interesting. You made an interesting point there. Very quickly, you work with third parties as well who also report, like basically, that traffic or something bad is happening in particular places? 
 
-EMEKA: Yes, that's correct. So we also receive reports from third parties who are reporting attacks that they receive coming from the Google Cloud Platform. So it's a part of our duties, in addition to like protecting Cloud customers is to also take that into consideration. And basically, if you verify the report, because not everybody who tells you-- maybe they have some spiteful stuff. But you have to verify that it actually is a legitimate report. And if so, we also act on those as well. 
+EMEKA: Yes, that's correct. So we also receive reports from third parties who are reporting attacks that they receive coming from the Google Cloud. So it's a part of our duties, in addition to like protecting Cloud customers is to also take that into consideration. And basically, if you verify the report, because not everybody who tells you-- maybe they have some spiteful stuff. But you have to verify that it actually is a legitimate report. And if so, we also act on those as well. 
 
 FRANCESC: Cool. So what about when people are hosting content that is fraudulent? So it's not really about what you are doing, but about what you're serving. So for instance, let's imagine like some private movie or stuff like that. 
 
@@ -401,7 +401,7 @@ FRANCESC: Yeah. I think that the most important thing was abuse is here only bec
 
 So maybe that's what we should do. Listen to the next episode next week. But I think now it's time to go talk about the question of the week. And the question of the week is something that I really like because I'm a pretty lazy person. 
 
-And sometimes I see very often examples of-- oh, this is how you run Jenkins on Kubernetes, or this is how you run, I don't know, Drupal, or not WordPress-- yeah, WordPress on Kubernetes, whatever. And it really makes me feel-- well, on Google Cloud Platform we have this really cool thing, which is the Deployment Manager, that you can easily click on a button, and then you get a deployment. Boom. Done. Easy. Is there such a thing for Kubernetes. 
+And sometimes I see very often examples of-- oh, this is how you run Jenkins on Kubernetes, or this is how you run, I don't know, Drupal, or not WordPress-- yeah, WordPress on Kubernetes, whatever. And it really makes me feel-- well, on Google Cloud we have this really cool thing, which is the Deployment Manager, that you can easily click on a button, and then you get a deployment. Boom. Done. Easy. Is there such a thing for Kubernetes. 
 
 MARK: Yeah. So this is really cool. If anyone's tracked along with what was Deploy Manager, and then Helm, and then backwards and forwards, anything, everything all got consolidated recently, which is really cool. And everything's now in Helm for Kubernetes. So Helm is this thing that lets you deploy common things, like applications to Kubernetes. 
 
@@ -425,9 +425,9 @@ FRANCESC: So I'm going to be re-recording some of that [INAUDIBLE]. We've been h
 
 I will be in Brazil for GopherCon Brazil. Very excited about that. My talks also take shape, which is nice, like three words away. So it is good. 
 
-And then also, at GCP NEXT Brazil, which by the way, if you're interested in, we're going to be running our next conference of Google Cloud Platform next. You're going to be learning about what we're working on and what are the new things. And this time it's going to be in Brazil in Sao Paulo. 
+And then also, at GCP NEXT Brazil, which by the way, if you're interested in, we're going to be running our next conference of Google Cloud next. You're going to be learning about what we're working on and what are the new things. And this time it's going to be in Brazil in Sao Paulo. 
 
-So November 10 in Sao Paulo, if you're somewhere around, we will have a link to that so you can register. It's going to be lots of fun. It's going to be a lot of people from my team and all the teams from Google Cloud Platform there. So come say hi. 
+So November 10 in Sao Paulo, if you're somewhere around, we will have a link to that so you can register. It's going to be lots of fun. It's going to be a lot of people from my team and all the teams from Google Cloud there. So come say hi. 
 
 MARK: Awesome. That sounds fantastic. Well, when this comes out, next week after that I will be back in Atlanta again for a web conference called Connect Tech. And then the week after that I will be in Atlantic City for another game developer conference, Gamecon. 
 

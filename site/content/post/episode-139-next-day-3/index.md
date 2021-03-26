@@ -35,7 +35,7 @@ It's the third and final day for us at NEXT, and [Mark](https://twitter.com/Neur
 [Nikhita Raghunath](https://twitter.com/thenikhita) is an intern at Red Hat and works on the extensibility of Kubernetes. Previously, she was a Google Summer of Code (2017) student for the Cloud Native Computing Foundation (CNCF) and also worked on Kubernetes. She is interested in backend applications, distributed systems and Linux. Nikhita likes programming in Go, C++, C, and Python. She also likes to give talks at conferences and speak about her work.
 
 ##### Robert Kubis
-[Robert Kubis](https://twitter.com/hostirosti) is a developer advocate for the Google Cloud Platform based in London, UK, specializing in container, storage, and scalable technologies. Before joining Google, Robert collected over 10 years of experience in software development and architecture. He has driven multiple full-stack application developments at SAP with a passion for distributed systems, containers, and databases. In his spare time he enjoys following tech trends, trying new restaurants, traveling, and improving his photography skills.
+[Robert Kubis](https://twitter.com/hostirosti) is a developer advocate for the Google Cloud based in London, UK, specializing in container, storage, and scalable technologies. Before joining Google, Robert collected over 10 years of experience in software development and architecture. He has driven multiple full-stack application developments at SAP with a passion for distributed systems, containers, and databases. In his spare time he enjoys following tech trends, trying new restaurants, traveling, and improving his photography skills.
 
 
 ##### Interviews
@@ -56,7 +56,7 @@ It's the third and final day for us at NEXT, and [Mark](https://twitter.com/Neur
 * Cloud Spanner [site](https://cloud.google.com/spanner/)
 
 
-{{< transcript "[ARPEGGIATED SYNTHESIZER THEME PLAYING] MARK: Hi. And welcome to episode 139 of the currently daily Google Cloud Platform podcast. We're here on the show floor at Next, and as always, I'm here with Melanie. How are you doing, Melanie?" >}} 
+{{< transcript "[ARPEGGIATED SYNTHESIZER THEME PLAYING] MARK: Hi. And welcome to episode 139 of the currently daily Google Cloud podcast. We're here on the show floor at Next, and as always, I'm here with Melanie. How are you doing, Melanie?" >}} 
 
 MELANIE: Hi, Mark. We are almost there, day three. It's actually technically the day after day three. It's the next day. 
 

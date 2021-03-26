@@ -65,7 +65,7 @@ Mark will be at [GDC](https://gdconf.com) in March, [Cloud NEXT](https://cloud.w
 
 Our guests will be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf) and [KubeCon Barcelona](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/)
 
-{{< transcript "[MUSIC PLAYING] MARK M.: Hi. And welcome to episode number 160 of the weekly Google Cloud Platform podcast. I'm Mark Mandel. And I'm here with my colleague Gabi Ferrara. Hello, Gabi. How are you doing today?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK M.: Hi. And welcome to episode number 160 of the weekly Google Cloud podcast. I'm Mark Mandel. And I'm here with my colleague Gabi Ferrara. Hello, Gabi. How are you doing today?" >}} 
 
 GABI: Hello, Mark. I'm good. How are you? 
 

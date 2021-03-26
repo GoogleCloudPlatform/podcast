@@ -58,7 +58,7 @@ Mark will be at [GDC](https://gdconf.com) in March, [Cloud NEXT](https://cloud.w
 
 Gabi will be at the [Museum of Natural History](https://www.amnh.org/) for their [Brown Scholars](https://www.amnh.org/learn-teach/teens/brown-scholars) program giving a workshop on ML APIs and Cloud Functions. She'll also be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 162 of the weekly Google Cloud Platform podcast. I'm Mark Mandel and I'm very excited to be joined yet again by Gabi Ferrara. How are you doing today, Gabi?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 162 of the weekly Google Cloud podcast. I'm Mark Mandel and I'm very excited to be joined yet again by Gabi Ferrara. How are you doing today, Gabi?" >}} 
 
 GABRIELA: I am very good. Thank you, Mark, for asking. How are you? 
 

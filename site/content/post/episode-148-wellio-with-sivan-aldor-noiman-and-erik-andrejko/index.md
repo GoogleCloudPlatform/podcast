@@ -86,7 +86,7 @@ Mark will probably be at [Unite L.A.](https://unite.unity.com/2018/los-angeles) 
 
 Melanie speaking at [Monktoberfest](https://monktoberfest.com/) Oct 4th in Portland, Maine.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode Number 148 of the weekly Google Cloud Platform podcast. I'm Mark Randall. And I'm here with my colleague, Melanie Warrick, yet again, after a short hiatus. How you doing Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode Number 148 of the weekly Google Cloud podcast. I'm Mark Randall. And I'm here with my colleague, Melanie Warrick, yet again, after a short hiatus. How you doing Melanie?" >}}
 
 MELANIE: Hi, Mark. Welcome back. 
 
@@ -120,7 +120,7 @@ MELANIE: I'm glad you made it back.
 
 MARK: How was Indaba? 
 
-MELANIE: Yeah. I was going to say-- last week, we were sharing the episode we recorded in Stellenbosch, Africa, which was at Deep Learning Indaba. And it was great. And one thing I forgot to mention last week was that one of the awards that was given out for the best posters was Google Cloud Platform credits. 
+MELANIE: Yeah. I was going to say-- last week, we were sharing the episode we recorded in Stellenbosch, Africa, which was at Deep Learning Indaba. And it was great. And one thing I forgot to mention last week was that one of the awards that was given out for the best posters was Google Cloud credits. 
 
 We gave out $1,000 worth of credits for 25 different posters. So it was really great. And I'm glad we were able to do the podcast and record from there. We have a couple more podcasts that we'll be sharing out later next month. 
 
@@ -156,7 +156,7 @@ MELANIE: Yeah.
 
 MARK: And speaking of generally available, we also have Cloud Memorystore for Redis going generally available. So if you're looking for a managed Redis system, you can come to us for that, as well. And we also expanded it to several new regions. So now Cloud Memorystore is supported in Tokyo, Singapore, and Netherlands, which are new, as well as Oregon, Iowa, South Carolina, Belgium, and Taiwan. 
 
-MELANIE: Nice. Another Cool Thing of the Week-- I know earlier this year, in May, we were talking about the Coursera courses that came out for TensorFlow. And these were the machine learning with TensorFlow on Google Cloud Platform course. That's a five course specialization. And it's now in the top 10 data science specializations on Coursera that's out there. 
+MELANIE: Nice. Another Cool Thing of the Week-- I know earlier this year, in May, we were talking about the Coursera courses that came out for TensorFlow. And these were the machine learning with TensorFlow on Google Cloud course. That's a five course specialization. And it's now in the top 10 data science specializations on Coursera that's out there. 
 
 Following onto that, they went with a more advanced machine learning TensorFlow course that has been released recently. And this advanced course covers topics like end to end machine learning with TensorFlor on Google Cloud platform, production machine learning systems, image understanding with TensorFlow and Google Cloud, sequenced models for time series and natural language processing, and recommendation systems with TensorFlow. So this is something that will help take you another step down the path of expanding your machine learning expertise. And there's going to be a webinar on October 9 at 9 AM to learn more about the course. 
 

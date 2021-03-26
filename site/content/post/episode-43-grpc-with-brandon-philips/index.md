@@ -34,7 +34,7 @@ passionate about open source technologies.
 
 ##### Cool things of the week
 
-- [@notch](https://twitter.com/notch), creator of Minecraft would cloud again with Google Cloud Platform
+- [@notch](https://twitter.com/notch), creator of Minecraft would cloud again with Google Cloud
 
 <div style="text-align: center">
     <img src="/images/post/notch.png">
@@ -65,7 +65,7 @@ A Stack of Stuff for .NET developers:
 
 - Emulator for Datastore [docs](https://cloud.google.com/datastore/docs/tools/datastore-emulator)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 43 of the weekly Google Cloud Platform podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 43 of the weekly Google Cloud podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How are you doing today? 
 
 FRANCESC: I am, as always, very happy. Very happy. We have one of my friends Brandon Philips, CTO of CoreOS. 
@@ -94,7 +94,7 @@ MARK: Yeah. Markus Persson-- if you know Minecraft at all--
 
 FRANCESC: I've heard about it. 
 
-MARK: Yeah, it's a thing. It's a thing. I just have to mention it because he tweeted today about Google Cloud Platform. He said, not only does everything just work, Google Cloud also tries to make you save money. Five out of five, would Cloud again. 
+MARK: Yeah, it's a thing. It's a thing. I just have to mention it because he tweeted today about Google Cloud. He said, not only does everything just work, Google Cloud also tries to make you save money. Five out of five, would Cloud again. 
 
 FRANCESC: Yeah, which is a pretty amazing tweet. I also really like-- I went through all the tweets he wrote about the topic. And he also said, the main thing I like about Google Cloud-- it's super-duper user friendly. So I think that this is also an invitation-- an open invitation for Notch to come talk to us. 
 

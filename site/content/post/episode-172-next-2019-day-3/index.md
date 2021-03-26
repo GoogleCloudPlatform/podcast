@@ -63,7 +63,7 @@ And lastly, we tease you with a short interview with Andrew of MongoDB to speak 
 
 The GCP Podcast will be back to its regular schedule next week!
 
-{{< transcript "[MUSIC PLAYING] AJA: Hi, this is Aja. Welcome to episode 172 of the Google Cloud Platform Podcast. We're here at Next, and we're going to be talking to a lot of great folks today. So let's get to that." >}} 
+{{< transcript "[MUSIC PLAYING] AJA: Hi, this is Aja. Welcome to episode 172 of the Google Cloud Podcast. We're here at Next, and we're going to be talking to a lot of great folks today. So let's get to that." >}} 
 
 MARK MANDEL: Sounds great. Let's do it. 
 
@@ -355,7 +355,7 @@ ANDREW: Sure, MongoDB is the most popular modern general purpose database. And w
 
 JON: You got Jon here, and I got a couple of questions about Next. What is your favorite thing that you've seen on the Next floor? 
 
-ANDREW: I've got to say on a big picture level, I just love seeing the level of excitement, all of the companies that are here, everyone who's coming here to really learn about Google Cloud Platform to see how much Google's really put into this, that this is very much a big part of the future of Google. I feel that energy, so it's real. Talking to all of the community members like MongoDB, but all the others who you're so open to working with, I love seeing that. And it's really fostering a great community. 
+ANDREW: I've got to say on a big picture level, I just love seeing the level of excitement, all of the companies that are here, everyone who's coming here to really learn about Google Cloud to see how much Google's really put into this, that this is very much a big part of the future of Google. I feel that energy, so it's real. Talking to all of the community members like MongoDB, but all the others who you're so open to working with, I love seeing that. And it's really fostering a great community. 
 
 MARK MANDEL: Fantastic. What's been some of your favorite announcements here so far? 
 

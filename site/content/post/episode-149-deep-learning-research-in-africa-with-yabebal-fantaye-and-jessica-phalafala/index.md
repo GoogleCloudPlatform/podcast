@@ -71,7 +71,7 @@ Mark will definitely be at [Kubecon](https://events.linuxfoundation.org/events/k
 
 Melanie is speaking at [Monktoberfest](https://monktoberfest.com/) Oct 4th in Portland, Maine and will be at [CAMLIS](https://www.camlis.org) the following week.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 149 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel. And I'm here with my colleague-- almost always-- Melanie Warrick. How are you doing, Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 149 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel. And I'm here with my colleague-- almost always-- Melanie Warrick. How are you doing, Melanie?" >}}
 
 MELANIE: Hi, Mark. I'm good. How are you? 
 

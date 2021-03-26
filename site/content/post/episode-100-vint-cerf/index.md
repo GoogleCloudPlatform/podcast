@@ -61,11 +61,11 @@ Who will you interview for episode 100?
 
 - Vint Cerf.
 
-{{< transcript "SPEAKER: Join us now as we proudly celebrate the 100th episode of the Google Cloud Platform Podcast." >}}
+{{< transcript "SPEAKER: Join us now as we proudly celebrate the 100th episode of the Google Cloud Podcast." >}}
 
 [MUSIC PLAYING] 
 
-FRANCESC: Hello and welcome to episode number 100 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing? 
+FRANCESC: Hello and welcome to episode number 100 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing? 
 
 MARK: I am so excited. 
 
@@ -87,7 +87,7 @@ MARK: Yeah. It's a long interview, so we want to make sure you have enough time 
 
 FRANCESC: This is all for you. Enjoy. 
 
-So it is with an incredible honor that we are welcoming today Vint Cerf, one of the fathers of the internet, as Wikipedia says, to the Google Cloud Platform Podcast to celebrate episode 100. Vint, thank you so much for joining us today. 
+So it is with an incredible honor that we are welcoming today Vint Cerf, one of the fathers of the internet, as Wikipedia says, to the Google Cloud Podcast to celebrate episode 100. Vint, thank you so much for joining us today. 
 
 VINT: I am just delighted. This is the kind of conversation I live for, so I am looking forward to the questions and the repartee. 
 

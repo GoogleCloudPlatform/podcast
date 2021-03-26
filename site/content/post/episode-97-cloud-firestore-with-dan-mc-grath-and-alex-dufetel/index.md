@@ -67,7 +67,7 @@ Francesc just released a new [#justforfunc](http://justforfunc.com) and he'll be
 
 He is heading to Australia for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
 
-{{< transcript "FRANCESC: Hello, and welcome to episode number 97 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hello, Mike. How are you doing?" >}}
+{{< transcript "FRANCESC: Hello, and welcome to episode number 97 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hello, Mike. How are you doing?" >}}
 
 MARK: I am very well. How are you doing today? 
 
@@ -103,7 +103,7 @@ FRANCESC: It is really, really cool. And we're going to have both Dan McGrath an
 
 MARK: Yes, we're going to have a quick chat about-- I've got stuff in Datastore, but I'd really like to be able to export it maybe so I can use it locally or in other things. How do I do that? 
 
-FRANCESC: Yes. Backup, stuff like that. Maybe you can-- you want to export it into BigQuery or whatever. Many ways of doing it, and we have something new that we're going to discuss on that. But before all of this, we have our cool things of the week. And the first one is something that I think is really cool that we announced and like, oh, by the way, we are announcing per second billing Google Cloud Platform. That was like, OK, we've done that. Good. I find it's a very nice blog post. Go read it, and let us know what you think. I think it's very well-written. 
+FRANCESC: Yes. Backup, stuff like that. Maybe you can-- you want to export it into BigQuery or whatever. Many ways of doing it, and we have something new that we're going to discuss on that. But before all of this, we have our cool things of the week. And the first one is something that I think is really cool that we announced and like, oh, by the way, we are announcing per second billing Google Cloud. That was like, OK, we've done that. Good. I find it's a very nice blog post. Go read it, and let us know what you think. I think it's very well-written. 
 
 MARK: Yes, I agree. I like it. I like it a lot. Actually it's cool the one thing I like about it is it does talk about the difference between per minute and per second billing. Going from per hour to per minute, the amount of money that you're going to save is quite large whereas going per minute to per second, nah. 
 

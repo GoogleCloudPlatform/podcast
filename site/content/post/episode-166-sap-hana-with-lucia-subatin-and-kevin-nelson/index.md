@@ -73,7 +73,7 @@ Jon will be at [GDC](https://gdconf.com), [Cloud NEXT](https://cloud.withgoogle.
 
 Our guests will be at [SAP CodeJam Venice, CA March 7, 2019](https://www.eventbrite.com/e/sap-codejam-venice-registration-56530308675), [SAP CodeJam Mannheim, Germany March 18, 2019 ](https://www.eventbrite.com/e/sap-codejam-mannheim-registration-57059912735) and at [Cloud NEXT](https://cloud.withgoogle.com/next/sf).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 166 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel. And I'm here with my colleague, John Foust. John, how are you doing today?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 166 of the weekly Google Cloud Podcast. I'm Mark Mandel. And I'm here with my colleague, John Foust. John, how are you doing today?" >}}
  
 JOHN: Really, really good. 
 

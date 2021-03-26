@@ -35,7 +35,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8n9d5b/episode_129_de
 
 ##### Interview
 
-- Google Cloud Platform [site](https://cloud.google.com/)
+- Google Cloud [site](https://cloud.google.com/)
 - #46 Borg and K8s with John Wilkes [podcast](https://www.gcppodcast.com/post/episode-46-borg-and-k8s-with-john-wilkes/)
 - #118 OpenCensus with Morgan McLean and JBD [podcast](https://www.gcppodcast.com/post/episode-118-opencensus-with-morgan-mclean-and-jbd/)
 - Felipe Hoffa & BigQuery [reddit](https://www.reddit.com/user/fhoffa), [blog](https://medium.com/@hoffa) and [podcast](https://www.gcppodcast.com/post/episode-8-big-data-with-felipe-hoffa/)
@@ -49,7 +49,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8n9d5b/episode_129_de
 
 ##### Question of the week
 
-Where do I go to learn about [GDPR](https://ec.europa.eu/commission/sites/beta-political/files/data-protection-factsheet-citizens_en_0.pdf) in regards to Google Cloud Platform? 
+Where do I go to learn about [GDPR](https://ec.europa.eu/commission/sites/beta-political/files/data-protection-factsheet-citizens_en_0.pdf) in regards to Google Cloud? 
 
 - Google Cloud: Ready for GDPR [blog](https://www.blog.google/topics/google-cloud/google-cloud-ready-for-gdpr/)
 - Google Cloud & the General Data Protection Regulation [site](https://cloud.google.com/security/gdpr/)
@@ -61,7 +61,7 @@ Mark is speaking at the [Monthly SF Game Development Community](https://www.meet
 
 Melanie is speaking at a joint [WiMLDS](http://wimlds.org) and [PyLadies](http://www.pyladies.com) event "Paths to Data Science" on June 26th. More details to come.
 
-{{< transcript "MARK: Hi, and welcome to episode number 129 of the weekly Google Cloud Platform podcast. My name is Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you do, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 129 of the weekly Google Cloud podcast. My name is Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you do, Melanie?" >}}
 
 MELANIE: I'm doing good, Mark. How are you? 
 
@@ -87,7 +87,7 @@ MELANIE: Definitely.
 
 MARK: Yep. 
 
-MELANIE: But as always, we always start with the Cool Thing of the Week. And we end with our Question of the Week. And the question for this week is that on May 25, as some of you may be aware, especially from all the privacy notices that you might be getting in your inbox, GDPR has gone into effect. And so we wanted to touch on that briefly in terms of Google Cloud Platform and what that means for our group and Google Cloud Platform. So we will do that at the end. 
+MELANIE: But as always, we always start with the Cool Thing of the Week. And we end with our Question of the Week. And the question for this week is that on May 25, as some of you may be aware, especially from all the privacy notices that you might be getting in your inbox, GDPR has gone into effect. And so we wanted to touch on that briefly in terms of Google Cloud and what that means for our group and Google Cloud. So we will do that at the end. 
 
 MARK: Sounds good. 
 
@@ -109,7 +109,7 @@ MARK: Nice.
 
 MELANIE: Yeah. 
 
-MARK: Another fun thing, Alexi, who is on our team as well-- we've mentioned him before-- he does a "This Week in Google Cloud Platform" blog post. One of the things out of that that I thought was particularly interesting, recent I/O attendees were able to complete in-person code labs at the event. But those code labs are actually available as well. There's 25-plus updated cloud code labs that you can get. We'll put the link in the show notes. 
+MARK: Another fun thing, Alexi, who is on our team as well-- we've mentioned him before-- he does a "This Week in Google Cloud" blog post. One of the things out of that that I thought was particularly interesting, recent I/O attendees were able to complete in-person code labs at the event. But those code labs are actually available as well. There's 25-plus updated cloud code labs that you can get. We'll put the link in the show notes. 
 
 It's g.co/io/codelabs. If you click on the Cloud Category, you can get the cloud ones. But all the other ones are there as well. Also, we'll put a link in there that there's also the complete list of free cloud code labs. They remain available as well, g.co/codelabs/cloud. Those are all available. So if you're looking for some free training or some free how-tos on how to build stuff on cloud, on Google Cloud specifically, we'll put those links in the show notes, and you can have a go. 
 
@@ -399,7 +399,7 @@ MARK: Yeah, so as you were mentioning before, May 25 GDPR came into effect.
 
 MELANIE: And that's the General Data Protection Regulation in the EU. 
 
-MARK: Thank you. But where do I go to learn more about GDPR in regards to Google Cloud Platform and the effect it has and all the other stuff that I need to know? I am not a lawyer. 
+MARK: Thank you. But where do I go to learn more about GDPR in regards to Google Cloud and the effect it has and all the other stuff that I need to know? I am not a lawyer. 
 
 MELANIE: You are not. Neither of us are. 
 
@@ -409,7 +409,7 @@ MELANIE: And this is a regulation in the EU law on data protection and privacy f
 
 They've got some information around complying with the GDPR may require changes across your business. This is just more general guidelines to keep in mind when you're looking at GDPR. And they've got some tips and pointers, especially like product and feature guides as well. 
 
-MARK: And it's worth noting these guides are both G Suite and Google Cloud Platform. 
+MARK: And it's worth noting these guides are both G Suite and Google Cloud. 
 
 MELANIE: Right. Yes. Under both of them, they'll talk about it's great, especially when you're using like two-step verification, to reduce risk of unauthorized access by asking users for additional proof of identity, that it's good to help include those functionality when you're thinking about this regulation. But you can check out the resources that we're going to provide. And we're also including a link that is a data protection fact sheet for citizens of the EU. And it gives a nice summary and pseudo visualizes some of the key rights that now exist and how to understand them. 
 

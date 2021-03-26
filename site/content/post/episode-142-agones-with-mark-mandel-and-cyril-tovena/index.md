@@ -24,7 +24,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/97jrp9/episode_142_ag
 
 ##### Mark Mandel
 
-[Mark Mandel](https://twitter.com/Neurotic) is a Developer Advocate for Games for Google Cloud Platform, founder of the open source, multiplayer dedicated game server scaling project Agones, and one half of the Google Cloud Platform Podcast. Hailing from Australia, Mark built his career developing backend systems for over 15 years, writing open source software, and building infrastructure in the cloud.
+[Mark Mandel](https://twitter.com/Neurotic) is a Developer Advocate for Games for Google Cloud, founder of the open source, multiplayer dedicated game server scaling project Agones, and one half of the Google Cloud Podcast. Hailing from Australia, Mark built his career developing backend systems for over 15 years, writing open source software, and building infrastructure in the cloud.
 
 ##### Cyril Tovena
 
@@ -67,7 +67,7 @@ Melanie will be at [Deep Learning Indaba](http://www.deeplearningindaba.com) and
 
 Mark will be at [Pax Dev](http://dev.paxsite.com/) and [Pax West](http://west.paxsite.com/) starting August 28th. In September, he'll be at [Tokyo NEXT](https://cloud.withgoogle.com/next18/tokyo) and [Strangeloop](https://www.thestrangeloop.com).
 
-{{< transcript "[MUSIC PLAYING] FRANCESC: Hi, and welcome to that episode number 142 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my ex-colleagues--" >}}
+{{< transcript "[MUSIC PLAYING] FRANCESC: Hi, and welcome to that episode number 142 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my ex-colleagues--" >}}
 
 [BA-DUM TISH] 
 

@@ -42,7 +42,7 @@ Thank you Mark for everything you've done to make this podcast a success! We'll 
 
 {{< transcript "[MUSIC PLAYING] [VOCALIZING] JON: This week's Cool Things of the Week comes from all of our hosts. For those of you who don't know, this is Mark's final episode on the podcast. And the new host came together to show our gratitude to Mark and all of his efforts to make the podcast as impactful as it is for our listeners. So without further ado, here is some kind words that we all would like to share." >}} 
 
-SPEAKER 1: 200 episodes. If you do the math, I'm pretty sure that's just about four years of the weekly "Google Cloud Platform Podcast." And none of that would have been possible without Mark, not only coming up with this great idea, but being there, entertaining people, teaching people, giving them learning moments. I mean, thank you so much, Mark, for this awesome opportunity. And I know that all of the hosts that we have now are super excited to carry this on. Thanks again, Mark. 
+SPEAKER 1: 200 episodes. If you do the math, I'm pretty sure that's just about four years of the weekly "Google Cloud Podcast." And none of that would have been possible without Mark, not only coming up with this great idea, but being there, entertaining people, teaching people, giving them learning moments. I mean, thank you so much, Mark, for this awesome opportunity. And I know that all of the hosts that we have now are super excited to carry this on. Thanks again, Mark. 
 
 MICHELLE: On this, our founder's very last episode, I want to express my gratitude for his contributions to the show. Mark's vision, expertise, and boundless enthusiasm have shaped our content and helped us all grow as hosts. 
 
@@ -368,7 +368,7 @@ BJORN: Yeah, all right.
 
 MARK: Thanks again to Bjorn form Massive, giving us some wonderful insights into how they build and run their games on Google Cloud, a great, great interview. And thanks again to Robert Martin, as well, for joining us as a guest host while I was traveling through Sweden with him, definitely appreciate him taking the time. 
 
-So episode 200, this is going to be my last episode on the "Google Cloud Platform Podcast." I'm not going too far. I'm just looking to spend some more time on, probably unsurprisingly, some gaming things. Also, it's been four years that I've been working on this podcast. And it was time to get some new voices in and give them some space to be heard, for sure. 
+So episode 200, this is going to be my last episode on the "Google Cloud Podcast." I'm not going too far. I'm just looking to spend some more time on, probably unsurprisingly, some gaming things. Also, it's been four years that I've been working on this podcast. And it was time to get some new voices in and give them some space to be heard, for sure. 
 
 So some thanks that I think need to be said. First of all, thanks to all the new hosts that are coming on the podcast and all the kind words that they said at the beginning of this episode. That definitely makes me feel nice. And I'm super happy that everyone's having a wonderful experience. 
 
@@ -384,6 +384,6 @@ Also, the HD Interactive team, again, probably not a name you would see. But tha
 
 I'm really excited about the future of the podcast. But I definitely don't want to be remiss and miss out on saying thanks to the listeners. It has been a delight and a pleasure being on this podcast journey with everyone who listens to the podcast. 
 
-It is hugely, hugely warming to hear the positive experiences that people have had because of the podcast, from people getting jobs at Google and other companies because of the educational content, people coming to events that we've run simply because of the podcast, and just many more. It is truly just a pleasure to join you all on this journey. And it is definitely bittersweet to be saying goodbye now. So with that being said, for the last time, for me, on the "Google Cloud Platform Podcast," thank you all for listening, and we'll see you all next week. 
+It is hugely, hugely warming to hear the positive experiences that people have had because of the podcast, from people getting jobs at Google and other companies because of the educational content, people coming to events that we've run simply because of the podcast, and just many more. It is truly just a pleasure to join you all on this journey. And it is definitely bittersweet to be saying goodbye now. So with that being said, for the last time, for me, on the "Google Cloud Podcast," thank you all for listening, and we'll see you all next week. 
 
 [THEME MUSIC PLAYING]

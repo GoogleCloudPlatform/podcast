@@ -63,7 +63,7 @@ Melanie will be at [CAMLIS](https://www.camlis.org).
 * [Google Plus](https://plus.google.com/+Gcppodcast)
 * [Twitter](https://twitter.com/gcppodcast)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 150 of the weekly Google Cloud Platform podcast. I'm Mark Mandel. And I'm here, as always, with my colleague Melanie. How you doing, Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 150 of the weekly Google Cloud podcast. I'm Mark Mandel. And I'm here, as always, with my colleague Melanie. How you doing, Melanie?" >}}
 
 MELANIE: Hi, Mark. I'm good. How are you? 
 
@@ -109,7 +109,7 @@ MELANIE: Exactly, she's definitely the reason we know each other. And it's an in
 
 MARK: Yeah, exactly. And so after we talk to her, we will have our question of the week, as we do always, which is, how do I encrypt and decrypt data with Cloud Key Management Services, which is something I've not looked at before. But it's actually kind of cool. 
 
-MELANIE: Definitely. And as we always do, we're going to start out with cool things of the week. And for this week, we've got a lot of support and integration going on with PyTorch, which is a platform that's used for building out neural nets, similar to TensorFlow. It's just a different platform. And so PyTorch, we now have integrated-- so there's actually, on Google Cloud Platform, deep learning VM images that you can implement. It's also been integrated already in Kubeflow. But there's additional support, specifically because PyTorch has also launched 1.0. 
+MELANIE: Definitely. And as we always do, we're going to start out with cool things of the week. And for this week, we've got a lot of support and integration going on with PyTorch, which is a platform that's used for building out neural nets, similar to TensorFlow. It's just a different platform. And so PyTorch, we now have integrated-- so there's actually, on Google Cloud, deep learning VM images that you can implement. It's also been integrated already in Kubeflow. But there's additional support, specifically because PyTorch has also launched 1.0. 
 
 So you can use that on GSP, you can use it with Kubeflow, you can use it, actually, also with TensorBoard. And there's work in progress. They're piloting some stuff around the cloud TPUs and using PyTorch. So we'll post the article for that, and you can check it out. 
 

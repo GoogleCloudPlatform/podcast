@@ -25,7 +25,7 @@ Office of the CTO, and how it works with enterprise companies.
 
 ##### About Greg DeMichillie
 
-[Greg](https://twitter.com/gregde) has 20 years experience in creating great computing platforms for developers and IT alike. He has been at Google since before the inception of Google Cloud Platform and as Director of Product he lead the product teams for App Engine, Compute Engine, Kubernetes & Container Engine, as well as the Developer Console, SDKs, and Billing system. He has delivered keynote presentations and product demos at events such as Google I/O and Google Cloud NEXT as well as interviews with the New York Times, Wall St Journal, and other publications.
+[Greg](https://twitter.com/gregde) has 20 years experience in creating great computing platforms for developers and IT alike. He has been at Google since before the inception of Google Cloud and as Director of Product he lead the product teams for App Engine, Compute Engine, Kubernetes & Container Engine, as well as the Developer Console, SDKs, and Billing system. He has delivered keynote presentations and product demos at events such as Google I/O and Google Cloud NEXT as well as interviews with the New York Times, Wall St Journal, and other publications.
 
 Prior to joining Google, he had leadership roles at variety of companies including Adobe and Amazon, as well as a decade at Microsoft where he was a developer on the first version of Visual C++, the development manager for Microsoft’s Java tools, and lead the product team for the creation of C#.
 
@@ -66,7 +66,7 @@ and will be presenting at [Google Cloud Summit in Sydney](https://cloudplatformo
 Mark is entering crazy season, and will be presenting at [Play NYC](http://play-nyc.com/), then speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 He'll then be speaking at [Gameacon](http://www.gameaconvegas.com/) and [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) once he's done with all that.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 90 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 90 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm doing exceptionally well today. How are you doing, Francesc? 
 
@@ -96,7 +96,7 @@ We got one of them, and we're going to be answering it today, which is, OK, so I
 
 But before that, we have our cool things of the week. And I'm going to let you start. 
 
-MARK: So I'm going to start from the bottom of our list and go up. Maybe that's fun. But we've had Postgres, or PostgreSQL support in beta on Cloud SQL here at Google Cloud Platform for a little while. What's been really great is we've got a bunch of feedback, both on our issue tracker as well as the discussion group, that we'll link in the show notes about how people are using Postgres and what sort of extensions and features they want to have enabled in the managed solution that we're running. 
+MARK: So I'm going to start from the bottom of our list and go up. Maybe that's fun. But we've had Postgres, or PostgreSQL support in beta on Cloud SQL here at Google Cloud for a little while. What's been really great is we've got a bunch of feedback, both on our issue tracker as well as the discussion group, that we'll link in the show notes about how people are using Postgres and what sort of extensions and features they want to have enabled in the managed solution that we're running. 
 
 What's been great about that is we've now enabled 19 different extensions across four categories, including stuff for geographic applications, a variety of new data types, enhanced functionality for new processing languages, as well as, like, some miscellaneous stuff around text search, cryptography, integer aggregations, and a whole bunch of other stuff. 
 
@@ -170,7 +170,7 @@ FRANCESC: It's been a long time. So thank you, thank you so much for joining.
 
 MARK: Yeah, absolutely. So we got you in today. We want to talk about OCTO, what it is, what that relationship's like with the customer. Before we do that, can you tell us a little bit about what you do at Google, like, your history? Like, what do you do here? 
 
-GREG: Sure. So I'm-- I've been at Google now just around five years. I used to say I joined Google Cloud Platform before there was a Google Cloud Platform. When I joined, we had App Engine and BigQuery and App Engine and BigQuery. 
+GREG: Sure. So I'm-- I've been at Google now just around five years. I used to say I joined Google Cloud before there was a Google Cloud. When I joined, we had App Engine and BigQuery and App Engine and BigQuery. 
 
 MARK: No Datastore? Was there no Datastore then? 
 
@@ -226,9 +226,9 @@ And the good news is, most of the product and engineering people I talk to, like
 
 That sticks, do you know what I mean? Like, that encounter sticks with that person. And when they go back and do the rest of their development, they will think about that particular customer they talked to. So-- so we also try to really connect the dots where we can so that the engineers get that sort of direct interaction when it makes sense. 
 
-FRANCESC: So I'm curious. As a customer of Google Cloud Platform, what should I expect from the Office of the CTO? Would you say it's just a first point of contact for them to figure everything out? Or what does it, then? 
+FRANCESC: So I'm curious. As a customer of Google Cloud, what should I expect from the Office of the CTO? Would you say it's just a first point of contact for them to figure everything out? Or what does it, then? 
 
-GREG: That's important. That's a good point. You know, we're-- Google Cloud Platform is obviously large and growing. We have a lot of different customers. The CTO office, you know, doesn't scale in that sense, right? Even with a team of 40 that's-- do the math-- that's not big enough to support 1,000 customers. 
+GREG: That's important. That's a good point. You know, we're-- Google Cloud is obviously large and growing. We have a lot of different customers. The CTO office, you know, doesn't scale in that sense, right? Even with a team of 40 that's-- do the math-- that's not big enough to support 1,000 customers. 
 
 So we have a bit of a process to determine where we engage. It's largely driven by the needs of the product teams and the needs of the sales teams. Our primary focus is on those, you know, call it the 500, 1,000, the biggest companies, the biggest brands. And not just by revenue, but in terms of their brand and their brand value. 
 
@@ -268,7 +268,7 @@ GREG: Yeah, that's a good point. First, it's important to understand we usually 
 
 They know they want to be on the cloud. They know it's different. They don't quite necessarily know which project should be their first project, which should be their second. So we're very intensely involved in that sort of early phase. 
 
-Once the customer's really ramped up and in production and they know Google Cloud Platform really well, then our sort of interaction phases out, because now the strategic customer engineers, all the rest of Google's technical team, can help them work with that customer over time. So we tend to be very involved in sort of the early on phases and then phasing out a bit. 
+Once the customer's really ramped up and in production and they know Google Cloud really well, then our sort of interaction phases out, because now the strategic customer engineers, all the rest of Google's technical team, can help them work with that customer over time. So we tend to be very involved in sort of the early on phases and then phasing out a bit. 
 
 We stay in touch with them because we also run our customer advisory boards and those sorts of things. So we stay in touch with them. But the depth of the engagement, instead of being on the phone or on a GVC once a week or flying out to London, which in the early phases, you know, we literally will be talking with someone at one of these companies once a week, multiple times a week. It eventually phases out, and it becomes more of a checking in periodically. 
 
@@ -330,7 +330,7 @@ MARK: That was impressive. That's pretty good.
 
 FRANCESC: So many of them, yeah. 
 
-GREG: No, really. Come to those events. In one day, it's a great way to get a sense of not just where Google Cloud Platform is but where we're going and a chance to talk with the people who are building it and to have a voice in shaping that. So I'm big believers in those. 
+GREG: No, really. Come to those events. In one day, it's a great way to get a sense of not just where Google Cloud is but where we're going and a chance to talk with the people who are building it and to have a voice in shaping that. So I'm big believers in those. 
 
 FRANCESC: Great. We'll make sure to have a bunch of links in the show notes to all of those events if you want to attend. So make sure that you check it out and register. And other than that, thank you so much, Greg, for taking the time today to talk a little bit about OCTO. 
 
@@ -348,7 +348,7 @@ FRANCESC: Yeah, which is even faster, which is pretty crazy.
 
 MARK: Yeah. 
 
-FRANCESC: In 22 days they actually migrated from on premise to Google Cloud Platform. Pretty impressive. 
+FRANCESC: In 22 days they actually migrated from on premise to Google Cloud. Pretty impressive. 
 
 MARK: That's crazy. 
 
@@ -444,7 +444,7 @@ FRANCESC: Yeah. I think it's the podcast channel in the GCP Community Channel? Y
 
 [LAUGHTER] 
 
-MARK: So it is the podcast channel on the Google Cloud Platform Community Slack, which you can reach on bit.ly/gcp-slack. 
+MARK: So it is the podcast channel on the Google Cloud Community Slack, which you can reach on bit.ly/gcp-slack. 
 
 FRANCESC: One day I will learn that. Thanks, Mark, for such an awesome episode and for remembering how to join Slack. 
 

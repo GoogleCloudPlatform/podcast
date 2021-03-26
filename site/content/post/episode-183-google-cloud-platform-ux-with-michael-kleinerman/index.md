@@ -4,11 +4,11 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.183.mp3"
 audioSize = 49345200
 categories = ["UX", "Design Systems", "Product Design"]
 date = "2019-06-26"
-description = "On this episode, our hosts Mark Mirchandani and Gabi Ferrara dive into Google Cloud Platform UX with guest Michael Kleinerman."
+description = "On this episode, our hosts Mark Mirchandani and Gabi Ferrara dive into Google Cloud UX with guest Michael Kleinerman."
 draft = false
 episodeNumber = 183
 hosts = ["Mark Mirchandani", "Gabi Ferrara"]
-title = "Google Cloud Platform UX with Michael Kleinerman"
+title = "Google Cloud UX with Michael Kleinerman"
 image="/post/episode-183-google-cloud-platform-ux-with-michael-kleinerman/images/hero/hero-EP-183.jpg"
 linked = true
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/c5sw8u/episode_183_google_cloud_platform_ux_with_michael/"
@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/c5sw8u/episode_183_go
   name = "fimage"
 +++
 
-On this episode, our hosts [Mark Mirchandani](https://twitter.com/markmirch) and [Gabi Ferrara](https://twitter.com/gabidavila) dive into Google Cloud Platform UX with guest and Google Product Designer [Michael Kleinerman](https://twitter.com/m_kleinerman). Michael's path to Product Designer started with "ancient" tech designing with Flash and 3D motion graphics and progressed from there through interaction designer to his place now with Google. His experience has helped him appreciate the many different kinds of designers needed for projects and how they have to work together for a good product.
+On this episode, our hosts [Mark Mirchandani](https://twitter.com/markmirch) and [Gabi Ferrara](https://twitter.com/gabidavila) dive into Google Cloud UX with guest and Google Product Designer [Michael Kleinerman](https://twitter.com/m_kleinerman). Michael's path to Product Designer started with "ancient" tech designing with Flash and 3D motion graphics and progressed from there through interaction designer to his place now with Google. His experience has helped him appreciate the many different kinds of designers needed for projects and how they have to work together for a good product.
 
 At Google, Michael's team builds design systems that create a balance between what Google uses and what the products built on Google use. He adopted Material Design, which offers guidelines for patterns and components of design, to Google Cloud. Material Design spans across multiple devices and screen sizes to help simplify design across devices. When Cloud reached the enterprise space, where components can be more complex, Michael's team worked to adjust Cloud using Material Design so that features like tables would work correctly.
 
@@ -64,7 +64,7 @@ Everyone else is just laying low for now!
 * "cell phone vibraion.wav"  by MrAuralization of [Freesound.org](https://freesound.org)
 * "laugh crowd 2.wav" by  MrAuralizationFunWithSound of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 183 of the weekly Google Cloud Platform podcast. I'm Mark Mirchandani, and I'm here with my colleague, Gabi Ferrara. Hey, Gabi. " >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 183 of the weekly Google Cloud podcast. I'm Mark Mirchandani, and I'm here with my colleague, Gabi Ferrara. Hey, Gabi. " >}}
 
 GABI: Hello, Mark. How are you? 
 
@@ -78,7 +78,7 @@ GABI: No, it was at Next, so I think it was like two months ago, three months ag
 
 MARK: Oh, and that feels like years ago. So it has been quite a while. 
 
-GABI: Yeah. Well, today, we're going to be talking about Google Cloud Platform UX. 
+GABI: Yeah. Well, today, we're going to be talking about Google Cloud UX. 
 
 MARK: Very exciting. Looking forward to that. But before we get into that content, we do want to tease our little question of the week here. And I think this is one you know a lot about, because I'm really not certain of it, which is there's been a lot of cool stuff about Cloud Build and Cloud Run. But what is the simplest way for me in Google to work with these containers and then actually push them up to the cloud? 
 
@@ -112,7 +112,7 @@ MARK: Well, then, perfect. This is a great place to start.
 
 One other thing that I recently didn't know anything about and now still only know, just scratching the surface, we also have a cool little article about building chatbots using Dialogflow. So Dialogflow is kind of-- if I describe this correctly-- it's really like the way to build a chat interaction system, right? So you can understand what people are saying and then kind of create responses. And you can use some of the machine learning aspects. 
 
-There's actually another really, really cool playlist called Deconstructing Chatbots that I highly recommend on the Google Cloud Platform YouTube channel that goes into a little bit more detail about Dialogflow and some of the other tools around it. But we've also got a team-based chat tool called Hangouts Chat, which is what a lot of us use here internally. And then people who use G Suite have that, so they can kind of communicate between their teams, share messages, and information. 
+There's actually another really, really cool playlist called Deconstructing Chatbots that I highly recommend on the Google Cloud YouTube channel that goes into a little bit more detail about Dialogflow and some of the other tools around it. But we've also got a team-based chat tool called Hangouts Chat, which is what a lot of us use here internally. And then people who use G Suite have that, so they can kind of communicate between their teams, share messages, and information. 
 
 Well, you can actually build a chatbot with Dialogflow and easily integrate it into Hangouts Chat. So now if you've got repetitive work systems or things that you need to do on a regular basis-- I mean, I think the most common one that we probably use here is searching for hilarious animated GIFs and then inserting them into chat, a very common use case. 
 
@@ -150,9 +150,9 @@ MARK: Let's do it.
 
 [MUSIC PLAYING] 
 
-GABI: So we are here today with Michael Kleinerman. He's product designer on Google Cloud Platform for UX. Michael, tell us more about you. What do you do? 
+GABI: So we are here today with Michael Kleinerman. He's product designer on Google Cloud for UX. Michael, tell us more about you. What do you do? 
 
-MICHAEL: Hi, thank you for having me. Like you said, I'm a product designer on the Google Cloud Platform team. Before joining Cloud, I worked on the Android and also the YouTube team in the Bay Area. And I moved to New York two years ago. So that's the time that I started working on Cloud, first leading the UX for Cloud Firestore, which was touching a little bit on Google Cloud console, but also the Firebase console. And after that product launched, I moved to the centralized design system team for Cloud, team that supports all the system components for the UI on the Cloud console. 
+MICHAEL: Hi, thank you for having me. Like you said, I'm a product designer on the Google Cloud team. Before joining Cloud, I worked on the Android and also the YouTube team in the Bay Area. And I moved to New York two years ago. So that's the time that I started working on Cloud, first leading the UX for Cloud Firestore, which was touching a little bit on Google Cloud console, but also the Firebase console. And after that product launched, I moved to the centralized design system team for Cloud, team that supports all the system components for the UI on the Cloud console. 
 
 MARK: And if I understand correctly, you've also actually been doing this for a couple of different years from before you joined Google, right? 
 
@@ -226,7 +226,7 @@ What do they do the same? And what are they doing differently? And why aren't th
 
 MICHAEL: Yeah. So with Firebase, it's like, a very unique case. And I think it does have like, a similarity to YouTube in the sense that it's all part of Google, but they have their own brand. So they're not really consuming material design or Google material design exactly as a Google product, a product is branded by Google. So YouTube and Firebase are like, these two snowflakes. And what they've done is basically, they break a little bit of the style of the entire design system to fit their brand. And it works. 
 
-Like, in the case of Firebase, their audience has always been almost like, entry level developers or even startups. What they want is just to make it like, super easy to just get started with an app, an idea, even if it's a prototype or something. And they give you all the stuff that you need in there to get started very quick. If you scale, then you can almost graduate cross that big bridge to the Google Cloud Platform to then start using all the other bells and whistles, analytics, and machine learning, and all that stuff. 
+Like, in the case of Firebase, their audience has always been almost like, entry level developers or even startups. What they want is just to make it like, super easy to just get started with an app, an idea, even if it's a prototype or something. And they give you all the stuff that you need in there to get started very quick. If you scale, then you can almost graduate cross that big bridge to the Google Cloud to then start using all the other bells and whistles, analytics, and machine learning, and all that stuff. 
 
 The difference that I've seen, for example, on cloud and all the other products specifically, Android and YouTube where you draw this difference between the consumer world and then the enterprise world. And I think we all empathize with consumer. Like, it's all the apps that we use, Google Maps, everything we use today. 
 

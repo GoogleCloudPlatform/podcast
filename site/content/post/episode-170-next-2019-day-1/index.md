@@ -48,7 +48,7 @@ Later, [Aja](https://twitter.com/the_thagomizer) was joined by co-host [Brian Do
 
 We're at [Next](https://cloud.withgoogle.com/next/sf) this week! Stop by and say hi!
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode 170 of the weekly Google Cloud Platform podcast. We're doing daily episodes here at Next on the show floor. Right now I'm joined by Aja. How are you doing, Aja?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode 170 of the weekly Google Cloud podcast. We're doing daily episodes here at Next on the show floor. Right now I'm joined by Aja. How are you doing, Aja?" >}} 
 
 AJA: I am doing great, and this has been a fantastic event. 
 

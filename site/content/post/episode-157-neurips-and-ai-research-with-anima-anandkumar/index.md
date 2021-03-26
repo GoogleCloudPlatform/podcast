@@ -68,7 +68,7 @@ Mark will be at [KubeCon](https://events.linuxfoundation.org/events/kubecon-clou
 
 Melanie will be at [SOCML](https://sites.google.com/view/socml-2018/home) this week and [NeurIPS](https://neurips.cc) next week. She'll be attending [WIML](https://wimlworkshop.org), [Black in AI](https://blackinai.github.io), and [LatinX](http://www.latinxinai.org).
 
-{{< transcript "[MUSIC PLAYING] MELANIE: Hi, and welcome to episode number 157 of the weekly Google Cloud Platform Podcast. I'm Melanie Warrick. And I am on my own this week because Mark is on vacation. But that's all right. He'll be back next week." >}} 
+{{< transcript "[MUSIC PLAYING] MELANIE: Hi, and welcome to episode number 157 of the weekly Google Cloud Podcast. I'm Melanie Warrick. And I am on my own this week because Mark is on vacation. But that's all right. He'll be back next week." >}} 
 
 I have invited on Anima Anandkumar to join us this week to talk about an upcoming conference, a pretty well-established conference in the AI community. This conference will actually be taking place next week in particular. And we're going to talk about some controversy that played out around the name, and more specifically the acronym, of the conference. So that's what you're going to hear as a core component of our podcast this week. 
 

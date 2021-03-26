@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/64zrto/episode_72_cus
 
 This week, [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) get a chance to talk
 directly to the Director of Customer Reliability Engineering himself, Luke Stone, all about CRE - where it came from,
-what it's goals are, and how it's been working with some big customers at Google Cloud Platform.
+what it's goals are, and how it's been working with some big customers at Google Cloud.
 
 <!--more-->
 
@@ -28,7 +28,7 @@ what it's goals are, and how it's been working with some big customers at Google
 Luke is defining the customer experience of Google's new Customer Reliability Engineering (CRE) team. 
 When he joined Google in 2002 he was the first technical support engineer for AdSense. 
 He ran software engineering teams and started building on Google App Engine in 2009. 
-Recently, he led the technical support team for Google Cloud Platform before becoming a founding member of the CRE team. 
+Recently, he led the technical support team for Google Cloud before becoming a founding member of the CRE team. 
 Before Google, Luke was a system administrator and developer in academic and non-profit organizations, 
 and studied computer science at Stanford. 
 
@@ -65,7 +65,7 @@ Francesc will be presenting at [Gophercon China](http://www.bagevent.com/event/3
 be at the [New York Google Developer Group](https://www.meetup.com/gdgnyc/events/234963739/) for a Serverless event!
 Francesc has also released a new [Just for Func episode](https://www.youtube.com/watch?v=LSzR0VEraWw), covering the Context package!
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 72 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 72 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
 MARK: I'm good, thanks, Francesc. How are you doing today? 
 
 FRANCESC: Very good. Happy to have you back to San Francisco and very excited to talk today about not SRE but CRE. 
@@ -82,7 +82,7 @@ MARK: Yeah, super happy to have him hanging out with the booth with us. Then, af
 
 FRANCESC: I want 101. Like, why not? Why no one offers 100% uptime, and if they do they're lying. So yeah, we'll talk about that at the end. But before, as usual, we have our cool things of the week. And we have three of them today. The first one is a pretty cool opportunity for any startup out there doing machine learning. We have a competition. It's called a Google Cloud Machine Learning Competition, because you know it's like not a very original name. But, basically if you apply to it, you can get up to half a million dollars in investment opportunities and $1 million in GCP credits. And there's many other prizes, but basically the whole point is if you're doing machine learning now, you can just apply. It's not a specific vertical of machine learning. It's just machine learning. So I guess it's a cool opportunity for anyone out there doing cool stuff with machine learning. 
 
-MARK: Yeah. And it's worth noting that we're pretty open, so teams don't have to be using Google Cloud Platform to be eligible. It is US-based startups. So if you're just basically doing machine learning in almost any sector on almost any platform and essentially using any tech, then we could be interested in seeing what you're doing. 
+MARK: Yeah. And it's worth noting that we're pretty open, so teams don't have to be using Google Cloud to be eligible. It is US-based startups. So if you're just basically doing machine learning in almost any sector on almost any platform and essentially using any tech, then we could be interested in seeing what you're doing. 
 
 FRANCESC: Next we're going to be talking about something that I'm pretty sure people that do machine learning, especially at scale, are going to be pretty excited about. We wrote a paper and published a blog post about the performance of TPUs, the TensorFlow Processing Units, and it has a lot of detail. 
 
@@ -124,7 +124,7 @@ LUKE: I'm fantastic. Thanks for the great intro.
 
 MARK: Excellent. Before we start talking about CRE and customer reliability engineering, why don't you tell us a little bit about yourself? What do you do a Google? What's your role? Who are you as a person? 
 
-LUKE: Sure. So my name is Luke Stone. I'm Director of Customer Reliability Engineering for the Google Cloud Platform. I've been at Google as an engineer for 14 years. I started off doing tech support for AdSense, and I'm really into doing technical partnerships. I think Google is an awesome technical company, and we have a lot to offer to people who want to be awesome at technology, too. 
+LUKE: Sure. So my name is Luke Stone. I'm Director of Customer Reliability Engineering for the Google Cloud. I've been at Google as an engineer for 14 years. I started off doing tech support for AdSense, and I'm really into doing technical partnerships. I think Google is an awesome technical company, and we have a lot to offer to people who want to be awesome at technology, too. 
 
 FRANCESC: So we've done a couple of episodes where we have mentioned the concept of CRE, but what is it for you? 
 
@@ -164,7 +164,7 @@ LUKE: Yeah, exactly. And ideally some automation to help your application automa
 
 So we have a lot of expertise that we can share, a lot of value I think we can give by just telling people about what they're maybe going to run into a little bit further down the road. 
 
-MARK: Now I'm quite curious, obviously without naming names, and I've seen some blog posts on this particularly as well, but particular lessons that you've found working SRE, CRE for customers who are looking to come on board with Google Cloud Platform. What are some common pitfalls or stuff like that people kind of run into on a regular basis? 
+MARK: Now I'm quite curious, obviously without naming names, and I've seen some blog posts on this particularly as well, but particular lessons that you've found working SRE, CRE for customers who are looking to come on board with Google Cloud. What are some common pitfalls or stuff like that people kind of run into on a regular basis? 
 
 LUKE: The best answer I can really give to that is there's this book called "The SRE Book." 
 

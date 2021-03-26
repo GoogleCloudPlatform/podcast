@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.40.mp3"
 audioSize = 48297185
 categories = ["Rodeo FX", "Customer", "Preemptible VMs"]
 date = "2016-08-24T01:07:49Z"
-description = "Mark is back right on time to interview Alan Fregtman, a pipeline developer working at Rodeo FX. Alan will explain how Google Cloud Platform enables Rodeo FX artists to create amazing visual effects faster."
+description = "Mark is back right on time to interview Alan Fregtman, a pipeline developer working at Rodeo FX. Alan will explain how Google Cloud enables Rodeo FX artists to create amazing visual effects faster."
 draft = false
 episodeNumber = 40
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4zda0i/episode_40_rod
 [Mark](https://twitter.com/Neurotic) is back right on time to interview
 [Alan Fregtman](http://twitter.com/alanwritescode), a pipeline developer working at
 [Rodeo FX](http://www.rodeofx.com/en/home).
-Alan will explain how Google Cloud Platform enables Rodeo FX artist to create amazing visual effects faster.
+Alan will explain how Google Cloud enables Rodeo FX artist to create amazing visual effects faster.
 
 Rodeo FX is very well known for their work on Game of Thrones, Deadpool, and many others.
 I recommend watching this demo video to get an idea of their talent.
@@ -78,7 +78,7 @@ What if you can't delete the instance?
 1. Create a new disk from the snapshot
 1. Go to step [2] above
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 40 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 40 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good. I'm back. 
 
 FRANCESC: Yeah, welcome back. 
@@ -183,7 +183,7 @@ MARK: As soon as you want that data is as soon as you're getting that data.
 
 FRANCESC: Yeah, that data is there. So that is pretty amazing, and I was so impressed that I decided to talk about it today. But there's many other things. So go check it out. We have a link to an announcement with a bunch of new things that happened this week. 
 
-MARK: Fantastic. Awesome. Well, why don't we go have a chat with Alan, and hear all about visual effects in Google Cloud Platform. 
+MARK: Fantastic. Awesome. Well, why don't we go have a chat with Alan, and hear all about visual effects in Google Cloud. 
 
 FRANCESC: Sounds good. Let's go with that. 
 
@@ -247,7 +247,7 @@ And some of the stuff that we do in the pipeline to try to minimize the duplicat
 
 We try to keep it light. Obviously, not always the case, but we do what we can. And of course, we use the cloud to be able to render really massive, massive things. 
 
-MARK: OK, so you're saying-- OK, you mentioned that you've got a lot of storage and CPU on-prem. So where does the cloud-- where does Google Cloud Platform come in? 
+MARK: OK, so you're saying-- OK, you mentioned that you've got a lot of storage and CPU on-prem. So where does the cloud-- where does Google Cloud come in? 
 
 ALAN: Yeah. So we do a lot of different movies at the same time. A lot of different shows, we call them. It could be anything from four to a dozen shows, in different stages of production. And from time to time, usually at the end of the week, there will be some kind of delivery to the client. Because you deliver things as you start to complete them, or at least you deliver semi-finished versions that look better and better. 
 
@@ -323,7 +323,7 @@ ALAN: Yeah.
 
 MARK: What do you have in terms of security? What sort of considerations have you had that way to make sure everything is not public to the internet, probably in any way, shape, or form? 
 
-ALAN: Yeah, we try to. Well, we use the Google Cloud Platform firewall to pretty much block all access except to the IP from Montreal. That's one thing. And we try to use VPN wherever possible. And we believe that's reasonably secure. 
+ALAN: Yeah, we try to. Well, we use the Google Cloud firewall to pretty much block all access except to the IP from Montreal. That's one thing. And we try to use VPN wherever possible. And we believe that's reasonably secure. 
 
 FRANCESC: So how are you using VPN? Is that so the machines that are on the cloud are able to access the on-prem storage, or do you use it for some other things? 
 
@@ -375,7 +375,7 @@ FRANCESC: So thanks again to Alan for such an interesting interview. I know the 
 
 MARK: Yeah, absolutely. There's definitely a few movies that they've worked on that now I want to go see, so that's pretty cool as well. Awesome. 
 
-So why don't we get stuck into the question of the week, which comes from the wonderful community members from the Google Cloud Platform Slack channel. We were talking on there the other day about, say, you have a Google Compute Engine virtual machine instance, you have it up and running, and you think to yourself, ooh, I'd love to be able to scale this. So what I want to be to do is create an instance group, which lets me scale that up and down real easily. Is there a way that I can create an instance group from an already running VM? 
+So why don't we get stuck into the question of the week, which comes from the wonderful community members from the Google Cloud Slack channel. We were talking on there the other day about, say, you have a Google Compute Engine virtual machine instance, you have it up and running, and you think to yourself, ooh, I'd love to be able to scale this. So what I want to be to do is create an instance group, which lets me scale that up and down real easily. Is there a way that I can create an instance group from an already running VM? 
 
 FRANCESC: So I actually had to do this a long time ago for a demo, which is actually open source, and we've talked about it before. It's called Abelana. And basically, when I was in the development phase of it, I created an instance, and then I installed ImageMagick on it. And installing ImageMagick was actually a couple-- it took me some time. Then I realized that you could do sudo apt-get install. 
 
@@ -459,7 +459,7 @@ FRANCESC: On Reddit.
 
 MARK: At /r/gcppodcast. 
 
-FRANCESC: And finally, also, we have the channel podcast on the Google Cloud Platform Community Slack channel. 
+FRANCESC: And finally, also, we have the channel podcast on the Google Cloud Community Slack channel. 
 
 MARK: Slack channel. Yeah. 
 

@@ -69,7 +69,7 @@ Francesc, who just released a new episode of [#justforfunc](https://youtube.com/
 will speak at the Go 1.8 [release party](https://www.meetup.com/golangsf/events/236673793/)
 in San Francisco. A bit later he'll also be at [Gophercon India](http://www.gophercon.in).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 60 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 60 of the weekly Google Cloud Podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 MARK: I'm good. Thanks, Francesc. How are you doing? 
 
 FRANCESC: I'm pretty tired. It's been a long day. It is a Saturday. And I have been working. I've been working. I've been having fun at [INAUDIBLE] all day long. But also very happy to be here for a very awesome interview, actually. How are you? Let's not be impolite. 
@@ -96,7 +96,7 @@ FRANCESC: It is very awesome, because basically the way it happened is that we g
 
 MARK: Pretty much. We were like, hey, what are you doing on Saturday? 
 
-FRANCESC: So pretty awesome, and after that interview with Soam, we are going to have our question of the week, which is about all the things that I love-- networking, so HTTPS and web sockets and load balancing. How do you make all of those things work together nicely on Google Cloud Platform? 
+FRANCESC: So pretty awesome, and after that interview with Soam, we are going to have our question of the week, which is about all the things that I love-- networking, so HTTPS and web sockets and load balancing. How do you make all of those things work together nicely on Google Cloud? 
 
 MARK: Before we do that, though, why don't we get stuck into our cool things of the week? 
 
@@ -288,7 +288,7 @@ FRANCESC: What is going on?
 
 MARK: What is going on? So it's a good question, and one I've definitely run into before. So yes, if you're doing HTTP or HTTPS load balancing, we have a global layer 7 load balancer to help support that. That load balancer doesn't support web sockets. So it's like, what do I do? 
 
-So web sockets themselves aren't HTTP. Web sockets run over TCP protocol. They're negotiated and managed by HTTP, by the browser and the server to where do I connect to and where. But they are a TCP connection. So we need a TCP load balancer is essentially what we need. And Google Cloud Platform has a TCP load balancer, which is great. But what we also want is we want SSL support, because much like HTTP and HTTPS, security good. 
+So web sockets themselves aren't HTTP. Web sockets run over TCP protocol. They're negotiated and managed by HTTP, by the browser and the server to where do I connect to and where. But they are a TCP connection. So we need a TCP load balancer is essentially what we need. And Google Cloud has a TCP load balancer, which is great. But what we also want is we want SSL support, because much like HTTP and HTTPS, security good. 
 
 So what we can do then is we set up a TCP load balancer, a network load balancer. But we set it up with what's called an SSL proxy. And once we do that, things pretty much work as you would expect. 
 

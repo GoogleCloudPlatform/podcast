@@ -62,7 +62,7 @@ This week we learn about how Mercari is handling migrating from an on-prem monol
 
 ##### Question of the week
 
-How do I use my existing identity management system with Google Cloud Platform? [site](https://support.google.com/a/answer/60224) and [blog](https://cloud.google.com/blog/products/identity-security/using-your-existing-identity-management-system-with-google-cloud-platform)
+How do I use my existing identity management system with Google Cloud? [site](https://support.google.com/a/answer/60224) and [blog](https://cloud.google.com/blog/products/identity-security/using-your-existing-identity-management-system-with-google-cloud-platform)
 
 ##### Where can you find us next?
 
@@ -70,7 +70,7 @@ Mark is at [Pax Dev](http://dev.paxsite.com/) and [Pax West](http://west.paxsite
 
 In September, Mark will be at [Tokyo NEXT](https://cloud.withgoogle.com/next18/tokyo) and Melanie will be at [Deep Learning Indaba](http://www.deeplearningindaba.com). You can find both of us at [Strangeloop](https://www.thestrangeloop.com).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 144 of the weekly Google Cloud Platform podcast. I'm Mark Mandel. And as always, I'm here with my colleague, Melanie Warrick. How are you doing, Melanie?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 144 of the weekly Google Cloud podcast. I'm Mark Mandel. And as always, I'm here with my colleague, Melanie Warrick. How are you doing, Melanie?" >}}
 
 MELANIE: I'm good, Mark. And I'm here. We're both here. 
 
@@ -78,7 +78,7 @@ MARK: We're here-- sort of here. I'm at home. You're in the office. It's fine.
 
 MELANIE: All right, well, Mark, this week, we're going to speak with Terry and Taichi from Mercari. It's another episode that we recorded while we were at Next. And we were really glad to get them to come in and talk to us about their e-commerce platform that operates out of Japan, the US, and the UK and the story that they have around working with microservices as well as migrating services onto GCP. 
 
-MARK: Excellent. And as for always, we'll have Cool Things of the Week and our questions of the week. And our question of the week will be, how do I use my existing identity management system with Google Cloud Platform? 
+MARK: Excellent. And as for always, we'll have Cool Things of the Week and our questions of the week. And our question of the week will be, how do I use my existing identity management system with Google Cloud? 
 
 MELANIE: That's a great question. As you mentioned, though, we're going to start out with Cool Things of the Week. And one of them is a GitHub repo from Sara Robinson from our team. She did a repo that basically helps demo AutoML and the integration with Firebase storage. So if you wanted to experiment with querying a custom AutoML model from a web app, you can look at her example. 
 
@@ -324,7 +324,7 @@ MELANIE: Thank you again, Taichi and Terry, for coming onto the podcast while we
 
 MARK: Yeah. Really great episode. And thanks for sharing your journey as well from building a monolithic application and then transferring that over to microservices, and how that's going, and all the lessons you learned along the way as well. 
 
-MELANIE: All right, Mark. How do I use my existing identity management system with Google Cloud Platform? 
+MELANIE: All right, Mark. How do I use my existing identity management system with Google Cloud? 
 
 MARK: Yeah. I think this is actually a really interesting question too. I didn't even realize this was a thing, really. 
 

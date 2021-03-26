@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.116.mp3"
 audioSize = 49607221
 categories = ["Solution Architects"]
 date = "2018-02-28"
-description = "The Director of Solutions Miles Ward and Cloud Solutions Architect Grace Mollison join us to discuss Solution Architects - what they do and how they interact with Customers at Google Cloud Platform."
+description = "The Director of Solutions Miles Ward and Cloud Solutions Architect Grace Mollison join us to discuss Solution Architects - what they do and how they interact with Customers at Google Cloud."
 draft = false
 episodeNumber = 116
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/80xca4/episode_116_so
 
 We have the pleasure this week of having the Director of Solutions for Google Cloud [Miles Ward](https://twitter.com/milesward) and Cloud Solutions Architect [Grace Mollison](https://twitter.com/grapesfrog)
 join [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to discuss Solution Architects, what they
-do and how they interact with Customers at Google Cloud Platform.
+do and how they interact with Customers at Google Cloud.
 
 <!--more-->
 
@@ -42,7 +42,7 @@ Based in London, UK, [Grace Mollison](https://twitter.com/grapesfrog) is a Cloud
 
 ##### Interview
 
-- Google Cloud Platform Solutions [site](https://cloud.google.com/solutions)
+- Google Cloud Solutions [site](https://cloud.google.com/solutions)
 - Tutorials and Solutions [site](https://cloud.google.com/docs/tutorials)
 - Machine Learning with Financial Time Series Data [solution](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
 - Implementing GCP Policies for Customer Use Cases [solution](https://cloud.google.com/solutions/policies/implementing-policies-for-customer-use-cases)
@@ -63,7 +63,7 @@ it all over again? Is there an easy way to do this locally?
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 116 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel, and I'm here with my colleague Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 116 of the weekly Google Cloud Podcast. I'm Mark Mandel, and I'm here with my colleague Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm good. 
 
@@ -117,7 +117,7 @@ It's really a useful tool. And so they built Jupiter Lab. And Jupiter Lab in par
 
 Check it out. It's really interesting. And we're going to actually have a link where you can find out more information and figure out how to install it. 
 
-MARK: Awesome. For another one, we announced that Google Cloud Spanner can now be used as a vault storage back-end. If you're not familiar with HashiCorp Vault, it's a really cool open source tool for basically managing secrets. It's very popular across Google Cloud Platform, as well as Kubernetes. 
+MARK: Awesome. For another one, we announced that Google Cloud Spanner can now be used as a vault storage back-end. If you're not familiar with HashiCorp Vault, it's a really cool open source tool for basically managing secrets. It's very popular across Google Cloud, as well as Kubernetes. 
 
 This is kind of cool, because Spanner is a great way to have high availability across multiple regions, and have that as a back-end. So it enables a few things on Vault that are kind of neat, in terms of, like, transactional support as well, enterprise-grade security-- basically it uses the same security as Cloud Spanner, which is amazing --and it's also supported by Google, which is also nice. 
 

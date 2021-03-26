@@ -82,7 +82,7 @@ Mark is staying in San Francisco and just launched two Beyond Your Bill videos: 
 * "Bad Beep" by RicherLandTV of [Freesound.org](https://freesound.org)
 * "C-ClassicalSuspense" by DuckSingle of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode 193 of the weekly Google Cloud Platform podcast. I'm Mark Mirchandani, and I'm here with my colleague Michelle. Hey, Michelle." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to Episode 193 of the weekly Google Cloud podcast. I'm Mark Mirchandani, and I'm here with my colleague Michelle. Hey, Michelle." >}}
 
 MICHELLE: Hey, Mark. 
 

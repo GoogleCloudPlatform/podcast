@@ -35,7 +35,7 @@ Paresh Kharya is Group Product Marketing Manager for data center products at NVI
 Prior to joining Google [Amruta](https://twitter.com/AmrutaGulanikar) spent 5+ years as a PM in the Office division at Microsoft working on many different products. Just before she left, she worked on launching a new service and supporting apps - “O365 Planner” which offers people a simple and visual way to organize teamwork.
 At Google, Amruta owns Windows on GCE which includes support for premium OS & Microsoft Server product images, platform improvements to support Windows workloads on GCE.
 
-[Simon Zeltser](https://twitter.com/simon_zeltser) is a Developer Programs Engineer at Google, working with .NET and Windows on Google Cloud Platform.
+[Simon Zeltser](https://twitter.com/simon_zeltser) is a Developer Programs Engineer at Google, working with .NET and Windows on Google Cloud.
 
 ##### Henry Hsu & Isaac Wong
 
@@ -57,15 +57,15 @@ Henry Hsu is a software engineer trained at Holberton School. He has experience 
 * National Federation of the Blind [site](https://nfb.org)
 * National Association of the Deaf [site](https://www.nad.org)
 * NVIDIA [site](http://www.nvidia.com/page/home.html)
-* NVIDIA and Google Cloud Platform [site](https://cloud.google.com/nvidia/)
-* Google Cloud Platform Podcast Episode 119 [podcast](https://www.gcppodcast.com/post/episode-119-nvidia-and-deep-learning-research-with-bryan-catanzaro/)
+* NVIDIA and Google Cloud [site](https://cloud.google.com/nvidia/)
+* Google Cloud Podcast Episode 119 [podcast](https://www.gcppodcast.com/post/episode-119-nvidia-and-deep-learning-research-with-bryan-catanzaro/)
 * Velostrata [site](https://velostrata.com/google/)
 * GKE [site](https://cloud.google.com/kubernetes-engine/)
 * Google App Engine [site](https://cloud.google.com/appengine/)
 * Stackdriver Debugger [site](https://cloud.google.com/debugger/)
-* Windows on Google Cloud Platform [site](https://cloud.google.com/windows/)
-* SQL Server on Google Cloud Platform [site](https://cloud.google.com/sql-server/)
-* .NET on Google Cloud Platform [site](https://cloud.google.com/dotnet/)
+* Windows on Google Cloud [site](https://cloud.google.com/windows/)
+* SQL Server on Google Cloud [site](https://cloud.google.com/sql-server/)
+* .NET on Google Cloud [site](https://cloud.google.com/dotnet/)
 * Holberton School [site](https://www.holbertonschool.com/about)
 * Unity [site](https://unity3d.com)
 * GKE On-Prem [site](https://cloud.google.com/gke-on-prem/)
@@ -76,7 +76,7 @@ Henry Hsu is a software engineer trained at Holberton School. He has experience 
 We'll both be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf/) in Moscone West on the first floor, so come by and say hi! We have chocolate!
 
 
-{{< transcript "[ARPEGGIATED SYNTHESIZER THEME PLAYING]MARK: Hi. And welcome to Episode Number 138 of our currently daily Google Cloud Platform podcast. My name is Mark Mandel. I'm here with my colleague, as always, Melanie Warrick." >}}
+{{< transcript "[ARPEGGIATED SYNTHESIZER THEME PLAYING]MARK: Hi. And welcome to Episode Number 138 of our currently daily Google Cloud podcast. My name is Mark Mandel. I'm here with my colleague, as always, Melanie Warrick." >}}
 
 MELANIE: Day 2, Day 2 of Next. 
 
@@ -162,7 +162,7 @@ GPU computing is also available across all the different computing form factors,
 
 MELANIE: Your here at Next because you had a big announcement yesterday. Can you tell us a little bit about that? 
 
-PARESH: Yeah, sure. We are very excited about that. So we announced that our Tesla P4 GPUs are coming to Google Cloud Platform. P4 is basically a small form factor, highly specialized for AI inference workloads GPU. And while our flagship GPUs like V100 have been available for a while, Google is the first cloud platform to make P4 available on a global scale. And this speaks to the tipping point of how AI inference is becoming really important as a workload. 
+PARESH: Yeah, sure. We are very excited about that. So we announced that our Tesla P4 GPUs are coming to Google Cloud. P4 is basically a small form factor, highly specialized for AI inference workloads GPU. And while our flagship GPUs like V100 have been available for a while, Google is the first cloud platform to make P4 available on a global scale. And this speaks to the tipping point of how AI inference is becoming really important as a workload. 
 
 P4 it is ideally suited for the real time inference workloads that require really fast processing. So think of services like speech-based interfaces or real-time live translations, understanding of video, and so on. P4 can process AI workloads that are really complex 40 times faster than what's possible on CPUs alone. 
 
@@ -182,11 +182,11 @@ MELANIE: Ooh, magic.
 
 HABEN: --exactly, whether it's the G Suite or optimizing the performance of your massive data centers. And Google is not just keeping its technology to itself. It's basically making it available to everyone, every industry, and enabling them to be transformed by AI. 
 
-Google and NVIDIA, we have a strong partnership. And we both understand the need for accelerated computing to help advance AI. And Google continues to invest in TPUs, for example. But at the same time, Google is also relying on GPU used to power its own internal AI, as well as they are making it available as a cloud service on the Google Cloud Platform. So every deep learning framework and the diversity of modern AI can be supported. 
+Google and NVIDIA, we have a strong partnership. And we both understand the need for accelerated computing to help advance AI. And Google continues to invest in TPUs, for example. But at the same time, Google is also relying on GPU used to power its own internal AI, as well as they are making it available as a cloud service on the Google Cloud. So every deep learning framework and the diversity of modern AI can be supported. 
 
 MELANIE: That's great. Well, we appreciate you coming by to chat with us on the podcast. Anything else you wanted to mention before we let you go? 
 
-PARESH: Yeah, it's a really exciting time. We are witnessing a new revolution in terms of artificial intelligence and what it can do to revolutionize the workflows and simplify our lives, as well as revolutionize industries. And we're just at the tipping point right now, where people are realizing all of this is possible. We're very happy to work with Google to make our GPU computing technology available through the Google Cloud Platform to help companies and industries transform themselves. 
+PARESH: Yeah, it's a really exciting time. We are witnessing a new revolution in terms of artificial intelligence and what it can do to revolutionize the workflows and simplify our lives, as well as revolutionize industries. And we're just at the tipping point right now, where people are realizing all of this is possible. We're very happy to work with Google to make our GPU computing technology available through the Google Cloud to help companies and industries transform themselves. 
 
 MARK: Fantastic. Well, thank you so much for coming to join us here on the Next showroom floor. 
 

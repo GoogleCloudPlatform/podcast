@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.18.mp3"
 audioSize = 43323976
 categories = ["Bigtable", "Big Data"]
 date = "2016-03-23T01:07:49Z"
-description = "In the eighteenth episode of this podcast, your hosts Francesc and Mark interview Ian Lewis, a Google Cloud Platform Developer Advocate on Bigtable."
+description = "In the eighteenth episode of this podcast, your hosts Francesc and Mark interview Ian Lewis, a Google Cloud Developer Advocate on Bigtable."
 draft = false
 episodeNumber = 18
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,16 +20,16 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4bn91p/episode_18_big
 In the eighteenth episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
-[Ian Lewis](https://twitter.com/IanMLewis), a Google Cloud Platform Developer
+[Ian Lewis](https://twitter.com/IanMLewis), a Google Cloud Developer
 Advocate based in Tokyo about Bigtable.
 <!--more-->
 
 ##### About Ian
 
-Ian is a Developer Advocate on the Google Cloud Platform team working out of
+Ian is a Developer Advocate on the Google Cloud team working out of
 Tokyo. Ian loves Python and Go and helps run the largest Python event in Japan,
 PyCon JP. Ian is also interested in Docker and Kubernetes and hopes to help
-Google Cloud Platform users achieve their highest potential.
+Google Cloud users achieve their highest potential.
 
 
 ##### Cool thing of the week
@@ -56,7 +56,7 @@ How to limit what users can do on the resources of your project?
 
 - Google Cloud Identity and Access Management [docs](https://cloud.google.com/iam/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 18 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I am here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 18 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I am here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing? 
 FRANCESC: Pretty good. Very happy to be back to California.
 MARK: Yeah. You’ve been out and about.
@@ -68,10 +68,10 @@ FRANCESC: Yeah. And I'm not sure if you're excited about not really the question
 MARK: Okay. But yeah, yeah.
 FRANCESC: Yeah? The answer's gonna be pretty cool. So but before that--so today, right now, like, today, as in Wednesday--
 MARK: Actually, if you've downloaded this episode as it came out--
-FRANCESC: Yeah, so it's actually one of our big days for Google Cloud Platform, especially for us Google Developer Advocates.
+FRANCESC: Yeah, so it's actually one of our big days for Google Cloud, especially for us Google Developer Advocates.
 MARK: Definitely.
 FRANCESC: And because it is GCPNext.
-MARK: The big Google Cloud Platform conference.
+MARK: The big Google Cloud conference.
 FRANCESC: Yeah. And it's very cool. It's happening in San Francisco on Wednesday and Thursday, and if you can attend, you should definitely come, see us, because we're gonna be hanging out somewhere next to a sign that says Podcast. But if you cannot come, you can still catch up with all the new things that we're gonna be announcing. There's two ways. One of them--we already mentioned it. There was--what was it?
 MARK: The extended viewing parties.
 FRANCESC: Extended viewing parties, that did--
@@ -94,7 +94,7 @@ FRANCESC: I mean, yes, it's in the middle of the night,but hey, Japan is doing i
 MARK: Like, yeah. If Japan can have a party, then Australia can have a party. I'm just--I'm a little--I'm a little sad.
 FRANCESC: 
 MARK: I'm a little bit heartbroken.
-FRANCESC: Yeah. But anyway, even for Australian people that are in the middle of the night, they don't know what to do, and they want to know more about Google Cloud Platform. There's also some of our talks, especially all the keynotes, are going to be live-streamed.
+FRANCESC: Yeah. But anyway, even for Australian people that are in the middle of the night, they don't know what to do, and they want to know more about Google Cloud. There's also some of our talks, especially all the keynotes, are going to be live-streamed.
 MARK: Yep, yep.
 FRANCESC: So you can still catch up on the conference through live stream, just over the internet.
 MARK: Yeah. So if you're--if you're awake at that time, wondering what to do, maybe you should tune in.
@@ -106,7 +106,7 @@ FRANCESC: It is very nice of you. Cool. Okay. So let's go, talk with our colleag
 MARK: That sounds like a great idea. We are very pleased today to be joined by yet another of our wonderful coworkers, Ian Lewis. Thank you so much for joining us today.
 IAN: Yeah. Thanks for having me.
 MARK: So Ian, it's great to have you here. I know you normally don't live anywhere near San Francisco, but why don't you tell us a little bit about yourself, what you do, et cetera, et cetera, so everyone gets to know you?
-IAN: Sure. So I'm a developer advocate on the Google Cloud Platform team, and I'm actually based out of Tokyo, Japan, so I would normally spend most of my time over there in--and also in APAC, so in the Asian Pacific region. But I'm here at--for GCPNext, so I'm, you know, in town for the podcast, so I can kind of hang out here with you guys.
+IAN: Sure. So I'm a developer advocate on the Google Cloud team, and I'm actually based out of Tokyo, Japan, so I would normally spend most of my time over there in--and also in APAC, so in the Asian Pacific region. But I'm here at--for GCPNext, so I'm, you know, in town for the podcast, so I can kind of hang out here with you guys.
 FRANCESC: Cool. And just for context, Ian Lewis, from Japan--you speak very good English. Where are you from?
 IAN: I'm originally from Maryland, actually, from the--near D.C., so--but I moved to Japan about ten years ago.
 FRANCESC: Cool. It's nice to have someone from the United States from time to time in the podcast.
@@ -214,7 +214,7 @@ MARK: Thanks so much to Ian for joining us for that interview. I learned a whole
 FRANCESC: Yeah. No, BigTable's a very, very cool product, and it is pretty amazing.
 MARK: That it--yeah.
 FRANCESC: yeah. Once you get started, and you start using it, and I have not seen the point where it's like, "Oh, yeah. It's not slow enough." Nope. Not there yet.
-MARK: No, no, no. Excellent. Okay. So but we do have a very interesting question of the week. The question kind of comes from managing, say, a Google Cloud Platform project, and within that project, you probably have a whole bunch of different things. Like, maybe you have stuff to point to App Engine, stuff to push into Cloud Storage, maybe stuff on compute engine instances, and you have someone new join your team, and you want them to say, "Okay. I want them to be able to deploy, say, compute engine instances, but I don't want them to be able to read from, say, Cloud Storage. Maybe you have, like, private keys there or something like that that are only limited to certain team members. Can you do that?
+MARK: No, no, no. Excellent. Okay. So but we do have a very interesting question of the week. The question kind of comes from managing, say, a Google Cloud project, and within that project, you probably have a whole bunch of different things. Like, maybe you have stuff to point to App Engine, stuff to push into Cloud Storage, maybe stuff on compute engine instances, and you have someone new join your team, and you want them to say, "Okay. I want them to be able to deploy, say, compute engine instances, but I don't want them to be able to read from, say, Cloud Storage. Maybe you have, like, private keys there or something like that that are only limited to certain team members. Can you do that?
 FRANCESC: Well, no, until today, actually. Yeah.
 MARK: Until today
 FRANCESC: Until today. Until today, right now, Wednesday, March 23rd. Yeah. 23rd. That's it.
@@ -227,7 +227,7 @@ FRANCESC: If you want to be correct, yes.
 MARK: Yes.
 FRANCESC: Yeah. And basically, what it allows you is to--it allows you to talk about--basically, you talk about what things are people allowed to do.
 MARK: Yeah.
-FRANCESC: So far, we had three roles in Google Cloud Platform. We had the role of honor, that was basically allowed to do anything.
+FRANCESC: So far, we had three roles in Google Cloud. We had the role of honor, that was basically allowed to do anything.
 MARK: Yep.
 FRANCESC: The role of editor, that was allowed to do some things that--
 MARK: Most things.
@@ -269,7 +269,7 @@ FRANCESC: Yeah. It is dangerous otherwise.
 MARK: Wonderful. Well, Francesc, thank you so much for joining us for yet another episode.
 FRANCESC: Thank you very much for having me. I'm very happy to be here, and let's see what's coming next week.
 MARK: Ooh.
-FRANCESC: Ooh. Maybe we'll have something special. I mean, we're at Google Cloud Platform next--today, right now.
+FRANCESC: Ooh. Maybe we'll have something special. I mean, we're at Google Cloud next--today, right now.
 MARK: We are, indeed.
 FRANCESC: So maybe something special will come next week.
 MARK: We shall see.

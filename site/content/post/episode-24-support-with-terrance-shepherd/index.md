@@ -8,7 +8,7 @@ description = "Today our guest star host, Brian Dorsey, and Mark interview Terra
 draft = false
 episodeNumber = 24
 hosts = ["Francesc Campoy Flores", "Mark Mandel", "Brian Dorsey"]
-title = "Google Cloud Platform Support with Terrance Shepherd"
+title = "Google Cloud Support with Terrance Shepherd"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/Qbua4deCUqE"
 redditLink = "https://www.reddit.com/r/gcppodcast/comments/4hvdn5/episode_24_google_cloud_platform_support_with/"
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4hvdn5/episode_24_goo
 Today our guest star host, [Brian Dorsey](https://twitter.com/briandorsey),
 and [Mark](https://twitter.com/neurotic) interview
 Terrance Shepherd about his role as Technical Solutions
-Engineer working for Google Cloud Platform's Support Team.
+Engineer working for Google Cloud's Support Team.
 <!--more-->
 
 ##### About Terrance
@@ -44,50 +44,50 @@ approval before available to customers.
 
 ##### Interviews
 
-- Google Cloud Platform Support: [cloud.google.com/support](https://cloud.google.com/support/)
+- Google Cloud Support: [cloud.google.com/support](https://cloud.google.com/support/)
 - Google Cloud SQL [docs](https://cloud.google.com/sql/docs/)
 - Google Cloud SQL General Log tips [docs](https://cloud.google.com/sql/docs/mysql-flags#tips-general-log)
 
 
 ##### Question of the week
 
-How can I connect my application running on Google Cloud Platform to other Google services like Google Docs?
+How can I connect my application running on Google Cloud to other Google services like Google Docs?
 
 - Google Apps APIs [docs](https://developers.google.com/google-apps/)
 - Google API Explorer [console](https://developers.google.com/apis-explorer/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 24 of the Weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 24 of the Weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc, how you doing today?
 FRANCESC: Pretty good. Pretty jetlagged, but very happy to be back to the United States. 
 MARK: Yeah. We're actually in separate places right now. This hasn't happened very often. 
 FRANCESC: Yeah. Yeah, we will Tweet about the pictures of our studios today. They're pretty precarious I'm gonna say. 
 MARK: Yep, you're down in Mountain View. I'm all the way in Kentucky. It's lots of fun.
 FRANCESC: Yep. And actually since we're traveling, both of us, we were not able to interview the same person at the same time, so what is the main content today? 
-MARK: Yeah, so I interviewed Terrance Shepherd with one of our coworkers and previous interviewer, interviewees, Brian Dorsey. Terrance talked to us about Google Cloud Platform Support. It was a really interesting interview. 
+MARK: Yeah, so I interviewed Terrance Shepherd with one of our coworkers and previous interviewer, interviewees, Brian Dorsey. Terrance talked to us about Google Cloud Support. It was a really interesting interview. 
 FRANCESC: Cool. I'm actually--So I have--I still haven't heard the interview itself. I will soon. But I'm sure there's gonna be--Like, did you ask questions of what is the funniest thing that's happened? 
-MARK: I didn't quite get the funniest thing, but I definitely got some really interesting stories about problems that people have had on Google Cloud Platform like common things or weird things and some solutions as well. 
+MARK: I didn't quite get the funniest thing, but I definitely got some really interesting stories about problems that people have had on Google Cloud like common things or weird things and some solutions as well. 
 FRANCESC: Cool. Yeah, looking forward to that. And after that interview, we also have the "Question of the Week." What is the "Question of the Week" about today?
-MARK: So it's not something necessarily quite as Google Cloud Platform related, but definitely Cloud related, and a question we get quite often which is how to go about coordinating or connecting, say, like, an App Engine app or something else on Google Cloud Platform to other Cloud services we have at Google such as, like, Drive or Calendar. 
+MARK: So it's not something necessarily quite as Google Cloud related, but definitely Cloud related, and a question we get quite often which is how to go about coordinating or connecting, say, like, an App Engine app or something else on Google Cloud to other Cloud services we have at Google such as, like, Drive or Calendar. 
 FRANCESC: Yeah, that is actually a question that I've had many times, so I'm sure that many of our listeners will consider that pretty useful. 
 MARK: I think so as well. 
 FRANCESC: But yeah, before that, we're gonna go through the "Cool things of the Week." Today with an "s" 'cause there's actually two of them.
 MARK: Yeah. Yeah, so the first one, it's something for some reason is very near and dear to my heart. I have a particular love for Deployment Manager. 
 FRANCESC: Which is surprising 'cause I assume that these things, you can make them with a big, big (inaudible) file. I don't know. 
-MARK: I really like Deployment Manager, so if you're not familiar to Deployment Manager, it's a way to declaratively basically specify the infrastructure you run on Google Cloud Platform. I was super happy to see that recently they have support now for PubSub. So if you want to create topics or subscriptions within Deployment Manager, you can do that through that now--You couldn't before.--which is really, really cool. PubSub is a tool that I love. It's a messaging publish subscribe service that we run. It's super, super powerful, and it lets you build some really nice distributed systems. 
+MARK: I really like Deployment Manager, so if you're not familiar to Deployment Manager, it's a way to declaratively basically specify the infrastructure you run on Google Cloud. I was super happy to see that recently they have support now for PubSub. So if you want to create topics or subscriptions within Deployment Manager, you can do that through that now--You couldn't before.--which is really, really cool. PubSub is a tool that I love. It's a messaging publish subscribe service that we run. It's super, super powerful, and it lets you build some really nice distributed systems. 
 FRANCESC: Yeah, that is actually really cool 'cause it was the last step, so we could get rid of our deploy script for Cloud Spin. 
 MARK: Yeah. 
 FRANCESC: Now every thing can actually be done with just one Deployment Manager file which is very nice. 
 MARK: Yeah, I was thinking that would be really great for Cloud Spin.
 FRANCESC: Yeah, we still need to write it, but you know. 
 MARK: Exactly. Now, what's the--What's the second "Cool thing of the Week" that we found?
-FRANCESC: The second "Cool Thing of the Week" is actually with certifications, and it's about ISO certifications, so we (suddenly we) got two more, two more, two new certifications for the Google Cloud Platform, and I'm sure you have the numbers. I know that one is for privacy, and the other one is for security. I never remember the names. 
+FRANCESC: The second "Cool Thing of the Week" is actually with certifications, and it's about ISO certifications, so we (suddenly we) got two more, two more, two new certifications for the Google Cloud, and I'm sure you have the numbers. I know that one is for privacy, and the other one is for security. I never remember the names. 
 MARK: Yeah, we did ISO 27017 for Cloud security, and ISO 27018 for privacy. Those are the two new ones, and we also renewed our ISO 27001 certificate for the fourth year in a row. 
-FRANCESC: Cool. And this actually covers basically all the things in Google Cloud Platform, so Dataflow, Bigtable, Container Engine, DataProd, Container Registry, Compute Engine, App Engine, etcetera, etcetera. Basically all the things that you can imagine, they are covered by this ISO certificate, so if it's something that--Very often it's a requirement depending on the instance (strategy) you're a part of. It's always good to know that we got you covered. 
+FRANCESC: Cool. And this actually covers basically all the things in Google Cloud, so Dataflow, Bigtable, Container Engine, DataProd, Container Registry, Compute Engine, App Engine, etcetera, etcetera. Basically all the things that you can imagine, they are covered by this ISO certificate, so if it's something that--Very often it's a requirement depending on the instance (strategy) you're a part of. It's always good to know that we got you covered. 
 MARK: Yep. And I think just the general take away, like, we really care about security. We really care about privacy. This is just another thing that we do in that area. 
 FRANCESC: Yeah, absolutely. And we'll put up the link on the show notes, but there's a Cloud.Google.com/security that's something that you want to learn more about. 
 MARK: Absolutely. So why don't we get stuck into the interview with Terrance with Brian joining me as cohost. Does that sound good? 
 FRANCESC: Yeah, sounds good. Let's talk to both of them. 
-MARK: Sounds great. We are joined today by Terrance Shepherd who has agreed to talk to us about Google Cloud Platform Support. How are you doing today, Terrance?
+MARK: Sounds great. We are joined today by Terrance Shepherd who has agreed to talk to us about Google Cloud Support. How are you doing today, Terrance?
 TERRANCE: I'm doing pretty good. 
 MARK: That's pretty great. 
 TERRANCE: How are you?
@@ -97,7 +97,7 @@ MARK: Yes. Yes, much better. Much better. Got a clean bill of health today.
 BRIAN: Okay, good. 
 MARK: Excellent. So Terrance, why don't you tell us a little bit about yourself, what you do, the things you do at Google, etcetera, etcetera. 
 TERRANCE: So my job title is called "Technical Solutions Engineer." It is under the Cloud Platform Support umbrella, and what I basically do is customers come to the support team when they're very anxious or they have a problem, and I'm there to help guide them to a solution that makes them less anxious or resolves the issue. 
-MARK: So Terrance, we talked a little bit about support. You said "support" a couple of times when you were explaining what it is you do, but like, what is "support?" What does that actually mean to Google Cloud Platform? 
+MARK: So Terrance, we talked a little bit about support. You said "support" a couple of times when you were explaining what it is you do, but like, what is "support?" What does that actually mean to Google Cloud? 
 BRIAN: What's an example of a kind of problem we help with with support? 
 TERRANCE: Good question. So it really ranges on the issue, right? So we'll help you anything from any of your billing issues, like, you want to change the credit card you're paying with, or you know, you're finally at a point in which your credit card limit is less than the bill you have on Cloud Platform, so we'll help you get to the next level of, you know, paying via wire transfer or--We call it offline billing, right, where it's not like a credit card that's charged, you sweep. We'll help you with bugs you think might be in the system. We'll help you get all the information needed and required to report it to engineering. We'll work with engineering to make sure they're actually working on the bugs so customers who are running into issues don't get that any more. We work on things prior to even customers reporting problems, right? So like, we'll--We look at products before they even get in customer hands. We'll look at the error messages that are gonna be generated and be like, "Hey, is that an error message that a customer can actually use and, like, figure out their own problem," right? You know, we very much want people to come and ask us questions, but at the same time, we want people to be able to use the product without having to come to us, only coming to us when they're in a very, very odd situation. 
 BRIAN: Got you. So you're both helping people directly and like, systematically improving things so that, you know, that help isn't even needed in the future. Is that true?
@@ -110,11 +110,11 @@ MARK: Excellent.
 BRIAN: So that takes it even further than we usually think about support. 
 TERRANCE: Yeah, we're really not your, like, average support team. We very much try to be the best at what we can do, right? Like, we spend a lot of time--Well, I think a lot of people spend a lot of time interacting with support teams, and you know, like--You know, your cell phone providers, you know, you have to go to them 'cause some thing's not working right--Not to knock any cell phone providers, but sometimes when you go to them, they're not always the most helpful people they can be, and that's, like, the number one goal for us is be the most helpful, right? We aren't going to just reject you or say we can't help you. We're actually gonna try to answer whatever the question is, right? Just as long as it's within what we can do. 
 BRIAN: So what are those parameters? Are they broken up into groups, or like, what can we do? Is it, like, broken up into tiers, or like--
-TERRANCE: So we technically support all of the products under the Google Cloud Platform, but some times that confuses some of our customers, right? Like, some times we get questions for like, "Oh, we have--Like, oh, I ran out of quota on the maps API," right? Maps API technically isn't under Cloud. Even though it's an API and it used to be in the developer's console, right, we'd sometimes get questions for that. But like, if you have a question with translated API, that's under the Cloud umbrella, you know, the Vision API, App Engine, those are all the sorts of products we really help with. 
+TERRANCE: So we technically support all of the products under the Google Cloud, but some times that confuses some of our customers, right? Like, some times we get questions for like, "Oh, we have--Like, oh, I ran out of quota on the maps API," right? Maps API technically isn't under Cloud. Even though it's an API and it used to be in the developer's console, right, we'd sometimes get questions for that. But like, if you have a question with translated API, that's under the Cloud umbrella, you know, the Vision API, App Engine, those are all the sorts of products we really help with. 
 BRIAN: Got you. 
-MARK: Cool. So if I have a question--Say, I'm running on Google Cloud Platform, like, where do I go? Does it matter, like, if I'm on a maybe different support package or do I go to the same place or what's--What avenues are available to me?
+MARK: Cool. So if I have a question--Say, I'm running on Google Cloud, like, where do I go? Does it matter, like, if I'm on a maybe different support package or do I go to the same place or what's--What avenues are available to me?
 TERRANCE: So if you're on one of our higher tiers, right, so silver, gold, or platinum, we always recommend that you come--you sign in to the Google for Work Support Center which is how you file cases with various support teams here at Google. It's where you file support cases with my team. And we always recommend you come to us first. If you're on the bronze level, right, you can post your questions on the Stack Overflow or the Google groups public issue trackers, and they're all there and monitored by our team. But it's not where you can get one-to-one support, right? If you want individual customized responses and questions, the Google For Work Support Center's gonna be your best place. But if we see a question, and we think it's gonna benefit the community, we have a whole team of people that sit and watch all of those mediums and will answer questions if it's gonna benefit the entire community. 
-MARK: Okay, so going up through the tiers, we were talking about bronze, silver, gold, platinum, I believe everyone is enrolled in bronze immediately, like, just because you're part of Google Cloud Platform. Is that correct? 
+MARK: Okay, so going up through the tiers, we were talking about bronze, silver, gold, platinum, I believe everyone is enrolled in bronze immediately, like, just because you're part of Google Cloud. Is that correct? 
 TERRANCE: That is correct.
 MARK: Excellent. Okay, and that's what gives you--Like, as soon as you're there, like, bronze is really, like--That's where you're reaching out to support through what you're talking about. So there's community mediums. There's developer communities. Stack Overflow, and those things are--Those things are monitored by the support engineers. Is that correct? 
 TERRANCE: That is correct. Yep, we have a whole team that monitors all of our what we call "one-to-many" support mediums. 
@@ -126,7 +126,7 @@ BRIAN: That's fantastic.
 TERRANCE: But yeah, they answer the question. 
 MARK: Excellent. So the silver, gold, and platinum, those do cost extra money, right? 
 TERRANCE: Yes. 
-MARK: So I see they all have sort of different benefits to those, but I think I know the answer to this question, but I'm gonna ask it anyway. What do you think is, like, the one big reason for people, like, why people should pay for support at Google Cloud Platform? 
+MARK: So I see they all have sort of different benefits to those, but I think I know the answer to this question, but I'm gonna ask it anyway. What do you think is, like, the one big reason for people, like, why people should pay for support at Google Cloud? 
 TERRANCE: So the reason why people should pay for support is the tailored experience. In the Google Group forums or Stack Overflow, the answers to the questions are gonna be generic and try to help facilitate a conversation for a wide variety of audience, right, people coming to it later. In the paid support, you get tailored one-to-one answers that address your very specific needs and usually involve exactly what you're doing. 
 MARK: Cool. And I see also in, like, the gold level, it's not just, "Hey, I've got a problem." But I believe it's also like, "I'm trying to find the best way to do this. Can you help me work that out?" Is that true?
 TERRANCE: Yeah. That's something we do actually quite regularly, and I have some really great stories about things along those lines.
@@ -170,7 +170,7 @@ TERRANCE: Yes.
 BRIAN: Okay. 
 TERRANCE: It'd be really hard to do our job without being able to do that. Or the alternative is we play the game of "can you run this G Cloud command and send me the output," right? And so that is a possibility, but it's not the most efficient way for us to help you solve your problem, right, and that's--When you're already anxious, and you're down in production, you'd rather we just tell you how to solve the problem than asking you to run 15 commands for us. 
 BRIAN: Got you.
-MARK: That makes a lot of sense. I want to return a little bit to the different tiers inside Support so that people can kind of have a feel for what cure they might want to use depending on where they're at with, like, their Google Cloud Platform usage. Bronze seems very obvious because, well, you're already signed in. We talked a little bit about silver, I think, to the degree that you're like, "Okay, you get the personalized experience." For me, looking at gold, it seems like the big win there is you get that consultive ticket, so you get that ability to be able to ask, you know, "Give me a guide on how to build this thing. I've never done it before." At what point do you think people should be moving from silver to gold? Is it just because they have that sort of need? And then also, like, what point do you think people should be moving from gold to platinum? 
+MARK: That makes a lot of sense. I want to return a little bit to the different tiers inside Support so that people can kind of have a feel for what cure they might want to use depending on where they're at with, like, their Google Cloud usage. Bronze seems very obvious because, well, you're already signed in. We talked a little bit about silver, I think, to the degree that you're like, "Okay, you get the personalized experience." For me, looking at gold, it seems like the big win there is you get that consultive ticket, so you get that ability to be able to ask, you know, "Give me a guide on how to build this thing. I've never done it before." At what point do you think people should be moving from silver to gold? Is it just because they have that sort of need? And then also, like, what point do you think people should be moving from gold to platinum? 
 TERRANCE: So the big thing, I think, changing from silver to gold is when you need that 24x7 support. That's really the big difference between silver and gold 'cause you're like, when your stuff is down on the weekend, and you need someone to answer your questions so your business is back up and running, gold is the right one. 
 MARK: And specifically that phone support as well, yeah? 
 TERRANCE: Yeah, phone support as well. And so even if you look at the target response times on things--So when you're down in production, right, I would call that a "P1" ticket, like, "priority 1, I'm down. I'm losing money." We target to respond within one hour, right? When you're on a silver level, the target to response is four business hours. So if you're down on the weekend, it could be up until 1:00 Australia time on a Monday when we would start responding to you. So if you're on the Pacific time, it'd be about, like, 9:00 p.m. Sunday.
@@ -189,7 +189,7 @@ TERRANCE: Yep.
 MARK: Wonderful. All right, and is there anything else about support that we haven't covered or you'd want to say or plug or any thing extra that you want to add? 
 TERRANCE: Probably the only thing to add is that--or to reiterate--is that the people you're talking to on the other ends are basically Google engineers. It's the same people that--comes out of the same talent pool as SWEs or SREs here at Google, and they just have some extra skills that we think make them good to be in this position. 
 BRIAN: That's awesome. 
-MARK: That is very, very cool. All right. Well, Terrance and Brian, thank you so much for joining me today and joining us here on the Google Cloud Platform Podcast. That was a super interesting conversation. 
+MARK: That is very, very cool. All right. Well, Terrance and Brian, thank you so much for joining me today and joining us here on the Google Cloud Podcast. That was a super interesting conversation. 
 TERRANCE: Thanks. 
 FRANCESC: So thank you so much to Terrance for taking the time to talk to us today. Actually not to us, but talked to Brian and Mark. Thank you, Brian, also for helping us with this interview. 
 MARK: Absolutely. He jumped in because I had to reschedule every thing 'cause I managed to hurt myself with my dog. 
@@ -215,11 +215,11 @@ FRANCESC: I'm gonna be speaking--Yeah, I'm gonna be speaking about Google Cloud 
 MARK: Excellent. I will be there also talking about multiplayer games with Firebase. 
 FRANCESC: Cool. And after that, I will go to Chicago for my first time ever for GoTo. 
 MARK: Very nice. I'll also be standing around at some of the areas we'll have at Google I/O, so you can come and talk to Googlers and sort of chat to us about your problems or other things you want to solve as well, so definitely swing by. I'll be there as well as many of my peers. 
-FRANCESC: Cool. Yeah, I'll be also there wearing a Google Cloud Platform Podcast t-shirt. 
+FRANCESC: Cool. Yeah, I'll be also there wearing a Google Cloud Podcast t-shirt. 
 MARK: I would never take that t-shirt off. I am constantly wearing that t-shirt. 
 FRANCESC: Yeah, you're actually wearing it right now. 
 MARK: I am wearing it right now. Absolutely. 
-FRANCESC: That's amazing. Just for people to know, we have more than one, so we actually wash them. There's more than one Google Cloud Platform t-shirt--Google Cloud Platform Podcast t-shirt. There you go. Great. So before we say goodbye, why don't we remind people how to contact us 'cause I think there's something new today. 
+FRANCESC: That's amazing. Just for people to know, we have more than one, so we actually wash them. There's more than one Google Cloud t-shirt--Google Cloud Podcast t-shirt. There you go. Great. So before we say goodbye, why don't we remind people how to contact us 'cause I think there's something new today. 
 MARK: There is something new today. There's a new URL that you can reach our website. I know it doesn't seem like a big thing. You can get to us at GCPPodcast.com. 
 FRANCESC: It is a huge thing. 
 MARK: It's pretty cool. Now you can get to us at Cloud.Google.com/Podcast, makes us feel very, very official or even extra official. 

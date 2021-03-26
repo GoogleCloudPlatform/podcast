@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.14.mp3"
 audioSize = 44942759
 categories = ["Storage", "Cloud Storage", "Cloud Bigtable", "Cloud SQL", "noSQL", "Paul Newson"]
 date = "2016-02-24T01:07:49Z"
-description = "In the fourteenth episode of this podcast, your hosts Francesc and Mark interview Paul Newson, a Developer Advocate for Google Cloud Platform and former Software Engineer on the Cloud Storage team at Google."
+description = "In the fourteenth episode of this podcast, your hosts Francesc and Mark interview Paul Newson, a Developer Advocate for Google Cloud and former Software Engineer on the Cloud Storage team at Google."
 draft = false
 episodeNumber = 14
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ In the fourteenth episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
 [Paul Newson](https://twitter.com/newsons_nybbles).
-Paul is now a Developer Advocate for Google Cloud Platform but was a Software
+Paul is now a Developer Advocate for Google Cloud but was a Software
 Engineer in the Cloud Storage team.
 Together they discuss the multiple options available for data storage on the
 cloud and the trade offs to be taken into account while choosing one.
@@ -67,7 +67,7 @@ Question from Jeff Schnitzer: Can you use Java 8 features in Standard App Engine
 - Google App Engine Managed VMs [docs](https://cloud.google.com/appengine/docs/managed-vms/).
 - Retrolambda [Github repo](https://github.com/orfjackal/retrolambda).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 14 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my very, very illustrious colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 14 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my very, very illustrious colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 MARK: I'm good, thanks. How are you doing, Francesc?
 FRANCESC: Pretty great, very excited about today. We're gonna be having our first episode ever about storage.
 MARK: Storage is a very exciting topic.
@@ -97,7 +97,7 @@ PAUL: I'm doing well. Thanks, Mark.
 MARK: Thank you so much for joining us.
 PAUL: It's my pleasure.
 MARK: So if people don't know who you are, which I hazard a guess is simply not possible, do you want to give us a little bit about yourself and your background and sort of what you do at Google and that sort of fun stuff?
-PAUL: Sure. So I'm a developer advocate as Google as you just mentioned, which means I get to do fun things like this with my time. Developer advocate's one of the titles that we give software engineers who work in developer relations, so we get to come out to conferences and talk to customers and give presentations and basically make people aware of the awesome stuff we have in the Google Cloud Platform and hopefully inspire them to use it, teach them how to use it, and so I'm very excited to be here today. Before I was a developer advocate for the Cloud Platform, I had the privilege of working on the Cloud Platform for about three years. I was a software engineer on the Cloud Storage team, which is how I have become known as the developer advocate who seems to know something about storage and why you've asked me to come here and talk about it today.
+PAUL: Sure. So I'm a developer advocate as Google as you just mentioned, which means I get to do fun things like this with my time. Developer advocate's one of the titles that we give software engineers who work in developer relations, so we get to come out to conferences and talk to customers and give presentations and basically make people aware of the awesome stuff we have in the Google Cloud and hopefully inspire them to use it, teach them how to use it, and so I'm very excited to be here today. Before I was a developer advocate for the Cloud Platform, I had the privilege of working on the Cloud Platform for about three years. I was a software engineer on the Cloud Storage team, which is how I have become known as the developer advocate who seems to know something about storage and why you've asked me to come here and talk about it today.
 FRANCESC: Nice, and yeah, actually, that's the whole point of the episode. We want to know more about storage, and this is our first episode that--where we're going to cover storage specifically, and there's so many options that we don't want to make, like, a deep dive on every single option because the podcast is half an hour, not half a day, so we're gonna have to concentrate on, "Okay, I have some data. I want to store it. What do I do?"
 PAUL: Yeah, so I'm gonna try to kind of give you a roadmap or a decision tree about, you know, "I have this stuff, and it kind of looks like this, so what's the best fit for me?"
 FRANCESC: Nice.

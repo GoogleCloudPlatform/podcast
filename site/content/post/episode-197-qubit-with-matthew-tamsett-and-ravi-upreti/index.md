@@ -66,7 +66,7 @@ Aja will be at [Cloud Next London](https://cloud.withgoogle.com/next/uk).
 
 * "Small Group Laugh 6" by Tim.Kahn of [Freesound.org](https://freesound.org)
 
-{{< transcript "[ELECTRONIC MUSIC PLAYING] GABI: Hi, and welcome to episode number 197 of the weekly Google Cloud Platform podcast. I am Gabi, and I'm here with my colleague, Aja Hammerly. Hi, Aja." >}} 
+{{< transcript "[ELECTRONIC MUSIC PLAYING] GABI: Hi, and welcome to episode number 197 of the weekly Google Cloud podcast. I am Gabi, and I'm here with my colleague, Aja Hammerly. Hi, Aja." >}} 
 
 AJA: Hey, Gabi. 
 
@@ -76,7 +76,7 @@ AJA: But first, it's time for cool thing of the week. I've got one, Gabi. And we
 
 GABI: We also have another blog post, but this one is on the Google Cloud blog post. It's how Cloud Build is bringing advance continuous integration, continuous deployment, for GitHub. Basically, every time you can trigger a deployment, every time you have a [? PR ?] [? merged, ?] deployment, or integration. 
 
-AJA: Speaking of Cloud Build, the other thing I wanted to point out as my cool thing of the week was that Cloud Build was called off by Forrester as a best in class CI/CD solution. We'll put a link to the Google Cloud Platform blog post about that, but I wanted to say that Cloud Build's really cool, and it's great to see the community finally recognizing that. 
+AJA: Speaking of Cloud Build, the other thing I wanted to point out as my cool thing of the week was that Cloud Build was called off by Forrester as a best in class CI/CD solution. We'll put a link to the Google Cloud blog post about that, but I wanted to say that Cloud Build's really cool, and it's great to see the community finally recognizing that. 
 
 GABI: That's so deserved. And then we have six strategies for scaling your serverless applications. So basically, talks about six ways that you can-- scaling capabilities of your serverless by using different [? maximum ?] [? of ?] instances using Redis and other tips that you can read on the blog post. So go there and check it out. So it's a quick read. 
 

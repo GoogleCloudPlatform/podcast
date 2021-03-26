@@ -65,7 +65,7 @@ Gabi is in France.
 John is in NYC.
 Brian will be in Boulder, Colorado.
 
-{{< transcript "[MUSIC PLAYING] MICHELLE: Hi, and welcome to episode number 177 of the weekly Google Cloud Platform podcast. I'm Michelle, and I'm here with my colleague, Mark Mirchandani. Hi. Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MICHELLE: Hi, and welcome to episode number 177 of the weekly Google Cloud podcast. I'm Michelle, and I'm here with my colleague, Mark Mirchandani. Hi. Mark." >}} 
 
 MARK: Hi, Michelle. How are you today? 
 

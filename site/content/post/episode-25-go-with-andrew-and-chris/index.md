@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.25.mp3"
 audioSize = 51914615
 categories = ["Go", "App Engine", "Container Engine"]
 date = "2016-05-11T01:07:49Z"
-description = "Join us for a conversation with Andrew Gerrand and Chris Broadfoot from the Go team on why Go is so successful for all the things cloud and how you can use it with Google Cloud Platform."
+description = "Join us for a conversation with Andrew Gerrand and Chris Broadfoot from the Go team on why Go is so successful for all the things cloud and how you can use it with Google Cloud."
 draft = false
 episodeNumber = 25
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4ivs2i/episode_25_go_
 Join us today for a conversation with [Andrew Gerrand](https://twitter.com/enneff)
 and [Chris Broadfoot](https://twitter.com/broady) from the Go team. They will discuss
 with your hosts [Francesc Campoy](https://twitter.com/francesc) and [Mark Mandel](https://twitter.com/neurotic)
-why Go is so successful for all the things cloud and how you can use it with Google Cloud Platform.
+why Go is so successful for all the things cloud and how you can use it with Google Cloud.
 
 <!--more-->
 
@@ -32,7 +32,7 @@ tons of blog posts and talks on Go. He spends most of his time making Go easier 
 ##### About Chris
 
 Chris joined the Go and Cloud teams last year to improve the experience of
-writing Go applications for Google Cloud Platform. Before that, he worked
+writing Go applications for Google Cloud. Before that, he worked
 at Google on the Maps APIs for around five years.
 
 ##### Cool thing of the week
@@ -69,14 +69,14 @@ at Google on the Maps APIs for around five years.
 <p style="margin-top: 5px"><i>The Go gopher, by <a href="http://www.reneefrench.com/">Renee French</a></i></p>
 </div>
 
-{{< transcript "MARK: Hi, and welcome to episode number 25 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hi, Mark. How're you doing?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 25 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hi, Mark. How're you doing?" >}}
 FRANCESC: Hey, Francesc. How are you doing? 
 MARK: I'm good. 
 FRANCESC: So, we're gonna be interviewing someone that I really like. Actually, two people that work very closely with me. 
 MARK: Yeah.
 FRANCESC: About Go. 
 MARK: Yeah, one person who actually sits very close to both of us.
-FRANCESC: Yeah, actually. Yeah, we're gonna have two people that work in the developer relations team for Go and Go--Google Cloud Platform. 
+FRANCESC: Yeah, actually. Yeah, we're gonna have two people that work in the developer relations team for Go and Go--Google Cloud. 
 MARK: Yep.
 FRANCESC: And we're gonna be talking about why Go is cool for the Cloud and how you can use it, etcetera, etcetera.
 MARK: Yeah, we'll be talking with Andrew Gerrand and Chris Broadfoot.
@@ -91,7 +91,7 @@ MARK: Yeah, so if you're not familiar with EVE online, it's a, like, literally m
 FRANCESC: Like relative news.
 MARK: Relative news, like, outside of gaming news where--yeah, it's a cool game. I don't personally play it but I know people that do, and it's pretty awesome. But we have a video where they have a presentation they gave about Kubernetes and how they run the company behind EVE. What I like about this presentation that I think is quite interesting, apart from the fact that it gives some background on Kubernetes and how that works, but they talk about how they, sort of, onboarded Kubernetes into their organization and the impetus behind it.
 FRANCESC: Mm-hmm.
-MARK: And, sort of, they break it down. They're like, "Okay, so we started building Kubernetes, like, on Prim, and we ran into some issues. And then we started playing with Google Cloud Platform, and that was a lot easier and, like, we started going that way. And then they--
+MARK: And, sort of, they break it down. They're like, "Okay, so we started building Kubernetes, like, on Prim, and we ran into some issues. And then we started playing with Google Cloud, and that was a lot easier and, like, we started going that way. And then they--
 FRANCESC: Do you know if they were using container engine directly?
 MARK: They are using container engine. They do mention it. Basically, they don't want to manage their own [inaudible]. 
 FRANCESC: Cool.
@@ -187,7 +187,7 @@ CHRIS: Yeah, even also the runtime version, you know, you end up with things lik
 ANDREW: Mm. Mm. And I guess in the Cloud sits in a Docker container. You can create a Docker container that just has the Go binary in it and nothing else, and that's it.
 FRANCESC: Yeah.
 ANDREW: And that's kind of nice. That's a very easy thing to understand in this world that's complicated and difficult to understand.
-FRANCESC: Cool. So, for people that are already convinced on using Go and using Go in the Cloud, what are the different ways that they can run Go on Google Cloud Platform?
+FRANCESC: Cool. So, for people that are already convinced on using Go and using Go in the Cloud, what are the different ways that they can run Go on Google Cloud?
 CHRIS: Yeah, so there are many ways that vary from very managed to not being managed at all. So some of my favorites are Google App Engine. I don't like messing with deployment scripts and things like that. I mostly write web applications. So they're a really great fit. We have two, sort of, flavors I guess. So there's App Engine's standard environment, and this is what we used to call a sandbox environment, has quite a few restrictions around how you program your application. So you're not likely to run an existing Go application directly on App Engine standard. But you can, basically, do that with App Engine flexible environment which has far fewer restrictions. Like, you have a main function and a main package. So you--basically, you run the same application outside of App Engine as you do on your desktop or on a different Cloud provider. We also have Kubernetes, which is a--essentially an open source version of the deployment system we use at Google which is called Borg. And this lets you run your application on many different nodes, on any compute provider, very easily. There's also Compute Engine which is basically just a bare VM, and, you know, this means you have to run your own deployment scripts and startup scripts and manage all of that yourself. However, we do provide things like kernel patches and things like that on the fly. So it's, you know, still very different to having a computer sitting under your stairs, right?
 ANDREW: Yeah. Also, in the Compute Engine case, you basically just get nothing in terms of scaling and so on.
 CHRIS: Yeah.
@@ -198,11 +198,11 @@ CHRIS: Yeah.
 ANDREW: So you don't even pay for your app when people aren't using it which is a definite advantage over the VM-based.
 FRANCESC: Yeah, we had a couple episodes ago interviewed Humble Bundle, and they run the whole infrastructure basically on App Engine. And they were talking about all of these benefits. Like, if they get a huge spike in traffic, they don't care. Everything just works. 
 ANDREW: Mm.
-CHRIS: Yeah, so I should mention, another thing we're working on is a set up packages and libraries that, sort of, bridge these gaps. So that, you know, if you start with App Engine standard and need to do something a little more special, you can move to the manage--the flexible environment, previously known as managed VMs. And, you know, to sort of move between these different deployment modes and not have to rewrite your application. Because, you know, applications should be agnostic of where they're deployed. You know? You should just write your application, be able to deploy it wherever you like and however you like. So that's another focus and real goal of the Google Cloud Platform right now. 
+CHRIS: Yeah, so I should mention, another thing we're working on is a set up packages and libraries that, sort of, bridge these gaps. So that, you know, if you start with App Engine standard and need to do something a little more special, you can move to the manage--the flexible environment, previously known as managed VMs. And, you know, to sort of move between these different deployment modes and not have to rewrite your application. Because, you know, applications should be agnostic of where they're deployed. You know? You should just write your application, be able to deploy it wherever you like and however you like. So that's another focus and real goal of the Google Cloud right now. 
 FRANCESC: Yeah, I got to say that one of my favorite things for--out of all the packages is the way authentication works with, basically Go, on any of the clouds. It is--it is super simple. It's basically two lines of code saying just get the default credentials, and everything just works. 
 CHRIS: Yeah.
 FRANCESC: That is super nice. Yeah. 
-MARK: Definitely. So if people have been listening to the episode and they're particularly interested in learning Go or possibly going on Google Cloud Platform, what are your favorite ways of learning those things?
+MARK: Definitely. So if people have been listening to the episode and they're particularly interested in learning Go or possibly going on Google Cloud, what are your favorite ways of learning those things?
 CHRIS: Well I think, first of all, you should learn Go, and the best way to do that is the Go tour which Andrew wrote.
 ANDREW: Yeah. It's tour.golang.org, and yeah, you can just go through, use a web browser, and learn the features of the language. 
 MARK: I've done that. 
@@ -211,7 +211,7 @@ MARK: Yeah. Hmm.
 ANDREW: But that's just my personal style, is to actually have something in mind. And yeah, and then if you want to move into the Cloud space, we have cloud.google.com/go which has a great introductory app, a bookshelf app, for organizing books. 
 MARK: Something we all need to do.
 ANDREW: Something we all do, yes. I meticulously catalogue my book collection in this app. Not really, but it's a great demo of how it all--how all the pieces fit together and the deployment story and all that stuff.
-CHRIS: There's also a couple other resources. If you go into the Cloud Console and, I think, if you press App Engine, there's some guided flows. So you don't even need to download the SDK to your local machine or anything like that. You use the Cloud shell which is, basically, a virtual machine that runs the Cloud tools. And so you do everything through a web interface, and that's a pretty great way to just get a feel for the--for Google Cloud Platform and App Engine. And then there's also another repository where we're adding a lot of samples to and sort of consolidating samples. And so that's github.com/googlecloudplatform/golangsamples. We'll put a link in. 
+CHRIS: There's also a couple other resources. If you go into the Cloud Console and, I think, if you press App Engine, there's some guided flows. So you don't even need to download the SDK to your local machine or anything like that. You use the Cloud shell which is, basically, a virtual machine that runs the Cloud tools. And so you do everything through a web interface, and that's a pretty great way to just get a feel for the--for Google Cloud and App Engine. And then there's also another repository where we're adding a lot of samples to and sort of consolidating samples. And so that's github.com/googlecloudplatform/golangsamples. We'll put a link in. 
 FRANCESC: Yeah. 
 CHRIS: And yeah, so you can just take a look in there and see a bunch of different samples and how things fit together.
 FRANCESC: Cool. So we're pretty much out of time, but is there anything else that you would like to add?
@@ -225,7 +225,7 @@ CHRIS: Thanks, guys.
 MARK: Thank you. Thanks so much to Andrew and Chris for joining us today. That was a really interesting conversation, and it was an absolute pleasure to talk to you both. But we have a really interesting question of the week. Francesc, would you like to head that off?
 FRANCESC: Yeah, so it's a question that comes to us through the--I forgot the name.
 MARK: Slack channel.
-FRANCESC: Through the slack channel, exactly. We have a podcast slack channel in the Google Cloud Platform community, and the question is, "Okay, so when do you transform your data in BigQuery via queries versus Dataflow for ETL?"
+FRANCESC: Through the slack channel, exactly. We have a podcast slack channel in the Google Cloud community, and the question is, "Okay, so when do you transform your data in BigQuery via queries versus Dataflow for ETL?"
 MARK: That's an interesting question, right? 'Cause in theory, you could do it either way. 
 FRANCESC: Yeah, so I think that the thing to keep in mind here is that BigQuery is a very specific tool with very specific use case which is basically log analysis. It will do more than that. It will do, basically, analysis of any kind of structured data where the analysis that you're trying to do matches, pretty much, what you'd consider a sequel query. 
 MARK: Mm-hmm.

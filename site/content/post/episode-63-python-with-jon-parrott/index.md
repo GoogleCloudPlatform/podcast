@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.63.mp3"
 audioSize = 46379590 
 categories = ["Python"]
 date = "2017-03-01T01:07:49Z"
-description = "Following our saga of episodes on programming languages today we have the honor to talk to Jon Wayne Parrott, a Developer Programs Engineer at Google Cloud Platform, about Python on the cloud."
+description = "Following our saga of episodes on programming languages today we have the honor to talk to Jon Wayne Parrott, a Developer Programs Engineer at Google Cloud, about Python on the cloud."
 draft = false
 episodeNumber = 63
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,25 +21,25 @@ image="/images/post/python.png"
 Following the saga of episodes on programming languages today your co-hosts,
 [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic),
 have the honor to talk to Jon Wayne Parrott,
-a Developer Programs Engineer at Google Cloud Platform, about Python on the cloud.
+a Developer Programs Engineer at Google Cloud, about Python on the cloud.
 
 <!--more-->
 
 ##### About Jon Wayne
 
 Jon Wayne focuses on the Python developer experience
-for Google Cloud Platform. He’s an active contributor to multiple open-source Python
+for Google Cloud. He’s an active contributor to multiple open-source Python
 projects.
 
 ##### Cool things of the week
 
-- Google Cloud Platform is the first cloud provider to offer Intel Skylake [blog](https://cloudplatform.googleblog.com/2017/02/Google-Cloud-Platform-is-the-first-cloud-provider-to-offer-Intel-Skylake.html)
+- Google Cloud is the first cloud provider to offer Intel Skylake [blog](https://cloudplatform.googleblog.com/2017/02/Google-Cloud-Platform-is-the-first-cloud-provider-to-offer-Intel-Skylake.html)
 - GPUs are now available for Google Compute Engine and Cloud Machine Learning [blog](https://cloudplatform.googleblog.com/2017/02/GPUs-are-now-available-for-Google-Compute-Engine-and-Cloud-Machine-Learning.html)
 - Developer Advocates offer up their favorite Google Cloud NEXT 17 sessions [blog](https://cloudplatform.googleblog.com/2017/02/developer-advocates-offer-up-their-favorite-Google-Cloud-NEXT-17-sessions.html)
 
 ##### Interviews
 
-- Python on Google Cloud Platform [cloud.google.com/python](https://cloud.google.com/python)
+- Python on Google Cloud [cloud.google.com/python](https://cloud.google.com/python)
 - Python on App Engine Standard Environment [docs](https://cloud.google.com/appengine/docs/standard/python)
 - Python on App Engine Flexible Environment [docs](https://cloud.google.com/appengine/docs/flexible/python)
 - A skeleton for creating Python applications using the Flask framework on App Engine [GitHub](https://github.com/GoogleCloudPlatform/appengine-flask-skeleton)
@@ -57,7 +57,7 @@ Mark is today at [GDC](http://www.gdconf.com/) and afterwards he'll be speaking 
 Francesc is coming back from [Gophercon India](http://www.gophercon.in) and on his way to
 [Cloud NEXT](https://cloudnext.withgoogle.com/schedule#target=google-cloud-endpoints-serving-your-api-to-the-world-8eaeb271-f0ea-4638-af94-16c0b2b80bf6).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 63 of the weekly Google Cloud Platform podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 63 of the weekly Google Cloud podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm good, thanks, Francesc. How are you doing? 
 
@@ -103,7 +103,7 @@ MARK: All right. So enough of that meandering. Before we get into our main conte
 
 FRANCESC: Yeah, this is way too many. So we actually had to filter out some of them. And we'll let them for next week. But we chose the three most important ones, in our humble opinion. 
 
-MARK: In our humble opinion, yeah. So the first two like are all about hardware. So the first time around, Google Cloud Platform is the first cloud provider to offer Intel Skylink chips, which is pretty cool. The next generation of Intel Xeon processors. 
+MARK: In our humble opinion, yeah. So the first two like are all about hardware. So the first time around, Google Cloud is the first cloud provider to offer Intel Skylink chips, which is pretty cool. The next generation of Intel Xeon processors. 
 
 FRANCESC: So I'm going to have to ask, because I know that you are like more into hardware than I am. Because video games and stuff. Why is this cool? What is-- like-- what kind of use cases do you think that these kind of processors could help with? 
 
@@ -149,7 +149,7 @@ JOHN: Yeah, Yeah. It was a fun side project.
 
 FRANCESC: Yeah. It's been a long time. But today, you're here to talk about Python. But before we do that, why don't you tell us a little bit about you and what you do on Google? 
 
-JOHN: Yeah, for sure. So just like you guys, I'm in developer relations. But developer programs engineering doesn't really tell you a lot about what I do just off the cuff. So I focus more on sort of our developer experience. So like documentation tutorials, sample code, and things like that. And also just kind of like taking a holistic view of the platform. And making sure that developers who identify as Python developers feel at home on Google Cloud Platform. 
+JOHN: Yeah, for sure. So just like you guys, I'm in developer relations. But developer programs engineering doesn't really tell you a lot about what I do just off the cuff. So I focus more on sort of our developer experience. So like documentation tutorials, sample code, and things like that. And also just kind of like taking a holistic view of the platform. And making sure that developers who identify as Python developers feel at home on Google Cloud. 
 
 MARK: Cool. So I don't do very much Python, if any at all. So like why Python? What makes Python great? 
 
@@ -161,9 +161,9 @@ So for me personally, I think Python is really appealing, because I came from so
 
 And then when I discovered Python, I'm like, wow, this can be easy. You know, like, I can actually express programs in a way that makes sense. And I don't have to struggle with this all day long just to do something simple. Right? So I think there's a lot of appeal in Python. And I think especially for web applications and the sort of data analysis applications, it's really approachable and easy to use. 
 
-FRANCESC: Since we're already talking about the kind of things you can do with Python, why don't you tell us a little bit about the things you can do with Python on Google Cloud Platform? Like what is the involvement of Google Cloud Platform with Python? 
+FRANCESC: Since we're already talking about the kind of things you can do with Python, why don't you tell us a little bit about the things you can do with Python on Google Cloud? Like what is the involvement of Google Cloud with Python? 
 
-JOHN: So, I mean-- there's essentially like-- I guess you could think of it like it's two buckets, right? There's people who are writing web applications in Python. And of course Google Cloud Platform has multiple hosting options. You have Container Engine, Compute Engine, App Engine. And Python works on all of those. So you can run your Python web application on Google Cloud Platform. We will host it for you. 
+JOHN: So, I mean-- there's essentially like-- I guess you could think of it like it's two buckets, right? There's people who are writing web applications in Python. And of course Google Cloud has multiple hosting options. You have Container Engine, Compute Engine, App Engine. And Python works on all of those. So you can run your Python web application on Google Cloud. We will host it for you. 
 
 And then on the other side of things, like all of our services, such as data store, storage, and, newly, spanner, you can talk to those using Python. Right? So you can use our services with our Python client libraries. 
 
@@ -179,7 +179,7 @@ Now the story is completely different today. Almost every major Python package s
 
 The other thing that's sort of driving this adoption of Python 3 is that the Python Software Foundation is going to stop supporting Python 2 in 2020. So they've been given a doomsday, essentially. There's actually a Python doomsday clock you can pull up that gives you a countdown to 2020 when we can stop worrying about Python 2. So it's pretty interesting stuff. 
 
-So in terms of sort of where we focus-- we as in Google Cloud Platform-- focus, we definitely want to support Python 3. Right? While not leaving behind the people who are still using Python 2. Because there is still a lot of people who are using Python 2. 
+So in terms of sort of where we focus-- we as in Google Cloud-- focus, we definitely want to support Python 3. Right? While not leaving behind the people who are still using Python 2. Because there is still a lot of people who are using Python 2. 
 
 So when you look at our client libraries and you look at Container Engine and Compute Engine and App Engine, flexible environment, Python 3 is available and supported. We support Python 3.5 right now with our container runtime that runs on App Engine flexible and Container Engine. And we were about to add 3.6 very shortly. 
 
@@ -197,7 +197,7 @@ That said, the Python community is actually about split, about an even split, be
 
 So I personally am a Flask user. And all of our tutorials for App Engine flexible environment are written in Flask. Because it's just a lot easier to write a sample application with Flask. Because there's a lot less code involved, a lot less files. And a lower barrier of entry, essentially, than trying to have a Django app for every tiny sample that we write. 
 
-FRANCESC: Cool. So what about other domains other than web servers? Is there any kind of support for numPy related to Google Cloud Platform? Like I could imagine something like that for, I don't know, Dataflow or Data Lab or whatever? Do you know anything about this? 
+FRANCESC: Cool. So what about other domains other than web servers? Is there any kind of support for numPy related to Google Cloud? Like I could imagine something like that for, I don't know, Dataflow or Data Lab or whatever? Do you know anything about this? 
 
 JOHN: Like with Dataflow and Data Lab, you kind of have access to this other domain of data scientist stuff. And in general, our platform will let you use whatever you want, and just kind of get out of your way. 
 
@@ -209,7 +209,7 @@ I think Data Lab has NumPy and SciPy pre-installed. So you don't even have to in
 
 MARK: Excellent. All right, cool. So that sounds like we have at least a pretty decent coverage across Python. But are there any sort of new releases or things that are being actively worked on that Python developers can look forward to? 
 
-JOHN: Yeah. I mean so I mentioned this-- I sort of hinted at this earlier-- one of the things that we're definitely doing-- at least in my team-- is trying to make sure there's plenty of tutorials for Django users. Right? We definitely want Django users to fill at home on Google Cloud Platform. 
+JOHN: Yeah. I mean so I mentioned this-- I sort of hinted at this earlier-- one of the things that we're definitely doing-- at least in my team-- is trying to make sure there's plenty of tutorials for Django users. Right? We definitely want Django users to fill at home on Google Cloud. 
 
 And that means highlighting products such as Cloud SQL, which is our hosted mySQL solution. Because Django developers are a lot more familiar with a relational database management system than something like data store, for instance. So we're focusing a bit on Django over the coming months and things like that. 
 
@@ -279,7 +279,7 @@ JOHN: Yes, I mean, we're so involved, I don't know if I can mention everything. 
 
 We sponsor PyCon every year, I think. I would say every year. At least the last two years, we sponsored PyCon, to my knowledge. That's the most authoritatively I can speak on that. So we sponsor PyCon. Typically Googlers talk there. I mean, Googlers are really heavily involved in the open source community around Python. 
 
-I mean in cloud, specifically, I know that we are working with a lot of open source libraries like Apache Cloud to help integrate with Google Cloud Platform services and things like that. Myself, I've helped out with [INAUDIBLE] 3, which is a very popular Python open source package for HTP requests. 
+I mean in cloud, specifically, I know that we are working with a lot of open source libraries like Apache Cloud to help integrate with Google Cloud services and things like that. Myself, I've helped out with [INAUDIBLE] 3, which is a very popular Python open source package for HTP requests. 
 
 And in general, we try to be as open as we can. Which I think is really positive for the Python community. In my opinion, there's nothing more important than open source. And I'm happy that I'm in a spot where I can do a lot of contributing to open source. 
 
@@ -303,7 +303,7 @@ FRANCESC: You should kill us is coming. And the whole audience. OK. That's a lot
 
 JOHN: All right. Looking forward to it. 
 
-FRANCESC: Thank you. Well, thanks again to John Wayne Parrott for such an interesting interview. I personally have written lots of Python. But I have been out of the community for quite a while. So it's always nice to see what's going on, and learning a little bit, what are the plans with like Python 2 versus Python 3. The kind of support we have at Google Cloud Platform. So very cool interview. 
+FRANCESC: Thank you. Well, thanks again to John Wayne Parrott for such an interesting interview. I personally have written lots of Python. But I have been out of the community for quite a while. So it's always nice to see what's going on, and learning a little bit, what are the plans with like Python 2 versus Python 3. The kind of support we have at Google Cloud. So very cool interview. 
 
 MARK: Yeah, thanks so much for joining us, John. There's a lot of friends of mine who are at Python. So I'm sure they're going to appreciate it. 
 
@@ -363,7 +363,7 @@ MARK: Hello@GCPpodcast.com
 
 FRANCESC: And finally, we're also on Slack. And that is the one that is a mouthful. 
 
-MARK: Slack is hash podcast on the Google Cloud Platform community Slack, that you can reach at bit.ly/GCP-. 
+MARK: Slack is hash podcast on the Google Cloud community Slack, that you can reach at bit.ly/GCP-. 
 
 FRANCESC: Wow, amazing. Good job. So send us your questions. We got a bunch of questions during the last week. And we'll be using some of those for our next episode. So do not think that we do not read those questions. We read every single one of your e-mails, and we love them. So keep them going. 
 

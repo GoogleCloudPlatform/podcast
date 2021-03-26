@@ -64,7 +64,7 @@ Dustin will be at [Cloud Next](https://cloud.withgoogle.com/next/sf) and [PyCon]
 
 Brian will be lecturing at [Cloud Next](https://cloud.withgoogle.com/next/sf): 'Where should I run my code?'
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 165 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel. And this week, I am delighted to be joined by Brian Dorsey. Brian, how are you doing?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 165 of the weekly Google Cloud Podcast. I'm Mark Mandel. And this week, I am delighted to be joined by Brian Dorsey. Brian, how are you doing?" >}}
 
 BRIAN: Awesome. Hello, Mark. And hello, everyone. 
 

@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/7z67k4/episode_115_go
   name = "fimage"
 +++
 
-In this episode, Google Play Marketing is the customer of Google Cloud Platform. 
+In this episode, Google Play Marketing is the customer of Google Cloud. 
 [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) chat with Dom Elliott (Google Play) and [Stewart Bryson](https://twitter.com/stewartbryson) (Red Pill Analytics)
 about how they use our big data processing and visualisation tools to introspect what is happening in the Google play ecosystem. 
 
@@ -66,7 +66,7 @@ Melanie will be at [Fat*](https://fatconference.org/) in New York very shortly!
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 115 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel, and I'm here with my colleague Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 115 of the weekly Google Cloud Podcast. I'm Mark Mandel, and I'm here with my colleague Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: Great. How are you doing, Mark? 
 
@@ -78,7 +78,7 @@ MARK: [LAUGHING] Still. I love that "still."
 
 MELANIE: I never left. No, after this, I will actually be heading out to New York to go to FAT*. But that's for us to discuss later, at the end of the podcast. 
 
-MARK: Yeah, but today we have a really interesting interview with two people, Dom Elliott and Stewart Bryson. Dom works for Google Play. And they are basically a client that uses Google Cloud Platform to look at analytics across Google Play. And Stewart Bryson is one of the people who helped build it. So we'll have a fun chat with them. 
+MARK: Yeah, but today we have a really interesting interview with two people, Dom Elliott and Stewart Bryson. Dom works for Google Play. And they are basically a client that uses Google Cloud to look at analytics across Google Play. And Stewart Bryson is one of the people who helped build it. So we'll have a fun chat with them. 
 
 MELANIE: But as always, we always talk about our cool things of the week, and we end with a question of the week. And this week's question is, if you want to be able to unit test your integrations with Kubernetes, with client-go, how can you mock what happens inside the cluster in your unit tests? Mocking is always a challenge. We'll get back to that one. 
 
@@ -122,7 +122,7 @@ DOM: Yeah, sure. I'll start. As I mentioned, we use a lot of different channels 
 
 And so in the past, we've done this in a fairly manual way. Every marketing channel we use, like our website or YouTube or our social media accounts-- they will have their own products that you can log into to start to pull data to see how many people you're reaching, what they think of your content, and where people are engaged, and that kind of thing. And it would be super manual. 
 
-We'd do every month or whenever we need to pull a report-- you've got to go into a dozen places, pull all this data, try and present it nicely in Google Slides, and then share it round internally. It's just a big waste of time, really. And if you're doing that, you're not putting your effort into actually creating content and engaging with partners and helping people. So we thought that there was a better way, which is when we started looking into what Google Analytics, specifically Data Studio, could do and how that could work with Google Cloud Platform to actually pull all that data in one place. 
+We'd do every month or whenever we need to pull a report-- you've got to go into a dozen places, pull all this data, try and present it nicely in Google Slides, and then share it round internally. It's just a big waste of time, really. And if you're doing that, you're not putting your effort into actually creating content and engaging with partners and helping people. So we thought that there was a better way, which is when we started looking into what Google Analytics, specifically Data Studio, could do and how that could work with Google Cloud to actually pull all that data in one place. 
 
 MELANIE: How did you end up connecting up with Stewart on the project? 
 
@@ -130,7 +130,7 @@ DOM: So Stewart was actually a recommendation of a colleague of mine. We wanted 
 
 STEWART: We're so glad they did. We approached this very much-- even though it was Google, and Google's a big company, obviously, but Dom's team is just a group of marketers, right? So marketing communications. So we approached this very much as we would any marketing company, really. Although they are Google, and most of the avenues and digital channels that we were interested in are Google platforms, they're public Google platforms. So this implementation will be applicable for, really, any organization. 
 
-We knew also that because Dom's team really didn't have access to engineering resources, we wanted to make this really easy. We wanted it to be something that they could support once we left, which was very, very important to us. And so the Google Cloud Platform was perfect. So we focused on serverless technologies as much as possible. We focused on things that would just scale and continue running once we left. And the platform really provided a lot of technology that we could use pretty easily. 
+We knew also that because Dom's team really didn't have access to engineering resources, we wanted to make this really easy. We wanted it to be something that they could support once we left, which was very, very important to us. And so the Google Cloud was perfect. So we focused on serverless technologies as much as possible. We focused on things that would just scale and continue running once we left. And the platform really provided a lot of technology that we could use pretty easily. 
 
 MARK: So just so this is 100% clear as well-- even though you're both basically working for Google Play, you're basically like an external company using GCP. There's really no difference here. You're not getting any particularly special treatment, as far as I can tell. 
 
@@ -218,7 +218,7 @@ So we can then see, OK, they're reading all this-- this country, say Vietnam, is
 
 MELANIE: Well, I know we're getting close to time, but I wanted to ask you, and both of you, what are some key lessons learned, takeaways that you haven't already talked about that you'd recommend to people who are considering this type of project or something along these lines? 
 
-STEWART: I think be iterative. I've mentioned that before, but jump in. One of the best things about the Google Cloud Platform is that you can get started on day one. For instance, Data Studio has direct connectors to a lot of these sources. And although we knew that we wanted to land the data in BigQuery for posterity's sake, we were able to prototype immediately with the built-in connectors to things like YouTube and Google Analytics and start that whole process of trying to figure out exactly how Dom and his team wanted to see that data. 
+STEWART: I think be iterative. I've mentioned that before, but jump in. One of the best things about the Google Cloud is that you can get started on day one. For instance, Data Studio has direct connectors to a lot of these sources. And although we knew that we wanted to land the data in BigQuery for posterity's sake, we were able to prototype immediately with the built-in connectors to things like YouTube and Google Analytics and start that whole process of trying to figure out exactly how Dom and his team wanted to see that data. 
 
 So while we had one member of the team with direct connectors from Data Studio working with Dom's team, really on day one, prototyping some of the ways that he was thinking about visualizing this data, we had other members of the team working on capturing that data using things like App Engine, writing that data to BigQuery, figuring out how we wanted to store it in BigQuery. And it was a complete iterative process. 
 
@@ -226,7 +226,7 @@ So once the data-- it took us a little time to get the data transfer service run
 
 I think in a lot of analytics projects you spend so much time trying to land and ingest the data and get the data just right, and then the analytics starts. And quite often, that piece is brushed over because you're running out of time, and maybe you don't get exactly what the end user is looking for from a visualization perspective. We were able to start the visualization process immediately using the native connectors, and then just slowly refactor over time. 
 
-So I think if I were to take one major lesson from building analytics, especially a greenfield implementation in the Google Cloud Platform is just be iterative, roll up your sleeves, get started, and also don't be afraid to write a little code. So with APIs, it's going to be difficult to find just the right tooling to go after, something that's API driven. So you've got to not be afraid to use tools like Cloud Functions, use a tool like App Engine and Pub/Sub to build the right event-driven architecture. 
+So I think if I were to take one major lesson from building analytics, especially a greenfield implementation in the Google Cloud is just be iterative, roll up your sleeves, get started, and also don't be afraid to write a little code. So with APIs, it's going to be difficult to find just the right tooling to go after, something that's API driven. So you've got to not be afraid to use tools like Cloud Functions, use a tool like App Engine and Pub/Sub to build the right event-driven architecture. 
 
 MARK: Cool. How about you, Dom? 
 
@@ -248,7 +248,7 @@ MELANIE: Yes, thank you.
 
 STEWART: Yeah, thanks very much for having me. 
 
-MARK: Thanks so much to Dom and Stewart to have a chat with us about Google Cloud Platform and how it was actually used internally inside Google. Not just external customers use it. We do have plenty of internal customers as well, so it was a really interesting conversation. 
+MARK: Thanks so much to Dom and Stewart to have a chat with us about Google Cloud and how it was actually used internally inside Google. Not just external customers use it. We do have plenty of internal customers as well, so it was a really interesting conversation. 
 
 MELANIE: Yeah, I agree. It's nice to hear about how the Cloud Platform is being used to solve problems that we know others will be experiencing, whether they're internal or external. So questions of the week. If you want to be able to unit test your integrations with Kubernetes with client-go, how can you mock what happens inside the cluster in your unit tests? Mark? 
 
@@ -266,7 +266,7 @@ MARK: So I'll put links to the documentation in the show notes. I'll also link t
 
 MELANIE: Great. Mark, going anywhere special in the next couple weeks? 
 
-MARK: Nope, same old answer as always, game developer conference here at Google. The stuff I can talk about is that we have a developer day across Google where we will have people from Google Cloud Platform, people from Daydream, people from Play talking about that on the first day of Google game developers conference. But we'll also have talks at the booth on the show floor, as well as meet the expert sessions, and all sorts of good stuff. 
+MARK: Nope, same old answer as always, game developer conference here at Google. The stuff I can talk about is that we have a developer day across Google where we will have people from Google Cloud, people from Daydream, people from Play talking about that on the first day of Google game developers conference. But we'll also have talks at the booth on the show floor, as well as meet the expert sessions, and all sorts of good stuff. 
 
 MELANIE: That's great. 
 

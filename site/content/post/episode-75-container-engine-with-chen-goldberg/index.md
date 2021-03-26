@@ -22,7 +22,7 @@ In this episode [Mark](https://twitter.com/Neurotic) and [Francesc](https://twit
 have a great interview with [Chen Goldberg](https://twitter.com/GoldbergChen), the Engineering Director for 
 Container Engine and Kubernetes at Google - discussing all about why Kubernetes is open source and the
 integrations that [Google Container Engine](https://cloud.google.com/container-engine/) has with the wider 
-Google Cloud Platform. 
+Google Cloud. 
 
 <!--more-->
 
@@ -77,7 +77,7 @@ money for UCSF Benioff Children's Hospitals. Finally he'll be in Sweden for [Nor
 Francesc will be presenting at the [2017 Gopherfest](https://www.meetup.com/golangsf/events/238748981/) in San Francisco!
 Francesc has also released a new [Just for Func episode](https://youtu.be/nhElL62BSn0), doing a code review of an IRC package's API.
 
-{{< transcript "FRANCESC: Hello, and welcome to episode number 75 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hello, and welcome to episode number 75 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm very well, Francesc. How are you doing? 
 
@@ -111,7 +111,7 @@ MARK: It hasn't been a cool thing yet. We've got to the point where people are l
 
 FRANCESC: Yeah. 
 
-MARK: I love it. Yeah, so if you haven't looked at the location section of Google Cloud Platform and having a look at all the regions we have, you may not have noticed that there is a new Singapore region that is now available. 
+MARK: I love it. Yeah, so if you haven't looked at the location section of Google Cloud and having a look at all the regions we have, you may not have noticed that there is a new Singapore region that is now available. 
 
 FRANCESC: Yup. 
 
@@ -129,7 +129,7 @@ FRANCESC: Yeah, that is the farthest away we are. That's probably our farthest d
 
 MARK: Exactly. Cool. And so what did you have as a cool thing of the week, Francesc? 
 
-FRANCESC: The second cool thing of the week is, actually, a tweet that I saw from Prajakta Joshi. And I checked who she was and turns out that she's a product manager for Google Cloud Platform. And she was talking about the fact that there is a new thing supported by HTTP load balancers, which is web sockets. 
+FRANCESC: The second cool thing of the week is, actually, a tweet that I saw from Prajakta Joshi. And I checked who she was and turns out that she's a product manager for Google Cloud. And she was talking about the fact that there is a new thing supported by HTTP load balancers, which is web sockets. 
 
 MARK: Web sockets! 
 
@@ -145,7 +145,7 @@ FRANCESC: Yeah, which is important for web sockets, obviously.
 
 MARK: But otherwise, yeah, it looks like it's just really good to go, which is great. 
 
-FRANCESC: So that's awesome. I'm very happy about it. And also, I didn't know about Prajakta Joshi. So I searched on Google, and I saw that she also talked at GPC Next. She seems really cool. So if you're listening to this Prajakta, you're very, very, very invited to come and join in the podcast and talk about a little bit networking and all the cool things on Google Cloud Platform. 
+FRANCESC: So that's awesome. I'm very happy about it. And also, I didn't know about Prajakta Joshi. So I searched on Google, and I saw that she also talked at GPC Next. She seems really cool. So if you're listening to this Prajakta, you're very, very, very invited to come and join in the podcast and talk about a little bit networking and all the cool things on Google Cloud. 
 
 MARK: Definitely. Definitely. Awesome. Well, why don't we go have a chat with Chen and talk to her all about GKE and Kubernetes. 
 
@@ -159,9 +159,9 @@ CHEN: So I'm an engineering manager. That means that I'm passionate about buildi
 
 MARK: All right, cool. So why don't we start with-- let's start with an easy question. So what is GKE? What is Google Container Engine? 
 
-CHEN: Google Container Engine is a platform that helps you manage your containerized application the same as Google does. We and Google have been managing an application within containers, like Gmail and Maps, for over 12 years now. And with GKE, we're able to provide the same service and offering to Google Cloud Platform users. This means that when you are choosing GKE, you can really focus on developing your application. And GKE allows you to quickly deploy your application, and make it available to users as a service. 
+CHEN: Google Container Engine is a platform that helps you manage your containerized application the same as Google does. We and Google have been managing an application within containers, like Gmail and Maps, for over 12 years now. And with GKE, we're able to provide the same service and offering to Google Cloud users. This means that when you are choosing GKE, you can really focus on developing your application. And GKE allows you to quickly deploy your application, and make it available to users as a service. 
 
-And we are responsible for the productization of your service. And the differentiation is it's an amazing technology of Kubernetes, which is the heart of GKE, together with Google Cloud Platform, in general, which means all the goodness of Google Network, and storage, and machine learning. It is available. And on top of everything, I think what's very unique for Google, and we are known for, is our operational excellence. Our [INAUDIBLE] ability engineers and the practices that we have built throughout the years are being implemented for users through GKE. 
+And we are responsible for the productization of your service. And the differentiation is it's an amazing technology of Kubernetes, which is the heart of GKE, together with Google Cloud, in general, which means all the goodness of Google Network, and storage, and machine learning. It is available. And on top of everything, I think what's very unique for Google, and we are known for, is our operational excellence. Our [INAUDIBLE] ability engineers and the practices that we have built throughout the years are being implemented for users through GKE. 
 
 FRANCESC: So not that long ago, we had an amazing episode. We had the chance to have John Wilkes talking about Borg and Kubernetes. But for those that have not listened to any of our Kubernetes episodes, could you tell us a little bit about why is Kubernetes a thing? What is cool about it? 
 
@@ -251,7 +251,7 @@ MARK: Wow.
 
 CHEN: That's huge. I don't have such a big team to support it. I mean, for me as an engineering manager, and also the team, we think that the innovation pace is unmatchable when choosing an open source. And also for Google, specifically, I think open source matters. But it matters more in cloud. 
 
-We talked about the portability aspect, which is very important. We keep saying to our customers, we want you to have a choice. So you have the freedom to come to Google Cloud Platform but also have the freedom to leave. We want you to stay, because this is the best cloud for you. 
+We talked about the portability aspect, which is very important. We keep saying to our customers, we want you to have a choice. So you have the freedom to come to Google Cloud but also have the freedom to leave. We want you to stay, because this is the best cloud for you. 
 
 FRANCESC: Obviously. 
 
@@ -329,7 +329,7 @@ MARK: Yup.
 
 FRANCESC: But what if it's private? 
 
-MARK: OK, so you're working probably on some sort of commercial application. You don't want it to be exposed the outside world. There's a couple options here. So Google Cloud Platform does allow you to have source repositories. They are private repositories, private git repositories, that come with Google Cloud Platform. 
+MARK: OK, so you're working probably on some sort of commercial application. You don't want it to be exposed the outside world. There's a couple options here. So Google Cloud does allow you to have source repositories. They are private repositories, private git repositories, that come with Google Cloud. 
 
 FRANCESC: And they're pretty awesome. I use them all the time. 
 

@@ -38,7 +38,7 @@ His hobbies include traveling with his family, chasing his daughter around the h
 
 * Our 10th Doodle 4 Google winner is dino-mite [blog](https://blog.google/inside-google/doodles/our-10th-doodle-4-google-winner-dino-mite/)
 * Google Podcasts now on Android [blog](https://blog.google/products/android/listen-google-podcasts-now-android/) 
-* Machine Learning with TensorFlow on Google Cloud Platform Specialization [site](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
+* Machine Learning with TensorFlow on Google Cloud Specialization [site](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 * Introducing Cloud Dataflow’s new Streaming Engine [blog](https://cloud.google.com/blog/big-data/2018/06/introducing-cloud-dataflows-new-streaming-engine)
 * ML Explorer: talking and listening with Google Cloud [blog](https://cloud.google.com/blog/big-data/2018/06/ml-explorer-talking-and-listening-with-google-cloud-using-cloud-speech-and-text-to-speech)
   - #131 Actions on Google with Mandy Chan [podcast](https://www.gcppodcast.com/post/episode-131-actions-on-google-with-mandy-chan/)
@@ -71,7 +71,7 @@ Melanie is speaking at [Stanford AI4ALL](http://ai-4-all.org/) on June 28th.
 
 We’ll both be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf/)!
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 133 of the weekly Google Cloud Platform Podcast. I am Mark Mandel, and I'm here as always with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 133 of the weekly Google Cloud Podcast. I am Mark Mandel, and I'm here as always with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm good. How are you doing, Mark? 
 
@@ -101,7 +101,7 @@ MELANIE: And apparently she's got a nice chunk of reward for the drawing as well
 
 MARK: Yeah. I think that's great. One thing I wanted to highlight as well, as everyone in our audience is aficionados of podcasts, there is a new Google Podcast App that you can grab on Android that's available for you that you can get and download. We'll have a link in the show notes. It has some nice integrations with things like Google Home and all the Google fun stuff there. 
 
-And I just figured I'd mention it, because, of course, you can now grab the Google Cloud Platform Podcast on there as well. And it has some nice features about being able to play in one place and pick up where you left off in others, and stuff like that. So I just thought podcast people would like podcast things. 
+And I just figured I'd mention it, because, of course, you can now grab the Google Cloud Podcast on there as well. And it has some nice features about being able to play in one place and pick up where you left off in others, and stuff like that. So I just thought podcast people would like podcast things. 
 
 MELANIE: Another thing we wanted to mention is that there was another course that's been released between Google and Coursera around machine learning. We know there was a crash course that we mentioned a little while back, and there's apparently a new course out that's more for specializing in machine learning with an emphasis on TensorFlow. And so they have five specific focuses in the courses around how Google does machine learning in this specialization, launching into machine learning, what TensorFlow is, feature engineering, and the art and science of machine learning. And so-- yeah. You can find that on Coursera. 
 
@@ -173,9 +173,9 @@ MARK: OK, cool. So you said as well there's a bunch of built in ML Kit functiona
 
 SACHIN: The ones that are there right now out of the box are text extraction, face detection, barcode recognition, image labeling, and landmark recognition. Those are the ones that are available today. And as you know, you probably recognize, they are mostly around vision-- for now. 
 
-MELANIE: In terms of these APIs, how would they integrate with something that's like the APIs in the GCP environment, the Google Cloud Platform environment? 
+MELANIE: In terms of these APIs, how would they integrate with something that's like the APIs in the GCP environment, the Google Cloud environment? 
 
-SACHIN: That's a great question. So as I mentioned earlier, these APIs or these use cases are available both on device and Cloud. The ones that are available in Cloud are run on top of the Google Cloud Platform ML APIs. So they're using-- underlying it all as the same APIs for the Cloud version of it. 
+SACHIN: That's a great question. So as I mentioned earlier, these APIs or these use cases are available both on device and Cloud. The ones that are available in Cloud are run on top of the Google Cloud ML APIs. So they're using-- underlying it all as the same APIs for the Cloud version of it. 
 
 MARK: This sounds really cool. Brahim, maybe you can talk to this because you seem to be on the Android side of things. What were the needs that you were seeing from customers who wanted to be able to do machine learning on mobile devices? 
 
@@ -219,7 +219,7 @@ But, of course, you also get limitations. On the Cloud, you have the power of GC
 
 So, for example, if you look at our image labeling API, which we have both the Cloud and an on-device variation of it, the Cloud variation has over 10,000 labels, meaning that it can tell you about 10,000 things about this image that you've submitted. The on-device one has little over 400. So you can do-- what we've seen developers do typically is do a course classification on device where they essentially look for interesting things. 
 
-So let's say I am trying to classify an image, and I want to make sure that I only do the Cloud call if I see that there is some food in the image. So maybe I will actually-- or maybe plants or flowers. And so maybe I'll run the on device API, see if I get any keywords that I'm looking for, like flower or plant or something like that. And if I do, then I'm like, OK, I actually want to know specifically what kind of flower this is. So then I'm going to call the Google Cloud Platform API to then get the more fine-grained classification. 
+So let's say I am trying to classify an image, and I want to make sure that I only do the Cloud call if I see that there is some food in the image. So maybe I will actually-- or maybe plants or flowers. And so maybe I'll run the on device API, see if I get any keywords that I'm looking for, like flower or plant or something like that. And if I do, then I'm like, OK, I actually want to know specifically what kind of flower this is. So then I'm going to call the Google Cloud API to then get the more fine-grained classification. 
 
 And so we do things, these pairings. We see developers do this in a number of places. And we actually are also invested in making sure these transitions are even more seamless, and even in building use cases and journeys that are end-to-end built to be what we call hybrid. We have a bunch of exciting stuff coming up there in the future, but we see this as an increasingly common use case of relying on both Cloud and on device. 
 
@@ -379,7 +379,7 @@ MELANIE: We hang out.
 
 MARK: And there's a really great-- we hang out. We totally hang out. We all sit together, which is lovely. 
 
-And I'm going to hope I don't absolutely massacre their name. There's a great article from Franziska Hinklemann, who is the DPE at Google Cloud Platform, apparently doing a lot of Node.js stuff. And they write a really great article about-- basically, they explain how they're engineers in developer relations, and they sit at the intersection of developer advocacy, technical writing, product management, and engineering. 
+And I'm going to hope I don't absolutely massacre their name. There's a great article from Franziska Hinklemann, who is the DPE at Google Cloud, apparently doing a lot of Node.js stuff. And they write a really great article about-- basically, they explain how they're engineers in developer relations, and they sit at the intersection of developer advocacy, technical writing, product management, and engineering. 
 
 And so they do a very similar role, I feel, to what we do as developer advocates with interacting with the community. But they definitely do it in a very interesting way. I feel like personally from my perspective from the outside, they do it from almost a very code perspective, which I think is really cool. And they definitely do some really cool things. It's well worth the read. 
 
@@ -387,7 +387,7 @@ MELANIE: Yeah. And we did a podcast on data science a few weeks back, and Michel
 
 Mark, where are you going to be? Where are you this week? 
 
-MARK: Where am I this week? So we mentioned previously that I am going to be in Denmark. So last week on the podcast-- if you were all listening and I'm sure you were-- we mentioned very briefly the Unity announcement. So we announced that there's a strategic alliance between Unity and Google Cloud Platform now, which I'm particularly excited about working in the game space. So definitely stay tuned to what's happening there. There's a lot of really cool stuff going on there. 
+MARK: Where am I this week? So we mentioned previously that I am going to be in Denmark. So last week on the podcast-- if you were all listening and I'm sure you were-- we mentioned very briefly the Unity announcement. So we announced that there's a strategic alliance between Unity and Google Cloud now, which I'm particularly excited about working in the game space. So definitely stay tuned to what's happening there. There's a lot of really cool stuff going on there. 
 
 So basically what I'm doing this week is I'm actually going up to Denmark to participate in Unity's internal hack week. So they have a week long R&D week away. I feel like it's like summer camp. I kind of feel like it's-- I'm going to summer camp. I'm going to go meet a whole bunch of new people that I've never met before, but once I leave I'm going to be friends with everybody. 
 

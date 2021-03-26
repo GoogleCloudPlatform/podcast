@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/7eso4i/episode_104_da
   name = "fimage"
 +++
 
-On this week's podcast, [Eric Anderson](https://twitter.com/ericmander) shares how [Dataprep](https://cloud.google.com/dataprep/) helps summarize, transform, visualize and cleanup data on the Google Cloud Platform. When doing data analysis, typically data munging can take up most of the time and this serverless tool helps optimize the process.    
+On this week's podcast, [Eric Anderson](https://twitter.com/ericmander) shares how [Dataprep](https://cloud.google.com/dataprep/) helps summarize, transform, visualize and cleanup data on the Google Cloud. When doing data analysis, typically data munging can take up most of the time and this serverless tool helps optimize the process.    
 
 <!--more-->
 
@@ -52,7 +52,7 @@ What is feature engineering?
 Mark will be Montreal in December to speak at [Montreal International Games Summit](http://www.migs17.com/en/home/).  
 Melanie will be at [NIPS (Neural Information Processing Systems)](https://nips.cc/) in Long Beach in December
 
-{{< transcript "MARK: Hi, and welcome to episode number 104 of the weekly Google Cloud Platform Podcast. I am Mark Mandel and I'm here with my colleague Melanie Warrick." >}}
+{{< transcript "MARK: Hi, and welcome to episode number 104 of the weekly Google Cloud Podcast. I am Mark Mandel and I'm here with my colleague Melanie Warrick." >}}
 
 MELANIE: Yes, it's good to be here. 
 
@@ -62,7 +62,7 @@ MELANIE: Yes, he's going to definitely touch on the values of what you can use d
 
 But first what we want to get to is the cool things of the week. And to start off our cool things of the week, last week we were talking about performance analysis. 
 
-One thing we want to share is that Google is actually making Intel performance libraries freely available on Google Cloud Platform. The good thing about this is that is actually allowing the Intel Xenon Scalable Skylight Processors more performant. 
+One thing we want to share is that Google is actually making Intel performance libraries freely available on Google Cloud. The good thing about this is that is actually allowing the Intel Xenon Scalable Skylight Processors more performant. 
 
 MARK: Oh, yeah. Try saying that three times. 
 
@@ -74,7 +74,7 @@ MELANIE: I think so. In terms of what it can be useful for, for sure. But it's j
 
 MARK: All right. For our second cool thing of the week, there's actually a couple of articles kind of joined together. Starting with an article written by David Mytton. You may recognize that name as the CEO of Server Density. 
 
-We had them on the podcast-- or him specifically on the podcast on episode 69 talking about how they use Google Cloud Platform. He has a really cool article where he refers to it as the hidden cost of cloud. 
+We had them on the podcast-- or him specifically on the podcast on episode 69 talking about how they use Google Cloud. He has a really cool article where he refers to it as the hidden cost of cloud. 
 
 It's a really interesting article talking about basically how if you were moving from, say, something that's probably more of a rented VPC or a VPS, I mean, or maybe you're running you're own data centers, the differences in costs that can occur when you're moving to the cloud and how you can mitigate that and basically watch what's happening with that. 
 
@@ -236,7 +236,7 @@ MARK: Cool. So what I would love to know is if people are interested in Dataprep
 
 ERIC: Sure. And actually, also, to give you some point, like, where we're at in our kind of timeline and launch and that sort of thing-- resources. So we have a quickstart available and docs available. The quickstart is like-- we give you some sample data and suggest some transformations. 
 
-If you're familiar with the Google Cloud Platform Codelabs, there's actually already a couple set up. Some of them are designed for using Dataprep in the context of machine learning, which is something we can discuss. And there have been a couple blogs out there. 
+If you're familiar with the Google Cloud Codelabs, there's actually already a couple set up. Some of them are designed for using Dataprep in the context of machine learning, which is something we can discuss. And there have been a couple blogs out there. 
 
 It's still nascent. I'm going to go ahead and jump into where we're at, kind of, in our rollout. We announced Dataprep, you know, that we were working on this, originally in the spring at Google Cloud Next 2017. And it was then in a what we call a private alpha release for some time-- or private beta release. 
 

@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.96.mp3"
 audioSize = 57684147
 categories = ["Customer", "Storage"]
 date = "2017-09-27T01:07:49Z"
-description = "Avere provides high performance file system solutions for hybrid cloud infrastructures, and is partner for Google Cloud Platform. To tell you all about it we are joined by Scott Jeschonek, Director of Cloud Products at Avere, and Dave Elliott, Developer Advocate at Google Cloud Platform."
+description = "Avere provides high performance file system solutions for hybrid cloud infrastructures, and is partner for Google Cloud. To tell you all about it we are joined by Scott Jeschonek, Director of Cloud Products at Avere, and Dave Elliott, Developer Advocate at Google Cloud."
 draft = false
 episodeNumber = 96
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -18,11 +18,11 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/72szg9/episode_96_ave
   name = "fimage"
 +++
 
-Avere provides high performance file system solutions for hybrid cloud infrastructures, and is partner for Google Cloud Platform.
+Avere provides high performance file system solutions for hybrid cloud infrastructures, and is partner for Google Cloud.
 
 To tell you all about it [Francesc](https://twitter.com/francesc) and
 [Mark](https://twitter.com/Neurotic) are joined by
-Scott Jeschonek, Director of Cloud Products at Avere, and Dave Elliott, Developer Advocate at Google Cloud Platform.
+Scott Jeschonek, Director of Cloud Products at Avere, and Dave Elliott, Developer Advocate at Google Cloud.
 
 <!--more-->
 
@@ -38,7 +38,7 @@ of the cloud phenomenon.
 
 ##### About Dave Elliott
 
-Dave Elliott is a Developer Advocate for Google Cloud Platform.
+Dave Elliott is a Developer Advocate for Google Cloud.
 In this role he engages communities to inspire them to try new products and
 technologies, embrace new ideas, and he is the voice of those communities
 to product and engineering teams.
@@ -98,7 +98,7 @@ Mark is attending [Strangeloop](https://www.thestrangeloop.com/).
 He is also heading to Australia in October for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
 
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 96 of the weekly \"Google Cloud Platform Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 96 of the weekly \"Google Cloud Podcast.\" I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I am well, Francesc. How are you doing? Currently in the city of Austin, actually. 
 
@@ -264,7 +264,7 @@ Once you start trying to scale it with 500, 600 VMs, you're quickly going to fin
 
 MARK: Cool. So let's swing back around to sort of developer experience and how that works. So I'm kind of curious as well. You said there's a POSIX file system. I've got two questions. One, so this essentially means that I can interact with this once it's all mounted and set up, basically like a local file system, and then you'll handle all the latency? And the other question. I'll take on to that is, does this work in both directions? Can I go from cloud to prem and then prem to cloud? How does that work? 
 
-SCOTT: Absolutely. So to answer your first question, from a developer perspective, you have Google Cloud Platform with a lot of fantastic technologies. All the machine learning in TensorFlow and the microservices capabilities, that's all exciting, and it's sort of like you're starting to think about how can I develop with all these new tools and what value can I drive in the company with these new tools. And that's great, and that your next cycle. That's what you're building towards. 
+SCOTT: Absolutely. So to answer your first question, from a developer perspective, you have Google Cloud with a lot of fantastic technologies. All the machine learning in TensorFlow and the microservices capabilities, that's all exciting, and it's sort of like you're starting to think about how can I develop with all these new tools and what value can I drive in the company with these new tools. And that's great, and that your next cycle. That's what you're building towards. 
 
 But then you have this whole host of applications today, and I'm going to exclude database applications just because, if I were using a relational database, I'd go put it up in Google's relational database product and be done with it just to make my life simpler. But let's just think about file-based applications that you have. So let's say their business mission critical, can't really tear them down and reauthor them. They're six, seven years old, and they've just been working. Do you really want to break that? 
 

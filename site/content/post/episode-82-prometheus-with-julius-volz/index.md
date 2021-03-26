@@ -68,7 +68,7 @@ He will be running a workshop at [QCon New York](https://qconnewyork.com/) on Go
 
 Mark will be speaking at [Google Cloud Summit, New York](https://cloudplatformonline.com/summit-NewYork-2017.html) in July.
 
-{{< transcript "FRANCESC: Hi, and welcome to Episode Number 82 of the weekly Google Cloud Platform podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel that is finally back. Welcome back, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to Episode Number 82 of the weekly Google Cloud podcast. I am Francesc Campoy. And I'm here with my colleague Mark Mandel that is finally back. Welcome back, Mark." >}}
 
 MARK: Hi, I'm back. Thank you. 
 
@@ -102,7 +102,7 @@ MARK: Help.
 
 FRANCESC: Yep. So we'll talk about that use case and how we can help with that. But before that, we have as always our cool things of the week. First one that we have-- and I'm going to-- I keep on writing these in an order and then going over the things in a completely different order. But I don't care. 
 
-Because the most exciting one for me is that we have a new region that has been opened for Google Cloud Platform. And it is the Singapore region, which is very exciting. I have never been to Singapore yet. But there's a [INAUDIBLE] in Singapore, so I might go next year. 
+Because the most exciting one for me is that we have a new region that has been opened for Google Cloud. And it is the Singapore region, which is very exciting. I have never been to Singapore yet. But there's a [INAUDIBLE] in Singapore, so I might go next year. 
 
 MARK: Nice. 
 

@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.13.mp3"
 audioSize = 44629933 
 categories = ["Firebase"]
 date = "2016-02-17T01:07:49Z"
-description = "In the thirteenth episode of this podcast, your hosts Francesc and Mark interview Sara Robinson and Vikrum Nijjar about Firebase. Sara is now a Developer Advocate for Google Cloud Platform but was part of Firebase until recently, and Vikrum - Firebase employee #1 - works as a Site Reliance Engineer for Firebase."
+description = "In the thirteenth episode of this podcast, your hosts Francesc and Mark interview Sara Robinson and Vikrum Nijjar about Firebase. Sara is now a Developer Advocate for Google Cloud but was part of Firebase until recently, and Vikrum - Firebase employee #1 - works as a Site Reliance Engineer for Firebase."
 draft = false
 episodeNumber = 13
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ In the thirteenth episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
 [Sara Robinson](https://twitter.com/SRobTweets) and [Vikrum Nijjar](https://twitter.com/Vikrum5000).
-Sara is now a Developer Advocate for Google Cloud Platform but was part of Firebase until recently,
+Sara is now a Developer Advocate for Google Cloud but was part of Firebase until recently,
 and Vikrum - Firebase employee #1 - works as a Site Reliance Engineer (SRE) for Firebase.
 Together they discuss the origins, features, and future of Firebase.
 <!--more-->
@@ -47,7 +47,7 @@ Follow Vikrum on Twitter at [@Vikrum5000](https://twitter.com/@Vikrum5000).
 
 ##### Cool thing of the week
 
-- CP100A: Google Cloud Platform Foundations [courses](https://cloud.google.com/training/courses).
+- CP100A: Google Cloud Foundations [courses](https://cloud.google.com/training/courses).
    
 ##### Interview
 
@@ -66,7 +66,7 @@ Follow Vikrum on Twitter at [@Vikrum5000](https://twitter.com/@Vikrum5000).
 
 - Google Cloud Console on [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.cloudconsole&hl=en) and [iOS](https://itunes.apple.com/us/app/google-cloud-console/id1005120814?mt=8).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 13 of the weekly Google Cloud Platform podcast. I'm Francesc Campoy, and I'm joined today by my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 13 of the weekly Google Cloud podcast. I'm Francesc Campoy, and I'm joined today by my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing today?
 FRANCESC: Pretty good, very excited about this amazing episode. We're gonna be talking about Firebase finally.
 MARK: Yeah, it's gonna be really good, great way to come back from my vacation, talk about a wonderful topic.
@@ -80,15 +80,15 @@ FRANCESC: Yeah, and they're really cool, so you can go to cloud.google.com/train
 MARK: So these are actually, like, classes. You can actually go to them.
 FRANCESC: Yeah.
 MARK: There's a trainer, all that sort of stuff.
-FRANCESC: Yeah, and they're, like, one whole day of going around Google Cloud Platform, so it's actually CP100, which is the Google Cloud Platform fundamentals.
-MARK: Nice, nice. If you're looking to get started with Google Cloud Platform, this could be a really great way to get up to speed quickly.
-FRANCESC: I know that I've attended, as a student, these classes, and I thought it was amazing. You get to play with all the little pieces of the Google Cloud Platform. You don't go too deep into those, but you just get an idea of what is the power, what can you do with it, and so on.
+FRANCESC: Yeah, and they're, like, one whole day of going around Google Cloud, so it's actually CP100, which is the Google Cloud fundamentals.
+MARK: Nice, nice. If you're looking to get started with Google Cloud, this could be a really great way to get up to speed quickly.
+FRANCESC: I know that I've attended, as a student, these classes, and I thought it was amazing. You get to play with all the little pieces of the Google Cloud. You don't go too deep into those, but you just get an idea of what is the power, what can you do with it, and so on.
 MARK: Yeah, so if you're looking to build something, you kind of go away, and you're like, "Oh, now I know a little bit about everything, so I can sort of build together a picture of exactly how I want to build something."
 FRANCESC: Yeah, and even cooler than that, so not everybody lives in New York, or especially not everybody lives in Sunnyvale.
 MARK: That's true.
 FRANCESC: So we also have online classes, and they're online classes that are actually happening live, so you will be able to ask questions and so on.
 MARK: Yup.
-FRANCESC: So trying to bring the class experience to the--to people all around the world, and they're also happening February 18th and 19th, so just go there. You will have to register, but it's gonna be really cool. You're gonna have--basically go through the same concepts. It's also CP100A, so Google Cloud Platform fundamentals, but from the comfort--comfortable couch in your house if you want to.
+FRANCESC: So trying to bring the class experience to the--to people all around the world, and they're also happening February 18th and 19th, so just go there. You will have to register, but it's gonna be really cool. You're gonna have--basically go through the same concepts. It's also CP100A, so Google Cloud fundamentals, but from the comfort--comfortable couch in your house if you want to.
 MARK: Yeah, you could sit in your own bed. You could be in a couch.
 FRANCESC: Yeah, I mean--
 MARK: You could even do it in a Jacuzzi. Like, we don't judge.
@@ -111,7 +111,7 @@ VIKRUM: Thanks for having us.
 MARK: Now, I did manage to mess up your last names. I'm very well known for doing that.
 VIKRUM: No, it was spot-on.
 MARK: Spot-on? Great, great, great. All right, wonderful. So before we get stuck into things, do you want to give us a bit of background on yourselves so people know who you are? Sara, why don't we start with you?
-SARA: Sure. My name is Sara Robinson. I'm currently a developer advocate on the Google Cloud Platform team with Mark and Francesc, and before that I was a developer advocate on the Firebase team with Vikrum.
+SARA: Sure. My name is Sara Robinson. I'm currently a developer advocate on the Google Cloud team with Mark and Francesc, and before that I was a developer advocate on the Firebase team with Vikrum.
 VIKRUM: Cool. So Sarah and I have worked together for a few years now. I'm Vikrum. I'm on the SRE team at Firebase. So SRE in Google parlance is sort of like the DevOps, operations, engineering for uptime for Firebase the service.
 FRANCESC: Cool. So we've been talking about Firebase many episodes.
 MARK: Yeah.
@@ -245,7 +245,7 @@ MARK: Yeah, definitely, and if you're interested to see, like, just sort of a sn
 FRANCESC: Yup.
 MARK: Definitely have a look in the show notes, obviously.
 FRANCESC: Of course. Cool, and before we finish with this amazing episode, I think we should go for the question of the week.
-MARK: Question of the week, okay, great. So we were talking about this before, actually, amongst ourselves. We were talking about--so obviously you've got the Cloud Console. You know, if you have a laptop, you sit down, you can have a look at everything that's going on inside your Google Cloud Platform project, but what do you do if, say, you're traveling or just generally more mobile, you know, you don't have access to a laptop. What do you do in that instance?
+MARK: Question of the week, okay, great. So we were talking about this before, actually, amongst ourselves. We were talking about--so obviously you've got the Cloud Console. You know, if you have a laptop, you sit down, you can have a look at everything that's going on inside your Google Cloud project, but what do you do if, say, you're traveling or just generally more mobile, you know, you don't have access to a laptop. What do you do in that instance?
 FRANCESC: So there's a couple options. The first one is trying to access the console with your browser on a mobile phone, and you will see that it's actually not a great, great option.
 MARK: Doesn't work so good?
 FRANCESC: Doesn't--it's not incredibly responsive. Let's go with that.

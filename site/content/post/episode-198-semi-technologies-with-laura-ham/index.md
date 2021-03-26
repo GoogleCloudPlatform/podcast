@@ -67,7 +67,7 @@ SeMI Technologies will be hosting meetups in [NYC on October 24th](https://www.m
 * "02 Storm Orage" by ArnaudCoutancier of [Freesound.org](https://Freesound.org)
 * "Harry Potter Theme", a clunky midi file rendition of music originally composed by John Williams. Purchase the soundtrack on [Amazon](https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Williams/dp/B00005OWIU/)
 
-{{< transcript "[THEME MUSIC] JON: Hi and welcome to Episode 198 of the weekly Google Cloud Platform Podcast. I am Jon, and I'm here with my colleague, Gabi. Hey, Gabi. How's it going?" >}}
+{{< transcript "[THEME MUSIC] JON: Hi and welcome to Episode 198 of the weekly Google Cloud Podcast. I am Jon, and I'm here with my colleague, Gabi. Hey, Gabi. How's it going?" >}}
 
 GABI: Hello, Jon. How are you? 
 

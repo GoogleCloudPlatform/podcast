@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.41.mp3"
 audioSize = 46359339
 categories = ["Descartes Labs", "Customer", "Preemptible VMs"]
 date = "2016-08-31T01:07:49Z"
-description = "Descartes Labs is creating an incredible living atlas of the world from huge datasets leveraging the power of Google Cloud Platform and Tim Kelton is here to tell us how."
+description = "Descartes Labs is creating an incredible living atlas of the world from huge datasets leveraging the power of Google Cloud and Tim Kelton is here to tell us how."
 draft = false
 episodeNumber = 41
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/50hrbg/episode_41_des
 
 [Descartes Labs](http://www.descarteslabs.com/) is creating an incredible
 living atlas of the world from huge datasets leveraging the power of
-Google Cloud Platform and [Tim Kelton](https://twitter.com/timbuktuu), one
+Google Cloud and [Tim Kelton](https://twitter.com/timbuktuu), one
 of the co-founders of Descartes Labs, is here to your cohosts
 [Francesc Campoy](https://twitter.com/francesc) and
 [Mark Mandel](https://twitter.com/neurotic) all about it.
@@ -40,7 +40,7 @@ above Descartes in Santa Fe New Mexico.
 ##### Cool things of the week
 
 - Check the transcripts for every episode!
-- All Google Cloud Platform episodes on [YouTube](https://www.youtube.com/playlist?list=PLIivdWyY5sqJOTOszXDZh3XustjvTsrmQ)
+- All Google Cloud episodes on [YouTube](https://www.youtube.com/playlist?list=PLIivdWyY5sqJOTOszXDZh3XustjvTsrmQ)
 - gRPC Project is now 1.0 and ready for production deployments [blog post](http://www.grpc.io/blog/gablogpost)
 
 ##### Interview
@@ -88,7 +88,7 @@ Three maps of Humboldt, Iowa in July 2016.
 
 ##### Question of the week
 
-What can you get for free on Google Cloud Platform?
+What can you get for free on Google Cloud?
 
 - App Engine [pricing](https://cloud.google.com/appengine/docs/quotas )
   - 28 free instance-hours per day
@@ -105,7 +105,7 @@ What can you get for free on Google Cloud Platform?
 - PubSub [pricing](https://cloud.google.com/pubsub/pricing)
   - First 250M Operations: $0.40/Million
   
-{{< transcript "FRANCESC: Hi, and welcome to episode number 41 of the weekly Google Cloud Platform podcast. I'm Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 41 of the weekly Google Cloud podcast. I'm Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc, how are you doing today? 
 
 FRANCESC: Doing great knowing that I beat you yesterday at ping pong. 
@@ -128,7 +128,7 @@ FRANCESC: So, yeah, very excited about that. I really enjoyed talking to him, so
 
 MARK: Yeah, we're going to talk a little bit about what you can get for free. 
 
-FRANCESC: Yeah, which is always good. Free stuff is good. So, concretely, what are the products, or features, or APIs that you can use for free up to a given point? So what products have free tiers in Google Cloud Platform? 
+FRANCESC: Yeah, which is always good. Free stuff is good. So, concretely, what are the products, or features, or APIs that you can use for free up to a given point? So what products have free tiers in Google Cloud? 
 
 We're going to be discussing them a little bit, not giving all of them because there's too many products, but to give you an idea of what you can do for free basically. 
 
@@ -150,7 +150,7 @@ FRANCESC: The first one is we got transcripts.
 
 MARK: Yeah, which is really cool. So now we get automated transcripts coming through. There will be at least 15 out because that's how many I have right now on the website available. But we'll be gradually increasing that to increase all of them. So, if you want to see the text or read the actual podcast, it's pretty cool. You can do that. And the other thing is the thing you built as well. 
 
-FRANCESC: Yes, so, I've been working on it for a couple days. And it involves FFmpeg, and Docker, and Go, and lots of pain. But now we will be releasing every single episode from the Google Cloud Platform podcasts to YouTube. So that's going to be pretty cool. 
+FRANCESC: Yes, so, I've been working on it for a couple days. And it involves FFmpeg, and Docker, and Go, and lots of pain. But now we will be releasing every single episode from the Google Cloud podcasts to YouTube. So that's going to be pretty cool. 
 
 I already posted three of them, but they're still not public. But by the time this episode comes out, probably everything will be out. So go check it out. We'll have a link to the playlist from the show notes. 
 
@@ -190,7 +190,7 @@ MARK: Excellent. Thank you so much for joining us today. I'm pretty excited to b
 
 TIM: Sure, I'm an engineer and part of the founding team here at Descartes. And my main focus is Cloud architecture and then building and scaling what we call our Cloud supercomputer, which is basically a forecasting platform. 
 
-And so I end up using a range of Google Cloud Platform tools to accomplish this goal. And that's mainly to see how the Earth is changing every single day. And before Descartes, I was a research and development engineer for 15 years at Los Alamos National Laboratory. And there I worked on a wide range of projects, but was focused around deep learn. The most recent project that lasted about six years was focused around deep learning and applying deep learning to real world problem areas like satellite imagery. And then a portion of that team left Los Alamos to start Descartes. 
+And so I end up using a range of Google Cloud tools to accomplish this goal. And that's mainly to see how the Earth is changing every single day. And before Descartes, I was a research and development engineer for 15 years at Los Alamos National Laboratory. And there I worked on a wide range of projects, but was focused around deep learn. The most recent project that lasted about six years was focused around deep learning and applying deep learning to real world problem areas like satellite imagery. And then a portion of that team left Los Alamos to start Descartes. 
 
 FRANCESC: Cool. So, you mentioned that Descartes Labs, it allows you to see how the Earth changes? What does that mean? 
 
@@ -204,7 +204,7 @@ We're only 20 months old. So it's a really early stage company. But we're moving
 
 MARK: So, exactly how much data are you talking about? Are you talking about satellite imagery and forecast weather? I mean how big are these data sets? 
 
-TIM: Yes, so, the data sets vary. Right now we currently have compressed around 3 and 1/2 petabytes of data that we're storing in Google Cloud Platform. 
+TIM: Yes, so, the data sets vary. Right now we currently have compressed around 3 and 1/2 petabytes of data that we're storing in Google Cloud. 
 
 MARK: Oh, only a couple of  petabytes. It's  fine. 
 
@@ -334,9 +334,9 @@ FRANCESC: Thanks again, Tim for such an amazing interview. I learned a lot about
 
 MARK: Yeah, it was super, super cool. And just the large amount of storage and the amount of data that they have moving around their system at any given point in time is pretty incredible. 
 
-FRANCESC: Yeah, it is pretty amazing. We'll have links. Actually, we'll have images in the show notes so you can have an idea of the kind of maps they generate, if you're curious about it. But now it's time to go with the question of the week. And the question of the week, I'm not sure where it comes from. But I know that I had it in the last GDG in San Francisco, which is about Google Cloud Platform. 
+FRANCESC: Yeah, it is pretty amazing. We'll have links. Actually, we'll have images in the show notes so you can have an idea of the kind of maps they generate, if you're curious about it. But now it's time to go with the question of the week. And the question of the week, I'm not sure where it comes from. But I know that I had it in the last GDG in San Francisco, which is about Google Cloud. 
 
-One of our coworkers, Terry, gave a talk. And at the end, someone asked, OK, so what are the things I can do for free on Google Cloud Platform? And the first part of the question is, well, when you sign up for Google Cloud Platform, your get already $300 that are valid for two months. 
+One of our coworkers, Terry, gave a talk. And at the end, someone asked, OK, so what are the things I can do for free on Google Cloud? And the first part of the question is, well, when you sign up for Google Cloud, your get already $300 that are valid for two months. 
 
 MARK: Yeah, 60 days. 
 

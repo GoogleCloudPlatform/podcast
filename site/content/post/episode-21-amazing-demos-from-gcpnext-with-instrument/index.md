@@ -77,7 +77,7 @@ How do you use variables in Deployment Manager
 - Cloud Deployment Manager [docs](https://cloud.google.com/deployment-manager/)
 - Passing variables to templates [docs](https://cloud.google.com/deployment-manager/docs/step-by-step-guide/using-template-and-environment-variables)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 21 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 21 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc, how you doing today? 
 FRANCESC: Pretty good. A little bit tired after all these weeks of a lot of action, but yeah. I'm very excited about the interviews today.
 MARK: Yeah, we're gonna have some conversations that were recorded back at GCP Next, a couple of weeks ago now, talking to the people from Instrument who did the demos at the event. 
@@ -325,11 +325,11 @@ MARK: Thank you.
 FRANCESC: Thank you so much to John, Violet, and Nick for those amazing interviews. We have a bunch of links in the show, and it's so you can see pictures of the demos and videos and so on. They're totally worth having a look at, so just go there and enjoy. And now we're gonna go for the "Question of the Week." 
 MARK: Yeah. 
 FRANCESC: So the "Question of the Week" is about Deployment Manager, and as I said, it's the first time we talk about it at all, so I think it's probably worth mentioning a little bit what Deployment Manager is. 
-MARK: So Deployment Manager is a way to programmatically and declaratively basically say what infrastructure you want to spin up on Google Cloud Platform. So maybe you want a whole bunch of machines. Maybe you want a Kubernetes Cluster. Maybe you want a Cloud SQL database. And so you can write these (inaudible) files, send them out through Deployment Manager, and it'll query that for you in an item pertinent way. 
-FRANCESC: Cool. Cool. So it's kind of like Kubernetes Configuration files where you describe your architecture of your cluster, but it's a little bit--It's a higher level where you're describing the architecture of your Google Cloud Platform project in general. 
+MARK: So Deployment Manager is a way to programmatically and declaratively basically say what infrastructure you want to spin up on Google Cloud. So maybe you want a whole bunch of machines. Maybe you want a Kubernetes Cluster. Maybe you want a Cloud SQL database. And so you can write these (inaudible) files, send them out through Deployment Manager, and it'll query that for you in an item pertinent way. 
+FRANCESC: Cool. Cool. So it's kind of like Kubernetes Configuration files where you describe your architecture of your cluster, but it's a little bit--It's a higher level where you're describing the architecture of your Google Cloud project in general. 
 MARK: Yeah. Yeah, yeah.
-FRANCESC: That is very cool. There is--There's actually for some people that may have used it before, there's also Terraform by HashiCorp. It's kind of the same idea. Terraform works across the different platforms, and Cloud Deployment Manager is just for Google Cloud Platform. So what was the question then?
-MARK: So the question that got asked actually, was by one of our Google Cloud Platform users who was asking how you pass in variables to Deployment Manager. 
+FRANCESC: That is very cool. There is--There's actually for some people that may have used it before, there's also Terraform by HashiCorp. It's kind of the same idea. Terraform works across the different platforms, and Cloud Deployment Manager is just for Google Cloud. So what was the question then?
+MARK: So the question that got asked actually, was by one of our Google Cloud users who was asking how you pass in variables to Deployment Manager. 
 FRANCESC: Oh, interesting. 
 MARK: So if you're writing your script, you've got, say, a (inaudible) file, but maybe you want three instances or something in, like, testing, but you want 20 instances in production. How can you do that? 
 FRANCESC: So how do you do it?

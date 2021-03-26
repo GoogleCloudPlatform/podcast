@@ -77,14 +77,14 @@ in Atlantic City.
 next month for [GopherCon Brasil](https://2016.gopherconbr.org/en/) and
 [GCPNext Brazil](https://cloudplatformonline.com/NEXT2016-Brazil.html).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 48 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing? " >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 48 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing? " >}}
 MARK: I'm good. Thanks, Francesc. How are you doing?
 
 FRANCESC: Pretty good. Pretty good. Very happy to be recording in a room with no lights. Because we discussed last time that someone broke the door. Well, someone broke the lights.
 
 MARK: Yeah, it's a very dark room.
 
-FRANCESC: Yeah, it's pretty romantic, to be honest. So very happy today to have-- yeah, very happy to have the first Spaniard in the podcast. She's Ines Envid, Ines Envid-- since I can actually pronounce it in Spanish, I know how to do that-- and she's a product manager in the Cloud Networking team for the Google Cloud Platform. And we're going to be talking about, basically, all the things you can do with the network and why Google Cloud Platform network is so amazing.
+FRANCESC: Yeah, it's pretty romantic, to be honest. So very happy today to have-- yeah, very happy to have the first Spaniard in the podcast. She's Ines Envid, Ines Envid-- since I can actually pronounce it in Spanish, I know how to do that-- and she's a product manager in the Cloud Networking team for the Google Cloud. And we're going to be talking about, basically, all the things you can do with the network and why Google Cloud network is so amazing.
 
 MARK: Yeah, no, it's a really great chat. I know so little about VPCs and VPNs, and other things of that nature that it's great to sit down and talk to someone who actually knows what that stuff is here.
 
@@ -132,7 +132,7 @@ FRANCESC: We should to that, yeah.
 
 MARK: We should absolutely do that.
 
-FRANCESC: And we have one last Cool Thing of the Week, which is that we are hiring. So Google Cloud Platform, we have a pretty big team--
+FRANCESC: And we have one last Cool Thing of the Week, which is that we are hiring. So Google Cloud, we have a pretty big team--
 
 MARK: Yep.
 
@@ -152,7 +152,7 @@ FRANCESC: Yeah. But yeah, you could get to get lunch with us regularly, which is
 
 MARK: I think so. Let's do that.
 
-FRANCESC: So I'm very happy today to welcome our first Spaniard to the Google Cloud Platform Podcast. She's Ines Envid, and she's a product manager for Cloud Networking. Hello, Ines. How are you doing?
+FRANCESC: So I'm very happy today to welcome our first Spaniard to the Google Cloud Podcast. She's Ines Envid, and she's a product manager for Cloud Networking. Hello, Ines. How are you doing?
 
 INES: Hi. Doing great. How are you?
 

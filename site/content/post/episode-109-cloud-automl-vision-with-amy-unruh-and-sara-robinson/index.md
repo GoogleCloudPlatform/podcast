@@ -26,7 +26,7 @@ Cloud AutoML is a suite of products enabling developers with limited ML expertis
 
 ##### About Amy Unruh
 
-Amy is a developer relations engineer for the Google Cloud Platform, where she focuses on machine learning and data analytics as well as other Cloud Platform technologies. Amy has an academic background in CS/AI and has also worked at several startups, done industrial R&D, and published a book on App Engine.
+Amy is a developer relations engineer for the Google Cloud, where she focuses on machine learning and data analytics as well as other Cloud Platform technologies. Amy has an academic background in CS/AI and has also worked at several startups, done industrial R&D, and published a book on App Engine.
 
 ##### About Sara Robinson
 
@@ -62,7 +62,7 @@ Honorable mention...
 
 How does someone in academia get GCP credits?
 
-- Google Cloud Platform Education Grants [site](https://cloud.google.com/edu/)
+- Google Cloud Education Grants [site](https://cloud.google.com/edu/)
 
 
 ##### Where can you find us next?
@@ -71,7 +71,7 @@ Melanie is speaking at [AI Congress](https://theaicongress.com/) in London Jan 3
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 109 of the weekly Google Cloud Platform podcast. I am Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 109 of the weekly Google Cloud podcast. I am Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 MELANIE: Morning, Mark. It's good to see you. 
 
@@ -93,7 +93,7 @@ MARK: Yeah, I'll interrupt your ML fest.
 
 MELANIE: I know, it's all about ML now with me. 
 
-MARK: It's all about ML, I know. No, that's good. I'll bring it back to two of my passions, actually. So there's a new solution that's come out about running dedicated game servers for multiplayer games in Kubernetes engine. I know many people have probably seen my blog post series talking about doing the very similar thing, but there's now an official solution that has been released. There's a blog post we'll link in the show notes, and the solution itself, talking specifically about how you can do this on Kubernetes engine on Google Cloud Platform. So if you're building multiplayer games and work in the games industry, go have a look. 
+MARK: It's all about ML, I know. No, that's good. I'll bring it back to two of my passions, actually. So there's a new solution that's come out about running dedicated game servers for multiplayer games in Kubernetes engine. I know many people have probably seen my blog post series talking about doing the very similar thing, but there's now an official solution that has been released. There's a blog post we'll link in the show notes, and the solution itself, talking specifically about how you can do this on Kubernetes engine on Google Cloud. So if you're building multiplayer games and work in the games industry, go have a look. 
 
 MELANIE: Nice. And then the other cool thing of the week that we wanted to mention is that Kaggle has launched their data science education resources and tools, and I guess just actual program that's on their site. We'll have a link on our site as well as always, but this is being headed up by Dan Becker and Rachael Tatman. And they are covering subjects like machine learning, data visualization, and deep learning. And they're focusing most of the course content in Python. So you should check that out. 
 
@@ -121,7 +121,7 @@ MELANIE: So can y'all all tell us a little bit more about yourselves and what yo
 
 SARA: Sure. Amy, you want to start? 
 
-AMY: Sure, yeah. So I'm a developer relations engineer for the Google Cloud Platform. And I have a background in AI and machine learning, and focusing on those areas right now. In previous lives, I've worked for startups and done industrial R&D, and even written a book about App Engine. 
+AMY: Sure, yeah. So I'm a developer relations engineer for the Google Cloud. And I have a background in AI and machine learning, and focusing on those areas right now. In previous lives, I've worked for startups and done industrial R&D, and even written a book about App Engine. 
 
 MARK: Nice. 
 
@@ -131,7 +131,7 @@ SARA: Awesome. I'm on the same team as Amy. We're focused on big data and machin
 
 MELANIE: Great. So the reason why we have both of you here today is because today we are releasing cloud AutoML Vision, and we wanted you both to help share a little bit more about what that's about. So can you tell us what that is? 
 
-SARA: First I'll talk a little bit about the products that we currently have if you want to do image recognition on Google Cloud Platform. So right now your options are to use the Vision API, which is a pre-trained model that gives you access to this model with just one REST API request. So you can send your image to the API. You get back a bunch of data on what it thinks it's a picture of. 
+SARA: First I'll talk a little bit about the products that we currently have if you want to do image recognition on Google Cloud. So right now your options are to use the Vision API, which is a pre-trained model that gives you access to this model with just one REST API request. So you can send your image to the API. You get back a bunch of data on what it thinks it's a picture of. 
 
 If you want to do something more custom, so the vision API doesn't require any training data of your own. If you have a problem that is more specific to your use case, you can build and train a custom model with TensorFlow and use your own training data to train and tune the model. But there's kind of been a gap in our current product offerings, and that's why we're really excited about Cloud AutoML Vision. 
 
@@ -287,7 +287,7 @@ AMY: Yeah, on the topic of labeling, one other thing we should mention is that A
 
 MARK: Sweet. 
 
-SARA: Another thing to mention is that once you've trained your model, it's instantly ready in production to handle traffic. So it's available for serving right away on Google Cloud Platform. So you don't have to worry about provisioning any of this infrastructure on your own. And it will also scale to zero. So it's ready to handle lots and lots of prediction requests. If you're not getting any, it will scale down to zero. 
+SARA: Another thing to mention is that once you've trained your model, it's instantly ready in production to handle traffic. So it's available for serving right away on Google Cloud. So you don't have to worry about provisioning any of this infrastructure on your own. And it will also scale to zero. So it's ready to handle lots and lots of prediction requests. If you're not getting any, it will scale down to zero. 
 
 That's a really good point to make. 
 
@@ -333,7 +333,7 @@ MARK: Yeah, that's really cool tech, especially as someone who is definitely not
 
 MELANIE: Agreed. It's where things are going. So it's nice to see where it is with Cloud Vision and then to think about where it's going to be going from there. So question of the week. 
 
-MARK: Yeah, so question of this week, is if I am a student, or say I work for an academic institution such as a university, and I want to be able to use Google Cloud Platform, but ideally not pay for it, how do I go about getting some credits to enable me to basically learn how to use Google Cloud Platform? 
+MARK: Yeah, so question of this week, is if I am a student, or say I work for an academic institution such as a university, and I want to be able to use Google Cloud, but ideally not pay for it, how do I go about getting some credits to enable me to basically learn how to use Google Cloud? 
 
 MELANIE: So we have education grants, and we are providing the link, of course, as always in our blog post. And so students and faculty can apply at this link, and actually I think it's more specifically for faculty to apply, and then they can give access for students. But apparently we have two different approaches for those who are in the US versus those who are international, and they provide the eligibility on the site. They're usually looking for universities that are regionally accredited or have some level of accreditation for those specifically teaching computer science or something related. So we'll definitely provide that information and you can apply, you can get credits, you can play around with this to do research at an academic level. 
 

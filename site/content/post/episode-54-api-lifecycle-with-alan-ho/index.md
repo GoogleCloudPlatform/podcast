@@ -52,7 +52,7 @@ portable between Cloud Providers?
 - Create a VM with Fog & Ruby: Cloud Minute [YouTube](https://www.youtube.com/watch?v=09-OlnQ6fGs)
 - Upload to Google Cloud Storage with Fog: Cloud Minute [YouTube](https://www.youtube.com/watch?v=lhWE6GTphXM)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 54 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 54 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark, how are you doing?" >}}
 MARK: Hi, I'm doing pretty well. How are you doing Francesc. 
 
 FRANCESC: Pretty good. Pretty good. Very busy day with lots of podcasting actually today. But very excited about having, actually, someone completely new. He's a Noogler I'm going to say. 

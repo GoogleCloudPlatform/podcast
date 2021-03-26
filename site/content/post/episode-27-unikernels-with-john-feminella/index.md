@@ -65,7 +65,7 @@ referring to himself in the third person in speaker bios.
 - Mark will then be at [Change the Game SF](https://cloudplatformonline.com/ChangeTheGameSummit-SF_Registration.html) 
 - Francesc will be riding the [AIDS/Lifecycle](http://www.aidslifecycle.org/) and if you want you can [donate](http://campoy.cat/alc).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 27 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 27 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How are you doing?
 FRANCESC: Pretty good. Pretty good. Enjoying GOTO in Chicago.
 MARK: Ooh, fancy. How's that going?
@@ -73,7 +73,7 @@ FRANCESC: It's surprisingly hot, but the conference is amazing. Very good talks.
 MARK: That would make you happy, yes. 
 FRANCESC: Yep. So today we're gonna be talking about something slightly related to microservices. 
 MARK: Yeah, we're gonna have an interesting conversation with John Feminella. There we go. That's fun. We're gonna talk about unikernels. 
-FRANCESC: Yep, so basically, what are unikernels? Why could you even care about them? How do you use them? What are the current solutions, technical solutions, that are available already to run unikernels? And also how to run them on Google Cloud Platform.
+FRANCESC: Yep, so basically, what are unikernels? Why could you even care about them? How do you use them? What are the current solutions, technical solutions, that are available already to run unikernels? And also how to run them on Google Cloud.
 MARK: Yeah, so that's a pretty cool and interesting thing. And then, towards the end, it's back to my little pet project, Deployment Manager. We have a really interesting question around that as well. 
 FRANCESC: Yeah, I like it 'cause it's basically how to do Deployment Manager without doing Deployment Manager which is perfect. I really like it. 
 MARK: Excellent. Well, before we get into those two things, why don't we have a quick chat about the cool thing of the week, and we've got a few things given that, you know, Google I/O was last week.
@@ -83,7 +83,7 @@ FRANCESC: Yeah, and [inaudible] keep on having that free tier after 100 concurre
 MARK: So there's analytics. There's storage. So with Google--integration with Google Cloud Storage. It's just a really nice veneer over the top. We've got remote config for doing, like, experiments. Being able to do, like, like, sort of, key value pairs. What other stuff have we got in there? There's so many good things. There's even, like, little things like handy little tweaks to how you can update data within the real-time database. All sorts of good stuff. 
 FRANCESC: Nice. So, yeah. We'll have a link on the show notes to the communication of the new Firebase so you can check it out.
 MARK: Absolutely, and we'll have links to all the Firebase sessions that are available currently from I/O. There's a whole bunch, and most of them will be up currently. Although, I know there's still a few coming in as late stragglers. 
-FRANCESC: Actually, not only the ones related to Firebase, but all the Google Cloud Platform talks that were there at Google I/O. 'Cause I know that you spoke about Firebase, but I spoke about something else. I spoke about Google Cloud Spin, and we'll also have a link to that talk. 
+FRANCESC: Actually, not only the ones related to Firebase, but all the Google Cloud talks that were there at Google I/O. 'Cause I know that you spoke about Firebase, but I spoke about something else. I spoke about Google Cloud Spin, and we'll also have a link to that talk. 
 MARK: Yep. Yep, yep, yep. Yeah, mine's a little delayed due to some minor technical issues, but hopefully it should be up there fairly soon. 
 FRANCESC: Well, and also something that I really enjoyed was if anyone had the chance to go to Google I/O, they might have seen that there was some really cool demos in the Cloud tent. There was the same two demos that we had at GCP Next, so Query It! and the GCP Emotobooth, which are both really, really cool, developed by Instrument. 
 MARK: Yeah, so if you're interested in seeing some applications of BigQuery, or possibly some applications of Cloud Vision API, you can dig into that code and see what it is that they did to make the magic happen. 
@@ -93,7 +93,7 @@ FRANCESC: That is actually totally a good idea, and I'm seriously--
 MARK: You totally thought about it, didn't you?
 FRANCESC: I'm seriously considering doing that for my--for my next party. Cool. So I think it's time to go talk with our friend John Feminella about unikernels. 
 MARK: Yeah, let's go talk about unikernels. 
-FRANCESC: So I'm very happy to welcome John Feminella to the Google Cloud Platform podcast. Hey, John. How are you doing?
+FRANCESC: So I'm very happy to welcome John Feminella to the Google Cloud podcast. Hey, John. How are you doing?
 JOHN: Pretty good. How 'bout you guys?
 FRANCESC: Doing great.
 MARK: Pretty well.
@@ -142,8 +142,8 @@ FRANCESC: Yeah, and we'll definitely have the link to the--to his talk at Contai
 MARK: Absolutely. But let's talk about the question of the week. Francesc, you had a really interesting question, there. 
 FRANCESC: Yeah, so the question is regarding your pet--your pet peeve, your favorite project.
 MARK: My favorite project.
-FRANCESC: Yeah, Deployment Manager. And it's basically about--okay so, Deployment Manager, basically, what it allows you to do is, given a file that contains some description, it will create all the resources on your Google Cloud Platform project. And that is--that is cool, but is there any way you can create that file from what you already have? Meaning that you--via either the CLI or the web interface you created a bunch of, I don't know, [inaudible] instances and Cloud Storage buckets and whatever. And you want to, basically, create the corresponding Deployment Manager so then you can replicate that same infrastructure somewhere else. 
-MARK: So as of about 15 days ago, there's a beginning of doing exactly that. I would say it's definitely not, like, 100% there, but it's an open source project that sits within the Google Cloud Platform Deployment Manager samples repository where there's a genconfig Python script where you're able to point it, I think, primarily, right now, at GCE instances. But hopefully that will, sort of, grow from there and as we get issues and pull requests. And be able to get back a basic, sort of, ginger template that's able to be used with Deployment Manager. I think you'll have to tweak it a little bit, but it definitely does a lot of that bulk work for you. So that if you want to get started with Deployment Manager, you've already got some infrastructure, and you want to, basically, be able to either replicate that somewhere else or maybe modify it using Deployment Manager. This is a really great place to start.
+FRANCESC: Yeah, Deployment Manager. And it's basically about--okay so, Deployment Manager, basically, what it allows you to do is, given a file that contains some description, it will create all the resources on your Google Cloud project. And that is--that is cool, but is there any way you can create that file from what you already have? Meaning that you--via either the CLI or the web interface you created a bunch of, I don't know, [inaudible] instances and Cloud Storage buckets and whatever. And you want to, basically, create the corresponding Deployment Manager so then you can replicate that same infrastructure somewhere else. 
+MARK: So as of about 15 days ago, there's a beginning of doing exactly that. I would say it's definitely not, like, 100% there, but it's an open source project that sits within the Google Cloud Deployment Manager samples repository where there's a genconfig Python script where you're able to point it, I think, primarily, right now, at GCE instances. But hopefully that will, sort of, grow from there and as we get issues and pull requests. And be able to get back a basic, sort of, ginger template that's able to be used with Deployment Manager. I think you'll have to tweak it a little bit, but it definitely does a lot of that bulk work for you. So that if you want to get started with Deployment Manager, you've already got some infrastructure, and you want to, basically, be able to either replicate that somewhere else or maybe modify it using Deployment Manager. This is a really great place to start.
 FRANCESC: Yeah, that sounds really, like, a very good place to get your files started. And then from there, you're gonna see all the things that you're missing. And there's two things that you can do. One is add them to the file. The other one is send a pull request.
 MARK: Yeah, absolutely. Yeah, so this is on GitHub right now. Links are in the show notes. So if you start using it, you find issues, definitely submit it back. We'd love to have input from the community. 
 FRANCESC: And I'm curious about one thing. In what language is it written? Oh, Python.

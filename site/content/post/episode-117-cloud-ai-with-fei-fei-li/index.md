@@ -91,7 +91,7 @@ Sample of recent women in tech events to keep on radar for next year:
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi. And welcome to episode number 117 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi. And welcome to episode number 117 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm great. 
 

@@ -38,7 +38,7 @@ In his free time, he's a regular in the local Seattle standup comedy scene.
 
 ##### Cool thing of the week
 
-- A better way to bootstrap MongoDB on Google Cloud Platform [post](https://cloudplatform.googleblog.com/2016/06/a-better-way-to-bootstrap-MongoDB-on-Google-Cloud-Platform.html)
+- A better way to bootstrap MongoDB on Google Cloud [post](https://cloudplatform.googleblog.com/2016/06/a-better-way-to-bootstrap-MongoDB-on-Google-Cloud-Platform.html)
 
 ##### Interview
 
@@ -65,7 +65,7 @@ In his free time, he's a regular in the local Seattle standup comedy scene.
 
 Mark will be at the Indie Game Festival
 
-{{< transcript "FRANCESC: Hi, and welcome to Episode Number 37 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to Episode Number 37 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, mark." >}}
 MARK: Hey, Francesc. How are you doing? 
 
 FRANCESC: Very good. Happy to have Carter back for one more week. 
@@ -100,11 +100,11 @@ FRANCESC: Yep. But before that, we're going to start with the cool thing of the 
 
 MARK: Deployment Manager. 
 
-FRANCESC: Deployment Manager-- Google Cloud Deployment Manager. And it is related to MongoDB, so the question is, OK, so I want to run MongoDB in Google Cloud Platform. What is the easiest slash best way to get started? 
+FRANCESC: Deployment Manager-- Google Cloud Deployment Manager. And it is related to MongoDB, so the question is, OK, so I want to run MongoDB in Google Cloud. What is the easiest slash best way to get started? 
 
-MARK: So this is actually quite interesting. So there are a few ways that you could create MongoDB on Google Cloud Platform. Obviously, you could fire up, you can [INAUDIBLE] engine instances and manually install it. Do it that way-- not necessarily a difficult way to do it. We have Google Cloud Launcher to quickly create and sort of test a MongoDB replica set. That works, but to a degree, like, it's a little harder to manage once it's already up. If you want to upgrade, it becomes a little more difficult. It's not like that. 
+MARK: So this is actually quite interesting. So there are a few ways that you could create MongoDB on Google Cloud. Obviously, you could fire up, you can [INAUDIBLE] engine instances and manually install it. Do it that way-- not necessarily a difficult way to do it. We have Google Cloud Launcher to quickly create and sort of test a MongoDB replica set. That works, but to a degree, like, it's a little harder to manage once it's already up. If you want to upgrade, it becomes a little more difficult. It's not like that. 
 
-However, what we have, and there's a blog post that comes along with this that is on Google Cloud Platform's blog, that provisions and installs MongoDB Cloud Manager, which is a MongoDB tool for running a replica set of MongoDB in the cloud. But we use Cloud Deployment Manager templates to basically bootstrap that and keep that up and running and get that up and start it. 
+However, what we have, and there's a blog post that comes along with this that is on Google Cloud's blog, that provisions and installs MongoDB Cloud Manager, which is a MongoDB tool for running a replica set of MongoDB in the cloud. But we use Cloud Deployment Manager templates to basically bootstrap that and keep that up and running and get that up and start it. 
 
 So you kind of get the best of both worlds. You get almost the speed and simplicity of using, say, like Cloud Launcher. But now you've got something that's managed by MongoDB. It's hooked into their services. And then so if you want to run MongoDB in the cloud, it seems like a really nice way to do it at production and at scale. 
 

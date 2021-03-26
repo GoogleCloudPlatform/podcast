@@ -72,7 +72,7 @@ Aja will be online! She has [blog posts](http://thagomizer.com) coming on assess
 
 Our guests will be at [Kubecon EU](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/).
 
-{{< transcript "[MUSIC - STEPHAN BODZIN, \"BIRTH (JA MIX)\"] AJA: Hi, and welcome to episode number 174 of the weekly Google Cloud Platform Podcast. I'm Aja Hammerly, and I'm here with my colleague Mark Mandel. Hey, Mark." >}} 
+{{< transcript "[MUSIC - STEPHAN BODZIN, \"BIRTH (JA MIX)\"] AJA: Hi, and welcome to episode number 174 of the weekly Google Cloud Podcast. I'm Aja Hammerly, and I'm here with my colleague Mark Mandel. Hey, Mark." >}} 
 
 MARK: Hey, Aja. How you doing? 
 
@@ -348,7 +348,7 @@ AJA: Yeah. That was a great chance to talk and learn about something that I didn
 
 And our question this week has to do with Cloud Build. The question is, how do you cache files between builds in Cloud Build, which is something that a lot of folks want to do to speed up their builds and/or because they've got interesting pipelines that they're trying to build where they have lots of different dependencies. So Mark, what is the answer to this question? 
 
-MARK: I had exactly this problem. Basically, I had a file-based cache that I wanted to store some records in and just persist it between builds to make things a bit faster. And I was like, OK, clearly I have Google Cloud Storage. I can push stuff up and down. But like, what if it's not there? What if it is? I don't want to write all this code. So I went hunting through the repository, which is the cloud builder's community repository under Google Cloud Platform, which has a bunch of Google Cloud Builder steps. 
+MARK: I had exactly this problem. Basically, I had a file-based cache that I wanted to store some records in and just persist it between builds to make things a bit faster. And I was like, OK, clearly I have Google Cloud Storage. I can push stuff up and down. But like, what if it's not there? What if it is? I don't want to write all this code. So I went hunting through the repository, which is the cloud builder's community repository under Google Cloud, which has a bunch of Google Cloud Builder steps. 
 
 These are custom build steps that you can use yourself inside Cloud Build that do some kind of fancy things. And there's a whole bunch of them. I'm not going to go through them all. But one of them that stands out and one that I really like is there is a cache build step. Or a cache, depending on whether you're Australian or American? And what it has, it has a safe cache and a restore cache functionality, so it will take basically any path that you like and check it in Google Cloud Storage. 
 

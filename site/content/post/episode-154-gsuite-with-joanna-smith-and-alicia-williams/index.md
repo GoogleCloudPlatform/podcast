@@ -68,7 +68,7 @@ Mark will be at [KubeCon](https://events.linuxfoundation.org/events/kubecon-clou
 
 Melanie will be at [SOCML](https://sites.google.com/view/socml-2018/home) this month.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 154 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my wonderful colleague, Melanie Warrick. Hello, Melanie." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 154 of the weekly Google Cloud podcast. I'm Mark Mandel, and I'm here with my wonderful colleague, Melanie Warrick. Hello, Melanie." >}}
 
 MELANIE: Then I forgot her name. Hi, Mark. How are you? 
 
@@ -116,7 +116,7 @@ MARK: It was the very first multiplayer Google Doodle.
 
 MELANIE: Nice. 
 
-MARK: Which was super cool. And it ran on top of Google Cloud Platform. I think it ran really, really well. And also, integrated a good friend of mine, Joseph Holley's, open source project called Open Match for doing matchmaking. 
+MARK: Which was super cool. And it ran on top of Google Cloud. I think it ran really, really well. And also, integrated a good friend of mine, Joseph Holley's, open source project called Open Match for doing matchmaking. 
 
 MELANIE: If you still want to play around with that, we've got the link, and you can check it out. 
 

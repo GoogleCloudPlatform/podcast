@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.58.mp3"
 audioSize = 51604329
 categories = ["Java", "Stackdriver"]
 date = "2017-01-25T01:07:49Z"
-description = "In this second episode of the year we'll talk Java! Ray Tsang and Rajeev Dayal tell us everything there is to know about Java on Google Cloud Platform."
+description = "In this second episode of the year we'll talk Java! Ray Tsang and Rajeev Dayal tell us everything there is to know about Java on Google Cloud."
 draft = false
 episodeNumber = 58
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -20,15 +20,15 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/5q45pd/episode_58_jav
 In this second episode of the year we'll talk Java!
 
 [Ray Tsang](https://twitter.com/saturnism) and Rajeev Dayal tell your co-hosts [Mark](https://twitter.com/Neurotic) and
-[Francesc](https://twitter.com/francesc) everything there is to know about Java on Google Cloud Platform.
-You will learn about what you can currently as a Java developer on Google Cloud Platform,
+[Francesc](https://twitter.com/francesc) everything there is to know about Java on Google Cloud.
+You will learn about what you can currently as a Java developer on Google Cloud,
 but also what to expect on the future.
 
 <!--more-->
 
 ##### About Ray
 
-[Ray](https://twitter.com/saturnism) is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on
+[Ray](https://twitter.com/saturnism) is a Developer Advocate for the Google Cloud. Ray had extensive hands on
 cross-industry enterprise systems integration delivery and management experiences during
 his time at Accenture, managed full stack application development, DevOps, and ITOps.
 Ray specialized in middleware, big data, and PaaS products during his time at Red Hat
@@ -74,7 +74,7 @@ he'll speak at [GolangBCN](https://www.meetup.com/Golang-Barcelona/events/237049
 The week after he'll be in Paris and right after he'll be in the Go Devroom at
 [FOSDEM](https://fosdem.org). A bit later he'll also be at [Cloud Next](https://cloudnext.withgoogle.com/schedule#target=google-cloud-endpoints-serving-your-api-to-the-world-8eaeb271-f0ea-4638-af94-16c0b2b80bf6).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 58 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 58 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey Mark, how are you doing?" >}}
 MARK: I'm very sleepy. You got me up very early this morning because you're in Europe. 
 
 FRANCESC: I know. I'm in this beautiful place called Torrelles de Llobregat near Barcelona, working from home. Yeah, it's like 4:20 PM, so it's like 7:00 AM in San Francisco? 
@@ -141,7 +141,7 @@ MARK: I remember that.
 
 FRANCESC: I used to use that a long time ago, yeah. It's cool. What about you, Ray? Why don't you tell us a little bit about what you do. 
 
-RAY: Sure. So I'm a developer advocate. I'm based in New York. And I focus a lot on the Java communities and Java developers, and making sure that the experiences with Google Cloud Platform is the best for the community as well. 
+RAY: Sure. So I'm a developer advocate. I'm based in New York. And I focus a lot on the Java communities and Java developers, and making sure that the experiences with Google Cloud is the best for the community as well. 
 
 FRANCESC: And if I'm not mistaken, it's your second episode with us? 
 
@@ -163,7 +163,7 @@ RAJEEV: Well, Java, it's an important language. It was released in the mid '90s,
 
 I think one of the reasons for that is because it's just a pretty versatile as well. It's one of those languages, some people say like, oh, I wish it was more expressive, or it's too verbose. Some of those things may be true, but it's also shown that you can build like large applications and services with it. You can have really big code bases and they're still maintainable. So it's really important that we support Java developers and such workloads on GCP, especially as more enterprises are moving into the cloud. 
 
-FRANCESC: Cool. So I know that one of the places where we talk about Java all the time on the cloud is App Engine. But what other things are there in Google Cloud Platform that are related to Java? What is the best places to run Java on Google Cloud Platform? 
+FRANCESC: Cool. So I know that one of the places where we talk about Java all the time on the cloud is App Engine. But what other things are there in Google Cloud that are related to Java? What is the best places to run Java on Google Cloud? 
 
 RAJEEV: So I'll take a stab at this, and then Ray can jump in. I think it really depends on what you're doing. So App Engine Standard actually is a good place to run Java if you really care about spiky traffic, very fast scale up and scale down. You want to add reactiveness to that, and you're OK with being a little more constrained in what you do because you want the auto scaling to work for you. So that's a very good environment for Java, actually, because you don't have to think about the scaling. 
 
@@ -317,7 +317,7 @@ FRANCESC: Yeah, that's for sure.
 
 MARK: Yeah. I used to use the JVM a lot, so it's a warm spot in my heart for it. And so it's great to see all the stuff that's going on there. 
 
-FRANCESC: I like to joke about it, but I know it is a very interesting language, because you know, there's basically half of the internet that is built on it. So it's good to have it, and have a good place to run it like Google Cloud Platform. Anyway, I think it's time to go with our question of the week. 
+FRANCESC: I like to joke about it, but I know it is a very interesting language, because you know, there's basically half of the internet that is built on it. So it's good to have it, and have a good place to run it like Google Cloud. Anyway, I think it's time to go with our question of the week. 
 
 MARK: So we had a really interesting question this week, I think, in terms of say you have a whole bunch of data on Amazon S3, for example. And you want to transfer data to Google Cloud storage. Is there an easy way of doing that? 
 
@@ -331,7 +331,7 @@ MARK: So it is interesting. So we do have a GSUtil command line tool for working
 
 Obviously you're going to have network costs from moving from one to the other, so keep that in mind. But you're able to set it up so that you have like basically sources and sinks. So where do you want it to go from? Where do you want it to go to? And then you can set it up to happen periodically or maybe just once off. There's a programmatic interface. You can go to the console UI. And there's a series of rest APIs as well. So you can really kind of pick and choose how you want it to work. But it is a nice and easy way of just transferring that data across if you need to do that between different cloud providers. 
 
-FRANCESC: Cool. That sounds indeed very useful. I don't know how often that kind of things are needed to be done, but if you're thinking about starting to try Google Cloud Platform and you need to pass all your data around, it's probably the best way to do it. 
+FRANCESC: Cool. That sounds indeed very useful. I don't know how often that kind of things are needed to be done, but if you're thinking about starting to try Google Cloud and you need to pass all your data around, it's probably the best way to do it. 
 
 MARK: Yeah. And I think it's kind of cool. It's one of those things that you really need it when you need it, but if you don't need it then you don't. It's one or the other. But if you don't know it exists, then it could be really painful to pull everything down, say, locally like via GSUtil and then push it back up again into the cloud. Whereas you'd much rather run it over the big fat pipes that usually run between all the big data centers. 
 
@@ -367,7 +367,7 @@ FRANCESC: There's a theme going on.
 
 MARK: There's a theme, definitely a theme. And finally, if they want to find us on Slack, where can they find us? 
 
-FRANCESC: That is the hard one. On Slack, there's a podcast channel inside of the Google Cloud Platform community that you can join by going somewhere? 
+FRANCESC: That is the hard one. On Slack, there's a podcast channel inside of the Google Cloud community that you can join by going somewhere? 
 
 MARK: Bit.ly/GCP-Slack. 
 

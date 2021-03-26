@@ -69,7 +69,7 @@ Mark will be at [KubeCon](https://events.linuxfoundation.org/events/kubecon-clou
 
 Melanie will be at [NeurIPS](https://neurips.cc) this week. She'll be attending [Queer in AI](https://queerai.github.io/QueerInAI/QinAIatNeurIPS.html), [Black in AI](https://blackinai.github.io), and [LatinX](http://www.latinxinai.org) this week as well.
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 158 of the weekly Google Cloud Platform Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. Hello, Melanie." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 158 of the weekly Google Cloud Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. Hello, Melanie." >}}
 
 MELANIE: Hello, Mark. 
 
@@ -329,7 +329,7 @@ MELODY: Another point around that is that, more so than any other time, 60-plus 
 
 MELANIE: Yeah. I mean, especially when you're doing anything with machine learning and trying to model, the last thing you want to do is spend most of your time just trying to set up your system. You want to just get to like [INAUDIBLE] if anything, and then also getting the data and cleaning the data. That's where a large part of your time will get sucked into. The more you can actually automate that, the faster you can get to a solution. 
 
-Off that note, I might as well go for this question, since we are the "Google Cloud Platform Podcast." Are there any cloud products that particularly are your favorites? 
+Off that note, I might as well go for this question, since we are the "Google Cloud Podcast." Are there any cloud products that particularly are your favorites? 
 
 MELODY: I don't know. 
 

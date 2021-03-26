@@ -4,11 +4,11 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.111.mp3"
 audioSize = 53744574
 categories = ["Cloud", "Open Source"]
 date = "2018-01-24"
-description = "The delightful Sam Ramji joins Mark and Melanie this week to talk about Google Cloud Platform, Open Source, Distributed Systems and Philosophy and how they are all interrelated."
+description = "The delightful Sam Ramji joins Mark and Melanie this week to talk about Google Cloud, Open Source, Distributed Systems and Philosophy and how they are all interrelated."
 draft = false
 episodeNumber = 111
 hosts = ["Mark Mandel", "Melanie Warrick"]
-title = "Google Cloud Platform with Sam Ramji"
+title = "Google Cloud with Sam Ramji"
 #image="images/post/iotcore.gif"
 linked = true
 googlePlusLink = "https://plus.google.com/+Gcppodcast/posts/dFKL9KXdswh"
@@ -19,14 +19,14 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/7so6c5/episode_111_go
 +++
 
 The delightful [Sam Ramji](https://twitter.com/sramji) joins [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) this week
-to talk about Google Cloud Platform, Open Source, Distributed Systems and Philosophy and how they are all interrelated.
+to talk about Google Cloud, Open Source, Distributed Systems and Philosophy and how they are all interrelated.
 
 <!--more-->
 
 ##### Sam Ramji
 
 A 20+ year veteran of the Silicon Valley and Seattle technology scenes, [Sam Ramji](https://twitter.com/sramji) is 
-VP Product Management for Google Cloud Platform (GCP). He was the founding CEO of [Cloud Foundry](https://www.cloudfoundry.org) Foundation, 
+VP Product Management for Google Cloud (GCP). He was the founding CEO of [Cloud Foundry](https://www.cloudfoundry.org) Foundation, 
 was Chief Strategy Officer for [Apigee](https://apigee.com) (APIC), designed and led [Microsoft's](https://www.microsoft.com) open source strategy, founded the 
 [Outercurve Foundation](https://opensource.com/users/outercurve-foundation), and drove product strategy for 
 [BEA WebLogic](https://docs.oracle.com/cd/E13222_01/wls/docs100/index.html) Integration. Previously he built distributed 
@@ -65,7 +65,7 @@ Melanie is speaking at [AI Congress](https://theaicongress.com/) in London Jan 3
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 111 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 111 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 [LAUGHTER] 
 
@@ -95,7 +95,7 @@ MARK: I'm installing it right now.
 
 MELANIE: I know, it's kind of fun-- some of the examples that are already out there, and showing what people look like. 
 
-MARK: Awesome. Well, it wouldn't be a week of the Google Cloud Platform Podcast if I didn't talk about Kubernetes. Many of you probably noticed late last year 1.9 was announced as available. It hasn't hit GKE yet, but the blog series that they do on a regular basis whenever they do a new release, called the "Five Days of Kubernetes," has started for 1.9. They've done the first-- I want to say four-- 1, 2, 3, 4. 
+MARK: Awesome. Well, it wouldn't be a week of the Google Cloud Podcast if I didn't talk about Kubernetes. Many of you probably noticed late last year 1.9 was announced as available. It hasn't hit GKE yet, but the blog series that they do on a regular basis whenever they do a new release, called the "Five Days of Kubernetes," has started for 1.9. They've done the first-- I want to say four-- 1, 2, 3, 4. 
 
 They talk about Windows support, which has gone beta in Kubernetes, which is really cool. Storage, the CSI framework, which is in alpha, a bunch of stuff around dynamic admission controls, client, Go. So basically the stuff if you want to do custom controllers and your own sort of custom resource definitions, basically extend Kubernetes. 
 
@@ -115,7 +115,7 @@ All right, well, I think it's time to go talk to Sam.
 
 MARK: Let's go do that. 
 
-So today I am both excited and delighted to have Sam Ramji here with us, VP of product management at Google Cloud Platform. So very happy to have you here. How are you doing today, Sam? 
+So today I am both excited and delighted to have Sam Ramji here with us, VP of product management at Google Cloud. So very happy to have you here. How are you doing today, Sam? 
 
 SAM: I'm doing fantastic. Thank you, Mark, and thank you, Melanie. 
 
@@ -395,7 +395,7 @@ SAM: Yeah.
 
 MELANIE: That's nice. 
 
-MARK: So all right. Let's swing it back to Google Cloud. We are the "Google Cloud Platform Podcast"-- 
+MARK: So all right. Let's swing it back to Google Cloud. We are the "Google Cloud Podcast"-- 
 
 MELANIE: We are. We are. 
 
@@ -497,7 +497,7 @@ MARK: So we haven't done this in a while, but it's always great when we get comm
 
 MELANIE: So Mark, how do we get into contact with the podcast? 
 
-MARK: OK, so if you want to reach out to us, obviously the website's at GCPPodcast.com. But if you want to send us an email, it's hello@GCPPodcast. You can add us on Twitter-- GCPPodcast. You'll see that each post has both Reddit and Google+ links. So if you want to find us on Google+, it's +GCPPodcast. On Reddit, it's /r/gcppodcast. You can reach out to us directly on the Hash Podcast channel on the Google Cloud Platform community Slack, which you can find at bit.ly/GCP-slack. 
+MARK: OK, so if you want to reach out to us, obviously the website's at GCPPodcast.com. But if you want to send us an email, it's hello@GCPPodcast. You can add us on Twitter-- GCPPodcast. You'll see that each post has both Reddit and Google+ links. So if you want to find us on Google+, it's +GCPPodcast. On Reddit, it's /r/gcppodcast. You can reach out to us directly on the Hash Podcast channel on the Google Cloud community Slack, which you can find at bit.ly/GCP-slack. 
 
 MELANIE: Wow. Nice. 
 

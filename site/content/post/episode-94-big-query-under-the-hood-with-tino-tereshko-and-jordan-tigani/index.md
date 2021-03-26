@@ -38,7 +38,7 @@ Tino holds a Bachelor's degree in Applied Mathematics and Economics from Univers
 
 ##### Cool things of the week
 
-- This week in Google Cloud Platform [medium](https://medium.com/google-cloud/weekly/home)
+- This week in Google Cloud [medium](https://medium.com/google-cloud/weekly/home)
  - This week in Google Cloud — “Premium and Standard networking tiers, NYT Games on App Engine, Puppet for GCP, and a firewall for App Engine” [blog](https://medium.com/google-cloud/this-week-in-google-cloud-premium-and-standard-networking-tiers-nyt-games-on-app-engine-puppet-dafdad45cb69)
 - Creating a GCP type provider in 6 (well 7) easy steps [blog](https://medium.com/google-cloud/creating-a-gcp-type-provider-in-6-well-7-easy-steps-19e6c59e1ae8)
 - [Aja Hammerly's](https://twitter.com/the_thagomizer) Battleship [blog series](http://www.thagomizer.com/blog/series/battleship.html) 
@@ -73,7 +73,7 @@ In October, he'll be presenting at [Velocity London](https://conferences.oreilly
 Mark is speaking at [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) in September.
 He is also heading to Australia in October for [GDG Devfest Melbourne](http://gdgmelbourne.com/) and [Game Connect Asia Pacific](http://gcap.com.au/) and will be hanging out at [Unite Melbourne](https://unite.unity.com/2017/melbourne) and [PAX Australia](http://aus.paxsite.com/).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 94 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 94 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark, how are you doing?" >}}
 
 MARK: I am very well today. How are you doing? 
 

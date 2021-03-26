@@ -5,7 +5,7 @@ audioSize = 54972500
 categories = ["Big Data", "BigQuery", "Dataflow", "Datalab", "Bigtable", "Cloud SQL"]
 date = "2015-12-16T16:36:15Z"
 title = "Big Data with Felipe Hoffa"
-description = "In the eighth episode of this podcast and last of 2015, your hosts Francesc and Mark interview Felipe Hoffa. Felipe is a developer advocate for Google Cloud Platform and he specializes in Big Data."
+description = "In the eighth episode of this podcast and last of 2015, your hosts Francesc and Mark interview Felipe Hoffa. Felipe is a developer advocate for Google Cloud and he specializes in Big Data."
 draft = false
 episodeNumber = 8
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -22,7 +22,7 @@ In the eighth episode of this podcast and last of 2015, your hosts
 [Mark](http://twitter.com/neurotic) interview
 [Felipe
 Hoffa](https://twitter.com/felipehoffa).
-Felipe is a developer advocate for Google Cloud Platform and he
+Felipe is a developer advocate for Google Cloud and he
 specializes in Big Data.
 <!--more-->
 
@@ -92,15 +92,15 @@ posts, and conferences around the world.
 -   Google Cloud Storage Security and Privacy considerations
     [docs](https://cloud.google.com/storage/docs/gsutil/addlhelp/SecurityandPrivacyConsiderations)
 
-{{< transcript "FRANCESC: Hi, and welcome to the episode number eight of the Google Cloud Platform podcast. I'm Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to the episode number eight of the Google Cloud podcast. I'm Francesc Campoy, and I'm here with my co-host Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good, thanks. How you doing, Francesc?
 FRANCESC: Pretty good, pretty good, back to San Francisco and enjoying the awesome weather.
 MARK: Yeah, I'm back in San Francisco too. It's a little bit warmer than where I've been previously, so pretty happy about that.
 FRANCESC: Yeah, I remember you were in Vancouver, so yeah, I can imagine. So we have a very interesting episode coming today. We're gonna be interviewing one of our dear teammates.
 MARK: Yes, Felipe.
-FRANCESC: Felipe Hoffa. He's a developer advocate for the Google Cloud Platform like both of us, but he specializes in big data.
+FRANCESC: Felipe Hoffa. He's a developer advocate for the Google Cloud like both of us, but he specializes in big data.
 MARK: Yeah, he does some really interesting stuff with big data.
-FRANCESC: Yeah, so we're gonna be talking about big data. What is big data? Why is it cool? What can you do with it? What can't you do, regarding big data on Google Cloud Platform, all of those things.
+FRANCESC: Yeah, so we're gonna be talking about big data. What is big data? Why is it cool? What can you do with it? What can't you do, regarding big data on Google Cloud, all of those things.
 MARK: Big data, so hot right now.
 FRANCESC: Yup. I think it's gonna be really interesting, and we're gonna try to discuss as much as possible, but again, if people have extra questions, we're always interested on those.
 MARK: Definitely. If people want to get in contact with us, let's hit them up right now.
@@ -224,7 +224,7 @@ FRANCESC: We'll fix that.
 FELIPE: But yeah, one of our customers wrote a very nice blog post where they used Pub/Sub to ingest a lot of streaming data and they find a lot of it goes into BigQuery. Now, in the middle they used Dataflow.
 FRANCESC: Oh, interesting.
 FELIPE: Yes, Google Cloud Dataflow.
-FRANCESC: Actually, since we're already discussing about Cloud Dataflow, so BigQuery's one of the products that with--you can do big data processing with Google Cloud Platform. What about Cloud Dataflow? What is the difference, and why could you use one or the other?
+FRANCESC: Actually, since we're already discussing about Cloud Dataflow, so BigQuery's one of the products that with--you can do big data processing with Google Cloud. What about Cloud Dataflow? What is the difference, and why could you use one or the other?
 FELIPE: Yeah, so if you have data and you have questions that you can express with SQL, BigQuery's the place.
 FRANCESC: Okay.
 MARK: Cool.
@@ -265,7 +265,7 @@ FELIPE: Yeah, so there's a Googler, Thomas Steiner, that wrote a paper on this, 
 FRANCESC: Yeah.
 MARK: Yup.
 FELIPE: And I would love to run that algorithm on a stream of data just to get realtime results.
-FRANCESC: Yeah, that'd be really interesting. I can even imagine using that for monitoring of your own application, like, trying to understand, like, the same thing you can do monitoring on Google Cloud Platform of our logs and see, like, "Oh, maybe the traffic is too high. Send me an alarm." Like, you could do something more advanced.
+FRANCESC: Yeah, that'd be really interesting. I can even imagine using that for monitoring of your own application, like, trying to understand, like, the same thing you can do monitoring on Google Cloud of our logs and see, like, "Oh, maybe the traffic is too high. Send me an alarm." Like, you could do something more advanced.
 MARK: Like, business metrics like how much money is being sold--like, being spent and how many products are being sold, so that sort of stuff.
 FELIPE: So you--with Dataflow you have the ability to define some rules over some windows, sessions, time. It makes it very, very easy to start defining that kind of processes.
 MARK: Now I want to play with Dataflow more.
@@ -454,7 +454,7 @@ MARK: Thank you.
 FELIPE: Adios.
 MARK: Thank you very much to Felipe for joining us for this interview today. I found that particularly interesting. I don't do a huge amount of big data stuff, so that was really great, hearing about all the products and all the things that he's been working on.
 FRANCESC: Yeah, that was lots of fun.
-MARK: Lots of fun, but we have a really interesting question of the week yet again. It started with a conversation I had with Andrew Watson. He was talking about sort of environment variables in App Engine, and it sort of expanded from there into sort of, "I've got, like, a password or a credential or a secret key. You know, I need to store that somewhere safe within Google Cloud Platform and be able to share that with a variety of services. What's sort of the ways I can do that or maybe even just what's the best way of doing that?" Now, I know you've got some opinions on this, Francesc.
+MARK: Lots of fun, but we have a really interesting question of the week yet again. It started with a conversation I had with Andrew Watson. He was talking about sort of environment variables in App Engine, and it sort of expanded from there into sort of, "I've got, like, a password or a credential or a secret key. You know, I need to store that somewhere safe within Google Cloud and be able to share that with a variety of services. What's sort of the ways I can do that or maybe even just what's the best way of doing that?" Now, I know you've got some opinions on this, Francesc.
 FRANCESC: I do have some opinions.
 MARK: Yeah.
 FRANCESC: So yeah, so it really depends on what you are actually doing, so I know that, for instance, if you're in App Engine, there is App Engine environment variables.

@@ -86,7 +86,7 @@ Brian will be at [Super Computing](https://sc19.supercomputing.org) in Denver.
 
 Jon will be at [AnimeNYC](http://animenyc.com), [Kubecon](https://events19.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/) in November and Google Kirkland and Montreal in December. 
 
-{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 201 of the weekly Google Cloud Platform podcast. I'm Jon Foust, and I'm here with my teammate, Brian Dorsey. Hey, Brian. How's it going?" >}}
+{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to episode 201 of the weekly Google Cloud podcast. I'm Jon Foust, and I'm here with my teammate, Brian Dorsey. Hey, Brian. How's it going?" >}}
 
 BRIAN: Good. Hello, hello, everyone. Looking forward to a good show. 
 

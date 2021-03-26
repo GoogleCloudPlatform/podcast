@@ -78,7 +78,7 @@ How did Google’s predictions do during March Madness?
 - Melanie is speaking about AI at [Techtonica](https://techtonica.org) today, and April 14th
 will be participating in a panel on Diversity and Inclusion at the [Harker Research Symposium](https://www.harker.org/about/events/research-symposium#bookmark-intro)
 
-{{< transcript "MARK: Hi, and welcome to Episode Number 122 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to Episode Number 122 of the weekly Google Cloud Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm doing OK. How are you doing? 
 
@@ -112,7 +112,7 @@ MARK: Yeah.
 
 MELANIE: Let's start with your favorite. 
 
-MARK: OK, yeah. So this was actually a couple of weeks ago but is really cool. If you hadn't known, there's a new Dragon Ball Z game coming out that's hosted on Google Cloud Platform. I'm going to put a link in the show notes to the video they did at the Game Developer Conference presentation they did at the Google Developer Day, where they talk about how they use Spanner for global consistency as well as the Google network to enable player versus player action around the world. And they show a live demo of someone playing in San Francisco against someone in Japan, which is really, really cool, with really low latency and a really great real-time gameplay. 
+MARK: OK, yeah. So this was actually a couple of weeks ago but is really cool. If you hadn't known, there's a new Dragon Ball Z game coming out that's hosted on Google Cloud. I'm going to put a link in the show notes to the video they did at the Game Developer Conference presentation they did at the Google Developer Day, where they talk about how they use Spanner for global consistency as well as the Google network to enable player versus player action around the world. And they show a live demo of someone playing in San Francisco against someone in Japan, which is really, really cool, with really low latency and a really great real-time gameplay. 
 
 MELANIE: And one of the other cool things that they're using is BigQuery to help do their analysis, which I think is great. But it is, it's pretty impressive in terms of being able to use Spanner as a way to connect all the different players out there. 
 

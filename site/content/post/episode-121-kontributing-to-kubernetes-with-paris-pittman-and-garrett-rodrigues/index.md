@@ -74,7 +74,7 @@ If I need to temporarily increases the power of a [Cloud Shell](https://cloud.go
 - Melanie will be speaking about AI at [Techtonica](https://techtonica.org) on April 11th, and April 14th
 will be participating in a panel on Diversity and Inclusion at the [Harker Research Symposium](https://www.harker.org/about/events/research-symposium#bookmark-intro)
 
-{{< transcript "MARK: Hi, and welcome to Episode Number 120 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to Episode Number 120 of the weekly Google Cloud Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm doing good. How are you doing, Mark? 
 
