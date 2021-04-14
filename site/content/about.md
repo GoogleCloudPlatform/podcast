@@ -18,6 +18,21 @@ subtitle = "Tune in every week to hear from our hosts about Google Cloud Platfor
   <div class="col-12">
 
 {{% profile 
+	"/images/hosts/Stephanie_Wong.jpg" 
+	"Stephanie Wong" 
+	"Developer Advocate, Google Cloud Platform"
+	"Stephanie Wong is a Developer Advocate for Google Cloud. She's a developer storyteller to guide you to the heart of Google Cloud launches. She's a former pageant queen, hip hop dancer, and has an unhealthy obsession with dogs." 
+%}}
+
+[Twitter](https://twitter.com/stephr_wong)
+
+{{% /profile %}}
+
+   </div>
+
+  <div class="col-12">
+
+{{% profile 
 	"/images/hosts/Mark_Mirchandani.jpg" 
 	"Mark Mirchandani" 
 	"Developer Advocate, Google Cloud Platform"
