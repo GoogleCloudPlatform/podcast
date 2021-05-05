@@ -8,16 +8,16 @@ description = "On the show this week, Mark Mirchandani joins Stephanie Wong to t
 draft = false
 episodeNumber = 258
 hosts = ["Mark Mirchandani", "Stephanie Wong"]
-title = "The Power of Serverless with Aparna Sinha and Philip Beever"
-image="/post/episode-258-the-power-of-serverless-with-aparna-sinha-and-philip-beever/images/hero/hero-EP-258.jpg"
+title = "The Power of Serverless with Aparna Sinha and Philip Beevers"
+image="/post/episode-258-the-power-of-serverless-with-aparna-sinha-and-philip-beevers/images/hero/hero-EP-258.jpg"
 linked = true
-redditLink = "https://www.reddit.com/r/gcppodcast/comments/n5m0m4/episode_258_the_power_of_serverless_with_aparna/"
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/n5ms72/episode_258_the_power_of_serverless_with_aparna/"
 [[resources]]
   src = "**Hero*.jpg"
   name = "fimage"
 +++
 
-On the show this week, [Mark Mirchandani](https://twitter.com/markmirch) joins [Stephanie Wong](https://twitter.com/stephr_wong) to talk about serverless computing and the Cloud OnAir Serverless event with our guests. Aparna Sinha and Philip Beever start the show giving us a thorough definition of serverless infrastructures and how this setup can help clients run efficient and cost-effective projects with easy scalability and observability.
+On the show this week, [Mark Mirchandani](https://twitter.com/markmirch) joins [Stephanie Wong](https://twitter.com/stephr_wong) to talk about serverless computing and the Cloud OnAir Serverless event with our guests. Aparna Sinha and Philip Beevers start the show giving us a thorough definition of serverless infrastructures and how this setup can help clients run efficient and cost-effective projects with easy scalability and observability.
 
 Serverless has grown exponentially over the last decade, and Aparna talks about how that trajectory will continue in the future. At its core, the serverless structure allows large enterprise companies to do what they need to do, from analyzing real time information to ensuring dinner is delivered piping hot. Aparna describes the three aspects of next generation serverless, developer centricity, versatility, and built-in best practices, and how Google is using these to empower developers and company employees to create robust projects efficiently and economically. Phil tells us about the experience of using serverless products and the success of the three pillars in Google serverless offerings.
 
@@ -29,7 +29,7 @@ We also hear all about the upcoming Cloud On Air event and what participants can
 
 Aparna Sinha is Director of Product at Google Cloud and the product leader for Serverless Application Development and DevOps. She is passionate about transforming businesses through faster, safer software delivery. Previously, Aparna helped grow Kubernetes into a widely adopted platform across industries. Aparna holds a PhD in Electrical Engineering from Stanford. She is Chair of the Governing Board of the Cloud Native Computing Foundation (CNCF). She lives in Palo Alto with her husband and two kids.
 
-##### Philip Beever
+##### Philip Beevers
 
 Phil has been at Google for seven years. He currently leads the Serverless Engineering teams and previously ran the Site Reliability Engineering team for Google Cloud and Google's internal Technical Infrastructure. Phil holds a BA in Mathematics from Oxford University.
 
