@@ -1,7 +1,7 @@
 +++
 audioDuration = "00:42:00"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.258.mp3"
-audioSize = 50492654
+audioSize = 60392269
 categories = ["Serverless"]
 date = "2021-05-05"
 description = "On the show this week, Mark Mirchandani joins Stephanie Wong to talk about serverless computing and the Cloud OnAir Serverless event with our guests."
