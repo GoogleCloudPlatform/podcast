@@ -40,6 +40,7 @@ Tracy Frey is Google Cloud AI & Industry Solution’s Managing Director of Outbo
 
 ##### Interview
 
+* Vertex AI [site](https://cloud.google.com/vertex-ai?utm_source=blog&utm_medium=partner&utm_campaign=CDR_swo_aiml_vertexai_gcppodcast_052021)
 * Responsible AI [site](https://cloud.google.com/responsible-ai)
 * Staying ahead of the curve – The business case for responsible AI [article](https://www.eiu.com/n/staying-ahead-of-the-curve-the-business-case-for-responsible-ai/)
 * Building responsible AI for everyone [site](https://ai.google/responsibilities/)
