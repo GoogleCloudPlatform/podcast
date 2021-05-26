@@ -49,7 +49,6 @@ Kevin is the Product Manager of Dart & Flutter at Google.
 * Cloud Run [site](https://cloud.google.com/run)
 * Dart Documentation [docs](https://dart.dev/server/google-cloud)
 * Google APIs with Dart [docs](https://dart.dev/guides/google-apis)
-* Dart Bugs [site](https://dartbug.com)
 * App Engine [site](https://cloud.google.com/appengine)
 * Dart Functions Qwiklab [site](https://www.qwiklabs.com/focuses/18213?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=11124335)
 * Flutter Startup Namer Qwiklab [site](https://www.qwiklabs.com/focuses/18214?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=11124335)
