@@ -21,7 +21,7 @@ On the podcast this week, we're diving into what full stack development looks li
 
 Kevin takes us through the evolution of Dart and Flutter and how they have become a way to allow developers an experience-first solution. Developers can focus on the experience they want to create, then decide which platforms to run on. With Dart, Google provides business logic that allows developers to provide the front end and back end experience for users in one programming language. Our guests talk about the types of projects that will benefit most from the use of Dart and how Dart is expanding to offer more features and better usability. Flutter offers a high fidelity, rich framework that supports mobile and can be deployed on any platform. When paired with Dart on Docker Hub, developers can easily build optimized front and back end systems. 
 
-Kevin and Grant tell us about the new Functions Framework for Dart and how it helps developers handle deploying to serverless technologies. We hear more about how Dart, Flutter, and Cloud Run working together can make any project easy to build and easy to deploy and use.
+Tony and Kevin tell us about the new Functions Framework for Dart and how it helps developers handle deploying to serverless technologies. We hear more about how Dart, Flutter, and Cloud Run working together can make any project easy to build and easy to deploy and use.
 
 ##### Tony Pujals
 
