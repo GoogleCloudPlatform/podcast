@@ -17,9 +17,9 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/nqqeqg/episode_262_da
   name = "fimage"
 +++
 
-[Stephanie Wong](https://twitter.com/stephr_wong) and cohost [Gabi Ferrara](https://twitter.com/gabidavila) talk about the exciting launch of Database Migration Service at Google. Our guests this week, [Shachar Guz](https://twitter.com/shacharguz) and [Gabe Weis](https://twitter.com/GabeWeiss_), start the show explaining DMS, focusing on the ease of infrastructure management for cloud users. 
+[Stephanie Wong](https://twitter.com/stephr_wong) and cohost [Gabi Ferrara](https://twitter.com/gabidavila) talk about the exciting launch of Database Migration Service at Google. Our guests this week, [Shachar Guz](https://twitter.com/shacharguz) and [Gabe Weiss](https://twitter.com/GabeWeiss_), start the show explaining DMS, focusing on the ease of infrastructure management for cloud users. 
 
-Migration is made simpler with DMS, and Schachar and Gabe walk us through the process of using this powerful new service. Our guests outline some hurdles to migration and how DMS and the DMS documentation help developers overcome them. Schacher tells us the steps companies should take before and after running DMS to ensure projects run correctly and business logic is preserved as well, and Gabe stresses the importance of testing. 
+Migration is made simpler with DMS, and Shachar and Gabe walk us through the process of using this powerful new service. Our guests outline some hurdles to migration and how DMS and the DMS documentation help developers overcome them. Shacher tells us the steps companies should take before and after running DMS to ensure projects run correctly and business logic is preserved as well, and Gabe stresses the importance of testing. 
 
 Database Migration Service focuses on open source, and we talk about why this is an important benefit. In addition, the thorough explanations embedded in DMS help users navigate easily, serverless technology means projects are fast and efficient, and native applications are leveraged for better transparency. And it's free. 
 
