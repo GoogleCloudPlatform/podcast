@@ -235,7 +235,7 @@ So here we have a statement which says I would like 10,000 copies of Hello World
 
 So a component inside the Borg Master called Scheduler goes and starts looking for places for those 10,000 copies and remembers this fact. So the other thing I need to point out is that you want to write down your intentions, your declarations, in a way that is super resilient. 
 
-So Borg Master uses a [INAUDIBLE], which is a distributed fault-tolerant library implementation. So every copy of the Borg Master has a copy of this state, and there are five copies in any one cell. So if anyone of them goes down, the others can pick up and carry on-- or at least another one can pick up and carry on. 
+So Borg Master uses Paxos, which is a distributed fault-tolerant library implementation. So every copy of the Borg Master has a copy of this state, and there are five copies in any one cell. So if anyone of them goes down, the others can pick up and carry on-- or at least another one can pick up and carry on. 
 
 So you, first of all, write down your intention, I want 10,000 copies, and then the scheduler goes and picks off a few of these at a time and place finds places for them to run-- spare machines in the cell or more likely a fraction of the spare machine somewhere in the cell-- and it writes down its decision. Machine number 17 has a copy, machine number 423 has a copy. Then that also gets written out in a persistent declarative fashion. So if the schedule falls over, you can pick up and carry on where you left off. 
 
@@ -405,9 +405,9 @@ So Docker came out into the outside world and about the same time, our Cloud bus
 
 Once you get to about 10 or 100 of these things, it gets tedious to do this by hand. Hold on. We've done that before. There's a pattern we've seen here. Let's see if we can replicate that pattern in the outside world using off-the-shelf software in the Open Source community and make it available to other people so that we can build an ecosystem and have everybody contribute to this so it's not just a Google project, it's actually an Open Source community that's been created around this stuff. We have lots of contributors-- thousands of them on the last count-- trying to help Kubernetes become better. 
 
-Kubernetes is the odd outcome, right? One way of looking at it is it's a sort of Borg Lite version 2 done to try and take the most important parts of the lessons we've learned, including things like the failure tolerance, so Borg uses pack source for its internal persistent store. Kubernetes uses etcd to get the same effect. 
+Kubernetes is the odd outcome, right? One way of looking at it is it's a sort of Borg Lite version 2 done to try and take the most important parts of the lessons we've learned, including things like the failure tolerance, so Borg uses Paxos for its internal persistent store. Kubernetes uses etcd to get the same effect. 
 
-There's a central place where you can have the master, and you can say I wish this to be true. And the same kind of protocols that we talked about before are applied. There's an agent to every machine called the Kubelet, much the same way there's a Borg [INAUDIBLE] machine in the Borg universe. So all those ideas are very similar. 
+There's a central place where you can have the master, and you can say I wish this to be true. And the same kind of protocols that we talked about before are applied. There's an agent to every machine called the Kubelet, much the same way there's a Borglet agent on every machine in the Borg universe. So all those ideas are very similar. 
 
 And then we added a few new ones based on our experience with Borg. We've been running this thing for a decade or so now, and we've learned there are a few things it does that we wished it didn't. Let's not impose that on the outside world. See if we can-- only new mistakes. 
 
