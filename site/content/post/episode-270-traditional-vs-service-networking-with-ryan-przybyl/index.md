@@ -29,7 +29,7 @@ Ryan Przybyl is a Networking Specialist at Google Chicago, and has held roles in
 
 ##### Cool things of the week
 
-* Private Service Connect is GA [site](https://cloud.google.com/vpc/docs/private-service-connect)
+* Private Service Connect is GA [blog](https://cloud.google.com/blog/products/networking/private-service-connect-is-now-generally-available)
 * Securing the software development lifecycle with Cloud Build and SLSA [blog](https://cloud.google.com/blog/products/devops-sre/google-introduces-slsa-framework)
      * Container Security: Building trust in your software supply chain [site](https://cloudonair.withgoogle.com/events/container-security?utm_source=google&utm_medium=blog&utm_campaign=FY21-Q3-northam-NA1102-onlineevent-er-container_security&utm_content=gc_podcast)
 * Introducing Cloud Build private pools: Secure CI/CD for private networks [blog](https://cloud.google.com/blog/products/devops-sre/cloud-build-private-pools-offers-cicd-for-private-networks)
