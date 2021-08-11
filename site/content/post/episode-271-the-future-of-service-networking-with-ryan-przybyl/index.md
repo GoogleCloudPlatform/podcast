@@ -1,7 +1,7 @@
 +++
 audioDuration = "00:42:53"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.271.mp3"
-audioSize = 50492654
+audioSize = 61675541
 categories = ["Networking", "Data Center", "Cloud Migration", "Enterprise Networking"]
 date = "2021-08-11"
 description = "Guest Ryan Przybyl is back this week to tell hosts Lorin Price and Stephanie Wong more about service networking and what the future holds for the networking field."
