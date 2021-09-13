@@ -2,7 +2,7 @@
 audioDuration = "00:39:06"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.245.mp3"
 audioSize = 56241869
-categories = ["Botcopy", "Dailogflow"]
+categories = ["Botcopy", "Dialogflow"]
 date = "2021-02-03"
 description = "Dustin Dye and Alex Seegers of Botcopy are on the show today, chatting with hosts Mark Mirchandani and Priyanka Vergadia."
 draft = false
@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/lbtf3i/episode_245_bo
   name = "fimage"
 +++
 
-Dustin Dye and Alex Seegers of [Botcopy](https://twitter.com/botcopyinc) are on the show today, chatting with hosts [Mark Mirchandani](https://twitter.com/markmirch) and [Priyanka Vergadia](https://twitter.com/pvergadia). Botcopy uses advanced AI technology along with excellent copy writing to create better chat bots. The software works directly on a company website and doesn't require a login, allowing chats to stay anonymous.
+Dustin Dye and Alex Seegers of [Botcopy](https://www.botcopy.com) are on the show today, chatting with hosts [Mark Mirchandani](https://twitter.com/markmirch) and [Priyanka Vergadia](https://twitter.com/pvergadia). Botcopy uses advanced AI technology along with excellent copy writing to create better chat bots. The software works directly on a company website and doesn't require a login, allowing chats to stay anonymous.
 
  Our guests explain that their chat bots are treated like virtual employees, built and trained to function and speak appropriately for their specific job. Copy writing is an important part of this, as the conversational AI should continue to support the brand being represented and conversations should flow naturally. The bot personalities are developed through written copy and interactions with customers in instances like customer service, lead generation, and even some internal employee management needs.
  
