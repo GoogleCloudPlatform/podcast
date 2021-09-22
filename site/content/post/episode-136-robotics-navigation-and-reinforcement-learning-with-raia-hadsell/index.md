@@ -31,7 +31,7 @@ On this episode of the podcast, [Mark](https://twitter.com/Neurotic) and [Melani
 * AI Adventures How to Make a Data Science Project with Kaggle [site](https://towardsdatascience.com/cooking-up-a-data-science-project-using-kaggle-datasets-and-kernels-fca2b678e268)
 * Predict your future costs with Google Cloud Billing cost forecast [blog](https://cloudplatform.googleblog.com/2018/07/predict-your-future-costs-with-google-cloud-billing-cost-forecast.html) and [site](https://cloud.google.com//billing/docs/how-to/reports#cost-forecast)
 * Kaggle Competition Winning Solutions [site](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions/)
-    - Google Cloud Platform Podcast Episode 84: Kaggle with Wendy Kan [podcast](https://www.gcppodcast.com/post/episode-84-kaggle-with-wendy-kan/)
+    - Google Cloud Podcast Episode 84: Kaggle with Wendy Kan [podcast](https://www.gcppodcast.com/post/episode-84-kaggle-with-wendy-kan/)
 * Introducing Jib — build Java Docker images better [blog](https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html) 
     - Google Container Tools [site](https://github.com/GoogleContainerTools/jib)
 
@@ -64,7 +64,7 @@ We’ll both be at [Cloud NEXT!](https://cloud.withgoogle.com/next18/sf/)
 
 Melanie will speak at [PyCon Russia](http://pycon.ru/2018/en/) July 22nd
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 136 of the weekly Google Cloud Platform podcast. I am Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing?" >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 136 of the weekly Google Cloud podcast. I am Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing?" >}}
 
 MELANIE: Hey, Mark. I'm good. How are you? 
 

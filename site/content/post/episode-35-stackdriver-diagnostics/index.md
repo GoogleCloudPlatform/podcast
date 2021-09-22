@@ -68,7 +68,7 @@ What are all the ways you can set environment variables?
 - Kubernetes Secrets [user guide](http://kubernetes.io/docs/user-guide/secrets/)
 - Storing and Retrieving Instance Metadata [docs](https://cloud.google.com/compute/docs/storing-retrieving-metadata)
 
-{{< transcript "FRANCESC: Hi, and welcome to Episode Number 35 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to Episode Number 35 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How are you doing today? 
 
 FRANCESC: Doing great. Very excited about our interview with Sharat Shroff and Morgan McLean. 
@@ -79,7 +79,7 @@ FRANCESC: Yeah, previous episode, basically we covered how do you know if someth
 
 MARK: Yeah, how do you go about fixing it and working out what's going on there? 
 
-FRANCESC: Yep. At the end we are going to be talking about environment variables and 12-factor applications-- 12-factor authentication, that  would be pretty awesome. That's really scary-- 12-factor applications and how do you do those on Google Cloud Platform. 
+FRANCESC: Yep. At the end we are going to be talking about environment variables and 12-factor applications-- 12-factor authentication, that  would be pretty awesome. That's really scary-- 12-factor applications and how do you do those on Google Cloud. 
 
 MARK: Yeah. 
 
@@ -111,7 +111,7 @@ FRANCESC: Yeah, not as important as a podcast, obviously.
 
 MARK: Yep. 
 
-FRANCESC: Anyway, so looking forward to have Paul in the pocket, very excited about that. And the second cool thing of the week, it is a pretty short video. It is around five minutes. And our dear friend Miles Ward, head of Solutions for Google Cloud Platform, describes what Google Cloud Platform is and how is it part of Google and why Google has a cloud. And it has a very short video. It is only five minutes. 
+FRANCESC: Anyway, so looking forward to have Paul in the pocket, very excited about that. And the second cool thing of the week, it is a pretty short video. It is around five minutes. And our dear friend Miles Ward, head of Solutions for Google Cloud, describes what Google Cloud is and how is it part of Google and why Google has a cloud. And it has a very short video. It is only five minutes. 
 
 But if you're curious about it, I think it's a very interesting one. It covers many things, like machine learning and things like that. So just have a look. The link is on the show notes. 
 
@@ -213,11 +213,11 @@ MORGAN: I think that's [INAUDIBLE]
 
 SHARAT: It's App Engine Standard right now. 
 
-MARK: OK. Cool. All right, so I'll ask the question, I guess, from the different perspective. Say I'm a developer. I'm working on Google Cloud Platform. Is there anything that I can do to put in place these practices before? Like, as I'm building my application, is there tools or agents or anything that I should be doing sort of from the outset? Maybe for some of those things more like GCE or other stuff? 
+MARK: OK. Cool. All right, so I'll ask the question, I guess, from the different perspective. Say I'm a developer. I'm working on Google Cloud. Is there anything that I can do to put in place these practices before? Like, as I'm building my application, is there tools or agents or anything that I should be doing sort of from the outset? Maybe for some of those things more like GCE or other stuff? 
 
 MORGAN: Yeah, so I know this touches on a previous point. If you're using App Engine, of course, you're getting all this functionality for free, basically, right? Like, the beauty of it is that you don't have to think ahead. You don't have to start linking libraries or go to a third-party solution or anything like that. If you're a developer, however, on GCE or GKE, then you should look for some of the libraries that we offer, right? 
 
-So for example, if you just go and spin up a VM on GCE and don't do any additional work, trace won't receive any data from your application. And you'll go to the trace panel on the cloud counsel and you won't see any traces, because we didn't capture any. But if you look at the trace documentation on the Google Cloud Platform website, we have links there to our Java library and a Node.js library for trace. Links for Python and Go should be arriving shortly. And those are libraries that you can integrate with your code. And depending on the library and depending on when you're listening to this, we'll have different levels of support. 
+So for example, if you just go and spin up a VM on GCE and don't do any additional work, trace won't receive any data from your application. And you'll go to the trace panel on the cloud counsel and you won't see any traces, because we didn't capture any. But if you look at the trace documentation on the Google Cloud website, we have links there to our Java library and a Node.js library for trace. Links for Python and Go should be arriving shortly. And those are libraries that you can integrate with your code. And depending on the library and depending on when you're listening to this, we'll have different levels of support. 
 
 But already today, if you're using the Node.js library, for example, you link the library, you get it through NPM in your application, and suddenly you're collecting traces. Some of the other ones, like Java, the initial release, you'll have to sprinkle it throughout your code. And so it's not just linking it. There's a little more work than that. And so that is something you should think about while you're developing. We hope to move beyond that in the future, but that's where we are today. 
 
@@ -323,7 +323,7 @@ FRANCESC: And, by the way, if you don't know what they are, you should just sear
 
 MARK: We'll put it in the show notes. 
 
-FRANCESC: Yeah one of the things that the 12-factor application manifesto says is that you should always deploy basically the same artifact everywhere, so the same compile binary or the same Docker image or whatever you're doing. And the differences between QA and test and production should be done with environment variables. So the question is, how do you do that? How do you do environment variables on Google Cloud Platform? 
+FRANCESC: Yeah one of the things that the 12-factor application manifesto says is that you should always deploy basically the same artifact everywhere, so the same compile binary or the same Docker image or whatever you're doing. And the differences between QA and test and production should be done with environment variables. So the question is, how do you do that? How do you do environment variables on Google Cloud? 
 
 MARK: Yeah. And there's a few different ways that you can do it, depending on which product you're on. 
 
@@ -355,7 +355,7 @@ FRANCESC: So if you're in App Engine, you need to use an API. It is very simple.
 
 MARK: Yep. 
 
-FRANCESC: But even if there was not, it's just basically a get. It's a get requests onto a URL that is only accessible from inside Google Cloud Platform, so only you have access. 
+FRANCESC: But even if there was not, it's just basically a get. It's a get requests onto a URL that is only accessible from inside Google Cloud, so only you have access. 
 
 MARK: I can do exactly the same thing from a Docker container inside GKE as well. 
 

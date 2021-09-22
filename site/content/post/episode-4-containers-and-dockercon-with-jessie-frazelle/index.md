@@ -66,7 +66,7 @@ Links:
     CA](http://devfest.ca/)
 -   [Demo of Physical Kubernetes Cluster](https://www.youtube.com/watch?v=kT1vmK0r184)
 
-{{< transcript "FRANCESC: Hi, and welcome to the fourth episode of the weekly Google Cloud Platform podcast. I'm Francesc Campoy, and I’m here with my co-host, Mark. Hi, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to the fourth episode of the weekly Google Cloud podcast. I'm Francesc Campoy, and I’m here with my co-host, Mark. Hi, Mark. How are you doing?" >}}
 MARK: I'm doing well, Francesc. How are you doing?
 FRANCESC: Pretty good, pretty good, trying to fight the jet lag. What about you? Where are you, Mark?
 MARK: I'm in San Francisco. It's relatively early on a Saturday morning here in my living room. That's a great place to be.
@@ -154,7 +154,7 @@ FRANCESC: Yeah, that'd be really nice 'cause nowadays one of the problems that I
 JESSIE: Yeah, totally. That would be a huge help.
 FRANCESC: That is pretty awesome. The other option, of course, is using Docker Machine, which, yeah, there's actually--we'll put on the links, one of my coworkers, Ray T, wrote an--wrote a blog post about how to use Docker with a conference hotel--with a conference WiFi.
 JESSIE: Oh, my God, that's so good.
-FRANCESC: Yeah, so basically, just start a instance somewhere, like in Google Cloud Platform, and then you connect to that, and it works really, really well. That's what I do all the time now.
+FRANCESC: Yeah, so basically, just start a instance somewhere, like in Google Cloud, and then you connect to that, and it works really, really well. That's what I do all the time now.
 JESSIE: That's perfect.
 FRANCESC: Okay, so you mentioned something that didn't work, the floppy disk. Tell us about something that you think it's cool that you've seen lately.
 JESSIE: Cool, yeah, so actually, the stuff with X Server that I do is all just mounting locally my X11 socket, but you can also actually do this entirely remote on a server, so say you have Wireshark, which is--has, like, a GUI, running on the server. You can have a remote VNC connection and actually show it locally on your local instance, so I think that that's kind of neat, and also, like, the fact that you can--like, the difference between VMs and containers is sharing namespaces, so the fact that you can have a Wireshark container connected to a different container sharing the same network namespace, you can actually look at all the packets from the other container without exposing everything from your host to the Wireshark container itself, so just the fact that Docker allows you to share, like, net namespaces, PID namespaces, it's, like, super helpful in terms of debugging, and the whole, like, remote VNC X11 thing is also helpful in terms of debugging.
@@ -176,7 +176,7 @@ FRANCESC: Nice.
 JESSIE: So it must still work, and it must still be legit.
 FRANCESC: Okay, so I'll check it out, and I'll add that link also to the show notes. That sounds really interesting.
 JESSIE: Nice.
-FRANCESC: So do you think it would be then doable to have something like you have a pretty small computer like a--like a tiny microcomputer, even--a Raspberry Pi, maybe. Like, imagine that you have a Raspberry Pi, and you want to run a quite powerful application that requires CPU. Could you be doing something where, like, you just car--you just have your X11 server running on the Raspberry Pi and then the rest of computation is actually sent to some container running somewhere else, and, like, you can have--like, in Google Cloud Platform you can have, like, 32 cores if you want to, so you could be running, like, a very, very powerful application, and it could look like it's running on the Raspberry Pi?
+FRANCESC: So do you think it would be then doable to have something like you have a pretty small computer like a--like a tiny microcomputer, even--a Raspberry Pi, maybe. Like, imagine that you have a Raspberry Pi, and you want to run a quite powerful application that requires CPU. Could you be doing something where, like, you just car--you just have your X11 server running on the Raspberry Pi and then the rest of computation is actually sent to some container running somewhere else, and, like, you can have--like, in Google Cloud you can have, like, 32 cores if you want to, so you could be running, like, a very, very powerful application, and it could look like it's running on the Raspberry Pi?
 JESSIE: Yeah, totally. I mean, you could use VNC and do that, and yeah, that would actually be a really cool idea, especially in terms of the whole conference WiFi thing.
 FRANCESC: Yeah.
 JESSIE: You just have the most minimal stuff locally, and then everything else is just hitting a remote instance.

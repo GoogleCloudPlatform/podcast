@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/4m1qp5/episode_28_vir
 Virtual Machines, that old technology that powers the cloud!
 Today [Scott Van Woudenberg](https://twitter.com/scottjvw) tells your cohosts
 [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/neurotic) about
-virtual machines and you can use them with Google Cloud Platform.
+virtual machines and you can use them with Google Cloud.
 
 <!--more-->
 
@@ -49,7 +49,7 @@ has seen exponential growth every year since going public.
 - Resize a Persistent Disk [docs](https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd)
 - Autoresizing Persistent Disks in Compute Engine [blog](http://terrenceryan.com/blog/index.php/autoresizing-persistent-disks-in-compute-engine/)
 - Google Compute Engine uses Live Migration technology to service infrastructure without application downtime [post](https://cloudplatform.googleblog.com/2015/03/Google-Compute-Engine-uses-Live-Migration-technology-to-service-infrastructure-without-application-downtime.html)
-- Google Cloud Platform Locations [map](https://cloud.google.com/about/locations/)
+- Google Cloud Locations [map](https://cloud.google.com/about/locations/)
 
 ##### Question of the week
 
@@ -62,7 +62,7 @@ has seen exponential growth every year since going public.
 - Mark will then be at [Change the Game SF](https://cloudplatformonline.com/ChangeTheGameSummit-SF_Registration.html) on Friday!
 - Francesc will be riding the [AIDS/Lifecycle](http://www.aidslifecycle.org/) and if you want you can [donate](http://campoy.cat/alc).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 28 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 28 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How are you doing today?
 FRANCESC: Very good. Very good. Very interested with the main content of the week.
 MARK: Yeah, we're moving away from some of the shiny things, sort of, stepping away from containers, stepping away from App Engine, going, like, let's just talk about VMs. 
@@ -90,7 +90,7 @@ FRANCESC: Cool, so what do you think? Should we go talk to Scott?
 MARK: That sounds like a great idea. Let's talk about virtual machines. We are joined today by Scott Van Woudenberg, PM on Compute Engine. Scott, how are you doing today?
 SCOTT: Good. Doing well. Thanks, guys. Thanks for having me on. 
 MARK: Absolutely. Before we get stuck into what you do at Google and, like, the products you work on. Why don't you tell us a little bit about yourself and your role and all that sort of fun stuff?
-SCOTT: Sure. So I'm a product manager on Google Compute Engine, which is our infrastructure as a service offering, which is part of our broader Google Cloud Platform. Before Google, I was about--spent about 16 years as a software engineer and engineering lead and manager, kind of, moving up the chain on the engineering side of the house before I decided to switch to product management. So I came to Google in 2012 to be a PM on Compute Engine, and I've been doing it ever since. And right around the time I joined, like, basically weeks after, like, a few weeks after I joined, GCP was the--announced publicly for the first time. We kind of announced our--we called it limited preview at the time, but it's basically our alpha launch at that year's Google I/O. So it's been a very exciting ride to ride the exponential growth curve that we've seen since we started and especially since we GA'd back in 2013. 
+SCOTT: Sure. So I'm a product manager on Google Compute Engine, which is our infrastructure as a service offering, which is part of our broader Google Cloud. Before Google, I was about--spent about 16 years as a software engineer and engineering lead and manager, kind of, moving up the chain on the engineering side of the house before I decided to switch to product management. So I came to Google in 2012 to be a PM on Compute Engine, and I've been doing it ever since. And right around the time I joined, like, basically weeks after, like, a few weeks after I joined, GCP was the--announced publicly for the first time. We kind of announced our--we called it limited preview at the time, but it's basically our alpha launch at that year's Google I/O. So it's been a very exciting ride to ride the exponential growth curve that we've seen since we started and especially since we GA'd back in 2013. 
 MARK: Excellent. All right, wonderful. Well, thanks so much for joining us. Let's, sort of, start at the most basic level that we can. What is a virtual machine? Like, I'm sure a lot of our listeners probably have a bit of an idea, but, like, I think let's, sort of, go--let's go as simple as possible. What is it?
 SCOTT: Yeah, so this is actually--this is kind of a tough answer--tough question to answer tersely, I guess, or succinctly. I spent a little time, kind of, researching and took a look at what Wikipedia had to say about it, and, kind of, the most basic definition I could find was essentially, "A virtual machine is a software implementation of a physical computer or server." So--and then, obviously, on Wikipedia there was--it was followed by a few pages of, like, fairly low-level technical detail on virtualization, on hypervisors, on paravirtualized devices, on--the list goes on and on. And then, you know, along with about, you know, two dozen reference links down at the bottom where you could read about more detail. So I kind of stepped back and thought about it and I think, you know, for the purposes of this discussion and just, kind of, for Cloud customers that are looking at GCE or comparing it against EC2 or just trying to understand. Maybe you come from an App Engine background, or you're a front-end developer, or, you know, for, you know, depending on where you coming from, it's best just to, kind of, think of a VM as a trusted, ubiquitous computing environment that lets you decouple the actual code that runs from the hardware that it runs on. So think of it as an abstraction layer that is both secure and ubiquitous, which is--which are kind of the two things that have made virtual machines, you know, as popular as they are. 
 FRANCESC: So like containers?

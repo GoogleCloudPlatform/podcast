@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.16.mp3"
 audioSize = 53541850
 categories = ["Kubernetes"]
 date = "2016-03-09T01:07:49Z"
-description = "In the sixteenth episode of this podcast, your hosts Francesc and Mark interview Kelsey Hightower. Kelsey is a developer advocate for Google Cloud Platform and will tell us what is coming up with the next Kubernetes version."
+description = "In the sixteenth episode of this podcast, your hosts Francesc and Mark interview Kelsey Hightower. Kelsey is a developer advocate for Google Cloud and will tell us what is coming up with the next Kubernetes version."
 draft = false
 episodeNumber = 16
 hosts = ["Francesc Campoy Flores", "Mark Mandel"]
@@ -21,7 +21,7 @@ In the sixteenth episode of this podcast, your hosts
 [Francesc](http://twitter.com/francesc) and
 [Mark](http://twitter.com/neurotic) interview
 [Kelsey Hightower](https://twitter.com/kelseyhightower).
-Kelsey is a developer advocate for Google Cloud Platform and will tell us
+Kelsey is a developer advocate for Google Cloud and will tell us
 what is coming up with the next Kubernetes version.
 <!--more-->
 
@@ -36,7 +36,7 @@ Administration, and his favorite Linux distro of the month (CoreOS).
 
 ##### Cool thing of the week
 
-Google Cloud Platform Community Slack Team
+Google Cloud Community Slack Team
 
 - Join using http://bit.ly/gcp-slack
 
@@ -56,9 +56,9 @@ Resources:
 
 - Google App Engine Documents and Indexes [docs](https://cloud.google.com/appengine/docs/python/search/)
 - Google App Engine Managed VMs [docs](https://cloud.google.com/appengine/docs/managed-vms/)
-- Google Cloud Platform Podcast: Compute as a Continuum [post](https://www.gcppodcast.com/post/episode-2-compute-as-a-continuum/)
+- Google Cloud Podcast: Compute as a Continuum [post](https://www.gcppodcast.com/post/episode-2-compute-as-a-continuum/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 16 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague, Mark. Hey, Mark Mandel." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 16 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague, Mark. Hey, Mark Mandel." >}}
 MARK: Hey.
 FRANCESC: Mark Mandel.
 MARK: Yes, yes, that's my name. Hi.
@@ -70,7 +70,7 @@ FRANCESC: Yeah, but actually, very excited about the episode today. We're gonna 
 MARK: And a little bit of Kubernetes.
 FRANCESC: Yup, and we actually have one of the Kubernetes people that everybody associates with Kubernetes, really, Kelsey Hightower.
 MARK: Yes, very exciting.
-FRANCESC: Yeah, he's actually one of our teammates in the developer advocacy group for Google Cloud Platform.
+FRANCESC: Yeah, he's actually one of our teammates in the developer advocacy group for Google Cloud.
 MARK: Yup.
 FRANCESC: And he's gonna be talking about Kubernetes and especially about Kubernetes 1.2, the next version, so we're gonna be discussing what is it, what is coming, yeah.
 MARK: And it has some super cool features that I get really excited about.
@@ -82,16 +82,16 @@ FRANCESC: Actually, not only Kubernetes, but maybe you can explain a little bit?
 MARK: Yeah, so we had a person who sent us a message on Reddit talking about having an app on App Engine and possibly migrating it to Kubernetes and Google Container Engine and sort of some pros and cons there, so we'll have a little discussion about that.
 FRANCESC: Cool, so we'll discuss that at the end, but before that we have the cool thing of the week.
 MARK: Yes, we do.
-FRANCESC: And the cool thing of the week is something that you're going to be explaining 'cause you're very involved with this project, but apparently we have a Slack channel. We have Slack community, actually, for Google Cloud Platform.
+FRANCESC: And the cool thing of the week is something that you're going to be explaining 'cause you're very involved with this project, but apparently we have a Slack channel. We have Slack community, actually, for Google Cloud.
 MARK: Yes, we do. So--
 FRANCESC: Tell us a little bit about it.
 MARK: Excellent. So yeah, I was quite involved in getting this set up with a few other of our teammates, Sandeep and Ray and Julia. So if you're not familiar with Slack, Slack is a very popular chat for work application. It has all the usual chat features of channels and rooms and direct messaging and stuff, but it's become very, very popular. What we also noticed was that a lot of open source projects and language communities were already setting up sort of Slack teams for people to participate in. I know you're on the Gophers one.
 FRANCESC: Yup.
 MARK: I myself is also there.
-FRANCESC: I'm in two Slack communities, Gophers and Google Cloud Platform.
+FRANCESC: I'm in two Slack communities, Gophers and Google Cloud.
 MARK: I'm in eight.
 FRANCESC: Oh, wow.
-MARK: But yeah, we wanted a place for sort of--a chat place for people who use Google Cloud Platform to use it, and everyone was on Slack. It's a low barrier to entry. It's a really nice platform, looks very pretty too, so we created a Google Cloud Platform Slack community, so yeah, if you're interested in joining, it's bit.ly/gcp-slack. Link will be in the show notes.
+MARK: But yeah, we wanted a place for sort of--a chat place for people who use Google Cloud to use it, and everyone was on Slack. It's a low barrier to entry. It's a really nice platform, looks very pretty too, so we created a Google Cloud Slack community, so yeah, if you're interested in joining, it's bit.ly/gcp-slack. Link will be in the show notes.
 FRANCESC: Exactly.
 MARK: Please definitely come on down. We've got, obviously--like, we've got a general chat room, and we've got, you know, product-specific chat rooms. It's a mix of people, all right? So it's a community platform. It's public. Who knows? We have some Googlers, but we have a lot of, like, Google developer experts in there as well and just general users, and it really is just, like, a place for community to get together to help each other and really sort of get to know each other as well.
 FRANCESC: Yeah, I've been part of the community for quite a while now, and I really like it 'cause it's one of the most welcoming communities I've seen in a very long time. Like, people really ask, like, beginner questions like, "Hey, I want to understand how the Datastore works," and people are really nice. Like, they point you to documentation. They will ask--they will answer any questions you have, so it's really, really cool.
@@ -106,7 +106,7 @@ KELSEY: I'm doing fantastic. Any day's a good day if I get to talk about Kuberne
 MARK: Excellent, excellent. Before we get stuck into Kubernetes, though, let's have a little bit of a conversation about you. I'm sure there are very few people who know who you are--who don't know who you are, I should say. That was--that was a terrible faux pas.
 FRANCESC: [inaudible].
 MARK: I'm sure there are very few people who don't know who you are, but do you want to give us a little background on you and who you are and what you do here at Google?
-KELSEY: Yes, I'm Kelsey Hightower, as you guys mentioned, and I'm a very pragmatic technologist. I like things that work, less about the buzz and more about the practicality of doing things, so my background is mainly as a sysadmin. Maybe the last six years I kind of made the transition to being a developer. I've managed development teams, managed ops teams, and part of my career has grown into doing a lot of public speaking and advocating for things that work, which has me now here at Google pretty much doing the best of what I do around Google Cloud Platform and related technologies such as Kubernetes.
+KELSEY: Yes, I'm Kelsey Hightower, as you guys mentioned, and I'm a very pragmatic technologist. I like things that work, less about the buzz and more about the practicality of doing things, so my background is mainly as a sysadmin. Maybe the last six years I kind of made the transition to being a developer. I've managed development teams, managed ops teams, and part of my career has grown into doing a lot of public speaking and advocating for things that work, which has me now here at Google pretty much doing the best of what I do around Google Cloud and related technologies such as Kubernetes.
 FRANCESC: Great, yeah, I remember the first time I saw you. That was--I think it was two years ago at GopherCon.
 KELSEY: Ah, yes, that was the most epic talk of my life. You know, you're s--you're trying to do a Go talk in front of the Go team, and they're looking at all your slides for syntax errors. That is--that's not the funnest thing in the world.
 FRANCESC: Yeah, that was an amazing talk though, really, really fun times.
@@ -184,7 +184,7 @@ MARK: Yeah, this is about finding the right tool for the right job, finding, you
 FRANCESC: Yup. So yeah, and if we didn't answer your question correctly because you wanted to know something specifically, feel free to send another message. We love your messages.
 MARK: We love receiving messages, and thank you to everyone who listens, and thank you, everyone who participates. We really do appreciate it.
 FRANCESC: Yup. Okay, so I think that it's time to go again, so where you are be--where are you going to be next week, Mark?
-MARK: Next week, oh, my God, I just started freaking out. So next week I will be at GDC. I'll be at the Game Developers Conference. Super excited about that. If you're gonna be there, we'll be doing a developer day on day one. I'll be hosting a roundtable or two there talking about how you can use Cloud--sort of in a discussion, how you can use Cloud to basically do interesting things with your game, how can it really change the game you're building? And also we'll be down at the Google booth, the Google Cloud Platform section of the Google booth. I'll be there probably most of the time, so please definitely drop by. Would love to talk to you about game development in the cloud.
+MARK: Next week, oh, my God, I just started freaking out. So next week I will be at GDC. I'll be at the Game Developers Conference. Super excited about that. If you're gonna be there, we'll be doing a developer day on day one. I'll be hosting a roundtable or two there talking about how you can use Cloud--sort of in a discussion, how you can use Cloud to basically do interesting things with your game, how can it really change the game you're building? And also we'll be down at the Google booth, the Google Cloud section of the Google booth. I'll be there probably most of the time, so please definitely drop by. Would love to talk to you about game development in the cloud.
 FRANCESC: Nice.
 MARK: And yourself?
 FRANCESC: Well, yeah, if you're freaking out, I don't know how to describe how I feeling right now, but I will be in Austin at the beginning of the week until the end of South by Southwest. We're gonna be running a bunch of parties and events and lots of fun and lots of work also in the Fiber space, so if you're around Austin, come say hi. Very happy to share our demos. Actually, we're gonna have a couple really cool demos. Cloud Spin's gonna be there.
@@ -197,7 +197,7 @@ FRANCESC: And after that I will probably at GDC helping you.
 MARK: Yup.
 FRANCESC: But also I'll be at DroidCon, which is at the same time, also trying to help other people.
 MARK: Oh, my God.
-FRANCESC: And then on Saturday 19th we're actually running a training session on Google Cloud Platform, so it's CP 100, and it's gonna be down in Mountain View for the Silicon Valley iOS meetup.
+FRANCESC: And then on Saturday 19th we're actually running a training session on Google Cloud, so it's CP 100, and it's gonna be down in Mountain View for the Silicon Valley iOS meetup.
 MARK: Okay, you win.
 FRANCESC: Yeah.
 MARK: You win.

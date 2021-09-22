@@ -70,7 +70,7 @@ He will be running a workshop at [QCon New York](https://qconnewyork.com/) on Go
 
 Mark is still on vacation - but don't worry, he'll be back soon!
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 81 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 81 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel." >}}
 Hey, Mark. How you doing? 
 
 MARK: I'm doing very well. How are you doing, Francesc? 
@@ -91,7 +91,7 @@ FRANCESC: No matter if you want it or not. But before all of this content, we ha
 
 What is this? I actually do not know what moviegolf.com is. 
 
-MARK: I hadn't heard of this either. I came across this post. It's on Medium. It is actually a really cool article by this gentleman, Ross Light, who has this site, moviegolf.com, that it's a trivia game that I think his dad wrote, like eight years ago. And he decided that he was going to take, basically, what he had previously and rebuild it and sort of re-architect it for Google Cloud Platform, and how to do it. 
+MARK: I hadn't heard of this either. I came across this post. It's on Medium. It is actually a really cool article by this gentleman, Ross Light, who has this site, moviegolf.com, that it's a trivia game that I think his dad wrote, like eight years ago. And he decided that he was going to take, basically, what he had previously and rebuild it and sort of re-architect it for Google Cloud, and how to do it. 
 
 And it's kind of a really nice step through of all the decisions he made, the trade-offs he made. Eventually, ended up just running it on a GCE instance with a couple of Docker images running Go, which I thought was really cool. 
 
@@ -135,7 +135,7 @@ FRANCES: So I'm a Tech Lead on the Cloud Dataflow project, where I focus particu
 
 MARK: Cool. All right. So at a high level, what is Dataflow? What is this thing? And what does it get used for? 
 
-FRANCES: Yeah. So Cloud Dataflow is a fully-managed service that's fully integrated with Google Cloud Platform for executing batch and streaming data processing pipelines. So you can think of it sort of as a successor to systems like MapReduce. But it also brings in a lot of the more recent streaming technologies. So it can do both, sort of your traditional batch ETL-style things as well as real-time applications. 
+FRANCES: Yeah. So Cloud Dataflow is a fully-managed service that's fully integrated with Google Cloud for executing batch and streaming data processing pipelines. So you can think of it sort of as a successor to systems like MapReduce. But it also brings in a lot of the more recent streaming technologies. So it can do both, sort of your traditional batch ETL-style things as well as real-time applications. 
 
 FRANCESC: Cool. So when I think about MapReduce, I think basically it's like big data. You run a big job, and then you're done. You run it during the night. And hopefully, the morning after you have the results. But you're saying that Dataflow also allows you to do streaming. What kind of use case have you seen? Why would I use Dataflow? 
 

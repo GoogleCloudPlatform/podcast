@@ -49,7 +49,7 @@ Learn more about it on the [blog post](https://medium.com/descartestech/geovisua
   <img src="/images/post/next17booth.jpg" style="margin: auto;">
 </div>
 
-{{< transcript "FRANCESC: Hello, and welcome to episode number 64 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark. How are you doing." >}}
+{{< transcript "FRANCESC: Hello, and welcome to episode number 64 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey Mark. How are you doing." >}}
 
 MARK: I'm good, Francesc. How are you doing today? 
 
@@ -69,7 +69,7 @@ FRANCESC: For the rest of our lives.
 
 MARK: No, not for the rest of our lives. Oh, my god, no. We're going to be doing daily interviews on the floor with people at Next-- speakers, people we find, interesting people. I'm sure you'll all love it-- so that you can actually hear about Next if you're unable to attend. Or if you're at Next, and you want some possible real-time information about sessions coming up, you can also listen in as well. 
 
-FRANCESC: And if you are at Next, we are on the ground floor. We have a Google Cloud Platform Podcast booth. 
+FRANCESC: And if you are at Next, we are on the ground floor. We have a Google Cloud Podcast booth. 
 
 MARK: Yep. 
 
@@ -257,7 +257,7 @@ FRANCESC: I don't know. I'm going to buy her a beer later.
 
 MARK: What are you excited about Francesc's session for? 
 
-VERONICA L.: I am excited about learning how to use the Google tools. I know that that sounds very general, as if you paid me. But it's genuine, because I've had the chance to work with Google Cloud Platform in so many ways-- for the continuous integration stuff, for the storage stuff, and many, many things. And TensorFlow, I was trying to play with it. 
+VERONICA L.: I am excited about learning how to use the Google tools. I know that that sounds very general, as if you paid me. But it's genuine, because I've had the chance to work with Google Cloud in so many ways-- for the continuous integration stuff, for the storage stuff, and many, many things. And TensorFlow, I was trying to play with it. 
 
 But a lot of times, you have so many things to do with it that you-- well, at least in my case-- I didn't know how to proceed. I didn't know what to do. And most important of all, how to really take advantage of just tools, so I am really looking forward to getting to know from the experts how to really take advantage of all of this resources. 
 

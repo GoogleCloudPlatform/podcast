@@ -64,7 +64,7 @@ Jon will also be at [Kubecon](https://events.linuxfoundation.org/events/kubecon-
 
 * "Fantasy Orchestra" by BigManJoe of [Freesound.org](https://Freesound.org)
 
-{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to Episode 196 of the weekly Google Cloud Platform Podcast. I am Jon, and I'm here with my colleague, Mark. Hey, Mark. How's it going?" >}}
+{{< transcript "[MUSIC PLAYING] JON: Hi, and welcome to Episode 196 of the weekly Google Cloud Podcast. I am Jon, and I'm here with my colleague, Mark. Hey, Mark. How's it going?" >}}
 
 MARK: I'm all right. How are you doing, Jon? 
 
@@ -534,7 +534,7 @@ MARK: Oh, exciting.
 
 JON: All of my friends decided to get married together, so that means more flying. 
 
-MARK: That works. That works. But yeah, we'll make sure we have some Google Cloud Platform podcast stickers, especially. I need to bug one of our friends, April, and make sure that we have some Agones and Open Match stickers to hand out, as well. 
+MARK: That works. That works. But yeah, we'll make sure we have some Google Cloud podcast stickers, especially. I need to bug one of our friends, April, and make sure that we have some Agones and Open Match stickers to hand out, as well. 
 
 JON: I definitely need the new Open Match one. 
 

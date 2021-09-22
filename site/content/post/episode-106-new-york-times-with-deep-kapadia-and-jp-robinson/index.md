@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.106.mp3"
 audioSize = 45300763
 categories = ["App Engine", "Kubernetes", "BigQuery", "Cloud Endpoints", "Customer"]
 date = "2017-12-06"
-description = "Deep Kapadia and JP Robinson from New York Times join Mark and Francesc to discuss how they use Google Cloud Platform to serve the New York Times to its readers."
+description = "Deep Kapadia and JP Robinson from New York Times join Mark and Francesc to discuss how they use Google Cloud to serve the New York Times to its readers."
 draft = false
 episodeNumber = 106
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/7hzin8/episode_106_ne
 +++
 
 [Deep Kapadia](https://twitter.com/durple) and [JP Robinson](https://twitter.com/jprbnsn) from [New York Times](https://www.nytimes.com)
-join [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) to discuss how they use Google Cloud Platform
+join [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc) to discuss how they use Google Cloud
 to serve the New York Times to its readers.
 
 <!--more-->
@@ -75,7 +75,7 @@ Mark will be Montreal in December to speak at [Montreal International Games Summ
   
 Melanie will be at [NIPS (Neural Information Processing Systems)](https://nips.cc/) in Long Beach and will also be attending [Black in AI](https://blackinai.github.io) on December 8th.
 
-{{< transcript "MARK: Hi, and welcome to episode number 106 of the Weekly Google Cloud Platform Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. How are you doing, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 106 of the Weekly Google Cloud Podcast. I am Mark Mandel. And I'm here with my colleague, Melanie Warrick. How are you doing, Melanie?" >}}
 
 MELANIE: Hi Mark, I'm doing good. How are you doing? 
 
@@ -145,7 +145,7 @@ DEEP: Excellent, thank you so much.
 
 MARK: Excellent. Yeah, thanks again for agreeing to join us on the podcast today to talk about everything you do with GCP at the "New York Times." before we get stuck into that-- and I'm super excited to do that-- why don't you tell us a little about who you are and what you do. Deep, why don't you go first? 
 
-DEEP: Yeah, so I'm the director of engineering. I run our infrastructure, and operations teams, and also our test automation team, which is something I picked up along the way at some point. And my teams are mostly responsible for pretty much managing all of our cloud infrastructure tooling, which includes the Google Cloud Platform. 
+DEEP: Yeah, so I'm the director of engineering. I run our infrastructure, and operations teams, and also our test automation team, which is something I picked up along the way at some point. And my teams are mostly responsible for pretty much managing all of our cloud infrastructure tooling, which includes the Google Cloud. 
 
 FRANCESC: Cool. What about you, JP? 
 
@@ -239,7 +239,7 @@ DEEP: To give you more context, thought, our website is going to be hosted on GK
 
 MARK: Woo! 
 
-FRANCESC: Nice. OK, so you've mentioned that you have systems running on Google Cloud Platform. You have systems running on Amazon. And you also have systems running on [? premise. ?] Now, the question is, how do you even monitor all of these things together? 
+FRANCESC: Nice. OK, so you've mentioned that you have systems running on Google Cloud. You have systems running on Amazon. And you also have systems running on [? premise. ?] Now, the question is, how do you even monitor all of these things together? 
 
 DEEP: So that's a hard one. Because a lot of these systems are at very different states of maturity. So we do have an infrastructure and a systems team that was already managing our data center, that was actually building things for our data center and managing things in our data center. So they continue to exist at this point, and will continue to exist for the foreseeable future. Because there is a lot of craft already out there in our data centers. 
 

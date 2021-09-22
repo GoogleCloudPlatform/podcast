@@ -70,7 +70,7 @@ Mark Mandel is going to [Tokyo Next](https://cloud.withgoogle.com/next/tokyo/), 
 
 * "crowd laugh.wav" by tom_woysky of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK 1: Hi, and welcome to episode 185 of the weekly Google Cloud Platform podcast. I'm Mark, and I'm here with my colleague Mark. Hey, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MARK 1: Hi, and welcome to episode 185 of the weekly Google Cloud podcast. I'm Mark, and I'm here with my colleague Mark. Hey, Mark." >}} 
 
 MARK 2: Hey, Mark. 
 
@@ -126,7 +126,7 @@ MARK 2: Yeah, I think it does.
 
 MARK 1: Well, very much in that vein, a little bit more about machine learning is this really cool integration between BigQuery and Kaggle. So if you don't know about Kaggle, it's this awesome community where there's a lot of data scientists and other people in that field working on creating and sharing a bunch of machine learning, either tips and resources and labs and notebooks and all kinds of things. So it's this awesome community. And they also have a product called Kernels, so Kaggle Kernels, which is hosted Jupyter notebook environment. 
 
-Well, if you have a notebook out there and you want to use Kernels, you can very, very easily go into the actual notebook, and now you can just call BigQuery right from that environment. So you can make a query. You can write a query against your BigQuery data set, get the results back, and then keep going in your notebook analysis. If you want to hear a little bit more about what Kaggle is, go check out episode 84 of the Google Cloud Platform Podcast when we talked a little bit more about why Kaggle is so cool and all the different kinds of people and resources that are there. 
+Well, if you have a notebook out there and you want to use Kernels, you can very, very easily go into the actual notebook, and now you can just call BigQuery right from that environment. So you can make a query. You can write a query against your BigQuery data set, get the results back, and then keep going in your notebook analysis. If you want to hear a little bit more about what Kaggle is, go check out episode 84 of the Google Cloud Podcast when we talked a little bit more about why Kaggle is so cool and all the different kinds of people and resources that are there. 
 
 MARK 2: Yeah, that's a great episode. Kaggle is an amazing community of people working on very interesting machine learning AI problems. So if you want to get involved with that community, I highly recommend it. 
 
@@ -230,7 +230,7 @@ And I believe that was one of the big points why the whole program was such a su
 
 Let's say they want to slowly move some workloads to the Cloud-- sure. It's totally use case. It's fair. And we help them to do that. If some people wants to go all in, we have applications like that. Cloud is also available for that. 
 
-So definitely, on top of having that managed services from Google Cloud Platform, we built a lot of stuff around it to make it usable for the bank and to make it compatible with existing security processes, with existing operational readiness processes, and that's what made quite a success. 
+So definitely, on top of having that managed services from Google Cloud, we built a lot of stuff around it to make it usable for the bank and to make it compatible with existing security processes, with existing operational readiness processes, and that's what made quite a success. 
 
 MICHELLE: So it sounds like you had the flexibility that you needed to choose managed services where it made sense, but not in a way that forced people to use them. So you focused on building a self-service platform that empowered people without strong-arming them or having to introduce blanket policies for this entire giant organization to follow. 
 
@@ -394,7 +394,7 @@ MARK 2: Almost. And yourself?
 
 MARK 1: Yeah, and my specialty, creating a lot of fun little content, moving around a little bit to work with some customers. One of the series that we're working on right now is called This Week in Cloud. So every Monday, we ship out a little two-minute video that talks about some of the latest news posts. 
 
-And I think it's a cool way to maybe start your week off and see some announcements that you might think are really cool. So definitely check that out on the Google Cloud Platform channel. I'm going to be working a little bit with that and many other series that I'm looking forward to talking about once they get launched over the next couple of weeks. 
+And I think it's a cool way to maybe start your week off and see some announcements that you might think are really cool. So definitely check that out on the Google Cloud channel. I'm going to be working a little bit with that and many other series that I'm looking forward to talking about once they get launched over the next couple of weeks. 
 
 MARK 2: Fantastic. I will definitely check out This Week in Cloud. 
 

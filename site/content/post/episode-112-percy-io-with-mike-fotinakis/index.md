@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.112.mp3"
 audioSize = 50399848
 categories = ["Continuous Integration", "Visual Testing"]
 date = "2018-01-31"
-description = "Mike Fotinakis joins Mark and Melanie to discuss how they use Google Cloud Platform to develop Percy, the platform for continuous visual reviews for web apps."
+description = "Mike Fotinakis joins Mark and Melanie to discuss how they use Google Cloud to develop Percy, the platform for continuous visual reviews for web apps."
 draft = false
 episodeNumber = 112
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -19,7 +19,7 @@ redditLink = "https://plus.google.com/+Gcppodcast/posts/MGFMtFWJUt8"
 +++
 
 We return once again to Continuous Integration tooling, this time with a visual spin. [Mike Fotinakis](https://twitter.com/mikefotinakis) joins
-[Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to discuss how they use Google Cloud Platform
+[Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl) to discuss how they use Google Cloud
 to develop [Percy](https://percy.io), the platform for continuous visual reviews for web apps.
 
 <!--more-->
@@ -39,7 +39,7 @@ to develop [Percy](https://percy.io), the platform for continuous visual reviews
 - Google Cloud Storage [site](https://cloud.google.com/storage/) [docs](https://cloud.google.com/storage/docs/overview)
 - Google Cloud SQL [site](https://cloud.google.com/sql/) [docs](https://cloud.google.com/sql/docs/)
 - Redis Labs Cloud [site](https://redislabs.com/products/redis-cloud/)
-- Google Cloud Platform Pricing Calculator [site](https://cloud.google.com/products/calculator/)
+- Google Cloud Pricing Calculator [site](https://cloud.google.com/products/calculator/)
 - Ember Conf [site](https://emberconf.com/)
 
 <div style="text-align: center">
@@ -49,7 +49,7 @@ to develop [Percy](https://percy.io), the platform for continuous visual reviews
 
 ##### Question of the week
 
-I would love a weekly roundup of news about Google Cloud Platform - where can I get one?
+I would love a weekly roundup of news about Google Cloud - where can I get one?
 
  - This week in GCP [medium](https://medium.com/google-cloud/weekly/home)
 
@@ -59,7 +59,7 @@ Melanie will be at [FOSDEM](https://fosdem.org/2018/) in Brussels this weekend.
 
 Mark will be at the [Game Developer's Conference | GDC](http://www.gdconf.com/) in March.
 
-{{< transcript "MARK: Hi, and welcome to episode number 112 of the weekly \"Google Cloud Platform Podcast.\" I am Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 112 of the weekly \"Google Cloud Podcast.\" I am Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 MELANIE: Hi, Mark. I'm good. We've got a good podcast for us this week. We're going to be talking to Mike, who's the co-founder and CEO of Percy.io, and they are doing visual diffs. 
 
@@ -125,7 +125,7 @@ MIKE: Thank you so much. I'm really thrilled to be here.
 
 MELANIE: And Mike, we'd like you to tell us a little bit more about yourself. 
 
-MIKE: Yeah, absolutely. So yeah, I'm the CEO and co-founder of Percy. And I don't know, what about me? So I'm actually the ex-Googler, too, so I've been using Google products for-- before they were actually even called Google Cloud Platform. 
+MIKE: Yeah, absolutely. So yeah, I'm the CEO and co-founder of Percy. And I don't know, what about me? So I'm actually the ex-Googler, too, so I've been using Google products for-- before they were actually even called Google Cloud. 
 
 And yeah, I love all things software engineering and building a team. And the sort of cross-sectionality of things we like to say we work on is like design, development, and deployment. So it's kind of like where I work is at the intersection of those things. 
 
@@ -175,7 +175,7 @@ MARK: So if you're a developer and you want to use Percy, how does that look? Is
 
 MIKE: Yeah, exactly. So we integrate with CI systems right now. So what you do is you plug Percy into your test suites that you're already writing. You have these tests that are like, visit this page, click these buttons, do this thing. Or these components, we want to test these components and these states. 
 
-You integrate with your CI, and then you push up a pull request to GitHub. And then, as your CI runs, it's pushing stuff to Percy. And we've actually built a full rendering environment on top of Google Cloud Platform that is this rendering farm that's performing these renders and in the background doing these screenshots and handling all the weird edge cases that go into that, which we can talk about. 
+You integrate with your CI, and then you push up a pull request to GitHub. And then, as your CI runs, it's pushing stuff to Percy. And we've actually built a full rendering environment on top of Google Cloud that is this rendering farm that's performing these renders and in the background doing these screenshots and handling all the weird edge cases that go into that, which we can talk about. 
 
 And then we just notate the GitHub PR and say, hey, there's 15 visual diffs here that need review. And that might be right next to your green check mark in GitHub that says 2,000 unit test passed. Functionally, everything is ready to go. You're great here, but then Percy catches it and says, hey, you're about to launch some visual changes. Do you want these visual changes, yes or no? 
 
@@ -249,9 +249,9 @@ MARK: Cool. I have so many questions.
 
 MELANIE: You go. You go. I've got questions, but I want you to go. 
 
-MARK: OK. Well, let's start with, what is the Google Cloud Platform products that you are using here? You mentioned containers. You sort of buried the lead there a little bit. It sounds like that's maybe how you're running the actual browsers? I'm not sure, but what does that flow look like through the products as you go? 
+MARK: OK. Well, let's start with, what is the Google Cloud products that you are using here? You mentioned containers. You sort of buried the lead there a little bit. It sounds like that's maybe how you're running the actual browsers? I'm not sure, but what does that flow look like through the products as you go? 
 
-MIKE: So yeah, we've been using Google Cloud Platform from the beginning for everything. And actually, Percy grew up in a world where containers were already existing in some ways. I sort of dealt with early, early Docker bugs and that sort of early pain there. But glad that we sort of bet on that early on, because that has just allowed us to scale this infrastructure so much more easily had we done something else. 
+MIKE: So yeah, we've been using Google Cloud from the beginning for everything. And actually, Percy grew up in a world where containers were already existing in some ways. I sort of dealt with early, early Docker bugs and that sort of early pain there. But glad that we sort of bet on that early on, because that has just allowed us to scale this infrastructure so much more easily had we done something else. 
 
 So yeah, everything is containerized. And that's how our full deployment pipeline works and how we update our rendering environments is pushing these new containers and pushing new versions. We just recently actually migrated off of-- I don't know if you even remember-- container-vms. 
 
@@ -323,7 +323,7 @@ But it gives me so much visibility, as somebody who was paying for it out of my 
 
 If you're going to have something that can be truly continuous for everyone's workflow, it has to be horizontally scalable. You have to just be able to say, oh, you need 2 million snapshots a month? Great. Here's a bunch of workers and renderers for you. You just need that ability based on the DOM snapshotting model that we have. 
 
-So I sort of bet on Google Cloud Platform there because, yeah, it just made a lot of sense for the infrastructure that we needed and the scalability that we needed. And also, as an ex-Googler, I knew how good Google's networking technologies are, for example, and just how world class that is-- more than what most people know, right? It's just really good. So just betting on the-- 
+So I sort of bet on Google Cloud there because, yeah, it just made a lot of sense for the infrastructure that we needed and the scalability that we needed. And also, as an ex-Googler, I knew how good Google's networking technologies are, for example, and just how world class that is-- more than what most people know, right? It's just really good. So just betting on the-- 
 
 MELANIE: We did not feed that to you before. 
 
@@ -417,7 +417,7 @@ MARK: OK. So he's a developer relations program manager. He manages a bunch of o
 
 MELANIE: I think that's good. 
 
-MARK: I think that will do. Anyway, he does a weekly Medium publication that I thought it would be worth mentioning-- strangely enough called "This Week in Google Cloud Platform," where he basically does little summaries of what's happened in the past week, giving you sort of titles and little descriptions on what's going on. And he also does "This Picture of the Week," showing a little snapshot of something interesting somebody has done on Google Cloud Platform. 
+MARK: I think that will do. Anyway, he does a weekly Medium publication that I thought it would be worth mentioning-- strangely enough called "This Week in Google Cloud," where he basically does little summaries of what's happened in the past week, giving you sort of titles and little descriptions on what's going on. And he also does "This Picture of the Week," showing a little snapshot of something interesting somebody has done on Google Cloud. 
 
 So if you're looking for something sort of weekly that sort of does a nice summary and sort of ends up in your feed or on your Medium feed once a week, you should check it out. 
 

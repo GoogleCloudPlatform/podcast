@@ -31,7 +31,7 @@ He's also a Gopher, Catalan, LGBTQIA advocate, previous Google employee (and Pod
 ##### About Greg Wilson
 
 [Greg Wilson](https://twitter.com/gregsramblings) is the Director of Google Cloud Developer Relations, overseeing
-developer relations work across both G Suite and Google Cloud Platform.
+developer relations work across both G Suite and Google Cloud.
 
 ##### Cool things of the week
 - Jeff Dean’s talk at NIPS on ML for Systems and Systems for ML [sides](http://learningsys.org/nips17/assets/slides/dean-nips17.pdf)
@@ -57,7 +57,7 @@ developer relations work across both G Suite and Google Cloud Platform.
  - [The SRE Category on GCP Podcast](https://www.gcppodcast.com/categories/sre/)
 - Melanie's Favourites
  - [#57 Pokémon GO with Edward Wu, Director of Software Engineering at Niantic](https://www.gcppodcast.com/post/episode-57-pokemon-go-with-edward-wu/)
-- Favourite announcements, products and more at Google Cloud Platform
+- Favourite announcements, products and more at Google Cloud
  - [Cloud Spanner](https://cloud.google.com/spanner/)
  - [Cloud Machine Learning Engine](https://cloud.google.com/ml-engine/)
  - [TensorFlow](https://www.tensorflow.org)
@@ -79,7 +79,7 @@ developer relations work across both G Suite and Google Cloud Platform.
 
 It's the end of the year! So we'll be taking a break, and returning in January 2018!
 
-{{< transcript "MARK: Hi, and welcome to episode 107 of the weekly Google Cloud Platform podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing this morning, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode 107 of the weekly Google Cloud podcast. I'm Mark Mandel, and I'm here with my colleague, Melanie Warrick. How are you doing this morning, Melanie?" >}}
 
 MELANIE: Good morning, Mark. It's nice and early where I am. But where are you? 
 
@@ -363,7 +363,7 @@ MARK: Yeah, absolutely. He was very aware of that.
 
 MELANIE: How did you guys get him? 
 
-FRANCESC: I send him an email going like, hey, Vint Cerf, so we met a long time ago at a cafe at Google. Here's a selfie of the two of us. And so, I thought that we're doing the Google Cloud Platform Podcast-- without the internet that you invented Google would not exist, the cloud will not exist, and podcast would not exist, so it kind of makes sense that you're a guest for episode 100. What do you think? And he was like, OK. 
+FRANCESC: I send him an email going like, hey, Vint Cerf, so we met a long time ago at a cafe at Google. Here's a selfie of the two of us. And so, I thought that we're doing the Google Cloud Podcast-- without the internet that you invented Google would not exist, the cloud will not exist, and podcast would not exist, so it kind of makes sense that you're a guest for episode 100. What do you think? And he was like, OK. 
 
 MELANIE: Nice. 
 
@@ -513,7 +513,7 @@ FRANCESC: And he was talking about how his dad had, if I'm not mistaken, it was 
 
 MELANIE: Nice. 
 
-FRANCESC: And that kind of impact is-- thinking that your work in Google Cloud Platform enables Pokemon GO to help someone with their diabetes. I'm very happy about that. 
+FRANCESC: And that kind of impact is-- thinking that your work in Google Cloud enables Pokemon GO to help someone with their diabetes. I'm very happy about that. 
 
 MARK: One of my favorite stories is that story. 
 

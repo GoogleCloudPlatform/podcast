@@ -59,7 +59,7 @@ In her free time she enjoys skiing, cooking, knitting, and long coding sessions 
 
 - How to keep data in sync while limiting bandwidth? [gsutil rsync](https://cloud.google.com/storage/docs/gsutil/commands/rsync)
 
-{{< transcript "FRANCESC: Hi. And welcome to episode number 34 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, mark. How you doing?" >}}
+{{< transcript "FRANCESC: Hi. And welcome to episode number 34 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, mark. How you doing?" >}}
 MARK: I'm good, Francesc. How are you doing? 
 
 FRANCESC: I'm very, very good. I'm very happy and excited about our guest today, Aja Hammerly from our team. 
@@ -70,7 +70,7 @@ FRANCESC: It is always fun. We have very, very different backgrounds. It is alwa
 
 MARK: Yeah, all sorts of fun stuff. 
 
-FRANCESC: Yeah. It's a very, very interesting interview. And at the end of this interview-- actually, maybe we should say what we're going to be talking about. We're going to be talking about monitoring on the cloud, and specifically Google Cloud Platform using Stackdriver. 
+FRANCESC: Yeah. It's a very, very interesting interview. And at the end of this interview-- actually, maybe we should say what we're going to be talking about. We're going to be talking about monitoring on the cloud, and specifically Google Cloud using Stackdriver. 
 
 MARK: Yes. 
 
@@ -104,7 +104,7 @@ FRANCESC: So why don't we go and have a chat with Aja?
 
 MARK: Let's do that. 
 
-FRANCESC: So I'm very happy to welcome Aja Hammerly from our team to the Google Cloud Platform podcast. Hey, Aja. How are you doing? 
+FRANCESC: So I'm very happy to welcome Aja Hammerly from our team to the Google Cloud podcast. Hey, Aja. How are you doing? 
 
 AJA: Hey, guys. I'm doing great. I'm really excited be on the podcast this week. 
 
@@ -158,13 +158,13 @@ I then start monitoring stuff in the application layer. And that's going to real
 
 And so it really depends on the workload what I end up monitoring. But I do try to monitor at all layers. 
 
-MARK: Cool. All right. Let's talk about what monitoring is available on Google Cloud Platform. We have this stuff called Stackdriver. I believe that used to be a different company. 
+MARK: Cool. All right. Let's talk about what monitoring is available on Google Cloud. We have this stuff called Stackdriver. I believe that used to be a different company. 
 
-AJA: Yeah. Stackdriver was acquired by Google. And they've been working to integrate their products seamlessly into the existing Google Cloud Platform console. And the integration is lovely at this point. I've really enjoyed, as someone who's used a lot of different monitoring tools over the years, how the place where I create my VMs is the same place that I can see my alerts, I can see a dashboard. It's the same place that I can see my logs. It's the same place that I can see error reports distilled. It's all one login. 
+AJA: Yeah. Stackdriver was acquired by Google. And they've been working to integrate their products seamlessly into the existing Google Cloud console. And the integration is lovely at this point. I've really enjoyed, as someone who's used a lot of different monitoring tools over the years, how the place where I create my VMs is the same place that I can see my alerts, I can see a dashboard. It's the same place that I can see my logs. It's the same place that I can see error reports distilled. It's all one login. 
 
 And when I talk to folks about their ops stack or their monitoring stack, most folks seem to have four or five products now. One of the things I love about Stackdriver is it's one product that does all the things with one login. So figuring out who needs permissions for what is actually really straightforward. When you get a new employee, you don't have to give them an account to five different services. 
 
-And specifically on the monitoring side, Stackdriver monitors all of our Google Cloud Platform resources. It can monitor App Engine. It can monitor Compute Engine. It monitors load balancers. And it can also monitor resources that are in AWS as well. 
+And specifically on the monitoring side, Stackdriver monitors all of our Google Cloud resources. It can monitor App Engine. It can monitor Compute Engine. It monitors load balancers. And it can also monitor resources that are in AWS as well. 
 
 It's cross-cloud. There's been a lot of push in the industry, and also some internally at Google, that many of our products now work cross-cloud. Another good example of that is Kubernetes, which works cross-cloud. And Kubernetes is not technically Google's product. It's an open source product. But it's another example of how Google is really pushing for the cross-cloud support. 
 
@@ -192,7 +192,7 @@ MARK: That's really cool.
 
 AJA: Yeah. The other thing that I like is that there's monitoring built in for Google Container Engine as well. So if you're running a Container Engine cluster, there's a dashboard that you get just by-- this is in the free tier. You can just go to Stackdriver and you can see monitoring of your Container Engine resources, both by containers and also by the underlying VMs. And that's awesome. 
 
-MARK: So it sounds like there's a bunch of stuff that's out-of-the-box, ready to go, as long as you're using some cloud product on Google Cloud Platform. We're just like, yeah, here you go. Is there anywhere where you have to do manual steps? I think on GCE, you have to install an agent. Is that right? 
+MARK: So it sounds like there's a bunch of stuff that's out-of-the-box, ready to go, as long as you're using some cloud product on Google Cloud. We're just like, yeah, here you go. Is there anywhere where you have to do manual steps? I think on GCE, you have to install an agent. Is that right? 
 
 AJA: Depending on how you started it up, you may have to install the agent. You do have to install the agent in AWS if you're going to use it there. When I did it for a recent demo, it took me less than five minutes. The instructions are super clear. 
 
@@ -216,7 +216,7 @@ MARK: Cool. So right now, if people want to get using Stackdriver, it's in beta.
 
 AJA: Yeah. So the basic pricing structure, when it goes out of beta and into general availability, is there's going to be a free tier. And that's going to provide you access to metrics, traces, and error reports. Because we're talking specifically today about monitoring, but Stackdriver is a much bigger product than that. There's a lot of other features involved. 
 
-And those are all going to be available in your Google Cloud Platform dashboard. And you can get that free monitoring on Google Cloud Platform Resources. So if you're using App Engine, if you're using Compute Engine, you'll be able to see your metrics in real time on the dashboard for free. 
+And those are all going to be available in your Google Cloud dashboard. And you can get that free monitoring on Google Cloud Resources. So if you're using App Engine, if you're using Compute Engine, you'll be able to see your metrics in real time on the dashboard for free. 
 
 Now, we're going to have a premium tier. That will give you your Amazon Web Services integration. So there's your cross-cloud. It's also going to give you support, if you need support on your monitoring logging. If you want to get alerts-- so you want to be notified in Slack or HipChat or PagerDuty or by SMS-- all that's going to be part of the premium tier. It also gives you custom metrics and several other features. 
 

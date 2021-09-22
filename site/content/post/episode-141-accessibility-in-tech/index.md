@@ -58,7 +58,7 @@ Mark will be at [Pax Dev](http://dev.paxsite.com/) and [Pax West](http://west.pa
 
 Melanie is at [Def Con](https://www.defcon.org/), [Black Hat](http://www.blackhat.com/us-18/), and [BSides Las Vegas](https://www.bsideslv.org/). In September, she will be at [Deep Learning Indaba](http://www.deeplearningindaba.com).
 
-{{< transcript "MARK: Hi, and welcome to episode #141 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel, and I'm here with my colleague Melanie [inaudible]. How you doing, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode #141 of the weekly Google Cloud Podcast. I'm Mark Mandel, and I'm here with my colleague Melanie [inaudible]. How you doing, Melanie?" >}}
 
 MELANIE: So yeah, it's good to be back in the studio, and this week we're going to be talking with Haben Girma who is here to talk to us about accessibility in tech. 
 

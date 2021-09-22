@@ -27,7 +27,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/8p36u6/data_science_w
 
 ##### Michelle Casbon
 
-[Michelle Casbon](https://twitter.com/texasmichelle) is a Senior Engineer on the Google Cloud Platform Developer Relations team, where she focuses on open source contributions and community engagement for machine learning and big data tools. Prior to joining Google, she was at several San Francisco-based startups as a Senior Engineer and Director of Data Science. Within these roles, she built and shipped machine learning products on distributed platforms using both AWS and GCP. Michelle’s development experience spans more than a decade and has primarily focused on multilingual natural language processing, system architecture and integration, and continuous delivery pipelines for machine learning applications. She especially loves working with open source projects and is an active contributor to Kubeflow. Michelle holds a masters degree from the University of Cambridge.
+[Michelle Casbon](https://twitter.com/texasmichelle) is a Senior Engineer on the Google Cloud Developer Relations team, where she focuses on open source contributions and community engagement for machine learning and big data tools. Prior to joining Google, she was at several San Francisco-based startups as a Senior Engineer and Director of Data Science. Within these roles, she built and shipped machine learning products on distributed platforms using both AWS and GCP. Michelle’s development experience spans more than a decade and has primarily focused on multilingual natural language processing, system architecture and integration, and continuous delivery pipelines for machine learning applications. She especially loves working with open source projects and is an active contributor to Kubeflow. Michelle holds a masters degree from the University of Cambridge.
 
 ##### Cool things of the week
 
@@ -68,7 +68,7 @@ Mark is speaking at the [San Francisco Kubernetes Meetup: Scaling Game Servers a
 
 Melanie is speaking at a joint [WiMLDS](http://wimlds.org) and [PyLadies](http://www.pyladies.com) event "Paths to Data Science" on June 26th and Stanford AI4ALL on June 28th.
 
-{{< transcript "MARK: Hi. And welcome to episode number 130 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel. And I'm here with my colleague, as always, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi. And welcome to episode number 130 of the weekly Google Cloud Podcast. I'm Mark Mandel. And I'm here with my colleague, as always, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: Doing good, Mark. How are you? 
 
@@ -86,7 +86,7 @@ MELANIE: Math is good. I can do math.
 
 MARK: You can do math. 
 
-MELANIE: All right, Mark. So this week we have two wonderful women who have joined us to talk about data science pipelines and tools. So Juliet and Michelle are both with us. And Juliet is actually the data platform lead over at Stitch Fix. And Michelle is one of our colleagues who works with us here at Google and does a lot of great things around machine learning and Google Cloud Platform. 
+MELANIE: All right, Mark. So this week we have two wonderful women who have joined us to talk about data science pipelines and tools. So Juliet and Michelle are both with us. And Juliet is actually the data platform lead over at Stitch Fix. And Michelle is one of our colleagues who works with us here at Google and does a lot of great things around machine learning and Google Cloud. 
 
 So before we get into that, as always, we are going to talk about cool things of the week. And our question of the week is that if I have written a gRPC service but I'm using a language platform that isn't supported, is there any way I can access it as rest? I wonder where this question came from. 
 

@@ -81,7 +81,7 @@ https://medium.freecodecamp.org/lessons-from-my-first-year-of-live-coding-on-twi
 
 - San Francisco
 
-{{< transcript "MARK: Hi, and welcome to episode number 123 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel and I'm here with my colleague, as always, Melanie Warrick. How are you doing today, Melanie?" >}}
+{{< transcript "MARK: Hi, and welcome to episode number 123 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel and I'm here with my colleague, as always, Melanie Warrick. How are you doing today, Melanie?" >}}
 
 MELANIE: I'm good. How are you doing, Mark? 
 

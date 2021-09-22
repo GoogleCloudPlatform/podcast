@@ -22,7 +22,7 @@ Today on the podcast, we speak with [Ian Buck](https://twitter.com/ia_buck) and 
  
  NVIDIA recently announced their new Tensor Cores, which maximize their GPUs and make it easier for users to achieve peak performance. Working with the Tensor Cores,  TensorFlow AMP is an acceleration into the TensorFlow Framework. It automatically makes the right choices for neural networks and maximizes performance, while still maintaining accuracy, with only a two line change in Tensor Flow script.
  
-Just last year, NVIDIA announced their T4 GPU with Google Cloud Platform. This product is designed for inferences, the other side of AI. Because AI is becoming so advanced, complicated, and fast, the GPUs on the inference side have to be able to handle the workload and produce inferences just as quickly. T4 and Google Cloud accomplish this together. Along with T4, NVIDIA has introduced TensorRT, a software framework for AI inference that's integrated into TensorFlow.
+Just last year, NVIDIA announced their T4 GPU with Google Cloud. This product is designed for inferences, the other side of AI. Because AI is becoming so advanced, complicated, and fast, the GPUs on the inference side have to be able to handle the workload and produce inferences just as quickly. T4 and Google Cloud accomplish this together. Along with T4, NVIDIA has introduced TensorRT, a software framework for AI inference that's integrated into TensorFlow.
  
 <!--more-->
 
@@ -39,7 +39,7 @@ Just last year, NVIDIA announced their T4 GPU with Google Cloud Platform. This p
 * Kubernetes 1.14: Production-level support for Windows Nodes, Kubectl Updates, Persistent Local Volumes GA [blog](https://kubernetes.io/blog/2019/03/25/kubernetes-1-14-release-announcement/)
 * Stadia [blog](https://www.blog.google/products/stadia/stadia-a-new-way-to-play/)
 * How Google Cloud helped Multiplay power a record-breaking Apex Legends launch [blog](https://cloud.google.com/blog/topics/customers/how-google-cloud-helped-multiplay-power-a-record-breaking-apex-legends-launch)
-* Massive Entertainment hosts Tom Clancy’s The Division 2 on Google Cloud Platform [blog](https://cloud.google.com/blog/topics/customers/massive-entertainment-hosts-tom-clancys-the-division-2-on-google-cloud-platform)
+* Massive Entertainment hosts Tom Clancy’s The Division 2 on Google Cloud [blog](https://cloud.google.com/blog/topics/customers/massive-entertainment-hosts-tom-clancys-the-division-2-on-google-cloud-platform)
 
 ##### Interview
 
@@ -84,7 +84,7 @@ Jon may be going to [Unite Shanghai](https://connect.unity.com/events/UniteShang
 
 NVIDIA will be at [Cloud NEXT](https://cloud.withgoogle.com/next/sf) and [KubeCon](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/), as well as [International Conference on Machine Learning](https://icml.cc), [The International Conference on Learning Representations](https://iclr.cc), and [CVPR](http://cvpr2019.thecvf.com)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 168 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel, and this week, I'm here with my colleague, Jon Foust. Jon, how are you doing?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 168 of the weekly Google Cloud Podcast. I'm Mark Mandel, and this week, I'm here with my colleague, Jon Foust. Jon, how are you doing?" >}} 
 
 JON: I'm doing great. How about you? 
 

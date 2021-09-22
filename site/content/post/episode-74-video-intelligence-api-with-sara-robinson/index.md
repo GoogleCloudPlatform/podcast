@@ -78,7 +78,7 @@ He also recently published a blog post on [Scaling Dedicated Game Servers with K
 Francesc will be presenting at the [New York Google Developer Group](https://www.meetup.com/gdgnyc/events/234963739/) for a Serverless event!
 Francesc has also released a new [Just for Func episode](https://www.youtube.com/watch?v=8M90t0KvEDY), covering the implementation of the Context package!
 
-{{< transcript "FRANCESC: Hi. Welcome to episode number 74 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi. Welcome to episode number 74 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 MARK: I'm good. I am back in San Francisco after a little trek over the East Coast. But it's good to be home. How are you doing? 
 
 FRANCESC: Very good. Back from a little trip to China, and indeed it is very nice to be home. I am very happy because today we have, again, someone else from our team. We have Sara Robinson to talk about-- I think it's probably the latest API. 
@@ -129,13 +129,13 @@ FRANCESC: Yeah, that'd be nice.
 
 MARK: Awesome. Well, why don't we go have a chat with our good friend, Sara, all about the Cloud Video Intelligence API? 
 
-FRANCESC: Sounds good. Let's do that. I am very happy to welcome back Sara Robinson to the Google Cloud Platform Podcast. Hello, Sara. How are you doing? 
+FRANCESC: Sounds good. Let's do that. I am very happy to welcome back Sara Robinson to the Google Cloud Podcast. Hello, Sara. How are you doing? 
 
 SARA: Hi, Francesc. I'm doing well. Excited to be back on the podcast. 
 
 FRANCESC: Yeah, very happy to have you back for a second or third time. We're going to be talking about some cool demos that you did at Google Cloud Next during the keynote of day two or three. But before that, why don't you tell us a little bit about who you are for those that have not seen any of the many, many episodes and talks that you've given before. 
 
-SARA: Sure. My name is Sara Robinson. I'm a developer advocate with Mark and Francesc on the Google Cloud Platform team. And as a developer advocate, we do a combination of building demos, giving talks to show developers on how to use different Cloud products, writing blog posts and bringing that feedback back to the product team. And I'm focusing primarily on machine learning APIs and some of our big data offerings. 
+SARA: Sure. My name is Sara Robinson. I'm a developer advocate with Mark and Francesc on the Google Cloud team. And as a developer advocate, we do a combination of building demos, giving talks to show developers on how to use different Cloud products, writing blog posts and bringing that feedback back to the product team. And I'm focusing primarily on machine learning APIs and some of our big data offerings. 
 
 FRANCESC: And you were on stage for a keynote-- was it day one? 
 

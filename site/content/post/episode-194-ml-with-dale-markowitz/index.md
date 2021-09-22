@@ -73,7 +73,7 @@ Aja will be holding down the fort at home.
 * "Collect Point 00" by LittleRobotSoundFactory of [Freesound.org](https://freesound.org)
 * "Cinematic Piano" by Ellary of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] AJA: Hi, and welcome to episode number 194 of the weekly Google Cloud Platform podcast. I'm Aja and I'm here with my colleague Jon. Hey, Jon. " >}}
+{{< transcript "[MUSIC PLAYING] AJA: Hi, and welcome to episode number 194 of the weekly Google Cloud podcast. I'm Aja and I'm here with my colleague Jon. Hey, Jon. " >}}
 
 JON: Hey, Aja, how's it going? 
 

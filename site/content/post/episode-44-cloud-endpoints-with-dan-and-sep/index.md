@@ -70,7 +70,7 @@ Access the Google Cloud Metadata service from App Engine with the Google Compute
 - [Java](https://googlecloudplatform.github.io/google-cloud-java/google-cloud-clients/apidocs/com/google/cloud/compute/v1/Metadata.html)
 - [Python](https://developers.google.com/resources/api-libraries/documentation/compute/v1/python/latest/compute_v1.projects.html)
 
-{{< transcript "FRANCESC: Hello, and welcome to episode number 44 of the weekly "Google Cloud Platform" podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hello, and welcome to episode number 44 of the weekly "Google Cloud" podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How are you doing today? 
 
 FRANCESC: Very happy to have you back. How was Strange Loop? 
@@ -107,7 +107,7 @@ MARK: I have no idea.
 
 FRANCESC: Actually, I think so. Let me check because I'm almost sure-- philosopher. 
 
-MARK: Francesc is looking in the air. So if you're not familiar with Apache Kafka, while Francesc is looking things up, it's a messaging system that is very popular for a lot of people open source. We have Pub/Sub as a managed messaging system here on Google Cloud Platform. But a lot of people do use Kafka in and outside of Google Cloud Platform. 
+MARK: Francesc is looking in the air. So if you're not familiar with Apache Kafka, while Francesc is looking things up, it's a messaging system that is very popular for a lot of people open source. We have Pub/Sub as a managed messaging system here on Google Cloud. But a lot of people do use Kafka in and outside of Google Cloud. 
 
 FRANCESC: And he wrote in German, but he was actually from the Czech Republic, from the Austro-Hungarian Empire. 
 
@@ -131,7 +131,7 @@ FRANCESC: Sounds good. Let's do that.
 
 MARK: Cool. 
 
-FRANCESC: So I'm very excited to welcome Dan Ciruli and Sep Ebrahimzadeh, a product manager and a software engineer to the "Google Cloud Platform" podcast. Hello. How are you doing? 
+FRANCESC: So I'm very excited to welcome Dan Ciruli and Sep Ebrahimzadeh, a product manager and a software engineer to the "Google Cloud" podcast. Hello. How are you doing? 
 
 DAN: Hello. Doing great. 
 
@@ -439,7 +439,7 @@ FRANCESC: Everybody that sends emails has--
 
 MARK: An interesting name. 
 
-FRANCESC: --names that are hard to pronounce, which is awesome. Mine is not easy either, so yeah. So Leonard asks, OK, so we love Google Cloud Platform. That is good [INAUDIBLE] feature. And they have an application which they're running the back end on Google Cloud Platform. 
+FRANCESC: --names that are hard to pronounce, which is awesome. Mine is not easy either, so yeah. So Leonard asks, OK, so we love Google Cloud. That is good [INAUDIBLE] feature. And they have an application which they're running the back end on Google Cloud. 
 
 But then they have front ends which are an Android app and iOS app and then a browser web interface. And the problem is like, OK, we don't want to write the code for those applications over and over for every single time we have a little change, have to update all our clients. So how can we make this better to reuse more code, basically? And I think that you may know about this. 
 
@@ -473,7 +473,7 @@ FRANCESC: Oh, yeah, absolutely.
 
 MARK: Cool. Well, thank you very much, Francesc, for joining me once again. Are you up to any interesting things lately? 
 
-FRANCESC: Not really. [CHUCKLING]. No, I'm still planning my trip to Brazil. That is my next big trip. I'm also going to be-- at the beginning of October, I will be in New York. And I'm organizing a couple of Go events. And I might be able to run a Google Cloud Platform specific event. But we're still planning on that. 
+FRANCESC: Not really. [CHUCKLING]. No, I'm still planning my trip to Brazil. That is my next big trip. I'm also going to be-- at the beginning of October, I will be in New York. And I'm organizing a couple of Go events. And I might be able to run a Google Cloud specific event. But we're still planning on that. 
 
 MARK: Ooh, nice. I'm going to be wandering around. Google's having a Google Play Indie Festival. So if indie game developers on the Saturday after this podcast will come out, so I'll be wandering about that, just chatting to people and saying hello. 
 

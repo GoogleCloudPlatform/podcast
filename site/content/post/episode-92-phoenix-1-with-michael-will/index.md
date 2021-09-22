@@ -47,7 +47,7 @@ Age / Kabam / Phoenix One Games.
 ##### Interview
 
 - Google Compute Engine [docs](https://cloud.google.com/compute/)
-- Gaming Solutions on Google Cloud Platform [docs](https://cloud.google.com/solutions/gaming/)
+- Gaming Solutions on Google Cloud [docs](https://cloud.google.com/solutions/gaming/)
 - Google Cloud Storage [docs](https://cloud.google.com/storage/)
 - [Couchbase](https://www.couchbase.com)
 - Google Cloud and Couchbase Server: Zero to Millions of Operations in No Time [couchbase.com](https://www.couchbase.com/resources/presentations/google-cloud-and-couchbase-server-zero-to-millions-of-operations-in-no-time.html)
@@ -79,7 +79,7 @@ and will be presenting at [Google Cloud Summit in Sydney](https://cloudplatformo
 Mark is entering crazy season, currently speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 He'll then be speaking at [Gameacon](http://www.gameaconvegas.com/) and [Austin Game Conference](http://austingamecon.com/) and attending [Strangeloop](https://www.thestrangeloop.com/) once he's done with all that.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 92 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing? " >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 92 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark. How are you doing? " >}}
 
 MARK: I'm very excited because after this we're going to have lunch. 
 
@@ -129,7 +129,7 @@ FRANCESC: Yeah. So Titan is a really cool microchip that Google designed specifi
 
 So there's a new blog post that covers Titan in depth. It's definitely in depth. It's a pretty long one, but you will be able to understand not only what are the basics, like what is Titan and how it's built, like from basic point of view, but also what it empowers us to do and what kind of security we can manage, like, for instance, make sure that if someone accesses something we're able to see it and the logging can not be tampered with-- stuff like that, like really, really powerful things explained in a lot of detail. 
 
-And if you are interested in knowing more, but you're too lazy to read, like me, you can also listen to the episode that we did back in March. It was the final day at Cloud Next, which was episode 67, where we interviewed Cornelius Willis, who is the Head Marketing at Google Cloud Platform and Neal Mueller, who is the Product Marketing Lead also at Google Cloud. And they told us a little bit about it. It is a very cool thing and goes very well on your earrings, apparently. 
+And if you are interested in knowing more, but you're too lazy to read, like me, you can also listen to the episode that we did back in March. It was the final day at Cloud Next, which was episode 67, where we interviewed Cornelius Willis, who is the Head Marketing at Google Cloud and Neal Mueller, who is the Product Marketing Lead also at Google Cloud. And they told us a little bit about it. It is a very cool thing and goes very well on your earrings, apparently. 
 
 MARK: Yeah. No, I love this. It just goes to show, I think, what levels we go to as a company to ensure security that we write these chips ourselves, build these chips ourselves, make these chips ourselves such that we can be like, these machines are ours, the software that's running on them is ours. Everything that's happening on this machine has not been tampered with in any way, shape, or form, and we make sure that we are in that from end to end. And that's like, yay-- security yay. 
 
@@ -147,7 +147,7 @@ MARK: So it is an absolutely pleasure today to join one of my friends onstage fr
 
 MICHAEL: Excellent. How are you? 
 
-MARK: I'm very, very well. Thank you so much for joining us, coming to talk to us about Phoenix One Games, your newly released game "Guardian Kingdoms"-- I don't know if you can still count it as new anymore-- that you have on mobile. But before we get stuck into that and how you use Google Cloud Platform, why don't you tell us a little bit about who you are and what do you do at Phoenix One Games? 
+MARK: I'm very, very well. Thank you so much for joining us, coming to talk to us about Phoenix One Games, your newly released game "Guardian Kingdoms"-- I don't know if you can still count it as new anymore-- that you have on mobile. But before we get stuck into that and how you use Google Cloud, why don't you tell us a little bit about who you are and what do you do at Phoenix One Games? 
 
 MICHAEL: Hi. I'm Michael Will. I work at Phoenix One Games as a Director of Technical Operations. So I took care of the backend of the game, basically. I have a systems engineering background, hardware. I used to make high performance compute classes at Penguin Computing before I went into the gaming industry. And so with that focus, I'm also designing my backend, and we will talk about the details of what that means later. 
 

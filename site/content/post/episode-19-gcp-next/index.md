@@ -44,15 +44,15 @@ and his current areas of focus are IoT, Big Data, and containers.
 He was part of the [GCP partner panel: Learnings from real world cloud migration](https://www.youtube.com/watch?v=g_iig8sxsYc).
 Mike also wrote a very interesting [article about GCP Next for Forbes](http://www.forbes.com/sites/mikekavis/2016/03/25/google-provides-a-glimpse-into-the-future-of-cloud-computing/#316725fc529f).
 
-Mike discusses how people migrate to Google Cloud Platform and how they evolve once on it.
+Mike discusses how people migrate to Google Cloud and how they evolve once on it.
 
 ###### Niels Provos from Google
 
 [Niels Provos](https://twitter.com/NielsProvos) is a distinguished engineer working on
 security/privacy at Google. He was part of the [Day 2 Keynote](https://www.youtube.com/watch?v=axhdIa_co2o)
-where he discusses what Google Cloud Platform keeps your data and applications safe.
+where he discusses what Google Cloud keeps your data and applications safe.
 
-You can learn more about Google Cloud Platform security [here](https://cloud.google.com/security/).
+You can learn more about Google Cloud security [here](https://cloud.google.com/security/).
 
 Niels also talks about [Project Shield](https://jigsaw.google.com/products/project-shield/)
 which provides DDoS (Distributed Denial of Service) attack protection to independent news,
@@ -73,10 +73,10 @@ software world with [Data Processing & OSS: The NEXT Generation](https://www.you
 ###### Julia Ferraioli from Google
 
 [Julia Ferraioli](https://twitter.com/juliaferraioli) is a Developer Advocate
-for Google Cloud Platform (like Mark and I!) and she told us how to use machine
+for Google Cloud (like Mark and I!) and she told us how to use machine
 learning to figure out if the object in a picture should be hugged or not.
 
-She covers the continuum of machine learning tools on Google Cloud Platform with
+She covers the continuum of machine learning tools on Google Cloud with
 [David Zuckerman](http://twitter.com/cupofzucker) Head of Developer Experience
 at [wix.com](http://www.wix.com/) during the session
 [Build smart applications with your new superpower: cloud machine learning](https://youtu.be/Ja2hxBAwG_0).
@@ -99,10 +99,10 @@ Watch their talk [Analyzing market events at 34M reads/sec and 22M writes/sec wi
 
 [Romin Irani](https://twitter.com/iromin) asked when to use App Engine with Go.
 
-- Go on Google Cloud Platform [docs](https://cloud.google.com/go)
+- Go on Google Cloud [docs](https://cloud.google.com/go)
 - Go on App Engine [docs](https://cloud.google.com/appengine/docs/go/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 19 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 19 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark." >}}
 MARK: Hey, Francesc. How you doing?
 FRANCESC: Pretty good. Pretty happy that finally GCPNext is over. That was pretty epic.
 MARK: That was--I think epic is actually the right word for it. 
@@ -115,7 +115,7 @@ MARK: Man--
 FRANCESC: So many things.
 MARK: I think for me--I'm probably biased, because we were sitting right in the middle of the playground.
 FRANCESC: We were.
-MARK: But the playground--like, I loved the playground. I was so happy to see so many cool, interactive things that people could, like, look at, from the Datacenter 360 to the motor booth, where they could sort of interact with the vision API or the vision bots. Like, just being able to see people get hands-on with the stuff that we run at Google Cloud Platform and, like, interact with it in a really fun way--I think that was really rewarding. I really enjoyed that.
+MARK: But the playground--like, I loved the playground. I was so happy to see so many cool, interactive things that people could, like, look at, from the Datacenter 360 to the motor booth, where they could sort of interact with the vision API or the vision bots. Like, just being able to see people get hands-on with the stuff that we run at Google Cloud and, like, interact with it in a really fun way--I think that was really rewarding. I really enjoyed that.
 FRANCESC: Yeah. That was actually lots of fun. We interviewed a bunch of people from Instrument, the company that helped us build those demos, and it was really amazing, to the point that if you go to our Twitter page, Twitter.com/GCPPodcast, you will see that we changed our picture, and now we actually have a picture taken with a model booth.
 MARK: Yeah, yeah. I think you might see that picture show up in a few places once I integrate it with a few more of our services.
 FRANCESC: Yeah. That was an awesome picture. Yeah.
@@ -148,7 +148,7 @@ FRANCESC: Yeah. I actually watched three of the talks already.
 MARK: yeah.
 FRANCESC: One was yours. So where you talk about dragons on the cloud, which is pretty awesome--
 MARK: Yeah.
-FRANCESC: Then, Justin Beckwith, PM, Google Cloud Platform--he does a lot of notch AS, talking about how to make his Noogler hat spin through bits by little bits.
+FRANCESC: Then, Justin Beckwith, PM, Google Cloud--he does a lot of notch AS, talking about how to make his Noogler hat spin through bits by little bits.
 MARK: Yeah, okay.
 FRANCESC: It was great. It was a very interesting talk. And yeah. And then, I actually, like--I'm waiting to watch Julia Ferraioli's talk on how to train neural networks to know if something is huggable or not.
 MARK: That sounds really cool. And we will be talking to Julian in a little bit too.
@@ -218,12 +218,12 @@ NIELS: That took a while to prepare.
 MARK: Yeah, yeah. I bet it did. Do you want to give us, like, a really quick, 30-second synopsis of what you just presented on stage?
 NIELS: Sure. So at Google, I'm responsible for security and privacy engineering.
 MARK: Yep.
-NIELS: Google has, you know, spent many, many years creating a very, very secure platform, and so for GCP, customers are wondering, you know, "What does that mean for us?" So during the talk, I essentially said, "You know, trust and transparency is very important to us. Let me explain to you how we have built Google's infrastructure to be secure, and then relate to you what that means, you know, as a customer for running on top of GCP. And so essentially, we started from the bottom. You know, trusted hardware, trusted boot. You know, triple graphic identities for our jobs. DDOS protection. You know, un-phishable user identities with, you know, hardware second factor, and then gave some examples of how customers can leverage that on top of Google Cloud Platform. For example, storage encryption happens by default.
+NIELS: Google has, you know, spent many, many years creating a very, very secure platform, and so for GCP, customers are wondering, you know, "What does that mean for us?" So during the talk, I essentially said, "You know, trust and transparency is very important to us. Let me explain to you how we have built Google's infrastructure to be secure, and then relate to you what that means, you know, as a customer for running on top of GCP. And so essentially, we started from the bottom. You know, trusted hardware, trusted boot. You know, triple graphic identities for our jobs. DDOS protection. You know, un-phishable user identities with, you know, hardware second factor, and then gave some examples of how customers can leverage that on top of Google Cloud. For example, storage encryption happens by default.
 MARK: Yep.
 NIELS: For Google App Engine, we give you our cloud security scanner to find vulnerabilities, such as XXS or mixed content, mixed pinning. It talked a little bit about our efforts to secure the TLS certificate infrastructure with certificate transparency, where we have worked for years to create a model where all issued certificates can be verified in the properly-available lock, instead of just, you know, ramming people through, you know, the security stance they get for running on GCP--and some of the things that we are thinking of giving them in the future. So for example, we are working on a key management system and those kinds of things.
 FRANCESC: Very cool. That sounds like a lot of information, so if anyone is more interested, the keynote was recorded, and you should definitely check that--the video. I was actually checking it out while we were here. It was a very good presentation. Congratulations on that. t here's a specific topic that we get a question quite often, which is DDOS.
 NIELS: Right.
-FRANCESC: Can you tell a bit more--where is the--that data's protection coming and taking place for Google Cloud Platform?
+FRANCESC: Can you tell a bit more--where is the--that data's protection coming and taking place for Google Cloud?
 NIELS: So when you run on our platform, you essentially benefit from our serving infrastructure--the network. If you, let's say, enable a GPS load balancing, that gets served via an infrastructure that has DDOS protection builder.
 FRANCESC: Cool.
 NIELS: And actually, during the talk, I, you know, got to share a little bit that we have extended that protection also. So news and human rights organization, election monitoring sites, which, you know, seems like a timely topic.
@@ -234,7 +234,7 @@ FRANCESC: That was very cool.
 MARK: And just so we're clear too, because this is something I'm interested in. Is it specifically HTPS, or do you have the same protection on, like, HTTP and--
 NIELS: Well, so the load balancer, you know, does HTTP and HTTPS, but you know, to be perfectly honest, look, you know, if you're running on the Internet these days, you'd better protect yourself with TLS. Right? I mean, Google has been pushing to, you know, encrypt all of our traffic. We have just made the transparency report available last year--last week. It sort of tracks our progress, and there's no excuse for anybody putting a website on the Internet not to use encryption.
 MARK: Yeah, yeah. yeah. Definitely.
-FRANCESC: Coming from a responsible--for the security for Google Cloud Platform--sounds pretty normal.
+FRANCESC: Coming from a responsible--for the security for Google Cloud--sounds pretty normal.
 MARK: Very good.
 NIELS: Yeah. That's great.
 MARK: Thank you so much for coming and talking to us.
@@ -250,7 +250,7 @@ MARK: Yeah?
 FRANCES: Yeah. Doing well, enjoying meeting people.
 MARK: Wonderful. So I know you were speaking about some interesting stuff here at GCPNExt. Do you want to give us a little, brief overview of what it is you're talking about?
 JAMES: Absolutely. So we gave a talk yesterday that was focused on creating what we call next generation data processing, where people don't have to fight with infrastructure They don't have to worry about using the multiple tools to do batch and stream processing, and they can trust that their data pipelines are gonna be portable, both on GCP or between clouds or on cloud and on premise. Yeah.
-FRANCES: Yeah. We started with a little history of mapreduce and sort of how that new programming paradigm really changed the way that we do data processing, and then, we talked about how that diverges a little bit. So inside Google, after that mapreduce paper was published, we continued innovating. We had a lot of new ideas that we kept doing, but it was this really homogenous environment, right? Within Google, we just have a few file formats, a few language, and some very standardized tooling. So we really went deep on the right way to do data processing, but we were able to go very deep because we were very homogenous, whereas externally, the ecosystem looks very different. They took the mapreduce paper, implemented it, and do--and then, this whole ecosystem flourished with all these diverse ideas. And now, we've got basically two products at Google Cloud Platform to build on that legacy.
+FRANCES: Yeah. We started with a little history of mapreduce and sort of how that new programming paradigm really changed the way that we do data processing, and then, we talked about how that diverges a little bit. So inside Google, after that mapreduce paper was published, we continued innovating. We had a lot of new ideas that we kept doing, but it was this really homogenous environment, right? Within Google, we just have a few file formats, a few language, and some very standardized tooling. So we really went deep on the right way to do data processing, but we were able to go very deep because we were very homogenous, whereas externally, the ecosystem looks very different. They took the mapreduce paper, implemented it, and do--and then, this whole ecosystem flourished with all these diverse ideas. And now, we've got basically two products at Google Cloud to build on that legacy.
 JAMES: Google Cloud Data Product, which is a managed Spark and [inaudible] offering.
 FRANCES: And then, Google Cloud Data Flow, which is our basically next generation way for writing programs. It's really gonna combine batch and streaming into one API.
 FRANCESC: Very cool. I've got to say that Google Cloud Data Flow is one of my favorite products, to the point that--
@@ -281,7 +281,7 @@ JAMES: Why would you mix--why would you mix product names that have data all in 
 MARK: I know. That's just crazy.
 JAMES: You're obviously not reading your Google-supplied flash cards.
 FRANCESC: No.
-JAMES: So yeah. Cloud Data product is--it's built around a different set of open source tools. So in our talk yesterday, and Frances just mentioned this, the mapreduce paper kind of set off two parallel streams, and one at Google ultimately led to cloud Data Flow, and another was the open source community took the mapreduce paper and created just a whole ecosystem around it. So they created Apache Hidoop, Apache Spark, PegHive. There's probably 30 or 40 different logos, and Cloud Data Product is designed to allow people to take advantage of that open source ecosystem, but it combines that open source ecosystem with Google Cloud Platform. So instead of--I'm looking at your mixer, and there's, like, only a few knobs on that, and an open source product usually has a couple hundred knobs apiece, and Cloud Data Product is designed to help people take advantage of that stuff without having to be an expert and buy a ton of books and know exactly which memory settings to do and all that fun stuff.
+JAMES: So yeah. Cloud Data product is--it's built around a different set of open source tools. So in our talk yesterday, and Frances just mentioned this, the mapreduce paper kind of set off two parallel streams, and one at Google ultimately led to cloud Data Flow, and another was the open source community took the mapreduce paper and created just a whole ecosystem around it. So they created Apache Hidoop, Apache Spark, PegHive. There's probably 30 or 40 different logos, and Cloud Data Product is designed to allow people to take advantage of that open source ecosystem, but it combines that open source ecosystem with Google Cloud. So instead of--I'm looking at your mixer, and there's, like, only a few knobs on that, and an open source product usually has a couple hundred knobs apiece, and Cloud Data Product is designed to help people take advantage of that stuff without having to be an expert and buy a ton of books and know exactly which memory settings to do and all that fun stuff.
 MARK: So I can pretty much go to it and be like, "Okay. It's gonna give me some best practices and some boxes to explain what certain things are," and then I can be like, "Boop, boop, boop," and then--yeah, and then there we go.
 JAMES: Yes. You can--you can go and create the--
 FRANCESC: I think it makes that noise too.
@@ -363,7 +363,7 @@ FRANCESC: Yeah. Eric Schmidt, when he was talking about Google Free, first of al
 TODD: Yeah
 FRANCESC: Yeah. That is very interesting.
 TODD: So time will tell. It'll be fun to watch.
-MARK: Definitely gonna think there's some good stuff on the horizon. So it sounds like you use a variety of Google Cloud Platform tools at the moment. If you had to pick one that was your favorite, which one would you pick?
+MARK: Definitely gonna think there's some good stuff on the horizon. So it sounds like you use a variety of Google Cloud tools at the moment. If you had to pick one that was your favorite, which one would you pick?
 NEIL: Well, if we don't say BigTable, Carter will kill us. But--so we love BigTable, and we love data flow.
 MARK: Oh, nice.
 NEIL: We love data flow, because we went from, you know, a year ago, the initial prototype used the [inaudible] native Hadoop distribution, which was fine. It was great. But the data flow stuff just makes life so much easier. The auto scaling is a thing of joy to behold.
@@ -382,7 +382,7 @@ FRANCESC: Well, thank you so much for taking the time to come here to talk to us
 NEIL: Anytime. Our pleasure.
 TODD: Thank you.
 MARK: Appreciate it.
-FRANCESC: Well, thanks again to all of those speakers that took the time to go by the Google Cloud Platform Podcast booth at GCPNext.
+FRANCESC: Well, thanks again to all of those speakers that took the time to go by the Google Cloud Podcast booth at GCPNext.
 MARK: Yeah. Well, that was--
 FRANCESC: That's a mouthful. Thanks for taking the time to go by, talk to us, and tell us a little bit about what they were talking and what they thought about the conference.
 MARK: Yeah.
@@ -425,7 +425,7 @@ ROMIN: Cool. Thank you.
 FRANCESC: Thank you so much.
 MARK: Thanks for joining us. Thanks to Roman Irani for coming by the booth and asking such an interesting question. We got to have a really good chat about it, so--
 FRANCESC: And Go-related.
-MARK: It was Go-related. So that makes--that makes Francesc very, very happy. Excellent. So I know is that as of this podcast recording, I will be at Strata. I'll be helping running the code labs there. So if you're listening to the podcast and at that event, please, swing by and say hello. I would love to say hi. I'll be wearing my Google Cloud Platform Podcast tee shirt, too.
+MARK: It was Go-related. So that makes--that makes Francesc very, very happy. Excellent. So I know is that as of this podcast recording, I will be at Strata. I'll be helping running the code labs there. So if you're listening to the podcast and at that event, please, swing by and say hello. I would love to say hi. I'll be wearing my Google Cloud Podcast tee shirt, too.
 FRANCESC: Oh, yeah. But if you're a listener, we actually now have tee shirts out. Maybe if you find us at some event, we'll be able to provide you with some.
 MARK: Yeah. Limited edition.
 FRANCESC: They’re local. Limited edition. Totally. Yeah.

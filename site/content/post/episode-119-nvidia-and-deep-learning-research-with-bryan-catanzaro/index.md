@@ -96,7 +96,7 @@ What to watch out for and get involved in at the Game Developers Conference (GDC
 - Women in Games International (WIGI) [site](https://getwigi.com/)
 - Blacks in Gaming (BIG) [site](https://www.facebook.com/Blacks-in-Gaming-142639569140671/)
 - Serious Games (SIGs) [site](http://www.igda.org/group/serious)
-- What's New in Firebase and Google Cloud Platform for Games [site](https://en.wikipedia.org/wiki/Final_Fantasy_(video_game))
+- What's New in Firebase and Google Cloud for Games [site](https://en.wikipedia.org/wiki/Final_Fantasy_(video_game))
 - Summits to Checkout:
   - AI Game Developers Summit [site](http://www.gdconf.com/conference/ai.html)
   - Game Narrative Summit [site](http://www.gdconf.com/conference/gamenarrative.html)
@@ -122,7 +122,7 @@ Mark and Sherol are at the [Game Developer's Conference (GDC)](http://www.gdconf
 
 Sherol will be at [TensorFlow Dev Summit](https://www.tensorflow.org/dev-summit/) speaking about machine learning research and creativity next week.
 
-{{< transcript "MARK: Hi, and welcome to episode 119 of the weekly \"Google Cloud Platform Podcast.\" I'm Mark Mandel, and I'm here with my colleague, as always, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to episode 119 of the weekly \"Google Cloud Podcast.\" I'm Mark Mandel, and I'm here with my colleague, as always, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm doing good, Mark. How are you? And we have a special co-host with us today. 
 

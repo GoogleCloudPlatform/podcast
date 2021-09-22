@@ -23,7 +23,7 @@ and you might want to know more about it. Well, this episode is for you!
 
 [Rob Whitehead](https://twitter.com/rjfwhite), CTO and co-founder of Improbable, joins the podcast to explain to
 your co-hosts, [Mark](https://twitter.com/Neurotic) and [Francesc](https://twitter.com/francesc),
-everything there is to know about Improbable, SpatialOS, and their relationship to Google Cloud Platform.
+everything there is to know about Improbable, SpatialOS, and their relationship to Google Cloud.
 
 <!--more-->
 
@@ -79,7 +79,7 @@ Mark will be at [GDC](http://www.gdconf.com/) and afterwards he'll be speaking a
 Francesc will speak tomorrow at the Go 1.8 [release party](https://www.meetup.com/golangsf/events/236673793/)
 in San Francisco. A bit later he'll also be at [Gophercon India](http://www.gophercon.in).
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 61 of the weekly Google Cloud Platform Podcast I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 61 of the weekly Google Cloud Podcast I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 
 MARK: I'm good, thanks, Francesc. All the better because we're in the same room at the same time. 
 
@@ -199,7 +199,7 @@ So if you're trying to simulate a very huge game, well, then you're going to hav
 
 And it really depends on what domain you're modeling. And to get formal about it, it's in the realm of complex systems modeling. It's modeling systems where you have lots of little things interacting, and then you get crazy emerging consequences from that. 
 
-MARK: Awesome. All right, so this is the Google Cloud Platform Podcast. Usually we talk about how you use Google Cloud Platform. But as well as that, I think it's worth noting there's a partnership here between Google Cloud Platform and Improbable as well. Do you want to talk a bit about how that works, and what that provides for developers? 
+MARK: Awesome. All right, so this is the Google Cloud Podcast. Usually we talk about how you use Google Cloud. But as well as that, I think it's worth noting there's a partnership here between Google Cloud and Improbable as well. Do you want to talk a bit about how that works, and what that provides for developers? 
 
 ROB: Yeah, so, I think both Improbable and Google agree that SpatialOS lets people build fundamentally new kinds of game experience with these massive simulated meaningful worlds. But it also lets smaller teams do so. And the idea of our games innovation program is about enabling game developers to get credits to start developing with SpatialOS for free. And essentially you have credits, so that rather than when you're developing your game, you have to pay for the compute being used here, and you have to pay for the compute after launch. So it's about helping you get up and running and not be afraid of really pushing the boundaries in terms of what you can do. 
 
@@ -253,15 +253,15 @@ MARK: I've played it. There's lots of fire. It's fun.
 
 FRANCESC: Yeah. Marks set me on fire. It wasn't very friendly. 
 
-MARK: That's what friends are for. Cool. All right, so now I'm also curious. SpatialOS sounds great. Platform as a service for these massively online games. Why does SpatialOS and Improbable use Google Cloud Platform? Like, what are you using on us as products? 
+MARK: That's what friends are for. Cool. All right, so now I'm also curious. SpatialOS sounds great. Platform as a service for these massively online games. Why does SpatialOS and Improbable use Google Cloud? Like, what are you using on us as products? 
 
 ROB: Yes, sure. So although as a developer, you're going to interact with SpatialOS under the hood with an innovation program like we wrote on Google Compute Engine to actually run those VMs. So when you create a SpatialOS deployment, you're going be using Google VMs to get requisitioned and start. And the thing we found with Google VMs is specifically around their provisioning time. 
 
 So actually, if you're a small group of [INAUDIBLE] and you're trying to do a game jam and you want to be iterating rapidly and pushing your simulation to the cloud, like having a tight provisioning loop is really good, because it's the amount of time you go from a CLI command to actually having a game running in the cloud that you can go and play. And one we found GCE was specifically good for that. 
 
-And the other side, which is something to bear in mind with games, is a lot of the web is built around TCP. It's built around these cross-response connections, a lot of JSON. And when you move towards applications like games, you're actually dealing with fire hoses of unreliable UDP packets. And traditionally, a lot of clouds haven't really been set up to be particularly good at routing that kind of traffic. And from our side, we found our Google Cloud Platform was a good choice in terms of games networking as well. 
+And the other side, which is something to bear in mind with games, is a lot of the web is built around TCP. It's built around these cross-response connections, a lot of JSON. And when you move towards applications like games, you're actually dealing with fire hoses of unreliable UDP packets. And traditionally, a lot of clouds haven't really been set up to be particularly good at routing that kind of traffic. And from our side, we found our Google Cloud was a good choice in terms of games networking as well. 
 
-FRANCESC: Nice. So, I think that on top of using Google Cloud Platform, you might have also been using other Google open source projects. Like, you mentioned [INAUDIBLE] and [INAUDIBLE] I think their headline is something like "Google infrastructure for everyone." Are you using something like GRPC. 
+FRANCESC: Nice. So, I think that on top of using Google Cloud, you might have also been using other Google open source projects. Like, you mentioned [INAUDIBLE] and [INAUDIBLE] I think their headline is something like "Google infrastructure for everyone." Are you using something like GRPC. 
 
 ROB: Yeah. There's actually plenty of stuff to talk about. And the first thing, yeah, is GRPC, although the core entity synchronization things within [INAUDIBLE] are bespoke. The platform itself, in terms of requisitioning deployments, getting metadata, all that where you use GRPC, the reason why we like that is, one is very, very easy streaming responses based upon HTTP/2. And the other side as well is having that binary serialization by default, and also having a typed RPC system by default as well, rather than throwing around JSON, and we found it was perfect for our use cases. And I guess another thing in the Google Space we use is Bazel So we have, when you're building a simulation platform, you're building APIs, which can be used in C#, C++, JavaScript, Java. And a tool like Bazel lets you handle a mono repo, which has a load of different languages working together in the same [? world. ?] And so we found that invaluable in terms of scaling as an engineering organization. 
 
@@ -337,7 +337,7 @@ MARK: Awesome. All right, so we're slowly running out of time. Where can people 
 
 ROB: Yes, I think it's a big couple of weeks for us. I think the first stop, as I said, GDC. So we're going to be-- so if you to spatialos.com/gdc, this is going to be telling us all about the events we're running there. 
 
-We're going to be running some panels. We're going to be doing a couple of onstage presentations. And we also have a booth nearby Google Cloud Platform, actually. You can come and find us. We're going be putting on some evening events, which you can find out more through that link. 
+We're going to be running some panels. We're going to be doing a couple of onstage presentations. And we also have a booth nearby Google Cloud, actually. You can come and find us. We're going be putting on some evening events, which you can find out more through that link. 
 
 And after that, the week after is going to be GCP Next. And we're going to be hanging out there. I know Herman, our CEO's, doing a talk. I'm going to be on stage with Mark thinking about some more SpatialOS. That's going to be good fun. And, yeah, that's probably the next things on our radar for events. 
 
@@ -459,7 +459,7 @@ MARK: /r/gcppodcast.
 
 FRANCESC: And finally, we are on Slack. 
 
-MARK: The hash podcast channel on the Google Cloud Platform community Slack, which can be found on bit.ly/gcp-slack. 
+MARK: The hash podcast channel on the Google Cloud community Slack, which can be found on bit.ly/gcp-slack. 
 
 FRANCESC: Wow, what a mouthful. 
 

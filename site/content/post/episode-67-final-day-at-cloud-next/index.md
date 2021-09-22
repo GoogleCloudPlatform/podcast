@@ -37,13 +37,13 @@ Today we interview some of the many Google Cloud Partners attending the conferen
 
 ###### Cornelius and Neal
 
-[Cornelius Willis](https://twitter.com/corneliuswillis) is the Head of Marketing for Google Cloud Platform,
-and [Neal Mueller](https://twitter.com/nealmueller) is a Product Marketing Lead also at Google Cloud Platform.
+[Cornelius Willis](https://twitter.com/corneliuswillis) is the Head of Marketing for Google Cloud,
+and [Neal Mueller](https://twitter.com/nealmueller) is a Product Marketing Lead also at Google Cloud.
 
 They joined us today to tell us more about
 [Titan](http://www.zdnet.com/article/google-cloud-unveils-its-custom-security-chip-new-security-features/),
 a new [Trusted Platform Module](https://en.wikipedia.org/wiki/Trusted_Platform_Module)
-designed by Google and for Google Cloud Platform, and a very fancy jewelry accessory!
+designed by Google and for Google Cloud, and a very fancy jewelry accessory!
 
 Watch Urs Hölzle talk about his earring/Trusted Platform Module [here](https://www.youtube.com/watch?v=kwnWfHq2EfQ&t=1882).
 
@@ -53,10 +53,10 @@ Watch Urs Hölzle talk about his earring/Trusted Platform Module [here](https://
 
 ###### Miles Ward
 
-[Miles Ward](https://twitter.com/milesward) is the Global Head of Solutions at Google Cloud Platform, and
+[Miles Ward](https://twitter.com/milesward) is the Global Head of Solutions at Google Cloud, and
 he joins us to share his Cloud Next experience and that of some of the many customers he got to interact with.
 
-You can find all of our Google Cloud Platform Solutions at [cloud.google.com/solutions](http://cloud.google.com/solutions).
+You can find all of our Google Cloud Solutions at [cloud.google.com/solutions](http://cloud.google.com/solutions).
 
 ##### More about Cloud Next
  
@@ -110,7 +110,7 @@ CORNELIUS: Well great, now that I know how important I am.
 
 FRANCESC: So for everybody else that does not know how important you are, why don't you tell us who you are or what you do at Google. 
 
-CORNELIUS: So I'm Cornelius Willis I take care of product marketing Google Cloud Platform, which means I get to work with amazing people like Neil. 
+CORNELIUS: So I'm Cornelius Willis I take care of product marketing Google Cloud, which means I get to work with amazing people like Neil. 
 
 FRANCESC: So what about you, Neil? 
 
@@ -126,9 +126,9 @@ CORNELIUS: Urs Holzle.
 
 FRANCESC: Holzle. Nice. I've never-- I'm going to go with Urs for now. And so Urs showed that he was wearing an earring that was a chip that does authentication for stuff and machines in the cloud. What is that thing? 
 
-CORNELIUS: So that is the Titan authentication chip that goes on a whole bunch of Google hardware. Essentially, every piece of hardware in Google's infrastructure can be individually identified and any service using it mutually authenticates to that hardware, and the Titan chip is one of the ways we accomplish that. And were so excited to be able to actually reveal that. I mean, if we think about the product marketing's job for Google Cloud Platform, it's to convince leadership to progressively expose more and more Google innovation, even if we're a little uncomfortable with it. So this is a great example of whom were actually able to throw back the kimono on something that was really interesting and is really different from what other cloud platforms provide. 
+CORNELIUS: So that is the Titan authentication chip that goes on a whole bunch of Google hardware. Essentially, every piece of hardware in Google's infrastructure can be individually identified and any service using it mutually authenticates to that hardware, and the Titan chip is one of the ways we accomplish that. And were so excited to be able to actually reveal that. I mean, if we think about the product marketing's job for Google Cloud, it's to convince leadership to progressively expose more and more Google innovation, even if we're a little uncomfortable with it. So this is a great example of whom were actually able to throw back the kimono on something that was really interesting and is really different from what other cloud platforms provide. 
 
-MARK: Yeah. I liked the joke that Urs did, which was since we have the Titan chip, this is an authentic Google Cloud Platform like-- I'm sorry-- a Google Cloud Platform keynote, like we know for sure that it's him. 
+MARK: Yeah. I liked the joke that Urs did, which was since we have the Titan chip, this is an authentic Google Cloud like-- I'm sorry-- a Google Cloud keynote, like we know for sure that it's him. 
 
 CORNELIUS: And the thing is I was a little worried when he removed it from his ear, because then he was no longer in a trusted, good state. We might have had to shut it down. So it would have happened to a process-- 
 
@@ -316,7 +316,7 @@ FRANCESC: That's an amazing pun.
 
 MARK: Excellent. Well I think that's about it. Is there anything else either of you would like to add or anything that has been mentioned that you think is important? 
 
-NEIL: Thank you to you guys for doing this podcast, day in and day out-- the tireless work and creativity that you provide. And thanks to our listeners for being on Google Cloud Platform, for being interested in what we're doing. 
+NEIL: Thank you to you guys for doing this podcast, day in and day out-- the tireless work and creativity that you provide. And thanks to our listeners for being on Google Cloud, for being interested in what we're doing. 
 
 FRANCESC: Thank you two for taking the time to come talk to us today. 
 
@@ -458,7 +458,7 @@ MILES: They're like, I get both. Wait a minute. How-- why-- how am I-- what? Lik
 
 FRANCESC: So what's your view on the fact that, well, Spanner is still beta? Does that mean that people are not using it? It seems like it's pretty much the other way around. 
 
-MILES: No. I mean-- so I mean, in my experience, what I've seen-- you have to imagine there's a range of products that are being built by Google Cloud Platform that are being built for Cloud, right now, as we speak, from scratch. Right? The DLP API is not that way. We take a service from G Suite and we externalize it as a dedicated service that customers can use. Right? 
+MILES: No. I mean-- so I mean, in my experience, what I've seen-- you have to imagine there's a range of products that are being built by Google Cloud that are being built for Cloud, right now, as we speak, from scratch. Right? The DLP API is not that way. We take a service from G Suite and we externalize it as a dedicated service that customers can use. Right? 
 
 Spanner is an example that's more that way, where we have a running production system handling millions and millions of transactions a second, serving hundreds of Google businesses. It is highly mature in its operations model. RSLOs are well defined, with a clear standard service there. The new part is that we're charging for it. They're just little billing components that got to get slapped on. You've got to have an API that's externalized that you need to slap on. And we need to test those to the same level of rigor as the core operations. 
 

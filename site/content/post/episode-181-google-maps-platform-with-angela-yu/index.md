@@ -83,7 +83,7 @@ Mark Mirch will be customer filming for [Stack Chat](https://www.youtube.com/pla
 * "Spaceship Atmosphere 02" by RICHERIandTV of [Freesound.org](https://freesound.org/)
 * "At the jazz concert Crowd laugh.wav" by Ftom_woysky of [Freesound.org](https://freesound.org/)
 
-{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 181 of the weekly Google Cloud Platform podcast. I am Mark, and I'm here with my colleague, Mark." >}} 
+{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 181 of the weekly Google Cloud podcast. I am Mark, and I'm here with my colleague, Mark." >}} 
 
 MARK MIRCHANDANI: Hi, Mark. 
 
@@ -311,7 +311,7 @@ One example that I saw recently was one of our Google Developer experts. These a
 
 So then a bike-sharing company could use that data and better deploy where their bikes should be available. Because the worst thing is if they were to put them off in where they think the biking locations are, and nobody actually is trying to use it from there. That's a really interesting project that he open sourced it. And it's out there on Hackster. We can put a link to it in the show notes. But I think that's a really great example of using IoT data, displaying it on a map and being able to make a lot better decisions based on that data. 
 
-MARK MANDEL: I think you brought up something interesting there, too, where you were talking about Firebase and the Maps API. Given that we're the "Google Cloud Platform" podcast, are you seeing interesting interactions or grouping of technology with Google Cloud with the Maps API mishmashing together? How does that look to you? 
+MARK MANDEL: I think you brought up something interesting there, too, where you were talking about Firebase and the Maps API. Given that we're the "Google Cloud" podcast, are you seeing interesting interactions or grouping of technology with Google Cloud with the Maps API mishmashing together? How does that look to you? 
 
 ANGELA: Yeah. One of the biggest trends that we see is the big data visualization. And we have a really great Code Lab that shows you how to query big data from the query and bring that into a Google Map. So then any data that you have that has a location aspect to it can then be put on a map. And you can process really huge data sets, and be able to visualize them, and really communicate and tell stories about what is important in that data, that you just couldn't really surface before. 
 
@@ -417,7 +417,7 @@ On GitHub, we have a Google Maps organization that has a bunch of repos for clie
 
 MARK MIRCHANDANI: And so the process for someone to get started, just like any other API, they can just go to the GCP console, enable the Maps API, get the key, and then start with any of those tutorials, right? 
 
-ANGELA: Yeah, and one of the great things about us is that we, on top of any credits that you've already gotten through Google Cloud Platform, you also get a $200 monthly credit recurring for the Maps APIs. So your first $200 of Maps API spend is free every month. And so that covers any kind of experimentation or development that you want to do, to just try things out before you actually go into production and get a lot of users. So with that, we try to encourage and enable more of that experimentation and playing around before it starts to cost you anything. 
+ANGELA: Yeah, and one of the great things about us is that we, on top of any credits that you've already gotten through Google Cloud, you also get a $200 monthly credit recurring for the Maps APIs. So your first $200 of Maps API spend is free every month. And so that covers any kind of experimentation or development that you want to do, to just try things out before you actually go into production and get a lot of users. So with that, we try to encourage and enable more of that experimentation and playing around before it starts to cost you anything. 
 
 MARK MANDEL: That sounds great. And it sounds like so that's being charged as a separate product. Is that billing unified with the cloud? Do I need to set up a separate account or anything like that? 
 
@@ -573,7 +573,7 @@ MARK MIRCHANDANI: --to talk to a couple of customers and chat with them about th
 
 MARK MANDEL: Well, I'll definitely check out your YouTube channel. 
 
-MARK MIRCHANDANI: Awesome. It's all on the Google Cloud Platform YouTube channel. 
+MARK MIRCHANDANI: Awesome. It's all on the Google Cloud YouTube channel. 
 
 MARK MANDEL: I'll check that out. That sounds good. 
 

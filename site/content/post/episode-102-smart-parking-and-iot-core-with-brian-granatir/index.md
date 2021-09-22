@@ -57,7 +57,7 @@ Mark will be Montreal in December to speak at [Montreal International Games Summ
 
 Melanie will be speaking at [QCon](https://qconsf.com) is San Francisco next week!
 
-{{< transcript "MARK: Hi, and welcome to Episode Number 102 of the weekly Google Cloud Platform podcast. I am Mark Mandel, and I'm here with my colleague Melanie Warrick. Hello, Melanie. How are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to Episode Number 102 of the weekly Google Cloud podcast. I am Mark Mandel, and I'm here with my colleague Melanie Warrick. Hello, Melanie. How are you doing today?" >}}
 
 MELANIE: Hi, Mark. I'm doing good. How's the jet lag treating you? 
 
@@ -79,7 +79,7 @@ MELANIE: I know. That's good.
 
 MARK: Excellent. And then after the main content, we have our question of the week. We'll be talking about how do you configure a Postgres Cloud SQL instance for high availability. But before we get into all that, why don't we talk about our cool things of the week. Melanie, did you want to go first? 
 
-MELANIE: Sure. I'll start with a couple. I'm going to mention that they've got this article that's out there on the Google Cloud Platform blog, and it talks about how machine learning is used for speech recognition. It's kind of a nice overview and touches on just looking at wavelengths, applying Fourier transform, also using hidden Markov models. Not Mark as in Mark who's speaking, but Markov. 
+MELANIE: Sure. I'll start with a couple. I'm going to mention that they've got this article that's out there on the Google Cloud blog, and it talks about how machine learning is used for speech recognition. It's kind of a nice overview and touches on just looking at wavelengths, applying Fourier transform, also using hidden Markov models. Not Mark as in Mark who's speaking, but Markov. 
 
 [LAUGHTER] 
 
@@ -87,7 +87,7 @@ MARK: And it has a pretty diagram that I can click things on that--
 
 MELANIE: Yeah, there is a nice diagram. And the link will be provided on the GCP podcast blog. 
 
-MARK: Excellent, cool. We should probably make note of the fact that GCP now has a whole brand new region, which is pretty amazing, in the Mumbai region. So another great spot in the APAC region. They have availability for App Engine, Compute Engine, Container Engine, Dataproc, Data Lab, a whole bunch of other stuff as well. But the really cool thing I think for that area is that you're able now to pay in local currency as well. So now if you want to pay for Google Cloud Platform products, you can do so in rupees. 
+MARK: Excellent, cool. We should probably make note of the fact that GCP now has a whole brand new region, which is pretty amazing, in the Mumbai region. So another great spot in the APAC region. They have availability for App Engine, Compute Engine, Container Engine, Dataproc, Data Lab, a whole bunch of other stuff as well. But the really cool thing I think for that area is that you're able now to pay in local currency as well. So now if you want to pay for Google Cloud products, you can do so in rupees. 
 
 MELANIE: And also it definitely is a value from a latency standpoint. 
 
@@ -95,7 +95,7 @@ MARK: Absolutely. And there's definitely so much cool tech going on in that regi
 
 MELANIE: Definitely. 
 
-MARK: Awesome. Finally, we have high availability and replication for Cloud SQL for Postgres. That was definitely a missing feature for a little while, and a lot of people gave us feedback on that. So if you need failover or you want to be able to set up read replicas for your Postgres instances, that is now available for you to take advantage of on Google Cloud Platform. 
+MARK: Awesome. Finally, we have high availability and replication for Cloud SQL for Postgres. That was definitely a missing feature for a little while, and a lot of people gave us feedback on that. So if you need failover or you want to be able to set up read replicas for your Postgres instances, that is now available for you to take advantage of on Google Cloud. 
 
 MELANIE: It'll be fun. All right, well, I think it's time for us to get into the interview. 
 
@@ -135,7 +135,7 @@ FRANCESC: Cool. And I'm curious. All of this-- what kind of technology are you u
 
 BRIAN: Yeah. So the old platform-- so what we've professionally referred to as Version 2 was all 100% home built. So it's using custom-built devices that are installed underground and custom gateways that broadcast the stuff back to our network services and goes to our servers. We did do a transition of those servers out to AWS. I mean, that was kind of the structure that worked for us for a long time. 
 
-But now with the new platform, we've actually built the whole thing out on Google Cloud Platform, which gave us a whole new set of opportunities. And this is when we started to embrace the internet of things, right, not just our device, but any device that wants to be able to kind of join our party is able to send us the messages, and we're able to aggregate, analyze, and act upon all those different devices. 
+But now with the new platform, we've actually built the whole thing out on Google Cloud, which gave us a whole new set of opportunities. And this is when we started to embrace the internet of things, right, not just our device, but any device that wants to be able to kind of join our party is able to send us the messages, and we're able to aggregate, analyze, and act upon all those different devices. 
 
 FRANCESC: Cool. So how do you do that? 
 

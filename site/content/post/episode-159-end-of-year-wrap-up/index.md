@@ -36,7 +36,7 @@ Happy Holidays, everyone! [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
      * Mark and the podcast are celebrating their three year anniversary!
 
 * Top 10 most downloaded episodes of all time!
-     1. GCP Podcast Episode 111: Google Cloud Platform with Sam Ramji [podcast](https://gcppodcast.com/post/episode-111-google-cloud-platform-with-sam-ramji/ )
+     1. GCP Podcast Episode 111: Google Cloud with Sam Ramji [podcast](https://gcppodcast.com/post/episode-111-google-cloud-platform-with-sam-ramji/ )
      2. GCP Podcast Episode 112: Percy.io with Mike Fotinakis [podcast](https://gcppodcast.com/post/episode-112-percy-io-with-mike-fotinakis/)
      3. GCP Podcast Episode 146: Google AI with Jeff Dean [podcast](https://gcppodcast.com/post/episode-146-google-ai-with-jeff-dean/)
      4. GCP Podcast Episode 127: SRE vs Devops with Liz Fong-Jones and Seth Vargo [podcast](https://gcppodcast.com/post/episode-127-sre-vs-devops-with-liz-fong-jones-and-seth-vargo/)
@@ -45,7 +45,7 @@ Happy Holidays, everyone! [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
      7. GCP Podcast Episode 88: Kubernetes 1.7 with Tim Hockin [podcast](https://www.gcppodcast.com/post/episode-88-kubernetes-1-7-with-tim-hockin/)
      8. GCP Podcast Episode 108: Launchpad Studio with Malika Cantor and Peter Norvig [podcast](https://www.gcppodcast.com/post/episode-108-lauchpad-studio-with-malika-cantor-and-peter-norvig/)
      9. GCP Podcast Episode 130: Data Science with Juliet Hougland and Michelle Casbon [podcast](https://www.gcppodcast.com/post/episode-130-data-science-with-juliet-hougland-and-michelle-casbon/)
-     10. GCP Podcast Episode 125: Open Source at Google Cloud Platform with Sarah Novotny [podcast](https://gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/)
+     10. GCP Podcast Episode 125: Open Source at Google Cloud with Sarah Novotny [podcast](https://gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/)
 
 * Top 10 most downloaded episodes for 2018!
 
@@ -59,7 +59,7 @@ Happy Holidays, everyone! [Melanie](https://twitter.com/nyghtowl) and [Mark](htt
      * GCP Podcast Episode 131: Actions on Google with Mandy Chan [podcast](https://gcppodcast.com/post/episode-131-actions-on-google-with-mandy-chan/)
      * GCP Podcast Episode 148: Wellio with Sivan Aldor-Noiman and Erik Andrejko [podcast](https://gcppodcast.com/post/episode-148-wellio-with-sivan-aldor-noiman-and-erik-andrejko/)
      * GCP Podcast Episode 110: CPU Vulnerability with Matt Linton and Paul Turner [podcast](https://gcppodcast.com/post/episode-110-cpu-vulnerability-with-matt-linton-and-paul-turner/)
-     * GCP Podcast Episode 125: Open Source at Google Cloud Platform with Sarah Novotny [podcast](https://gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/)
+     * GCP Podcast Episode 125: Open Source at Google Cloud with Sarah Novotny [podcast](https://gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/)
      * GCP Podcast Episode 140: Container Security with Maya Kaczorowski [podcast](https://gcppodcast.com/post/episode-140-container-security-with-maya-kaczorowski/)
 
 * Melanie's favorite episodes
@@ -120,7 +120,7 @@ It's the holidays!
 * Thank you Francesc
 * Thank you listeners!
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 159 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel. And as always, I'm here with my colleague, Melanie Warrick. How you doing, Melanie?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 159 of the weekly Google Cloud Podcast. I'm Mark Mandel. And as always, I'm here with my colleague, Melanie Warrick. How you doing, Melanie?" >}} 
 
 MELANIE: Hey, Mark. I'm good. How are you doing? 
 
@@ -492,7 +492,7 @@ MELANIE: He's been holding it pretty much almost since February or March of this
 
 MARK: It is Sam Ramji. 
 
-MELANIE: Yes. He was, at the time, our VP of product management for Google Cloud Platform. 
+MELANIE: Yes. He was, at the time, our VP of product management for Google Cloud. 
 
 MARK: Yeah. So this is a really lovely one as well. Sam is a delightful fellow as well. 
 

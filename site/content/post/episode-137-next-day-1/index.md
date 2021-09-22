@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.137.mp3"
 audioSize = 26538104 
 categories = ["NEXT", "Intel", "Open Service Broker", "SAP", ]
 date = "2018-07-25"
-description = "On this very special episode of the Google Cloud Platform Podcast, we have live interviews from the first day of NEXT!"
+description = "On this very special episode of the Google Cloud Podcast, we have live interviews from the first day of NEXT!"
 draft = false
 episodeNumber = 137
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -18,7 +18,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/91v3rh/episode_137_ne
   name = "fimage"
 +++
 
-On this very special episode of the Google Cloud Platform Podcast, we have live interviews from the first day of NEXT! [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) had the chance to chat with Melody MeckFessel, VP of Engineering at Google Cloud and Pavan Srivastava of Deloitte. Next we spoke with Sandeep Dinesh about Open Service Broker and Raejeanne Skillern of Intel.
+On this very special episode of the Google Cloud Podcast, we have live interviews from the first day of NEXT! [Melanie](https://twitter.com/nyghtowl) and [Mark](https://twitter.com/Neurotic) had the chance to chat with Melody MeckFessel, VP of Engineering at Google Cloud and Pavan Srivastava of Deloitte. Next we spoke with Sandeep Dinesh about Open Service Broker and Raejeanne Skillern of Intel.
 
 <!--more-->
 
@@ -54,7 +54,7 @@ On this very special episode of the Google Cloud Platform Podcast, we have live 
 * Deloitte [site](https://www.deloitte.com/)
 * SAP [site](https://www.sap.com/index.html)
 * Deloitte and Google Cloud [blog](https://www2.deloitte.com/us/en/pages/about-deloitte/solutions/google-cloud.html)
-* Google Cloud Platform Service Broker [site](https://cloud.google.com/kubernetes-engine/docs/concepts/google-cloud-platform-service-broker)
+* Google Cloud Service Broker [site](https://cloud.google.com/kubernetes-engine/docs/concepts/google-cloud-platform-service-broker)
 * Open Service Broker [site](https://www.openservicebrokerapi.org)
 * Pub/Sub [site](https://cloud.google.com/pubsub/)
 * Cloud Spanner [site](https://cloud.google.com/spanner/)
@@ -71,7 +71,7 @@ We'll both be at [Cloud NEXT](https://cloud.withgoogle.com/next18/sf/) in Moscon
 
 MELANIE: Daily. 
 
-MARK: --daily episode of the Google Cloud Platform podcast. We are here live on floor 1 of Moscone West 
+MARK: --daily episode of the Google Cloud podcast. We are here live on floor 1 of Moscone West 
 
 MELANIE: Pseudo-live, but yes. We're recording as we speak, but we're also putting this out the day after. 
 
@@ -121,7 +121,7 @@ MARK: How can they contribute?
 
 [LAUGHTER] 
 
-MELODY: Well you know, we talk a lot about Google Cloud Platform being an open cloud. And so from a developer-- there's a platform aspect of that, which means open APIs and open protocols, but there's a developer and operator, or human-centered, perspective on what it means to be an open cloud, and that means having the freedom to choose what makes you most productive. 
+MELODY: Well you know, we talk a lot about Google Cloud being an open cloud. And so from a developer-- there's a platform aspect of that, which means open APIs and open protocols, but there's a developer and operator, or human-centered, perspective on what it means to be an open cloud, and that means having the freedom to choose what makes you most productive. 
 
 And I think about it in kind of three aspects. From a tooling perspective, the things that need to scale and work well on the platform, they're going to be GCP products, and we have several that we're announcing this week. 
 
@@ -143,11 +143,11 @@ So what is Cloud Build, and what is Stackdriver?
 
 MELODY: Great question. Cloud Build is a continuous integration and delivery platform. It's a way to automate, build, and test. So once you have your code written, this is a way to build and test, and make sure that you're sending something out to your users that's high quality. It includes things like security baked in. We have vulnerability scanning features to check and see if there's any issues with the images that you're releasing. We contribute with Netflix to something called Spinnaker, which is part of Cloud Build's open source deployment platform. So it's just, again, if I come back to the humans, I want to get features out to my users. I want to get them out safely and securely, and I want to move as fast as I possibly can. 
 
-MARK: Awesome. And are these just general, like these sort of continuous integration tools, these tools that aren't specifically container-based, they can be used with any Google Cloud Platform tooling? 
+MARK: Awesome. And are these just general, like these sort of continuous integration tools, these tools that aren't specifically container-based, they can be used with any Google Cloud tooling? 
 
-MELODY: Yeah, we support most aspects of the Google Cloud Platform, and integrate well with Kubernetes. All you essentially have is, you can set up your cloud build, and be good to go. 
+MELODY: Yeah, we support most aspects of the Google Cloud, and integrate well with Kubernetes. All you essentially have is, you can set up your cloud build, and be good to go. 
 
-You mentioned Stackdriver, Melanie. I wanted to come back to that. So there's the build and test and release aspect, but there's also, once your service is running on Google Cloud Platform, how do you monitor, and get alerts, and understand what's happening with the service through logging and features like error reporting. So we are continuing to evolve Stackdriver to be the set of products which allow operators to move at the speed of Google SREs. And I'm really excited, on day three, I'm going to be talking through some features around our APM suite, and this really gives both developers and operators insight into how to debug their service, tracing, and profiling their application to do optimizations. 
+You mentioned Stackdriver, Melanie. I wanted to come back to that. So there's the build and test and release aspect, but there's also, once your service is running on Google Cloud, how do you monitor, and get alerts, and understand what's happening with the service through logging and features like error reporting. So we are continuing to evolve Stackdriver to be the set of products which allow operators to move at the speed of Google SREs. And I'm really excited, on day three, I'm going to be talking through some features around our APM suite, and this really gives both developers and operators insight into how to debug their service, tracing, and profiling their application to do optimizations. 
 
 MELANIE: All very vital for performance, for sure. 
 
@@ -189,11 +189,11 @@ PRAVEEN: Yeah, so Praveen Srivastava. I'm a managing director in our technology 
 
 MELANIE: Nice. So what is the partnership that we currently have between Deloitte and Google? 
 
-PRAVEEN: At a very broad scale today, we do all sorts of co-innovation, all sort of go to the market together, mostly focused around implementing technology solutions for our clients. Definitely Deloitte goes into market by industry by sector, and we leverage Google Cloud technology to implement those technology at our client to solve those challenges. But more importantly, I'm focused around our enterprise client, and predominantly SAP as an enterprise solution at the core, and how best we can leverage Google Cloud Platform and other technology, as well as SAP RPA in the core, to help solve client problems. 
+PRAVEEN: At a very broad scale today, we do all sorts of co-innovation, all sort of go to the market together, mostly focused around implementing technology solutions for our clients. Definitely Deloitte goes into market by industry by sector, and we leverage Google Cloud technology to implement those technology at our client to solve those challenges. But more importantly, I'm focused around our enterprise client, and predominantly SAP as an enterprise solution at the core, and how best we can leverage Google Cloud and other technology, as well as SAP RPA in the core, to help solve client problems. 
 
 MARK: Awesome. I think we just saw Diana on stage, too, just mentioning how important it was relationships like this exist. 
 
-PRAVEEN: Yeah, absolutely. And it was really exciting, I was hearing keynote, and two things that came out of the keynote which I was really super, super excited about-- one is [INAUDIBLE] coming on and talking about how he's excited about SAP and Google partnership. And that really means a lot for us, because our clients are also expecting us to play in this ecosystem with SAP and the leading cloud providers such as Google Cloud Platform. So having SAP's commitment to Google really means a lot to us, right, and that's why we are all so excited about it. 
+PRAVEEN: Yeah, absolutely. And it was really exciting, I was hearing keynote, and two things that came out of the keynote which I was really super, super excited about-- one is [INAUDIBLE] coming on and talking about how he's excited about SAP and Google partnership. And that really means a lot for us, because our clients are also expecting us to play in this ecosystem with SAP and the leading cloud providers such as Google Cloud. So having SAP's commitment to Google really means a lot to us, right, and that's why we are all so excited about it. 
 
 And the second thing Diane Greene mentioning about system integrators playing a major role in helping Google and the client to adopt these technologies. And Deloitte is one of the leading system integrators in that space, so definitely excited about taking this to the next level. 
 
@@ -307,7 +307,7 @@ RAEJEANNE: I think just the growth of this conference. It's just amazing to come
 
 MELANIE: So do I. 
 
-RAEJEANNE: Those kind of simple things that aren't very simple to create to the power of the AI, and Diane Greene talking about how it's the number one platform in health care, and just the wins that they're getting. So it's just that growth. Everybody knows Google globally as search, but really watching the power of the G Suite and the Google Cloud Platform take off is impressive. 
+RAEJEANNE: Those kind of simple things that aren't very simple to create to the power of the AI, and Diane Greene talking about how it's the number one platform in health care, and just the wins that they're getting. So it's just that growth. Everybody knows Google globally as search, but really watching the power of the G Suite and the Google Cloud take off is impressive. 
 
 MELANIE: Great. Well, thank you for joining us today. We really appreciate it. 
 

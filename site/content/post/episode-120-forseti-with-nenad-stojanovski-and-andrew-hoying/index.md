@@ -4,7 +4,7 @@ audioFile = "Google.Cloud.Platform.Podcast.Episode.120.mp3"
 audioSize = 46314455
 categories = ["Security", "Open Source"]
 date = "2018-03-28"
-description = "Nenad Stojanovski and Andrew Hoying join Mark and Melanie this week to discuss Forseti - open source tools for Google Cloud Platform security" 
+description = "Nenad Stojanovski and Andrew Hoying join Mark and Melanie this week to discuss Forseti - open source tools for Google Cloud security" 
 draft = false
 episodeNumber = 120
 hosts = ["Mark Mandel", "Melanie Warrick"]
@@ -20,7 +20,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/87u6e7/episode_120_fo
 +++
 
 Nenad Stojanovski and Andrew Hoying join [Mark](https://twitter.com/Neurotic) and [Melanie](https://twitter.com/nyghtowl)
-this week to discuss [Forseti](https://forsetisecurity.org) - open source tools for Google Cloud Platform security. 
+this week to discuss [Forseti](https://forsetisecurity.org) - open source tools for Google Cloud security. 
 
 <!--more-->
 
@@ -28,7 +28,7 @@ this week to discuss [Forseti](https://forsetisecurity.org) - open source tools 
 Staff Security Engineer, Spotify
 
 ##### Andrew Hoying
-Andrew Hoying is a Senior Security Engineer at Google. His goal is to ensure all services built by Google and running on Google Cloud Platform have the same, or better, security assurances as services running in any other environment. He is also a top contributor to the Forseti Security open-source project, helping enterprises monitor and secure their GCP environments.
+Andrew Hoying is a Senior Security Engineer at Google. His goal is to ensure all services built by Google and running on Google Cloud have the same, or better, security assurances as services running in any other environment. He is also a top contributor to the Forseti Security open-source project, helping enterprises monitor and secure their GCP environments.
 
 ##### Cool things of the week
 
@@ -58,7 +58,7 @@ How do I automatically scan the Docker images in your Google Cloud Repository fo
 - Melanie will be speaking about AI at [Techtonica](https://techtonica.org) on April 11th, and April 14th
 will be participating in a panel on Diversity and Inclusion at the [Harker Research Symposium](https://www.harker.org/about/events/research-symposium#bookmark-intro)
 
-{{< transcript "MARK: Hi, and welcome to Episode Number 120 of the weekly Google Cloud Platform Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
+{{< transcript "MARK: Hi, and welcome to Episode Number 120 of the weekly Google Cloud Podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Melanie, how are you doing today?" >}}
 
 MELANIE: I'm doing good. How are you, Mark? 
 
@@ -130,7 +130,7 @@ NENAD: Yeah, let's do that. So as you mentioned, my name is Nenad And I work as 
 
 MARK: Awesome, Andrew-- 
 
-ANDREW: Yes, I'm a senior security engineer in Google's Security and Privacy Organization. My team's focused on securing Google's use of Google Cloud Platform, both for internal services, as well as public facing services. 
+ANDREW: Yes, I'm a senior security engineer in Google's Security and Privacy Organization. My team's focused on securing Google's use of Google Cloud, both for internal services, as well as public facing services. 
 
 MARK: Fantastic. All right, well, so we brought you both in today because we want to talk to you both about the Forseti Project. Why don't you tell us from your perspective, and then we'll come back to Nenad, about what is Forseti, like at a high level, what problem is it trying to solve, what does it do? 
 
@@ -150,7 +150,7 @@ So that is how we ended up using Forseti and why, why we actually decided that i
 
 MARK: So that probably segues quite nicely into like-- so what was the history here? Where did this project start? How did this collaboration come to be? 
 
-ANDREW: Sure, I can take that from Google side, and then have Nenad fill in. Internally, we started using Google Cloud Platform here at Google, obviously, as soon as we launched it as a product. And we had quite a large deployment on Cloud, even as the security team was getting spun up. So we had a need to sort of inventory everything that was currently deployed on Cloud, and get sort of a baseline configuration. 
+ANDREW: Sure, I can take that from Google side, and then have Nenad fill in. Internally, we started using Google Cloud here at Google, obviously, as soon as we launched it as a product. And we had quite a large deployment on Cloud, even as the security team was getting spun up. So we had a need to sort of inventory everything that was currently deployed on Cloud, and get sort of a baseline configuration. 
 
 And then, as we've defined security policies, we needed a way to notify different teams and project owners that they needed to modify a configuration or make some setting change in order to comply with our security policies. So we needed some way to scale very quickly up to a very, very large environment. 
 
@@ -184,7 +184,7 @@ ANDREW: Yes, that's correct.
 
 MELANIE: And can you explain a little bit more about what those pieces do? 
 
-ANDREW: Sure, Inventory is simply the crawler that says look at all of the resources that are running in your organization. At Google Cloud Platform, we have a resource hierarchy that starts from an organization node, which is everything that belongs to your organization. Underneath that, you can have folders. Inside of those, you can have projects. 
+ANDREW: Sure, Inventory is simply the crawler that says look at all of the resources that are running in your organization. At Google Cloud, we have a resource hierarchy that starts from an organization node, which is everything that belongs to your organization. Underneath that, you can have folders. Inside of those, you can have projects. 
 
 And inside of projects, there are running resources, your virtual instances, your VMs, your storage, and everything else. So Forseti takes and crawls from the top down to create a snapshot inventory of everything that's running in your environment and stores that in a Cloud SQL storage currently. 
 
@@ -326,7 +326,7 @@ MELANIE: I think we need, at some point, to do just a mix of all the names we've
 
 MARK: David, I'm sorry. When I meet you soon, in person, soon, or in the near future, I apologize. But anyway, David writes an excellent, most excellent blog post, talking about this. So basically, the scenario is that if you're creating docker images for something like Kubernetes, or several other things that could be potentially possible, having a way to automatically scan those for potential security vulnerabilities is really, really useful. 
 
-What's great is that Google Cloud Platform has a Container Registry vulnerability scanning service that's currently in alpha, that is really easy to turn on and use. It's basically an API. You can go into your API manager and basically just turn it on. And then when you go to have a look at the images in Google Container Registry, you will actually see what vulnerabilities have been found-- preferably none-- for all of the images that you're creating, potentially with Google Container Builder. 
+What's great is that Google Cloud has a Container Registry vulnerability scanning service that's currently in alpha, that is really easy to turn on and use. It's basically an API. You can go into your API manager and basically just turn it on. And then when you go to have a look at the images in Google Container Registry, you will actually see what vulnerabilities have been found-- preferably none-- for all of the images that you're creating, potentially with Google Container Builder. 
 
 MELANIE: Nice. 
 

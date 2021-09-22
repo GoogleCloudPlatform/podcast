@@ -24,11 +24,11 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/99f1za/episode_143_wh
 
 ##### Steren Giannini
 
-[Steren Giannini](https://twitter.com/steren) is a Product Manager on Google Cloud Platform (GCP). He graduated from École Centrale Lyon, France and then was CTO of a startup that created mobile and multi-device solutions. After joining Google, Steren launched Stackdriver Error Reporting and now focuses on GCP's serverless offering. Recently, Steren has been working on [upgrading App Engine's auto scaling system](https://cloudplatform.googleblog.com/2018/05/Increase-performance-while-reducing-costs-with-the-new-App-Engine-scheduler.html) and bringing [Node.js to App Engine standard environment](https://cloudplatform.googleblog.com/2018/06/Now-you-can-deploy-your-Node-js-app-to-App-Engine-standard-environment.html).
+[Steren Giannini](https://twitter.com/steren) is a Product Manager on Google Cloud (GCP). He graduated from École Centrale Lyon, France and then was CTO of a startup that created mobile and multi-device solutions. After joining Google, Steren launched Stackdriver Error Reporting and now focuses on GCP's serverless offering. Recently, Steren has been working on [upgrading App Engine's auto scaling system](https://cloudplatform.googleblog.com/2018/05/Increase-performance-while-reducing-costs-with-the-new-App-Engine-scheduler.html) and bringing [Node.js to App Engine standard environment](https://cloudplatform.googleblog.com/2018/06/Now-you-can-deploy-your-Node-js-app-to-App-Engine-standard-environment.html).
 
 ##### Stewart Reichling
 
-[Stewart Reichling](https://twitter.com/stewblr) is a Product Manager on Google Cloud Platform (GCP). He is a graduate of Georgia Institute of Technology and has worked across Strategy, Marketing and Product Management at Google. He currently works on bringing new runtimes (Python, Node.js, +more to come!) to App Engine and Cloud Functions.
+[Stewart Reichling](https://twitter.com/stewblr) is a Product Manager on Google Cloud (GCP). He is a graduate of Georgia Institute of Technology and has worked across Strategy, Marketing and Product Management at Google. He currently works on bringing new runtimes (Python, Node.js, +more to come!) to App Engine and Cloud Functions.
 
 ##### Cool things of the week
 
@@ -72,7 +72,7 @@ Melanie will be at [Deep Learning Indaba](http://www.deeplearningindaba.com) and
 
 Mark will be at [Pax Dev](http://dev.paxsite.com/) and [Pax West](http://west.paxsite.com/) starting August 28th. In September, he'll be at [Tokyo NEXT](https://cloud.withgoogle.com/next18/tokyo) and [Strangeloop](https://www.thestrangeloop.com).
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi. And welcome to episode number 143 of the weekly "Google Cloud Platform" podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Hey, Melanie." >}}
+{{< transcript "[MUSIC PLAYING] MARK: Hi. And welcome to episode number 143 of the weekly "Google Cloud" podcast. I'm Mark Mandel and I'm here with my colleague, Melanie Warrick. Hey, Melanie." >}}
 
 MELANIE: Hi, Mark. 
 

@@ -69,7 +69,7 @@ Francesc will be at [GopherCon](https://www.gophercon.com/) in Denver!
 
 Mark will be speaking at [Google Cloud Summit, New York](https://cloudplatformonline.com/summit-NewYork-2017.html) with Phoenix One Games in July.
 
-{{< transcript "FRANSESC: Hi, and welcome to episode number 84 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
+{{< transcript "FRANSESC: Hi, and welcome to episode number 84 of the weekly Google Cloud Podcast. I am Francesc Campoy, and I'm here with my colleague Mark Mandel. Hey, Mark, how are you doing?" >}}
 
 MARK: I am very well. How are you doing? 
 

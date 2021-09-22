@@ -36,7 +36,7 @@ We also talk best use-cases for conversation AI. Does performing this task via v
 ##### Cool things of the week
 
 * How Google and Mayo Clinic will transform the future of healthcare [blog](https://cloud.google.com/blog/topics/customers/how-google-and-mayo-clinic-will-transform-the-future-of-healthcare)
-* Announcing the general availability of 6 and 12 TB VMs for SAP HANA instances on Google Cloud Platform [blog](https://cloud.google.com/blog/products/sap-google-cloud/announcing-the-general-availability-of-6-and-12tb-vms-for-sap-hana-instances-on-gcp)
+* Announcing the general availability of 6 and 12 TB VMs for SAP HANA instances on Google Cloud [blog](https://cloud.google.com/blog/products/sap-google-cloud/announcing-the-general-availability-of-6-and-12tb-vms-for-sap-hana-instances-on-gcp)
 * Understanding your GCP Costs [site](https://www.qwiklabs.com/quests/90) and [videos](https://www.youtube.com/playlist?list=PLIivdWyY5sqKJx6FwJMRcsnFIkkNFtsX9)
      * Coupon code for qwiklabs is: `1q-costs-626`
 
@@ -72,7 +72,7 @@ Mark will be on vacation soon!
 
 Priyanka will be at [GOTO Berlin](https://gotober.com), [Codemotion Milan](https://events.codemotion.com/conferences/milan/2019/), and [GOTO Copenhagen](https://gotocph.com)
 
-{{< transcript "[TECHNO MUSIC] MARK: Hi, and welcome to Episode 195 of the weekly Google Cloud Platform podcast. I'm Mark, and I'm here with my colleague and new host, Priyanka. Hey, Priyanka." >}}
+{{< transcript "[TECHNO MUSIC] MARK: Hi, and welcome to Episode 195 of the weekly Google Cloud podcast. I'm Mark, and I'm here with my colleague and new host, Priyanka. Hey, Priyanka." >}}
 
 PRIYANKA: Hi. 
 
@@ -96,7 +96,7 @@ MARK: So we're going to be getting into what that looks like a little bit later.
 
 [TECHNO MUSIC] 
 
-PRIYANKA: Yeah. So I have something cool. I read this blog post that Thomas Kurian himself had published out on Google and Mayo Clinic's new revolutionary partnership, in terms of AI in health care. And it's really exciting to see how we are able to take the AI innovations that we do at Google and apply them to some of the practical applications-- like the patient experience, clinical experience, and then diagnostic and even research. So there's going to be some more stuff as a part of this partnership coming up, which will be a combination of the security and the compliance that Google Cloud offers in the platform, combining with the infrastructure. So check out the blog post. But in general, it seems to be a very exciting venture where we're going to explore possibilities in health with the Google Cloud Platform. 
+PRIYANKA: Yeah. So I have something cool. I read this blog post that Thomas Kurian himself had published out on Google and Mayo Clinic's new revolutionary partnership, in terms of AI in health care. And it's really exciting to see how we are able to take the AI innovations that we do at Google and apply them to some of the practical applications-- like the patient experience, clinical experience, and then diagnostic and even research. So there's going to be some more stuff as a part of this partnership coming up, which will be a combination of the security and the compliance that Google Cloud offers in the platform, combining with the infrastructure. So check out the blog post. But in general, it seems to be a very exciting venture where we're going to explore possibilities in health with the Google Cloud. 
 
 MARK: Yeah, it's always super cool to hear about different companies that are using GCP. But I think a lot of it, like you mentioned, is really based on what the technologies are enabling them to do and then kind of all the cool research and future potential that comes out of that. 
 
@@ -120,7 +120,7 @@ MARK: That's the kind of stuff that I think that when customers come up and they
 
 PRIYANKA: Yeah. What was your second cool thing of the week? 
 
-MARK: My second cool thing of the week is a great little educational hands-on lab. Actually, it's a quest. So it's a full set of videos and labs, and then a little quiz the end, all called Understanding Your GCP Costs. So I've been working on this for a while. I've talked about it in a couple of the previous podcast episodes. And you can also see these videos on the Google Cloud Platform YouTube channel. 
+MARK: My second cool thing of the week is a great little educational hands-on lab. Actually, it's a quest. So it's a full set of videos and labs, and then a little quiz the end, all called Understanding Your GCP Costs. So I've been working on this for a while. I've talked about it in a couple of the previous podcast episodes. And you can also see these videos on the Google Cloud YouTube channel. 
 
 But it's kind of a good starting place to look at understanding your GCP costs, right? I mean, it's incredibly important to understand what tools are available for you to measure your costs. And then starting with this quest, and then the next content that will be coming out, it gives you a little bit more hands-on guidance for how to actually control your costs. So things you can put into place, there's a bunch of different discount tools, like sustained use discounts, committed use discounts, but then also identifying resources that you're not using, and then putting budgets and quotas into place so you can control it. 
 
@@ -132,7 +132,7 @@ You know, I really, really recommend it, especially people who are in finance, t
 
 PRIYANKA: Talk a little bit about, like, how do I set up my organizations so the costs are properly limited and stuff in that video series that you talked about earlier. 
 
-MARK: Absolutely. So there's a video or two on resource hierarchy and organizations. And again, these are things that the average individual user, someone who's not either using it as part of a business or as part of a small business, may not run into. But especially for large businesses and enterprises and so forth, the organization is a very, very important part of how you structure your Google Cloud Platform resources. And learning about that can be really, really handy for scaling out. 
+MARK: Absolutely. So there's a video or two on resource hierarchy and organizations. And again, these are things that the average individual user, someone who's not either using it as part of a business or as part of a small business, may not run into. But especially for large businesses and enterprises and so forth, the organization is a very, very important part of how you structure your Google Cloud resources. And learning about that can be really, really handy for scaling out. 
 
 PRIYANKA: Yeah, I remember those questions coming up a lot with enterprise customers that I spoke with. So I think it's amazing to have that resource, and we'll make sure that the link for the videos go in the description. 
 

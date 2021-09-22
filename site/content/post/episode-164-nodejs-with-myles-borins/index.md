@@ -32,7 +32,7 @@ Node.js is our topic this week as [Mark](https://twitter.com/Neurotic) and first
 * Google Cloud Next ‘19 session guide now available [blog](https://cloud.google.com/blog/topics/events/google-cloud-next-19-session-guide-now-available)
 * Introducing scheduled snapshots for Compute Engine persistent disk [blog](https://cloud.google.com/blog/products/compute/introducing-scheduled-snapshots-for-compute-engine-persistent-disk)
 * Reliable task scheduling on Compute Engine with Cloud Scheduler [site](https://cloud.google.com/solutions/reliable-task-scheduling-compute-engine)
-* How to make a self-destructing VM on Google Cloud Platform [article](https://medium.com/@davidstanke/how-to-make-a-self-destructing-vm-on-google-cloud-platform-b99883745b62)
+* How to make a self-destructing VM on Google Cloud [article](https://medium.com/@davidstanke/how-to-make-a-self-destructing-vm-on-google-cloud-platform-b99883745b62)
 * Making AI-powered speech more accessible—now with more options, lower prices, and new languages and voices [blog](https://cloud.google.com/blog/products/ai-machine-learning/making-ai-powered-speech-more-accessible-now-with-more-options-lower-prices-and-new-languages-and-voices)
 
 ##### Interview
@@ -71,7 +71,7 @@ Mark will be at [GDC](https://gdconf.com) in March, [Cloud NEXT](https://cloud.w
 
 Jon will be at [GDC](https://gdconf.com), [Cloud NEXT](https://cloud.withgoogle.com/next/sf), [ECG](http://ecgconf.com), and [Vector 2019](http://vectorconf.com/).
 
-{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 164 of the weekly Google Cloud Platform podcast. My name is Mark Mandel, and this week I am very excited to be joined by the wonderful John Foust. How are you doing, John?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK MANDEL: Hi, and welcome to episode number 164 of the weekly Google Cloud podcast. My name is Mark Mandel, and this week I am very excited to be joined by the wonderful John Foust. How are you doing, John?" >}} 
 
 JOHN FOUST: I'm doing good. Pleasure to be on the podcast for the first time. 
 
@@ -139,7 +139,7 @@ MYLES BORINS: You know, I didn't want to put too much pressure on you, but it's 
 
 MARK MANDEL: Excellent, excellent. So I know this isn't your first time on the podcast. We did have you back in 2017 for episode 105. But if people haven't had the distinct pleasure of meeting you, do you want to tell us about who you are and what you do at Google. 
 
-MYLES BORINS: I'm a developer advocate at Google, working specifically on Google Cloud Platform, and more specifically in our languages team. I actually think we all report up through the same manager. That's fun. 
+MYLES BORINS: I'm a developer advocate at Google, working specifically on Google Cloud, and more specifically in our languages team. I actually think we all report up through the same manager. That's fun. 
 
 MARK MANDEL: I think we actually do. 
 
@@ -283,7 +283,7 @@ So like Node.js being inside of this nonprofit, in this gender-neutral place to 
 
 JOHN FOUST: That's awesome. 
 
-MARK MANDEL: Nice, nice nice. What news have we got about Node.js on Google Cloud Platform? Have we had any recent updates or cool things that have come out that you want to talk about as well? 
+MARK MANDEL: Nice, nice nice. What news have we got about Node.js on Google Cloud? Have we had any recent updates or cool things that have come out that you want to talk about as well? 
 
 MYLES BORINS: Yeah, absolutely. I mean, there's a couple different places where you can run Node in our cloud. 
 

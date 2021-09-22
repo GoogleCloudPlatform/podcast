@@ -28,11 +28,11 @@ dare to ask.
 
 ##### About Indranil Chakraborty
 
-Indranil is a product manager for Google Cloud Platform and leads product strategy and development for Cloud IoT Core. Previously, he held product management roles at Google Fiber and sales strategy roles for Google AdWords. Indranil holds an MBA from UCLA Anderson.
+Indranil is a product manager for Google Cloud and leads product strategy and development for Cloud IoT Core. Previously, he held product management roles at Google Fiber and sales strategy roles for Google AdWords. Indranil holds an MBA from UCLA Anderson.
 
 ##### About Gabe Weiss
 
-Gabe works on the Google Cloud Platform team ensuring that developers can make awesome things, both inside and outside of Google. Focused primarily on the Internet of Things, it's his job to be sure IoT devices can play nicely with the GCP ecosystem. That's everything from speaking at conferences, writing example code, running bootcamps, writing technical blogs or just doing some hand holding. Prior to Google he's worked in virtual reality production and distribution, source control, the games industry and professional acting.
+Gabe works on the Google Cloud team ensuring that developers can make awesome things, both inside and outside of Google. Focused primarily on the Internet of Things, it's his job to be sure IoT devices can play nicely with the GCP ecosystem. That's everything from speaking at conferences, writing example code, running bootcamps, writing technical blogs or just doing some hand holding. Prior to Google he's worked in virtual reality production and distribution, source control, the games industry and professional acting.
 
 ##### Cool things of the week
 
@@ -52,7 +52,7 @@ Gabe works on the Google Cloud Platform team ensuring that developers can make a
 
 ##### Question of the week
 
-Francesc says his goodbyes to Google and the Google Cloud Platform Podcast.
+Francesc says his goodbyes to Google and the Google Cloud Podcast.
 
 - [Thanks and goodbye, Google friends](https://medium.com/@francesc/thanks-and-goodbye-google-friends-3caf770a66dc)
 
@@ -122,7 +122,7 @@ FRANCESC: I am very excited today to welcome two more people to our podcast to t
 
 INDRANIL: Hi Francesc. I am doing fine. Thanks for having me here today. 
 
-FRANCESC: Thank you for joining us. And we also have Gabe Weiss. And he's a developer advocate, fellow developer advocate at Google Cloud Platform working also for IoT Core and IoT Stuffs. How are you doing? 
+FRANCESC: Thank you for joining us. And we also have Gabe Weiss. And he's a developer advocate, fellow developer advocate at Google Cloud working also for IoT Core and IoT Stuffs. How are you doing? 
 
 GABE: I'm doing well. How about you? 
 
@@ -134,11 +134,11 @@ INDRANIL: Great. So I'm Indranil Chakraborty, and I'm the product manager for Go
 
 FRANCESC: Cool. What about you, Gabe? 
 
-INDRANIL: So I'm the developer advocate for Google Cloud Platform, kind of focusing on not just IoT Core but IoT platform. So I'm really serving the developers that are using the devices out in the world, the connected devices to do bigger better things. So IoT Core specifically is the entryway into the rest of GCP. So I'm here to make sure that the product that Indranil's building with the cross teams really does land with developers to make sure that it's successful with them. And that they can use it to do their things. 
+INDRANIL: So I'm the developer advocate for Google Cloud, kind of focusing on not just IoT Core but IoT platform. So I'm really serving the developers that are using the devices out in the world, the connected devices to do bigger better things. So IoT Core specifically is the entryway into the rest of GCP. So I'm here to make sure that the product that Indranil's building with the cross teams really does land with developers to make sure that it's successful with them. And that they can use it to do their things. 
 
 MARK: Cool. All right. So Indranil, you're the PM. So I'm going to ask you the hard question. So 30,000-foot view. What is IoT CORE from a really basic standpoint? 
 
-INDRANIL: Sure. So if you look at Google Cloud Platform, we have what we believe is a state-of-the-art, well-received data analytics and machine learning services today, available for our enterprise customers, our developers, and our partners as well. And what Cloud IoT Core does is it really makes it easy to onboard your IoT devices. Things that are in your factory, oil rig, oil and gas rigs, or other enterprise setting. To easily onboard these devices to Google Cloud so that you can start pushing data from the devices to Google Cloud, and start benefiting from our data analytics and machine learning services. So that's essentially what cloud IoT Core does. It is a fully managed service to securely connect and manage your IoT devices on Google Cloud Platform. 
+INDRANIL: Sure. So if you look at Google Cloud, we have what we believe is a state-of-the-art, well-received data analytics and machine learning services today, available for our enterprise customers, our developers, and our partners as well. And what Cloud IoT Core does is it really makes it easy to onboard your IoT devices. Things that are in your factory, oil rig, oil and gas rigs, or other enterprise setting. To easily onboard these devices to Google Cloud so that you can start pushing data from the devices to Google Cloud, and start benefiting from our data analytics and machine learning services. So that's essentially what cloud IoT Core does. It is a fully managed service to securely connect and manage your IoT devices on Google Cloud. 
 
 FRANCESC: Cool. So when you say to securely connect, what I'm expecting is this some secure way to even start the communication. How do you make sure that those devices are those devices you expect? Do you need to install certificates in them? What do you mean by securely communicate? 
 
@@ -326,7 +326,7 @@ FRANCESC: It's one guest against Mark. The guest changes. The host changes, but 
 
 MARK: No, that's fine. Melanie, if people who didn't manage to catch our episode 93, you should totally listen to it. Do you want to tell the audience a little bit about yourself? 
 
-MELANIE: Yes, I am basically senior developer advocate over at Google. And working on Google Cloud Platform, working on AI machine learning. And before that, I worked at Chain Shadower doing machine learning in production, as well as work at a startup building out an open source neural net platform in Java that was not TensorFlow. So those are my kind of tracks to get down the path into software engineering and data science. 
+MELANIE: Yes, I am basically senior developer advocate over at Google. And working on Google Cloud, working on AI machine learning. And before that, I worked at Chain Shadower doing machine learning in production, as well as work at a startup building out an open source neural net platform in Java that was not TensorFlow. So those are my kind of tracks to get down the path into software engineering and data science. 
 
 But yeah, I'm looking forward to this. This will be fun. Mark, you'll have a little bit of a different experience with me, for sure. But I think we can find some fun topics to dive into. 
 

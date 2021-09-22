@@ -70,7 +70,7 @@ Three products are now General Availability:
 
 - Making Kubernetes IP addresses static on Google Container Engine [blog](http://terrenceryan.com/blog/index.php/making-kubernetes-ip-addresses-static-on-google-container-engine/)
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 36 of the weekly Google Cloud Platform podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 36 of the weekly Google Cloud podcast. I am Francesc Campoy, and I'm here with my colleague, Mark Mandel. Hey, Mark. How are you doing?" >}}
 MARK: I'm good. Thanks, Francesc. How are you doing? 
 
 FRANCESC: I'm very happy. We're interviewing someone from our team, kind of, I again. 
@@ -133,13 +133,13 @@ MARK: And boom.
 
 FRANCESC: And you're done. So that's really cool. And the last one I'm going to let you explain it because I'm not a network engineer by far. 
 
-MARK: I am also not a network engineer. But Cloud Router has also gone general availability. Basically, that's for if you have both an on-prem and a Google Cloud Platform network, and you want to route traffic between the two of them. Cloud Router is a way of allowing you to do that. It integrates with our Cloud VPN system and lets you route traffic between your on-prem and cloud infrastructure. 
+MARK: I am also not a network engineer. But Cloud Router has also gone general availability. Basically, that's for if you have both an on-prem and a Google Cloud network, and you want to route traffic between the two of them. Cloud Router is a way of allowing you to do that. It integrates with our Cloud VPN system and lets you route traffic between your on-prem and cloud infrastructure. 
 
 FRANCESC: Cool. And as always, we'll have a link from the show notes to every single one of those products in case you're interested in knowing more about it. Cool. I think it is time to go talk with our friend Carter. 
 
 MARK: Yeah. That should be lots of fun. Let's do it. 
 
-This morning, we are joined by Carter Morgan, Developer Programs Engineer for Google Cloud Platform. How are you doing today, Carter? 
+This morning, we are joined by Carter Morgan, Developer Programs Engineer for Google Cloud. How are you doing today, Carter? 
 
 CARTER: Doing well. Excited to be here. 
 

@@ -19,7 +19,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/6o9cc4/episode_86_bro
 +++
 
 [Francesc](https://twitter.com/francesc) and [Mark](https://twitter.com/Neurotic) are joined this week by [Lukas Karlsson](https://twitter.com/lukwam) from Broad Institute
-and Mike Altarace from Google Cloud Platform to discuss the Platinum Customer relationship with Google Cloud Platform.
+and Mike Altarace from Google Cloud to discuss the Platinum Customer relationship with Google Cloud.
 
 <!--more-->
 
@@ -35,7 +35,7 @@ He's been working with Broad on all manners of operating their GCP environment. 
 
 ##### Cool things of the week
 
-- Google Cloud Platform now open in London [blog](https://cloudplatform.googleblog.com/2017/07/Google-Cloud-Platform-now-open-in-London.html) [gdpr](https://www.blog.google/topics/google-cloud/google-cloud-our-commitment-general-data-protection-regulation-gdpr/)
+- Google Cloud now open in London [blog](https://cloudplatform.googleblog.com/2017/07/Google-Cloud-Platform-now-open-in-London.html) [gdpr](https://www.blog.google/topics/google-cloud/google-cloud-our-commitment-general-data-protection-regulation-gdpr/)
 - Container Engine now runs Kubernetes 1.7 to drive enterprise-ready secure hybrid workloads [blog](https://cloudplatform.googleblog.com/2017/07/Container-Engine-now-runs-Kubernetes-1-7-to-drive-enterprise-ready-secure-hybrid-workloads.html)
 - Marvin is a go-kit server for Google App Engine [github](https://github.com/NYTimes/marvin)
 - Google Container Builder Part 1 (Cloud Rolling Update) [youtube](https://www.youtube.com/watch?v=iXvFhwpgitM&feature=youtu.be) [podcast](https://www.gcppodcast.com/post/episode-79-container-builder-with-christopher-sanson-and-david-bendory/)
@@ -67,7 +67,7 @@ Francesc will be at the July [GoSF Meetup](https://www.meetup.com/golangsf/event
 
 Mark will be speaking at [Pax Dev](http://dev.paxsite.com/) and then attending [Pax West](http://west.paxsite.com/) right after.
 
-{{< transcript "FRANCESC: Hi, and welcome to episode number 86 of the weekly Google Cloud Platform Podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey Mark, how are you doing?" >}}
+{{< transcript "FRANCESC: Hi, and welcome to episode number 86 of the weekly Google Cloud Podcast. I am Francesc Campoy and I'm here with my colleague, Mark Mandel. Hey Mark, how are you doing?" >}}
 
 MARK: I am good. How are you doing? 
 
@@ -87,9 +87,9 @@ But anyway, today we're going to have a really interesting conversation with act
 
 And they're going to be telling us all about what does it mean to be a Platinum customer, what are the benefits, what kind of things they do. It is really interesting. We've been having a couple episodes on SRE and CRE, and how customers and Googlers partner into their ventures. So we're going to keep on talking about that, basically. 
 
-MARK: Yeah, yeah. No, it's a really interesting conversation about the multitude of ways that Google Cloud Platform and Google itself can help customers of ours to help be successful, which is quite cool. 
+MARK: Yeah, yeah. No, it's a really interesting conversation about the multitude of ways that Google Cloud and Google itself can help customers of ours to help be successful, which is quite cool. 
 
-FRANCESC: Yeah. And some cool stories at the end of the episode. And at the end, after those cool stories, we'll have the question of the week, as usual. And this time comes from GopherCon. Actually, someone came up to booth, the Google Cloud Platform booth that we had. 
+FRANCESC: Yeah. And some cool stories at the end of the episode. And at the end, after those cool stories, we'll have the question of the week, as usual. And this time comes from GopherCon. Actually, someone came up to booth, the Google Cloud booth that we had. 
 
 And they asked a question about how to do it, to basically expose a Kubernetes service without having to pay for a load balancer. Which makes sense only for very tiny clusters, for like QA and stuff like that. But it is definitely a cool idea and good to know how to do it. So we'll cover that at the end. 
 
@@ -127,7 +127,7 @@ FRANCESC: And super, super fast.
 
 MARK: And super, super fast. Yeah, it's amazing how quickly these come through. As well as there's a couple of other interesting things in here, just for GKE releases, so we've got like an order repair beta for if nodes have any issues. We have new regions, and they all have Container Engine, which is great as well. 
 
-And we've also allowed us to have internal load balancing as beta as well, for Kubernetes and GKE inside Google Cloud Platform. So there's a bunch of new features that are also available. Not just Kubernetes ones, but GKE ones that have come along with this release as well. 
+And we've also allowed us to have internal load balancing as beta as well, for Kubernetes and GKE inside Google Cloud. So there's a bunch of new features that are also available. Not just Kubernetes ones, but GKE ones that have come along with this release as well. 
 
 FRANCESC: Really cool. And the last cool thing of the week before the interview is about Container Builder. And we did an episode on Container Builder. It was episode 79. 
 
@@ -141,7 +141,7 @@ MARK: Why don't we go chat with our friends Lukas and Mike, and talk all about P
 
 FRANCESC: Sounds good. Let's do that. 
 
-MARK: Today I am delighted and overjoyed to have two fine Fellows joining us today. We have Lukas Karlsson, Cloud Architect and Developer Advocate at Broad Institute. And as well, we also have Mike Alterace, who is a Strategic Customer Engineer here at Google Cloud Platform as well. Thank you so much for joining us. How are you both doing today? Lukas? 
+MARK: Today I am delighted and overjoyed to have two fine Fellows joining us today. We have Lukas Karlsson, Cloud Architect and Developer Advocate at Broad Institute. And as well, we also have Mike Alterace, who is a Strategic Customer Engineer here at Google Cloud as well. Thank you so much for joining us. How are you both doing today? Lukas? 
 
 LUKAS: Great, thank you for having us. 
 
@@ -197,7 +197,7 @@ FRANCESC: Nice. So I guess since we have-- I was going to say-- broad idea--
 
 Jokes. Maybe we can talk a little bit about the fact that you mentioned that you are a Platinum customer. What does this mean? Maybe we can get Mike to answer this question. 
 
-MIKE: Sure, yeah. So a Platinum customer is a Strategic Customer for Google Cloud Platform. We deem those customers to be of high important to us as a cloud provider. And we want to make sure they get the utmost experience when it comes to using Google Cloud Services. 
+MIKE: Sure, yeah. So a Platinum customer is a Strategic Customer for Google Cloud. We deem those customers to be of high important to us as a cloud provider. And we want to make sure they get the utmost experience when it comes to using Google Cloud Services. 
 
 And as part of that, to make sure that that's really happening, a SCE, a Strategic Customer Engineer, like myself, is dedicatedly assigned to those customers. And in a way, we are the constant from the technical perspective that they have in Google. I'm like their technical ambassador, bridging all the different groups within Google Cloud, the PMs, the engineering, the operationals, the TAM, the sales support itself. 
 
@@ -343,7 +343,7 @@ FRANCESC: So thanks again to both Lukas and Mike for taking the time today to ex
 
 MARK: Yeah. And make sure if you have a company that's large enough, or have enough needs that you think you need to be a Platinum customers, check out the links in the show notes so that you can get involved as quickly as possible. 
 
-FRANCESC: So I guess that it's going time to go with the Question of the Week. And as I was saying at the beginning of the episode, this one comes from someone, someone that came to see me at the Google Cloud Platform booth at GopherCon last week, in Denver. 
+FRANCESC: So I guess that it's going time to go with the Question of the Week. And as I was saying at the beginning of the episode, this one comes from someone, someone that came to see me at the Google Cloud booth at GopherCon last week, in Denver. 
 
 And his question was OK, so I have a development cluster for Kubernetes. So basically, I'm running Kubernetes on GKE. And it's a development QA thing. So I want it to be as cheap as possible. Because there's no production traffic going on in there. So I don't really care about reliability or anything like that. 
 

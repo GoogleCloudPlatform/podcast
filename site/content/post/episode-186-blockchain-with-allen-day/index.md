@@ -61,7 +61,7 @@ This week Allen reveals how blockchain and cryptocurrencies can be applied to a 
 
 ##### Question of the week
 
-What are the four (or six?) types of VMs that exist on Google Cloud Platform? [blog](https://cloud.google.com/blog/products/compute/introducing-compute-and-memory-optimized-vms-for-google-compute-engine) and [docs](https://cloud.google.com/compute/docs/machine-types)
+What are the four (or six?) types of VMs that exist on Google Cloud? [blog](https://cloud.google.com/blog/products/compute/introducing-compute-and-memory-optimized-vms-for-google-compute-engine) and [docs](https://cloud.google.com/compute/docs/machine-types)
 
 ##### Where can you find us next?
 
@@ -76,7 +76,7 @@ Allen will be at [Strike Two Summit (Amsterdam)](https://striketwosummit.com/), 
 * "mysterypeak1.wav" by FoolBoyMedia of [Freesound.org](https://freesound.org)
 * "crowd laugh.wav" by Tom_Woysky of [Freesound.org](https://freesound.org)
 
-{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 186 of the weekly Google Cloud Platform podcast. My name is Mark Mandel. And I'm very excited to be joined today by Carter Morgan. How are you doing today, Carter?" >}} 
+{{< transcript "[MUSIC PLAYING] MARK: Hi, and welcome to episode number 186 of the weekly Google Cloud podcast. My name is Mark Mandel. And I'm very excited to be joined today by Carter Morgan. How are you doing today, Carter?" >}} 
 
 CARTER: I'm doing well, Mark. It's good to be here. 
 
@@ -104,7 +104,7 @@ MARK: So today we've got a really cool topic. We are going to talk about blockch
 
 CARTER: I know so little about blockchain. It's time to learn. It's time to figure this out. 
 
-MARK: Yeah. Yeah, it's going to be fun. And then after that, we have our question of the week as per always. I'm going to ask Carter about VMs. What are the four types of virtual machines that exist on Google Cloud Platform? 
+MARK: Yeah. Yeah, it's going to be fun. And then after that, we have our question of the week as per always. I'm going to ask Carter about VMs. What are the four types of virtual machines that exist on Google Cloud? 
 
 CARTER: Oh, intriguing. 
 
@@ -356,7 +356,7 @@ MARK: Not just cryptocurrency. Yeah, exactly. Fantastic. All right, why don't we
 
 CARTER: Dun dun dun, dun dun dun. Dun. 
 
-MARK: OK, so what are the four types of virtual machines that exist on Google Cloud Platform? I actually didn't realize there were that many. 
+MARK: OK, so what are the four types of virtual machines that exist on Google Cloud? I actually didn't realize there were that many. 
 
 CARTER: So Google Cloud is trying to make things simple and efficient. So they came up with four different types of VMs for different types of applications. So it's easy to remember it if you think about the types of applications. So they have a general purpose one for most types of applications, and it's called general purpose VMs. Then they have memory optimized VMs for large database and memory databases. They have compute optimized for intensive gaming and scientific modeling. 
 
