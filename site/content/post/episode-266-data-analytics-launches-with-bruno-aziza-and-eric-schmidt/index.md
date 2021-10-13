@@ -2,7 +2,7 @@
 audioDuration = "00:44:25"
 audioFile = "Google.Cloud.Platform.Podcast.Episode.266.mp3"
 audioSize = 63885346
-categories = ["Data Cloud Summit", "Dataplex", "Analytics Hub", "Big Query Omni"]
+categories = ["Data Cloud Summit", "Dataplex", "Analytics Hub", "BigQuery Omni"]
 date = "2021-07-07"
 description = "Stephanie Wong and Jenny Brown are your hosts this week, discussing data analytics with the yin and yang of the field, Bruno Aziza and Eric Schmidt."
 draft = false
@@ -17,11 +17,11 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/ofn2dv/episode_266_da
   name = "fimage"
 +++
 
-[Stephanie Wong](https://twitter.com/stephr_wong) and [Jenny Brown](https://twitter.com/jbrojbrojbro) are your hosts this week, discussing data analytics with the yin and yang of the field, [Bruno Aziza](https://twitter.com/brunoaziza) and [Eric Schmidt](https://twitter.com/notthateric). Our guests introduce us to three new Google offerings, Big Query Omni, Dataplex, and the Analytics Hub, and discuss the uses and implications of each and how they work together to achieve goals.
+[Stephanie Wong](https://twitter.com/stephr_wong) and [Jenny Brown](https://twitter.com/jbrojbrojbro) are your hosts this week, discussing data analytics with the yin and yang of the field, [Bruno Aziza](https://twitter.com/brunoaziza) and [Eric Schmidt](https://twitter.com/notthateric). Our guests introduce us to three new Google offerings, BigQuery Omni, Dataplex, and the Analytics Hub, and discuss the uses and implications of each and how they work together to achieve goals.
 
 Bruno and Eric describe challenges in data analytics and how Google uses these as opportunities to create problem-solving systems that solve real client problems. Through real-world examples from companies like Equifax, we see how companies are getting more information from their data in a way that creates actionable opportunities to improve customer experiences. 
 
-For multi-cloud companies, Big Query Omni gets the most out of data that exists in multiple clouds. To accomplish this, Google takes the analytics to the data and is able to reach all appropriate data across clouds without having to move it. This allows for cheaper analysis with much less system downtime. Support for Azure was added this year. 
+For multi-cloud companies, BigQuery Omni gets the most out of data that exists in multiple clouds. To accomplish this, Google takes the analytics to the data and is able to reach all appropriate data across clouds without having to move it. This allows for cheaper analysis with much less system downtime. Support for Azure was added this year. 
 
 The new Dataplex software helps customers intelligently manage data assets, especially in distributed systems. Dataplex lets companies automatically discover data, make data secure without having to move it, and apply governance and policies centrally so the data is accessible. Rather than sit unused, data can now be found easily, analyzed securely, and put to work for companies no matter where their data lives.
 

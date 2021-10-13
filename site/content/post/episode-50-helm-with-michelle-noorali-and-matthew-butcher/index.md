@@ -128,7 +128,7 @@ FRANCESC: Yeah, maybe we should. I think that Google Cloud Dataflow is one of my
 
 MARK: Yeah. No, it's actually a really cool article. They've got stuff in here, like answering questions like, is this pitcher performing at his best? Or what was the probability of the triple play? Which I think is actually kind of hard questions to answer. 
 
-FRANCESC: So the cool thing about this is that you basically want something that is kind of real time, because you want to be able to answer questions while the game is going on. So Cloud Dataflow allows you doing that with streaming. And then to query all the data you end up with, he uses Big Query. And to be able to visualize it in a nice way or to slice and get only the piece of data he cares about, he uses Google Cloud Data Lab. And Google Cloud Data Lab, if you've never used it, it is pretty much like iPython or Jupiter pages on the cloud. It is very, very useful, especially because then you can just say, run a little MapReduce here, and it will create the whole thing for you. 
+FRANCESC: So the cool thing about this is that you basically want something that is kind of real time, because you want to be able to answer questions while the game is going on. So Cloud Dataflow allows you doing that with streaming. And then to query all the data you end up with, he uses BigQuery. And to be able to visualize it in a nice way or to slice and get only the piece of data he cares about, he uses Google Cloud Data Lab. And Google Cloud Data Lab, if you've never used it, it is pretty much like iPython or Jupiter pages on the cloud. It is very, very useful, especially because then you can just say, run a little MapReduce here, and it will create the whole thing for you. 
 
 MARK: That's pretty cool. 
 

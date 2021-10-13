@@ -95,9 +95,9 @@ KALEV: So I run an open data project called the GDELT project which looks at ope
 
 MARK: Cool. 
 
-FRANCESC: I know you are a very good friend of Felipe Hoffa from our team. So you use a lot of Big Query. What other products do you use? 
+FRANCESC: I know you are a very good friend of Felipe Hoffa from our team. So you use a lot of BigQuery. What other products do you use? 
 
-KALEV: Oh, and I love Big Query. Big Query is amazing to be able to-- you think about the amounts of data that I generate. The ability to look through billions of records, to be able to fold that data-- so Big Query is a huge piece of this. 
+KALEV: Oh, and I love BigQuery. BigQuery is amazing to be able to-- you think about the amounts of data that I generate. The ability to look through billions of records, to be able to fold that data-- so BigQuery is a huge piece of this. 
 
 Google Compute Engine, obviously-- I make immense use of that. Google Cloud Storage-- it's amazing to be able to generate a data file, shove it out to storage, and it's just infinite. If a million people start downloading that file, you don't worry about it. 
 
@@ -121,9 +121,9 @@ FRANCESC: That's amazing. So before we finish, what are the single thing or anno
 
 KALEV: There's no single thing. And I think that's actually what excites me so much about Google is it's really easy to-- most companies fall into that single thing where you say, oh, yeah, they do this. 
 
-To me, I'm excited. Looking over the next couple of days, the talks that I'm most excited about range from scalability and infrastructure of doing things that, quote unquote, "Google scale"-- and the fact that that's actually a term-- "Google scale"-- is amazing. But I'm really particularly excited about the big data side-- what are the things like Big Query and the things of being able to deal with data where you don't have to-- long story short, things like Big Query where historically, people like me, we had to limit the questions we ask to our abilities or the tools that we could bring together where Big Query, I don't even think about, is this question tractable anymore? I just do it. 
+To me, I'm excited. Looking over the next couple of days, the talks that I'm most excited about range from scalability and infrastructure of doing things that, quote unquote, "Google scale"-- and the fact that that's actually a term-- "Google scale"-- is amazing. But I'm really particularly excited about the big data side-- what are the things like BigQuery and the things of being able to deal with data where you don't have to-- long story short, things like BigQuery where historically, people like me, we had to limit the questions we ask to our abilities or the tools that we could bring together where BigQuery, I don't even think about, is this question tractable anymore? I just do it. 
 
-I just get that answer. So to quote Han Solo from "Star Wars" where he says, I never ask that question till I've done it. And I love that with things like Big Query. So that's really exciting to me and then the Cloud Machine learning stuff to see the future of bringing to bear some of the greatest machine learning or deep learning tools that are out there and where is Google pushing that needle, because it's exciting to see how fast it's evolving. And that's evolving as an API that people like me can access and do incredible things, without understanding any of that math behind the scenes. 
+I just get that answer. So to quote Han Solo from "Star Wars" where he says, I never ask that question till I've done it. And I love that with things like BigQuery. So that's really exciting to me and then the Cloud Machine learning stuff to see the future of bringing to bear some of the greatest machine learning or deep learning tools that are out there and where is Google pushing that needle, because it's exciting to see how fast it's evolving. And that's evolving as an API that people like me can access and do incredible things, without understanding any of that math behind the scenes. 
 
 MARK: Awesome. Well, Kalev, thank you so much for taking five minutes of your time and your day to come here. And I hope you have a great Cloud Next experience. 
 

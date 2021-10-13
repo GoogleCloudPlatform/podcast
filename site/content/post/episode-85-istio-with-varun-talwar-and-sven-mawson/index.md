@@ -112,7 +112,7 @@ MARK: Hey, Gabe.
 
 FRANCESC: We want to have you for the podcast to talk about Cloud IoT Core. Well, basically what Cloud IoT Core does, it allows you to not only do a dating session from IoT devices, but also manage the devices themselves. So all the authentication, the authorization, but even updating the software running on those devices themselves is managed by these firmware. 
 
-So it's really cool, and they explain how using this and MQTT, which is a kind of message queue that we use to send in stuff to Cloud Pub/Sub in Cloud Dataflow. You're basically getting like how to manage those vehicles, and then how to ingest all of the data that is coming from it. It is very cool. It is very intense. Like, there is basically every single-- you have App Engine, Compute Engine, Container Engine, Cloud Storage, Big Table, Cloud Dataflow, Big Query, TensorFlow, Cloud Dataflow again, in Pub/Sub. 
+So it's really cool, and they explain how using this and MQTT, which is a kind of message queue that we use to send in stuff to Cloud Pub/Sub in Cloud Dataflow. You're basically getting like how to manage those vehicles, and then how to ingest all of the data that is coming from it. It is very cool. It is very intense. Like, there is basically every single-- you have App Engine, Compute Engine, Container Engine, Cloud Storage, Big Table, Cloud Dataflow, BigQuery, TensorFlow, Cloud Dataflow again, in Pub/Sub. 
 
 MARK: Bingo. 
 
