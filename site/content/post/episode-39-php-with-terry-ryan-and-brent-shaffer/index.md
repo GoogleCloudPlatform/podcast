@@ -254,7 +254,7 @@ BRENT: And we do have click to deploy Postgres instances. And PTO, the database 
 
 CHRIS: Great. And so other than running apps, what else is new in terms of PHP on cloud? 
 
-BRENT: Oh, you mean-- well, so we are working on a pretty nice library that people can use to access the cloud APIs. And again, one of the great thing about the PHP space is it's rapidly developing, and it's getting better. Unfortunately, that means that a lot of stuff we're talking about is still in pre-alpha, slash not GA states. But one of those things is our cloud library. And we have a lot of really nice APIs, really nice wrappers for APIs, that you can use to manage pubsub, big query, data store, everything. 
+BRENT: Oh, you mean-- well, so we are working on a pretty nice library that people can use to access the cloud APIs. And again, one of the great thing about the PHP space is it's rapidly developing, and it's getting better. Unfortunately, that means that a lot of stuff we're talking about is still in pre-alpha, slash not GA states. But one of those things is our cloud library. And we have a lot of really nice APIs, really nice wrappers for APIs, that you can use to manage pubsub, BigQuery, data store, everything. 
 
 TERRY: And the new library, the vision API. 
 

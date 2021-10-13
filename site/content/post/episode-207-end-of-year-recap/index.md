@@ -156,7 +156,7 @@ MARK M: Absolutely.
 
 MARK: I particularly liked doing Blockchain with Allen Day. And I want to say that non-ironically. I think, in the tech industry, we maybe make fun of this a little bit more than we should. I don't know. It definitely shows up a lot in the random jokes and whatnot. But it was awesome. I don't know really anything about blockchain or bitcoin mining or anything along those lines. 
 
-So to sit down with Allen and be like-- OK, what does this thing do, what is it actually useful for, what can you do on GCT with it?-- was really good from a very practical point-of-view and just be like, OK, let's go through the hype, get through that, and then be like, OK, what's the reality here? What is that actually useful for? And that was that was super interesting-- and some of the stuff we have going on with big query and some cryptocurrency type stuff was super interesting too. 
+So to sit down with Allen and be like-- OK, what does this thing do, what is it actually useful for, what can you do on GCT with it?-- was really good from a very practical point-of-view and just be like, OK, let's go through the hype, get through that, and then be like, OK, what's the reality here? What is that actually useful for? And that was that was super interesting-- and some of the stuff we have going on with BigQuery and some cryptocurrency type stuff was super interesting too. 
 
 And it was also really good fun, because it was the first time I got to be on a podcast with Carter Morgan. And I really liked that. So that made me very happy. 
 
@@ -308,7 +308,7 @@ Sixth on the list--
 
 MARK: Absolutely. Did I mention, this is basically just a list of my favorite people? Again-- Miles. Yeah, it's all the Node.js things. What was cool-- I actually liked about this as well-- is we just went through all the different ways Node.js touches Google Cloud. And it's a long list. We covered all sorts of the stuff that was kind of internal, so how Node.js works and some of the fun things about the governance and all that kind of stuff. 
 
-But it was actually just really cool to be like, OK, where are all the things that Node.js goes through?-- from app engine to app script to big query to all this kind of stuff. So if you're a Node.js developer, check out this episode. 
+But it was actually just really cool to be like, OK, where are all the things that Node.js goes through?-- from app engine to app script to BigQuery to all this kind of stuff. So if you're a Node.js developer, check out this episode. 
 
 MARK M: Yeah, and definitely, if you're interested in Node, follow Miles. 
 

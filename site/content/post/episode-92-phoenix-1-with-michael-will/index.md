@@ -235,7 +235,7 @@ And all this data is basically just a big, large file, and I just have a Cron sc
 
 MARK: Actually, you just brought up Vertica, which is I know like a big data processing tool? 
 
-MICHAEL: Yeah, it's like big query, but it's for smaller capacity, if you want. It's basically a relational database that's column-oriented. That means inserts are really slow, but selects are super fast. So if I run a query on a billion rows, I can get a response in under two seconds, sometimes under one second. 
+MICHAEL: Yeah, it's like BigQuery, but it's for smaller capacity, if you want. It's basically a relational database that's column-oriented. That means inserts are really slow, but selects are super fast. So if I run a query on a billion rows, I can get a response in under two seconds, sometimes under one second. 
 
 FRANCESC: And that's used more for analytics and what happened previously before, so it's not real time or anything? 
 

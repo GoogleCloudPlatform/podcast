@@ -146,7 +146,7 @@ MELANIE: I don't know. That's between you and him. I'm not getting in between th
 
 Anyway, they have written this great blog post because he was working with trying to call C functions from BigQuery with WebAssembly, and he was doing this because he wanted to make the data accessible for others to be able to explore. And they have terabytes of data, and they thought it would be very cool if their data sets could be made available for anyone to easily analyze. 
 
-And so he's got this blog post that explains how he does it. And what's fun is that he connected with one of our colleagues, Felipe, who is well-versed on the big query space, and they wrote up a blog post as well to explain how to make it go faster, and especially when you're running C and Rust code at scale. 
+And so he's got this blog post that explains how he does it. And what's fun is that he connected with one of our colleagues, Felipe, who is well-versed on the BigQuery space, and they wrote up a blog post as well to explain how to make it go faster, and especially when you're running C and Rust code at scale. 
 
 MARK: Yeah. Now he does these really cute tricks with using WASM to basically embed C. And then Felipe also does Rust code as well to basically make it run on top of the query using its JavaScript engine. It's kind of neat, actually. I'm kind of impressed with it. 
 

@@ -98,7 +98,7 @@ FRANCESC: It is something that is very cool and I actually wrote a blog post. Ba
 
 MARK: I have heard of it. 
 
-FRANCESC: Yes. We got all the code, which is a couple terabytes, of code from GitHub. And we dumped it onto a big query. 
+FRANCESC: Yes. We got all the code, which is a couple terabytes, of code from GitHub. And we dumped it onto BigQuery. 
 
 MARK: OK. 
 
