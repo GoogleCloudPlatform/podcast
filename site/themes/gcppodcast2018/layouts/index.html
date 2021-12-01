@@ -28,7 +28,7 @@
             </div>
 
             <audio class="player" controls preload="none">
-				  <source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mp3">
+				  <source src="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}{{ .Site.Params.episodeHostURLAppend }}" type="audio/mp3">
 				</audio>
 
         </div>
