@@ -6,9 +6,9 @@
 
 
         <paper-audio-player color="rgb(255,82,82)" title="{{ .Title }}" preload="none"
-                            src="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}{{ .Site.Params.episodeHostURLAppend }}"></paper-audio-player>
+                            src="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}"></paper-audio-player>
 
-        <a href="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}{{ .Site.Params.episodeHostURLAppend }}" id="podcast-download">
+        <a href="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}" id="podcast-download">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons">file_download</i>
             </button>Download

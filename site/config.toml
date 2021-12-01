@@ -17,7 +17,6 @@ paginate = 9
   redditURL = "https://www.reddit.com/r/gcppodcast/"
   copyright = "Copyright 2021 Google Inc."
   episodeHostBaseURL = "https://traffic.libsyn.com/secure/googlecloudpodcast"
-  episodeHostURLAppend = "?dest-id=3174422"
   rssFeed = "https://googlecloudpodcast.libsyn.com/rss"
   itunesURL = "https://itunes.apple.com/us/podcast/google-cloud-platform-podcast/id1053299163"
   stitcherURL = "http://www.stitcher.com/podcast/google-cloud-platform-podcast?refid=stpr"
