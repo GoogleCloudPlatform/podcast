@@ -43,7 +43,7 @@
 			<reddit>{{ .Params.redditlink }}</reddit>
 			<description>{{ .Content | replaceRE "<section id=\"transcript\">(.|\n)*?</section>" "" | html }}</description>
 			{{ if isset .Params "audiofile" }}
-			<enclosure url="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" length="{{ .Params.audiosize }}"
+			<enclosure url="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}" length="{{ .Params.audiosize }}"
 					   type="audio/mpeg"/>
 
 			<itunes:order>{{ .Params.episodenumber }}</itunes:order>

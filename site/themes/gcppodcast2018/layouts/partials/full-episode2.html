@@ -11,10 +11,10 @@
 </header>
 <div class="container-fluid px-0 sr" style="margin-bottom: 4em;">
 <!--     <paper-audio-player color="rgb(255,82,82)" title="{{ .Title }}" preload="none"
-                        src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}"></paper-audio-player> -->
+                        src="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}"></paper-audio-player> -->
 
         <audio class="player" controls  preload="none">
-          <source src="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" type="audio/mp3">
+          <source src="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}" type="audio/mp3">
         </audio>
 
 
@@ -51,7 +51,7 @@
                <div class="meta">
 
                     <div class="download">
-                        <a href="{{ .Site.Params.episodeBucket }}/{{ .Params.audiofile }}" id="podcast-download">
+                        <a href="{{ .Site.Params.episodeHostBaseURL }}/{{ .Params.audiofile }}" id="podcast-download">
                                Download MP3<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                                    <i class="material-icons">file_download</i>
                                </button>
