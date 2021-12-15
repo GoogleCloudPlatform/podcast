@@ -66,7 +66,7 @@ We're finishing out 2021 with a celebration of our favorite episodes and topics 
 
 * "Dun Dun Duuun" by Divenorth of [Freesound.org](https://Freesound.org)
 * "Cash Register" by Kiddpark of [Freesound.org](https://Freesound.org)
-* "Jingles and Pings" by BristolStories of [HDInteractive.com](https://hdinteractive.com)
+* "Jingles and Pings" by BristolStories of [Freesound.org](https://Freesound.org)
 * "Time – Inception Theme" Composed by Hanz Zimmer (super-low-budget midi version) 
 
 
