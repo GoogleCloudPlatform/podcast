@@ -4,9 +4,9 @@ draft = false
 
 title = "Google Cloud Platform Podcast"
 
-description = "We play weekly host to informative Cloud Platform professionals, answer some of your burning questions, and introduce you to cool new things!"
+description = "Weekly epsiodes featuring informative Cloud professionals, technical discussions, and cool new things!"
 
-hosts = "Mark Mandel and Melanie Warrick"
+hosts = "Stephanie Wong and Carter Morgan"
 
 title_above_podcast_grid = "Recent Episodes"
 description_above_podcast_grid = "Tune in every week to hear from our hosts about Google Cloud Platform!"
