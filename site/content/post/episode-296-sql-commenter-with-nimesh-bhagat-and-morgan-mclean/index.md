@@ -6,12 +6,12 @@ categories = ["SQL", "Database Observability", "OpenTelemetry", "Splunk"]
 date = "2022-03-16"
 description = "First time co-host Jan Kleinert joins Mark Mirchandani this week to talk about database observability and the cool tools that make it possible."
 draft = false
-episodeNumber = 295
+episodeNumber = 296
 hosts = ["Mark Mirchandani", "Jan Kleinert"]
 title = "SQL Commenter with Nimesh Bhagat and Morgan McLean"
 image="/post/episode-296-sql-commenter-with-nimesh-bhagat-and-morgan-mclean/images/hero/hero-EP-296.jpg"
-linked = false
-redditLink = ""
+linked = true
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/tfmugu/episode_296_sql_commenter_with_nimesh_bhagat_and/"
 [[resources]]
   src = "**Hero*.jpg"
   name = "fimage"
