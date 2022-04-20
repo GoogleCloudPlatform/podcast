@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/u81xpw/episode_301_sp
   name = "fimage"
 +++
 
-This week, we're busting myths around Google Cloud Spanner with our guests Pritam Shah and Vaibhav Govil. [Mark Mirchandani](https://twitter.com/markmirch) and [Max Saltonstall](https://twitter.com/maxsaltonstall) host this episode and learn about the fantastic capabilities of Cloud Spanner. Our guests give us a quick run-down of Spanner database software and its fully-managed offerings. 
+This week, we're busting myths around Cloud Spanner with our guests Pritam Shah and Vaibhav Govil. [Mark Mirchandani](https://twitter.com/markmirch) and [Max Saltonstall](https://twitter.com/maxsaltonstall) host this episode and learn about the fantastic capabilities of Cloud Spanner. Our guests give us a quick run-down of Spanner database software and its fully-managed offerings. 
 
 Spanner's unique take on the relational database has sparked some myths. We start by addressing cost and the idea that Spanner is expensive. With its high availability achieved through synchronously replicating data, failures are virtually a non-issue, making the cost well worth it. Our guests describe other features that add to the value of Spanner as well. Workloads of any size are a good fit for Spanner because of its scalability and pricing based on use.
 
