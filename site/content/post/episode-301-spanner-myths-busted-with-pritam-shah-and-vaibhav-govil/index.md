@@ -23,7 +23,7 @@ Spanner's unique take on the relational database has sparked some myths. We star
 
 Despite rumors, Spanner is now very easy to start using. New additions like the PostgreSQL interface and ORM support have made the usability of Spanner much more familiar. Regional and multi-regional instances are supported, busting the myth that Spanner is only good for global workloads. Our guests offer examples of projects using local and global configurations with Spanner.
 
-In the database world, Vaibhav sees trends like the conversion of non-relational and relational databases and the conversion of older databases among others, and he tells us how Spanner is adapting and growing with these trends. Pritam points out that customers are paying more attention to total cost of ownership, the importance of scalable and reliable database solutions, and the peace of mind that comes with a managed database system. Spanner helps customers with these, freeing up business resources for other things.
+In the database world, Vaibhav sees trends like the convergence of non-relational and relational databases as well as convergence in the OLTP and OLAP database semantics, and he tells us how Spanner is adapting and growing with these trends. Pritam points out that customers are paying more attention to total cost of ownership, the importance of scalable and reliable database solutions, and the peace of mind that comes with a managed database system. Spanner helps customers with these, freeing up business resources for other things.
 
 This year, Spanner has made many announcements about new capabilities coming soon, like PostgreSQL interface on spanner GA, Query Insights visualization tools, cross-regional backups GA, and more. We hear all about these awesome updates.
 
@@ -58,7 +58,6 @@ Overall, he has spent close to four years at Google, and it has been a great exp
 * Using the Cloud Spanner Emulator [docs](https://cloud.google.com/spanner/docs/emulator)
 * GCP Podcast Episode 62: Cloud Spanner with Deepti Srivastava [podcast](https://www.gcppodcast.com/post/episode-62-cloud-spanner-with-deepti-srivastava/)
 * GCP Podcast Episode 248: Cloud Spanner Revisited with Dilraj Kaur and Christoph Bussler [podcast](https://www.gcppodcast.com/post/episode-248-cloud-spanner-revisited-with-dilraj-kaur-and-christoph-bussler/)
-* MongoDB [site](https://www.mongodb.com)
 * Cloud Spanner federated queries [docs](https://cloud.google.com/bigquery/docs/cloud-spanner-federated-queries)
 
 ##### What's something cool you're working on?
