@@ -344,7 +344,7 @@ And I will say that Ingress is about four years old. And during that time, we ha
 
 MARK: So you've obviously got a history of building sort of mobile, location-based experiences. Is there plans to expand upon that? More products, that sort of thing? 
 
-EDWARD: Absolutely. So one of the great things about moving to Container Engine was that we took the opportunity while we did so to also separate our game logic from what I would call our core geospatial inquiry logic. Our core geospatial inquiry logic and the way that we interact with Google's Cloud Platforms are segregated into a separate codebase. Literally, we run two repos-- a platform repo and then a game-specific repo. 
+EDWARD: Absolutely. So one of the great things about moving to Container Engine was that we took the opportunity while we did so to also separate our game logic from what I would call our core geo-spatial inquiry logic. Our core geo-spatial inquiry logic and the way that we interact with Google's Cloud Platforms are segregated into a separate codebase. Literally, we run two repos-- a platform repo and then a game-specific repo. 
 
 MARK: Interesting. 
 

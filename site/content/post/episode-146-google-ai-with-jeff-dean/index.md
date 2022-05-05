@@ -122,9 +122,9 @@ MELANIE: So to start out the cool things of the week, something that I caught wa
 
 So we'll include the link to it, but it's pretty much a search tool. It's a Google search tool. It's just specifically on datasets. 
 
-MARK: Awesome. I wanted to talk about this really cool thing I like, too, which is we're expanding our public datasets for geospatial and ML-based analytics. So you may have heard back at Cloud Next, we announced an additional five petabytes of BigQuery storage available for public datasets. In the blog post we'll link to in the show notes, we also talk about that this additional storage will also be available for the next five years, which is also really cool. 
+MARK: Awesome. I wanted to talk about this really cool thing I like, too, which is we're expanding our public datasets for geo-spatial and ML-based analytics. So you may have heard back at Cloud Next, we announced an additional five petabytes of BigQuery storage available for public datasets. In the blog post we'll link to in the show notes, we also talk about that this additional storage will also be available for the next five years, which is also really cool. 
 
-Since Next, though, we have onboarded seven new datasets that define boundaries in the United States by parameters such as ZIP code and things like that, basically to support geospatial queries. So we have a whole bunch of new data in there for you to do to geospatial stuff, to do ML-based analytics, to use the new ML toolkits that are available now in BigQuery. 
+Since Next, though, we have onboarded seven new datasets that define boundaries in the United States by parameters such as ZIP code and things like that, basically to support geo-spatial queries. So we have a whole bunch of new data in there for you to do to geo-spatial stuff, to do ML-based analytics, to use the new ML toolkits that are available now in BigQuery. 
 
 And if you want take advantage of any of those, make sure you head over to the Google Cloud Platform Marketplace. There's a datasets filter you can go into, and at last look, it looks like we have about 101 different public datasets for you to play with on BigQuery. And you can do up to a terabyte of querying on BigQuery for free, which is also pretty amazing, per month. 
 

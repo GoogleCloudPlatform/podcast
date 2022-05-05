@@ -343,7 +343,7 @@ And then, the week after that, we're going to get even deeper with some of the E
 
 STEPHANIE: Yeah. Kind of interesting how it crosses both boundaries and those spaces, right? Sustainability, data, it's great. 
 
-MARK: It's all connected, you know? And that's kind of the cool part about releasing that carbon information, is that you get to see how those things work together with the geospatial stuff. You're actually going to be able to see a lot of the data that's already been collected. 
+MARK: It's all connected, you know? And that's kind of the cool part about releasing that carbon information, is that you get to see how those things work together with the geo-spatial stuff. You're actually going to be able to see a lot of the data that's already been collected. 
 
 And then, again-- I think we'll get into much more detail in this-- in that episode two weeks from now. But an important part of it is like, how do you take that data, along with whatever your business data is, your logic, or whatever ideas you have, and how do you kind of combine those to kind of really create important output? I think that's the coolest part about it, is like, hey, Google's got a ton of data that could be useful to you, but really, it's your ideas, and it's your kind of cool inventions that really move us forward. It's just this data is hopefully going to help you do that. 
 

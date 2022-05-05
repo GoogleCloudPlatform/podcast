@@ -31,7 +31,7 @@ As Executive Director at NGIS, Nathan has worked with hundreds of clients to del
 
 ##### Denise Pearl
 
-[Denise Pearl](https://twitter.com/DPearl_Reframe) leads strategic ISV efforts for Google Cloud’s Geospatial, Earth Observation and Sustainability vertical.  Her primary focus is to align engineering, marketing and sales teams within Google around the issues that matter to enterprise customers and government agencies enabling the use of technology to better solve sustainability challenges communities face across the globe. 
+[Denise Pearl](https://twitter.com/DPearl_Reframe) leads strategic ISV efforts for Google Cloud’s Geo-spatial, Earth Observation and Sustainability vertical.  Her primary focus is to align engineering, marketing and sales teams within Google around the issues that matter to enterprise customers and government agencies enabling the use of technology to better solve sustainability challenges communities face across the globe. 
 
 ##### Cool things of the week
 
@@ -41,7 +41,7 @@ As Executive Director at NGIS, Nathan has worked with hundreds of clients to del
  
 ##### Interview
 
-* GCP Podcast Episode 282: Geospatial Cloud and Earth Engine with Chad Jennings and Joel Conkling [podcast](https://www.gcppodcast.com/post/episode-282-geospatial-cloud-and-earth-engine-with-chad-jennings-and-joel-conkling/)
+* GCP Podcast Episode 282: Geo-spatial Cloud and Earth Engine with Chad Jennings and Joel Conkling [podcast](https://www.gcppodcast.com/post/episode-282-geospatial-cloud-and-earth-engine-with-chad-jennings-and-joel-conkling/)
 * Google Earth Engine [site](https://earthengine.google.com)
 * NGIS [site](https://ngis.com.au)
 * NGIS and TraceMark [site](https://ngis.com.au/Our-Technology/TraceMark)

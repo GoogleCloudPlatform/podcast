@@ -31,7 +31,7 @@ Sivan was once asked to define herself so here goes: "I am an enthusiastic disag
 
 ##### Erik Andrejko
 
-Erik has spent his career making a positive impact on the world through mathematics. He is a co-founder and Chief Technology Officer of Wellio - an early stage startup applying AI to the intersection of food and human health. Previously, Erik lead the data science and research organization at The Climate Corporation, which applies data science to solve challenging problems in numerous domains including climatology, agronomic modeling and geospatial applications.
+Erik has spent his career making a positive impact on the world through mathematics. He is a co-founder and Chief Technology Officer of Wellio - an early stage startup applying AI to the intersection of food and human health. Previously, Erik lead the data science and research organization at The Climate Corporation, which applies data science to solve challenging problems in numerous domains including climatology, agronomic modeling and geo-spatial applications.
 When not analyzing interesting datasets, Erik can often be found riding up some incline on a bicycle or cooking.
 
 

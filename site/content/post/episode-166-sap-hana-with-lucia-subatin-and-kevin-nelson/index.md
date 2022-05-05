@@ -215,7 +215,7 @@ MARK: That probably segues nicely into what sort of workloads we run on SAP HANA
 
 LUCIA: Actually, what you're describing is the sweet spot. It's the ability to run what some analysts call translytical data. Because the idea behind HANA is that you do not move data around, and that you can run aggregations on the fly, not having to move data around or persist aggregations. And in this sense, we actually use it to run both transactional and analytics in that same appliance. 
 
-So you can do transactional and analytics by having the analytics. Not just aggregations, as I just said, but also any of the advanced pieces. We have machine learning. We have predictive algorithms, geospatial, graph-- you can even have a document store on top of HANA in the same platform. So literally, you do not need to move data around. 
+So you can do transactional and analytics by having the analytics. Not just aggregations, as I just said, but also any of the advanced pieces. We have machine learning. We have predictive algorithms, geo-spatial, graph-- you can even have a document store on top of HANA in the same platform. So literally, you do not need to move data around. 
 
 So that's why you're asking. Well, there's a lot you can do. And yes, that is exactly the sweet spot, is having a lot of possibilities out of the same piece of data. 
 
@@ -223,7 +223,7 @@ JOHN: Nice. And I'm actually kind of curious. On flip side, what wouldn't you us
 
 LUCIA: Well, I wouldn't use it if you only need a single capability. Because it sounds like an overkill. And if you're going to run small data sets, I guess it's also an overkill. So the smallest unit that we have is 32 gigs of RAM. And I have that on my massive computer that you saw earlier. But I'm running that on my laptop. 
 
-But I ran that because, yesterday, for example, I was playing on the plane with some map we'd use to display a huge food data set that I loaded. But if you're just keeping transactional, or just doing graph, or only doing geospatial, it doesn't make any sense to have this full blown database with a lot of capabilities on top. 
+But I ran that because, yesterday, for example, I was playing on the plane with some map we'd use to display a huge food data set that I loaded. But if you're just keeping transactional, or just doing graph, or only doing geo-spatial, it doesn't make any sense to have this full blown database with a lot of capabilities on top. 
 
 JOHN: Got you. This is a personal question. Why is it that every DA that I meet actually does queries on large data sets on food? It's always food. There's usually cheese. There's wine. 
 
@@ -281,7 +281,7 @@ MARK: Yeah, we should do that.
 
 JOHN: Yeah, we should do that. 
 
-MARK: It's really interesting. I hear you talk about SAP HANA, and then you sort of drop little things. And I'm like, wait, what was that? And what was that? It sounded almost like you were giving a very short list of features that HANA will do. Like you were talking about geospatial stuff. You were talking about graph querying. Can you give us a short list of features of types of stuff that it can handle, I guess? 
+MARK: It's really interesting. I hear you talk about SAP HANA, and then you sort of drop little things. And I'm like, wait, what was that? And what was that? It sounded almost like you were giving a very short list of features that HANA will do. Like you were talking about geo-spatial stuff. You were talking about graph querying. Can you give us a short list of features of types of stuff that it can handle, I guess? 
 
 You were saying you could use it as a document DB, if you really want. 
 

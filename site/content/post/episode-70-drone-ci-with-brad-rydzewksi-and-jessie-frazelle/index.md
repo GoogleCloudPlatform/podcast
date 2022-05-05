@@ -39,7 +39,7 @@ which provides container based continuous delivery.
 
 - Announcing general availability of Google Cloud Dataflow for Python [blog](https://cloud.google.com/blog/big-data/2017/03/announcing-general-availability-of-google-cloud-dataflow-for-python)
 - Google Cloud Platform for Data Scientists: Using R with Google Cloud SQL for MySQL [blog](https://cloud.google.com/blog/big-data/2017/03/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql)
-- Cloud SQL for PostgreSQL: Managed PostgreSQL for your mobile and geospatial applications in Google Cloud [blog](https://cloudplatform.googleblog.com/2017/03/Cloud-SQL-for-PostgreSQL-managed-PostgreSQL-for-your-mobile-and-geospatial-applications-in-Google-Cloud.html)
+- Cloud SQL for PostgreSQL: Managed PostgreSQL for your mobile and geo-spatial applications in Google Cloud [blog](https://cloudplatform.googleblog.com/2017/03/Cloud-SQL-for-PostgreSQL-managed-PostgreSQL-for-your-mobile-and-geospatial-applications-in-Google-Cloud.html)
 
 ##### Interview
 
@@ -134,11 +134,11 @@ MARK: You'll take it? All right?
 
 FRANCESC: That's decent. Good. OK, so the last cool thing of the week for today is again, Cloud SQL. But this [INAUDIBLE] is now MySQL. 
 
-As you know, we announced that during Cloud Next. And there's a blog post written about how you can use it for geospatial applications. And I think it's very interesting, because it actually comes from our friends in the Codelabs. 
+As you know, we announced that during Cloud Next. And there's a blog post written about how you can use it for geo-spatial applications. And I think it's very interesting, because it actually comes from our friends in the Codelabs. 
 
 Yeah, we had them before. We had them specifically one episode, we had [INAUDIBLE] on episode 41. And they do a lot of really cool things with maps. 
 
-And now they're talking about how they actually do these and how do the queries about oh, how do I find these things in the map? Storing old information on PostgreSQL with Cloud SQL. So it's a very interesting blog post with a lot of really interesting detail, a lot of cool graphs and maps and diagrams. So if you're interested on geospatial applications, and specifically SQL, MySQL, or PostgreSQL, go check it out. 
+And now they're talking about how they actually do these and how do the queries about oh, how do I find these things in the map? Storing old information on PostgreSQL with Cloud SQL. So it's a very interesting blog post with a lot of really interesting detail, a lot of cool graphs and maps and diagrams. So if you're interested on geo-spatial applications, and specifically SQL, MySQL, or PostgreSQL, go check it out. 
 
 MARK:  Awesome. Well, why don't we go chat with our friends Brad and Jessie and see what they're up to? 
 
