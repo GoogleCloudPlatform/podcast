@@ -214,7 +214,7 @@ And you get all this in a familiar Postgres interface, et cetera. So I really li
 
 BUKOLA: What about some announcements that further expand Google's tools to help democratize data beyond the traditional data scientists, analysts, and engineers? 
 
-BRUNO: Yeah. That's a great question because up until now, we've talked a lot about innovation that's relevant to data people and I know you're going to cover some of this innovation in your next podcast, but I cannot not talk about the preview release of Google Earth Engine on the Google Cloud. Now this launch is going to make Google Earth Engine 50 plus bitobyte catalog of satellite imagery and geo-spatial data set available. 
+BRUNO: Yeah. That's a great question because up until now, we've talked a lot about innovation that's relevant to data people and I know you're going to cover some of this innovation in your next podcast, but I cannot not talk about the preview release of Google Earth Engine on the Google Cloud. Now this launch is going to make Google Earth Engine 50 plus bitobyte catalog of satellite imagery and geospatial data set available. 
 
 So that means customers will be able to integrate Earth Engine with BigQuery, Google Cloud's machine learning technologies, and Google Maps Platform. I think about all these scenario use cases where your team is going to be able to use data to enable sustainable sourcing, saving energy, understanding business risks. And we're integrating, frankly, the best of Google and the best of Google Cloud together. 
 

@@ -288,7 +288,7 @@ And so I don't remember which year exactly, but we published a whitepaper that e
 
 And then a few years after we created this whitepaper and HBase came out, we created Cloud Bigtable. So when we started with Cloud Bigtable, we wanted to make sure that people who were using HBase and used to it had an ability to just take whatever they were using and just swap it directly out from HBase to Bigtable. So we support the HBase API, so anyone who's familiar with using HBase should be able to just transfer their stuff over pretty easily and use all of the API commands that they're used to and not have to really change their code. 
 
-And because of the open source community with HBase and because we have this HBase client, there are all these open source libraries that we get to use for free with Bigtable just because of that compatibility. So one of them is JanusGraph, which does graph databases. There's Open TSDB for time series and GeoMesa for geo-spatial data. 
+And because of the open source community with HBase and because we have this HBase client, there are all these open source libraries that we get to use for free with Bigtable just because of that compatibility. So one of them is JanusGraph, which does graph databases. There's Open TSDB for time series and GeoMesa for geospatial data. 
 
 MARK MIRCHANDANI: So it kind of fits pretty well into the cloud modularity model where you can take these different pieces and swap them out. And this one happens to be a great solution for a fully managed database in the backend, but then your application, wherever it is or whatever it is, can theoretically swap this out and kind of get all those benefits without having to rewrite anything. 
 

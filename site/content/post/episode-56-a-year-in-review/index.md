@@ -87,7 +87,7 @@ Machine Learning and Big Data
 - How a Japanese cucumber farmer is using deep learning and TensorFlow [blog](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow)
 - Decoding the micro-moments of baseball: can you hear the game through data? [blog](https://cloudplatform.googleblog.com/2016/10/decoding-the-micro-moments-of-baseball-can-you-hear-the-game-through-data.html)
 - Introducing Cloud Natural Language API, Speech API open beta and our West Coast region expansion [blog](https://cloudplatform.googleblog.com/2016/07/the-latest-for-Cloud-customers-machine-learning-and-west-coast-expansion.html)
-- Powering geo-spatial analysis: public geo datasets now on Google Cloud [blog](https://cloudplatform.googleblog.com/2016/10/powering-geospatial-analysis-public-geo-datasets-now-on-Google-Cloud.html)
+- Powering geospatial analysis: public geo datasets now on Google Cloud [blog](https://cloudplatform.googleblog.com/2016/10/powering-geospatial-analysis-public-geo-datasets-now-on-Google-Cloud.html)
 - Introducing the Open Images Dataset [blog](https://research.googleblog.com/2016/09/introducing-open-images-dataset.html)
 
 Google Cloud Platform Community Slack
@@ -431,7 +431,7 @@ MARK: Hello.
 
 FRANCESC: We want to interview you. Yeah, I think that that was a huge thing to happen. I'm so happy about it. 
 
-MARK: You're so happy about it? I think for me, I'm going to talk about another thing which I love, because so often this is just interesting and quirky and interesting, the amount of stuff that happened around the big data and machine learning stuff that's super cool. We had a variety of open datasets that got released-- the open images dataset, geo-spatial datasets. We released the Cloud Natural Language API, the Speech API. 
+MARK: You're so happy about it? I think for me, I'm going to talk about another thing which I love, because so often this is just interesting and quirky and interesting, the amount of stuff that happened around the big data and machine learning stuff that's super cool. We had a variety of open datasets that got released-- the open images dataset, geospatial datasets. We released the Cloud Natural Language API, the Speech API. 
 
 FRANCESC: Vision API is also there, I guess. I guess it was right before, but yeah, so many APIs. 
 

@@ -189,7 +189,7 @@ And so our system, which was all that complicated stuff I said, all the fancy wo
 
 And so that's the trick, right, taking a very complicated thing and then breaking it down so everything that comes in our system for the adventure and architecture junkies, commands coming in, we convert them to events. And then we just have things react to those events, right, creating new commands, creating new events, creating new commands, creating new events. 
 
-And the secret sauce comes into being able to find a way to say I'm going to use that geo-spatial-- that spatiotemporal data. So the time and the location to be able to start grouping together these events and then try to grip meaning from the larger view of what a city is going on, what's the actual living, happening events within the city. 
+And the secret sauce comes into being able to find a way to say I'm going to use that geospatial-- that spatiotemporal data. So the time and the location to be able to start grouping together these events and then try to grip meaning from the larger view of what a city is going on, what's the actual living, happening events within the city. 
 
 FRANCESC: Cool. So that gives us a actually pretty specific idea even of how you do what you do. But there is a piece of all of this that I'm actually very interested in. You were saying once we have the data, then we do this. How do you get the data? How does the data go from the sensors to that Pub/Sub? Could you tell us a little bit more about that? 
 

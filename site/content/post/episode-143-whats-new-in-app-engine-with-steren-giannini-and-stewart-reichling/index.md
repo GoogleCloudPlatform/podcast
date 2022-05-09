@@ -150,7 +150,7 @@ MARK: I liked it.
 
 MELANIE: So anyway, robot dance party. We'll put the link in the show notes. Another thing that we wanted to mention for cool things of the week is what's happening in BigQuery. We had some stuff that was announced and it's official that BigQuery machine learning is in beta. So this is BigQuery's way of providing tools to do feature engineering, modeling in BigQuery, so you don't have to do any moving of the data, which is pretty great. 
 
-It's supposed to work natively in SQL. This is really helpful for those who are working with databases and working with SQL. They also have the BigQuery GIS, which is in public alpha. And this is their geo-spatial information system integrated with BigQuery. So it's allowing you to basically use data to support geo-spatial data types and functions. 
+It's supposed to work natively in SQL. This is really helpful for those who are working with databases and working with SQL. They also have the BigQuery GIS, which is in public alpha. And this is their geospatial information system integrated with BigQuery. So it's allowing you to basically use data to support geospatial data types and functions. 
 
 MARK: Yep. 
 
