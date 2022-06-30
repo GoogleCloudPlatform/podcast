@@ -10,8 +10,8 @@ episodeNumber = 310
 hosts = ["Carter Morgan", "Max Saltonstall"]
 title = "Disaster Recovery with Cody Ault and Jo-Anne Bourne"
 image="/post/episode-310-disaster-recovery-with-cody-ault-and-jo-anne-bourne/images/hero/hero-EP-310.jpg"
-linked = false
-redditLink = ""
+linked = true
+redditLink = "https://www.reddit.com/r/gcppodcast/comments/vnkm62/episode_310_disaster_recovery_with_cody_ault_and/"
 [[resources]]
   src = "**Hero*.jpg"
   name = "fimage"
