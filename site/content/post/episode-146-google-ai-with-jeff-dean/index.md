@@ -53,7 +53,7 @@ Jeff received a Ph.D. in Computer Science from the University of Washington in 1
 * Liquid cooling system [article](https://datacenterfrontier.com/google-shifts-to-liquid-cooling-for-ai-data-crunching/)
 * DAWNBench Results [site](https://dawn.cs.stanford.edu/benchmark/)
 * Waymo (Alphabet’s Autonomous Car) [site](https://waymo.com)
-* DeepMind AlphaGo [site](https://deepmind.com/research/alphago/)
+* DeepMind AlphaGo [site](https://www.deepmind.com/research/highlighted-research/alphago)
 * Open AI Dota 2 [blog](https://blog.openai.com/dota-2/)
 * Moustapha Cisse [profile](http://moustaphacisse.com/)
 * Sanjay Ghemawat [profile](https://ai.google/research/people/SanjayGhemawat)
