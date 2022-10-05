@@ -17,7 +17,7 @@ redditLink = "https://www.reddit.com/r/gcppodcast/comments/xwhud1/episode_322_20
   name = "fimage"
 +++
 
-On the show this week, we're talking updated DevOps practices for 2022 with hosts [Stephanie Wong](https://twitter.com/stephr_wong) and Chloe Condon and our guests [Nathen Harvey](https://twitter.com/nathenharvey) and Derek DeBellis.
+On the show this week, we're talking updated DevOps practices for 2022 with hosts [Stephanie Wong](https://twitter.com/stephr_wong) and [Chloe Condon](https://twitter.com/ChloeCondon) and our guests [Nathen Harvey](https://twitter.com/nathenharvey) and Derek DeBellis.
 
 Nathen and Derek start the show with a thorough discussion of DORA, the research program dedicated to helping organizations improve software delivery and operations, and the state of DevOps report that Google publishes every year. This year, the DevOps research team strengthened their focus on security and discovered that one of the biggest predictors in security practice adoption is company culture. Open, communicative, and trustful company cultures are some of the best for accepting and implementing optimized security practices. Derek tells us how company cultures are measured and scored for this purpose and Nathen talks about team and individual burnout and its affects on culture. 
 
@@ -41,11 +41,11 @@ Derek is a Quantitative User Experience Researcher at Google, where Derek focuse
  
 ##### Interview
 
+* 2022 Accelerate State of DevOps Report [blog](https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-state-of-devops-report-now-out)
 * DevOps [site](https://cloud.google.com/devops)
-* SODR Preview [site](https://goto.google.com/ent-dev-sodr-2021-preview)
+* 2022 State of the DevOps Report Report [site](https://cloud.google.com/devops/state-of-devops/)
 * DORA [site](https://goto.google.com/dora-sodr-2021)
 * DORA Community [site](https://sites.google.com/view/doracommunity)
-* 2021 Accelerate State of DevOps report addresses burnout, team performance [blog](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)
 * SLSA [site](https://slsa.dev)
 * Security Software Development Framework [site](https://goo.gle/ssdf)
 * Westrum organizational culture [site](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
