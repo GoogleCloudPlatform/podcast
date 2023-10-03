@@ -10,7 +10,7 @@
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-hash": "^4.2.2",
     "gulp-sass": "^2.3.2"
   },
