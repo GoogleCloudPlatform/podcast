@@ -4,7 +4,7 @@ draft = false
 
 title = "Google Cloud Platform Podcast"
 
-description = "Weekly episodes featuring informative Cloud professionals, technical discussions, and cool new things!"
+description = "Weekly episodes featuring developer use cases, real-world examples and labs to help you learn!"
 
 hosts = "Stephanie Wong and Carter Morgan"
 
