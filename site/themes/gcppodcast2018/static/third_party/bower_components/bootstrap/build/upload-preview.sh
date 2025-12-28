@@ -9,5 +9,5 @@ openssl aes-256-cbc -K $encrypted_2b749c8e6327_key -iv $encrypted_2b749c8e6327_i
 gcloud auth activate-service-account "$GCP_SERVICE_ACCOUNT" --key-file build/gcp-key.json &> /dev/null || (echo 'GCP login failed!'; exit 1)
 
 echo "Uploading to http://preview.twbsapps.com/c/${TRAVIS_COMMIT} ..."
-time gsutil -q -m cp -z html,css,js,svg -r "./${TRAVIS_COMMIT}" gs://preview.twbsapps.com/c/
+time gcloud storage cp --gzip-local=html,css,js,svg --recursive "./${TRAVIS_COMMIT}" gs://preview.twbsapps.com/c/
 echo 'Done.'

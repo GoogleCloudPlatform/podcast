@@ -382,7 +382,7 @@ MARK: Yeah. So this is something I actually also came across, too, for the proje
 
 So what I wanted to be able to do is basically say is, if there was a build that's older than 30 days, then just delete it. Like, we don't care. I was thinking, oh, maybe, I have to write a script or do all that kind of stuff. I don't want to do that work. 
 
-But within Google Cloud Storage, there's actually a thing called Object Lifecycle Management, which is really, really handy. And you can do this through gsutil. You can do it through the console. You can do it through REST APIs, too. But basically, you can kind of just wander into the console, and grab a bucket, and select some object conditions-- say what age it is, maybe, or the creation date, or what storage class it currently is. 
+But within Google Cloud Storage, there's actually a thing called Object Lifecycle Management, which is really, really handy. And you can do this through gcloud storage. You can do it through the console. You can do it through REST APIs, too. But basically, you can kind of just wander into the console, and grab a bucket, and select some object conditions-- say what age it is, maybe, or the creation date, or what storage class it currently is. 
 
 And then you can say, like, what is the action that I want to take? Do I want to set this to Nearline? Do I want to set this to Coldline? Maybe I want to delete it. And I can put these across my buckets, which is really nice, as well. 
 
